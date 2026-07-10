@@ -1,23 +1,18 @@
 #!/usr/bin/env python3
-"""
-build_theme_book.py — end-to-end builder for a THEME word-search book.
+"""End-to-end builder for a themed word-search book -- the piece
+auto_factory.py doesn't cover, since that one only knows its hardcoded
+Sudoku/Maze recipes and ignores the theme JSONs.
 
-auto_factory.py only knows the hardcoded Sudoku/Maze recipes; it ignores the theme JSONs.
-This is the missing piece: feed it a theme JSON (e.g. themes/beach-vacation.json) and it
-produces a complete, ready-to-upload KDP book folder:
+Feed it a theme JSON and it produces a full KDP book folder (interior.pdf,
+cover.png, wrap.pdf, LISTING.md), then runs it through the same preflight gate
+auto_factory uses so nothing gets marked ready until it actually passes.
 
-    out/<slug>/interior.pdf  +  cover.png  +  wrap.pdf  +  LISTING.md
+    python3 build_theme_book.py --theme themes/beach-vacation.json
 
-and then runs the preflight compliance gate (same gate auto_factory uses) so a book is never
-marked "ready" until it passes — that's the defective-content rail.
-
-    /usr/bin/python3 build_theme_book.py --theme themes/beach-vacation.json
-
-Notes on author fields (Amazon compliance, KDP guideline G201953870):
-  - interior /Author + front-cover author = the PEN NAME (a person), taken from the theme JSON
-    "author" field — must be "E. P. Greenwood", NOT the imprint. The build aborts if it is the imprint.
-  - the back-cover imprint = the brand "Evergreen Puzzle Press" (brand stays on the cover only).
-"""
+On author fields specifically (KDP guideline G201953870): the interior
+/Author and front-cover author have to be the pen name -- a person, pulled
+from the theme JSON's "author" field -- never the imprint. The build aborts
+if it isn't. The imprint name only appears on the back cover."""
 import argparse
 import json
 import os
@@ -98,7 +93,7 @@ def main():
     for line in results:
         print(f"    {line}")
     if not ok:
-        print("\n⚠️  DO NOT UPLOAD — fix the FAIL items above and rebuild.")
+        print("\n  DO NOT UPLOAD — fix the FAIL items above and rebuild.")
         sys.exit(1)
 
     print(f"\nDONE -> out/{slug}/  ({pages}pp)  interior.pdf + cover.png + wrap.pdf + LISTING.md")

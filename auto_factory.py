@@ -1,17 +1,13 @@
 #!/usr/bin/env python3
-"""
-auto_factory.py — unattended digital-product factory.
+"""Unattended book factory -- each run builds one complete, ready-to-upload
+book into out/auto/<NNNN_slug>/: interior.pdf, cover.png, wrap.pdf, and a
+LISTING.md with copy-paste fields.
 
-Each run it builds ONE complete, ready-to-upload KDP book into out/auto/<NNNN_slug>/:
-  interior.pdf  (print-ready 8.5x11)   +   cover.png   +   wrap.pdf   +   LISTING.md (copy-paste fields)
-
-It rotates across 6 GENUINELY DIFFERENT books (Sudoku & Mazes × easy/mixed/hard) so it is NOT
-spamming near-identical titles (Amazon penalizes that). After the 6th run it repeats a recipe as
-"Volume 2" with a fresh seed = different puzzles. A state file remembers where it's up to.
-
-Run once:        /usr/bin/python3 auto_factory.py
-Schedule it:     see com.evergreen.kdpfactory.plist + AUTO_FACTORY.md (launchd, no keep-awake).
-"""
+Rotates across 6 genuinely different recipes (Sudoku/Mazes x easy/mixed/hard)
+so scheduled runs don't spam near-identical titles, which Amazon penalizes.
+After the 6th run it starts over as "Volume 2" with a fresh seed, so the
+puzzles differ even when the recipe repeats. A state file tracks position in
+the rotation. See com.evergreen.kdpfactory.plist for the launchd schedule."""
 import os, re, csv, sys, subprocess, datetime
 
 KDP = os.path.dirname(os.path.abspath(__file__))
@@ -175,7 +171,7 @@ def main():
         if line.startswith(("FAIL", "WARN")):
             print(f"    {line}")
     if not ok:
-        print("  ⚠️  DO NOT UPLOAD — this book FAILED pre-flight; logged BLOCKED-preflight, not ready.")
+        print("    DO NOT UPLOAD — this book FAILED pre-flight; logged BLOCKED-preflight, not ready.")
 
     append_log(slug, r, pages, title, status="ready" if ok else "BLOCKED-preflight")
     open(idxfile, "w").write(str(idx + 1))

@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
-"""
-cover_maze.py — print-ready front cover for the LARGE PRINT MAZES book.
-Same layout as cover_sudoku.py but the hero is a real maze. 2550x3300 @ 300 DPI.
-
-    /usr/bin/python3 cover_maze.py --title "Large Print Mazes" \
-        --subtitle "80 Relaxing Puzzles for Adults & Seniors, with Full Solutions" \
-        --author "Evergreen Puzzle Press" --badge "80 LARGE PRINT MAZES" --out out/mazes_cover.png
-"""
+"""Front cover for the maze book -- same layout as cover_sudoku.py, but the
+hero is a real generated maze. 2550x3300 at 300 DPI."""
 import argparse, os, random
 from PIL import Image, ImageDraw, ImageFont
 from mazes import gen_maze

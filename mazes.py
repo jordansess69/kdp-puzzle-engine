@@ -1,14 +1,7 @@
 #!/usr/bin/env python3
-"""
-mazes.py — code-generated, print-ready LARGE PRINT Maze book for KDP.
-
-Perfect mazes via recursive-backtracker (every maze has exactly one solution path).
-Each maze on its own page in large print; full solutions at the back.
-
-USAGE (run with /usr/bin/python3 for reportlab):
-    /usr/bin/python3 mazes.py --out out/mazes_v1.pdf --title "Large Print Mazes" \
-        --author "Evergreen Puzzle Press" --count 80
-"""
+"""Print-ready large-print maze book. Perfect mazes via recursive
+backtracking (exactly one solution path each), one per page, full solutions
+at the back."""
 import argparse, json, os, random
 from collections import deque
 from reportlab.pdfgen import canvas

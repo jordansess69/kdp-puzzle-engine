@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
-"""
-cover.py — DYNAMIC print-ready front cover for KDP large-print puzzle books.
+"""Print-ready front cover for the large-print word-search books.
 
-Hero element: a real-looking SOLVED word-search grid with theme words highlighted (the visual
-proof of what they're buying). Theme silhouettes per niche. Bold typography. Bigger badge.
-
-    /usr/bin/python3 cover.py --title "..." --subtitle "..." --author "..." \
-        --badge "48 LARGE PRINT PUZZLES" --theme nature --palette nature \
-        --out out/nature_cover.png
-"""
+The hero is a real solved grid with the theme words highlighted, so the
+cover shows what's actually inside rather than generic clip art. Theme
+silhouettes per niche."""
 import argparse, os, random
 from PIL import Image, ImageDraw, ImageFont
 

@@ -1,23 +1,9 @@
 #!/usr/bin/env python3
-"""
-wrap_cover.py — build a KDP print-ready FULL WRAP cover (back + spine + front) as one PDF.
-
-KDP needs a single PDF whose width = trim_w*2 + spine + bleed*2, height = trim_h + bleed*2.
-Spine width formula (white paper, B&W interior): pages * 0.002252 inches.
-Bleed: 0.125 inches on all outer edges.
-
-    /usr/bin/python3 wrap_cover.py \
-        --front out/nature_cover.png \
-        --pages 76 \
-        --palette nature \
-        --title "Large Print Nature Word Search" \
-        --author "Evergreen Puzzle Press" \
-        --back "Unwind with 48 relaxing large print..." \
-        --out out/nature_wrap.pdf
-
-Output: a print-ready PDF, RGB, with bleed, that you upload via "Upload a cover you already have
-(print-ready PDF only)" on the KDP Content tab.
-"""
+"""Builds a KDP full-wrap cover (back + spine + front) as one print-ready
+PDF. Width is trim_w*2 + spine + bleed*2, height is trim_h + bleed*2; spine
+width follows KDP's white-paper B&W formula (pages * 0.002252in), with a
+0.125in bleed on all outer edges. Upload the result via KDP's "upload a cover
+you already have" option."""
 import argparse, os, textwrap
 from PIL import Image, ImageDraw, ImageFont
 from reportlab.pdfgen import canvas

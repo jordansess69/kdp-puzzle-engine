@@ -1,15 +1,8 @@
 #!/usr/bin/env python3
-"""cdp_force.py — robust CDP interactions for KDP controls that reject synthetic
-.click() (Amazon a-button submits, custom modals). Uses TRUSTED input:
-  - keyboard: focus element + Input.dispatchKeyEvent (Enter/Space)
-  - box-model mouse: DOM.getBoxModel center + Input.dispatchMouseEvent click
-
-Commands:
-  diag                          print innerWidth/innerHeight/DPR
-  key   <css> <Enter|Space>     focus element, send a trusted key
-  click <css>                   trusted mouse click at the element's box-model center
-  press <css>                   focus + Space + Enter (belt & suspenders) + box click
-"""
+"""CDP interactions for KDP controls that reject a synthetic .click() --
+Amazon's own buttons and some modals only respond to trusted input, so this
+goes through actual keyboard events (Input.dispatchKeyEvent) or a mouse click
+at the element's real box-model center (Input.dispatchMouseEvent) instead."""
 import sys, json, time, urllib.request
 import websocket
 

@@ -1,20 +1,14 @@
 #!/usr/bin/env python3
-"""
-gen_themes.py — the catalog multiplier. Local Ollama (free) fills word lists for a new book.
+"""Drafts a new theme's word list with a local Ollama model, given a spec
+(title/subtitle/author/palette plus sub-theme names). Validates and cleans
+what comes back -- uppercase, letters only, length 3-13, deduped -- into a
+themes JSON ready for wordsearch.py.
 
-You give a spec (title/subtitle/author/palette + a list of sub-theme NAMES). Ollama generates
-the words for each theme; this script validates + cleans them (uppercase, letters only,
-length 3-13, deduped). Output is a themes JSON ready for wordsearch.py.
-
-    /usr/bin/python3 gen_themes.py --spec specs/food.json --out themes/food.json
-
-⚠️ QUALITY WARNING: the free local model (qwen2.5:3b) is NOT reliable for factual word lists.
-It hallucinates fake words (e.g. "SNOUFFLEDOG", "FOGLIASSI") and miscategorizes. This tool is
-a DRAFT skeleton only — every list MUST be reviewed and corrected by hand, or run against a
-stronger model (e.g. a free Gemini/Groq key via the llm shim). For publishable quality, the
-nature/food/animals themes JSON were hand-curated, not taken raw from this tool.
-Runs on /usr/bin/python3 (stdlib only). Needs Ollama running (open -a Ollama).
-"""
+The free local model (qwen2.5:3b) isn't reliable for factual word lists --
+it invents words that don't exist and miscategorizes real ones. Treat this as
+a first draft only; every list needs a human pass, or a run through a
+stronger model via the llm shim. The published nature/food/animals themes
+were hand-curated rather than taken raw from here. Needs Ollama running."""
 import argparse, json, os, re, sys, urllib.request
 
 OLLAMA, MODEL = "http://127.0.0.1:11434/api/generate", "qwen2.5:3b"

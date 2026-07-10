@@ -1,17 +1,8 @@
 #!/usr/bin/env python3
-"""
-cover_sudoku.py — print-ready front cover for the LARGE PRINT SUDOKU book.
-
-Same professional layout as cover.py, but the hero element is a real, valid SUDOKU grid
-(partially filled, bold 3x3 boxes) instead of a word-search grid. 2550x3300 @ 300 DPI
-for an 8.5x11 front cover — feed to KDP Cover Creator, which builds the back + spine.
-
-    /usr/bin/python3 cover_sudoku.py \
-        --title "Large Print Sudoku" \
-        --subtitle "100 Easy-to-Read Puzzles for Adults & Seniors, with Full Solutions" \
-        --author "Evergreen Puzzle Press" --badge "100 LARGE PRINT PUZZLES" \
-        --out out/sudoku_cover.png
-"""
+"""Front cover for the Sudoku book. Same layout as cover.py, but the hero
+is a real, valid partially-filled Sudoku grid instead of a word-search grid.
+2550x3300 at 300 DPI -- feed it to KDP's Cover Creator, which builds the back
+and spine."""
 import argparse, os
 from PIL import Image, ImageDraw, ImageFont
 

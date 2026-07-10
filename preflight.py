@@ -1,24 +1,14 @@
 #!/usr/bin/env python3
-"""preflight.py — KDP compliance pre-flight for a built book BEFORE upload.
+"""Compliance check for a built book folder before it ever reaches upload.
 
-Catches the exact issues that have triggered Amazon review flags (author set to
-the imprint name; spine text too close to the edge on thin books) plus the basic
-print-spec checks, so a book is never uploaded only to bounce back.
+Catches the specific things that have triggered Amazon review flags in
+practice -- the author field set to the imprint instead of a person, spine
+text sitting too close to the edge on a thin book -- plus basic print-spec
+sanity: interior page size and count, and wrap.pdf dimensions matching KDP's
+full-wrap formula for the actual page count. Thin books (under 100 pages)
+need a blank spine per KDP's own rule, so those get flagged for a manual look.
 
-Checks per book folder (expects interior.pdf + wrap.pdf):
-  - interior page size == 8.5 x 11 in (612 x 792 pt)
-  - interior page count is sane (>0)
-  - interior /Author is a PERSON, not the imprint "Evergreen Puzzle Press"
-  - wrap.pdf dimensions == KDP full-wrap formula for the actual page count:
-        width  = TRIM_W*2 + pages*SPINE_FACTOR + BLEED*2
-        height = TRIM_H + BLEED*2
-  - thin book (<100 pages): KDP requires a BLANK spine — flag to verify
-
-Usage:
-    /usr/bin/python3 preflight.py out/auto/0001_lp_sudoku_v1
-    /usr/bin/python3 preflight.py            # scan every out/auto/* book
-Exit code is nonzero if any book FAILS, so auto_factory can gate on it.
-"""
+Exits nonzero if anything fails, so auto_factory can gate on it directly."""
 import os
 import sys
 import glob

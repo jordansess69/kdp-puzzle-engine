@@ -1,12 +1,7 @@
 #!/usr/bin/env python3
-"""Write-capable CDP helper for the KDP cover-fix flow.
-Commands:
-  nav <url>            navigate + wait load
-  eval <js>            evaluate (no user gesture)
-  click <js>           evaluate WITH user gesture (native button/checkbox clicks)
-  upload <findjs> <f>  file-chooser-intercept upload: click element returned by findjs,
-                       capture fileChooserOpened, setFileInputFiles(f)
-"""
+"""Write-capable CDP helper for the KDP cover-fix flow -- navigate, evaluate
+JS with or without a user gesture (native clicks need one), and a
+file-chooser-intercept upload helper for attaching files through KDP's UI."""
 import sys, json, time, urllib.request
 import websocket  # /tmp/kdpvenv
 
