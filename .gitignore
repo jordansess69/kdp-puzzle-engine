@@ -6,3 +6,4 @@ out/
 *.pdf
 *.png
 !docs/*.png
+.pytest_cache/
