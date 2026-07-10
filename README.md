@@ -1,8 +1,19 @@
 # KDP Puzzle Engine
 
+[![CI](https://github.com/vijaxx/kdp-puzzle-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/vijaxx/kdp-puzzle-engine/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.11-blue)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 Generates print-ready, large-print puzzle books — word search, Sudoku, and mazes — as camera-ready PDFs for Amazon KDP. Swap in a themed word list and it produces a complete new book: interior PDF, cover, and back-cover wrap, laid out to KDP's print specs.
 
 The premise: most puzzle-book sellers on KDP build books by hand, one at a time. This generates them, so a new niche is a new JSON file away from a new title rather than a new manual layout job.
+
+## Sample output
+
+<table><tr>
+<td><img src="docs/sample-wordsearch-cover.png" width="280" alt="Sample word search book cover"><br><sub>wordsearch.py + cover.py</sub></td>
+<td><img src="docs/sample-sudoku-cover.png" width="280" alt="Sample Sudoku book cover"><br><sub>sudoku.py + cover_sudoku.py</sub></td>
+</tr></table>
 
 ## Generators
 
@@ -30,6 +41,7 @@ Python, reportlab (PDF generation), Pillow (cover rendering), a local Ollama mod
 ## Running it
 
 ```
+pip install -r requirements.txt
 python3 wordsearch.py --themes themes/nature.json --out out/nature.pdf
 python3 build_theme_book.py themes/beach-vacation.json      # full book folder: interior + cover + wrap
 python3 auto_factory.py                                     # one factory-mode book, next recipe in rotation
