@@ -1,0 +1,771 @@
+{
+  "title": "Large Print American Nostalgia Word Search",
+  "subtitle": "48 Relaxing Large-Print Puzzles with Big Easy-to-Read Letters and Full Solutions",
+  "author": "Evergreen Puzzle Press",
+  "palette": "american-nostalgia",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Vintage Cars",
+      "words": [
+        "MUSCLE",
+        "CLASSIC",
+        "FORDS",
+        "CHEVY",
+        "RACING",
+        "SPEED",
+        "GARAGE",
+        "RESTORE",
+        "ANTIQUE",
+        "AUTOS",
+        "DRIVER",
+        "ROADTRIP"
+      ]
+    },
+    {
+      "name": "Baseball Cards",
+      "words": [
+        "CARDS",
+        "BASEBALL",
+        "PLAYER",
+        "TEAM",
+        "STADIUM",
+        "FIELDER",
+        "PITCHER",
+        "ROOKIE",
+        "TRADES",
+        "COLLECT",
+        "ALBUMS",
+        "SPORTS"
+      ]
+    },
+    {
+      "name": "Retro Sodas",
+      "words": [
+        "SODA",
+        "POP",
+        "FOUNTAIN",
+        "COLA",
+        "FLAVOR",
+        "BOTTLE",
+        "CAPS",
+        "FIZZY",
+        "SUGAR",
+        "TASTE",
+        "CLASSIC",
+        "REFRESH"
+      ]
+    },
+    {
+      "name": "Drive In Movies",
+      "words": [
+        "MOVIE",
+        "SCREEN",
+        "PROJECT",
+        "SPEAKER",
+        "CAR",
+        "DATE",
+        "NIGHT",
+        "THEATER",
+        "FILM",
+        "STARS",
+        "ROMANCE",
+        "FUN"
+      ]
+    },
+    {
+      "name": "Vinyl Records",
+      "words": [
+        "MUSIC",
+        "RECORD",
+        "PLAYER",
+        "NEEDLE",
+        "SPIN",
+        "ALBUM",
+        "TRACK",
+        "SONG",
+        "ARTIST",
+        "LABEL",
+        "COLLECT",
+        "LISTEN"
+      ]
+    },
+    {
+      "name": "Classic Comics",
+      "words": [
+        "COMIC",
+        "BOOK",
+        "HERO",
+        "SUPER",
+        "MAN",
+        "BAT",
+        "SPIDER",
+        "DRAW",
+        "COLOR",
+        "FUNNY",
+        "STORY",
+        "PANEL"
+      ]
+    },
+    {
+      "name": "American Diners",
+      "words": [
+        "DINER",
+        "FOOD",
+        "COFFEE",
+        "COUNTER",
+        "BOOTH",
+        "MENU",
+        "WAITER",
+        "MEAL",
+        "BREAKFAST",
+        "LUNCH",
+        "SNACK",
+        "EATERY"
+      ]
+    },
+    {
+      "name": "Route 66",
+      "words": [
+        "ROAD",
+        "TRIP",
+        "ROUTE",
+        "HIGHWAY",
+        "CAR",
+        "GAS",
+        "STATION",
+        "MILE",
+        "MARKER",
+        "SIGN",
+        "MAP",
+        "JOURNEY"
+      ]
+    },
+    {
+      "name": "Old Time Radio",
+      "words": [
+        "RADIO",
+        "SHOW",
+        "BROADCAST",
+        "STATION",
+        "LISTEN",
+        "SOUND",
+        "WAVE",
+        "VOICE",
+        "ACTOR",
+        "DRAMA",
+        "COMEDY",
+        "SERIAL"
+      ]
+    },
+    {
+      "name": "Vintage Toys",
+      "words": [
+        "TOY",
+        "GAME",
+        "PLAY",
+        "CHILD",
+        "FUN",
+        "WOODEN",
+        "METAL",
+        "PLASTIC",
+        "DOLL",
+        "TRACTOR",
+        "TRAIN",
+        "BLOCKS"
+      ]
+    },
+    {
+      "name": "Summer Vacations",
+      "words": [
+        "VACATION",
+        "SUMMER",
+        "BEACH",
+        "SUN",
+        "FUN",
+        "TRIP",
+        "CAMP",
+        "LAKE",
+        "MOUNTAIN",
+        "HOLIDAY",
+        "RESORT",
+        "RELAX"
+      ]
+    },
+    {
+      "name": "Boardwalks",
+      "words": [
+        "BOARD",
+        "WALK",
+        "BEACH",
+        "PARK",
+        "RIDE",
+        "GAME",
+        "FOOD",
+        "STAND",
+        "SHOP",
+        "ENTERTAIN",
+        "CROWD",
+        "SEASIDE"
+      ]
+    },
+    {
+      "name": "Carnival Games",
+      "words": [
+        "PRIZES",
+        "MIDWAY",
+        "BOOTH",
+        "TESTER",
+        "SKILL",
+        "GAMES",
+        "FUNFAIR",
+        "CIRCUS",
+        "CLOWN",
+        "RINGS",
+        "TOKEN",
+        "WINNER"
+      ]
+    },
+    {
+      "name": "Ferris Wheels",
+      "words": [
+        "WHEELS",
+        "CIRCUS",
+        "FAIRS",
+        "PARKS",
+        "RIDE",
+        "HEIGHT",
+        "SEATS",
+        "CHAIN",
+        "GEARS",
+        "CABLE",
+        "TOWER",
+        "VIEWER"
+      ]
+    },
+    {
+      "name": "Roller Coasters",
+      "words": [
+        "COASTER",
+        "THRILL",
+        "RIDE",
+        "PARK",
+        "TRACK",
+        "TRAIN",
+        "CARS",
+        "LOOPS",
+        "DROPS",
+        "SPEED",
+        "FUN"
+      ]
+    },
+    {
+      "name": "State Fairs",
+      "words": [
+        "FAIRS",
+        "STATE",
+        "PARKS",
+        "FOODS",
+        "GAMES",
+        "RIDE",
+        "ANIMAL",
+        "PRIZE",
+        "FUN",
+        "HARVEST"
+      ]
+    },
+    {
+      "name": "Country Music",
+      "words": [
+        "COUNTRY",
+        "MUSIC",
+        "SONG",
+        "GUITAR",
+        "BANJO",
+        "FIDDLE",
+        "BLUE",
+        "GRASS",
+        "FOLK",
+        "RHYTHM",
+        "HARMON",
+        "TWANG"
+      ]
+    },
+    {
+      "name": "Elvis Presley",
+      "words": [
+        "ELVIS",
+        "PRESLEY",
+        "KING",
+        "MUSIC",
+        "SONG",
+        "DANCE",
+        "SWIVEL",
+        "HIP",
+        "ROCK",
+        "ROLL",
+        "LEGEND"
+      ]
+    },
+    {
+      "name": "Vintage Clothing",
+      "words": [
+        "VINTAGE",
+        "CLOTH",
+        "FASHION",
+        "STYLE",
+        "SEWING",
+        "NEEDLE",
+        "THREAD",
+        "FABRIC",
+        "CLASS",
+        "CHIC"
+      ]
+    },
+    {
+      "name": "Hollywood Glam",
+      "words": [
+        "HOLLY",
+        "GLAM",
+        "MOVIE",
+        "STAR",
+        "STAGE",
+        "LIGHT",
+        "CAMERA",
+        "SCREEN",
+        "ACTOR",
+        "FILM"
+      ]
+    },
+    {
+      "name": "Vintage Cameras",
+      "words": [
+        "CAMERA",
+        "VINTAGE",
+        "LENS",
+        "FILM",
+        "SHOOT",
+        "PHOTO",
+        "FRAME",
+        "FLASH",
+        "CLICK",
+        "FOCUS",
+        "ROLL"
+      ]
+    },
+    {
+      "name": "Typewriters",
+      "words": [
+        "TYPE",
+        "WRITE",
+        "KEYS",
+        "INK",
+        "PAPER",
+        "CLACK",
+        "CLICK",
+        "SHIFT",
+        "SPACE",
+        "FONT",
+        "PRESS"
+      ]
+    },
+    {
+      "name": "Old Computers",
+      "words": [
+        "OLD",
+        "MAIN",
+        "FRAME",
+        "CHIP",
+        "CARD",
+        "PORT",
+        "SCREEN",
+        "MOUSE",
+        "DISK",
+        "MONITOR",
+        "PROGRAM",
+        "MEMORY"
+      ]
+    },
+    {
+      "name": "Cassette Tapes",
+      "words": [
+        "CASSET",
+        "TAPE",
+        "MUSIC",
+        "PLAY",
+        "RECORD",
+        "SIDE",
+        "TRACK",
+        "SOUND",
+        "WIND",
+        "REWIND",
+        "FAST"
+      ]
+    },
+    {
+      "name": "Vintage Posters",
+      "words": [
+        "COLLECT",
+        "REPRINTS",
+        "DECORATE",
+        "ARTWORK",
+        "VINTAGE",
+        "CLASSIC",
+        "MEMORIES",
+        "POSTER",
+        "FRAME",
+        "GRAPHIC",
+        "DESIGN"
+      ]
+    },
+    {
+      "name": "Nostalgic Foods",
+      "words": [
+        "APPLE",
+        "PIE",
+        "CORNDOG",
+        "COTTON",
+        "CANDY",
+        "POPCORN",
+        "SODA",
+        "BURGER",
+        "FRIES",
+        "SHAKE",
+        "MUFFIN",
+        "COOKIES"
+      ]
+    },
+    {
+      "name": "Malt Shops",
+      "words": [
+        "SODA",
+        "SHAKE",
+        "MALTS",
+        "SUNDAE",
+        "COUNTER",
+        "STOOL",
+        "JUKEBOX",
+        "MILK",
+        "CREAM",
+        "SPOON",
+        "STRAW"
+      ]
+    },
+    {
+      "name": "Soda Fountains",
+      "words": [
+        "FOUNTAIN",
+        "SODA",
+        "SYRUP",
+        "FLAVOR",
+        "GLASS",
+        "STRAW",
+        "COUNTER",
+        "STOOL",
+        "SHOPPE",
+        "CREAM",
+        "SPOON",
+        "SIPHON"
+      ]
+    },
+    {
+      "name": "Ice Cream Trucks",
+      "words": [
+        "TRUCK",
+        "ICECREAM",
+        "MUSIC",
+        "TREAT",
+        "SUMMER",
+        "FUN",
+        "KIDS",
+        "SMILE",
+        "CONES",
+        "SUNDAE",
+        "CHIME",
+        "DRIVER"
+      ]
+    },
+    {
+      "name": "Vintage Bicycles",
+      "words": [
+        "BICYCLE",
+        "WHEEL",
+        "CHAIN",
+        "GEAR",
+        "PEDAL",
+        "SEAT",
+        "HANDLE",
+        "BELL",
+        "RIDE",
+        "ROAD",
+        "TRAIL",
+        "CLASSIC"
+      ]
+    },
+    {
+      "name": "Classic Boats",
+      "words": [
+        "BOAT",
+        "SAIL",
+        "LAKE",
+        "OCEAN",
+        "FISH",
+        "ROD",
+        "REEL",
+        "ANCHOR",
+        "RUDDER",
+        "KEEL",
+        "HULL",
+        "CRAFT"
+      ]
+    },
+    {
+      "name": "American Musicals",
+      "words": [
+        "MUSIC",
+        "DANCE",
+        "SONG",
+        "STAGE",
+        "THEATER",
+        "PLAY",
+        "ACTOR",
+        "SINGER",
+        "TAP",
+        "JAZZ",
+        "BROADWAY",
+        "SHOW"
+      ]
+    },
+    {
+      "name": "Vintage Television",
+      "words": [
+        "SCREEN",
+        "CHANNEL",
+        "REMOTE",
+        "ANTENNA",
+        "BROADCAST",
+        "NETWORK",
+        "SHOW",
+        "SERIAL",
+        "COMEDY",
+        "DRAMA",
+        "CLASSIC"
+      ]
+    },
+    {
+      "name": "Old Movie Palaces",
+      "words": [
+        "MOVIE",
+        "PALACE",
+        "THEATER",
+        "SCREEN",
+        "PROJECTOR",
+        "REEL",
+        "FILM",
+        "ACTOR",
+        "STAGE",
+        "CURTAIN",
+        "SEAT",
+        "LOBBY"
+      ]
+    },
+    {
+      "name": "Time Capsules",
+      "words": [
+        "CAPSULE",
+        "TIME",
+        "MEMORY",
+        "HISTORY",
+        "PAST",
+        "FUTURE",
+        "SEAL",
+        "LOCK",
+        "KEY",
+        "ARCHIVE",
+        "LEGACY"
+      ]
+    },
+    {
+      "name": "Historic Landmarks",
+      "words": [
+        "LANDMARK",
+        "HISTORY",
+        "MONUMENT",
+        "STATUE",
+        "BUILDING",
+        "SITE",
+        "PARK",
+        "MEMORIAL",
+        "HERITAGE",
+        "PRESERVE",
+        "RESTORE",
+        "TOUR"
+      ]
+    },
+    {
+      "name": "Vintage Airplanes",
+      "words": [
+        "FLYERS",
+        "PROPELL",
+        "AVIATOR",
+        "FLIGHTS",
+        "AIRPORT",
+        "PLANES",
+        "PILOTS",
+        "CRAFTED",
+        "SKYWARD",
+        "LANDING",
+        "ENGINE",
+        "COCKPIT"
+      ]
+    },
+    {
+      "name": "Classic Trains",
+      "words": [
+        "RAILWAY",
+        "LOCOMOTE",
+        "STATIONS",
+        "CONDUCT",
+        "RAILROAD",
+        "CABOOSE",
+        "ENGINEER",
+        "FREIGHTS",
+        "TRACKED",
+        "TRAINSET",
+        "CARRIAGE"
+      ]
+    },
+    {
+      "name": "Roadside Attractions",
+      "words": [
+        "MOTELS",
+        "HIGHWAY",
+        "TOURIST",
+        "LANDMARK",
+        "ATTRACTION",
+        "TRAVELS",
+        "ROADTRIP",
+        "MONUMENT",
+        "SCENICS",
+        "DRIVESIN",
+        "VACATION"
+      ]
+    },
+    {
+      "name": "Vintage Sports",
+      "words": [
+        "BASEBALL",
+        "FOOTBALL",
+        "BASKETBAL",
+        "ATHLETIC",
+        "STADIUMS",
+        "PLAYERS",
+        "COACHING",
+        "CHAMPION",
+        "TEAMWORK",
+        "SPORTING",
+        "LEAGUES",
+        "TOURNAMENT"
+      ]
+    },
+    {
+      "name": "Classic Video Games",
+      "words": [
+        "ARCADES",
+        "CONSOLE",
+        "PUZZLES",
+        "CONTROLS",
+        "BUTTONS",
+        "GRAPHIC",
+        "GAMEPLAY",
+        "SCORES",
+        "JOYSTICK",
+        "PLAYER",
+        "LEVELS",
+        "SPRITE"
+      ]
+    },
+    {
+      "name": "Arcade Games",
+      "words": [
+        "JOYSTICK",
+        "BUTTON",
+        "SCREENS",
+        "GAMEPLAY",
+        "SCORES",
+        "HIGHSCORE",
+        "QUARTERS",
+        "TOKENS",
+        "MACHINES",
+        "CLASSIC",
+        "COMPETE"
+      ]
+    },
+    {
+      "name": "Vintage Books",
+      "words": [
+        "NOVELIST",
+        "AUTHORS",
+        "CLASSICS",
+        "LIBRARYS",
+        "BOOKCASE",
+        "STORIES",
+        "PAPERBACK",
+        "READERS",
+        "PAGES",
+        "INKWELL",
+        "MANUSCRIPT"
+      ]
+    },
+    {
+      "name": "Antique Shops",
+      "words": [
+        "VINTAGE",
+        "COLLECT",
+        "ANTIQUES",
+        "FURNITURE",
+        "DECORATE",
+        "HEIRLOOM",
+        "CURATOR",
+        "COLLECTS",
+        "RESTORE",
+        "REPAIRS",
+        "APPRAISAL"
+      ]
+    },
+    {
+      "name": "Flea Markets",
+      "words": [
+        "MARKETED",
+        "VENDOR",
+        "STALLED",
+        "BARGAIN",
+        "TREASURES",
+        "HUNTING",
+        "COLLECTOR",
+        "SWAPPED",
+        "TRADED",
+        "BARTER",
+        "DISCOUNT",
+        "HAGGLE"
+      ]
+    }
+  ]
+}

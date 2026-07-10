@@ -1,0 +1,217 @@
+#!/usr/bin/env python3
+"""
+wrap_cover.py — build a KDP print-ready FULL WRAP cover (back + spine + front) as one PDF.
+
+KDP needs a single PDF whose width = trim_w*2 + spine + bleed*2, height = trim_h + bleed*2.
+Spine width formula (white paper, B&W interior): pages * 0.002252 inches.
+Bleed: 0.125 inches on all outer edges.
+
+    /usr/bin/python3 wrap_cover.py \
+        --front out/nature_cover.png \
+        --pages 76 \
+        --palette nature \
+        --title "Large Print Nature Word Search" \
+        --author "Evergreen Puzzle Press" \
+        --back "Unwind with 48 relaxing large print..." \
+        --out out/nature_wrap.pdf
+
+Output: a print-ready PDF, RGB, with bleed, that you upload via "Upload a cover you already have
+(print-ready PDF only)" on the KDP Content tab.
+"""
+import argparse, os, textwrap
+from PIL import Image, ImageDraw, ImageFont
+from reportlab.pdfgen import canvas
+from reportlab.lib.units import inch
+
+PALETTES = {
+    "nature":    {"bg": (244, 239, 226), "accent": (107, 142, 107), "deep": (46, 70, 48),  "mute": (120, 134, 116)},
+    "food":      {"bg": (250, 243, 229), "accent": (193, 84, 58),   "deep": (92, 34, 26),  "mute": (150, 108, 92)},
+    "animals":   {"bg": (240, 238, 230), "accent": (58, 128, 124),  "deep": (26, 68, 64),  "mute": (108, 128, 124)},
+    "bible":     {"bg": (250, 244, 230), "accent": (176, 141, 60),  "deep": (96, 42, 48),  "mute": (130, 104, 76)},
+    "usa":       {"bg": (245, 243, 236), "accent": (38, 58, 98),    "deep": (150, 44, 52), "mute": (92, 102, 120)},
+    "kids":      {"bg": (255, 251, 243), "accent": (240, 112, 92),  "deep": (40, 62, 92),  "mute": (90, 120, 140)},
+    "nostalgia": {"bg": (238, 228, 208), "accent": (150, 112, 70),  "deep": (72, 52, 36),  "mute": (140, 118, 94)},
+    "sudoku":    {"bg": (237, 242, 249), "accent": (72, 104, 156),  "deep": (22, 41, 78),  "mute": (108, 122, 148)},
+    "maze":      {"bg": (238, 244, 236), "accent": (74, 122, 86),   "deep": (26, 58, 40),  "mute": (110, 130, 116)},
+    "beach-vacation": {"bg": (250, 243, 228), "accent": (40, 138, 158), "deep": (16, 54, 78), "mute": (104, 128, 142)},
+}
+
+ARIALB = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
+ARIAL = "/System/Library/Fonts/Supplemental/Arial.ttf"
+GEORGIA = "/System/Library/Fonts/Supplemental/Georgia Bold.ttf"
+
+TRIM_W, TRIM_H = 8.5, 11.0
+BLEED = 0.125
+SPINE_FACTOR = 0.002252  # white paper, B&W
+
+DPI = 300
+
+
+def f(path, size):
+    try:
+        return ImageFont.truetype(path, size)
+    except Exception:
+        return ImageFont.truetype(ARIALB, size)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--front", required=True, help="front cover PNG (already at 2550x3300)")
+    ap.add_argument("--pages", type=int, required=True)
+    ap.add_argument("--palette", default="nature")
+    ap.add_argument("--title", required=True)
+    ap.add_argument("--author", default="Evergreen Puzzle Press")
+    ap.add_argument("--back", required=True, help="back cover blurb text")
+    ap.add_argument("--out", required=True)
+    a = ap.parse_args()
+
+    spine_in = a.pages * SPINE_FACTOR
+    full_w_in = TRIM_W * 2 + spine_in + BLEED * 2
+    full_h_in = TRIM_H + BLEED * 2
+    full_w_px = int(round(full_w_in * DPI))
+    full_h_px = int(round(full_h_in * DPI))
+    spine_px = int(round(spine_in * DPI))
+    bleed_px = int(round(BLEED * DPI))
+    trim_w_px = int(round(TRIM_W * DPI))
+    trim_h_px = int(round(TRIM_H * DPI))
+
+    P = PALETTES.get(a.palette, PALETTES["nature"])
+    bg, accent, deep, mute = P["bg"], P["accent"], P["deep"], P["mute"]
+
+    img = Image.new("RGB", (full_w_px, full_h_px), bg)
+    d = ImageDraw.Draw(img)
+
+    # X coordinates of the 4 region boundaries (left edge -> right edge)
+    back_x0 = bleed_px
+    back_x1 = bleed_px + trim_w_px
+    spine_x0 = back_x1
+    spine_x1 = spine_x0 + spine_px
+    front_x0 = spine_x1
+    front_x1 = front_x0 + trim_w_px
+
+    # --- FRONT (right): paste the user's front cover, bleed-padded ---
+    front = Image.open(a.front).convert("RGB")
+    # Resize front to fit the trim_w_px x trim_h_px area; bleed will be filled by extending edges
+    front = front.resize((trim_w_px, trim_h_px), Image.LANCZOS)
+    img.paste(front, (front_x0, bleed_px))
+    # Extend the front's edge color into the right + top + bottom bleed strips
+    # Right bleed: extend the rightmost column
+    right_strip = front.crop((trim_w_px - 2, 0, trim_w_px, trim_h_px)).resize((bleed_px, trim_h_px))
+    img.paste(right_strip, (front_x1, bleed_px))
+    # Top + bottom bleed for the FRONT area
+    top_strip = front.crop((0, 0, trim_w_px, 2)).resize((trim_w_px, bleed_px))
+    img.paste(top_strip, (front_x0, 0))
+    bot_strip = front.crop((0, trim_h_px - 2, trim_w_px, trim_h_px)).resize((trim_w_px, bleed_px))
+    img.paste(bot_strip, (front_x0, bleed_px + trim_h_px))
+    # Right-top + right-bottom corner squares
+    img.paste(right_strip.crop((0, 0, bleed_px, 2)).resize((bleed_px, bleed_px)), (front_x1, 0))
+    img.paste(right_strip.crop((0, trim_h_px - 2, bleed_px, trim_h_px)).resize((bleed_px, bleed_px)),
+              (front_x1, bleed_px + trim_h_px))
+
+    # --- SPINE (middle) ---
+    d.rectangle([spine_x0, 0, spine_x1, full_h_px], fill=accent)
+    # KDP rule: spine text is only allowed/safe on thick books. A 73-79pp spine is too thin and
+    # Amazon flags the text as "too close to the edges." Only render spine text at >= 100 pages,
+    # AND keep it >= 0.375" clear of the top/bottom cover edges (shrink to fit if the title is long).
+    if a.pages >= 100 and spine_px > 40:
+        edge_clear = int(0.375 * DPI)              # required clearance from top & bottom edges
+        max_text_len = full_h_px - 2 * edge_clear  # spine text must fit within this vertical span
+        spine_text = a.title.upper()
+        spine_font_size = max(20, min(spine_px - 30, 80))
+        sf = f(GEORGIA, spine_font_size)
+        tw = d.textlength(spine_text, font=sf)
+        while tw > max_text_len and spine_font_size > 14:
+            spine_font_size -= 2
+            sf = f(GEORGIA, spine_font_size)
+            tw = d.textlength(spine_text, font=sf)
+        if tw <= max_text_len:  # only draw if it fits with full clearance
+            spine_img = Image.new("RGBA", (full_h_px, spine_px), (accent[0], accent[1], accent[2], 255))
+            sd = ImageDraw.Draw(spine_img)
+            sd.text(((full_h_px - tw) // 2, (spine_px - spine_font_size) // 2 - 6),
+                    spine_text, font=sf, fill=bg)
+            spine_img = spine_img.rotate(90, expand=True)
+            img.paste(spine_img, (spine_x0, 0))
+
+    # --- BACK (left) ---
+    # Mirror the front's bleed treatment on the left side
+    d.rectangle([0, 0, back_x1, full_h_px], fill=bg)
+    # decorative border (inside safe area, not into bleed)
+    safe_pad = int(0.375 * DPI)  # 0.375" inside trim edge → comfortably inside KDP's 0.25" safe margin
+    bx0, by0 = bleed_px + safe_pad, bleed_px + safe_pad
+    bx1, by1 = back_x1 - safe_pad, full_h_px - bleed_px - safe_pad
+    d.rectangle([bx0, by0, bx1, by1], outline=accent, width=6)
+    d.rectangle([bx0 + 24, by0 + 24, bx1 - 24, by1 - 24], outline=accent, width=2)
+
+    # back blurb title
+    btf = f(GEORGIA, 88)
+    blurb_title = "ABOUT THIS BOOK"
+    btw = d.textlength(blurb_title, font=btf)
+    d.text((bleed_px + (trim_w_px - btw) // 2, by0 + 110), blurb_title, font=btf, fill=deep)
+    # divider
+    d.line([(bleed_px + trim_w_px // 2 - 200, by0 + 230),
+            (bleed_px + trim_w_px // 2 + 200, by0 + 230)], fill=accent, width=4)
+
+    # body text — wrap with PIL textlength
+    body_font = f(ARIAL, 56)
+    body_color = deep
+    text_w = trim_w_px - 2 * (safe_pad + 80)
+    text_x = bleed_px + safe_pad + 80
+    text_y = by0 + 300
+
+    def wrap_text(s, fnt, maxw):
+        lines = []
+        for para in s.split("\n"):
+            words = para.split()
+            cur = ""
+            for w in words:
+                t = (cur + " " + w).strip()
+                if d.textlength(t, font=fnt) <= maxw:
+                    cur = t
+                else:
+                    lines.append(cur)
+                    cur = w
+            lines.append(cur)
+        return lines
+
+    for ln in wrap_text(a.back, body_font, text_w):
+        d.text((text_x, text_y), ln, font=body_font, fill=body_color)
+        text_y += int(body_font.size * 1.35)
+
+    # imprint at bottom of back
+    pf = f(ARIALB, 56)
+    imp = a.author
+    iw = d.textlength(imp, font=pf)
+    d.text((bleed_px + (trim_w_px - iw) // 2, by1 - 110), imp, font=pf, fill=deep)
+
+    # KDP BARCODE ZONE — leave a CLEAR white area (~2.0 x 1.2 in) in the lower-right of the
+    # back cover so Amazon can place its barcode. Without this, the colored back + the
+    # decorative border give KDP no clean zone and its scanner reads the border lines as an
+    # invalid "custom barcode", which blocks the Print Previewer's Approve button.
+    bc_w, bc_h = int(2.0 * DPI), int(1.2 * DPI)
+    bc_margin = int(0.25 * DPI)
+    bc_y1 = (full_h_px - bleed_px) - bc_margin       # bottom edge (above the bottom trim)
+    bc_y0 = bc_y1 - bc_h
+    # Clear BOTH bottom corners of the back panel so the barcode zone is white
+    # whichever corner Amazon uses (and cover the decorative border there).
+    # right/spine-side corner:
+    d.rectangle([back_x1 - bc_margin - bc_w, bc_y0, back_x1 - bc_margin, bc_y1], fill=(255, 255, 255))
+    # left/outer corner:
+    d.rectangle([bleed_px + bc_margin, bc_y0, bleed_px + bc_margin + bc_w, bc_y1], fill=(255, 255, 255))
+
+    # Save high-res PNG, then wrap into a PDF at exact physical size
+    tmp_png = a.out.replace(".pdf", "_full.png")
+    img.save(tmp_png, "PNG", dpi=(DPI, DPI))
+
+    c = canvas.Canvas(a.out, pagesize=(full_w_in * inch, full_h_in * inch))
+    c.drawImage(tmp_png, 0, 0, width=full_w_in * inch, height=full_h_in * inch)
+    c.save()
+    os.remove(tmp_png)
+
+    print(f"DONE -> {a.out}")
+    print(f"  size: {full_w_in:.3f} x {full_h_in:.3f} in  ({full_w_px} x {full_h_px} px @ 300 DPI)")
+    print(f"  spine: {spine_in:.3f} in ({a.pages} pages × 0.002252)")
+    print(f"  back+spine+front layout, RGB, bleed included — upload as 'print-ready PDF'")
+
+
+if __name__ == "__main__":
+    main()

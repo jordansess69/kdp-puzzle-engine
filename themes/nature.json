@@ -1,0 +1,826 @@
+{
+  "title": "Large Print Nature Word Search",
+  "subtitle": "48 Relaxing Large Print Puzzles for Adults & Seniors with Big Easy-to-Read Letters and Full Solutions",
+  "author": "E. P. Greenwood",
+  "palette": "nature",
+  "puzzles": [
+    {
+      "name": "Trees",
+      "words": [
+        "OAK",
+        "MAPLE",
+        "BIRCH",
+        "PINE",
+        "WILLOW",
+        "CEDAR",
+        "ASPEN",
+        "ELM",
+        "SPRUCE",
+        "REDWOOD",
+        "BEECH",
+        "WALNUT",
+        "POPLAR",
+        "CYPRESS"
+      ]
+    },
+    {
+      "name": "Wildflowers",
+      "words": [
+        "DAISY",
+        "POPPY",
+        "LUPINE",
+        "VIOLET",
+        "CLOVER",
+        "BLUEBELL",
+        "FOXGLOVE",
+        "PRIMROSE",
+        "COLUMBINE",
+        "ASTER",
+        "MARIGOLD",
+        "ZINNIA"
+      ]
+    },
+    {
+      "name": "Garden Birds",
+      "words": [
+        "ROBIN",
+        "SPARROW",
+        "FINCH",
+        "WREN",
+        "CARDINAL",
+        "BLUEJAY",
+        "CHICKADEE",
+        "STARLING",
+        "NUTHATCH",
+        "WARBLER",
+        "ORIOLE",
+        "THRUSH"
+      ]
+    },
+    {
+      "name": "Weather",
+      "words": [
+        "SUNSHINE",
+        "RAINBOW",
+        "BREEZE",
+        "THUNDER",
+        "DRIZZLE",
+        "FROST",
+        "SNOWFALL",
+        "HUMID",
+        "CLOUDY",
+        "LIGHTNING",
+        "HAIL",
+        "MIST"
+      ]
+    },
+    {
+      "name": "Woodland Mammals",
+      "words": [
+        "DEER",
+        "FOX",
+        "RABBIT",
+        "BADGER",
+        "OTTER",
+        "SQUIRREL",
+        "MOOSE",
+        "BEAVER",
+        "RACCOON",
+        "HEDGEHOG",
+        "BOBCAT",
+        "CHIPMUNK"
+      ]
+    },
+    {
+      "name": "Ocean Life",
+      "words": [
+        "DOLPHIN",
+        "CORAL",
+        "OYSTER",
+        "SEAWEED",
+        "STARFISH",
+        "JELLYFISH",
+        "OCTOPUS",
+        "SEAHORSE",
+        "PLANKTON",
+        "URCHIN",
+        "MUSSEL",
+        "MARLIN"
+      ]
+    },
+    {
+      "name": "Mountains",
+      "words": [
+        "SUMMIT",
+        "RIDGE",
+        "BOULDER",
+        "GLACIER",
+        "VALLEY",
+        "SLOPE",
+        "CLIFF",
+        "PLATEAU",
+        "CANYON",
+        "FOOTHILL",
+        "PEAK",
+        "TRAIL"
+      ]
+    },
+    {
+      "name": "Rivers & Lakes",
+      "words": [
+        "STREAM",
+        "CURRENT",
+        "RAPIDS",
+        "MEADOW",
+        "LAGOON",
+        "POND",
+        "DELTA",
+        "MARSH",
+        "RIPPLE",
+        "BROOK",
+        "BASIN",
+        "SHALLOWS"
+      ]
+    },
+    {
+      "name": "Insects",
+      "words": [
+        "BUTTERFLY",
+        "BEETLE",
+        "LADYBUG",
+        "CRICKET",
+        "DRAGONFLY",
+        "FIREFLY",
+        "MOTH",
+        "MANTIS",
+        "APHID",
+        "WEEVIL",
+        "CICADA",
+        "HORNET"
+      ]
+    },
+    {
+      "name": "Autumn",
+      "words": [
+        "HARVEST",
+        "PUMPKIN",
+        "ACORN",
+        "FOLIAGE",
+        "BONFIRE",
+        "CHESTNUT",
+        "SCARECROW",
+        "ORCHARD",
+        "AMBER",
+        "MAIZE",
+        "CIDER",
+        "CRISP"
+      ]
+    },
+    {
+      "name": "Spring",
+      "words": [
+        "BLOSSOM",
+        "SPROUT",
+        "NECTAR",
+        "TADPOLE",
+        "RENEWAL",
+        "PETAL",
+        "BUDDING",
+        "MEADOW",
+        "FRESH",
+        "HATCH",
+        "GREEN",
+        "SHOWER"
+      ]
+    },
+    {
+      "name": "The Forest",
+      "words": [
+        "CANOPY",
+        "MOSS",
+        "FERN",
+        "HOLLOW",
+        "THICKET",
+        "CLEARING",
+        "BRAMBLE",
+        "TIMBER",
+        "SAPLING",
+        "LICHEN",
+        "BARK",
+        "TRUNK"
+      ]
+    },
+    {
+      "name": "The Desert",
+      "words": [
+        "CACTUS",
+        "DUNE",
+        "OASIS",
+        "MIRAGE",
+        "MESA",
+        "SANDSTONE",
+        "TUMBLEWEED",
+        "SCORPION",
+        "COYOTE",
+        "AGAVE",
+        "GECKO",
+        "ARID"
+      ]
+    },
+    {
+      "name": "Fruits & Berries",
+      "words": [
+        "APPLE",
+        "CHERRY",
+        "PLUM",
+        "PEACH",
+        "GRAPE",
+        "BLUEBERRY",
+        "RASPBERRY",
+        "APRICOT",
+        "MULBERRY",
+        "CURRANT",
+        "PEAR",
+        "FIG"
+      ]
+    },
+    {
+      "name": "Butterflies",
+      "words": [
+        "MONARCH",
+        "ADMIRAL",
+        "PEACOCK",
+        "COMMA",
+        "SKIPPER",
+        "BRIMSTONE",
+        "COPPER",
+        "RINGLET",
+        "FRITILLARY",
+        "HAIRSTREAK",
+        "SWALLOWTAIL",
+        "PAINTED"
+      ]
+    },
+    {
+      "name": "Night Sky",
+      "words": [
+        "MOONLIGHT",
+        "STARLIGHT",
+        "COMET",
+        "ORION",
+        "METEOR",
+        "GALAXY",
+        "ECLIPSE",
+        "CRESCENT",
+        "TWILIGHT",
+        "NEBULA",
+        "AURORA",
+        "COSMOS"
+      ]
+    },
+    {
+      "name": "Garden Herbs",
+      "words": [
+        "BASIL",
+        "THYME",
+        "ROSEMARY",
+        "MINT",
+        "SAGE",
+        "PARSLEY",
+        "LAVENDER",
+        "OREGANO",
+        "CHIVE",
+        "FENNEL",
+        "CILANTRO",
+        "DILL"
+      ]
+    },
+    {
+      "name": "The Seashore",
+      "words": [
+        "SEASHELL",
+        "DRIFTWOOD",
+        "PEBBLE",
+        "SANDBAR",
+        "TIDE",
+        "BREAKER",
+        "COVE",
+        "BEACON",
+        "SEAGULL",
+        "SALT",
+        "HORIZON",
+        "SPRAY"
+      ]
+    },
+    {
+      "name": "National Parks",
+      "words": [
+        "YOSEMITE",
+        "YELLOWSTONE",
+        "ZION",
+        "ARCHES",
+        "OLYMPIC",
+        "SEQUOIA",
+        "DENALI",
+        "ACADIA",
+        "GLACIER",
+        "EVERGLADES",
+        "REDWOOD",
+        "BADLANDS"
+      ]
+    },
+    {
+      "name": "Stones & Earth",
+      "words": [
+        "QUARTZ",
+        "AMBER",
+        "JASPER",
+        "AGATE",
+        "GRANITE",
+        "MARBLE",
+        "OBSIDIAN",
+        "GEODE",
+        "CRYSTAL",
+        "FLINT",
+        "SLATE",
+        "OPAL"
+      ]
+    },
+    {
+      "name": "Pond Life",
+      "words": [
+        "FROG",
+        "NEWT",
+        "LILYPAD",
+        "DRAGONFLY",
+        "REED",
+        "CATTAIL",
+        "MINNOW",
+        "HERON",
+        "DUCK",
+        "TURTLE",
+        "RIPPLE",
+        "ALGAE"
+      ]
+    },
+    {
+      "name": "Farm & Meadow",
+      "words": [
+        "BARN",
+        "HAYSTACK",
+        "PASTURE",
+        "TRACTOR",
+        "MEADOW",
+        "FENCE",
+        "ORCHARD",
+        "WHEAT",
+        "CLOVER",
+        "GRAZING",
+        "FURROW",
+        "SILO"
+      ]
+    },
+    {
+      "name": "Evergreens",
+      "words": [
+        "PINE",
+        "FIR",
+        "SPRUCE",
+        "CEDAR",
+        "JUNIPER",
+        "CYPRESS",
+        "HEMLOCK",
+        "YEW",
+        "REDWOOD",
+        "SEQUOIA",
+        "NEEDLE",
+        "CONE"
+      ]
+    },
+    {
+      "name": "Songbirds",
+      "words": [
+        "LARK",
+        "NIGHTINGALE",
+        "SWALLOW",
+        "BLACKBIRD",
+        "GOLDFINCH",
+        "LINNET",
+        "SISKIN",
+        "BUNTING",
+        "REDSTART",
+        "PIPIT",
+        "WHEATEAR",
+        "MARTIN"
+      ]
+    },
+    {
+      "name": "Garden Tools",
+      "words": [
+        "TROWEL",
+        "SPADE",
+        "RAKE",
+        "PRUNER",
+        "HOE",
+        "WATERING",
+        "GLOVES",
+        "WHEELBARROW",
+        "SHEARS",
+        "FORK",
+        "TWINE",
+        "COMPOST"
+      ]
+    },
+    {
+      "name": "Frost & Winter",
+      "words": [
+        "SNOWFLAKE",
+        "ICICLE",
+        "FROST",
+        "BLIZZARD",
+        "FLURRY",
+        "SLEET",
+        "CHILL",
+        "GLAZE",
+        "DRIFT",
+        "CRYSTAL",
+        "MITTEN",
+        "HEARTH"
+      ]
+    },
+    {
+      "name": "Tropical",
+      "words": [
+        "PALM",
+        "ORCHID",
+        "MONSOON",
+        "JUNGLE",
+        "TOUCAN",
+        "BANANA",
+        "MANGO",
+        "FERN",
+        "HIBISCUS",
+        "LAGOON",
+        "PARROT",
+        "VINE"
+      ]
+    },
+    {
+      "name": "Rocks & Caves",
+      "words": [
+        "CAVERN",
+        "STALACTITE",
+        "BOULDER",
+        "PEBBLE",
+        "GRAVEL",
+        "LIMESTONE",
+        "GROTTO",
+        "QUARRY",
+        "MINERAL",
+        "FOSSIL",
+        "CHALK",
+        "RIDGE"
+      ]
+    },
+    {
+      "name": "Birds of Prey",
+      "words": [
+        "EAGLE",
+        "HAWK",
+        "FALCON",
+        "OSPREY",
+        "KESTREL",
+        "HARRIER",
+        "BUZZARD",
+        "OWL",
+        "VULTURE",
+        "GOSHAWK",
+        "MERLIN",
+        "CONDOR"
+      ]
+    },
+    {
+      "name": "Sunrise & Sky",
+      "words": [
+        "DAWN",
+        "HORIZON",
+        "GOLDEN",
+        "GLOW",
+        "SUNRISE",
+        "DAYBREAK",
+        "CLOUD",
+        "BEAM",
+        "AMBER",
+        "SCARLET",
+        "MORNING",
+        "HUSH"
+      ]
+    },
+    {
+      "name": "Coral Reef",
+      "words": [
+        "CORAL",
+        "ANEMONE",
+        "CLOWNFISH",
+        "ANGELFISH",
+        "PARROTFISH",
+        "URCHIN",
+        "SPONGE",
+        "GROUPER",
+        "TURTLE",
+        "SEAHORSE",
+        "POLYP",
+        "REEF"
+      ]
+    },
+    {
+      "name": "Rainforest",
+      "words": [
+        "CANOPY",
+        "ORCHID",
+        "TOUCAN",
+        "JAGUAR",
+        "TREEFROG",
+        "MACAW",
+        "SLOTH",
+        "FERN",
+        "BROMELIAD",
+        "MONKEY",
+        "VINE",
+        "HUMIDITY"
+      ]
+    },
+    {
+      "name": "Garden Flowers",
+      "words": [
+        "ROSE",
+        "TULIP",
+        "DAFFODIL",
+        "PEONY",
+        "DAHLIA",
+        "PANSY",
+        "IRIS",
+        "LILY",
+        "GERANIUM",
+        "PETUNIA",
+        "BEGONIA",
+        "SNAPDRAGON"
+      ]
+    },
+    {
+      "name": "Mushrooms & Fungi",
+      "words": [
+        "TOADSTOOL",
+        "MOREL",
+        "CHANTERELLE",
+        "TRUFFLE",
+        "FUNGUS",
+        "SPORE",
+        "SHIITAKE",
+        "PORCINI",
+        "MYCELIUM",
+        "BUTTON",
+        "OYSTER",
+        "CAP"
+      ]
+    },
+    {
+      "name": "Wetlands",
+      "words": [
+        "MARSH",
+        "SWAMP",
+        "REEDS",
+        "HERON",
+        "FROG",
+        "CATTAIL",
+        "DRAGONFLY",
+        "EGRET",
+        "LILYPAD",
+        "OTTER",
+        "MUDFLAT",
+        "BOG"
+      ]
+    },
+    {
+      "name": "The Prairie",
+      "words": [
+        "GRASSLAND",
+        "BISON",
+        "COYOTE",
+        "HAWK",
+        "GOPHER",
+        "ANTELOPE",
+        "MEADOWLARK",
+        "PRAIRIEDOG",
+        "GRASSES",
+        "WIND",
+        "BADGER",
+        "FERRET"
+      ]
+    },
+    {
+      "name": "Coastal Birds",
+      "words": [
+        "GULL",
+        "TERN",
+        "PELICAN",
+        "GANNET",
+        "PUFFIN",
+        "CORMORANT",
+        "SANDPIPER",
+        "HERON",
+        "ALBATROSS",
+        "KITTIWAKE",
+        "PETREL",
+        "PLOVER"
+      ]
+    },
+    {
+      "name": "Volcanoes",
+      "words": [
+        "LAVA",
+        "MAGMA",
+        "CRATER",
+        "ERUPTION",
+        "SUMMIT",
+        "VOLCANIC",
+        "BASALT",
+        "CALDERA",
+        "MOLTEN",
+        "PUMICE",
+        "VENT",
+        "ASH"
+      ]
+    },
+    {
+      "name": "Glaciers & Ice",
+      "words": [
+        "GLACIER",
+        "ICEBERG",
+        "CREVASSE",
+        "FROST",
+        "SNOWCAP",
+        "MELTWATER",
+        "FROZEN",
+        "ICEFIELD",
+        "MORAINE",
+        "POLAR",
+        "ARCTIC",
+        "FLOE"
+      ]
+    },
+    {
+      "name": "Spiders & Webs",
+      "words": [
+        "SPIDER",
+        "WEB",
+        "SILK",
+        "TARANTULA",
+        "WEAVER",
+        "STRAND",
+        "DEWDROP",
+        "PREY",
+        "SPINNER",
+        "ORB",
+        "LEGS",
+        "FANGS"
+      ]
+    },
+    {
+      "name": "Reptiles & Amphibians",
+      "words": [
+        "LIZARD",
+        "GECKO",
+        "TOAD",
+        "SALAMANDER",
+        "TURTLE",
+        "SKINK",
+        "NEWT",
+        "FROG",
+        "IGUANA",
+        "SNAKE",
+        "TADPOLE",
+        "TERRAPIN"
+      ]
+    },
+    {
+      "name": "Migratory Birds",
+      "words": [
+        "SWALLOW",
+        "GOOSE",
+        "CRANE",
+        "STORK",
+        "SWIFT",
+        "WARBLER",
+        "TERN",
+        "PLOVER",
+        "FLYWAY",
+        "FLOCK",
+        "OSPREY",
+        "CUCKOO"
+      ]
+    },
+    {
+      "name": "Tide Pools",
+      "words": [
+        "ANEMONE",
+        "STARFISH",
+        "CRAB",
+        "LIMPET",
+        "BARNACLE",
+        "MUSSEL",
+        "KELP",
+        "SHRIMP",
+        "URCHIN",
+        "SNAIL",
+        "COCKLE",
+        "WHELK"
+      ]
+    },
+    {
+      "name": "The Moon",
+      "words": [
+        "CRESCENT",
+        "CRATER",
+        "LUNAR",
+        "ECLIPSE",
+        "HALFMOON",
+        "HARVEST",
+        "GLOW",
+        "ORBIT",
+        "PHASES",
+        "FULLMOON",
+        "GIBBOUS",
+        "TIDE"
+      ]
+    },
+    {
+      "name": "Seaside Town",
+      "words": [
+        "PIER",
+        "HARBOR",
+        "LIGHTHOUSE",
+        "SEAGULL",
+        "BOARDWALK",
+        "SANDCASTLE",
+        "DECKCHAIR",
+        "ICECREAM",
+        "PROMENADE",
+        "SHELL",
+        "BUCKET",
+        "TIDE"
+      ]
+    },
+    {
+      "name": "Hummingbirds",
+      "words": [
+        "HOVER",
+        "NECTAR",
+        "IRIDESCENT",
+        "DARTING",
+        "BEAK",
+        "WINGS",
+        "FEEDER",
+        "BLOSSOM",
+        "RUBY",
+        "THROAT",
+        "TINY",
+        "FLUTTER"
+      ]
+    },
+    {
+      "name": "The Riverbank",
+      "words": [
+        "WILLOW",
+        "REED",
+        "OTTER",
+        "KINGFISHER",
+        "DRAGONFLY",
+        "CURRENT",
+        "PEBBLE",
+        "MOORHEN",
+        "MINNOW",
+        "RIPPLE",
+        "RUSHES",
+        "BANK"
+      ]
+    },
+    {
+      "name": "Nests & Eggs",
+      "words": [
+        "NEST",
+        "EGG",
+        "TWIG",
+        "FEATHER",
+        "HATCH",
+        "CHICK",
+        "ROBIN",
+        "CLUTCH",
+        "MOSS",
+        "FLEDGLING",
+        "BROOD",
+        "SHELL"
+      ]
+    }
+  ]
+}

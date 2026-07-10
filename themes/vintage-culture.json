@@ -1,0 +1,827 @@
+{
+  "title": "Large Print Vintage Culture Word Search",
+  "subtitle": "48 Relaxing Large-Print Puzzles with Big Easy-to-Read Letters and Full Solutions",
+  "author": "Evergreen Puzzle Press",
+  "palette": "vintage-culture",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Vintage Cars",
+      "words": [
+        "MOTOR",
+        "GARAGE",
+        "RACING",
+        "CLASSIC",
+        "VINTAGE",
+        "DRIVER",
+        "SPEED",
+        "WHEELS",
+        "ENGINE",
+        "CHROME",
+        "HEADLIGHT",
+        "ROADSTER"
+      ]
+    },
+    {
+      "name": "Retro Fashion",
+      "words": [
+        "VINTAGE",
+        "STYLE",
+        "FASHION",
+        "DRESS",
+        "HATS",
+        "BOOTS",
+        "BELTS",
+        "SCARF",
+        "GLOVES",
+        "BUTTON",
+        "NECKTIE"
+      ]
+    },
+    {
+      "name": "Classic Movies",
+      "words": [
+        "FILM",
+        "MOVIE",
+        "CINEMA",
+        "ACTOR",
+        "ACTRESS",
+        "SCRIPT",
+        "THEATER",
+        "REEL",
+        "CAMERA",
+        "LIGHTS",
+        "STAGE",
+        "PREMIER"
+      ]
+    },
+    {
+      "name": "Vinyl Records",
+      "words": [
+        "MUSIC",
+        "RECORD",
+        "VINYL",
+        "PLAYER",
+        "STYLUS",
+        "NEEDLE",
+        "TRACK",
+        "ALBUM",
+        "SOUND",
+        "STEREO",
+        "PHONOG",
+        "GROOVE"
+      ]
+    },
+    {
+      "name": "Old Cameras",
+      "words": [
+        "CAMERA",
+        "LENS",
+        "FILM",
+        "PHOTO",
+        "FLASH",
+        "SHUTTER",
+        "FOCUS",
+        "FRAME",
+        "SHOT",
+        "DEVELOP",
+        "PRINTS"
+      ]
+    },
+    {
+      "name": "Antique Furniture",
+      "words": [
+        "CHAIR",
+        "TABLE",
+        "DESK",
+        "CABINET",
+        "WOODEN",
+        "LEGACY",
+        "HEIRLOOM",
+        "VINTAGE",
+        "CARVED",
+        "RESTORE",
+        "POLISH"
+      ]
+    },
+    {
+      "name": "Vintage Posters",
+      "words": [
+        "POSTER",
+        "ARTIST",
+        "GRAPHIC",
+        "DESIGN",
+        "COLOR",
+        "PAPER",
+        "INK",
+        "IMAGE",
+        "FRAME",
+        "COLLECT",
+        "RARE"
+      ]
+    },
+    {
+      "name": "Retro Video Games",
+      "words": [
+        "GAMES",
+        "CONSOLE",
+        "PLAYER",
+        "JOYSTICK",
+        "SCREEN",
+        "SCORE",
+        "LEVEL",
+        "CONTROL",
+        "BUTTON",
+        "ARCADE",
+        "CLASSIC"
+      ]
+    },
+    {
+      "name": "Vintage Bicycles",
+      "words": [
+        "BIKE",
+        "WHEEL",
+        "CHAIN",
+        "GEAR",
+        "PEDAL",
+        "SEAT",
+        "HANDLE",
+        "BELL",
+        "FRAME",
+        "TIRE",
+        "RIDE",
+        "CYCLE"
+      ]
+    },
+    {
+      "name": "Classic Books",
+      "words": [
+        "BOOK",
+        "AUTHOR",
+        "PAGES",
+        "READ",
+        "WRITE",
+        "STORY",
+        "NOVEL",
+        "POEM",
+        "LIBRARY",
+        "SHELF",
+        "COVER",
+        "CHAPTER"
+      ]
+    },
+    {
+      "name": "Vintage Jewelry",
+      "words": [
+        "RING",
+        "NECKLACE",
+        "EARRING",
+        "BRACELET",
+        "GEM",
+        "STONE",
+        "METAL",
+        "PIN",
+        "BROOCH",
+        "CLASP",
+        "CHAIN",
+        "PEARL"
+      ]
+    },
+    {
+      "name": "Old Telephones",
+      "words": [
+        "PHONE",
+        "CALL",
+        "DIAL",
+        "RING",
+        "LINE",
+        "CORD",
+        "RECEIVER",
+        "SPEAKER",
+        "MICRO",
+        "ROTARY",
+        "SWITCH"
+      ]
+    },
+    {
+      "name": "Vintage Radios",
+      "words": [
+        "RADIO",
+        "SIGNAL",
+        "DIALS",
+        "TUNER",
+        "SPEAKER",
+        "AMPLIFY",
+        "VOLUME",
+        "BROADCAST",
+        "ANTENNA",
+        "RECEIVER",
+        "TRANSMIT",
+        "FREQUENCY"
+      ]
+    },
+    {
+      "name": "Retro Music",
+      "words": [
+        "VINYL",
+        "RECORD",
+        "MUSIC",
+        "GUITAR",
+        "MICROPHONE",
+        "AMPLIFIER",
+        "SPEAKERS",
+        "RHYTHM",
+        "HARMONY",
+        "MELODY",
+        "SYMPHONY",
+        "ORCHESTRA"
+      ]
+    },
+    {
+      "name": "Vintage Television",
+      "words": [
+        "TELEVISION",
+        "SCREEN",
+        "BROADCAST",
+        "CHANNEL",
+        "SIGNAL",
+        "ANTENNA",
+        "RECEIVER",
+        "REMOTE",
+        "CONTROL",
+        "VOLUME",
+        "PICTURE",
+        "STUDIO"
+      ]
+    },
+    {
+      "name": "Classic Comics",
+      "words": [
+        "COMIC",
+        "CARTOON",
+        "CHARACTER",
+        "STORY",
+        "PANEL",
+        "INKING",
+        "COLORS",
+        "PAPER",
+        "PRINTING",
+        "DRAWING",
+        "ILLUSTRATE",
+        "SATIRE"
+      ]
+    },
+    {
+      "name": "Vintage Toys",
+      "words": [
+        "TOY",
+        "GAME",
+        "PUZZLE",
+        "DOLL",
+        "ACTION",
+        "FIGURE",
+        "MODEL",
+        "TRAIN",
+        "CAR",
+        "PLANE",
+        "BOAT",
+        "KITE"
+      ]
+    },
+    {
+      "name": "Old Computers",
+      "words": [
+        "COMPUTER",
+        "MAINFRAME",
+        "TERMINAL",
+        "KEYBOARD",
+        "MONITOR",
+        "PRINTER",
+        "SOFTWARE",
+        "HARDWARE",
+        "MEMORY",
+        "PROCESSOR",
+        "NETWORK",
+        "SYSTEM"
+      ]
+    },
+    {
+      "name": "Retro Sports",
+      "words": [
+        "SPORT",
+        "GAME",
+        "TEAM",
+        "PLAYER",
+        "SCORE",
+        "FIELD",
+        "COURT",
+        "TRACK",
+        "STADIUM",
+        "CHAMPION",
+        "MEDAL",
+        "TROPHY"
+      ]
+    },
+    {
+      "name": "Vintage Cameras",
+      "words": [
+        "CAMERA",
+        "LENS",
+        "FILM",
+        "FLASH",
+        "SHUTTER",
+        "APERTURE",
+        "FOCUS",
+        "VIEWFINDER",
+        "TRIPOD",
+        "PHOTO",
+        "PORTFOLIO",
+        "DEVELOP"
+      ]
+    },
+    {
+      "name": "Antique Clocks",
+      "words": [
+        "CLOCK",
+        "TIME",
+        "HAND",
+        "FACE",
+        "GEAR",
+        "SPRING",
+        "MECHANISM",
+        "PENDULUM",
+        "CHIME",
+        "ALARM",
+        "CALENDAR",
+        "WATCH"
+      ]
+    },
+    {
+      "name": "Vintage Trains",
+      "words": [
+        "TRAIN",
+        "LOCOMOTIVE",
+        "RAIL",
+        "TRACK",
+        "STATION",
+        "ENGINE",
+        "CABOOSE",
+        "CONDUCTOR",
+        "PASSENGER",
+        "FREIGHT",
+        "CAR",
+        "WHEEL"
+      ]
+    },
+    {
+      "name": "Retro Fashion Models",
+      "words": [
+        "MODEL",
+        "FASHION",
+        "STYLE",
+        "RUNWAY",
+        "DESIGNER",
+        "CLOTHES",
+        "HAIR",
+        "ACCESSORY",
+        "PHOTOGRAPH",
+        "POSE",
+        "CATWALK"
+      ]
+    },
+    {
+      "name": "Classic Restaurants",
+      "words": [
+        "RESTAURANT",
+        "FOOD",
+        "MENU",
+        "KITCHEN",
+        "CHEF",
+        "SERVER",
+        "TABLE",
+        "CHAIR",
+        "COUNTER",
+        "BOOTH",
+        "BAR",
+        "COFFEE"
+      ]
+    },
+    {
+      "name": "Vintage Airplanes",
+      "words": [
+        "FLYER",
+        "AVIATOR",
+        "PROPELLER",
+        "FLIGHT",
+        "AIRPORT",
+        "COCKPIT",
+        "NAVIGATE",
+        "PARACHUTE",
+        "RUNWAY",
+        "HANGAR",
+        "PILOT",
+        "LANDING"
+      ]
+    },
+    {
+      "name": "Old Theaters",
+      "words": [
+        "STAGE",
+        "CURTAIN",
+        "ACTOR",
+        "PLAYBILL",
+        "AUDITOR",
+        "SEATS",
+        "SPOTLIGHT",
+        "DRAMA",
+        "COMEDY",
+        "ORCHESTRA",
+        "PERFORM"
+      ]
+    },
+    {
+      "name": "Retro Arcade Games",
+      "words": [
+        "GAME",
+        "PLAYER",
+        "SCORE",
+        "LEVEL",
+        "BUTTON",
+        "CONTROLLER",
+        "JOYSTICK",
+        "COMPUTER",
+        "GRAPHIC",
+        "SOUND",
+        "PIZZA",
+        "PRIZE"
+      ]
+    },
+    {
+      "name": "Vintage Guitars",
+      "words": [
+        "GUITAR",
+        "STRING",
+        "PICK",
+        "AMP",
+        "PLAYER",
+        "SONG",
+        "MUSIC",
+        "FENDER",
+        "WOOD",
+        "TUNE",
+        "CHORD",
+        "STRUM"
+      ]
+    },
+    {
+      "name": "Classic Poetry",
+      "words": [
+        "POEM",
+        "VERSE",
+        "LINE",
+        "WORD",
+        "RHYME",
+        "STANZA",
+        "POET",
+        "BOOK",
+        "LIBRARY",
+        "LANGUAGE",
+        "STYLE"
+      ]
+    },
+    {
+      "name": "Vintage Microphones",
+      "words": [
+        "MICROPHONE",
+        "SOUND",
+        "VOICE",
+        "SPEAKER",
+        "MUSIC",
+        "RECORD",
+        "STUDIO",
+        "ECHO",
+        "WIRE",
+        "PLUG",
+        "VOLUME",
+        "TRACK"
+      ]
+    },
+    {
+      "name": "Retro Dance Moves",
+      "words": [
+        "DANCE",
+        "MOVE",
+        "STEP",
+        "SWING",
+        "TWIST",
+        "SPIN",
+        "FOOT",
+        "HAND",
+        "BODY",
+        "MUSIC",
+        "BEAT",
+        "RHYTHM"
+      ]
+    },
+    {
+      "name": "Old Photography",
+      "words": [
+        "CAMERA",
+        "PHOTO",
+        "PICTURE",
+        "FRAME",
+        "PRINT",
+        "FILM",
+        "LENS",
+        "FOCUS",
+        "SHOOT",
+        "IMAGE",
+        "DEVELOP",
+        "ALBUM"
+      ]
+    },
+    {
+      "name": "Vintage Typewriters",
+      "words": [
+        "TYPE",
+        "WRITE",
+        "KEY",
+        "INK",
+        "PAPER",
+        "RIBBON",
+        "SHIFT",
+        "SPACE",
+        "BAR",
+        "RETURN",
+        "CASE",
+        "CARRIAGE"
+      ]
+    },
+    {
+      "name": "Classic Musicals",
+      "words": [
+        "MUSICAL",
+        "SONG",
+        "DANCE",
+        "STAGE",
+        "PLAY",
+        "ACT",
+        "SCENE",
+        "SCRIPT",
+        "SCORE",
+        "ORCHESTRA"
+      ]
+    },
+    {
+      "name": "Retro Food",
+      "words": [
+        "FOOD",
+        "EAT",
+        "MEAL",
+        "RESTAURANT",
+        "KITCHEN",
+        "RECIPE",
+        "TASTE",
+        "FLAVOR",
+        "MEAT",
+        "SWEET",
+        "DESSERT"
+      ]
+    },
+    {
+      "name": "Vintage Sports Equipment",
+      "words": [
+        "SPORT",
+        "GAME",
+        "PLAY",
+        "BALL",
+        "BAT",
+        "GLOVE",
+        "NET",
+        "COURT",
+        "FIELD",
+        "TRACK",
+        "RACE",
+        "SCORE"
+      ]
+    },
+    {
+      "name": "Old Maps",
+      "words": [
+        "ATLAS",
+        "GLOBE",
+        "COMPASS",
+        "NAVIGATE",
+        "CARTOGRAPHY",
+        "MAPLE",
+        "TOPOGRAPHY",
+        "ORIENTATION",
+        "EXPLORER",
+        "CHARTER",
+        "LANDMARK",
+        "SURVEYOR"
+      ]
+    },
+    {
+      "name": "Retro Travel",
+      "words": [
+        "PASPORT",
+        "TOURIST",
+        "TRAVELER",
+        "VACATION",
+        "HOLIDAY",
+        "EXCURSION",
+        "ITINERARY",
+        "DESTINATION",
+        "JOURNEY",
+        "SOUVENIR",
+        "ESCAPE",
+        "ADVENTURE"
+      ]
+    },
+    {
+      "name": "Vintage Luggage",
+      "words": [
+        "TRUNK",
+        "SUITCASE",
+        "PORTER",
+        "BAGGAGE",
+        "STEAMER",
+        "VALISE",
+        "SATCHEL",
+        "CASES",
+        "HANDLE",
+        "STRAPS",
+        "LOCKER"
+      ]
+    },
+    {
+      "name": "Classic Architecture",
+      "words": [
+        "COLUMN",
+        "ARCHES",
+        "DOMES",
+        "TURRET",
+        "SPIRE",
+        "MANSION",
+        "COTTAGE",
+        "BALCONY",
+        "STAIRS",
+        "FACADE",
+        "GABLES",
+        "ROOFS"
+      ]
+    },
+    {
+      "name": "Vintage Buses",
+      "words": [
+        "COACH",
+        "OMNIBUS",
+        "VEHICLE",
+        "TRANSPORT",
+        "COMMUTE",
+        "RIDER",
+        "PASSENGER",
+        "ROUTE",
+        "SCHEDULE",
+        "DRIVER",
+        "WHEELS",
+        "FARE"
+      ]
+    },
+    {
+      "name": "Retro Home Decor",
+      "words": [
+        "VINTAGE",
+        "ANTIQUE",
+        "DECORATE",
+        "FURNISH",
+        "CURTAIN",
+        "RUGS",
+        "LAMPS",
+        "VASES",
+        "PICTURE",
+        "FRAME",
+        "SOFA",
+        "CHAIR"
+      ]
+    },
+    {
+      "name": "Old Films",
+      "words": [
+        "REEL",
+        "FILMNOIR",
+        "CINEMA",
+        "THEATER",
+        "SCREEN",
+        "PROJECTOR",
+        "CAMERA",
+        "ACTOR",
+        "STUDIO",
+        "SCRIPT",
+        "DIRECTOR",
+        "CLAPBOARD"
+      ]
+    },
+    {
+      "name": "Vintage Magazines",
+      "words": [
+        "PUBLICATION",
+        "PERIODICAL",
+        "JOURNAL",
+        "NEWSPAPER",
+        "EDITOR",
+        "WRITER",
+        "ARTICLE",
+        "FEATURE",
+        "COVER",
+        "PAGE",
+        "INK",
+        "PAPER"
+      ]
+    },
+    {
+      "name": "Classic Music Festivals",
+      "words": [
+        "CONCERT",
+        "FESTIVAL",
+        "MUSICIAN",
+        "PERFORM",
+        "STAGE",
+        "AUDIENCE",
+        "SONG",
+        "DANCE",
+        "GUITAR",
+        "MICROPHONE",
+        "AMPLIFIER",
+        "RHYTHM"
+      ]
+    },
+    {
+      "name": "Retro Technology",
+      "words": [
+        "COMPUTER",
+        "TELEPHONE",
+        "TELEGRAPH",
+        "RADIO",
+        "TELEVISION",
+        "CAMERA",
+        "FILM",
+        "TAPE",
+        "RECORD",
+        "PLAYER"
+      ]
+    },
+    {
+      "name": "Vintage Keyboards",
+      "words": [
+        "TYPEWRITER",
+        "KEYS",
+        "TYPING",
+        "INK",
+        "RIBBON",
+        "PAPER",
+        "ROLL",
+        "LEVER",
+        "SHIFT",
+        "SPACE",
+        "RETURN",
+        "CLICK"
+      ]
+    },
+    {
+      "name": "Old Radio Shows",
+      "words": [
+        "BROADCAST",
+        "STUDIO",
+        "MICROPHONE",
+        "SPEAKER",
+        "LISTENER",
+        "PROGRAM",
+        "ANNOUNCER",
+        "ACTOR",
+        "SCRIPT",
+        "MUSIC",
+        "COMEDY",
+        "DRAMA"
+      ]
+    }
+  ]
+}

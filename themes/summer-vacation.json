@@ -1,0 +1,837 @@
+{
+  "title": "Large Print Summer Vacation Word Search",
+  "subtitle": "48 Relaxing Large-Print Puzzles with Big Easy-to-Read Letters and Full Solutions",
+  "author": "E. P. Greenwood",
+  "palette": "summer-vacation",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Beach House",
+      "words": [
+        "OCEAN",
+        "SANDAL",
+        "VACATION",
+        "COASTAL",
+        "SEASIDE",
+        "SUNSET",
+        "PORCH",
+        "DECKS",
+        "VIEW",
+        "WAVES",
+        "SHORE",
+        "PARADISE"
+      ]
+    },
+    {
+      "name": "Summer Breeze",
+      "words": [
+        "WINDY",
+        "SUNNY",
+        "CLOUDS",
+        "SKYWARD",
+        "AIRY",
+        "LIGHT",
+        "GENTLE",
+        "WARMTH",
+        "BALMY",
+        "CALM",
+        "SERENE",
+        "FRESH"
+      ]
+    },
+    {
+      "name": "Vacation Mode",
+      "words": [
+        "RELAX",
+        "LEISURE",
+        "HOLIDAY",
+        "GETAWAY",
+        "ESCAPE",
+        "CHILL",
+        "UNWIND",
+        "RECHARGE",
+        "FREE",
+        "EASY",
+        "CASUAL",
+        "FUN"
+      ]
+    },
+    {
+      "name": "Tropical Island",
+      "words": [
+        "PALM",
+        "ISLAND",
+        "PARADISE",
+        "EXOTIC",
+        "COCONUT",
+        "HIBISCUS",
+        "SURF",
+        "SAND",
+        "CORAL",
+        "REEF",
+        "LAGOON",
+        "HAVEN"
+      ]
+    },
+    {
+      "name": "Sunglasses",
+      "words": [
+        "SHADE",
+        "SUNNY",
+        "GLASSES",
+        "LENS",
+        "FRAME",
+        "STYLISH",
+        "COOL",
+        "ACCESSORY",
+        "FASHION",
+        "PROTECT",
+        "EYEWEAR"
+      ]
+    },
+    {
+      "name": "Ice Cream Truck",
+      "words": [
+        "TREAT",
+        "SWEET",
+        "COLD",
+        "CREAMY",
+        "FLAVOR",
+        "FUN",
+        "KIDS",
+        "SUMMER",
+        "TUNE",
+        "MUSIC",
+        "SMILE",
+        "JOY"
+      ]
+    },
+    {
+      "name": "Seashells",
+      "words": [
+        "SHELL",
+        "OCEAN",
+        "BEACH",
+        "TREASURE",
+        "COLLECT",
+        "PEARL",
+        "CONCH",
+        "SCALLOP",
+        "WAVES",
+        "TIDE",
+        "COAST",
+        "MARINE"
+      ]
+    },
+    {
+      "name": "Surfboard",
+      "words": [
+        "SURF",
+        "RIDE",
+        "WAVE",
+        "OCEAN",
+        "BEACH",
+        "COAST",
+        "SPORT",
+        "ACTIVE",
+        "FUN",
+        "EXCITING",
+        "THRILL",
+        "ADVENTURE"
+      ]
+    },
+    {
+      "name": "Sunscreen",
+      "words": [
+        "SUN",
+        "PROTECT",
+        "SKIN",
+        "SAFETY",
+        "CARE",
+        "LOTION",
+        "CREAM",
+        "SHADE",
+        "HAT",
+        "GLASSES",
+        "PREVENT"
+      ]
+    },
+    {
+      "name": "Pool Party",
+      "words": [
+        "POOL",
+        "PARTY",
+        "FUN",
+        "SWIM",
+        "SPLASH",
+        "WATER",
+        "GAMES",
+        "LAUGH",
+        "FRIENDS",
+        "SUN",
+        "SUMMER"
+      ]
+    },
+    {
+      "name": "Flip Flops",
+      "words": [
+        "FOOT",
+        "SANDAL",
+        "BEACH",
+        "SUMMER",
+        "WARM",
+        "COMFY",
+        "CASUAL",
+        "EASY",
+        "SHOE",
+        "STYLE",
+        "RELAX",
+        "VACATION"
+      ]
+    },
+    {
+      "name": "BBQ Grill",
+      "words": [
+        "GRILL",
+        "FOOD",
+        "COOK",
+        "OUTDOOR",
+        "PARK",
+        "PICNIC",
+        "FAMILY",
+        "FRIENDS",
+        "FUN",
+        "SUMMER",
+        "SIZZLE"
+      ]
+    },
+    {
+      "name": "Watermelon",
+      "words": [
+        "WATERMELON",
+        "REFRESHING",
+        "JUICY",
+        "SWEET",
+        "SUMMER",
+        "FRUIT",
+        "PINK",
+        "GREEN",
+        "SEEDS",
+        "SALAD",
+        "PICNIC",
+        "DELICIOUS"
+      ]
+    },
+    {
+      "name": "Lighthouse",
+      "words": [
+        "LIGHTHOUSE",
+        "COAST",
+        "GUIDE",
+        "NAVIGATE",
+        "SHIP",
+        "SAFETY",
+        "TOWER",
+        "OCEAN",
+        "MARINE",
+        "BEACON",
+        "SHORE",
+        "HARBOR"
+      ]
+    },
+    {
+      "name": "Cruise Ship",
+      "words": [
+        "CRUISE",
+        "SHIP",
+        "VACATION",
+        "OCEAN",
+        "TRAVEL",
+        "LUXURY",
+        "DECK",
+        "PORT",
+        "ISLAND",
+        "PARADISE",
+        "SAILING",
+        "ADVENTURE"
+      ]
+    },
+    {
+      "name": "Beach Towel",
+      "words": [
+        "TOWEL",
+        "BEACH",
+        "SUN",
+        "SAND",
+        "WARMTH",
+        "COMFORT",
+        "RELAX",
+        "VACATION",
+        "RESORT",
+        "COASTAL",
+        "COLORFUL",
+        "ABSORBENT"
+      ]
+    },
+    {
+      "name": "Coconut Tree",
+      "words": [
+        "COCONUT",
+        "TREE",
+        "TROPICAL",
+        "ISLAND",
+        "PALM",
+        "BEACH",
+        "VACATION",
+        "PARADISE",
+        "HOLIDAY",
+        "SUNNY",
+        "GREEN",
+        "LEISURE"
+      ]
+    },
+    {
+      "name": "Ocean Waves",
+      "words": [
+        "OCEAN",
+        "WAVES",
+        "TIDE",
+        "SURF",
+        "BEACH",
+        "COAST",
+        "SALT",
+        "SEA",
+        "DEEP",
+        "BLUE",
+        "POWERFUL",
+        "SERENE"
+      ]
+    },
+    {
+      "name": "Surfing Lessons",
+      "words": [
+        "SURFING",
+        "LESSONS",
+        "OCEAN",
+        "WAVES",
+        "BEACH",
+        "BOARD",
+        "RIDE",
+        "COACH",
+        "PRACTICE",
+        "SKILL",
+        "ADVENTURE",
+        "EXCITING"
+      ]
+    },
+    {
+      "name": "Beach Volleyball",
+      "words": [
+        "VOLLEYBALL",
+        "BEACH",
+        "SAND",
+        "NET",
+        "TEAM",
+        "SPORT",
+        "FUN",
+        "COMPETE",
+        "RECREATION",
+        "LEISURE",
+        "ACTIVE",
+        "ENTERTAIN"
+      ]
+    },
+    {
+      "name": "Tropical Flowers",
+      "words": [
+        "FLOWERS",
+        "TROPICAL",
+        "COLORFUL",
+        "EXOTIC",
+        "ISLAND",
+        "PARADISE",
+        "HIBISCUS",
+        "PLUMERIA",
+        "ORCHID",
+        "BEAUTY",
+        "FRAGRANT",
+        "VIBRANT"
+      ]
+    },
+    {
+      "name": "Summer Camp",
+      "words": [
+        "CAMP",
+        "SUMMER",
+        "FUN",
+        "ADVENTURE",
+        "CHILDREN",
+        "NATURE",
+        "OUTDOOR",
+        "ACTIVITIES",
+        "FRIENDS",
+        "MEMORIES",
+        "LAKE",
+        "CABIN"
+      ]
+    },
+    {
+      "name": "Lake House",
+      "words": [
+        "LAKE",
+        "HOUSE",
+        "VACATION",
+        "RELAX",
+        "SERENE",
+        "WATER",
+        "BOAT",
+        "FISHING",
+        "COTTAGE",
+        "RETREAT",
+        "PEACEFUL",
+        "SCENIC"
+      ]
+    },
+    {
+      "name": "Water Park",
+      "words": [
+        "WATER",
+        "PARK",
+        "FUN",
+        "SLIDE",
+        "POOL",
+        "SPLASH",
+        "ADVENTURE",
+        "SUMMER",
+        "VACATION",
+        "FAMILY",
+        "RECREATION",
+        "THRILL"
+      ]
+    },
+    {
+      "name": "Paddleboard",
+      "words": [
+        "OCEAN",
+        "SURFING",
+        "SUNSET",
+        "PADDLE",
+        "BOARD",
+        "WATER",
+        "SPORT",
+        "RECREATION",
+        "VACATION",
+        "WAVES",
+        "BEACH",
+        "SUMMER"
+      ]
+    },
+    {
+      "name": "Snorkeling Gear",
+      "words": [
+        "MASK",
+        "FIN",
+        "SNORKEL",
+        "REEF",
+        "FISHES",
+        "CORAL",
+        "OCEANIC",
+        "DIVING",
+        "MARINE",
+        "EQUIPMENT",
+        "WETSUIT",
+        "ADVENTURE"
+      ]
+    },
+    {
+      "name": "Beach Umbrella",
+      "words": [
+        "SHADE",
+        "SUNSCREEN",
+        "UMBRELLA",
+        "CANOPY",
+        "BEACHTOWEL",
+        "VACATION",
+        "RELAX",
+        "RECREATE",
+        "COASTAL",
+        "SUNHAT",
+        "SUNGLASSES",
+        "PARASOL"
+      ]
+    },
+    {
+      "name": "Seagulls",
+      "words": [
+        "BIRDS",
+        "WINGS",
+        "FEATHERS",
+        "COAST",
+        "OCEAN",
+        "SEAGULL",
+        "FLIGHT",
+        "BEACH",
+        "SAND",
+        "PECKING",
+        "FOOD",
+        "SQUAWK"
+      ]
+    },
+    {
+      "name": "Sandcastles",
+      "words": [
+        "CASTLE",
+        "SAND",
+        "MOAT",
+        "TOWER",
+        "BUCKET",
+        "SHOVEL",
+        "CHILDHOOD",
+        "IMAGINATION",
+        "CREATIVITY",
+        "BEACH",
+        "VACATION",
+        "FUN"
+      ]
+    },
+    {
+      "name": "Treasure Hunt",
+      "words": [
+        "TREASURE",
+        "HUNT",
+        "MAP",
+        "CLUE",
+        "PUZZLE",
+        "ADVENTURE",
+        "GOLD",
+        "SILVER",
+        "JEWELS",
+        "ISLAND",
+        "QUEST",
+        "DISCOVERY"
+      ]
+    },
+    {
+      "name": "Summer Lovin",
+      "words": [
+        "LOVE",
+        "SUMMER",
+        "SUN",
+        "FUN",
+        "VACATION",
+        "ROMANCE",
+        "BEACH",
+        "WARMTH",
+        "HOLIDAY",
+        "TOGETHER",
+        "MEMORIES",
+        "PASSION"
+      ]
+    },
+    {
+      "name": "Island Getaway",
+      "words": [
+        "ISLAND",
+        "GETAWAY",
+        "PARADISE",
+        "TROPICAL",
+        "OCEAN",
+        "BEACH",
+        "RELAX",
+        "VACATION",
+        "ESCAPE",
+        "SERENITY",
+        "PALM",
+        "HOLIDAY"
+      ]
+    },
+    {
+      "name": "Golf Cart",
+      "words": [
+        "GOLF",
+        "CART",
+        "VEHICLE",
+        "TRANSPORT",
+        "COURSE",
+        "LINKS",
+        "RECREATION",
+        "LEISURE",
+        "VACATION",
+        "RESORT",
+        "DRIVE",
+        "RIDE"
+      ]
+    },
+    {
+      "name": "Sandy Toes",
+      "words": [
+        "SAND",
+        "TOES",
+        "BEACH",
+        "WALK",
+        "STROLL",
+        "OCEAN",
+        "WAVES",
+        "SUN",
+        "FUN",
+        "VACATION",
+        "RELAX",
+        "COASTAL"
+      ]
+    },
+    {
+      "name": "Sea Breeze",
+      "words": [
+        "SEA",
+        "BREEZE",
+        "OCEAN",
+        "WIND",
+        "COOL",
+        "REFRESH",
+        "RELAX",
+        "CALM",
+        "SERENE",
+        "PEACEFUL",
+        "VACATION",
+        "ESCAPE"
+      ]
+    },
+    {
+      "name": "Pier Fishing",
+      "words": [
+        "PIER",
+        "FISHING",
+        "ROD",
+        "REEL",
+        "BAIT",
+        "HOOK",
+        "LINE",
+        "OCEAN",
+        "SEA",
+        "WATER",
+        "CATCH",
+        "SPORT"
+      ]
+    },
+    {
+      "name": "Boat Ride",
+      "words": [
+        "SAILING",
+        "VESSEL",
+        "CAPTAIN",
+        "NAVIGATE",
+        "HARBOR",
+        "SUNSET",
+        "WAVES",
+        "FERRY",
+        "SPEEDBOAT",
+        "PASSENGER",
+        "ANCHOR",
+        "KEEL"
+      ]
+    },
+    {
+      "name": "Lifeguard Tower",
+      "words": [
+        "RESCUE",
+        "SAFETY",
+        "GUARDIAN",
+        "WATCHFUL",
+        "TOWER",
+        "BEACH",
+        "SWIMMER",
+        "SURFBOARD",
+        "LIFELINE",
+        "EMERGENCY",
+        "PROTECTOR",
+        "VIGILANT"
+      ]
+    },
+    {
+      "name": "Coastal Walk",
+      "words": [
+        "PROMENADE",
+        "SEASIDE",
+        "CLIFFS",
+        "TIDAL",
+        "COASTLINE",
+        "FOOTPATH",
+        "SCENERY",
+        "OCEANVIEW",
+        "SALTWATER",
+        "SEAGULL",
+        "HORIZON",
+        "STROLL"
+      ]
+    },
+    {
+      "name": "Tide Pool",
+      "words": [
+        "OCEAN",
+        "ANEMONE",
+        "STARFISH",
+        "MOLLUSK",
+        "CRUSTACEAN",
+        "SEAWEED",
+        "KELP",
+        "CORAL",
+        "SHELLFISH",
+        "MARINE",
+        "ECOSYSTEM",
+        "AQUATIC"
+      ]
+    },
+    {
+      "name": "Driftwood",
+      "words": [
+        "WOODEN",
+        "WEATHERED",
+        "SEAWEATHER",
+        "DRIFT",
+        "BEACHCOMB",
+        "SHORELINE",
+        "TIMBER",
+        "PLANK",
+        "BRANCH",
+        "TRUNK",
+        "ROOTS",
+        "DECAY"
+      ]
+    },
+    {
+      "name": "Kite Flying",
+      "words": [
+        "WINDY",
+        "SKYWARD",
+        "STRING",
+        "TAIL",
+        "SAIL",
+        "FLIGHT",
+        "SOARING",
+        "AERIAL",
+        "BUOYANT",
+        "AIRBORNE",
+        "KITEFLYER",
+        "TWINE"
+      ]
+    },
+    {
+      "name": "Summer Salad",
+      "words": [
+        "SALAD",
+        "VEGETABLE",
+        "FRUIT",
+        "HERBS",
+        "CITRUS",
+        "TOMATO",
+        "CUCUMBER",
+        "PEPPER",
+        "ONION",
+        "DRESSING",
+        "GARDEN",
+        "FRESH"
+      ]
+    },
+    {
+      "name": "Ice Cream Cone",
+      "words": [
+        "CREAMY",
+        "SWEET",
+        "TREAT",
+        "DESSERT",
+        "FLAVOR",
+        "CHILL",
+        "COOL",
+        "CONFECTION",
+        "WAFFLE",
+        "TOPPING",
+        "SPRINKLE",
+        "DELICIOUS"
+      ]
+    },
+    {
+      "name": "Beach Bonfire",
+      "words": [
+        "FIREPIT",
+        "FLAMES",
+        "WARMTH",
+        "GATHER",
+        "SINGSONG",
+        "MARSHMALLOW",
+        "TOASTY",
+        "EMBERS",
+        "LOGS",
+        "SMORES",
+        "CAMPFIRE",
+        "SOCIAL"
+      ]
+    },
+    {
+      "name": "Stargazing",
+      "words": [
+        "STARLIGHT",
+        "NIGHTSKY",
+        "GALAXY",
+        "PLANET",
+        "ORION",
+        "CASSIOPEIA",
+        "URSA",
+        "ASTRONOMY",
+        "SPACE",
+        "CELESTIAL",
+        "UNIVERSE"
+      ]
+    },
+    {
+      "name": "Fireworks Display",
+      "words": [
+        "EXPLOSION",
+        "COLORFUL",
+        "PYROTECHNIC",
+        "SKYSHOW",
+        "BOOM",
+        "FLASH",
+        "SPARKLE",
+        "BURST",
+        "FIREWORK",
+        "SPECTACLE",
+        "CELEBRATE",
+        "ILLUMINATE"
+      ]
+    },
+    {
+      "name": "Summer Reading",
+      "words": [
+        "NOVEL",
+        "BOOKWORM",
+        "PAGE",
+        "CHAPTER",
+        "AUTHOR",
+        "GENRE",
+        "FICTION",
+        "NONFICTION",
+        "LIBRARY",
+        "READER",
+        "STORY",
+        "LITERATURE"
+      ]
+    }
+  ]
+}

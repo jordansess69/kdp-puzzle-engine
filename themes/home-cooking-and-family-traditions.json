@@ -1,0 +1,762 @@
+{
+  "title": "Large Print Home Cooking Delights Word Search",
+  "subtitle": "44 Relaxing Large-Print Puzzles with Big Easy-to-Read Letters and Full Solutions",
+  "author": "E. P. Greenwood",
+  "palette": "home-cooking-and-family-traditions",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Family Recipes",
+      "words": [
+        "RECIPE",
+        "FAMILY",
+        "COOKING",
+        "TRADITION",
+        "MEALTIME",
+        "INGREDIENT",
+        "HEIRLOOM",
+        "SECRET",
+        "PRESERVE",
+        "HISTORY",
+        "HERITAGE",
+        "LEGACY"
+      ]
+    },
+    {
+      "name": "Sunday Roast",
+      "words": [
+        "ROAST",
+        "SUNDAY",
+        "DINNER",
+        "FAMILY",
+        "GATHER",
+        "FEAST",
+        "MEAT",
+        "VEGETABLE",
+        "POTATO",
+        "CARROT",
+        "GRAVY",
+        "PLATTER"
+      ]
+    },
+    {
+      "name": "Grandma's Kitchen",
+      "words": [
+        "GRANDMA",
+        "KITCHEN",
+        "COOKING",
+        "LOVE",
+        "WARMTH",
+        "HOMEMADE",
+        "RECIPE",
+        "STORY",
+        "TRADITION",
+        "HEIRLOOM",
+        "SIMMER",
+        "STEW"
+      ]
+    },
+    {
+      "name": "Baking Cookies",
+      "words": [
+        "BAKING",
+        "COOKIES",
+        "SWEET",
+        "TREAT",
+        "DOUGH",
+        "SUGAR",
+        "SPICE",
+        "FLAVOR",
+        "AROMA",
+        "CRUNCH",
+        "CHOCOLATE",
+        "NUTMEG"
+      ]
+    },
+    {
+      "name": "Homemade Pasta",
+      "words": [
+        "HOMEMADE",
+        "DOUGH",
+        "FLOUR",
+        "EGG",
+        "WATER",
+        "SAUCE",
+        "NOODLE",
+        "ITALIAN",
+        "RECIPE",
+        "TRADITION",
+        "FLAVOR"
+      ]
+    },
+    {
+      "name": "Holiday Feasts",
+      "words": [
+        "HOLIDAY",
+        "FEAST",
+        "FAMILY",
+        "GATHER",
+        "CELEBRATE",
+        "TRADITION",
+        "FOOD",
+        "DRINK",
+        "TOGETHER",
+        "JOY",
+        "CHEER",
+        "PUMPKIN"
+      ]
+    },
+    {
+      "name": "Comfort Food",
+      "words": [
+        "COMFORT",
+        "FOOD",
+        "WARMTH",
+        "COZY",
+        "HOMEMADE",
+        "SOUP",
+        "STEW",
+        "CASSEROLE",
+        "MACARONI",
+        "CHEESE",
+        "MEATLOAF",
+        "MASHED"
+      ]
+    },
+    {
+      "name": "Farm Fresh Produce",
+      "words": [
+        "FARM",
+        "FRESH",
+        "PRODUCE",
+        "VEGETABLE",
+        "FRUIT",
+        "GARDEN",
+        "GREEN",
+        "MARKET",
+        "LOCAL",
+        "SEASONAL",
+        "ORGANIC",
+        "HARVEST"
+      ]
+    },
+    {
+      "name": "Kitchen Gadgets",
+      "words": [
+        "KITCHEN",
+        "GADGET",
+        "TOOL",
+        "APPLIANCE",
+        "MIXER",
+        "BLENDER",
+        "FOOD",
+        "PROCESSOR",
+        "COOKWARE",
+        "UTENSIL",
+        "TIMER",
+        "GRATER"
+      ]
+    },
+    {
+      "name": "Cake Decorating",
+      "words": [
+        "CAKE",
+        "DECORATING",
+        "ICING",
+        "SUGAR",
+        "SPRINKLE",
+        "COLOR",
+        "DESIGN",
+        "CREATIVE",
+        "FOOD",
+        "ART",
+        "BAKING",
+        "FROSTING"
+      ]
+    },
+    {
+      "name": "Food Traditions",
+      "words": [
+        "FOOD",
+        "TRADITION",
+        "CULTURE",
+        "HERITAGE",
+        "HISTORY",
+        "FAMILY",
+        "RECIPE",
+        "COOKING",
+        "CELEBRATE",
+        "GATHER",
+        "SHARE",
+        "COMMUNITY"
+      ]
+    },
+    {
+      "name": "Mother's Cooking",
+      "words": [
+        "MOTHER",
+        "COOKING",
+        "LOVE",
+        "CARE",
+        "NURTURE",
+        "RECIPE",
+        "TRADITION",
+        "FAMILY",
+        "MEAL",
+        "KITCHEN",
+        "WARMTH",
+        "HOMEMADE"
+      ]
+    },
+    {
+      "name": "Heirloom Recipes",
+      "words": [
+        "RECIPE",
+        "HEIRLOOM",
+        "COOKING",
+        "TRADITION",
+        "FAMILY",
+        "MEAL",
+        "PASTRY",
+        "HERITAGE",
+        "FOODS",
+        "LEGACY",
+        "COOKBOOK",
+        "INHERIT"
+      ]
+    },
+    {
+      "name": "Dinner Gatherings",
+      "words": [
+        "DINNER",
+        "GATHER",
+        "FAMILY",
+        "TOGETHER",
+        "MEALTIME",
+        "SHARE",
+        "FOODIE",
+        "TABLE",
+        "CHAIR",
+        "PLATE",
+        "SERVE",
+        "FEAST"
+      ]
+    },
+    {
+      "name": "Food Memories",
+      "words": [
+        "MEMORY",
+        "FOODIE",
+        "TASTE",
+        "SMELL",
+        "CHILD",
+        "HOME",
+        "COOK",
+        "MEAL",
+        "RECALL",
+        "PAST",
+        "FLAVOR"
+      ]
+    },
+    {
+      "name": "Family Table",
+      "words": [
+        "FAMILY",
+        "TABLE",
+        "CHAIR",
+        "MEAL",
+        "TOGETHER",
+        "SHARE",
+        "FOOD",
+        "LOVE",
+        "HOME",
+        "GATHER",
+        "DINE",
+        "SETTING"
+      ]
+    },
+    {
+      "name": "Home Baked Bread",
+      "words": [
+        "BREAD",
+        "HOME",
+        "BAKE",
+        "OVEN",
+        "DOUGH",
+        "YEAST",
+        "FLOUR",
+        "SALT",
+        "SUGAR",
+        "WHEAT",
+        "KNEAD",
+        "LOAF"
+      ]
+    },
+    {
+      "name": "Sunday Dinner",
+      "words": [
+        "SUNDAY",
+        "DINNER",
+        "FAMILY",
+        "MEAL",
+        "TOGETHER",
+        "ROAST",
+        "POTATO",
+        "CARROT",
+        "PEAS",
+        "MEAT",
+        "GRAVY",
+        "DESSERT"
+      ]
+    },
+    {
+      "name": "Kitchen Tools",
+      "words": [
+        "KITCHEN",
+        "TOOL",
+        "POT",
+        "PAN",
+        "UTENSIL",
+        "SPOON",
+        "WHISK",
+        "KNIFE",
+        "CUTTER",
+        "BOARD",
+        "MIXER",
+        "BLENDER"
+      ]
+    },
+    {
+      "name": "Recipe Book",
+      "words": [
+        "RECIPE",
+        "BOOK",
+        "COOK",
+        "PAGE",
+        "INDEX",
+        "TITLE",
+        "AUTHOR",
+        "CHAPTER",
+        "INGREDIENT",
+        "INSTRUCTION",
+        "MEASURE",
+        "COOKING"
+      ]
+    },
+    {
+      "name": "Cooking Lessons",
+      "words": [
+        "COOK",
+        "LESSON",
+        "TEACH",
+        "LEARN",
+        "RECIPE",
+        "TECHNIQUE",
+        "SKILL",
+        "PRACTICE",
+        "CLASS",
+        "INSTRUCTOR",
+        "STUDENT",
+        "COURSE"
+      ]
+    },
+    {
+      "name": "Food Heritage",
+      "words": [
+        "FOOD",
+        "HERITAGE",
+        "CULTURE",
+        "TRADITION",
+        "HISTORY",
+        "ROOTS",
+        "ANCESTOR",
+        "CUSTOM",
+        "RITUAL",
+        "MEAL",
+        "FEAST",
+        "CELEBRATE"
+      ]
+    },
+    {
+      "name": "Holiday Baking",
+      "words": [
+        "HOLIDAY",
+        "BAKE",
+        "SWEET",
+        "TREAT",
+        "CAKE",
+        "PIE",
+        "PASTRY",
+        "FROSTING",
+        "SPRINKLE",
+        "DECORATE",
+        "GIFT"
+      ]
+    },
+    {
+      "name": "Family Favorites",
+      "words": [
+        "FAMILY",
+        "FAVORITE",
+        "RECIPE",
+        "TRADITION",
+        "MEAL",
+        "DISH",
+        "FOOD",
+        "LOVE",
+        "SHARE",
+        "PASS",
+        "DOWN",
+        "ENJOY"
+      ]
+    },
+    {
+      "name": "Kitchen Wisdom",
+      "words": [
+        "RECIPE",
+        "COOKING",
+        "KITCHEN",
+        "FOODIE",
+        "MEALTIME",
+        "NOURISH",
+        "FLAVORS",
+        "HERBS",
+        "SPICES",
+        "TECHNIQUE",
+        "POTLUCK",
+        "CULINARY"
+      ]
+    },
+    {
+      "name": "Mealtimes",
+      "words": [
+        "BREAKFAST",
+        "LUNCH",
+        "DINNER",
+        "SUPPER",
+        "SNACKS",
+        "FEASTS",
+        "GATHER",
+        "FAMILY",
+        "TOGETHER",
+        "SHARE",
+        "MEALS",
+        "NOURISH"
+      ]
+    },
+    {
+      "name": "Food Culture",
+      "words": [
+        "CUISINE",
+        "TRADITION",
+        "HERITAGE",
+        "FLAVORS",
+        "REGIONAL",
+        "ETHNIC",
+        "FOODWAY",
+        "COMMUNITY",
+        "GATHERING",
+        "CELEBRATE",
+        "HARVEST",
+        "ABUNDANCE"
+      ]
+    },
+    {
+      "name": "Grandma's Secrets",
+      "words": [
+        "RECIPE",
+        "STEW",
+        "SOUP",
+        "STIRFRY",
+        "ROAST",
+        "GRAVY",
+        "SAUCE",
+        "SEASON",
+        "FLAVOR",
+        "TRICKS",
+        "TECHNIQUE",
+        "LOVE"
+      ]
+    },
+    {
+      "name": "Homemade Soup",
+      "words": [
+        "STEW",
+        "SOUP",
+        "BROTH",
+        "VEGETABLE",
+        "NOODLE",
+        "RICE",
+        "BEAN",
+        "LENTIL",
+        "CHOWDER",
+        "CREAM",
+        "WONDER",
+        "COMFORT"
+      ]
+    },
+    {
+      "name": "Baking Traditions",
+      "words": [
+        "CAKE",
+        "COOKIES",
+        "PIES",
+        "TARTS",
+        "BREAD",
+        "PASTRY",
+        "FLOUR",
+        "SUGAR",
+        "SPICE",
+        "TRADITION",
+        "HERITAGE",
+        "DELIGHT"
+      ]
+    },
+    {
+      "name": "Kitchen Love",
+      "words": [
+        "COOKING",
+        "LOVE",
+        "CARE",
+        "NOURISH",
+        "FOOD",
+        "FAMILY",
+        "TOGETHER",
+        "SHARE",
+        "LAUGH",
+        "MEMORY",
+        "WARMTH",
+        "JOY"
+      ]
+    },
+    {
+      "name": "Family Meals",
+      "words": [
+        "MEAL",
+        "TIME",
+        "FAMILY",
+        "TOGETHER",
+        "SHARE",
+        "LAUGH",
+        "LOVE",
+        "FOOD",
+        "TRADITION",
+        "HERITAGE",
+        "GATHER",
+        "CELEBRATE"
+      ]
+    },
+    {
+      "name": "Cooking Together",
+      "words": [
+        "COOK",
+        "TOGETHER",
+        "SHARE",
+        "LAUGH",
+        "LEARN",
+        "TEACH",
+        "GUIDE",
+        "HELP",
+        "TEAM",
+        "FUN",
+        "MEMORY",
+        "BOND"
+      ]
+    },
+    {
+      "name": "Food Sharing",
+      "words": [
+        "SHARE",
+        "FOOD",
+        "COMMUNITY",
+        "GATHER",
+        "CELEBRATE",
+        "HARVEST",
+        "ABUNDANCE",
+        "GENEROSITY",
+        "KINDNESS",
+        "CARING",
+        "NEIGHBOR",
+        "FRIEND"
+      ]
+    },
+    {
+      "name": "Recipe Cards",
+      "words": [
+        "RECIPE",
+        "CARD",
+        "COOKBOOK",
+        "INDEX",
+        "CATEGORY",
+        "LIST",
+        "INSTRUCTION",
+        "MEASURE",
+        "MIX",
+        "COOK",
+        "SERVE",
+        "ENJOY"
+      ]
+    },
+    {
+      "name": "Kitchen Treasures",
+      "words": [
+        "TREASURE",
+        "KITCHEN",
+        "GADGET",
+        "TOOL",
+        "APPLIANCE",
+        "POT",
+        "PAN",
+        "UTENSIL",
+        "SPICE",
+        "HERB",
+        "SEASON",
+        "FLAVOR"
+      ]
+    },
+    {
+      "name": "Hearty Stews",
+      "words": [
+        "STEW",
+        "MEATS",
+        "BEEF",
+        "POTATO",
+        "ONION",
+        "GARLIC",
+        "ROAST",
+        "BROTH",
+        "SIMMER",
+        "FLAVOR",
+        "NOODLE"
+      ]
+    },
+    {
+      "name": "Family Gatherings",
+      "words": [
+        "FAMILY",
+        "GATHER",
+        "TABLE",
+        "FEAST",
+        "TOGETHER",
+        "SHARE",
+        "LAUGH",
+        "LOVE",
+        "TRADIT",
+        "REUNITE"
+      ]
+    },
+    {
+      "name": "Homemade Sweets",
+      "words": [
+        "SWEET",
+        "CAKE",
+        "COOKIES",
+        "PIE",
+        "TART",
+        "PASTRY",
+        "DESSERT",
+        "HONEY",
+        "SUGAR",
+        "CREAM",
+        "FRUIT",
+        "NUTMEG"
+      ]
+    },
+    {
+      "name": "Kitchen Stories",
+      "words": [
+        "KITCHEN",
+        "STORY",
+        "RECIPE",
+        "COOK",
+        "SHARE",
+        "MEMORY",
+        "TRADIT",
+        "POT",
+        "PAN",
+        "SPICE",
+        "FLAVOR"
+      ]
+    },
+    {
+      "name": "Food History",
+      "words": [
+        "FOOD",
+        "HISTORY",
+        "CULTURE",
+        "TRADIT",
+        "RECIPE",
+        "COOK",
+        "EAT",
+        "MEAL",
+        "FEAST",
+        "PAST",
+        "LEGACY"
+      ]
+    },
+    {
+      "name": "Sunday Lunch",
+      "words": [
+        "SUNDAY",
+        "LUNCH",
+        "FAMILY",
+        "GATHER",
+        "ROAST",
+        "MEAT",
+        "POTATO",
+        "CARROT",
+        "PEAS",
+        "GRAVY",
+        "MEAL"
+      ]
+    },
+    {
+      "name": "Mother's Kitchen",
+      "words": [
+        "MOTHER",
+        "KITCHEN",
+        "COOK",
+        "RECIPE",
+        "LOVE",
+        "CARE",
+        "SHARE",
+        "TRADIT",
+        "WARMTH",
+        "NURTURE",
+        "GUIDE"
+      ]
+    },
+    {
+      "name": "Family Cooking",
+      "words": [
+        "FAMILY",
+        "COOK",
+        "TOGETHER",
+        "SHARE",
+        "RECIPE",
+        "TRADIT",
+        "MEAL",
+        "FEAST",
+        "LAUGH",
+        "LOVE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "title": "Large Print Ocean Life Word Search",
+  "subtitle": "44 Relaxing Large-Print Ocean Puzzles with Big Easy-to-Read Letters and Full Solutions",
+  "author": "E. P. Greenwood",
+  "palette": "ocean-life",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Sharks",
+      "words": [
+        "SHARK",
+        "MAKO",
+        "TIGER",
+        "NURSE",
+        "LEMON",
+        "HAMMERHEAD",
+        "THRESHER",
+        "FIN",
+        "JAWS",
+        "TEETH",
+        "GILLS",
+        "PREY"
+      ]
+    },
+    {
+      "name": "Whales",
+      "words": [
+        "WHALE",
+        "HUMPBACK",
+        "BELUGA",
+        "NARWHAL",
+        "ORCA",
+        "SPERM",
+        "MINKE",
+        "FLUKE",
+        "BREACH",
+        "BALEEN",
+        "BLOWHOLE",
+        "POD"
+      ]
+    },
+    {
+      "name": "Dolphins",
+      "words": [
+        "DOLPHIN",
+        "PORPOISE",
+        "SPINNER",
+        "FLIPPER",
+        "POD",
+        "LEAP",
+        "SONAR",
+        "CLICK",
+        "ECHO",
+        "SNOUT",
+        "MAMMAL",
+        "SWIM"
+      ]
+    },
+    {
+      "name": "Sea Turtles",
+      "words": [
+        "TURTLE",
+        "GREEN",
+        "HAWKSBILL",
+        "SHELL",
+        "FLIPPER",
+        "NEST",
+        "BEACH",
+        "HATCH",
+        "SCUTE",
+        "SAND",
+        "REPTILE",
+        "MIGRATE"
+      ]
+    },
+    {
+      "name": "Coral Reef",
+      "words": [
+        "CORAL",
+        "REEF",
+        "POLYP",
+        "ANEMONE",
+        "COLONY",
+        "BARRIER",
+        "LAGOON",
+        "ATOLL",
+        "TROPICAL",
+        "COLORFUL",
+        "FISH",
+        "GROWTH"
+      ]
+    },
+    {
+      "name": "Crabs",
+      "words": [
+        "CRAB",
+        "HERMIT",
+        "FIDDLER",
+        "GHOST",
+        "SPIDER",
+        "KING",
+        "BLUE",
+        "CLAW",
+        "MOLT",
+        "SHELL",
+        "PINCER",
+        "SCUTTLE"
+      ]
+    },
+    {
+      "name": "Lobsters",
+      "words": [
+        "LOBSTER",
+        "CLAW",
+        "ANTENNA",
+        "TAIL",
+        "MOLT",
+        "SPINY",
+        "TRAP",
+        "SHELL",
+        "CRUSHER",
+        "RED",
+        "OCEAN",
+        "SEGMENT"
+      ]
+    },
+    {
+      "name": "Shrimp",
+      "words": [
+        "SHRIMP",
+        "PRAWN",
+        "KRILL",
+        "CLEANER",
+        "TINY",
+        "SHELL",
+        "TAIL",
+        "FEELER",
+        "PINK",
+        "SCHOOL",
+        "REEF",
+        "MOLT"
+      ]
+    },
+    {
+      "name": "Mollusks",
+      "words": [
+        "CLAM",
+        "OYSTER",
+        "MUSSEL",
+        "SCALLOP",
+        "SNAIL",
+        "CONCH",
+        "COCKLE",
+        "WHELK",
+        "PEARL",
+        "SHELL",
+        "NAUTILUS",
+        "ABALONE"
+      ]
+    },
+    {
+      "name": "Octopus",
+      "words": [
+        "OCTOPUS",
+        "TENTACLE",
+        "INK",
+        "SUCKER",
+        "ARMS",
+        "BEAK",
+        "MANTLE",
+        "JET",
+        "HIDE",
+        "DEN",
+        "CLEVER",
+        "CRAWL"
+      ]
+    },
+    {
+      "name": "Squid",
+      "words": [
+        "SQUID",
+        "TENTACLE",
+        "MANTLE",
+        "INK",
+        "FINS",
+        "BEAK",
+        "JET",
+        "GIANT",
+        "CUTTLE",
+        "SUCKER",
+        "ARMS",
+        "KRAKEN"
+      ]
+    },
+    {
+      "name": "Jellyfish",
+      "words": [
+        "JELLYFISH",
+        "TENTACLE",
+        "STING",
+        "MEDUSA",
+        "BELL",
+        "NETTLE",
+        "BLOOM",
+        "DRIFT",
+        "VENOM",
+        "FLOAT",
+        "PULSE",
+        "GLOW"
+      ]
+    },
+    {
+      "name": "Seahorses",
+      "words": [
+        "SEAHORSE",
+        "PIPEFISH",
+        "SNOUT",
+        "CURL",
+        "POUCH",
+        "FRY",
+        "MATE",
+        "CLING",
+        "CORAL",
+        "GRASS",
+        "TINY",
+        "DRIFT"
+      ]
+    },
+    {
+      "name": "Stingrays",
+      "words": [
+        "STINGRAY",
+        "MANTA",
+        "SKATE",
+        "RAY",
+        "BARB",
+        "GLIDE",
+        "WINGS",
+        "ELECTRIC",
+        "SPOTTED",
+        "EAGLE",
+        "DISC",
+        "FLAT"
+      ]
+    },
+    {
+      "name": "Seals and Walruses",
+      "words": [
+        "SEAL",
+        "SEALION",
+        "WALRUS",
+        "FUR",
+        "FLIPPER",
+        "PUP",
+        "BARK",
+        "BLUBBER",
+        "COLONY",
+        "TUSK",
+        "WHISKER",
+        "DIVE"
+      ]
+    },
+    {
+      "name": "Sea Otters",
+      "words": [
+        "OTTER",
+        "FUR",
+        "FLOAT",
+        "KELP",
+        "PAWS",
+        "RAFT",
+        "CLAM",
+        "CRACK",
+        "DIVE",
+        "PLAYFUL",
+        "WHISKER",
+        "GROOM"
+      ]
+    },
+    {
+      "name": "Penguins",
+      "words": [
+        "PENGUIN",
+        "EMPEROR",
+        "KING",
+        "GENTOO",
+        "ADELIE",
+        "CHICK",
+        "COLONY",
+        "WADDLE",
+        "HUDDLE",
+        "ICEBERG",
+        "DIVE",
+        "FISH"
+      ]
+    },
+    {
+      "name": "Seabirds",
+      "words": [
+        "GULL",
+        "ALBATROSS",
+        "PELICAN",
+        "GANNET",
+        "TERN",
+        "PUFFIN",
+        "CORMORANT",
+        "BOOBY",
+        "PETREL",
+        "OSPREY",
+        "FRIGATE",
+        "DIVE"
+      ]
+    },
+    {
+      "name": "Tide Pools",
+      "words": [
+        "TIDEPOOL",
+        "ANEMONE",
+        "STARFISH",
+        "URCHIN",
+        "CRAB",
+        "LIMPET",
+        "BARNACLE",
+        "MUSSEL",
+        "ALGAE",
+        "SNAIL",
+        "ROCKY",
+        "SPLASH"
+      ]
+    },
+    {
+      "name": "Starfish",
+      "words": [
+        "STARFISH",
+        "SEASTAR",
+        "ARMS",
+        "SPINE",
+        "RADIAL",
+        "REGROW",
+        "TUBE",
+        "SUCKER",
+        "REEF",
+        "ORANGE",
+        "CRAWL",
+        "FIVE"
+      ]
+    },
+    {
+      "name": "Sea Urchins",
+      "words": [
+        "URCHIN",
+        "SPINE",
+        "SPIKY",
+        "ROUND",
+        "SHELL",
+        "ROCK",
+        "GRAZE",
+        "ALGAE",
+        "BLACK",
+        "REEF",
+        "TUBE",
+        "BURROW"
+      ]
+    },
+    {
+      "name": "Kelp Forest",
+      "words": [
+        "KELP",
+        "FOREST",
+        "FROND",
+        "HOLDFAST",
+        "CANOPY",
+        "BLADE",
+        "GIANT",
+        "SWAY",
+        "OTTER",
+        "URCHIN",
+        "GROVE",
+        "SHADE"
+      ]
+    },
+    {
+      "name": "Plankton",
+      "words": [
+        "PLANKTON",
+        "KRILL",
+        "DIATOM",
+        "DRIFT",
+        "BLOOM",
+        "ALGAE",
+        "TINY",
+        "FLOAT",
+        "COPEPOD",
+        "GREEN",
+        "CHAIN",
+        "MICROBE"
+      ]
+    },
+    {
+      "name": "The Deep Sea",
+      "words": [
+        "ABYSS",
+        "TRENCH",
+        "ANGLER",
+        "GLOW",
+        "VENT",
+        "COLD",
+        "LANTERN",
+        "GULPER",
+        "DEEP",
+        "BLACK",
+        "DARK",
+        "PRESSURE"
+      ]
+    },
+    {
+      "name": "Bioluminescence",
+      "words": [
+        "GLOW",
+        "LIGHT",
+        "ANGLER",
+        "LANTERN",
+        "SPARK",
+        "FLASH",
+        "NEON",
+        "LURE",
+        "SHINE",
+        "BEACON",
+        "GLIMMER",
+        "BLUE"
+      ]
+    },
+    {
+      "name": "Tropical Fish",
+      "words": [
+        "CLOWNFISH",
+        "TANG",
+        "ANGEL",
+        "WRASSE",
+        "GROUPER",
+        "PARROT",
+        "DAMSEL",
+        "GOBY",
+        "BLENNY",
+        "LIONFISH",
+        "GUPPY",
+        "CORAL"
+      ]
+    },
+    {
+      "name": "Schooling Fish",
+      "words": [
+        "SARDINE",
+        "HERRING",
+        "ANCHOVY",
+        "MACKEREL",
+        "TUNA",
+        "SCHOOL",
+        "SHOAL",
+        "SILVER",
+        "DART",
+        "SWIRL",
+        "BAIT",
+        "MASS"
+      ]
+    },
+    {
+      "name": "Seashells",
+      "words": [
+        "SHELL",
+        "CONCH",
+        "COWRIE",
+        "SCALLOP",
+        "WHELK",
+        "SPIRAL",
+        "NACRE",
+        "COCKLE",
+        "AUGER",
+        "MUREX",
+        "OYSTER",
+        "CLAM"
+      ]
+    },
+    {
+      "name": "Seaweed",
+      "words": [
+        "SEAWEED",
+        "KELP",
+        "ALGAE",
+        "FROND",
+        "WRACK",
+        "DULSE",
+        "NORI",
+        "GREEN",
+        "BROWN",
+        "DRIFT",
+        "SWAY",
+        "MEADOW"
+      ]
+    },
+    {
+      "name": "Manatees",
+      "words": [
+        "MANATEE",
+        "DUGONG",
+        "SEACOW",
+        "GENTLE",
+        "GRAZE",
+        "SLOW",
+        "SNOUT",
+        "PADDLE",
+        "WARM",
+        "GRASS",
+        "FLIPPER",
+        "RIVER"
+      ]
+    },
+    {
+      "name": "Ocean Zones",
+      "words": [
+        "SUNLIGHT",
+        "TWILIGHT",
+        "MIDNIGHT",
+        "ABYSS",
+        "TRENCH",
+        "SURFACE",
+        "DEEP",
+        "PELAGIC",
+        "BENTHIC",
+        "ZONE",
+        "LAYER",
+        "DEPTH"
+      ]
+    },
+    {
+      "name": "Tides and Currents",
+      "words": [
+        "TIDE",
+        "CURRENT",
+        "EBB",
+        "FLOW",
+        "NEAP",
+        "SPRING",
+        "GULF",
+        "STREAM",
+        "SWELL",
+        "SURGE",
+        "DRIFT",
+        "LUNAR"
+      ]
+    },
+    {
+      "name": "Waves",
+      "words": [
+        "WAVE",
+        "SURF",
+        "SWELL",
+        "CREST",
+        "TROUGH",
+        "FOAM",
+        "BREAK",
+        "CURL",
+        "RIPPLE",
+        "SPRAY",
+        "ROLLER",
+        "SPLASH"
+      ]
+    },
+    {
+      "name": "The Beach",
+      "words": [
+        "BEACH",
+        "SHORE",
+        "SAND",
+        "DUNE",
+        "PEBBLE",
+        "SHELL",
+        "SURF",
+        "COVE",
+        "CLIFF",
+        "DRIFTWOOD",
+        "GULL",
+        "TIDE"
+      ]
+    },
+    {
+      "name": "Coral Types",
+      "words": [
+        "BRAIN",
+        "STAGHORN",
+        "TABLE",
+        "FAN",
+        "PILLAR",
+        "ELKHORN",
+        "SOFT",
+        "HARD",
+        "POLYP",
+        "STAR",
+        "LACE",
+        "BUBBLE"
+      ]
+    },
+    {
+      "name": "Fish Fins",
+      "words": [
+        "DORSAL",
+        "CAUDAL",
+        "PECTORAL",
+        "FIN",
+        "TAIL",
+        "SPINE",
+        "GILL",
+        "SCALE",
+        "BARBEL",
+        "LATERAL",
+        "RAY",
+        "SNOUT"
+      ]
+    },
+    {
+      "name": "Scuba Diving",
+      "words": [
+        "DIVE",
+        "SNORKEL",
+        "MASK",
+        "FINS",
+        "TANK",
+        "BUBBLE",
+        "REEF",
+        "DEPTH",
+        "WETSUIT",
+        "EXPLORE",
+        "OCEAN",
+        "OXYGEN"
+      ]
+    },
+    {
+      "name": "Shipwrecks",
+      "words": [
+        "WRECK",
+        "ANCHOR",
+        "HULL",
+        "MAST",
+        "RUST",
+        "CARGO",
+        "SUNKEN",
+        "TREASURE",
+        "RELIC",
+        "REEF",
+        "DIVER",
+        "DEBRIS"
+      ]
+    },
+    {
+      "name": "Harbors",
+      "words": [
+        "HARBOR",
+        "BEACON",
+        "DOCK",
+        "PIER",
+        "WHARF",
+        "JETTY",
+        "BUOY",
+        "MOOR",
+        "ANCHOR",
+        "QUAY",
+        "MARINA",
+        "BREAKWATER"
+      ]
+    },
+    {
+      "name": "Sailboats",
+      "words": [
+        "SAIL",
+        "BOAT",
+        "YACHT",
+        "MAST",
+        "HULL",
+        "DECK",
+        "RUDDER",
+        "KEEL",
+        "STERN",
+        "ANCHOR",
+        "VOYAGE",
+        "RIGGING"
+      ]
+    },
+    {
+      "name": "Fishing",
+      "words": [
+        "NET",
+        "HOOK",
+        "LINE",
+        "REEL",
+        "BAIT",
+        "CATCH",
+        "TRAWL",
+        "LURE",
+        "CAST",
+        "HAUL",
+        "ANGLER",
+        "TACKLE"
+      ]
+    },
+    {
+      "name": "Sea Anemones",
+      "words": [
+        "ANEMONE",
+        "TENTACLE",
+        "STING",
+        "POLYP",
+        "CORAL",
+        "SWAY",
+        "COLUMN",
+        "CLING",
+        "ROCK",
+        "BLOOM",
+        "COLORFUL",
+        "REEF"
+      ]
+    },
+    {
+      "name": "Pufferfish",
+      "words": [
+        "PUFFER",
+        "INFLATE",
+        "SPINES",
+        "TOXIN",
+        "BALLOON",
+        "REEF",
+        "SPIKY",
+        "BLOAT",
+        "ROUND",
+        "GUARD",
+        "FLOAT",
+        "OCEAN"
+      ]
+    },
+    {
+      "name": "Sea Migration",
+      "words": [
+        "MIGRATE",
+        "JOURNEY",
+        "WHALE",
+        "TURTLE",
+        "SALMON",
+        "ROUTE",
+        "SEASON",
+        "TRAVEL",
+        "RETURN",
+        "BREED",
+        "INSTINCT",
+        "FEED"
+      ]
+    }
+  ]
+}

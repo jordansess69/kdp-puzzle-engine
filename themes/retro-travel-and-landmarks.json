@@ -1,0 +1,820 @@
+{
+  "title": "Large Print Retro Travel and Landmarks Word Search",
+  "subtitle": "47 Relaxing Large-Print Puzzles with Big Easy-to-Read Letters and Full Solutions",
+  "author": "E. P. Greenwood",
+  "palette": "retro-travel-and-landmarks",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Eiffel Tower",
+      "words": [
+        "PARIS",
+        "FRANCE",
+        "TOWER",
+        "IRON",
+        "METAL",
+        "EUROPE",
+        "LANDMARK",
+        "TOURISM",
+        "FRENCH",
+        "ARCHITECT",
+        "HISTORY",
+        "MONUMENT"
+      ]
+    },
+    {
+      "name": "Vintage Cars",
+      "words": [
+        "CLASSIC",
+        "AUTOMOBILE",
+        "WHEELS",
+        "DRIVER",
+        "ROADTRIP",
+        "RETAIL",
+        "RESTORE",
+        "MUSEUM",
+        "COLLECTOR",
+        "HERITAGE",
+        "ENGINE",
+        "CHROME"
+      ]
+    },
+    {
+      "name": "Grand Canyon",
+      "words": [
+        "ARIZONA",
+        "NATIONAL",
+        "PARKS",
+        "HIKE",
+        "TRAIL",
+        "SCENIC",
+        "WONDER",
+        "GEOLOGY",
+        "LANDFORM",
+        "TOPOGRAPHY",
+        "WILDERNESS",
+        "EXPLORER"
+      ]
+    },
+    {
+      "name": "Steam Locomotive",
+      "words": [
+        "RAILWAY",
+        "TRAIN",
+        "ENGINE",
+        "STEAM",
+        "LOCOMOTIVE",
+        "TRANSPORT",
+        "HISTORY",
+        "TRACK",
+        "STATION",
+        "CONDUCTOR",
+        "FREIGHT",
+        "CABOOSE"
+      ]
+    },
+    {
+      "name": "Big Ben",
+      "words": [
+        "LONDON",
+        "CLOCK",
+        "TOWER",
+        "ENGLAND",
+        "LANDMARK",
+        "PARLIAMENT",
+        "ARCHITECT",
+        "HISTORY",
+        "TOURISM",
+        "CULTURE",
+        "HERITAGE",
+        "MONUMENT"
+      ]
+    },
+    {
+      "name": "Old Maps",
+      "words": [
+        "ATLAS",
+        "GLOBE",
+        "NAVIGATION",
+        "CARTOGRAPHY",
+        "EXPLORER",
+        "DISCOVERY",
+        "HISTORY",
+        "VINTAGE",
+        "COLLECTOR",
+        "ANTIQUE",
+        "CHART",
+        "TOPOGRAPHY"
+      ]
+    },
+    {
+      "name": "Hot Air Balloon",
+      "words": [
+        "FLIGHT",
+        "AERIAL",
+        "VIEW",
+        "BALLOON",
+        "BASKET",
+        "BURNER",
+        "ALTITUDE",
+        "ADVENTURE",
+        "TOURISM",
+        "RECREATION",
+        "LEISURE",
+        "SERENE"
+      ]
+    },
+    {
+      "name": "Route 66",
+      "words": [
+        "HIGHWAY",
+        "ROADTRIP",
+        "AMERICA",
+        "TRAVEL",
+        "TOURISM",
+        "ADVENTURE",
+        "CLASSIC",
+        "VINTAGE",
+        "MOTEL",
+        "DINER",
+        "LANDMARK",
+        "LEGEND"
+      ]
+    },
+    {
+      "name": "Leaning Tower",
+      "words": [
+        "ITALY",
+        "TOWER",
+        "LANDMARK",
+        "TOURISM",
+        "HISTORY",
+        "ARCHITECT",
+        "MONUMENT",
+        "MARBLE",
+        "STONE",
+        "ENGINEER",
+        "WONDER"
+      ]
+    },
+    {
+      "name": "Ancient Ruins",
+      "words": [
+        "HISTORY",
+        "ARCHAEOLOGY",
+        "RUINS",
+        "TEMPLE",
+        "CULTURE",
+        "HERITAGE",
+        "EXCAVATION",
+        "ARTIFACT",
+        "MONUMENT",
+        "LANDMARK",
+        "MYSTERY"
+      ]
+    },
+    {
+      "name": "Ferris Wheel",
+      "words": [
+        "AMUSEMENT",
+        "PARK",
+        "CARNIVAL",
+        "FAIR",
+        "RIDE",
+        "ATTRACTION",
+        "TOURISM",
+        "LEISURE",
+        "RECREATION",
+        "FUN",
+        "WHEEL"
+      ]
+    },
+    {
+      "name": "Old Cameras",
+      "words": [
+        "PHOTOGRAPHY",
+        "CAMERA",
+        "FILM",
+        "LENS",
+        "SHUTTER",
+        "APERTURE",
+        "FOCUS",
+        "DEVELOP",
+        "PRINT",
+        "ALBUM",
+        "MEMORY",
+        "VINTAGE"
+      ]
+    },
+    {
+      "name": "Mountain Train",
+      "words": [
+        "MOUNTAIN",
+        "TRAIN",
+        "TRACKS",
+        "RAILWAY",
+        "STATION",
+        "ENGINE",
+        "TUNNEL",
+        "BRIDGE",
+        "RAILS",
+        "LOCOMOTIVE",
+        "SCENERY"
+      ]
+    },
+    {
+      "name": "Lighthouse",
+      "words": [
+        "LIGHTHOUSE",
+        "BEACON",
+        "TOWER",
+        "COASTAL",
+        "NAVIGATE",
+        "MARITIME",
+        "OCEAN",
+        "WAVES",
+        "SHORE",
+        "SEA",
+        "SIGNAL",
+        "GUIDE"
+      ]
+    },
+    {
+      "name": "Retro Airplane",
+      "words": [
+        "AIRPLANE",
+        "VINTAGE",
+        "FLYING",
+        "PROPELLER",
+        "COCKPIT",
+        "AVIATOR",
+        "FLIGHT",
+        "SPEED",
+        "ALTITUDE",
+        "NAVIGATOR",
+        "PARACHUTE",
+        "LANDING"
+      ]
+    },
+    {
+      "name": "Beach Resort",
+      "words": [
+        "RESORT",
+        "BEACH",
+        "VACATION",
+        "HOLIDAY",
+        "SUNSET",
+        "PALM",
+        "COCONUT",
+        "SURFING",
+        "SWIMMING",
+        "SAND",
+        "RELAX",
+        "PARADISE"
+      ]
+    },
+    {
+      "name": "Gondola Ride",
+      "words": [
+        "GONDOLA",
+        "VENICE",
+        "CANAL",
+        "BOAT",
+        "ROWING",
+        "WATER",
+        "FLOAT",
+        "CITY",
+        "ROMANCE",
+        "SIGHTSEE",
+        "TOURIST",
+        "ADVENTURE"
+      ]
+    },
+    {
+      "name": "Desert Highway",
+      "words": [
+        "HIGHWAY",
+        "DESERT",
+        "ROADTRIP",
+        "DRIVE",
+        "SANDSTORM",
+        "CANYON",
+        "MOUNTAIN",
+        "VALLEY",
+        "LANDSCAPE",
+        "WILDERNESS",
+        "EXPLORER",
+        "JOURNEY"
+      ]
+    },
+    {
+      "name": "Classic Boat",
+      "words": [
+        "BOAT",
+        "CLASSIC",
+        "SAILING",
+        "YACHT",
+        "NAVY",
+        "VESSEL",
+        "SHIP",
+        "ANCHOR",
+        "ROPE",
+        "KEEL",
+        "RIGGER",
+        "BUOY"
+      ]
+    },
+    {
+      "name": "London Bridge",
+      "words": [
+        "LONDON",
+        "BRIDGE",
+        "RIVER",
+        "THAMES",
+        "CITY",
+        "LANDMARK",
+        "ICON",
+        "TOURISM",
+        "TRAVEL",
+        "ENGINEER",
+        "ARCHITECT",
+        "HISTORY"
+      ]
+    },
+    {
+      "name": "Pyramid",
+      "words": [
+        "PYRAMID",
+        "EGYPT",
+        "PHARAOH",
+        "SAND",
+        "DESERT",
+        "MONUMENT",
+        "HISTORY",
+        "MYSTERY",
+        "ARCHAEOLOGY",
+        "EXCAVATE",
+        "MUMMY",
+        "SPHINX"
+      ]
+    },
+    {
+      "name": "Travel Posters",
+      "words": [
+        "POSTER",
+        "TRAVEL",
+        "ADVERTISE",
+        "VINTAGE",
+        "ARTWORK",
+        "DESTINATION",
+        "EXOTIC",
+        "JOURNEY",
+        "ADVENTURE",
+        "WANDER",
+        "DISCOVER",
+        "EXPLORE"
+      ]
+    },
+    {
+      "name": "Old Clock",
+      "words": [
+        "CLOCK",
+        "OLD",
+        "TIME",
+        "HISTORY",
+        "MECHANISM",
+        "GEAR",
+        "SPRING",
+        "PENDULUM",
+        "TIMEKEEP",
+        "WATCH",
+        "ANTIQUE",
+        "VINTAGE"
+      ]
+    },
+    {
+      "name": "Mountain Lodge",
+      "words": [
+        "LODGE",
+        "MOUNTAIN",
+        "RESORT",
+        "VACATION",
+        "SKIING",
+        "HIKING",
+        "TRAIL",
+        "FOREST",
+        "WILDERNESS",
+        "SCENERY",
+        "RELAX",
+        "RETREAT"
+      ]
+    },
+    {
+      "name": "Retro Bus",
+      "words": [
+        "VEHICLE",
+        "TOURING",
+        "COACHES",
+        "PASSENGER",
+        "COMFORT",
+        "SEATING",
+        "DRIVER",
+        "ROUTE",
+        "SCHEDULE",
+        "DESTINATION",
+        "TRANSPORT",
+        "FLEET"
+      ]
+    },
+    {
+      "name": "Famous Monuments",
+      "words": [
+        "LANDMARK",
+        "HISTORY",
+        "TOURISM",
+        "ARCHITECT",
+        "STATUE",
+        "MEMORIAL",
+        "HERITAGE",
+        "CULTURE",
+        "LEGACY",
+        "CONSERVE",
+        "RESTORE",
+        "PRESERVE"
+      ]
+    },
+    {
+      "name": "Island Getaway",
+      "words": [
+        "PARADISE",
+        "VACATION",
+        "BEACHES",
+        "TROPICAL",
+        "ISLANDER",
+        "COCONUT",
+        "SURFING",
+        "SUNSET",
+        "PALMTREE",
+        "SEASIDE",
+        "RELAXED",
+        "HOLIDAY"
+      ]
+    },
+    {
+      "name": "Vintage Train",
+      "words": [
+        "LOCOMOTIVE",
+        "RAILWAY",
+        "STATION",
+        "CONDUCTOR",
+        "CARRIAGE",
+        "TRACKS",
+        "STEAMER",
+        "ENGINE",
+        "TRAVELER",
+        "JOURNEY",
+        "CAROUSEL",
+        "HISTORY"
+      ]
+    },
+    {
+      "name": "City Skyline",
+      "words": [
+        "METROPOLIS",
+        "URBAN",
+        "BUILDING",
+        "ARCHITECT",
+        "SKYSCRAPER",
+        "CITYSCAPE",
+        "METRO",
+        "SUBWAY",
+        "STREET",
+        "NEONLIGHT",
+        "BILLBOARD",
+        "TOWERING"
+      ]
+    },
+    {
+      "name": "Historic Castle",
+      "words": [
+        "MEDIEVAL",
+        "FORTRESS",
+        "KNIGHT",
+        "KINGDOM",
+        "TURRET",
+        "BATTLEMENT",
+        "DRAWBRIDGE",
+        "MOAT",
+        "THRONE",
+        "MONARCH",
+        "ARMORY",
+        "HERITAGE"
+      ]
+    },
+    {
+      "name": "Retro Motorcycle",
+      "words": [
+        "VINTAGE",
+        "BIKER",
+        "ENGINE",
+        "CHOPPER",
+        "LEATHER",
+        "HELMET",
+        "ROADTRIP",
+        "HIGHWAY",
+        "SPEEDSTER",
+        "GASOLINE",
+        "CLASSIC",
+        "REBEL"
+      ]
+    },
+    {
+      "name": "Seaside Pier",
+      "words": [
+        "MARINA",
+        "HARBOR",
+        "FISHING",
+        "BOATING",
+        "SAILING",
+        "SURFING",
+        "BEACHCOMB",
+        "SEAGULL",
+        "LIFEGUARD",
+        "SUNSET",
+        "BOARDWALK",
+        "AMPLITUDE"
+      ]
+    },
+    {
+      "name": "Old Passport",
+      "words": [
+        "TRAVELER",
+        "VISA",
+        "STAMP",
+        "CITIZEN",
+        "NATION",
+        "COUNTRY",
+        "BORDER",
+        "CUSTOMS",
+        "IMMIGRATE",
+        "DOCUMENT",
+        "IDENTITY",
+        "GLOBAL"
+      ]
+    },
+    {
+      "name": "Rural Highway",
+      "words": [
+        "COUNTRYSIDE",
+        "SCENERY",
+        "DRIVEWAY",
+        "CROSSROAD",
+        "TRAFFIC",
+        "HIGHWAYMAN",
+        "MOTORIST",
+        "ROADTRIP",
+        "LANDSCAPE",
+        "VILLAGE",
+        "FARMLAND",
+        "HORIZON"
+      ]
+    },
+    {
+      "name": "Mountain Peak",
+      "words": [
+        "SUMMIT",
+        "CLIMBER",
+        "MOUNTAINEER",
+        "PEAKS",
+        "VALLEY",
+        "LANDFORM",
+        "GEOPARK",
+        "HIKING",
+        "TRAIL",
+        "ALTITUDE",
+        "SNOWCAP",
+        "WILDERNESS"
+      ]
+    },
+    {
+      "name": "Retro Bicycle",
+      "words": [
+        "VINTAGE",
+        "CYCLIST",
+        "PEDALING",
+        "GEAR",
+        "CHAIN",
+        "SADDLE",
+        "HANDLEBAR",
+        "WHEEL",
+        "SPROCKET",
+        "CHAINRING",
+        "BELL",
+        "FREEWHEEL"
+      ]
+    },
+    {
+      "name": "River Cruise",
+      "words": [
+        "RIVER",
+        "CRUISE",
+        "SHIP",
+        "BOAT",
+        "WATER",
+        "TRAVEL",
+        "TOUR",
+        "GUIDE",
+        "CAPTAIN",
+        "HARBOR",
+        "DOCK",
+        "SAILING"
+      ]
+    },
+    {
+      "name": "Desert Oasis",
+      "words": [
+        "DESERT",
+        "OASIS",
+        "PALM",
+        "TREE",
+        "SAND",
+        "DUNE",
+        "TRAVEL",
+        "CAMEL",
+        "CARAVAN",
+        "TENT",
+        "CAMPING",
+        "EXPLORER"
+      ]
+    },
+    {
+      "name": "Famous Landmarks",
+      "words": [
+        "LANDMARK",
+        "MONUMENT",
+        "STATUE",
+        "BUILDING",
+        "CITY",
+        "TOURISM",
+        "TRAVEL",
+        "HISTORY",
+        "CULTURE",
+        "ARCHITECT",
+        "HERITAGE",
+        "ICONIC"
+      ]
+    },
+    {
+      "name": "Retro Taxi",
+      "words": [
+        "TAXI",
+        "CAB",
+        "DRIVER",
+        "VEHICLE",
+        "RIDE",
+        "TRAVEL",
+        "CITY",
+        "STREET",
+        "ROAD",
+        "TRAFFIC",
+        "LICENSE",
+        "FARE"
+      ]
+    },
+    {
+      "name": "Beachside Town",
+      "words": [
+        "BEACH",
+        "TOWN",
+        "COAST",
+        "SEA",
+        "SAND",
+        "SUN",
+        "SURF",
+        "WAVE",
+        "PIER",
+        "HARBOR",
+        "FISHING",
+        "VACATION"
+      ]
+    },
+    {
+      "name": "Mountain Village",
+      "words": [
+        "MOUNTAIN",
+        "VILLAGE",
+        "PEAK",
+        "HIKE",
+        "TRAIL",
+        "CLIMB",
+        "SNOW",
+        "SKI",
+        "RESORT",
+        "CABIN",
+        "LODGE",
+        "SCENERY"
+      ]
+    },
+    {
+      "name": "Vintage Sailing",
+      "words": [
+        "SAILING",
+        "BOAT",
+        "SHIP",
+        "VINTAGE",
+        "CLASSIC",
+        "REGATTA",
+        "RACE",
+        "WIND",
+        "WAVE",
+        "SEA",
+        "NAVIGATE",
+        "CREW"
+      ]
+    },
+    {
+      "name": "City Landmark",
+      "words": [
+        "CITY",
+        "LANDMARK",
+        "MONUMENT",
+        "BUILDING",
+        "ARCHITECT",
+        "HISTORY",
+        "CULTURE",
+        "TOURISM",
+        "TRAVEL",
+        "GUIDE",
+        "MAP",
+        "DIRECTION"
+      ]
+    },
+    {
+      "name": "Old Photographs",
+      "words": [
+        "PHOTOGRAPH",
+        "ALBUM",
+        "CAMERA",
+        "FILM",
+        "MEMORY",
+        "HISTORY",
+        "PAST",
+        "VINTAGE",
+        "CLASSIC",
+        "IMAGE",
+        "PICTURE",
+        "FRAME"
+      ]
+    },
+    {
+      "name": "Retro Travel",
+      "words": [
+        "TRAVEL",
+        "VINTAGE",
+        "CLASSIC",
+        "STYLE",
+        "DESTINATION",
+        "JOURNEY",
+        "TOUR",
+        "GUIDE",
+        "MAP",
+        "PASSPORT",
+        "ADVENTURE"
+      ]
+    },
+    {
+      "name": "Historic Lighthouse",
+      "words": [
+        "LIGHTHOUSE",
+        "HISTORIC",
+        "BEACON",
+        "LIGHT",
+        "TOWER",
+        "COAST",
+        "SEA",
+        "NAVIGATE",
+        "SHIP",
+        "SAFETY",
+        "GUIDE",
+        "MARITIME"
+      ]
+    }
+  ]
+}

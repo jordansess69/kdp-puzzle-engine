@@ -1,0 +1,824 @@
+{
+  "title": "Large Print Movie Magic Word Search",
+  "subtitle": "48 Relaxing Large-Print Puzzles with Big Easy-to-Read Letters and Full Solutions",
+  "author": "Evergreen Puzzle Press",
+  "palette": "movies",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Film Cameras",
+      "words": [
+        "CAMERAS",
+        "FILMING",
+        "REELS",
+        "LENS",
+        "FILM",
+        "SHOOT",
+        "ROLLS",
+        "FRAME",
+        "CLAPPER",
+        "SCRIPT",
+        "DIRECT",
+        "SHOOTER"
+      ]
+    },
+    {
+      "name": "Hollywood Stars",
+      "words": [
+        "STARS",
+        "ACTORS",
+        "ACTRESS",
+        "FAMOUS",
+        "LEGS",
+        "ICON",
+        "ROLE",
+        "PARTS",
+        "CASTS",
+        "FACES"
+      ]
+    },
+    {
+      "name": "Movie Nights",
+      "words": [
+        "MOVIES",
+        "NIGHTS",
+        "SCREEN",
+        "THEATER",
+        "SEATS",
+        "SNACKS",
+        "POPCORN",
+        "DRINKS",
+        "DIMMER",
+        "LIGHTS",
+        "SOUND",
+        "SYSTEM"
+      ]
+    },
+    {
+      "name": "Classic Films",
+      "words": [
+        "FILMS",
+        "CLASSIC",
+        "OLDIES",
+        "VINTAGE",
+        "MOVIE",
+        "STORIES",
+        "TALES",
+        "LEGEND",
+        "HEROES",
+        "ROMANCE",
+        "COMEDY"
+      ]
+    },
+    {
+      "name": "Oscar Winners",
+      "words": [
+        "OSCAR",
+        "WINNER",
+        "AWARDS",
+        "STATUE",
+        "GOLDEN",
+        "PRIZES",
+        "HONORS",
+        "FILMS",
+        "ACTORS",
+        "DIRECT",
+        "CEREMONY"
+      ]
+    },
+    {
+      "name": "Silver Screen",
+      "words": [
+        "SCREEN",
+        "SILVER",
+        "MOVIES",
+        "FILMS",
+        "PROJECT",
+        "IMAGE",
+        "PICTURE",
+        "FRAME",
+        "SHOWS",
+        "THEATER",
+        "CINEMA",
+        "VIEW"
+      ]
+    },
+    {
+      "name": "Cinema History",
+      "words": [
+        "HISTORY",
+        "CINEMA",
+        "FILMS",
+        "MOVIES",
+        "PAST",
+        "CLASSIC",
+        "OLDIES",
+        "ARCHIVE",
+        "MUSEUM",
+        "ARTIFACT",
+        "LEGACY",
+        "HERITAGE"
+      ]
+    },
+    {
+      "name": "Blockbuster Hits",
+      "words": [
+        "HITS",
+        "MOVIES",
+        "FILMS",
+        "OFFICE",
+        "SUCCESS",
+        "POPULAR",
+        "MONEY",
+        "RECORD",
+        "SALES",
+        "CHARTS"
+      ]
+    },
+    {
+      "name": "Film Festivals",
+      "words": [
+        "FESTIVAL",
+        "FILMS",
+        "MOVIES",
+        "EVENT",
+        "SHOWCASE",
+        "SCREEN",
+        "AWARDS",
+        "JURY",
+        "PANEL",
+        "GUESTS",
+        "VENUE",
+        "CINEMA"
+      ]
+    },
+    {
+      "name": "Red Carpet",
+      "words": [
+        "CARPET",
+        "RED",
+        "STARS",
+        "FAMOUS",
+        "GUESTS",
+        "ARRIVAL",
+        "PHOTO",
+        "FLASH",
+        "POPS",
+        "FASHION"
+      ]
+    },
+    {
+      "name": "Movie Theaters",
+      "words": [
+        "THEATER",
+        "MOVIES",
+        "FILMS",
+        "SCREEN",
+        "SEATS",
+        "SOUND",
+        "SYSTEM",
+        "PROJECT",
+        "IMAGE",
+        "POPCORN",
+        "SNACKS",
+        "CONCESSION"
+      ]
+    },
+    {
+      "name": "Popcorn Stand",
+      "words": [
+        "POPCORN",
+        "STAND",
+        "SNACKS",
+        "FOOD",
+        "DRINKS",
+        "CART",
+        "VENDOR",
+        "SELLER",
+        "TREATS",
+        "GOODIES",
+        "CONCESSION",
+        "COUNTER"
+      ]
+    },
+    {
+      "name": "Director Chair",
+      "words": [
+        "DIRECTOR",
+        "CHAIRMAN",
+        "PRODUCER",
+        "FILMING",
+        "SETUP",
+        "CAMERAS",
+        "LIGHTING",
+        "SCRIPTS",
+        "REHEARSAL",
+        "BLOCKING",
+        "ACTION",
+        "CUTTING"
+      ]
+    },
+    {
+      "name": "Script Writers",
+      "words": [
+        "WRITERS",
+        "SCREENPLAY",
+        "STORIES",
+        "DIALOGUE",
+        "CHARACTERS",
+        "PLOTLINE",
+        "GENRE",
+        "FICTION",
+        "NONFICTION",
+        "EDITING",
+        "REVISION",
+        "MANUSCRIPT"
+      ]
+    },
+    {
+      "name": "Acting Legends",
+      "words": [
+        "LEGENDS",
+        "ACTORS",
+        "PERFORM",
+        "STARS",
+        "FAMOUS",
+        "ICONIC",
+        "ROLES",
+        "PORTRAY",
+        "CHARISMA",
+        "TALENT",
+        "AWARDS",
+        "HONORS"
+      ]
+    },
+    {
+      "name": "Movie Posters",
+      "words": [
+        "POSTERS",
+        "BILLBOARDS",
+        "ADVERTS",
+        "PROMOTE",
+        "PUBLICITY",
+        "GRAPHICS",
+        "DESIGNER",
+        "COLORFUL",
+        "THEATER",
+        "CINEMA",
+        "MARQUEE"
+      ]
+    },
+    {
+      "name": "Film Scores",
+      "words": [
+        "SCORES",
+        "MUSICIAN",
+        "COMPOSER",
+        "ORCHESTRA",
+        "SYMPHONY",
+        "MELODY",
+        "HARMONY",
+        "RHYTHM",
+        "SOUNDTRACK",
+        "THEME",
+        "GENRE",
+        "CLASSIC"
+      ]
+    },
+    {
+      "name": "Cinematography",
+      "words": [
+        "CAMERAS",
+        "LENS",
+        "FOCUS",
+        "LIGHTING",
+        "FRAMING",
+        "COMPOSITION",
+        "MOVEMENT",
+        "SHOT",
+        "SCENE",
+        "SEQUENCE",
+        "EDITING"
+      ]
+    },
+    {
+      "name": "Special Effects",
+      "words": [
+        "EFFECTS",
+        "SPECIAL",
+        "VISUALS",
+        "ANIMATION",
+        "MODELING",
+        "SIMULATION",
+        "STUNTS",
+        "PROPS",
+        "ILLUSION",
+        "EXPLOSION",
+        "MINIATURE",
+        "RENDER"
+      ]
+    },
+    {
+      "name": "Movie Quotes",
+      "words": [
+        "QUOTES",
+        "DIALOGUE",
+        "PHRASES",
+        "LINE",
+        "SCENE",
+        "CHARACTERS",
+        "ACTORS",
+        "FAMOUS",
+        "ICONIC",
+        "MEMORABLE",
+        "FUNNY",
+        "INSPIRE"
+      ]
+    },
+    {
+      "name": "Character Actors",
+      "words": [
+        "ACTORS",
+        "CHARACTERS",
+        "ROLES",
+        "SUPPORT",
+        "PERFORM",
+        "TALENT",
+        "VERSATILE",
+        "EXPERIENCE",
+        "SKILLED",
+        "VARIETY",
+        "PORTFOLIO",
+        "CRAFT"
+      ]
+    },
+    {
+      "name": "Romantic Comedies",
+      "words": [
+        "ROMANCE",
+        "COMEDY",
+        "LOVE",
+        "HUMOR",
+        "LIGHTHEART",
+        "FUNNY",
+        "WITTY",
+        "CHARMING",
+        "ENGAGING",
+        "ENTERTAIN",
+        "DELIGHT",
+        "CHARM"
+      ]
+    },
+    {
+      "name": "Action Heroes",
+      "words": [
+        "HEROES",
+        "ACTION",
+        "ADVENTURE",
+        "BRAVE",
+        "STRONG",
+        "TOUGH",
+        "FEARLESS",
+        "DARING",
+        "SKILLED",
+        "EXPLOSIVE",
+        "THRILL",
+        "EXCITING"
+      ]
+    },
+    {
+      "name": "Western Movies",
+      "words": [
+        "WESTERN",
+        "MOVIES",
+        "COWBOY",
+        "RANCH",
+        "HORSE",
+        "GUNFIGHT",
+        "OUTLAW",
+        "SHERIFF",
+        "FRONTIER",
+        "ADVENTURE",
+        "CLASSIC",
+        "LEGEND"
+      ]
+    },
+    {
+      "name": "Science Fiction",
+      "words": [
+        "ALIEN",
+        "SPACE",
+        "ROBOT",
+        "FUTURE",
+        "PLANET",
+        "STARS",
+        "GALAXY",
+        "LASER",
+        "COMET",
+        "ASTRONAUT",
+        "ORBIT",
+        "UNIVERSE"
+      ]
+    },
+    {
+      "name": "Horror Movies",
+      "words": [
+        "GHOST",
+        "MONSTER",
+        "VAMPIRE",
+        "ZOMBIE",
+        "MUMMY",
+        "CURSE",
+        "FEAR",
+        "DARK",
+        "SHADOW",
+        "BLOOD",
+        "SCREAM",
+        "TERROR"
+      ]
+    },
+    {
+      "name": "Comedy Classics",
+      "words": [
+        "LAUGH",
+        "JOKE",
+        "FUNNY",
+        "SILLY",
+        "HUMOR",
+        "SATIRE",
+        "PARODY",
+        "COMIC",
+        "ACTOR",
+        "STAGE",
+        "SCRIPT",
+        "DIRECTOR"
+      ]
+    },
+    {
+      "name": "Drama Films",
+      "words": [
+        "ACTOR",
+        "STAGE",
+        "SCRIPT",
+        "THEATER",
+        "PLAY",
+        "ROLE",
+        "CHARACTER",
+        "EMOTION",
+        "STORY",
+        "PLOT",
+        "TWIST",
+        "CLIMAX"
+      ]
+    },
+    {
+      "name": "Musical Movies",
+      "words": [
+        "SONG",
+        "DANCE",
+        "MUSIC",
+        "SINGER",
+        "SCORE",
+        "RHYTHM",
+        "MELODY",
+        "HARMONY",
+        "PERFORM",
+        "ARTIST",
+        "ENTERTAIN"
+      ]
+    },
+    {
+      "name": "Animated Films",
+      "words": [
+        "CARTOON",
+        "ANIMATE",
+        "DRAWING",
+        "ILLUSION",
+        "FANTASY",
+        "IMAGINE",
+        "COLOR",
+        "DESIGN",
+        "GRAPHIC",
+        "TOON",
+        "FRAME",
+        "SEQUENCE"
+      ]
+    },
+    {
+      "name": "Documentaries",
+      "words": [
+        "FACT",
+        "TRUTH",
+        "REALITY",
+        "HISTORY",
+        "STORY",
+        "NARRATE",
+        "INFORM",
+        "EDUCATE",
+        "LEARN",
+        "DOCUMENT",
+        "RECORD",
+        "ARCHIVE"
+      ]
+    },
+    {
+      "name": "Foreign Films",
+      "words": [
+        "LANGUAGE",
+        "CULTURE",
+        "COUNTRY",
+        "TRAVEL",
+        "PASSPORT",
+        "VISIT",
+        "TOUR",
+        "EXPERIENCE",
+        "DIALOGUE",
+        "SUBTITLE",
+        "TRANSLATE"
+      ]
+    },
+    {
+      "name": "Classic Musicals",
+      "words": [
+        "CLASSIC",
+        "VINTAGE",
+        "MELODY",
+        "HARMONY",
+        "SONGBOOK",
+        "LIBRETTO",
+        "SCORE",
+        "COMPOSER",
+        "LYRIC",
+        "POETRY",
+        "ROMANCE"
+      ]
+    },
+    {
+      "name": "Silent Movies",
+      "words": [
+        "SILENT",
+        "MUTE",
+        "PANTOMIME",
+        "ACTOR",
+        "CHARADE",
+        "GESTURE",
+        "EXPRESSION",
+        "FACE",
+        "EMOTE",
+        "DRAMATIC",
+        "COMEDY",
+        "CLASSIC"
+      ]
+    },
+    {
+      "name": "Black White Films",
+      "words": [
+        "MONOCHROME",
+        "CONTRAST",
+        "SHADE",
+        "TONE",
+        "GRADATION",
+        "LIGHT",
+        "DARK",
+        "SHADOW",
+        "HIGHLIGHT",
+        "TEXTURE",
+        "GRAY",
+        "NOIR"
+      ]
+    },
+    {
+      "name": "Movie Palaces",
+      "words": [
+        "THEATER",
+        "CINEMA",
+        "AUDITORIUM",
+        "SCREEN",
+        "STAGE",
+        "CURTAIN",
+        "SEAT",
+        "BALCONY",
+        "LOBBY",
+        "CONCESS",
+        "MARQUEE"
+      ]
+    },
+    {
+      "name": "Film Archives",
+      "words": [
+        "ARCHIVE",
+        "FILMS",
+        "LIBRARY",
+        "MEDIA",
+        "STORAGE",
+        "VAULTS",
+        "CELLULOID",
+        "REELS",
+        "CANISTER",
+        "PROJECTOR",
+        "CINEMA",
+        "HISTORY"
+      ]
+    },
+    {
+      "name": "Preservation Society",
+      "words": [
+        "PRESERVE",
+        "FILMNOIR",
+        "CLASSICS",
+        "RESTORE",
+        "CONSERVE",
+        "HISTORY",
+        "SOCIETY",
+        "ARCHIVIST",
+        "CURATOR",
+        "HERITAGE",
+        "LEGACY"
+      ]
+    },
+    {
+      "name": "Movie Collectibles",
+      "words": [
+        "COLLECT",
+        "POSTERS",
+        "MEMORABILIA",
+        "TOYS",
+        "FIGURES",
+        "STATUES",
+        "BADGES",
+        "BUTTONS",
+        "PINUPS",
+        "PROGRAMS",
+        "PHOTOS",
+        "AUTOGRAPHS"
+      ]
+    },
+    {
+      "name": "Fan Conventions",
+      "words": [
+        "FANDOM",
+        "CONVENT",
+        "GATHER",
+        "MEETUPS",
+        "COSPLAY",
+        "FANART",
+        "COMMUNITY",
+        "EXHIBIT",
+        "PANELS",
+        "WORKSHOPS",
+        "SCREENING",
+        "CELEBRITY"
+      ]
+    },
+    {
+      "name": "Star Trek Fans",
+      "words": [
+        "TREKKER",
+        "FEDERATION",
+        "ENTERPRISE",
+        "SPACE",
+        "ALIENS",
+        "PHASER",
+        "TRANSPORT",
+        "WARP",
+        "COSMOS",
+        "GALAXY",
+        "FUTURISM"
+      ]
+    },
+    {
+      "name": "Movie Trivia",
+      "words": [
+        "TRIVIA",
+        "QUIZZES",
+        "GAMES",
+        "CHALLENGE",
+        "PUZZLES",
+        "RIDDLES",
+        "MOVIES",
+        "CINEMA",
+        "HOLLYWOOD",
+        "STARS",
+        "AWARDS",
+        "FILMNOIR"
+      ]
+    },
+    {
+      "name": "Film Critics",
+      "words": [
+        "CRITICS",
+        "REVIEW",
+        "ANALYSIS",
+        "OPINION",
+        "JOURNAL",
+        "PUBLICATION",
+        "MEDIA",
+        "COMMENT",
+        "EVALUATE",
+        "JUDGE",
+        "RATING",
+        "COMMENTARY"
+      ]
+    },
+    {
+      "name": "Awards Season",
+      "words": [
+        "AWARDS",
+        "STATUES",
+        "TROPHIES",
+        "RECOGNIZE",
+        "HONOR",
+        "CELEBRATE",
+        "FILMMAKER",
+        "STARS",
+        "CEREMONY",
+        "NOMINEE",
+        "WINNER"
+      ]
+    },
+    {
+      "name": "Box Office Hits",
+      "words": [
+        "HITS",
+        "MOVIES",
+        "BLOCKBUSTER",
+        "SUCCESS",
+        "REVENUE",
+        "PROFIT",
+        "TICKETS",
+        "SALES",
+        "CHARTS",
+        "RANKING",
+        "POPULAR"
+      ]
+    },
+    {
+      "name": "Home Theater",
+      "words": [
+        "THEATER",
+        "HOME",
+        "SYSTEM",
+        "SPEAKERS",
+        "SCREEN",
+        "PROJECTOR",
+        "SEATS",
+        "SOUND",
+        "QUALITY",
+        "COMFORT",
+        "ENTERTAIN",
+        "LEISURE"
+      ]
+    },
+    {
+      "name": "Film School",
+      "words": [
+        "FILM",
+        "SCHOOL",
+        "CINEMA",
+        "STUDIES",
+        "PROGRAM",
+        "CURRICULUM",
+        "COURSES",
+        "WORKSHOP",
+        "LAB",
+        "STUDIO",
+        "PRODUCTION",
+        "DIRECTOR"
+      ]
+    },
+    {
+      "name": "Screenwriting",
+      "words": [
+        "SCREEN",
+        "WRITING",
+        "SCRIPT",
+        "STORY",
+        "PLOT",
+        "CHARACTER",
+        "DIALOGUE",
+        "FORMAT",
+        "SOFTWARE",
+        "EDITING",
+        "REVISION",
+        "NARRATIVE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,846 @@
+{
+  "title": "Large Print Word Search for Kids",
+  "subtitle": "48 Fun Large Print Puzzles for Children with Big Easy-to-Read Letters and Full Solutions",
+  "author": "E. P. Greenwood",
+  "palette": "kids",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Animal Word Search",
+      "subtitle": "44 Relaxing Puzzles for Animal Lovers"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Farm Animals",
+      "words": [
+        "COW",
+        "PIG",
+        "HORSE",
+        "SHEEP",
+        "GOAT",
+        "CHICKEN",
+        "DUCK",
+        "ROOSTER",
+        "DONKEY",
+        "BARN",
+        "HEN",
+        "LAMB"
+      ]
+    },
+    {
+      "name": "Pets at Home",
+      "words": [
+        "DOG",
+        "CAT",
+        "BIRD",
+        "FISH",
+        "HAMSTER",
+        "RABBIT",
+        "GERBIL",
+        "BUNNY",
+        "KITTEN",
+        "PUPPY",
+        "TURTLE",
+        "PARROT"
+      ]
+    },
+    {
+      "name": "Colors of the Rainbow",
+      "words": [
+        "RED",
+        "ORANGE",
+        "YELLOW",
+        "GREEN",
+        "BLUE",
+        "PURPLE",
+        "PINK",
+        "BROWN",
+        "BLACK",
+        "WHITE",
+        "GRAY",
+        "GOLD"
+      ]
+    },
+    {
+      "name": "Shapes I Know",
+      "words": [
+        "CIRCLE",
+        "SQUARE",
+        "TRIANGLE",
+        "RECTANGLE",
+        "STAR",
+        "HEART",
+        "DIAMOND",
+        "OVAL",
+        "ARROW",
+        "CROSS",
+        "MOON",
+        "CUBE"
+      ]
+    },
+    {
+      "name": "Numbers",
+      "words": [
+        "ONE",
+        "TWO",
+        "THREE",
+        "FOUR",
+        "FIVE",
+        "SIX",
+        "SEVEN",
+        "EIGHT",
+        "NINE",
+        "TEN",
+        "ELEVEN",
+        "TWELVE"
+      ]
+    },
+    {
+      "name": "My Family",
+      "words": [
+        "MOM",
+        "DAD",
+        "SISTER",
+        "BROTHER",
+        "BABY",
+        "GRANDMA",
+        "GRANDPA",
+        "AUNT",
+        "UNCLE",
+        "COUSIN",
+        "FAMILY",
+        "HOME"
+      ]
+    },
+    {
+      "name": "My Body",
+      "words": [
+        "HEAD",
+        "ARM",
+        "LEG",
+        "HAND",
+        "FOOT",
+        "NOSE",
+        "EYE",
+        "EAR",
+        "MOUTH",
+        "HAIR",
+        "KNEE",
+        "TOE"
+      ]
+    },
+    {
+      "name": "Clothes I Wear",
+      "words": [
+        "SHIRT",
+        "PANTS",
+        "SOCKS",
+        "SHOES",
+        "HAT",
+        "COAT",
+        "GLOVES",
+        "SCARF",
+        "DRESS",
+        "SKIRT",
+        "JACKET",
+        "BOOTS"
+      ]
+    },
+    {
+      "name": "Vehicles",
+      "words": [
+        "CAR",
+        "TRUCK",
+        "BUS",
+        "TRAIN",
+        "PLANE",
+        "BOAT",
+        "BIKE",
+        "SCOOTER",
+        "TRACTOR",
+        "TAXI",
+        "VAN",
+        "SHIP"
+      ]
+    },
+    {
+      "name": "School Things",
+      "words": [
+        "BOOK",
+        "PEN",
+        "PENCIL",
+        "PAPER",
+        "CRAYON",
+        "DESK",
+        "CHAIR",
+        "BAG",
+        "RULER",
+        "ERASER",
+        "CHALK",
+        "BOARD"
+      ]
+    },
+    {
+      "name": "Toys",
+      "words": [
+        "BALL",
+        "DOLL",
+        "TEDDY",
+        "BLOCKS",
+        "PUZZLE",
+        "KITE",
+        "CAR",
+        "TRAIN",
+        "ROBOT",
+        "GAME",
+        "PUPPET",
+        "SLIDE"
+      ]
+    },
+    {
+      "name": "Foods I Like",
+      "words": [
+        "PIZZA",
+        "BURGER",
+        "FRIES",
+        "APPLE",
+        "BANANA",
+        "COOKIE",
+        "CAKE",
+        "BREAD",
+        "RICE",
+        "NOODLES",
+        "CANDY",
+        "SOUP"
+      ]
+    },
+    {
+      "name": "Drinks",
+      "words": [
+        "WATER",
+        "MILK",
+        "JUICE",
+        "SODA",
+        "TEA",
+        "COCOA",
+        "SHAKE",
+        "LEMONADE",
+        "SMOOTHIE",
+        "WATERMELON",
+        "COCONUT",
+        "SLUSHIE"
+      ]
+    },
+    {
+      "name": "Wild Animals",
+      "words": [
+        "LION",
+        "TIGER",
+        "BEAR",
+        "ELEPHANT",
+        "ZEBRA",
+        "GIRAFFE",
+        "MONKEY",
+        "KANGAROO",
+        "PANDA",
+        "HIPPO",
+        "WOLF",
+        "FOX"
+      ]
+    },
+    {
+      "name": "Sea Animals",
+      "words": [
+        "FISH",
+        "SHARK",
+        "WHALE",
+        "DOLPHIN",
+        "CRAB",
+        "OCTOPUS",
+        "STARFISH",
+        "SEAHORSE",
+        "JELLYFISH",
+        "TURTLE",
+        "SEAL",
+        "LOBSTER"
+      ]
+    },
+    {
+      "name": "Birds",
+      "words": [
+        "ROBIN",
+        "SPARROW",
+        "EAGLE",
+        "OWL",
+        "DUCK",
+        "HEN",
+        "SWAN",
+        "GOOSE",
+        "DOVE",
+        "PARROT",
+        "CROW",
+        "CANARY"
+      ]
+    },
+    {
+      "name": "Bugs & Insects",
+      "words": [
+        "ANT",
+        "BEE",
+        "BUTTERFLY",
+        "BEETLE",
+        "SPIDER",
+        "LADYBUG",
+        "FLY",
+        "CRICKET",
+        "DRAGONFLY",
+        "WORM",
+        "WASP",
+        "MOTH"
+      ]
+    },
+    {
+      "name": "Things at the Park",
+      "words": [
+        "SWING",
+        "SLIDE",
+        "SEESAW",
+        "SANDBOX",
+        "BENCH",
+        "TREE",
+        "GRASS",
+        "FLOWER",
+        "DUCK",
+        "POND",
+        "TRAIL",
+        "KITE"
+      ]
+    },
+    {
+      "name": "Beach Day",
+      "words": [
+        "SAND",
+        "SHELL",
+        "WAVE",
+        "BUCKET",
+        "SHOVEL",
+        "TOWEL",
+        "SUN",
+        "HAT",
+        "CRAB",
+        "FISH",
+        "CASTLE",
+        "SURF"
+      ]
+    },
+    {
+      "name": "Fairy Tales",
+      "words": [
+        "KING",
+        "QUEEN",
+        "PRINCESS",
+        "DRAGON",
+        "WIZARD",
+        "GIANT",
+        "FROG",
+        "CASTLE",
+        "CROWN",
+        "MAGIC",
+        "WAND",
+        "TROLL"
+      ]
+    },
+    {
+      "name": "Dinosaurs",
+      "words": [
+        "TREX",
+        "STEGOSAURUS",
+        "RAPTOR",
+        "TRICERATOPS",
+        "BRONTOSAURUS",
+        "DINO",
+        "FOSSIL",
+        "CLAW",
+        "TAIL",
+        "ROAR",
+        "HUGE",
+        "EGG"
+      ]
+    },
+    {
+      "name": "Garden Things",
+      "words": [
+        "FLOWER",
+        "LEAF",
+        "TREE",
+        "GRASS",
+        "BEE",
+        "SEED",
+        "WATER",
+        "SUN",
+        "BUG",
+        "ROOT",
+        "PETAL",
+        "ROSE"
+      ]
+    },
+    {
+      "name": "Bath Time",
+      "words": [
+        "BUBBLE",
+        "SOAP",
+        "TOWEL",
+        "RUBBERDUCKY",
+        "SPLASH",
+        "WATER",
+        "CLEAN",
+        "BRUSH",
+        "TUB",
+        "SHAMPOO",
+        "WARM",
+        "FUN"
+      ]
+    },
+    {
+      "name": "Breakfast",
+      "words": [
+        "TOAST",
+        "CEREAL",
+        "MILK",
+        "EGGS",
+        "BACON",
+        "JUICE",
+        "PANCAKE",
+        "WAFFLE",
+        "OATMEAL",
+        "FRUIT",
+        "JAM",
+        "HONEY"
+      ]
+    },
+    {
+      "name": "Lunch",
+      "words": [
+        "SANDWICH",
+        "SOUP",
+        "SALAD",
+        "WRAP",
+        "CHEESE",
+        "HAM",
+        "TURKEY",
+        "APPLE",
+        "CHIPS",
+        "COOKIE",
+        "JUICE",
+        "WATER"
+      ]
+    },
+    {
+      "name": "Dinner",
+      "words": [
+        "PASTA",
+        "CHICKEN",
+        "RICE",
+        "BEEF",
+        "FISH",
+        "SOUP",
+        "SALAD",
+        "BREAD",
+        "VEGGIES",
+        "CORN",
+        "POTATO",
+        "MILK"
+      ]
+    },
+    {
+      "name": "Sweet Treats",
+      "words": [
+        "CANDY",
+        "COOKIE",
+        "CAKE",
+        "ICECREAM",
+        "CHOCOLATE",
+        "DONUT",
+        "CUPCAKE",
+        "BROWNIE",
+        "PIE",
+        "LOLLIPOP",
+        "GUM",
+        "TAFFY"
+      ]
+    },
+    {
+      "name": "Holiday Words",
+      "words": [
+        "PARTY",
+        "CAKE",
+        "BALLOON",
+        "GIFT",
+        "FAMILY",
+        "SONG",
+        "DANCE",
+        "CANDLE",
+        "FUN",
+        "SMILE",
+        "HUG",
+        "KISS"
+      ]
+    },
+    {
+      "name": "Halloween",
+      "words": [
+        "GHOST",
+        "PUMPKIN",
+        "WITCH",
+        "CANDY",
+        "TREAT",
+        "MASK",
+        "COSTUME",
+        "BAT",
+        "SPIDER",
+        "SCARY",
+        "MOON",
+        "BLACK"
+      ]
+    },
+    {
+      "name": "Christmas Fun",
+      "words": [
+        "SANTA",
+        "TREE",
+        "ELF",
+        "GIFT",
+        "STAR",
+        "SNOW",
+        "REINDEER",
+        "COOKIE",
+        "STOCKING",
+        "BELL",
+        "SLEIGH",
+        "BOW"
+      ]
+    },
+    {
+      "name": "Easter Time",
+      "words": [
+        "BUNNY",
+        "EGG",
+        "CHICK",
+        "BASKET",
+        "SPRING",
+        "HUNT",
+        "CANDY",
+        "FLOWERS",
+        "CHOCOLATE",
+        "HOP",
+        "HIDE",
+        "COLOR"
+      ]
+    },
+    {
+      "name": "Valentines Day",
+      "words": [
+        "HEART",
+        "LOVE",
+        "CARD",
+        "ROSE",
+        "CANDY",
+        "HUG",
+        "KISS",
+        "TEDDY",
+        "CUPID",
+        "FRIEND",
+        "PINK",
+        "RED"
+      ]
+    },
+    {
+      "name": "Thanksgiving",
+      "words": [
+        "TURKEY",
+        "FAMILY",
+        "FOOD",
+        "PIE",
+        "CORN",
+        "FEAST",
+        "HARVEST",
+        "THANKS",
+        "MAYFLOWER",
+        "PILGRIM",
+        "FALL",
+        "LEAVES"
+      ]
+    },
+    {
+      "name": "My Birthday",
+      "words": [
+        "CAKE",
+        "CANDLE",
+        "GIFT",
+        "BALLOON",
+        "PARTY",
+        "HAT",
+        "WISH",
+        "SING",
+        "FRIEND",
+        "SMILE",
+        "FUN",
+        "ICECREAM"
+      ]
+    },
+    {
+      "name": "Picnic Day",
+      "words": [
+        "BASKET",
+        "BLANKET",
+        "SANDWICH",
+        "JUICE",
+        "FRUIT",
+        "CHIPS",
+        "COOKIE",
+        "ANT",
+        "TREE",
+        "SUN",
+        "GAME",
+        "BALL"
+      ]
+    },
+    {
+      "name": "Snow Day",
+      "words": [
+        "SNOW",
+        "SNOWMAN",
+        "SLED",
+        "COCOA",
+        "MITTENS",
+        "SCARF",
+        "BOOTS",
+        "COAT",
+        "SNOWBALL",
+        "ICE",
+        "COLD",
+        "FUN"
+      ]
+    },
+    {
+      "name": "Sunny Day",
+      "words": [
+        "SUN",
+        "SKY",
+        "CLOUD",
+        "WARM",
+        "BREEZE",
+        "BIRD",
+        "FLOWER",
+        "BEE",
+        "TREE",
+        "SHADE",
+        "SMILE",
+        "PLAY"
+      ]
+    },
+    {
+      "name": "Rainy Day",
+      "words": [
+        "RAIN",
+        "UMBRELLA",
+        "BOOTS",
+        "COAT",
+        "PUDDLE",
+        "CLOUD",
+        "DROP",
+        "GREY",
+        "WET",
+        "SPLASH",
+        "INDOOR",
+        "BOOK"
+      ]
+    },
+    {
+      "name": "Storybook Words",
+      "words": [
+        "ONCE",
+        "UPON",
+        "TIME",
+        "HERO",
+        "BRAVE",
+        "KIND",
+        "FRIEND",
+        "JOURNEY",
+        "HAPPY",
+        "ENDING",
+        "MAGIC",
+        "STORY"
+      ]
+    },
+    {
+      "name": "Music & Sounds",
+      "words": [
+        "SONG",
+        "DRUM",
+        "GUITAR",
+        "PIANO",
+        "DANCE",
+        "BEAT",
+        "MUSIC",
+        "SING",
+        "TUNE",
+        "CLAP",
+        "FUN",
+        "LOUD"
+      ]
+    },
+    {
+      "name": "Sports",
+      "words": [
+        "BASEBALL",
+        "SOCCER",
+        "BASKETBALL",
+        "TENNIS",
+        "SWIM",
+        "RUN",
+        "JUMP",
+        "KICK",
+        "BAT",
+        "BALL",
+        "RACE",
+        "WIN"
+      ]
+    },
+    {
+      "name": "Weather Words",
+      "words": [
+        "SUN",
+        "RAIN",
+        "SNOW",
+        "WIND",
+        "CLOUD",
+        "STORM",
+        "FROST",
+        "WARM",
+        "COLD",
+        "HOT",
+        "COOL",
+        "RAINBOW"
+      ]
+    },
+    {
+      "name": "Around the House",
+      "words": [
+        "DOOR",
+        "WINDOW",
+        "TABLE",
+        "CHAIR",
+        "BED",
+        "LAMP",
+        "CLOCK",
+        "SOFA",
+        "RUG",
+        "SHELF",
+        "BOWL",
+        "CUP"
+      ]
+    },
+    {
+      "name": "In the Kitchen",
+      "words": [
+        "POT",
+        "PAN",
+        "SPOON",
+        "FORK",
+        "KNIFE",
+        "CUP",
+        "PLATE",
+        "BOWL",
+        "STOVE",
+        "SINK",
+        "OVEN",
+        "FRIDGE"
+      ]
+    },
+    {
+      "name": "Action Words",
+      "words": [
+        "RUN",
+        "JUMP",
+        "SKIP",
+        "HOP",
+        "WALK",
+        "SING",
+        "DANCE",
+        "SWIM",
+        "PLAY",
+        "READ",
+        "WRITE",
+        "DRAW"
+      ]
+    },
+    {
+      "name": "Feelings",
+      "words": [
+        "HAPPY",
+        "SAD",
+        "ANGRY",
+        "SILLY",
+        "TIRED",
+        "EXCITED",
+        "BRAVE",
+        "KIND",
+        "PROUD",
+        "SHY",
+        "CALM",
+        "JOLLY"
+      ]
+    },
+    {
+      "name": "Bedtime",
+      "words": [
+        "BED",
+        "PILLOW",
+        "BLANKET",
+        "TEDDY",
+        "STORY",
+        "DREAM",
+        "NIGHT",
+        "STAR",
+        "MOON",
+        "SLEEP",
+        "COZY",
+        "QUIET"
+      ]
+    },
+    {
+      "name": "Things That Fly",
+      "words": [
+        "BIRD",
+        "PLANE",
+        "BUTTERFLY",
+        "BEE",
+        "KITE",
+        "BALLOON",
+        "ROCKET",
+        "HELICOPTER",
+        "DRAGONFLY",
+        "BAT",
+        "JET",
+        "UFO"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "title": "Large Print History Word Search",
+  "subtitle": "48 Relaxing Large-Print Puzzles with Big Easy-to-Read Letters and Full Solutions",
+  "author": "Evergreen Puzzle Press",
+  "palette": "history",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Ancient Egypt",
+      "words": [
+        "PHARAOH",
+        "MUMMY",
+        "SPHINX",
+        "PYRAMID",
+        "NILE",
+        "SANDS",
+        "TOMB",
+        "KINGDOM",
+        "EMBALM",
+        "PAPYRI"
+      ]
+    },
+    {
+      "name": "Roman Empire",
+      "words": [
+        "EMPEROR",
+        "LEGION",
+        "SENATE",
+        "COLISEUM",
+        "FORUM",
+        "ROMAN",
+        "LATIN",
+        "CAESAR",
+        "CONQUEST",
+        "RUINS",
+        "CITIZEN"
+      ]
+    },
+    {
+      "name": "Greek Gods",
+      "words": [
+        "ZEUS",
+        "ATHENA",
+        "APOLLO",
+        "POSEIDON",
+        "HADES",
+        "OLYMPUS",
+        "ORACLE",
+        "ALTAR",
+        "RITUAL",
+        "GODS",
+        "DEITY"
+      ]
+    },
+    {
+      "name": "Medieval Castles",
+      "words": [
+        "CASTLE",
+        "KNIGHT",
+        "SIEGE",
+        "MOAT",
+        "TOWER",
+        "ARMOR",
+        "SWORD",
+        "SHIELD",
+        "BANNER",
+        "COAT",
+        "CROWN",
+        "FORTRESS"
+      ]
+    },
+    {
+      "name": "Viking Ships",
+      "words": [
+        "VIKING",
+        "SHIP",
+        "SAIL",
+        "RAIDER",
+        "LONGBOAT",
+        "OAR",
+        "CREW",
+        "SEA",
+        "FJORD",
+        "NORSE",
+        "PLUNDER"
+      ]
+    },
+    {
+      "name": "Wild West",
+      "words": [
+        "COWBOY",
+        "GUN",
+        "HORSE",
+        "RANCH",
+        "SALOON",
+        "SHERIFF",
+        "OUTLAW",
+        "GOLD",
+        "MINER",
+        "CANYON",
+        "DESERT",
+        "FRONTIER"
+      ]
+    },
+    {
+      "name": "American Revolution",
+      "words": [
+        "PATRIOT",
+        "LIBERTY",
+        "REBEL",
+        "COLONY",
+        "INDEPEND",
+        "GEORGE",
+        "WASHINGTON",
+        "FREEDOM",
+        "REVOLT",
+        "TAXATION",
+        "REVOLUTION"
+      ]
+    },
+    {
+      "name": "Civil War",
+      "words": [
+        "UNION",
+        "CONFED",
+        "SLAVERY",
+        "ABOLISH",
+        "BATTLE",
+        "CANNON",
+        "SOLDIER",
+        "GENERAL",
+        "NATION",
+        "REBELS",
+        "FREEDOM"
+      ]
+    },
+    {
+      "name": "World War I",
+      "words": [
+        "TRENCH",
+        "SOLDIER",
+        "TANK",
+        "GAS",
+        "FLIGHT",
+        "SUBMAR",
+        "ALLIES",
+        "FRONT",
+        "BATTLE",
+        "WARFARE",
+        "VICTORY"
+      ]
+    },
+    {
+      "name": "World War II",
+      "words": [
+        "NAZI",
+        "ALLIES",
+        "INVASION",
+        "BATTLE",
+        "TANK",
+        "FLIGHT",
+        "SUBMAR",
+        "ATOMIC",
+        "VICTORY",
+        "RESIST",
+        "GENOCIDE"
+      ]
+    },
+    {
+      "name": "Dinosaur Era",
+      "words": [
+        "RAPTOR",
+        "FOSSIL",
+        "GEOLOGY",
+        "REPTILE",
+        "EXTINCT",
+        "SKELETON",
+        "PREDATOR",
+        "ANCIENT",
+        "SCALES",
+        "CLAWS",
+        "BONES",
+        "SWAMP"
+      ]
+    },
+    {
+      "name": "Pyramid Builders",
+      "words": [
+        "PYRAMID",
+        "PHARAOH",
+        "STONE",
+        "MASON",
+        "ARCHIT",
+        "ENGINE",
+        "CONSTRUCT",
+        "LABOR",
+        "SKILLED",
+        "TOOL",
+        "MONUMENT",
+        "EGYPTIAN"
+      ]
+    },
+    {
+      "name": "Pirate Treasure",
+      "words": [
+        "GOLD",
+        "ISLAND",
+        "SHIP",
+        "MAPS",
+        "CHEST",
+        "LOOT",
+        "PLANK",
+        "SWORD",
+        "PIRATE",
+        "TREASURE",
+        "BOOTY",
+        "JEWELS"
+      ]
+    },
+    {
+      "name": "Knights Templar",
+      "words": [
+        "KNIGHT",
+        "TEMPLAR",
+        "CROSS",
+        "SWORD",
+        "ARMOR",
+        "CRUSADE",
+        "MONK",
+        "CASTLE",
+        "ORDER",
+        "CHIVALRY",
+        "HONOR",
+        "CROWN"
+      ]
+    },
+    {
+      "name": "Aztec Ruins",
+      "words": [
+        "AZTEC",
+        "RUINS",
+        "PYRAMID",
+        "TEMPLE",
+        "CITY",
+        "GODS",
+        "SUN",
+        "STONE",
+        "CARVING",
+        "JAGUAR",
+        "FEATHER"
+      ]
+    },
+    {
+      "name": "Inca Trails",
+      "words": [
+        "INCA",
+        "TRAIL",
+        "MOUNTAIN",
+        "PATH",
+        "ROAD",
+        "PERU",
+        "CITY",
+        "STONE",
+        "RUINS",
+        "TEMPLE",
+        "GOD",
+        "CONDOR"
+      ]
+    },
+    {
+      "name": "Mayan Calendar",
+      "words": [
+        "MAYAN",
+        "CALENDAR",
+        "TIME",
+        "DATE",
+        "YEAR",
+        "CYCLE",
+        "SUN",
+        "MOON",
+        "STAR",
+        "GOD",
+        "RITUAL",
+        "CEREMONY"
+      ]
+    },
+    {
+      "name": "Norse Mythology",
+      "words": [
+        "NORSE",
+        "GOD",
+        "MYTH",
+        "LEGEND",
+        "ODIN",
+        "VIKING",
+        "SHIP",
+        "BATTLE",
+        "WARRIOR",
+        "SHIELD",
+        "SWORD"
+      ]
+    },
+    {
+      "name": "Tudor Dynasty",
+      "words": [
+        "TUDOR",
+        "KING",
+        "QUEEN",
+        "ENGLAND",
+        "CASTLE",
+        "CROWN",
+        "ROYAL",
+        "FAMILY",
+        "HENRY",
+        "MARY",
+        "ELIZABETH",
+        "THRONE"
+      ]
+    },
+    {
+      "name": "Roman Forum",
+      "words": [
+        "ROMAN",
+        "FORUM",
+        "RUINS",
+        "TEMPLE",
+        "COLUMN",
+        "STONE",
+        "SENATE",
+        "EMPEROR",
+        "CITIZEN",
+        "MARKET",
+        "BASILICA",
+        "ARCH"
+      ]
+    },
+    {
+      "name": "Colosseum",
+      "words": [
+        "COLOSSEUM",
+        "ARENA",
+        "GLADIATOR",
+        "FIGHT",
+        "GAMES",
+        "ROMAN",
+        "STONE",
+        "ARCH",
+        "COLUMN",
+        "SEAT",
+        "SPECTATOR",
+        "EMPEROR"
+      ]
+    },
+    {
+      "name": "Gladiator Battles",
+      "words": [
+        "GLADIATOR",
+        "BATTLE",
+        "FIGHT",
+        "ARENA",
+        "SWORD",
+        "SHIELD",
+        "HELMET",
+        "ARMOR",
+        "COMBAT",
+        "WARRIOR",
+        "CHAMPION",
+        "VICTORY"
+      ]
+    },
+    {
+      "name": "Pharaohs",
+      "words": [
+        "PHARAOH",
+        "EGYPT",
+        "PYRAMID",
+        "SPHINX",
+        "MUMMY",
+        "TOMB",
+        "SARCOPHAGUS",
+        "GOD",
+        "KING",
+        "QUEEN",
+        "ROYAL",
+        "NILE"
+      ]
+    },
+    {
+      "name": "Mummy Tombs",
+      "words": [
+        "MUMMY",
+        "TOMB",
+        "EGYPT",
+        "PYRAMID",
+        "SARCOPHAGUS",
+        "WRAP",
+        "BANDAGE",
+        "COFFIN",
+        "GRAVE",
+        "BURIAL",
+        "RITUAL",
+        "SAHARA"
+      ]
+    },
+    {
+      "name": "Spartan Warriors",
+      "words": [
+        "WARRIOR",
+        "SHIELD",
+        "SPEAR",
+        "HELMET",
+        "ARMOR",
+        "BATTLE",
+        "PHALANX",
+        "GLORY",
+        "HONOR",
+        "LEGION"
+      ]
+    },
+    {
+      "name": "Olympic Games",
+      "words": [
+        "OLYMPIC",
+        "ATHLETE",
+        "GAMES",
+        "SPORTS",
+        "MEDALS",
+        "TORCH",
+        "STADIUM",
+        "RUNNER",
+        "JUMPERS",
+        "THROWER",
+        "VICTORY"
+      ]
+    },
+    {
+      "name": "Alexander Conquests",
+      "words": [
+        "ALEXANDER",
+        "CONQUEST",
+        "EMPIRE",
+        "KINGDOM",
+        "WARS",
+        "BATTLES",
+        "SIEGE",
+        "PHALANX",
+        "MACEDON",
+        "LEGION",
+        "VICTORY"
+      ]
+    },
+    {
+      "name": "Crusader Wars",
+      "words": [
+        "CRUSADER",
+        "WARFARE",
+        "KNIGHTS",
+        "CROSS",
+        "SIEGE",
+        "BATTLES",
+        "CASTLE",
+        "MEDIEVAL",
+        "CHIVALRY",
+        "HONOR",
+        "FAITH",
+        "CONQUEST"
+      ]
+    },
+    {
+      "name": "Viking Raiders",
+      "words": [
+        "VIKING",
+        "RAIDER",
+        "LONGSHIP",
+        "BATTLE",
+        "SHIELD",
+        "SWORD",
+        "HELMET",
+        "NORSE",
+        "PLUNDER",
+        "LOOT",
+        "FURY",
+        "WARRIOR"
+      ]
+    },
+    {
+      "name": "Pioneer Wagons",
+      "words": [
+        "PIONEER",
+        "WAGON",
+        "TRAIL",
+        "WEST",
+        "SETTLE",
+        "CATTLE",
+        "HORSE",
+        "FAMILY",
+        "HOME",
+        "JOURNEY",
+        "ADVENT",
+        "DISCOVERY"
+      ]
+    },
+    {
+      "name": "Gold Rush",
+      "words": [
+        "GOLD",
+        "RUSH",
+        "MINER",
+        "CLAIM",
+        "DIGGING",
+        "PANNING",
+        "PROSPECT",
+        "FORTUNE",
+        "MINES",
+        "STRIKE",
+        "BOOM",
+        "FRENZY"
+      ]
+    },
+    {
+      "name": "Civil Rights",
+      "words": [
+        "RIGHTS",
+        "CIVIL",
+        "LIBERTY",
+        "JUSTICE",
+        "EQUAL",
+        "FREEDOM",
+        "MOVEMENT",
+        "PROTEST",
+        "MARCH",
+        "ACTIVIST",
+        "LEADER",
+        "HERO"
+      ]
+    },
+    {
+      "name": "Victorian Era",
+      "words": [
+        "VICTORIA",
+        "ERA",
+        "QUEEN",
+        "ENGLAND",
+        "LONDON",
+        "CULTURE",
+        "SOCIAL",
+        "CLASS",
+        "WEALTH",
+        "LUXURY",
+        "REFINE",
+        "ELEGANT"
+      ]
+    },
+    {
+      "name": "Industrial Revolution",
+      "words": [
+        "INDUSTRY",
+        "REVOLUTION",
+        "MACHINE",
+        "FACTORY",
+        "WORKER",
+        "UNION",
+        "STRIKE",
+        "PROGRESS",
+        "INNOVATE",
+        "CHANGE",
+        "GROWTH"
+      ]
+    },
+    {
+      "name": "Renissance Art",
+      "words": [
+        "ARTIST",
+        "PAINTER",
+        "SCULPT",
+        "ARCHITECT",
+        "HUMAN",
+        "FORM",
+        "BEAUTY",
+        "CREAT",
+        "INSPIRE",
+        "MASTER",
+        "STYLE",
+        "GENIUS"
+      ]
+    },
+    {
+      "name": "Baroque Architecture",
+      "words": [
+        "ARCHITECT",
+        "BAROQUE",
+        "STYLE",
+        "ORNATE",
+        "GRAND",
+        "BUILDING",
+        "CHURCH",
+        "PALACE",
+        "DESIGN",
+        "ORNAMENT"
+      ]
+    },
+    {
+      "name": "Monarchy Systems",
+      "words": [
+        "KINGDOM",
+        "MONARCH",
+        "ROYALTY",
+        "THRONE",
+        "CROWN",
+        "SOVEREIGN",
+        "REGAL",
+        "NOBLES",
+        "LORDS",
+        "VASSAL",
+        "SUBJECT",
+        "EMPEROR"
+      ]
+    },
+    {
+      "name": "Feudalism",
+      "words": [
+        "VASSAL",
+        "LORDS",
+        "KNIGHTS",
+        "SERFS",
+        "MANOR",
+        "FEUDAL",
+        "NOBLES",
+        "KINGDOM",
+        "CASTLE",
+        "HOMAGE",
+        "KNIGHT"
+      ]
+    },
+    {
+      "name": "Samurai Honor",
+      "words": [
+        "SAMURAI",
+        "BUSHIDO",
+        "HONOR",
+        "LOYALTY",
+        "DISCIPLINE",
+        "SWORD",
+        "JAPAN",
+        "SEPPUKU",
+        "KATANA",
+        "BANNER",
+        "CODEX"
+      ]
+    },
+    {
+      "name": "Napoleonic Wars",
+      "words": [
+        "NAPOLEON",
+        "FRANCE",
+        "EMPEROR",
+        "WARS",
+        "BATTLE",
+        "SOLDIER",
+        "TACTIC",
+        "STRATEGY",
+        "VICTORY",
+        "DEFEAT",
+        "CAMPAIGN",
+        "LEGION"
+      ]
+    },
+    {
+      "name": "French Revolution",
+      "words": [
+        "REVOLT",
+        "LIBERTY",
+        "FRANCE",
+        "REPUBLIC",
+        "REVOLUTION",
+        "RADICAL",
+        "MONARCH",
+        "ARISTOCRAT",
+        "GUILLOTINE",
+        "ROBESPIERRE",
+        "NATIONAL",
+        "ASSEMBLY"
+      ]
+    },
+    {
+      "name": "British Monarchs",
+      "words": [
+        "MONARCH",
+        "KING",
+        "QUEEN",
+        "THRONE",
+        "ROYALTY",
+        "CROWN",
+        "PALACE",
+        "NOBLES",
+        "LORDS",
+        "PRINCE",
+        "KINGDOM",
+        "REGAL"
+      ]
+    },
+    {
+      "name": "Chinese Dynasties",
+      "words": [
+        "DYNASTY",
+        "EMPEROR",
+        "CHINA",
+        "MANDARIN",
+        "HAN",
+        "MING",
+        "QING",
+        "ROYALTY",
+        "IMPERIAL",
+        "HERITAGE"
+      ]
+    },
+    {
+      "name": "Mongol Empire",
+      "words": [
+        "KHAN",
+        "MONGOL",
+        "EMPIRE",
+        "CONQUEST",
+        "WARLORD",
+        "HORSEMAN",
+        "ARCHER",
+        "INVASION",
+        "TARTAR",
+        "NOBLES",
+        "TRIBES"
+      ]
+    },
+    {
+      "name": "Ottoman Empire",
+      "words": [
+        "OTTOMAN",
+        "SULTAN",
+        "EMPIRE",
+        "TURKEY",
+        "ISLAM",
+        "CALIPH",
+        "JANISSARY",
+        "SIEGE",
+        "CONQUEST",
+        "PALACE",
+        "SULTANS"
+      ]
+    },
+    {
+      "name": "Byzantine Empire",
+      "words": [
+        "BYZANTINE",
+        "EMPEROR",
+        "CHRISTIAN",
+        "ORTHODOX",
+        "PATRIARCH",
+        "MOSAIC",
+        "ICONS",
+        "SCHISM",
+        "CAESAR",
+        "EMPIRE",
+        "THRONE",
+        "DYNASTY"
+      ]
+    },
+    {
+      "name": "Ancient Greece",
+      "words": [
+        "ATHENS",
+        "PHILOSOPHY",
+        "THEATER",
+        "OLYMPICS",
+        "MYTHOLOGY",
+        "DEMOCRACY",
+        "ACROPOLIS",
+        "PARTHENON",
+        "SOCCER",
+        "HEROES"
+      ]
+    },
+    {
+      "name": "Roman Legions",
+      "words": [
+        "LEGION",
+        "ROMAN",
+        "SOLDIER",
+        "WARFARE",
+        "TACTIC",
+        "STRATEGY",
+        "CAESAR",
+        "EMPEROR",
+        "SENATE",
+        "GLADIATOR",
+        "COHORT",
+        "CENTURION"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,815 @@
+{
+  "title": "Large Print Home Cooking and Baking Word Search",
+  "subtitle": "48 Relaxing Large-Print Puzzles with Big Easy-to-Read Letters and Full Solutions",
+  "author": "E. P. Greenwood",
+  "palette": "home-cooking-and-baking",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Baker's Oven",
+      "words": [
+        "OVEN",
+        "BAKE",
+        "HEAT",
+        "FLAME",
+        "GAS",
+        "FUEL",
+        "COOK",
+        "ROAST",
+        "TOAST",
+        "BREAD",
+        "YEAST",
+        "FOIL"
+      ]
+    },
+    {
+      "name": "Cake Decorating",
+      "words": [
+        "CAKE",
+        "ICING",
+        "SUGAR",
+        "SPRINKLES",
+        "COLOR",
+        "CREAM",
+        "FLAKE",
+        "PARCHMENT",
+        "MOLD",
+        "FROST",
+        "DESIGN"
+      ]
+    },
+    {
+      "name": "Fruit Salad",
+      "words": [
+        "FRUIT",
+        "SALAD",
+        "APPLE",
+        "BERRY",
+        "PEACH",
+        "PEAR",
+        "PLUM",
+        "CHERRY",
+        "JUICE",
+        "SUGAR",
+        "CITRUS",
+        "MIXER"
+      ]
+    },
+    {
+      "name": "Herb Garden",
+      "words": [
+        "HERB",
+        "GARDEN",
+        "GREEN",
+        "LEAF",
+        "STEM",
+        "SEED",
+        "SOIL",
+        "WATER",
+        "SUN",
+        "WEED",
+        "FERTILIZER",
+        "HARVEST"
+      ]
+    },
+    {
+      "name": "Kitchen Utensils",
+      "words": [
+        "SPOON",
+        "FORK",
+        "KNIFE",
+        "POT",
+        "PAN",
+        "BOWL",
+        "WHISK",
+        "SPATULA",
+        "PEEL",
+        "CUTTER"
+      ]
+    },
+    {
+      "name": "Meat Loaf",
+      "words": [
+        "MEAT",
+        "LOAF",
+        "BEEF",
+        "PORK",
+        "BREAD",
+        "EGG",
+        "MILK",
+        "SALT",
+        "PEPPER",
+        "ONION",
+        "TOMATO",
+        "KETCHUP"
+      ]
+    },
+    {
+      "name": "Pastry Dough",
+      "words": [
+        "PASTRY",
+        "DOUGH",
+        "FLOUR",
+        "BUTTER",
+        "SUGAR",
+        "EGG",
+        "MILK",
+        "CREAM",
+        "ROLL",
+        "FOLD",
+        "CRUST",
+        "FLAKE"
+      ]
+    },
+    {
+      "name": "Recipe Book",
+      "words": [
+        "RECIPE",
+        "BOOK",
+        "COOK",
+        "MENU",
+        "LIST",
+        "MEAL",
+        "COURSE",
+        "DESSERT",
+        "APPETIZER",
+        "BEVERAGE",
+        "INDEX"
+      ]
+    },
+    {
+      "name": "Soup Pot",
+      "words": [
+        "SOUP",
+        "POT",
+        "STEW",
+        "BROTH",
+        "MEAT",
+        "BEAN",
+        "PEA",
+        "SALT",
+        "PEPPER",
+        "HERB",
+        "SIMMER"
+      ]
+    },
+    {
+      "name": "Tea Cookies",
+      "words": [
+        "TEA",
+        "SUGAR",
+        "SPICE",
+        "CREAM",
+        "BUTTER",
+        "EGG",
+        "FLOUR",
+        "CRUMB",
+        "SNAP",
+        "BAKE"
+      ]
+    },
+    {
+      "name": "Apple Pie",
+      "words": [
+        "APPLE",
+        "PIE",
+        "CRUST",
+        "FILL",
+        "SUGAR",
+        "SPICE",
+        "NUTMEG",
+        "PEEL",
+        "CORE",
+        "BAKE",
+        "SERVE"
+      ]
+    },
+    {
+      "name": "Bread Basket",
+      "words": [
+        "BREAD",
+        "BASKET",
+        "LOAF",
+        "CRUST",
+        "FLOUR",
+        "YEAST",
+        "SALT",
+        "WATER",
+        "RISE",
+        "KNEAD",
+        "BAKE",
+        "WICKER"
+      ]
+    },
+    {
+      "name": "Cupcake Tower",
+      "words": [
+        "CAKE",
+        "TOWER",
+        "SUGAR",
+        "CREAM",
+        "SPRINKLES",
+        "BAKER",
+        "PASTRY",
+        "FROST",
+        "DESSERT",
+        "CUPCAKE"
+      ]
+    },
+    {
+      "name": "Dinner Party",
+      "words": [
+        "DINNER",
+        "PARTY",
+        "GUEST",
+        "TABLE",
+        "CHAIR",
+        "MEAL",
+        "FOOD",
+        "COOK",
+        "RECIPE",
+        "HOST",
+        "INVITE",
+        "FEAST"
+      ]
+    },
+    {
+      "name": "Egg Beaters",
+      "words": [
+        "EGG",
+        "BEAT",
+        "MIXER",
+        "WHIP",
+        "FOAM",
+        "BLEND",
+        "STIR",
+        "SCRAMBLED",
+        "YOLK",
+        "WHITE",
+        "KITCHEN"
+      ]
+    },
+    {
+      "name": "Flour Canister",
+      "words": [
+        "FLOUR",
+        "CAN",
+        "BAKE",
+        "MILL",
+        "GRAIN",
+        "WHEAT",
+        "CONTAINER",
+        "STORE",
+        "PANTRY",
+        "BASKET",
+        "SIFT"
+      ]
+    },
+    {
+      "name": "Gingerbread",
+      "words": [
+        "GINGER",
+        "BREAD",
+        "SPICE",
+        "SUGAR",
+        "COOK",
+        "HOUSE",
+        "CANDY",
+        "ICING",
+        "HOLIDAY",
+        "TRADITION"
+      ]
+    },
+    {
+      "name": "Honey Jar",
+      "words": [
+        "HONEY",
+        "JAR",
+        "SWEET",
+        "BEES",
+        "NECTAR",
+        "POT",
+        "CONTAINER",
+        "STICKY",
+        "GOLD",
+        "LIQUID",
+        "PURE",
+        "JUG"
+      ]
+    },
+    {
+      "name": "Ice Cream Maker",
+      "words": [
+        "ICE",
+        "CREAM",
+        "MAKER",
+        "MIX",
+        "CHURN",
+        "FREEZE",
+        "SWEET",
+        "TREAT",
+        "DESSERT",
+        "FLAVOR",
+        "MILK",
+        "CHILL"
+      ]
+    },
+    {
+      "name": "Juice Blender",
+      "words": [
+        "JUICE",
+        "BLEND",
+        "MIX",
+        "FRUIT",
+        "LIQUID",
+        "PULP",
+        "SMOOTHIE",
+        "PUREE",
+        "EXTRACT",
+        "SQUEEZE",
+        "FILTER",
+        "DRINK"
+      ]
+    },
+    {
+      "name": "Kitchen Sink",
+      "words": [
+        "KITCHEN",
+        "SINK",
+        "WATER",
+        "FAUCET",
+        "CLEAN",
+        "WASH",
+        "RINSE",
+        "SOAP",
+        "DISH",
+        "BOWL",
+        "TUB",
+        "DRAIN"
+      ]
+    },
+    {
+      "name": "Lemon Zester",
+      "words": [
+        "LEMON",
+        "ZEST",
+        "JUICE",
+        "PEEL",
+        "RIND",
+        "CITRUS",
+        "SQUEEZE",
+        "GRATE",
+        "RASP",
+        "FLAVOR",
+        "ACID",
+        "TART"
+      ]
+    },
+    {
+      "name": "Muffin Tin",
+      "words": [
+        "MUFFIN",
+        "TIN",
+        "BAKE",
+        "CUP",
+        "CAKE",
+        "PAN",
+        "TRAY",
+        "EASY",
+        "RELEASE",
+        "PORTION"
+      ]
+    },
+    {
+      "name": "Nutmeg Grinder",
+      "words": [
+        "NUTMEG",
+        "GRIND",
+        "SPICE",
+        "MILL",
+        "SEED",
+        "POD",
+        "AROMA",
+        "WARM",
+        "FLAVOR",
+        "BLEND",
+        "RASPS",
+        "SPICY"
+      ]
+    },
+    {
+      "name": "Omelette Pan",
+      "words": [
+        "EGGS",
+        "FLIP",
+        "COOK",
+        "FOOD",
+        "MEAL",
+        "CHEF",
+        "KITCHEN",
+        "HEAT",
+        "OILS",
+        "SALT",
+        "PEPPER"
+      ]
+    },
+    {
+      "name": "Pancake Mix",
+      "words": [
+        "MIXER",
+        "FLOUR",
+        "SUGAR",
+        "MILK",
+        "EGGS",
+        "SYRUP",
+        "BATTER",
+        "PANCAKE",
+        "BREAKFAST",
+        "MORNING",
+        "FOODS",
+        "GRAIN"
+      ]
+    },
+    {
+      "name": "Quiche Dish",
+      "words": [
+        "QUICHE",
+        "EGGS",
+        "CREAM",
+        "CHEESE",
+        "PIE",
+        "DISHES",
+        "BAKE",
+        "OVEN",
+        "MEAL",
+        "FOOD",
+        "KITCHEN",
+        "RECIPE"
+      ]
+    },
+    {
+      "name": "Rice Cooker",
+      "words": [
+        "RICE",
+        "COOKER",
+        "STEAM",
+        "FOOD",
+        "ASIA",
+        "MEAL",
+        "KITCHEN",
+        "POT",
+        "WATER",
+        "HEAT",
+        "GRAIN",
+        "CEREAL"
+      ]
+    },
+    {
+      "name": "Sauce Pan",
+      "words": [
+        "PAN",
+        "SAUCE",
+        "COOK",
+        "HEAT",
+        "STIR",
+        "FOOD",
+        "KITCHEN",
+        "RECIPE",
+        "MEAL",
+        "OILS",
+        "SPICE",
+        "FLAVOR"
+      ]
+    },
+    {
+      "name": "Tart Pan",
+      "words": [
+        "TART",
+        "PAN",
+        "BAKE",
+        "FOOD",
+        "DESSERT",
+        "KITCHEN",
+        "RECIPE",
+        "FRUIT",
+        "SWEET",
+        "PIE",
+        "CRUST",
+        "FILLING"
+      ]
+    },
+    {
+      "name": "Urn Coffee",
+      "words": [
+        "COFFEE",
+        "URN",
+        "BEAN",
+        "BREW",
+        "CUP",
+        "FOOD",
+        "KITCHEN",
+        "MORNING",
+        "BREAKFAST",
+        "ROAST",
+        "AROMA"
+      ]
+    },
+    {
+      "name": "Veggie Peeler",
+      "words": [
+        "PEEL",
+        "FOOD",
+        "KITCHEN",
+        "TOOL",
+        "COOK",
+        "RECIPE",
+        "MEAL",
+        "HEALTH",
+        "NUTRITION",
+        "FRUIT",
+        "VEGETABLE"
+      ]
+    },
+    {
+      "name": "Whisk Set",
+      "words": [
+        "WHISK",
+        "MIX",
+        "FOOD",
+        "KITCHEN",
+        "COOK",
+        "RECIPE",
+        "MEAL",
+        "BAKE",
+        "BEAT",
+        "STIR",
+        "EGGS",
+        "CREAM"
+      ]
+    },
+    {
+      "name": "Xmas Cookies",
+      "words": [
+        "XMAS",
+        "SUGAR",
+        "SPICE",
+        "BAKE",
+        "FOOD",
+        "KITCHEN",
+        "RECIPE",
+        "MEAL",
+        "DESSERT",
+        "HOLIDAY",
+        "TREAT"
+      ]
+    },
+    {
+      "name": "Yogurt Parfait",
+      "words": [
+        "PARFAIT",
+        "FOOD",
+        "KITCHEN",
+        "HEALTH",
+        "NUTRITION",
+        "FRUIT",
+        "HONEY",
+        "BOWL",
+        "MEAL",
+        "SNACK"
+      ]
+    },
+    {
+      "name": "Zucchini Bread",
+      "words": [
+        "BREAD",
+        "ZUCCHINI",
+        "FOOD",
+        "KITCHEN",
+        "BAKE",
+        "RECIPE",
+        "MEAL",
+        "VEGETABLE",
+        "SPICE",
+        "OILS",
+        "FLAVOR",
+        "LOAF"
+      ]
+    },
+    {
+      "name": "Cinnamon Rolls",
+      "words": [
+        "CINNAMON",
+        "ROLLS",
+        "SWEET",
+        "BAKING",
+        "FROSTING",
+        "SPICES",
+        "SUGAR",
+        "BUTTER",
+        "DOUGH",
+        "KNEAD",
+        "YEAST",
+        "PASTRY"
+      ]
+    },
+    {
+      "name": "Donut Maker",
+      "words": [
+        "DONUTS",
+        "MAKER",
+        "FRIED",
+        "OIL",
+        "SUGAR",
+        "FLOUR",
+        "YEAST",
+        "DOUGH",
+        "HOLE",
+        "RING",
+        "GLAZE",
+        "FROST"
+      ]
+    },
+    {
+      "name": "Espresso Machine",
+      "words": [
+        "COFFEE",
+        "BEANS",
+        "GRIND",
+        "BREW",
+        "MACHINE",
+        "SHOT",
+        "FOAM",
+        "STEAM",
+        "POT",
+        "CUP"
+      ]
+    },
+    {
+      "name": "Food Processor",
+      "words": [
+        "FOOD",
+        "PROCESSOR",
+        "CHOP",
+        "MIX",
+        "BLEND",
+        "PUREE",
+        "GRIND",
+        "KNIFE",
+        "BOWL",
+        "LID",
+        "PULSE",
+        "CHUTE"
+      ]
+    },
+    {
+      "name": "Garlic Press",
+      "words": [
+        "GARLIC",
+        "PRESS",
+        "CRUSH",
+        "MINCE",
+        "CHEF",
+        "KITCHEN",
+        "TOOL",
+        "COOK",
+        "RECIPE",
+        "FLAVOR",
+        "AROMA",
+        "SPICE"
+      ]
+    },
+    {
+      "name": "Holiday Treats",
+      "words": [
+        "HOLIDAY",
+        "TREATS",
+        "COOKIES",
+        "CAKE",
+        "PIE",
+        "SWEETS",
+        "GIFTS",
+        "SEASON",
+        "FESTIVE",
+        "SUGAR",
+        "SPICE",
+        "NOEL"
+      ]
+    },
+    {
+      "name": "Icing Bag",
+      "words": [
+        "ICING",
+        "BAG",
+        "PIPE",
+        "TIP",
+        "FROST",
+        "CAKE",
+        "CUPCAKE",
+        "SUGAR",
+        "COLOR",
+        "PASTE",
+        "TUBE"
+      ]
+    },
+    {
+      "name": "Jelly Filling",
+      "words": [
+        "JELLY",
+        "FILLING",
+        "JAM",
+        "PRESERVE",
+        "FRUIT",
+        "SUGAR",
+        "GEL",
+        "SYRUP",
+        "TART",
+        "PIE",
+        "FILL",
+        "SPREAD"
+      ]
+    },
+    {
+      "name": "Kettle Whistle",
+      "words": [
+        "KETTLE",
+        "WHISTLE",
+        "STEAM",
+        "BOIL",
+        "WATER",
+        "TEA",
+        "COFFEE",
+        "HEAT",
+        "STOVE",
+        "POT",
+        "SPOUT",
+        "NOISE"
+      ]
+    },
+    {
+      "name": "Loaf Pan",
+      "words": [
+        "LOAF",
+        "PAN",
+        "BREAD",
+        "BAKE",
+        "DOUGH",
+        "YEAST",
+        "FLOUR",
+        "SALT",
+        "SUGAR",
+        "OIL",
+        "MOLD",
+        "CRUST"
+      ]
+    },
+    {
+      "name": "Macaroon Tree",
+      "words": [
+        "MACAROON",
+        "TREE",
+        "COCONUT",
+        "SWEET",
+        "CHOCOLATE",
+        "NUT",
+        "FRUIT",
+        "SPRING",
+        "EASTER",
+        "EGG",
+        "TREAT"
+      ]
+    },
+    {
+      "name": "Noodle Maker",
+      "words": [
+        "NOODLE",
+        "MAKER",
+        "DOUGH",
+        "ROLL",
+        "CUT",
+        "SHAPE",
+        "BOIL",
+        "SAUCE",
+        "SERVE",
+        "MEAL",
+        "ASIAN"
+      ]
+    }
+  ]
+}

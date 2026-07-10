@@ -1,0 +1,838 @@
+{
+  "title": "Large Print Bible Word Search",
+  "subtitle": "48 Inspirational Large Print Puzzles for Adults & Seniors with Big Easy-to-Read Letters and Full Solutions",
+  "author": "E. P. Greenwood",
+  "palette": "bible",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Animal Word Search",
+      "subtitle": "44 Relaxing Puzzles for Animal Lovers"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Old Testament Books",
+      "words": [
+        "GENESIS",
+        "EXODUS",
+        "LEVITICUS",
+        "NUMBERS",
+        "JOSHUA",
+        "JUDGES",
+        "RUTH",
+        "SAMUEL",
+        "KINGS",
+        "ESTHER",
+        "PSALMS",
+        "DANIEL"
+      ]
+    },
+    {
+      "name": "New Testament Books",
+      "words": [
+        "MATTHEW",
+        "MARK",
+        "LUKE",
+        "JOHN",
+        "ACTS",
+        "ROMANS",
+        "HEBREWS",
+        "JAMES",
+        "PETER",
+        "JUDE",
+        "REVELATION",
+        "TIMOTHY"
+      ]
+    },
+    {
+      "name": "The Twelve Apostles",
+      "words": [
+        "PETER",
+        "ANDREW",
+        "JAMES",
+        "JOHN",
+        "PHILIP",
+        "THOMAS",
+        "MATTHEW",
+        "SIMON",
+        "JUDAS",
+        "BARTHOLOMEW",
+        "THADDAEUS",
+        "MATTHIAS"
+      ]
+    },
+    {
+      "name": "Patriarchs",
+      "words": [
+        "ADAM",
+        "NOAH",
+        "ABRAHAM",
+        "ISAAC",
+        "JACOB",
+        "JOSEPH",
+        "MOSES",
+        "AARON",
+        "SETH",
+        "ENOCH",
+        "METHUSELAH",
+        "LEVI"
+      ]
+    },
+    {
+      "name": "Kings of Israel",
+      "words": [
+        "SAUL",
+        "DAVID",
+        "SOLOMON",
+        "JEROBOAM",
+        "AHAB",
+        "JEHU",
+        "HEZEKIAH",
+        "JOSIAH",
+        "REHOBOAM",
+        "UZZIAH",
+        "JOTHAM",
+        "MANASSEH"
+      ]
+    },
+    {
+      "name": "Parables of Jesus",
+      "words": [
+        "SOWER",
+        "MUSTARD",
+        "TALENTS",
+        "LEAVEN",
+        "VINEYARD",
+        "LOSTSHEEP",
+        "PRODIGAL",
+        "PEARL",
+        "NETS",
+        "WHEAT",
+        "TARES",
+        "BANQUET"
+      ]
+    },
+    {
+      "name": "Miracles of Jesus",
+      "words": [
+        "HEALING",
+        "LOAVES",
+        "FISHES",
+        "WATER",
+        "WALKING",
+        "RESURRECTION",
+        "BLIND",
+        "LEPER",
+        "STORM",
+        "WINE",
+        "LAZARUS",
+        "CENTURION"
+      ]
+    },
+    {
+      "name": "The Beatitudes",
+      "words": [
+        "BLESSED",
+        "MEEK",
+        "MOURN",
+        "HUNGER",
+        "MERCY",
+        "PURE",
+        "PEACE",
+        "PERSECUTED",
+        "KINGDOM",
+        "COMFORT",
+        "RIGHTEOUSNESS",
+        "HEAVEN"
+      ]
+    },
+    {
+      "name": "Fruits of the Spirit",
+      "words": [
+        "LOVE",
+        "JOY",
+        "PEACE",
+        "PATIENCE",
+        "KINDNESS",
+        "GOODNESS",
+        "FAITH",
+        "GENTLENESS",
+        "SELFCONTROL",
+        "SPIRIT",
+        "FRUIT",
+        "WALK"
+      ]
+    },
+    {
+      "name": "Names of God",
+      "words": [
+        "JEHOVAH",
+        "YAHWEH",
+        "ELOHIM",
+        "ADONAI",
+        "FATHER",
+        "SHEPHERD",
+        "REDEEMER",
+        "ALMIGHTY",
+        "HOLY",
+        "ETERNAL",
+        "CREATOR",
+        "SAVIOR"
+      ]
+    },
+    {
+      "name": "Prayer Words",
+      "words": [
+        "AMEN",
+        "PRAISE",
+        "WORSHIP",
+        "THANKS",
+        "BLESS",
+        "CONFESS",
+        "HEAR",
+        "FAITH",
+        "HOPE",
+        "PRAYER",
+        "HUMBLE",
+        "HOLY"
+      ]
+    },
+    {
+      "name": "The Christmas Story",
+      "words": [
+        "BETHLEHEM",
+        "JOSEPH",
+        "MARY",
+        "JESUS",
+        "MANGER",
+        "ANGELS",
+        "SHEPHERDS",
+        "STAR",
+        "WISEMEN",
+        "INN",
+        "HEROD",
+        "GLORY"
+      ]
+    },
+    {
+      "name": "The Easter Story",
+      "words": [
+        "JESUS",
+        "CROSS",
+        "CALVARY",
+        "TOMB",
+        "RESURRECTION",
+        "MARY",
+        "SUNDAY",
+        "STONE",
+        "ANGEL",
+        "GARDEN",
+        "RISEN",
+        "PASSOVER"
+      ]
+    },
+    {
+      "name": "Psalms Words",
+      "words": [
+        "SHEPHERD",
+        "PASTURE",
+        "WATERS",
+        "SOUL",
+        "ROD",
+        "STAFF",
+        "TABLE",
+        "ANOINT",
+        "CUP",
+        "DWELL",
+        "FOREVER",
+        "RIGHTEOUS"
+      ]
+    },
+    {
+      "name": "Proverbs Words",
+      "words": [
+        "WISDOM",
+        "KNOWLEDGE",
+        "FEAR",
+        "FOOLISH",
+        "TRUST",
+        "UNDERSTAND",
+        "TEACH",
+        "DISCIPLINE",
+        "PATIENT",
+        "KIND",
+        "HEART",
+        "TONGUE"
+      ]
+    },
+    {
+      "name": "Book of Genesis",
+      "words": [
+        "CREATION",
+        "EDEN",
+        "ADAM",
+        "EVE",
+        "SERPENT",
+        "ABEL",
+        "CAIN",
+        "FLOOD",
+        "ARK",
+        "BABEL",
+        "ABRAHAM",
+        "ISAAC"
+      ]
+    },
+    {
+      "name": "Book of Exodus",
+      "words": [
+        "MOSES",
+        "PHARAOH",
+        "PLAGUES",
+        "PASSOVER",
+        "REDSEA",
+        "MANNA",
+        "SINAI",
+        "COMMANDMENTS",
+        "TABERNACLE",
+        "AARON",
+        "WILDERNESS",
+        "COVENANT"
+      ]
+    },
+    {
+      "name": "Disciples & Followers",
+      "words": [
+        "DISCIPLE",
+        "TEACHER",
+        "FOLLOW",
+        "MASTER",
+        "LORD",
+        "STUDENT",
+        "SERVE",
+        "LISTEN",
+        "LEARN",
+        "WALK",
+        "TRUTH",
+        "WAY"
+      ]
+    },
+    {
+      "name": "Major Prophets",
+      "words": [
+        "ISAIAH",
+        "JEREMIAH",
+        "EZEKIEL",
+        "DANIEL",
+        "MOSES",
+        "ELIJAH",
+        "ELISHA",
+        "SAMUEL",
+        "NATHAN",
+        "HOSEA",
+        "JOEL",
+        "AMOS"
+      ]
+    },
+    {
+      "name": "Women of the Bible",
+      "words": [
+        "EVE",
+        "SARAH",
+        "RACHEL",
+        "REBEKAH",
+        "RUTH",
+        "ESTHER",
+        "MARY",
+        "MARTHA",
+        "HANNAH",
+        "MIRIAM",
+        "LEAH",
+        "DEBORAH"
+      ]
+    },
+    {
+      "name": "Men of the Bible",
+      "words": [
+        "ADAM",
+        "NOAH",
+        "ABRAHAM",
+        "MOSES",
+        "DAVID",
+        "SOLOMON",
+        "ELIJAH",
+        "ISAIAH",
+        "JONAH",
+        "DANIEL",
+        "PAUL",
+        "STEPHEN"
+      ]
+    },
+    {
+      "name": "Hymns & Worship",
+      "words": [
+        "GLORY",
+        "HOLY",
+        "WORTHY",
+        "PRAISE",
+        "SONG",
+        "HARP",
+        "TRUMPET",
+        "HALLELUJAH",
+        "REJOICE",
+        "SING",
+        "HEART",
+        "JOYFUL"
+      ]
+    },
+    {
+      "name": "Christian Virtues",
+      "words": [
+        "FAITH",
+        "HOPE",
+        "LOVE",
+        "CHARITY",
+        "HUMILITY",
+        "COURAGE",
+        "WISDOM",
+        "PATIENCE",
+        "FORGIVE",
+        "MERCY",
+        "GRACE",
+        "TRUTH"
+      ]
+    },
+    {
+      "name": "Joseph & His Brothers",
+      "words": [
+        "JOSEPH",
+        "JACOB",
+        "COAT",
+        "DREAM",
+        "BROTHERS",
+        "EGYPT",
+        "PHARAOH",
+        "FAMINE",
+        "SLAVE",
+        "PRISON",
+        "RULER",
+        "FORGIVE"
+      ]
+    },
+    {
+      "name": "Moses & The Exodus",
+      "words": [
+        "BASKET",
+        "BURNINGBUSH",
+        "STAFF",
+        "PHARAOH",
+        "PLAGUE",
+        "PASSOVER",
+        "REDSEA",
+        "MANNA",
+        "COMMANDMENTS",
+        "MOUNTAIN",
+        "SHEPHERD",
+        "DELIVERER"
+      ]
+    },
+    {
+      "name": "David's Story",
+      "words": [
+        "SHEPHERD",
+        "HARP",
+        "ANOINT",
+        "GOLIATH",
+        "SLING",
+        "STONE",
+        "SAUL",
+        "JONATHAN",
+        "CROWN",
+        "KING",
+        "PSALMIST",
+        "JERUSALEM"
+      ]
+    },
+    {
+      "name": "Daniel & The Lions",
+      "words": [
+        "DANIEL",
+        "BABYLON",
+        "DREAMS",
+        "LIONS",
+        "DEN",
+        "FAITH",
+        "KING",
+        "DREAM",
+        "FURNACE",
+        "PRAY",
+        "WISE",
+        "DELIVER"
+      ]
+    },
+    {
+      "name": "Queen Esther",
+      "words": [
+        "ESTHER",
+        "MORDECAI",
+        "HAMAN",
+        "KING",
+        "CROWN",
+        "PALACE",
+        "PERSIA",
+        "PURIM",
+        "FAST",
+        "COURAGE",
+        "JEWS",
+        "SAVE"
+      ]
+    },
+    {
+      "name": "The Book of Ruth",
+      "words": [
+        "RUTH",
+        "NAOMI",
+        "BOAZ",
+        "MOAB",
+        "BETHLEHEM",
+        "HARVEST",
+        "KINSMAN",
+        "LOYAL",
+        "WIDOW",
+        "FIELD",
+        "GRAIN",
+        "REDEEMER"
+      ]
+    },
+    {
+      "name": "Jonah & The Whale",
+      "words": [
+        "JONAH",
+        "NINEVEH",
+        "WHALE",
+        "STORM",
+        "SAILORS",
+        "REPENT",
+        "PRAY",
+        "BELLY",
+        "FISH",
+        "TARSHISH",
+        "PROPHET",
+        "MERCY"
+      ]
+    },
+    {
+      "name": "Biblical Animals",
+      "words": [
+        "LAMB",
+        "LION",
+        "DOVE",
+        "DONKEY",
+        "CAMEL",
+        "SHEEP",
+        "OX",
+        "HORSE",
+        "SERPENT",
+        "RAVEN",
+        "EAGLE",
+        "FISH"
+      ]
+    },
+    {
+      "name": "Biblical Plants",
+      "words": [
+        "OLIVE",
+        "FIG",
+        "VINE",
+        "CEDAR",
+        "PALM",
+        "WHEAT",
+        "BARLEY",
+        "LILY",
+        "ROSE",
+        "MYRRH",
+        "FRANKINCENSE",
+        "HYSSOP"
+      ]
+    },
+    {
+      "name": "Biblical Foods",
+      "words": [
+        "BREAD",
+        "WINE",
+        "HONEY",
+        "MILK",
+        "FISH",
+        "LAMB",
+        "MANNA",
+        "OIL",
+        "FRUIT",
+        "OLIVES",
+        "GRAIN",
+        "FIGS"
+      ]
+    },
+    {
+      "name": "Biblical Places",
+      "words": [
+        "BETHLEHEM",
+        "NAZARETH",
+        "JERUSALEM",
+        "GALILEE",
+        "JORDAN",
+        "JERICHO",
+        "CANAAN",
+        "EGYPT",
+        "SINAI",
+        "BABYLON",
+        "ZION",
+        "JUDEA"
+      ]
+    },
+    {
+      "name": "The Holy Land",
+      "words": [
+        "JORDAN",
+        "GALILEE",
+        "JERUSALEM",
+        "TEMPLE",
+        "MOUNT",
+        "DESERT",
+        "SEA",
+        "RIVER",
+        "HILL",
+        "CITY",
+        "ISRAEL",
+        "JUDEA"
+      ]
+    },
+    {
+      "name": "The Creation",
+      "words": [
+        "LIGHT",
+        "WATERS",
+        "HEAVENS",
+        "EARTH",
+        "STARS",
+        "SUN",
+        "MOON",
+        "SEA",
+        "BIRDS",
+        "BEASTS",
+        "ADAM",
+        "REST"
+      ]
+    },
+    {
+      "name": "Ten Commandments",
+      "words": [
+        "HONOR",
+        "OBEY",
+        "WORSHIP",
+        "SABBATH",
+        "STEAL",
+        "KILL",
+        "LIE",
+        "COVET",
+        "NAME",
+        "FATHER",
+        "MOTHER",
+        "NEIGHBOR"
+      ]
+    },
+    {
+      "name": "The Lord's Prayer",
+      "words": [
+        "FATHER",
+        "HEAVEN",
+        "HALLOWED",
+        "KINGDOM",
+        "WILL",
+        "DAILY",
+        "BREAD",
+        "FORGIVE",
+        "DEBTS",
+        "TEMPTATION",
+        "DELIVER",
+        "GLORY"
+      ]
+    },
+    {
+      "name": "Christmas Carols",
+      "words": [
+        "SILENT",
+        "NIGHT",
+        "JOY",
+        "WORLD",
+        "NOEL",
+        "HARK",
+        "HERALD",
+        "ANGELS",
+        "JESUS",
+        "MANGER",
+        "STAR",
+        "BETHLEHEM"
+      ]
+    },
+    {
+      "name": "Faith & Hope",
+      "words": [
+        "FAITH",
+        "HOPE",
+        "TRUST",
+        "BELIEVE",
+        "CONFIDENCE",
+        "ASSURANCE",
+        "ANCHOR",
+        "FUTURE",
+        "ENDURE",
+        "STAND",
+        "REST",
+        "REJOICE"
+      ]
+    },
+    {
+      "name": "Love (1 Corinthians 13)",
+      "words": [
+        "PATIENT",
+        "KIND",
+        "ENVY",
+        "BOAST",
+        "PROUD",
+        "RUDE",
+        "TRUTH",
+        "REJOICE",
+        "PROTECT",
+        "TRUST",
+        "HOPE",
+        "PERSEVERE"
+      ]
+    },
+    {
+      "name": "The Sermon on the Mount",
+      "words": [
+        "BLESSED",
+        "MEEK",
+        "PEACEMAKER",
+        "SALT",
+        "LIGHT",
+        "PRAY",
+        "FAST",
+        "FORGIVE",
+        "JUDGE",
+        "SEEK",
+        "ASK",
+        "KNOCK"
+      ]
+    },
+    {
+      "name": "Heaven & Eternity",
+      "words": [
+        "HEAVEN",
+        "ETERNAL",
+        "STREETS",
+        "GOLD",
+        "GATES",
+        "PEARL",
+        "ANGELS",
+        "WORSHIP",
+        "KING",
+        "THRONE",
+        "NEW",
+        "FOREVER"
+      ]
+    },
+    {
+      "name": "Resurrection Morning",
+      "words": [
+        "TOMB",
+        "STONE",
+        "ANGEL",
+        "RISEN",
+        "MARY",
+        "GARDEN",
+        "ALIVE",
+        "WITNESS",
+        "FIRSTBORN",
+        "HOPE",
+        "GLORY",
+        "DAWN"
+      ]
+    },
+    {
+      "name": "Pentecost",
+      "words": [
+        "SPIRIT",
+        "FIRE",
+        "WIND",
+        "TONGUES",
+        "APOSTLES",
+        "PETER",
+        "CHURCH",
+        "BAPTIZE",
+        "POWER",
+        "PROMISE",
+        "JERUSALEM",
+        "HARVEST"
+      ]
+    },
+    {
+      "name": "Songs of Praise",
+      "words": [
+        "GLORY",
+        "HALLELUJAH",
+        "REJOICE",
+        "SING",
+        "PRAISE",
+        "WORSHIP",
+        "BLESSED",
+        "HOLY",
+        "JESUS",
+        "NAME",
+        "LIFTED",
+        "FOREVER"
+      ]
+    },
+    {
+      "name": "The Garden of Eden",
+      "words": [
+        "EDEN",
+        "GARDEN",
+        "ADAM",
+        "EVE",
+        "TREE",
+        "FRUIT",
+        "SERPENT",
+        "RIVER",
+        "KNOWLEDGE",
+        "LIFE",
+        "NAKED",
+        "INNOCENCE"
+      ]
+    },
+    {
+      "name": "Noah & The Ark",
+      "words": [
+        "NOAH",
+        "ARK",
+        "FLOOD",
+        "ANIMALS",
+        "RAIN",
+        "ARARAT",
+        "RAVEN",
+        "DOVE",
+        "RAINBOW",
+        "COVENANT",
+        "GOPHERWOOD",
+        "SAFE"
+      ]
+    }
+  ]
+}

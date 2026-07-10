@@ -1,0 +1,832 @@
+{
+  "title": "Large Print Childhood Memories Word Search",
+  "subtitle": "48 Relaxing Large-Print Puzzles with Big Easy-to-Read Letters and Full Solutions",
+  "author": "E. P. Greenwood",
+  "palette": "childhood-memories",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Summer Vacation",
+      "words": [
+        "SUNSET",
+        "VACATION",
+        "SANDALS",
+        "BEACHES",
+        "SUNTAN",
+        "RESORTS",
+        "SWIMMING",
+        "SURFING",
+        "SUNHAT",
+        "SEASIDE",
+        "COASTAL",
+        "HOLIDAY"
+      ]
+    },
+    {
+      "name": "Ice Cream Truck",
+      "words": [
+        "ICECREAM",
+        "TRUCKS",
+        "TREATS",
+        "SUMMER",
+        "SWEETS",
+        "CHIMES",
+        "DRIVERS",
+        "TUNES",
+        "FLAVORS",
+        "CONES",
+        "GOODIES"
+      ]
+    },
+    {
+      "name": "Puppy Love",
+      "words": [
+        "PUPPIES",
+        "LOVE",
+        "FRIENDS",
+        "PLAYFUL",
+        "KISSES",
+        "CUDDLE",
+        "COMPANION",
+        "TENDER",
+        "AFFECTION",
+        "DEVOTED",
+        "FAITHFUL",
+        "SWEETHEART"
+      ]
+    },
+    {
+      "name": "Candy Store",
+      "words": [
+        "CANDIES",
+        "SWEETSHOP",
+        "TREATS",
+        "GOODIES",
+        "LOLLIPOP",
+        "SUGAR",
+        "CHOCOLATE",
+        "LICORICE",
+        "PEPPERMINT",
+        "GUMDROPS",
+        "COOKIES",
+        "MINTS"
+      ]
+    },
+    {
+      "name": "Playground Fun",
+      "words": [
+        "PLAYGROUND",
+        "SWINGS",
+        "SLIDES",
+        "SEESAW",
+        "KIDS",
+        "RECESS",
+        "CLIMBING",
+        "JUNGLE",
+        "GYMCLASS",
+        "SPORTS",
+        "FRIENDS",
+        "LAUGHTER"
+      ]
+    },
+    {
+      "name": "Family Picnic",
+      "words": [
+        "PICNIC",
+        "FAMILY",
+        "PARKS",
+        "OUTDOOR",
+        "GATHER",
+        "FOODS",
+        "BLANKET",
+        "BASKET",
+        "NATURE",
+        "SCENERY",
+        "TOGETHER",
+        "MEMORIES"
+      ]
+    },
+    {
+      "name": "Beach Ball",
+      "words": [
+        "BEACHBALL",
+        "INFLATE",
+        "VACATION",
+        "PLAYFUL",
+        "SUMMER",
+        "SUNNY",
+        "FUNTIME",
+        "BOUNCE",
+        "TOYS",
+        "WATER",
+        "OCEAN",
+        "RECREATION"
+      ]
+    },
+    {
+      "name": "Kite Flying",
+      "words": [
+        "KITEFLYING",
+        "WINDY",
+        "SKIES",
+        "STRING",
+        "TALES",
+        "ADVENTURE",
+        "RECREATION",
+        "OUTDOOR",
+        "SUMMER",
+        "FUN",
+        "TOYS",
+        "LEISURE"
+      ]
+    },
+    {
+      "name": "Bubble Gum",
+      "words": [
+        "BUBBLEGUM",
+        "CHEWING",
+        "FLAVORS",
+        "PINK",
+        "BLUE",
+        "SUGAR",
+        "STICKY",
+        "FUN",
+        "KIDS",
+        "CANDY",
+        "BLOWING",
+        "POP"
+      ]
+    },
+    {
+      "name": "Little League",
+      "words": [
+        "BASEBALL",
+        "SPORTS",
+        "KIDS",
+        "TEAMS",
+        "PLAYER",
+        "COACHES",
+        "FIELDS",
+        "BALLPARK",
+        "UNIFORM",
+        "GLOVE",
+        "COMPETE"
+      ]
+    },
+    {
+      "name": "Roller Skates",
+      "words": [
+        "WHEELS",
+        "SKATING",
+        "FUN",
+        "SPORT",
+        "RECREATION",
+        "LEISURE",
+        "EXERCISE",
+        "RINK",
+        "BLADES",
+        "HELMET",
+        "PADS"
+      ]
+    },
+    {
+      "name": "Ferris Wheel",
+      "words": [
+        "FERRISWHEEL",
+        "AMUSEMENT",
+        "PARKS",
+        "CARNIVAL",
+        "FAIRGROUNDS",
+        "RIDES",
+        "FUN",
+        "EXCITEMENT",
+        "HEIGHTS",
+        "VIEW",
+        "THRILL",
+        "ATTRACTION"
+      ]
+    },
+    {
+      "name": "Circus Clown",
+      "words": [
+        "CLOWN",
+        "CIRCUS",
+        "LAUGHTER",
+        "SMILE",
+        "COSTUME",
+        "PERFORM",
+        "AUDIENCE",
+        "ENTERTAIN",
+        "JOKER",
+        "CARNIVAL",
+        "FUNNY",
+        "ACTOR"
+      ]
+    },
+    {
+      "name": "Toy Box",
+      "words": [
+        "TOYS",
+        "PLAYFUL",
+        "CHILD",
+        "GAMES",
+        "PUZZLE",
+        "BLOCKS",
+        "DOLLS",
+        "TEDDY",
+        "BEARS",
+        "TRAIN",
+        "CARTOYS"
+      ]
+    },
+    {
+      "name": "Story Time",
+      "words": [
+        "STORY",
+        "BOOKS",
+        "READER",
+        "CHILDREN",
+        "AUTHOR",
+        "NOVEL",
+        "TALES",
+        "LEGEND",
+        "MYTHS",
+        "FABLE",
+        "LIBRARY",
+        "IMAGINE"
+      ]
+    },
+    {
+      "name": "Lemonade Stand",
+      "words": [
+        "LEMON",
+        "ADE",
+        "STAND",
+        "DRINK",
+        "REFRESH",
+        "SUMMER",
+        "FUNDS",
+        "MONEY",
+        "CUP",
+        "SWEET",
+        "TART",
+        "VENDOR"
+      ]
+    },
+    {
+      "name": "Water Gun",
+      "words": [
+        "WATER",
+        "GUN",
+        "SPLASH",
+        "PLAY",
+        "FUN",
+        "TOYS",
+        "SHOOT",
+        "SPRAY",
+        "SQUIRT",
+        "SOAK",
+        "WET",
+        "BLAST"
+      ]
+    },
+    {
+      "name": "Sidewalk Chalk",
+      "words": [
+        "CHALK",
+        "SIDEWALK",
+        "DRAW",
+        "COLOR",
+        "ART",
+        "DESIGN",
+        "STREET",
+        "PUBLIC",
+        "SPACE",
+        "CREAT",
+        "PLAY",
+        "CHILD"
+      ]
+    },
+    {
+      "name": "Jump Rope",
+      "words": [
+        "JUMP",
+        "ROPE",
+        "PLAY",
+        "FUN",
+        "EXERCISE",
+        "RUN",
+        "LEAP",
+        "BOUND",
+        "SWING",
+        "SKIP",
+        "HOP",
+        "GAMES"
+      ]
+    },
+    {
+      "name": "Hula Hoop",
+      "words": [
+        "HULA",
+        "HOOP",
+        "SPIN",
+        "TWIRL",
+        "DANCE",
+        "FUN",
+        "TOY",
+        "PLAY",
+        "ROTATE",
+        "SWING",
+        "CIRCLE",
+        "GYRATE"
+      ]
+    },
+    {
+      "name": "Birthday Cake",
+      "words": [
+        "BIRTH",
+        "DAY",
+        "CAKE",
+        "PARTY",
+        "GIFT",
+        "FROST",
+        "ICING",
+        "SWEET",
+        "TREAT",
+        "DESSERT"
+      ]
+    },
+    {
+      "name": "Backyard Campout",
+      "words": [
+        "CAMP",
+        "OUT",
+        "BACKYARD",
+        "TENT",
+        "NATURE",
+        "FUN",
+        "FAMILY",
+        "FRIEND",
+        "ADVENT",
+        "EXPLORE",
+        "WILD",
+        "STARS"
+      ]
+    },
+    {
+      "name": "Fishing Trip",
+      "words": [
+        "FISH",
+        "TRIP",
+        "BOAT",
+        "WATER",
+        "ROD",
+        "REEL",
+        "LINE",
+        "HOOK",
+        "BAIT",
+        "CATCH",
+        "LAKE",
+        "RIVER"
+      ]
+    },
+    {
+      "name": "Board Games",
+      "words": [
+        "BOARD",
+        "GAME",
+        "PLAY",
+        "FUN",
+        "RULES",
+        "TURN",
+        "MOVE",
+        "PLAYER",
+        "TEAM",
+        "SCORE",
+        "WIN",
+        "LOSE"
+      ]
+    },
+    {
+      "name": "Card Games",
+      "words": [
+        "CARDS",
+        "GAMES",
+        "PLAYER",
+        "DECKS",
+        "HANDS",
+        "RULES",
+        "SUITS",
+        "ROYAL",
+        "FLUSH",
+        "DRAW",
+        "BID",
+        "WINNER"
+      ]
+    },
+    {
+      "name": "Puzzle Books",
+      "words": [
+        "PUZZLE",
+        "BOOKS",
+        "PAGE",
+        "WORDS",
+        "GAME",
+        "PLAY",
+        "FUN",
+        "MIND",
+        "LOGIC",
+        "PROBLEM",
+        "SOLVE",
+        "LEARN"
+      ]
+    },
+    {
+      "name": "Cookie Baking",
+      "words": [
+        "COOKIES",
+        "BAKING",
+        "SWEET",
+        "TREAT",
+        "MIXER",
+        "DOUGH",
+        "SUGAR",
+        "FLAVOR",
+        "AROMA",
+        "TASTE",
+        "BAKE",
+        "KITCHEN"
+      ]
+    },
+    {
+      "name": "Gardening Fun",
+      "words": [
+        "GARDEN",
+        "FUN",
+        "PLANT",
+        "SEEDS",
+        "SOIL",
+        "WATER",
+        "GROW",
+        "GREEN",
+        "SPACE",
+        "NURTURE",
+        "CARE",
+        "HARVEST"
+      ]
+    },
+    {
+      "name": "Butterfly Net",
+      "words": [
+        "BUTTERFLY",
+        "NET",
+        "CATCH",
+        "FLY",
+        "WINGS",
+        "COLOR",
+        "BEAUTY",
+        "NATURE",
+        "OUTDOOR",
+        "CHASE",
+        "FREE",
+        "WILD"
+      ]
+    },
+    {
+      "name": "Scavenger Hunt",
+      "words": [
+        "HUNT",
+        "FIND",
+        "SEARCH",
+        "LIST",
+        "ITEM",
+        "CLUE",
+        "RACE",
+        "TEAM",
+        "TOGETHER",
+        "EXCITE",
+        "ADVENTURE",
+        "PRIZE"
+      ]
+    },
+    {
+      "name": "Nature Walk",
+      "words": [
+        "NATURE",
+        "WALK",
+        "TRAIL",
+        "PATH",
+        "OUTDOOR",
+        "SCENE",
+        "VIEW",
+        "WILD",
+        "LIFE",
+        "TREE",
+        "BIRD",
+        "SERENE"
+      ]
+    },
+    {
+      "name": "Zoo Adventure",
+      "words": [
+        "ZOO",
+        "ADVENTURE",
+        "ANIMAL",
+        "WILD",
+        "EXOTIC",
+        "CAGE",
+        "FEED",
+        "TOUR",
+        "GUIDE",
+        "LEARN",
+        "FUN",
+        "EXCITE"
+      ]
+    },
+    {
+      "name": "Amusement Park",
+      "words": [
+        "PARK",
+        "AMUSEMENT",
+        "RIDE",
+        "FUN",
+        "GAMES",
+        "PRIZE",
+        "FOOD",
+        "LAUGH",
+        "THRILL",
+        "SCREAM",
+        "JOY",
+        "MEMORY"
+      ]
+    },
+    {
+      "name": "Carnival Games",
+      "words": [
+        "CARNIVAL",
+        "GAMES",
+        "WIN",
+        "PRIZE",
+        "TEST",
+        "SKILL",
+        "CHANCE",
+        "FUN",
+        "PLAY",
+        "EXCITE",
+        "COMPETE",
+        "REWARD"
+      ]
+    },
+    {
+      "name": "Face Painting",
+      "words": [
+        "FACE",
+        "PAINT",
+        "ART",
+        "COLOR",
+        "DESIGN",
+        "CREATIVE",
+        "FUN",
+        "KID",
+        "SMILE",
+        "LAUGH",
+        "BEAUTY",
+        "IMAGINE"
+      ]
+    },
+    {
+      "name": "Petting Zoo",
+      "words": [
+        "ZOO",
+        "PET",
+        "ANIMAL",
+        "GENTLE",
+        "CARE",
+        "FEED",
+        "TOUCH",
+        "SOFT",
+        "CUDDLY",
+        "KID",
+        "LEARN",
+        "NURTURE"
+      ]
+    },
+    {
+      "name": "Train Ride",
+      "words": [
+        "TRAIN",
+        "RAILS",
+        "STATION",
+        "ENGINE",
+        "CABOOSE",
+        "CONDUCT",
+        "TRACKS",
+        "TRAVEL",
+        "LOCOMOT",
+        "RAILWAY",
+        "JOURNEY"
+      ]
+    },
+    {
+      "name": "Bicycle Ride",
+      "words": [
+        "BIKE",
+        "PEDALS",
+        "WHEELS",
+        "CYCLE",
+        "RIDER",
+        "HELMET",
+        "ROADS",
+        "PATHS",
+        "SPEED",
+        "GEARS",
+        "CHAIN",
+        "FREEDOM"
+      ]
+    },
+    {
+      "name": "Sledding Hill",
+      "words": [
+        "SLED",
+        "HILL",
+        "SNOW",
+        "COLD",
+        "WINTER",
+        "FUN",
+        "LAUGH",
+        "PLAY",
+        "TOBOGGAN",
+        "SLIDE",
+        "RUNNER",
+        "THRILL"
+      ]
+    },
+    {
+      "name": "Snowman Building",
+      "words": [
+        "SNOW",
+        "MAN",
+        "COLD",
+        "WINTER",
+        "HAT",
+        "SCARF",
+        "COAT",
+        "MITTEN",
+        "CARROT",
+        "COAL",
+        "FROST",
+        "CHILL"
+      ]
+    },
+    {
+      "name": "Christmas Tree",
+      "words": [
+        "TREE",
+        "CHRISTMAS",
+        "GIFT",
+        "STAR",
+        "LIGHT",
+        "PINE",
+        "SANTA",
+        "NOEL",
+        "JOY",
+        "CHEER"
+      ]
+    },
+    {
+      "name": "Easter Egg Hunt",
+      "words": [
+        "EGG",
+        "HUNT",
+        "EASTER",
+        "BASKET",
+        "RABBIT",
+        "CANDY",
+        "HIDE",
+        "SEEK",
+        "FUN",
+        "GAME",
+        "PRIZE",
+        "JOY"
+      ]
+    },
+    {
+      "name": "Halloween Costume",
+      "words": [
+        "COSTUME",
+        "HALLOWEEN",
+        "MASK",
+        "PUMPKIN",
+        "GHOST",
+        "MONSTER",
+        "WITCH",
+        "HAUNT",
+        "SCARY",
+        "SPIDER",
+        "SKELETON",
+        "CREEPY"
+      ]
+    },
+    {
+      "name": "Thanksgiving Feast",
+      "words": [
+        "FEAST",
+        "THANKS",
+        "TURKEY",
+        "PIE",
+        "FAMILY",
+        "FOOD",
+        "GRAVY",
+        "STUFF",
+        "PUMPKIN",
+        "CRANBERRY",
+        "MEAL",
+        "HARVEST"
+      ]
+    },
+    {
+      "name": "Family Reunion",
+      "words": [
+        "FAMILY",
+        "REUNION",
+        "LOVE",
+        "KIN",
+        "TOGETHER",
+        "SHARE",
+        "LAUGH",
+        "MEMORY",
+        "RELATE",
+        "BOND",
+        "HERITAGE",
+        "ROOTS"
+      ]
+    },
+    {
+      "name": "Road Trip",
+      "words": [
+        "ROAD",
+        "TRIP",
+        "CAR",
+        "MAP",
+        "JOURNEY",
+        "DRIVE",
+        "ADVENTURE",
+        "DISCOVER",
+        "LANDMARK",
+        "ROUTE",
+        "VACATION"
+      ]
+    },
+    {
+      "name": "Photo Album",
+      "words": [
+        "PHOTO",
+        "ALBUM",
+        "PICTURE",
+        "MEMORY",
+        "FRAME",
+        "CAPTION",
+        "SMILE",
+        "LAUGH",
+        "TEAR",
+        "PAST",
+        "NOSTALGIA",
+        "KEEPSAKE"
+      ]
+    },
+    {
+      "name": "Diary Entries",
+      "words": [
+        "DIARY",
+        "ENTRY",
+        "WRITE",
+        "THOUGHT",
+        "FEELING",
+        "SECRET",
+        "JOURNAL",
+        "PAGE",
+        "PEN",
+        "INK",
+        "REFLECT",
+        "MEMOIR"
+      ]
+    }
+  ]
+}

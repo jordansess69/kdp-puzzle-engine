@@ -1,0 +1,830 @@
+{
+  "title": "Large Print Outdoor Escapes Word Search",
+  "subtitle": "48 Relaxing Large-Print Puzzles with Big Easy-to-Read Letters and Full Solutions",
+  "author": "E. P. Greenwood",
+  "palette": "outdoor-activities",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Garden Walk",
+      "words": [
+        "PETALS",
+        "GARDEN",
+        "WALKWAY",
+        "FLOWER",
+        "PATHS",
+        "GREENS",
+        "TREES",
+        "BLOOMS",
+        "SHRUBS",
+        "GRASS",
+        "ROCKS",
+        "SEATS"
+      ]
+    },
+    {
+      "name": "Lake Fishing",
+      "words": [
+        "FISHING",
+        "LAKE",
+        "BOATS",
+        "ROD",
+        "REEL",
+        "LURES",
+        "BAITS",
+        "HOOKS",
+        "SINKS",
+        "FLOAT",
+        "NETS",
+        "WATER"
+      ]
+    },
+    {
+      "name": "Mountain Hike",
+      "words": [
+        "HIKE",
+        "MOUNT",
+        "TRAIL",
+        "CLIMB",
+        "PEAKS",
+        "ROCKY",
+        "STEEP",
+        "SUMMIT",
+        "VALLEY",
+        "HILLS",
+        "MAPS",
+        "COMPASS"
+      ]
+    },
+    {
+      "name": "Beach Vacation",
+      "words": [
+        "BEACH",
+        "SANDS",
+        "SURF",
+        "WAVES",
+        "TIDE",
+        "SUNSET",
+        "PALMS",
+        "COAST",
+        "OCEAN",
+        "SEAS",
+        "BAY"
+      ]
+    },
+    {
+      "name": "Nature Reserve",
+      "words": [
+        "NATURE",
+        "RESERVE",
+        "WILD",
+        "PARKS",
+        "GREEN",
+        "SPACE",
+        "HABITAT",
+        "CONSERVATION",
+        "LANDS",
+        "WILDS"
+      ]
+    },
+    {
+      "name": "Bird Watching",
+      "words": [
+        "BIRDS",
+        "WATCH",
+        "FEATHER",
+        "WINGS",
+        "FLYING",
+        "NEST",
+        "EGGS",
+        "CHIRP",
+        "BEAKS",
+        "TALON",
+        "HAWK",
+        "FALCON"
+      ]
+    },
+    {
+      "name": "Wildlife Safari",
+      "words": [
+        "WILD",
+        "SAFARI",
+        "ANIMAL",
+        "JOURNEY",
+        "TOURS",
+        "GUIDE",
+        "JEEP",
+        "CAMERA",
+        "LENS",
+        "ZOO"
+      ]
+    },
+    {
+      "name": "Park Picnic",
+      "words": [
+        "PARK",
+        "PICNIC",
+        "BLANKET",
+        "BASKET",
+        "FOOD",
+        "DRINK",
+        "MAT",
+        "TREE",
+        "GRASS",
+        "LAKE",
+        "PLAY",
+        "GROUND"
+      ]
+    },
+    {
+      "name": "River Cruise",
+      "words": [
+        "RIVER",
+        "CRUISE",
+        "BOAT",
+        "SHIP",
+        "SAIL",
+        "WATER",
+        "STREAM",
+        "BANK",
+        "CURRENT",
+        "TIDE",
+        "FERRY",
+        "PIER"
+      ]
+    },
+    {
+      "name": "Camping Trip",
+      "words": [
+        "CAMP",
+        "TRIP",
+        "TENT",
+        "SLEEP",
+        "BAG",
+        "FIRE",
+        "COOK",
+        "EAT",
+        "HIKE",
+        "WILD",
+        "NATURE",
+        "ADVENTURE"
+      ]
+    },
+    {
+      "name": "Forest Trail",
+      "words": [
+        "FOREST",
+        "TRAIL",
+        "TREE",
+        "LEAF",
+        "ROOT",
+        "LOG",
+        "WALK",
+        "RUN",
+        "BIKE",
+        "HORSE",
+        "RIDE",
+        "PATH"
+      ]
+    },
+    {
+      "name": "Outdoor Adventure",
+      "words": [
+        "OUTDOOR",
+        "ADVENTURE",
+        "FUN",
+        "PLAY",
+        "GAME",
+        "SPORT",
+        "RUN",
+        "JUMP",
+        "CLIMB",
+        "NATURE"
+      ]
+    },
+    {
+      "name": "Horse Riding",
+      "words": [
+        "STABLE",
+        "RIDERS",
+        "HORSES",
+        "SADDLE",
+        "BARN",
+        "CORRAL",
+        "STALL",
+        "REINS",
+        "MANE",
+        "TROT",
+        "CANTER",
+        "EQUINE"
+      ]
+    },
+    {
+      "name": "Golf Course",
+      "words": [
+        "GREENS",
+        "TEEING",
+        "CLUBS",
+        "BALLS",
+        "PUTTER",
+        "DRIVER",
+        "FAIRWAY",
+        "ROUGH",
+        "SAND",
+        "HOLE",
+        "PAR",
+        "SCORE"
+      ]
+    },
+    {
+      "name": "Ski Resort",
+      "words": [
+        "SLOPES",
+        "CHALET",
+        "LIFTS",
+        "SKIS",
+        "POLES",
+        "BOOTS",
+        "SNOW",
+        "MOUNT",
+        "PEAKS",
+        "RUNS",
+        "CHAIR",
+        "GLIDE"
+      ]
+    },
+    {
+      "name": "Surfing Beach",
+      "words": [
+        "WAVES",
+        "SURF",
+        "BEACH",
+        "TIDE",
+        "OCEAN",
+        "BOARD",
+        "FIN",
+        "LEASH",
+        "RIP",
+        "SWIM",
+        "COAST",
+        "BAY"
+      ]
+    },
+    {
+      "name": "Boat Sailing",
+      "words": [
+        "SAILS",
+        "BOAT",
+        "WIND",
+        "TIDE",
+        "SEA",
+        "LAKE",
+        "OAR",
+        "ROPE",
+        "ANCHOR",
+        "KEEL",
+        "HULL",
+        "CREW"
+      ]
+    },
+    {
+      "name": "Hiking Boots",
+      "words": [
+        "TRAIL",
+        "HIKE",
+        "BOOT",
+        "SOLE",
+        "LACE",
+        "SOCK",
+        "PACK",
+        "MAP",
+        "COMPASS",
+        "PEAK",
+        "CLIMB",
+        "SUMMIT"
+      ]
+    },
+    {
+      "name": "Cycling Tour",
+      "words": [
+        "BIKE",
+        "CYCLE",
+        "TOUR",
+        "ROAD",
+        "WHEEL",
+        "GEAR",
+        "CHAIN",
+        "SEAT",
+        "HELMET",
+        "RIDE",
+        "PATH",
+        "ROUTE"
+      ]
+    },
+    {
+      "name": "Star Gazing",
+      "words": [
+        "STARS",
+        "SKY",
+        "NIGHT",
+        "SPACE",
+        "MOON",
+        "PLANET",
+        "SUN",
+        "ORBIT",
+        "TELESCOPE",
+        "LENS",
+        "VIEW",
+        "COSMOS"
+      ]
+    },
+    {
+      "name": "Wildflower Meadow",
+      "words": [
+        "FLOWER",
+        "MEADOW",
+        "WILD",
+        "BLOOM",
+        "PETAL",
+        "STEM",
+        "LEAF",
+        "GREEN",
+        "FIELD",
+        "PRAIRIE",
+        "PLANT",
+        "BUD"
+      ]
+    },
+    {
+      "name": "Butterfly Garden",
+      "words": [
+        "BUTTERFLY",
+        "GARDEN",
+        "WING",
+        "FLY",
+        "NET",
+        "FEED",
+        "PLANT",
+        "FLOWER",
+        "PETAL",
+        "SUN",
+        "WARM",
+        "HABITAT"
+      ]
+    },
+    {
+      "name": "Zoo Visit",
+      "words": [
+        "ZOO",
+        "ANIMAL",
+        "WILD",
+        "CAGE",
+        "FEED",
+        "KEEPER",
+        "HABITAT",
+        "PARK",
+        "VISIT",
+        "TOUR",
+        "WALK",
+        "EXHIBIT"
+      ]
+    },
+    {
+      "name": "Botanical Garden",
+      "words": [
+        "GARDEN",
+        "BOTANY",
+        "PLANT",
+        "TREE",
+        "FLOWER",
+        "GREEN",
+        "HOUSE",
+        "GLASS",
+        "NURSERY",
+        "SEED",
+        "SOIL"
+      ]
+    },
+    {
+      "name": "National Park",
+      "words": [
+        "PARKS",
+        "WILDLIFE",
+        "TRAILS",
+        "RANGER",
+        "CANYON",
+        "FOREST",
+        "MOUNTAIN",
+        "WILDERNESS",
+        "ECOSYSTEM",
+        "PRESERVE",
+        "WATERFALL",
+        "LANDSCAPE"
+      ]
+    },
+    {
+      "name": "Scenic Drive",
+      "words": [
+        "DRIVE",
+        "SCENIC",
+        "ROADS",
+        "HIGHWAY",
+        "VIEW",
+        "PANORAMA",
+        "TOURING",
+        "COUNTRY",
+        "LANDSCAPE",
+        "ROUTE",
+        "TOURISM",
+        "EXPLORE"
+      ]
+    },
+    {
+      "name": "Hot Air Balloon",
+      "words": [
+        "BALLOON",
+        "FLIGHT",
+        "HOTAIR",
+        "BASKET",
+        "BURNER",
+        "ALTITUDE",
+        "SKYWARD",
+        "PILOT",
+        "RIDE",
+        "SOAR",
+        "FLOAT",
+        "AIRBORNE"
+      ]
+    },
+    {
+      "name": "Paragliding",
+      "words": [
+        "GLIDE",
+        "PARACHUTE",
+        "FLYING",
+        "SOARING",
+        "HEIGHT",
+        "THRILL",
+        "ADVENTURE",
+        "SPORTS",
+        "WING",
+        "AIR",
+        "SKY",
+        "FREE"
+      ]
+    },
+    {
+      "name": "Kayaking",
+      "words": [
+        "KAYAK",
+        "PADDLE",
+        "RIVER",
+        "LAKE",
+        "OCEAN",
+        "BOAT",
+        "WATER",
+        "SPORT",
+        "RECREATION",
+        "FLOAT",
+        "CURRENT",
+        "NAVIGATE"
+      ]
+    },
+    {
+      "name": "Rock Climbing",
+      "words": [
+        "CLIMB",
+        "ROCK",
+        "MOUNTAIN",
+        "PEAK",
+        "SUMMIT",
+        "ROUTE",
+        "ROPE",
+        "HARNESS",
+        "ASCENT",
+        "DESCENT",
+        "BOULDER",
+        "HOLDER"
+      ]
+    },
+    {
+      "name": "Geocaching",
+      "words": [
+        "CACHE",
+        "HUNT",
+        "TREASURE",
+        "MAP",
+        "COMPASS",
+        "OUTDOOR",
+        "ADVENTURE",
+        "TRAIL",
+        "HIDE",
+        "SEEK",
+        "FIND"
+      ]
+    },
+    {
+      "name": "Fishing Rod",
+      "words": [
+        "FISH",
+        "ROD",
+        "REEL",
+        "LINE",
+        "HOOK",
+        "BAIT",
+        "LURE",
+        "WATER",
+        "FISHING",
+        "TACKLE",
+        "CAST",
+        "CATCH"
+      ]
+    },
+    {
+      "name": "Tent Camping",
+      "words": [
+        "TENT",
+        "CAMP",
+        "SITE",
+        "OUTDOOR",
+        "NATURE",
+        "WILDERNESS",
+        "SHELTER",
+        "SLEEP",
+        "EQUIP",
+        "GEAR",
+        "CAMPFIRE",
+        "COOK"
+      ]
+    },
+    {
+      "name": "Campfire Songs",
+      "words": [
+        "SONG",
+        "FIRE",
+        "CAMP",
+        "MUSIC",
+        "GUITAR",
+        "SING",
+        "DANCE",
+        "NIGHT",
+        "STAR",
+        "SKY",
+        "FUN",
+        "TOGETHER"
+      ]
+    },
+    {
+      "name": "Sunset View",
+      "words": [
+        "SUNSET",
+        "VIEW",
+        "SCENIC",
+        "BEAUTY",
+        "NATURE",
+        "LANDSCAPE",
+        "HORIZON",
+        "SKY",
+        "COLOR",
+        "LIGHT",
+        "EVENING",
+        "SERENE"
+      ]
+    },
+    {
+      "name": "Mountain Bike",
+      "words": [
+        "BIKE",
+        "MOUNTAIN",
+        "TRAIL",
+        "RIDE",
+        "CYCLE",
+        "WHEEL",
+        "GEAR",
+        "PEDAL",
+        "PATH",
+        "TRACK",
+        "OFFROAD",
+        "ADVENTURE"
+      ]
+    },
+    {
+      "name": "Horseback Ride",
+      "words": [
+        "HORSE",
+        "RIDER",
+        "TRAIL",
+        "STABLE",
+        "PONY",
+        "GALLOP",
+        "CANTER",
+        "TROT",
+        "SADDLE",
+        "BRIDLE",
+        "CORRAL"
+      ]
+    },
+    {
+      "name": "Nature Photography",
+      "words": [
+        "CAMERA",
+        "LENS",
+        "VIEW",
+        "SCENE",
+        "LAND",
+        "WILDLIFE",
+        "IMAGE",
+        "NATURE",
+        "PHOTO",
+        "SNAP",
+        "FOCUS",
+        "CAPTURE"
+      ]
+    },
+    {
+      "name": "Wildlife Conservation",
+      "words": [
+        "WILDLIFE",
+        "PRESERVE",
+        "CONSERVE",
+        "ANIMAL",
+        "HABITAT",
+        "ECOSYSTEM",
+        "SPECIES",
+        "PROTECT",
+        "SAFEGUARD",
+        "ENDANGER",
+        "REFUGE",
+        "SANCTUARY"
+      ]
+    },
+    {
+      "name": "Outdoor Fitness",
+      "words": [
+        "RUN",
+        "HIKE",
+        "BIKE",
+        "SWIM",
+        "CLIMB",
+        "FITNESS",
+        "EXERCISE",
+        "SPORT",
+        "TRAIN",
+        "ATHLETE",
+        "MARATHON",
+        "WORKOUT"
+      ]
+    },
+    {
+      "name": "Fresh Air",
+      "words": [
+        "AIR",
+        "BREATH",
+        "FRESH",
+        "CLEAN",
+        "PURE",
+        "OXYGEN",
+        "VENT",
+        "WIND",
+        "BREEZE",
+        "ATMOSPHERE",
+        "CLIMATE",
+        "WEATHER"
+      ]
+    },
+    {
+      "name": "Green Space",
+      "words": [
+        "PARK",
+        "GARDEN",
+        "GREEN",
+        "SPACE",
+        "LAND",
+        "SCENE",
+        "VIEW",
+        "NATURE",
+        "OUTDOOR",
+        "YARD",
+        "MEADOW",
+        "PRAIRIE"
+      ]
+    },
+    {
+      "name": "Recreational Sports",
+      "words": [
+        "SPORT",
+        "GAME",
+        "PLAY",
+        "FUN",
+        "RECREATE",
+        "LEISURE",
+        "ACTIVITY",
+        "TEAM",
+        "PLAYER",
+        "COMPETE",
+        "CHALLENGE",
+        "TOURNAMENT"
+      ]
+    },
+    {
+      "name": "Leisure Activities",
+      "words": [
+        "FUN",
+        "PLAY",
+        "RELAX",
+        "ENJOY",
+        "LEISURE",
+        "ACTIVITY",
+        "HOLIDAY",
+        "VACATION",
+        "RECREATE",
+        "ENTERTAIN",
+        "AMUSE",
+        "DELIGHT"
+      ]
+    },
+    {
+      "name": "Travel Exploration",
+      "words": [
+        "TRAVEL",
+        "EXPLORE",
+        "DISCOVER",
+        "ADVENTURE",
+        "JOURNEY",
+        "TOUR",
+        "MAP",
+        "ROUTE",
+        "DESTINY",
+        "VACATION",
+        "WANDER",
+        "ROAM"
+      ]
+    },
+    {
+      "name": "Ecotourism",
+      "words": [
+        "TOUR",
+        "TRAVEL",
+        "NATURE",
+        "WILDLIFE",
+        "CONSERVE",
+        "PRESERVE",
+        "PROTECT",
+        "ENVIRONMENT",
+        "SUSTAIN",
+        "TRIP",
+        "EXPEDITION"
+      ]
+    },
+    {
+      "name": "Environmental Awareness",
+      "words": [
+        "ENVIRONMENT",
+        "AWARE",
+        "CONSERVE",
+        "PRESERVE",
+        "PROTECT",
+        "NATURE",
+        "ECOLOGY",
+        "SUSTAIN",
+        "GREEN",
+        "EARTH",
+        "PLANET"
+      ]
+    },
+    {
+      "name": "Conservation Efforts",
+      "words": [
+        "CONSERVE",
+        "PRESERVE",
+        "PROTECT",
+        "EFFORT",
+        "ACTION",
+        "CAMPAIGN",
+        "PROJECT",
+        "INITIATIVE",
+        "SUSTAIN",
+        "ENVIRONMENT",
+        "WILDLIFE",
+        "ECOSYSTEM"
+      ]
+    }
+  ]
+}

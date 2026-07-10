@@ -1,0 +1,774 @@
+{
+  "title": "Large Print Food & Kitchen Word Search",
+  "subtitle": "44 Tasty Large Print Puzzles for Adults & Seniors with Big Easy-to-Read Letters and Full Solutions",
+  "author": "E. P. Greenwood",
+  "palette": "food",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Animal Word Search",
+      "subtitle": "44 Relaxing Puzzles for Animal Lovers"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Fruits",
+      "words": [
+        "APPLE",
+        "BANANA",
+        "CHERRY",
+        "GRAPE",
+        "LEMON",
+        "MANGO",
+        "ORANGE",
+        "PEACH",
+        "PEAR",
+        "PLUM",
+        "APRICOT",
+        "MELON"
+      ]
+    },
+    {
+      "name": "Vegetables",
+      "words": [
+        "CARROT",
+        "POTATO",
+        "ONION",
+        "CELERY",
+        "SPINACH",
+        "BROCCOLI",
+        "PEPPER",
+        "RADISH",
+        "TURNIP",
+        "CABBAGE",
+        "LETTUCE",
+        "PEAS"
+      ]
+    },
+    {
+      "name": "Baking Ingredients",
+      "words": [
+        "FLOUR",
+        "SUGAR",
+        "BUTTER",
+        "YEAST",
+        "VANILLA",
+        "COCOA",
+        "CINNAMON",
+        "HONEY",
+        "SALT",
+        "CREAM",
+        "ALMOND",
+        "RAISINS"
+      ]
+    },
+    {
+      "name": "Herbs and Spices",
+      "words": [
+        "BASIL",
+        "THYME",
+        "OREGANO",
+        "PARSLEY",
+        "GINGER",
+        "NUTMEG",
+        "PAPRIKA",
+        "CUMIN",
+        "CLOVE",
+        "SAGE",
+        "PEPPER",
+        "CURRY"
+      ]
+    },
+    {
+      "name": "Breakfast Foods",
+      "words": [
+        "PANCAKE",
+        "WAFFLE",
+        "OMELETTE",
+        "BACON",
+        "CEREAL",
+        "TOAST",
+        "BAGEL",
+        "MUFFIN",
+        "OATMEAL",
+        "SAUSAGE",
+        "YOGURT",
+        "GRANOLA"
+      ]
+    },
+    {
+      "name": "Kitchen Tools",
+      "words": [
+        "KNIFE",
+        "SPOON",
+        "WHISK",
+        "GRATER",
+        "LADLE",
+        "SPATULA",
+        "COLANDER",
+        "PEELER",
+        "TONGS",
+        "SKILLET",
+        "MIXER",
+        "SIEVE"
+      ]
+    },
+    {
+      "name": "Desserts",
+      "words": [
+        "PUDDING",
+        "MOUSSE",
+        "TRIFLE",
+        "BROWNIE",
+        "COOKIE",
+        "SUNDAE",
+        "CUSTARD",
+        "SORBET",
+        "ECLAIR",
+        "GELATO",
+        "PARFAIT",
+        "TART"
+      ]
+    },
+    {
+      "name": "Hot and Cold Drinks",
+      "words": [
+        "COFFEE",
+        "COCOA",
+        "LEMONADE",
+        "SMOOTHIE",
+        "JUICE",
+        "CIDER",
+        "ESPRESSO",
+        "LATTE",
+        "SODA",
+        "PUNCH",
+        "MILK",
+        "TEA"
+      ]
+    },
+    {
+      "name": "Italian Food",
+      "words": [
+        "PIZZA",
+        "PASTA",
+        "RISOTTO",
+        "LASAGNA",
+        "RAVIOLI",
+        "GNOCCHI",
+        "PESTO",
+        "TIRAMISU",
+        "CALZONE",
+        "FOCACCIA",
+        "CANNOLI",
+        "ESPRESSO"
+      ]
+    },
+    {
+      "name": "Types of Bread",
+      "words": [
+        "BAGUETTE",
+        "CIABATTA",
+        "SOURDOUGH",
+        "PITA",
+        "BRIOCHE",
+        "FOCACCIA",
+        "CORNBREAD",
+        "BAGEL",
+        "RYE",
+        "NAAN",
+        "ROLL",
+        "WHEAT"
+      ]
+    },
+    {
+      "name": "Cheeses",
+      "words": [
+        "CHEDDAR",
+        "BRIE",
+        "GOUDA",
+        "PARMESAN",
+        "MOZZARELLA",
+        "FETA",
+        "SWISS",
+        "PROVOLONE",
+        "RICOTTA",
+        "GRUYERE",
+        "COLBY",
+        "HAVARTI"
+      ]
+    },
+    {
+      "name": "Soups and Stews",
+      "words": [
+        "BROTH",
+        "CHOWDER",
+        "GUMBO",
+        "BISQUE",
+        "GOULASH",
+        "LENTIL",
+        "CHILI",
+        "RAMEN",
+        "POTAGE",
+        "STEW",
+        "NOODLE",
+        "BARLEY"
+      ]
+    },
+    {
+      "name": "Salad Ingredients",
+      "words": [
+        "LETTUCE",
+        "TOMATO",
+        "CUCUMBER",
+        "ONION",
+        "CROUTON",
+        "SPINACH",
+        "AVOCADO",
+        "RADISH",
+        "PEPPER",
+        "CARROT",
+        "OLIVE",
+        "FETA"
+      ]
+    },
+    {
+      "name": "Seafood",
+      "words": [
+        "SALMON",
+        "SHRIMP",
+        "TUNA",
+        "CRAB",
+        "LOBSTER",
+        "OYSTER",
+        "CLAM",
+        "MUSSEL",
+        "SCALLOP",
+        "TROUT",
+        "HADDOCK",
+        "SQUID"
+      ]
+    },
+    {
+      "name": "Pasta Shapes",
+      "words": [
+        "PENNE",
+        "SPAGHETTI",
+        "FUSILLI",
+        "RIGATONI",
+        "MACARONI",
+        "FARFALLE",
+        "LINGUINE",
+        "RAVIOLI",
+        "ORZO",
+        "LASAGNE",
+        "ROTINI",
+        "ZITI"
+      ]
+    },
+    {
+      "name": "Cakes and Pies",
+      "words": [
+        "CHEESECAKE",
+        "SPONGE",
+        "PUMPKIN",
+        "PECAN",
+        "CARROT",
+        "CUSTARD",
+        "BANANA",
+        "LEMON",
+        "COFFEE",
+        "APPLE",
+        "CHERRY",
+        "FRUIT"
+      ]
+    },
+    {
+      "name": "Candy and Sweets",
+      "words": [
+        "CHOCOLATE",
+        "CARAMEL",
+        "TOFFEE",
+        "FUDGE",
+        "LICORICE",
+        "GUMDROP",
+        "LOLLIPOP",
+        "NOUGAT",
+        "MARZIPAN",
+        "TAFFY",
+        "PRALINE",
+        "MINT"
+      ]
+    },
+    {
+      "name": "Picnic Foods",
+      "words": [
+        "SANDWICH",
+        "COLESLAW",
+        "LEMONADE",
+        "WATERMELON",
+        "CHIPS",
+        "PICKLES",
+        "COOKIES",
+        "GRAPES",
+        "MUFFIN",
+        "CRACKERS",
+        "CHEESE",
+        "APPLE"
+      ]
+    },
+    {
+      "name": "Barbecue Foods",
+      "words": [
+        "BURGER",
+        "RIBS",
+        "BRISKET",
+        "SAUSAGE",
+        "CORN",
+        "COLESLAW",
+        "SKEWER",
+        "BRATWURST",
+        "DRUMSTICK",
+        "BEANS",
+        "KEBAB",
+        "STEAK"
+      ]
+    },
+    {
+      "name": "Comfort Food",
+      "words": [
+        "MEATLOAF",
+        "CASSEROLE",
+        "MACARONI",
+        "DUMPLING",
+        "POTPIE",
+        "GRAVY",
+        "STEW",
+        "ROAST",
+        "BISCUIT",
+        "NOODLES",
+        "CHILI",
+        "MASH"
+      ]
+    },
+    {
+      "name": "Tropical Fruits",
+      "words": [
+        "PINEAPPLE",
+        "MANGO",
+        "PAPAYA",
+        "GUAVA",
+        "COCONUT",
+        "LYCHEE",
+        "BANANA",
+        "KIWI",
+        "KUMQUAT",
+        "TAMARIND",
+        "JACKFRUIT",
+        "PASSIONFRUIT"
+      ]
+    },
+    {
+      "name": "Cooking Methods",
+      "words": [
+        "BAKE",
+        "FRY",
+        "ROAST",
+        "GRILL",
+        "BOIL",
+        "STEAM",
+        "SIMMER",
+        "BRAISE",
+        "POACH",
+        "SAUTE",
+        "BROIL",
+        "BLANCH"
+      ]
+    },
+    {
+      "name": "Pantry Staples",
+      "words": [
+        "RICE",
+        "FLOUR",
+        "SUGAR",
+        "SALT",
+        "PASTA",
+        "BEANS",
+        "VINEGAR",
+        "HONEY",
+        "OATS",
+        "LENTILS",
+        "CEREAL",
+        "OIL"
+      ]
+    },
+    {
+      "name": "Garden Vegetables",
+      "words": [
+        "TOMATO",
+        "ZUCCHINI",
+        "PUMPKIN",
+        "CARROT",
+        "BEAN",
+        "SQUASH",
+        "EGGPLANT",
+        "CUCUMBER",
+        "PEPPER",
+        "KALE",
+        "BEET",
+        "PEA"
+      ]
+    },
+    {
+      "name": "Mexican Food",
+      "words": [
+        "TACO",
+        "BURRITO",
+        "SALSA",
+        "GUACAMOLE",
+        "NACHOS",
+        "ENCHILADA",
+        "QUESADILLA",
+        "TORTILLA",
+        "FAJITA",
+        "TAMALE",
+        "CHURRO",
+        "MOLE"
+      ]
+    },
+    {
+      "name": "Asian Food",
+      "words": [
+        "SUSHI",
+        "NOODLES",
+        "DUMPLING",
+        "TOFU",
+        "RAMEN",
+        "TEMPURA",
+        "KIMCHI",
+        "WONTON",
+        "STIRFRY",
+        "MISO",
+        "EDAMAME",
+        "SATAY"
+      ]
+    },
+    {
+      "name": "Indian Food",
+      "words": [
+        "CURRY",
+        "NAAN",
+        "SAMOSA",
+        "BIRYANI",
+        "MASALA",
+        "LENTIL",
+        "PANEER",
+        "TIKKA",
+        "CHUTNEY",
+        "DOSA",
+        "KORMA",
+        "RAITA"
+      ]
+    },
+    {
+      "name": "French Food",
+      "words": [
+        "CROISSANT",
+        "BAGUETTE",
+        "BRIE",
+        "QUICHE",
+        "CREPE",
+        "RATATOUILLE",
+        "SOUFFLE",
+        "ECLAIR",
+        "MACARON",
+        "CASSOULET",
+        "BISTRO",
+        "TARTE"
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "words": [
+        "CLUB",
+        "REUBEN",
+        "PANINI",
+        "WRAP",
+        "SUBMARINE",
+        "HOAGIE",
+        "MELT",
+        "TUNA",
+        "TURKEY",
+        "HAM",
+        "BAGEL",
+        "ROLL"
+      ]
+    },
+    {
+      "name": "Sauces & Condiments",
+      "words": [
+        "KETCHUP",
+        "MUSTARD",
+        "MAYO",
+        "RELISH",
+        "GRAVY",
+        "PESTO",
+        "SALSA",
+        "AIOLI",
+        "VINAIGRETTE",
+        "CHUTNEY",
+        "MARINARA",
+        "HUMMUS"
+      ]
+    },
+    {
+      "name": "Nuts & Seeds",
+      "words": [
+        "ALMOND",
+        "WALNUT",
+        "CASHEW",
+        "PECAN",
+        "PISTACHIO",
+        "HAZELNUT",
+        "PEANUT",
+        "SUNFLOWER",
+        "PUMPKIN",
+        "SESAME",
+        "CHESTNUT",
+        "MACADAMIA"
+      ]
+    },
+    {
+      "name": "Snacks",
+      "words": [
+        "POPCORN",
+        "PRETZEL",
+        "CRACKERS",
+        "CHIPS",
+        "NACHOS",
+        "TRAILMIX",
+        "GRANOLA",
+        "JERKY",
+        "RAISINS",
+        "NUTS",
+        "CRISPS",
+        "DIP"
+      ]
+    },
+    {
+      "name": "Pizza Toppings",
+      "words": [
+        "PEPPERONI",
+        "MUSHROOM",
+        "OLIVE",
+        "ONION",
+        "SAUSAGE",
+        "PEPPER",
+        "CHEESE",
+        "BACON",
+        "PINEAPPLE",
+        "SPINACH",
+        "ANCHOVY",
+        "BASIL"
+      ]
+    },
+    {
+      "name": "Coffee Drinks",
+      "words": [
+        "ESPRESSO",
+        "LATTE",
+        "MOCHA",
+        "CAPPUCCINO",
+        "AMERICANO",
+        "MACCHIATO",
+        "CORTADO",
+        "AFFOGATO",
+        "BREW",
+        "DECAF",
+        "ROAST",
+        "FOAM"
+      ]
+    },
+    {
+      "name": "Tea Types",
+      "words": [
+        "GREEN",
+        "BLACK",
+        "OOLONG",
+        "HERBAL",
+        "CHAMOMILE",
+        "JASMINE",
+        "MATCHA",
+        "MINT",
+        "GINGER",
+        "CHAI",
+        "ROOIBOS",
+        "WHITE"
+      ]
+    },
+    {
+      "name": "Ice Cream Flavors",
+      "words": [
+        "VANILLA",
+        "CHOCOLATE",
+        "STRAWBERRY",
+        "MINT",
+        "PISTACHIO",
+        "COOKIE",
+        "CARAMEL",
+        "MANGO",
+        "COFFEE",
+        "TOFFEE",
+        "RIPPLE",
+        "FUDGE"
+      ]
+    },
+    {
+      "name": "Berries",
+      "words": [
+        "STRAWBERRY",
+        "BLUEBERRY",
+        "RASPBERRY",
+        "BLACKBERRY",
+        "CRANBERRY",
+        "GOOSEBERRY",
+        "MULBERRY",
+        "ELDERBERRY",
+        "BILBERRY",
+        "CURRANT",
+        "BOYSENBERRY",
+        "LOGANBERRY"
+      ]
+    },
+    {
+      "name": "Leafy Greens",
+      "words": [
+        "KALE",
+        "SPINACH",
+        "LETTUCE",
+        "ARUGULA",
+        "CHARD",
+        "COLLARD",
+        "CABBAGE",
+        "BOKCHOY",
+        "WATERCRESS",
+        "ENDIVE",
+        "ROMAINE",
+        "SORREL"
+      ]
+    },
+    {
+      "name": "Citrus Fruits",
+      "words": [
+        "ORANGE",
+        "LEMON",
+        "LIME",
+        "GRAPEFRUIT",
+        "TANGERINE",
+        "CLEMENTINE",
+        "KUMQUAT",
+        "POMELO",
+        "CITRON",
+        "MANDARIN",
+        "YUZU",
+        "ZEST"
+      ]
+    },
+    {
+      "name": "Dairy",
+      "words": [
+        "MILK",
+        "CHEESE",
+        "BUTTER",
+        "YOGURT",
+        "CREAM",
+        "CURD",
+        "GHEE",
+        "KEFIR",
+        "CUSTARD",
+        "BUTTERMILK",
+        "WHEY",
+        "PANEER"
+      ]
+    },
+    {
+      "name": "Holiday Treats",
+      "words": [
+        "GINGERBREAD",
+        "FUDGE",
+        "EGGNOG",
+        "CANDYCANE",
+        "FRUITCAKE",
+        "TOFFEE",
+        "COOKIES",
+        "SHORTBREAD",
+        "TRUFFLE",
+        "PEPPERMINT",
+        "COCOA",
+        "MARZIPAN"
+      ]
+    },
+    {
+      "name": "Street Food",
+      "words": [
+        "HOTDOG",
+        "TACO",
+        "FALAFEL",
+        "KEBAB",
+        "PRETZEL",
+        "CREPE",
+        "CHURRO",
+        "GYRO",
+        "SAMOSA",
+        "CORNDOG",
+        "NOODLES",
+        "DUMPLING"
+      ]
+    },
+    {
+      "name": "Thanksgiving Feast",
+      "words": [
+        "TURKEY",
+        "STUFFING",
+        "CRANBERRY",
+        "GRAVY",
+        "HAM",
+        "YAMS",
+        "POTATOES",
+        "CASSEROLE",
+        "ROLLS",
+        "PUMPKINPIE",
+        "EGGNOG",
+        "CORN"
+      ]
+    },
+    {
+      "name": "World Spices",
+      "words": [
+        "PAPRIKA",
+        "SAFFRON",
+        "TURMERIC",
+        "CARDAMOM",
+        "CORIANDER",
+        "NUTMEG",
+        "CLOVE",
+        "CUMIN",
+        "CINNAMON",
+        "GINGER",
+        "ALLSPICE",
+        "MACE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,840 @@
+{
+  "title": "Large Print Birds Word Search",
+  "subtitle": "48 Relaxing Large-Print Puzzles with Big Easy-to-Read Letters and Full Solutions",
+  "author": "E. P. Greenwood",
+  "palette": "birds",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Bird Watching",
+      "words": [
+        "BINOCULARS",
+        "HAWK",
+        "SPECTACLES",
+        "WINGSPAN",
+        "SIGHTINGS",
+        "BIRDER",
+        "OPTICS",
+        "TRIPOD",
+        "CAMERA",
+        "JOURNAL",
+        "OBSERVE",
+        "NATURE"
+      ]
+    },
+    {
+      "name": "Feathered Friends",
+      "words": [
+        "CANARY",
+        "FINCH",
+        "PARAKEET",
+        "COCKATOO",
+        "SOCIAL",
+        "BEAK",
+        "PLUMAGE",
+        "SONGBIRD",
+        "COMPANION",
+        "AVIAN",
+        "WINGED",
+        "FLOCK"
+      ]
+    },
+    {
+      "name": "Backyard Birds",
+      "words": [
+        "SPARROW",
+        "ROBIN",
+        "BLUEJAY",
+        "FEEDER",
+        "BIRDBATH",
+        "SEEDS",
+        "SUNFLOWER",
+        "PERCH",
+        "YARD",
+        "GARDEN",
+        "HABITAT",
+        "NESTING"
+      ]
+    },
+    {
+      "name": "Parrot Species",
+      "words": [
+        "MACAW",
+        "COCKATOOS",
+        "PARROTLET",
+        "LOVEBIRD",
+        "CONURE",
+        "AFRICANGREY",
+        "ECLECTUS",
+        "SENEGAL",
+        "AMAZON",
+        "COLORFUL",
+        "BEAKED",
+        "TROPICAL"
+      ]
+    },
+    {
+      "name": "Migration Patterns",
+      "words": [
+        "FLYWAY",
+        "HABITAT",
+        "SEASONAL",
+        "ROUTE",
+        "STOPOVER",
+        "REFUGE",
+        "SANCTUARY",
+        "ALTITUDE",
+        "LATITUDE",
+        "NAVIGATE",
+        "ORIENTATION"
+      ]
+    },
+    {
+      "name": "Bird Sanctuaries",
+      "words": [
+        "REFUGE",
+        "PRESERVE",
+        "WILDLIFE",
+        "HABITATS",
+        "PROTECTED",
+        "RESERVE",
+        "NATURE",
+        "PARK",
+        "ECOSYSTEM",
+        "AVIAN",
+        "WETLAND"
+      ]
+    },
+    {
+      "name": "Eagles",
+      "words": [
+        "BALD",
+        "GOLDEN",
+        "SOAR",
+        "TALON",
+        "MAJESTIC",
+        "NEST",
+        "RAPTOR",
+        "EYRIE",
+        "HUNTING",
+        "WINGSPAN",
+        "POWERFUL",
+        "EAGLE"
+      ]
+    },
+    {
+      "name": "Owls",
+      "words": [
+        "BARN",
+        "HORNED",
+        "NOCTURNAL",
+        "SILENT",
+        "HOOT",
+        "PERCH",
+        "HOLLOW",
+        "PREY",
+        "FEATHERS",
+        "WISDOM",
+        "TALONS",
+        "SILENT"
+      ]
+    },
+    {
+      "name": "Penguins",
+      "words": [
+        "COLONY",
+        "WADDLE",
+        "FLIPPER",
+        "ICEBERG",
+        "TUXEDO",
+        "HUDDLE",
+        "PEBBLE",
+        "SWIM",
+        "DIVE",
+        "EMPEROR",
+        "CHICK",
+        "ARCTIC"
+      ]
+    },
+    {
+      "name": "Tropical Birds",
+      "words": [
+        "PARROT",
+        "TOUCAN",
+        "MACAW",
+        "BRIGHT",
+        "JUNGLE",
+        "CANOPY",
+        "COLORFUL",
+        "TROPICAL",
+        "HUMID",
+        "RAINFOREST",
+        "PLUMAGE",
+        "EXOTIC"
+      ]
+    },
+    {
+      "name": "Water Birds",
+      "words": [
+        "HERON",
+        "EGRET",
+        "CRANE",
+        "STORK",
+        "WADING",
+        "MARSH",
+        "SHALLOW",
+        "FISHING",
+        "GRACEFUL",
+        "WETLAND",
+        "IBIS",
+        "SPOONBILL"
+      ]
+    },
+    {
+      "name": "Songbirds",
+      "words": [
+        "ROBIN",
+        "THRUSH",
+        "WARBLER",
+        "MELODY",
+        "MORNING",
+        "PERCH",
+        "BRANCH",
+        "DAWN",
+        "CHORUS",
+        "TWEET",
+        "LARK",
+        "NIGHTINGALE"
+      ]
+    },
+    {
+      "name": "Seabirds",
+      "words": [
+        "ALBATROSS",
+        "PETREL",
+        "GANNET",
+        "PELICAN",
+        "COASTAL",
+        "OCEAN",
+        "GLIDE",
+        "DIVE",
+        "COLONY",
+        "CLIFF",
+        "FISHING",
+        "TERN"
+      ]
+    },
+    {
+      "name": "Hawks and Falcons",
+      "words": [
+        "PEREGRINE",
+        "FALCON",
+        "KESTREL",
+        "HOVER",
+        "STOOP",
+        "SPEED",
+        "HUNT",
+        "SWIFT",
+        "PREY",
+        "RAPTOR",
+        "SHARP",
+        "VISION"
+      ]
+    },
+    {
+      "name": "Nesting",
+      "words": [
+        "TWIG",
+        "MOSS",
+        "FEATHER",
+        "SHELTER",
+        "CLUTCH",
+        "INCUBATE",
+        "HATCH",
+        "FLEDGLING",
+        "BROODING",
+        "COZY",
+        "BUILD",
+        "LEAVES"
+      ]
+    },
+    {
+      "name": "Bird Eggs",
+      "words": [
+        "SPECKLED",
+        "OVAL",
+        "FRAGILE",
+        "CLUTCH",
+        "WARM",
+        "SHELL",
+        "CRACK",
+        "HATCH",
+        "BLUE",
+        "SPOTTED",
+        "SMOOTH",
+        "CAMOUFLAGE"
+      ]
+    },
+    {
+      "name": "Flamingos",
+      "words": [
+        "PINK",
+        "WADING",
+        "BRINE",
+        "SHRIMP",
+        "ELEGANT",
+        "BALANCE",
+        "FLOCK",
+        "TROPICAL",
+        "LAKE",
+        "FILTER",
+        "FLOCK",
+        "STILTS"
+      ]
+    },
+    {
+      "name": "Woodpeckers",
+      "words": [
+        "PECK",
+        "DRUM",
+        "BARK",
+        "BEETLE",
+        "SUET",
+        "HOLLOW",
+        "GRIP",
+        "CHISEL",
+        "HAMMERING",
+        "CARPENTER",
+        "HOLES",
+        "INSECTS"
+      ]
+    },
+    {
+      "name": "Hummingbirds",
+      "words": [
+        "NECTAR",
+        "HOVER",
+        "RUBY",
+        "TINY",
+        "FLOWER",
+        "GORGET",
+        "RAPID",
+        "WINGS",
+        "FEEDER",
+        "COLORFUL",
+        "SPEED",
+        "MIGRATE"
+      ]
+    },
+    {
+      "name": "Parrots",
+      "words": [
+        "SPEAK",
+        "MIMIC",
+        "COLORFUL",
+        "TROPICAL",
+        "PERCH",
+        "BEAK",
+        "CAGE",
+        "COCKATOO",
+        "MACAW",
+        "CREST",
+        "INTELLIGENT",
+        "PLAYFUL"
+      ]
+    },
+    {
+      "name": "Crow Family",
+      "words": [
+        "RAVEN",
+        "ROOK",
+        "JACKDAW",
+        "MAGPIE",
+        "CLEVER",
+        "PROBLEM",
+        "TOOLS",
+        "SOCIAL",
+        "GLOSSY",
+        "BLACK",
+        "SMART",
+        "MURDER"
+      ]
+    },
+    {
+      "name": "Ducks and Geese",
+      "words": [
+        "MALLARD",
+        "DRAKE",
+        "GOSLING",
+        "POND",
+        "DABBLE",
+        "WEBBED",
+        "WADDLE",
+        "GAGGLE",
+        "MIGRATE",
+        "CANADA",
+        "FLOCK",
+        "QUACK"
+      ]
+    },
+    {
+      "name": "Swans",
+      "words": [
+        "ELEGANT",
+        "WHITE",
+        "CYGNET",
+        "GRACE",
+        "GLIDE",
+        "LAKE",
+        "PAIR",
+        "LOYAL",
+        "TRUMPET",
+        "FEATHERS",
+        "NEST",
+        "BEAUTIFUL"
+      ]
+    },
+    {
+      "name": "Robin",
+      "words": [
+        "REDBREAST",
+        "SPRING",
+        "WORM",
+        "GARDEN",
+        "CHEERFUL",
+        "SONG",
+        "NEST",
+        "FAMILIAR",
+        "BRITISH",
+        "SYMBOL",
+        "ORANGE",
+        "TERRITORY"
+      ]
+    },
+    {
+      "name": "Migration",
+      "words": [
+        "JOURNEY",
+        "SEASONS",
+        "SOUTH",
+        "FLYWAY",
+        "NAVIGATE",
+        "INSTINCT",
+        "FLOCK",
+        "DISTANCE",
+        "WEATHER",
+        "RETURN",
+        "BREED",
+        "COMPASS"
+      ]
+    },
+    {
+      "name": "Bird Calls",
+      "words": [
+        "WHISTLE",
+        "CHIRP",
+        "CUCKOO",
+        "HOOT",
+        "CAW",
+        "WARBLE",
+        "SQUAWK",
+        "TWEET",
+        "TRILL",
+        "CALL",
+        "MIMIC",
+        "ALARM"
+      ]
+    },
+    {
+      "name": "Feathers",
+      "words": [
+        "DOWN",
+        "QUILL",
+        "BARB",
+        "SHAFT",
+        "MOULT",
+        "PREEN",
+        "INSULATE",
+        "FLIGHT",
+        "CONTOUR",
+        "COLORFUL",
+        "WATERPROOF",
+        "PLUMAGE"
+      ]
+    },
+    {
+      "name": "Bird of Paradise",
+      "words": [
+        "PLUME",
+        "DISPLAY",
+        "COURTSHIP",
+        "DANCE",
+        "COLORFUL",
+        "TROPICAL",
+        "EXOTIC",
+        "ORNATE",
+        "TAIL",
+        "PAPUA",
+        "FOREST",
+        "MATING"
+      ]
+    },
+    {
+      "name": "Sparrows",
+      "words": [
+        "COMMON",
+        "HOUSE",
+        "HEDGE",
+        "CHIRPY",
+        "FLOCK",
+        "SEED",
+        "GARDEN",
+        "SMALL",
+        "BROWN",
+        "CHEERFUL",
+        "SOCIAL",
+        "NEST"
+      ]
+    },
+    {
+      "name": "Peacocks",
+      "words": [
+        "TAIL",
+        "DISPLAY",
+        "IRIDESCENT",
+        "BLUE",
+        "COURTSHIP",
+        "FAN",
+        "EYESPOT",
+        "PROUD",
+        "TRAIN",
+        "ORNATE",
+        "STRUT",
+        "BEAUTIFUL"
+      ]
+    },
+    {
+      "name": "Puffins",
+      "words": [
+        "BEAK",
+        "COLONY",
+        "CLIFF",
+        "DIVE",
+        "FISH",
+        "COMICAL",
+        "ORANGE",
+        "BURROW",
+        "ATLANTIC",
+        "CHICK",
+        "COLOURFUL",
+        "SUMMER"
+      ]
+    },
+    {
+      "name": "Kingfishers",
+      "words": [
+        "DIVE",
+        "FISH",
+        "TURQUOISE",
+        "STREAM",
+        "PERCH",
+        "FLASH",
+        "VIVID",
+        "RIVERBANK",
+        "SPLASH",
+        "BURROW",
+        "AGILE",
+        "BRILLIANT"
+      ]
+    },
+    {
+      "name": "Herons",
+      "words": [
+        "GREY",
+        "PATIENT",
+        "STILL",
+        "POND",
+        "STRIKE",
+        "STALK",
+        "TALL",
+        "ELEGANT",
+        "ROOKERY",
+        "FISH",
+        "SPEAR",
+        "WADING"
+      ]
+    },
+    {
+      "name": "Starlings",
+      "words": [
+        "MURMURATION",
+        "FLOCK",
+        "GLOSSY",
+        "IRIDESCENT",
+        "MIMIC",
+        "LOUD",
+        "ROOST",
+        "INVASION",
+        "COMMON",
+        "SPOTTED",
+        "VOCAL",
+        "ACROBATIC"
+      ]
+    },
+    {
+      "name": "Pelicans",
+      "words": [
+        "POUCH",
+        "SCOOP",
+        "COAST",
+        "PELICAN",
+        "COLONY",
+        "DIVE",
+        "FISH",
+        "THERMAL",
+        "GLIDE",
+        "BROWN",
+        "WHITE",
+        "BILL"
+      ]
+    },
+    {
+      "name": "Owlets",
+      "words": [
+        "BABY",
+        "FLUFFY",
+        "DOWNY",
+        "HOLLOW",
+        "PARENT",
+        "NOCTURNAL",
+        "HOOT",
+        "ROUND",
+        "EYES",
+        "NEST",
+        "GROW",
+        "SILENT"
+      ]
+    },
+    {
+      "name": "Cockatoos",
+      "words": [
+        "CREST",
+        "WHITE",
+        "SULPHUR",
+        "SCREECH",
+        "SOCIAL",
+        "AUSTRALIA",
+        "PARROT",
+        "CLEVER",
+        "CLOWN",
+        "AFFECTIONATE",
+        "LOUD",
+        "POWDER"
+      ]
+    },
+    {
+      "name": "Bird Feeders",
+      "words": [
+        "SUET",
+        "SEEDS",
+        "NYJER",
+        "PEANUTS",
+        "HANGING",
+        "POLE",
+        "SQUIRREL",
+        "ATTRACT",
+        "GARDEN",
+        "BIRDS",
+        "WINTER",
+        "MILLET"
+      ]
+    },
+    {
+      "name": "Garden Birds",
+      "words": [
+        "BLUETIT",
+        "CHAFFINCH",
+        "GOLDFINCH",
+        "SPARROW",
+        "THRUSH",
+        "BLACKBIRD",
+        "GARDEN",
+        "FEEDER",
+        "COMMON",
+        "YEAR",
+        "BRITISH",
+        "WATCH"
+      ]
+    },
+    {
+      "name": "Raptors",
+      "words": [
+        "PREDATOR",
+        "HUNT",
+        "TALONS",
+        "BEAK",
+        "SOAR",
+        "THERMAL",
+        "EYESIGHT",
+        "STOOP",
+        "SWIFT",
+        "POWERFUL",
+        "EAGLE",
+        "HAWK"
+      ]
+    },
+    {
+      "name": "Flamingo Flocks",
+      "words": [
+        "COLONY",
+        "LAGOON",
+        "SALT",
+        "LAKE",
+        "PINK",
+        "FILTER",
+        "SHRIMP",
+        "STANDING",
+        "FLAMINGOS",
+        "TROPICAL",
+        "AFRICA",
+        "GRACEFUL"
+      ]
+    },
+    {
+      "name": "Nightingale",
+      "words": [
+        "SONG",
+        "NIGHT",
+        "MELODIOUS",
+        "FOREST",
+        "EUROPE",
+        "LEGEND",
+        "SHAKESPEARE",
+        "HAUNTING",
+        "BEAUTIFUL",
+        "DARKNESS",
+        "UNSEEN",
+        "VOCAL"
+      ]
+    },
+    {
+      "name": "Toucans",
+      "words": [
+        "BILL",
+        "COLORFUL",
+        "TROPICAL",
+        "RAINFOREST",
+        "FRUIT",
+        "LARGE",
+        "BEAK",
+        "BRAZIL",
+        "PERCH",
+        "NEST",
+        "HOLLOW",
+        "VIVID"
+      ]
+    },
+    {
+      "name": "Cuckoos",
+      "words": [
+        "CUCKOO",
+        "BROOD",
+        "PARASITE",
+        "SPRING",
+        "CALL",
+        "MIGRATE",
+        "AFRICA",
+        "CLOCK",
+        "HOST",
+        "HATCH",
+        "CLEVER",
+        "ARRIVE"
+      ]
+    },
+    {
+      "name": "Swallows",
+      "words": [
+        "SWIFT",
+        "AERIAL",
+        "SUMMER",
+        "MIGRATE",
+        "BARN",
+        "FORK",
+        "TAIL",
+        "INSECT",
+        "TWITTER",
+        "RETURN",
+        "AFRICA",
+        "GRACEFUL"
+      ]
+    },
+    {
+      "name": "Pigeons",
+      "words": [
+        "DOVE",
+        "COOP",
+        "HOME",
+        "MESSAGE",
+        "CARRIER",
+        "CITY",
+        "PARK",
+        "FLOCK",
+        "BILL",
+        "GREY",
+        "PEACE",
+        "COTE"
+      ]
+    },
+    {
+      "name": "Lapwings",
+      "words": [
+        "TUMBLE",
+        "DISPLAY",
+        "FARMLAND",
+        "PEWIT",
+        "CREST",
+        "GREEN",
+        "PLOVER",
+        "FIELD",
+        "NEST",
+        "GROUND",
+        "SPRING",
+        "WETLAND"
+      ]
+    },
+    {
+      "name": "Ostriches",
+      "words": [
+        "LARGEST",
+        "FLIGHTLESS",
+        "SAVANNA",
+        "AFRICA",
+        "RUN",
+        "FAST",
+        "FEATHER",
+        "KICK",
+        "EGG",
+        "BURY",
+        "STRIDE",
+        "SPEED"
+      ]
+    }
+  ]
+}

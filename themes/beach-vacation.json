@@ -1,0 +1,830 @@
+{
+  "title": "Large Print Beach Vacation Word Search",
+  "subtitle": "48 Relaxing Large-Print Puzzles with Big Easy-to-Read Letters and Full Solutions",
+  "author": "E. P. Greenwood",
+  "palette": "beach-vacation",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Beach Ball",
+      "words": [
+        "INFLATE",
+        "VACATION",
+        "RECREATE",
+        "BEACHES",
+        "SUMMER",
+        "FUNTIME",
+        "PLAYFUL",
+        "BREEZY",
+        "SUNNY",
+        "BALLS",
+        "TOYS",
+        "LEISURE"
+      ]
+    },
+    {
+      "name": "Surfboard Ride",
+      "words": [
+        "SURFING",
+        "OCEANIC",
+        "WAVESIDE",
+        "COASTAL",
+        "BEACHY",
+        "RIDER",
+        "SURFER",
+        "BOARDS",
+        "RIDING",
+        "WAVES",
+        "TUBES",
+        "SHORES"
+      ]
+    },
+    {
+      "name": "Tropical Island",
+      "words": [
+        "ISLANDS",
+        "TROPICS",
+        "PARADISE",
+        "COCONUT",
+        "PALMTREE",
+        "SUNSET",
+        "BEACHES",
+        "OCEAN",
+        "VACATION",
+        "HOLIDAY",
+        "SEASIDE",
+        "HEAVENLY"
+      ]
+    },
+    {
+      "name": "Seashell Hunt",
+      "words": [
+        "SHELLS",
+        "OCEANIC",
+        "TREASURES",
+        "BEACHCOMB",
+        "SEARCH",
+        "DISCOVER",
+        "COLLECT",
+        "TIDAL",
+        "WAVES",
+        "SHORES",
+        "OCEANS",
+        "PEARLS"
+      ]
+    },
+    {
+      "name": "Ocean Waves",
+      "words": [
+        "OCEANS",
+        "WAVES",
+        "TIDES",
+        "SURF",
+        "BEACH",
+        "COAST",
+        "SEAS",
+        "SALTY",
+        "DEEP",
+        "BLUE",
+        "CRASH",
+        "SWELL"
+      ]
+    },
+    {
+      "name": "Sunset Cruise",
+      "words": [
+        "SUNSET",
+        "CRUISE",
+        "OCEAN",
+        "VACATION",
+        "LEISURE",
+        "RELAX",
+        "UNWIND",
+        "HOLIDAY",
+        "SEA",
+        "SKY",
+        "HORIZON",
+        "SERENE"
+      ]
+    },
+    {
+      "name": "Coconut Trees",
+      "words": [
+        "COCONUT",
+        "TREES",
+        "PALM",
+        "ISLAND",
+        "TROPICAL",
+        "BEACH",
+        "VACATION",
+        "HOLIDAY",
+        "PARADISE",
+        "LEISURE",
+        "RELAX",
+        "SERENE"
+      ]
+    },
+    {
+      "name": "Beachcomber",
+      "words": [
+        "BEACH",
+        "COMBER",
+        "TREASURES",
+        "SHELLS",
+        "DRIFTWOOD",
+        "SEA",
+        "OCEAN",
+        "SHORES",
+        "WAVES",
+        "TIDES",
+        "SEARCH",
+        "DISCOVER"
+      ]
+    },
+    {
+      "name": "Sandcastle Building",
+      "words": [
+        "SAND",
+        "CASTLE",
+        "BUILDING",
+        "BEACH",
+        "VACATION",
+        "FUN",
+        "PLAY",
+        "CREATIVE",
+        "IMAGINE",
+        "DESIGN",
+        "CONSTRUCT",
+        "ARCHITECT"
+      ]
+    },
+    {
+      "name": "Surfing Lessons",
+      "words": [
+        "SURFING",
+        "LESSONS",
+        "OCEAN",
+        "WAVES",
+        "BEACH",
+        "INSTRUCTOR",
+        "LEARN",
+        "PRACTICE",
+        "SKILL",
+        "BALANCE",
+        "RIDE",
+        "CATCH"
+      ]
+    },
+    {
+      "name": "Snorkeling Fun",
+      "words": [
+        "SNORKEL",
+        "FUN",
+        "OCEAN",
+        "SEA",
+        "FISH",
+        "CORAL",
+        "REEF",
+        "DIVING",
+        "SWIM",
+        "DISCOVER",
+        "ADVENTURE"
+      ]
+    },
+    {
+      "name": "Beach Towel",
+      "words": [
+        "TOWEL",
+        "BEACH",
+        "VACATION",
+        "SUN",
+        "SAND",
+        "RELAX",
+        "COMFORT",
+        "DRY",
+        "WARM",
+        "COZY",
+        "ABSORB",
+        "DRIED"
+      ]
+    },
+    {
+      "name": "Sunglasses",
+      "words": [
+        "SHADES",
+        "SUNGLASSES",
+        "LENS",
+        "FRAME",
+        "TINTED",
+        "REFLECT",
+        "SUNSCREEN",
+        "PROTECT",
+        "EYESIGHT",
+        "VISION",
+        "OPTICAL",
+        "SPECTACLES"
+      ]
+    },
+    {
+      "name": "Island Hopping",
+      "words": [
+        "ISLANDS",
+        "HOPPING",
+        "BOATRIDE",
+        "VACATION",
+        "PARADISE",
+        "TROPICAL",
+        "GETAWAY",
+        "EXCURSION",
+        "ADVENTURE",
+        "PASSPORT",
+        "EXPLORING"
+      ]
+    },
+    {
+      "name": "Lighthouse Tour",
+      "words": [
+        "LIGHTHOUSE",
+        "TOURISM",
+        "GUIDED",
+        "HISTORY",
+        "MARITIME",
+        "NAVIGATE",
+        "BEACON",
+        "TOWER",
+        "OPTIC",
+        "FRESNEL",
+        "KEEPER",
+        "HERITAGE"
+      ]
+    },
+    {
+      "name": "Pier Fishing",
+      "words": [
+        "FISHING",
+        "PIER",
+        "ROD",
+        "REEL",
+        "BAIT",
+        "HOOK",
+        "LINE",
+        "SINKER",
+        "TACKLE",
+        "ANGLER",
+        "MARINA",
+        "DOCK"
+      ]
+    },
+    {
+      "name": "Boat Parade",
+      "words": [
+        "BOAT",
+        "PARADE",
+        "FLOAT",
+        "DECORATE",
+        "MARINE",
+        "VESSEL",
+        "SAILING",
+        "POWERBOAT",
+        "REGATTA",
+        "NAVY",
+        "SPECTATOR",
+        "WATERCRAFT"
+      ]
+    },
+    {
+      "name": "Sea Turtle",
+      "words": [
+        "TURTLE",
+        "MARINE",
+        "WILDLIFE",
+        "CONSERVE",
+        "PROTECT",
+        "SHELL",
+        "FLIPPER",
+        "OCEAN",
+        "CORAL",
+        "REEF",
+        "HABITAT",
+        "ENDANGERED"
+      ]
+    },
+    {
+      "name": "Starfish Search",
+      "words": [
+        "STARFISH",
+        "OCEAN",
+        "BEACHCOMB",
+        "TIDE",
+        "POOL",
+        "MARINE",
+        "WILDLIFE",
+        "SEARCH",
+        "DISCOVER",
+        "EXPLORE",
+        "ROCKY",
+        "SHORELINE"
+      ]
+    },
+    {
+      "name": "Crab Feast",
+      "words": [
+        "CRAB",
+        "FEAST",
+        "SEAFOOD",
+        "SHELLFISH",
+        "CLAW",
+        "LEG",
+        "MEAT",
+        "COOKING",
+        "RECIPE",
+        "SPICE",
+        "SEASONING",
+        "APPETITE"
+      ]
+    },
+    {
+      "name": "Beachside BBQ",
+      "words": [
+        "BEACHSIDE",
+        "GRILL",
+        "PICNIC",
+        "OUTDOOR",
+        "COOKOUT",
+        "GATHER",
+        "FRIENDS",
+        "FAMILY",
+        "FOODIE",
+        "FEASTING",
+        "RELAXATION"
+      ]
+    },
+    {
+      "name": "Surf Fishing",
+      "words": [
+        "SURF",
+        "FISHING",
+        "ROD",
+        "REEL",
+        "LINE",
+        "SAND",
+        "WAVE",
+        "TIDE",
+        "CASTING",
+        "ANGLER",
+        "SALTWATER",
+        "COASTAL"
+      ]
+    },
+    {
+      "name": "Tidal Pool",
+      "words": [
+        "TIDAL",
+        "POOL",
+        "OCEAN",
+        "WATER",
+        "MARINE",
+        "LIFE",
+        "ROCKY",
+        "SHORE",
+        "EXPLORING",
+        "DISCOVERY",
+        "NATURE"
+      ]
+    },
+    {
+      "name": "Kite Flying",
+      "words": [
+        "KITE",
+        "FLYING",
+        "WIND",
+        "SAIL",
+        "STRING",
+        "BEACH",
+        "FUN",
+        "RECREATION",
+        "LEISURE",
+        "ACTIVITY",
+        "TOY"
+      ]
+    },
+    {
+      "name": "Seagull Watch",
+      "words": [
+        "SEAGULL",
+        "OCEAN",
+        "FLIGHT",
+        "BIRD",
+        "WINGS",
+        "FEATHER",
+        "COAST",
+        "BEACH",
+        "SAND",
+        "SHORE",
+        "TIDE",
+        "SURF"
+      ]
+    },
+    {
+      "name": "Driftwood Art",
+      "words": [
+        "DRIFTWOOD",
+        "WOOD",
+        "ART",
+        "SCULPT",
+        "CARVE",
+        "BEACH",
+        "NATURAL",
+        "CREATIVE",
+        "SHORE",
+        "OCEAN",
+        "TREE"
+      ]
+    },
+    {
+      "name": "Wave Runner",
+      "words": [
+        "WAVE",
+        "RUNNER",
+        "SURF",
+        "OCEAN",
+        "THRILL",
+        "RIDE",
+        "BOAT",
+        "SPEED",
+        "SEA",
+        "SPRAY",
+        "ADVENTURE",
+        "FUN"
+      ]
+    },
+    {
+      "name": "Parasailing Adventure",
+      "words": [
+        "PARASAIL",
+        "ADVENTURE",
+        "FLY",
+        "HIGH",
+        "OCEAN",
+        "THRILL",
+        "WIND",
+        "SEA",
+        "SKY",
+        "SAIL",
+        "BOAT",
+        "EXCITE"
+      ]
+    },
+    {
+      "name": "Beach Read",
+      "words": [
+        "BOOK",
+        "READ",
+        "BEACH",
+        "RELAX",
+        "OCEAN",
+        "VIEW",
+        "PAGE",
+        "STORY",
+        "AUTHOR",
+        "NOVEL",
+        "FICTION",
+        "LEISURE"
+      ]
+    },
+    {
+      "name": "Coastal Walk",
+      "words": [
+        "COAST",
+        "WALK",
+        "BEACH",
+        "PATH",
+        "TRAIL",
+        "OCEAN",
+        "VIEW",
+        "SCENE",
+        "NATURE",
+        "PARK",
+        "SHORE",
+        "STROLL"
+      ]
+    },
+    {
+      "name": "Tide Pooling",
+      "words": [
+        "TIDE",
+        "POOL",
+        "OCEAN",
+        "WATER",
+        "ROCK",
+        "POOLING",
+        "MARINE",
+        "LIFE",
+        "ANEMONE",
+        "STARFISH",
+        "CRAB",
+        "SHELL"
+      ]
+    },
+    {
+      "name": "Shark Encounter",
+      "words": [
+        "SHARK",
+        "OCEAN",
+        "ENCOUNTER",
+        "DIVE",
+        "SWIM",
+        "FISH",
+        "MARINE",
+        "WILD",
+        "PREDATOR",
+        "FIN",
+        "TOOTH",
+        "JAWS"
+      ]
+    },
+    {
+      "name": "Dolphin Show",
+      "words": [
+        "DOLPHIN",
+        "SHOW",
+        "OCEAN",
+        "PERFORM",
+        "SWIM",
+        "LEAP",
+        "PLAY",
+        "TRAIN",
+        "FIN",
+        "SMART",
+        "SOCIAL",
+        "MARINE"
+      ]
+    },
+    {
+      "name": "Buoy Marker",
+      "words": [
+        "BUOY",
+        "MARKER",
+        "OCEAN",
+        "SEA",
+        "NAVIGATE",
+        "SAFE",
+        "CHANNEL",
+        "WATER",
+        "DEPTH",
+        "SIGN",
+        "FLAG",
+        "FLOAT"
+      ]
+    },
+    {
+      "name": "Fishing Net",
+      "words": [
+        "FISHING",
+        "NET",
+        "OCEAN",
+        "SEA",
+        "FISH",
+        "CATCH",
+        "BOAT",
+        "ROPE",
+        "KNOT",
+        "HOOK",
+        "LINE",
+        "REEL"
+      ]
+    },
+    {
+      "name": "Sandy Toes",
+      "words": [
+        "SAND",
+        "TOES",
+        "BEACH",
+        "WALK",
+        "OCEAN",
+        "WAVE",
+        "SURF",
+        "COAST",
+        "RELAX",
+        "VACATION",
+        "LEISURE",
+        "FUN"
+      ]
+    },
+    {
+      "name": "Surf Shop",
+      "words": [
+        "SURFBOARDS",
+        "LEASHES",
+        "WETSUITS",
+        "RASHGUARD",
+        "SURFERS",
+        "BEACHWEAR",
+        "BOARDSHORTS",
+        "SURFWAX",
+        "FINS",
+        "BEACHSHOP"
+      ]
+    },
+    {
+      "name": "Coconut Drink",
+      "words": [
+        "COCONUTS",
+        "REFRESH",
+        "TROPICAL",
+        "DRINKS",
+        "REHYDRATE",
+        "COCONUTMILK",
+        "ISLANDS",
+        "VACATION",
+        "PARADISE",
+        "PINACOLADA",
+        "REJUVENATE"
+      ]
+    },
+    {
+      "name": "Beach Umbrella",
+      "words": [
+        "UMBRELLA",
+        "SUNSCREEN",
+        "CANOPY",
+        "SHADES",
+        "SUNHATS",
+        "BEACHCHAIR",
+        "SUNTENT",
+        "PARASOL",
+        "BEACHGEAR",
+        "COASTAL",
+        "OUTDOOR"
+      ]
+    },
+    {
+      "name": "Seaside Resort",
+      "words": [
+        "RESORTS",
+        "OCEANVIEW",
+        "SEASIDE",
+        "VACATIONS",
+        "GETAWAY",
+        "HOTELS",
+        "BEACHFRONT",
+        "COASTLINE",
+        "PARADISE",
+        "RELAXATION",
+        "LEISURE",
+        "RECREATION"
+      ]
+    },
+    {
+      "name": "Gulf Breeze",
+      "words": [
+        "GULFWATER",
+        "OCEANAIR",
+        "SEABREEZE",
+        "COASTAL",
+        "SALTY",
+        "WINDY",
+        "SUNNY",
+        "TROPICAL",
+        "VACATION",
+        "BEACHTIME",
+        "RELAXING",
+        "REFRESHING"
+      ]
+    },
+    {
+      "name": "Ocean Breeze",
+      "words": [
+        "OCEANAIR",
+        "SEABREEZE",
+        "SALTY",
+        "COOLING",
+        "REFRESH",
+        "WINDY",
+        "WAVES",
+        "TIDES",
+        "SURF",
+        "BEACHY",
+        "CALMING",
+        "SERENE"
+      ]
+    },
+    {
+      "name": "Surf Spray",
+      "words": [
+        "SURFSPRAY",
+        "OCEANMIST",
+        "SEASPRAY",
+        "SALTWATER",
+        "WAVES",
+        "SURFING",
+        "BEACHFOAM",
+        "TIDES",
+        "COASTAL",
+        "SURFBOARD",
+        "RIDE",
+        "CRASHING"
+      ]
+    },
+    {
+      "name": "Beachy Keen",
+      "words": [
+        "BEACHY",
+        "KEEN",
+        "SURFERS",
+        "GOODTIMES",
+        "SUNNY",
+        "FUN",
+        "RELAX",
+        "CHILL",
+        "COASTAL",
+        "SEASIDE",
+        "PLAYFUL"
+      ]
+    },
+    {
+      "name": "Treasure Hunt",
+      "words": [
+        "TREASURE",
+        "HUNT",
+        "BEACHCOMB",
+        "SHELLS",
+        "SEAGLASS",
+        "DRIFTWOOD",
+        "COINS",
+        "JEWELS",
+        "MAPS",
+        "CLUES",
+        "ADVENTURE",
+        "DISCOVERY"
+      ]
+    },
+    {
+      "name": "Paddleboard",
+      "words": [
+        "PADDLE",
+        "BOARD",
+        "SURF",
+        "OCEAN",
+        "WATER",
+        "SPORT",
+        "RECREATION",
+        "LEISURE",
+        "EXERCISE",
+        "BALANCE",
+        "CORE",
+        "STANDUP"
+      ]
+    },
+    {
+      "name": "Kayak Trip",
+      "words": [
+        "KAYAK",
+        "TRIP",
+        "OCEAN",
+        "WATER",
+        "PADDLE",
+        "BOAT",
+        "EXCURSION",
+        "ADVENTURE",
+        "EXPLORATION",
+        "COASTAL",
+        "MARINE",
+        "WILDLIFE"
+      ]
+    },
+    {
+      "name": "Lifeguard Tower",
+      "words": [
+        "LIFEGUARD",
+        "TOWER",
+        "BEACH",
+        "SAFETY",
+        "EMERGENCY",
+        "GUARD",
+        "WATCH",
+        "PROTECT",
+        "SWIM",
+        "SURF",
+        "WARNING"
+      ]
+    }
+  ]
+}

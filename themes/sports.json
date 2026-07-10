@@ -1,0 +1,824 @@
+{
+  "title": "Large Print Sports Word Search",
+  "subtitle": "48 Action-Packed Large Print Puzzles for Sports Fans with Big Easy-to-Read Letters and Full Solutions",
+  "author": "E. P. Greenwood",
+  "palette": "sports",
+  "puzzles": [
+    {
+      "name": "Baseball",
+      "words": [
+        "PITCHER",
+        "CATCHER",
+        "BATTER",
+        "HOMERUN",
+        "INFIELD",
+        "OUTFIELD",
+        "DUGOUT",
+        "UMPIRE",
+        "GLOVE",
+        "STRIKE",
+        "INNING",
+        "SLIDER"
+      ]
+    },
+    {
+      "name": "Basketball",
+      "words": [
+        "HOOP",
+        "DRIBBLE",
+        "LAYUP",
+        "DUNK",
+        "REBOUND",
+        "ASSIST",
+        "COURT",
+        "GUARD",
+        "CENTER",
+        "FORWARD",
+        "SWISH",
+        "BUZZER"
+      ]
+    },
+    {
+      "name": "Football",
+      "words": [
+        "TOUCHDOWN",
+        "QUARTERBACK",
+        "TACKLE",
+        "FUMBLE",
+        "HUDDLE",
+        "ENDZONE",
+        "HELMET",
+        "KICKOFF",
+        "PUNT",
+        "BLITZ",
+        "GRIDIRON",
+        "RECEIVER"
+      ]
+    },
+    {
+      "name": "Soccer",
+      "words": [
+        "GOAL",
+        "STRIKER",
+        "KEEPER",
+        "MIDFIELD",
+        "CORNER",
+        "PENALTY",
+        "OFFSIDE",
+        "HEADER",
+        "VOLLEY",
+        "PITCH",
+        "WHISTLE",
+        "CLEATS"
+      ]
+    },
+    {
+      "name": "Tennis",
+      "words": [
+        "RACKET",
+        "SERVE",
+        "VOLLEY",
+        "BASELINE",
+        "DEUCE",
+        "ADVANTAGE",
+        "BACKHAND",
+        "FOREHAND",
+        "SMASH",
+        "NET",
+        "COURT",
+        "RALLY"
+      ]
+    },
+    {
+      "name": "Golf",
+      "words": [
+        "BIRDIE",
+        "EAGLE",
+        "BOGEY",
+        "FAIRWAY",
+        "GREEN",
+        "BUNKER",
+        "CADDY",
+        "PUTTER",
+        "DRIVER",
+        "WEDGE",
+        "TEE",
+        "FLAG"
+      ]
+    },
+    {
+      "name": "Swimming",
+      "words": [
+        "FREESTYLE",
+        "BACKSTROKE",
+        "BUTTERFLY",
+        "BREASTSTROKE",
+        "LANE",
+        "GOGGLES",
+        "DIVE",
+        "FLIP",
+        "KICK",
+        "STROKE",
+        "POOL",
+        "RELAY"
+      ]
+    },
+    {
+      "name": "Track and Field",
+      "words": [
+        "SPRINT",
+        "HURDLES",
+        "RELAY",
+        "JAVELIN",
+        "DISCUS",
+        "SHOTPUT",
+        "MARATHON",
+        "BATON",
+        "STARTER",
+        "FINISH",
+        "LAPS",
+        "PODIUM"
+      ]
+    },
+    {
+      "name": "Gymnastics",
+      "words": [
+        "VAULT",
+        "BEAM",
+        "RINGS",
+        "TUMBLE",
+        "CARTWHEEL",
+        "HANDSTAND",
+        "FLIP",
+        "ROUTINE",
+        "CHALK",
+        "LEOTARD",
+        "SPLITS",
+        "DISMOUNT"
+      ]
+    },
+    {
+      "name": "Boxing",
+      "words": [
+        "JAB",
+        "HOOK",
+        "UPPERCUT",
+        "RING",
+        "CORNER",
+        "GLOVES",
+        "TRAINER",
+        "ROUNDS",
+        "BELL",
+        "CHAMPION",
+        "SPAR",
+        "FOOTWORK"
+      ]
+    },
+    {
+      "name": "Ice Hockey",
+      "words": [
+        "PUCK",
+        "STICK",
+        "GOALIE",
+        "RINK",
+        "SLAPSHOT",
+        "FACEOFF",
+        "PENALTY",
+        "HELMET",
+        "SKATES",
+        "BOARDS",
+        "ZAMBONI",
+        "OVERTIME"
+      ]
+    },
+    {
+      "name": "Skiing",
+      "words": [
+        "SLOPE",
+        "MOGUL",
+        "SLALOM",
+        "POWDER",
+        "LIFT",
+        "GONDOLA",
+        "ALPINE",
+        "NORDIC",
+        "POLES",
+        "BINDING",
+        "GOGGLES",
+        "CHALET"
+      ]
+    },
+    {
+      "name": "Skating",
+      "words": [
+        "BLADES",
+        "GLIDE",
+        "SPIN",
+        "AXEL",
+        "LUTZ",
+        "CAMEL",
+        "SPIRAL",
+        "RINK",
+        "LACES",
+        "TWIRL",
+        "FIGURE",
+        "SALCHOW"
+      ]
+    },
+    {
+      "name": "Cycling",
+      "words": [
+        "PEDAL",
+        "SADDLE",
+        "HANDLEBAR",
+        "SPOKE",
+        "CHAIN",
+        "GEAR",
+        "HELMET",
+        "PELOTON",
+        "SPRINT",
+        "TANDEM",
+        "SPROCKET",
+        "BRAKE"
+      ]
+    },
+    {
+      "name": "Fishing",
+      "words": [
+        "ROD",
+        "REEL",
+        "BAIT",
+        "HOOK",
+        "LURE",
+        "TACKLE",
+        "CAST",
+        "CATCH",
+        "NET",
+        "WADERS",
+        "BOBBER",
+        "TROUT"
+      ]
+    },
+    {
+      "name": "Bowling",
+      "words": [
+        "STRIKE",
+        "SPARE",
+        "GUTTER",
+        "PINS",
+        "LANE",
+        "ALLEY",
+        "SCORE",
+        "FRAME",
+        "TURKEY",
+        "HOOK",
+        "SPLIT",
+        "KEGLER"
+      ]
+    },
+    {
+      "name": "Volleyball",
+      "words": [
+        "SPIKE",
+        "BLOCK",
+        "BUMP",
+        "SET",
+        "SERVE",
+        "DIG",
+        "NET",
+        "ROTATION",
+        "LIBERO",
+        "RALLY",
+        "COURT",
+        "ACE"
+      ]
+    },
+    {
+      "name": "At the Gym",
+      "words": [
+        "TREADMILL",
+        "DUMBBELL",
+        "BARBELL",
+        "ROWING",
+        "SQUAT",
+        "LUNGE",
+        "PLANK",
+        "YOGA",
+        "CARDIO",
+        "WEIGHTS",
+        "BENCH",
+        "STRETCH"
+      ]
+    },
+    {
+      "name": "The Olympics",
+      "words": [
+        "TORCH",
+        "MEDAL",
+        "PODIUM",
+        "ANTHEM",
+        "FLAME",
+        "RINGS",
+        "VILLAGE",
+        "OPENING",
+        "RELAY",
+        "GOLD",
+        "SILVER",
+        "BRONZE"
+      ]
+    },
+    {
+      "name": "Cricket",
+      "words": [
+        "WICKET",
+        "BOWLER",
+        "BATSMAN",
+        "STUMPS",
+        "CREASE",
+        "BOUNDARY",
+        "INNINGS",
+        "OVER",
+        "MAIDEN",
+        "GULLY",
+        "YORKER",
+        "FIELDER"
+      ]
+    },
+    {
+      "name": "Rugby",
+      "words": [
+        "SCRUM",
+        "TACKLE",
+        "LINEOUT",
+        "MAUL",
+        "RUCK",
+        "CONVERSION",
+        "FLYHALF",
+        "WINGER",
+        "HOOKER",
+        "PITCH",
+        "TRYLINE",
+        "OFFLOAD"
+      ]
+    },
+    {
+      "name": "Motorsport",
+      "words": [
+        "CIRCUIT",
+        "PITSTOP",
+        "THROTTLE",
+        "CHICANE",
+        "APEX",
+        "GRID",
+        "POLE",
+        "LAP",
+        "HELMET",
+        "PADDOCK",
+        "TURBO",
+        "CHASSIS"
+      ]
+    },
+    {
+      "name": "Horseback Riding",
+      "words": [
+        "SADDLE",
+        "BRIDLE",
+        "STIRRUP",
+        "CANTER",
+        "GALLOP",
+        "TROT",
+        "JUMP",
+        "REINS",
+        "PADDOCK",
+        "MANE",
+        "HOOF",
+        "DRESSAGE"
+      ]
+    },
+    {
+      "name": "Archery",
+      "words": [
+        "BOW",
+        "ARROW",
+        "QUIVER",
+        "TARGET",
+        "BULLSEYE",
+        "FLETCHING",
+        "NOCK",
+        "DRAW",
+        "ANCHOR",
+        "RELEASE",
+        "RANGE",
+        "AIM"
+      ]
+    },
+    {
+      "name": "Hiking",
+      "words": [
+        "TRAIL",
+        "SUMMIT",
+        "BACKPACK",
+        "COMPASS",
+        "CANTEEN",
+        "BOOTS",
+        "RIDGE",
+        "VALLEY",
+        "CAMPSITE",
+        "MARKER",
+        "SWITCHBACK",
+        "VISTA"
+      ]
+    },
+    {
+      "name": "Camping",
+      "words": [
+        "TENT",
+        "CAMPFIRE",
+        "LANTERN",
+        "SLEEPING",
+        "MARSHMALLOW",
+        "THERMOS",
+        "TRAILHEAD",
+        "STAKES",
+        "KINDLING",
+        "STARGAZE",
+        "COOLER",
+        "HAMMOCK"
+      ]
+    },
+    {
+      "name": "Water Sports",
+      "words": [
+        "SURFING",
+        "KAYAK",
+        "CANOE",
+        "PADDLE",
+        "SAILING",
+        "ROWING",
+        "SNORKEL",
+        "WETSUIT",
+        "WAVE",
+        "REGATTA",
+        "RAFTING",
+        "WINDSURF"
+      ]
+    },
+    {
+      "name": "Winter Sports",
+      "words": [
+        "SLED",
+        "LUGE",
+        "BOBSLED",
+        "CURLING",
+        "BIATHLON",
+        "SNOWBOARD",
+        "ICICLE",
+        "FROSTBITE",
+        "TOBOGGAN",
+        "MITTENS",
+        "PARKA",
+        "BLIZZARD"
+      ]
+    },
+    {
+      "name": "Team Spirit",
+      "words": [
+        "COACH",
+        "CAPTAIN",
+        "MASCOT",
+        "CHEER",
+        "ROOKIE",
+        "TROPHY",
+        "BANNER",
+        "FANS",
+        "CHANT",
+        "VICTORY",
+        "ROSTER",
+        "UNIFORM"
+      ]
+    },
+    {
+      "name": "Sports Gear",
+      "words": [
+        "JERSEY",
+        "CLEATS",
+        "WHISTLE",
+        "SCOREBOARD",
+        "STOPWATCH",
+        "HEADBAND",
+        "WRISTBAND",
+        "DUFFEL",
+        "LOCKER",
+        "TAPE",
+        "GUARD",
+        "VISOR"
+      ]
+    },
+    {
+      "name": "Stadium Day",
+      "words": [
+        "TICKET",
+        "BLEACHERS",
+        "CONCESSION",
+        "PROGRAM",
+        "ANNOUNCER",
+        "HALFTIME",
+        "PARKING",
+        "TAILGATE",
+        "PENNANT",
+        "SOUVENIR",
+        "HOTDOG",
+        "CROWD"
+      ]
+    },
+    {
+      "name": "Champions",
+      "words": [
+        "TROPHY",
+        "MEDAL",
+        "TITLE",
+        "RECORD",
+        "STREAK",
+        "DYNASTY",
+        "LEGEND",
+        "PENNANT",
+        "RIBBON",
+        "CROWN",
+        "GLORY",
+        "PARADE"
+      ]
+    },
+    {
+      "name": "Baseball Classic",
+      "words": [
+        "SHORTSTOP",
+        "BULLPEN",
+        "SINKER",
+        "CURVEBALL",
+        "SACRIFICE",
+        "STOLEN",
+        "DIAMOND",
+        "BASELINE",
+        "POPUP",
+        "SQUEEZE",
+        "SHUTOUT",
+        "LINEUP"
+      ]
+    },
+    {
+      "name": "Basketball Court",
+      "words": [
+        "ALLEYOOP",
+        "FASTBREAK",
+        "FLAGRANT",
+        "OVERTIME",
+        "TIMEOUT",
+        "PAINTED",
+        "ELBOW",
+        "BACKDOOR",
+        "SCREENING",
+        "CHARGE",
+        "TRAVEL",
+        "TRIPLE"
+      ]
+    },
+    {
+      "name": "Soccer Stars",
+      "words": [
+        "CAPTAIN",
+        "FREEKICK",
+        "BICYCLE",
+        "KEEPER",
+        "DRIBBLE",
+        "ASSIST",
+        "AGGREGATE",
+        "NUTMEG",
+        "TACKLE",
+        "FORMATION",
+        "STOPPAGE",
+        "GOLDEN"
+      ]
+    },
+    {
+      "name": "Tennis Grand Slam",
+      "words": [
+        "WIMBLEDON",
+        "WILDCARD",
+        "TIEBREAK",
+        "SEEDING",
+        "FINALIST",
+        "DROPSHOT",
+        "SLICE",
+        "LOBS",
+        "DOUBLES",
+        "MIXED",
+        "UMPIRE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "name": "Golf Course",
+      "words": [
+        "ALBATROSS",
+        "MULLIGAN",
+        "SCRATCH",
+        "HANDICAP",
+        "FOURSOME",
+        "DOGLEG",
+        "APPROACH",
+        "BACKSPIN",
+        "ROUGH",
+        "SCORECARD",
+        "CLUBHOUSE",
+        "BIRDIE"
+      ]
+    },
+    {
+      "name": "Martial Arts",
+      "words": [
+        "KARATE",
+        "JUDO",
+        "TAEKWONDO",
+        "BELT",
+        "DOJO",
+        "SENSEI",
+        "SPARRING",
+        "KATA",
+        "BLOCK",
+        "ROUNDHOUSE",
+        "SUBMISSION",
+        "ARMLOCK"
+      ]
+    },
+    {
+      "name": "Athletics Track",
+      "words": [
+        "STARTING",
+        "STEEPLECHASE",
+        "DECATHLON",
+        "PENTATHLON",
+        "RACEWALKING",
+        "PHOTO",
+        "FALSE",
+        "HEAT",
+        "SEMIFINAL",
+        "PERSONAL",
+        "WINDUP",
+        "ANCHOR"
+      ]
+    },
+    {
+      "name": "Extreme Sports",
+      "words": [
+        "SKYDIVE",
+        "BUNGEE",
+        "FREEFALL",
+        "WINGSUIT",
+        "FREERIDE",
+        "PARKOUR",
+        "RAPPEL",
+        "ZIPLINE",
+        "WAKEBOARD",
+        "KITEBOARD",
+        "PARAGLIDE",
+        "DOWNHILL"
+      ]
+    },
+    {
+      "name": "Racket Sports",
+      "words": [
+        "BADMINTON",
+        "SQUASH",
+        "RACQUETBALL",
+        "PICKLEBALL",
+        "SMASH",
+        "SHUTTLE",
+        "BIRDIE",
+        "RALLY",
+        "DEUCE",
+        "SERVICE",
+        "CROSSCOURT",
+        "LOFTED"
+      ]
+    },
+    {
+      "name": "Field Sports",
+      "words": [
+        "LACROSSE",
+        "HOCKEY",
+        "POLO",
+        "CROQUET",
+        "MALLET",
+        "STICK",
+        "CREASE",
+        "FACEOFF",
+        "PENALTY",
+        "SIDELINE",
+        "KEEPER",
+        "TURF"
+      ]
+    },
+    {
+      "name": "Combat Sports",
+      "words": [
+        "WRESTLING",
+        "SUMO",
+        "FENCING",
+        "SABRE",
+        "FOIL",
+        "EPEE",
+        "PISTE",
+        "PARRY",
+        "THRUST",
+        "LUNGE",
+        "RIPOSTE",
+        "TOUCHE"
+      ]
+    },
+    {
+      "name": "Skateboarding",
+      "words": [
+        "OLLIE",
+        "KICKFLIP",
+        "HEELFLIP",
+        "GRIND",
+        "NOSESLIDE",
+        "HALFPIPE",
+        "HANDRAIL",
+        "DECK",
+        "TRUCKS",
+        "BEARINGS",
+        "GRIP",
+        "RAMP"
+      ]
+    },
+    {
+      "name": "Fitness Challenge",
+      "words": [
+        "PUSHUPS",
+        "PULLUPS",
+        "SITUPS",
+        "BURPEES",
+        "JUMPING",
+        "LUNGES",
+        "DEADLIFT",
+        "KETTLEBELL",
+        "RESISTANCE",
+        "INTERVAL",
+        "CIRCUIT",
+        "COOLDOWN"
+      ]
+    },
+    {
+      "name": "Sports Legends",
+      "words": [
+        "RECORD",
+        "GREATEST",
+        "CAREER",
+        "HALL",
+        "FAME",
+        "COMEBACK",
+        "UNDEFEATED",
+        "SEASON",
+        "DEBUT",
+        "VETERAN",
+        "GOAT",
+        "ICON"
+      ]
+    },
+    {
+      "name": "Rugby League",
+      "words": [
+        "TACKLE",
+        "TOUCHLINE",
+        "CONVERSION",
+        "DROPKICK",
+        "SINBIN",
+        "DUMMY",
+        "GRUBBER",
+        "HOOKER",
+        "WINGER",
+        "HALFBACK",
+        "SCRUM",
+        "FIELD"
+      ]
+    },
+    {
+      "name": "Sailing and Rowing",
+      "words": [
+        "HELM",
+        "TILLER",
+        "BOOM",
+        "MAINSAIL",
+        "SPINNAKER",
+        "KEEL",
+        "CREW",
+        "BUOY",
+        "TACK",
+        "JIBE",
+        "SCULLING",
+        "COXSWAIN"
+      ]
+    }
+  ]
+}

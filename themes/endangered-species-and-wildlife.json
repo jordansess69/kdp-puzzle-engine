@@ -1,0 +1,831 @@
+{
+  "title": "Large Print Endangered Species Word Search",
+  "subtitle": "48 Relaxing Large-Print Puzzles with Big Easy-to-Read Letters and Full Solutions to Help You Relax and Learn About Wildlife Conservation",
+  "author": "E. P. Greenwood",
+  "palette": "endangered-species-and-wildlife",
+  "also_from": [
+    {
+      "title": "Large Print Nature Word Search",
+      "subtitle": "48 Relaxing Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Food & Kitchen Word Search",
+      "subtitle": "44 Tasty Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Bible Word Search",
+      "subtitle": "48 Inspirational Puzzles for Adults & Seniors"
+    },
+    {
+      "title": "Large Print Christmas Word Search",
+      "subtitle": "48 Festive Puzzles for Adults & Seniors"
+    }
+  ],
+  "puzzles": [
+    {
+      "name": "Giant Panda",
+      "words": [
+        "PANDAS",
+        "BEARS",
+        "CHINA",
+        "FOREST",
+        "BAMBOO",
+        "CONSERVE",
+        "WILDLIFE",
+        "ENDANGER",
+        "SPECIES",
+        "HABITAT",
+        "PRESERVE",
+        "NATURE"
+      ]
+    },
+    {
+      "name": "African Lion",
+      "words": [
+        "LIONS",
+        "SAVANNA",
+        "WILDEBEEST",
+        "PRIDE",
+        "MANE",
+        "WILD",
+        "PREDATOR",
+        "HABITAT",
+        "ROAR",
+        "AFRICA",
+        "KING"
+      ]
+    },
+    {
+      "name": "Mountain Gorilla",
+      "words": [
+        "GORILLAS",
+        "MOUNTAIN",
+        "CONGO",
+        "WILD",
+        "PRIMATES",
+        "TRACKING",
+        "HABITAT",
+        "ENDANGERED",
+        "SPECIES",
+        "PROTECT",
+        "CONSERVE"
+      ]
+    },
+    {
+      "name": "Koala Bear",
+      "words": [
+        "KOALAS",
+        "EUCALYPTUS",
+        "TREE",
+        "LEAF",
+        "AUSTRALIA",
+        "MARSUPIAL",
+        "WILD",
+        "FOREST",
+        "CONSERVE",
+        "HABITAT",
+        "NATURE",
+        "ANIMAL"
+      ]
+    },
+    {
+      "name": "Sea Turtle",
+      "words": [
+        "TURTLES",
+        "OCEAN",
+        "SEA",
+        "BEACH",
+        "SHELL",
+        "CONSERVE",
+        "MARINE",
+        "WILD",
+        "ENDANGERED",
+        "SPECIES",
+        "REPTILE",
+        "PROTECT"
+      ]
+    },
+    {
+      "name": "Amur Leopard",
+      "words": [
+        "LEOPARDS",
+        "RARE",
+        "WILD",
+        "CAT",
+        "RUSSIA",
+        "CHINA",
+        "CONSERVE",
+        "HABITAT",
+        "ENDANGERED",
+        "SPECIES",
+        "PREDATOR"
+      ]
+    },
+    {
+      "name": "Vaquita Porpoise",
+      "words": [
+        "PORPOISE",
+        "OCEAN",
+        "SEA",
+        "WILD",
+        "MARINE",
+        "ENDANGERED",
+        "SPECIES",
+        "CONSERVE",
+        "PROTECT",
+        "FISHING"
+      ]
+    },
+    {
+      "name": "Javan Rhino",
+      "words": [
+        "RHINOS",
+        "JAVAN",
+        "INDONESIA",
+        "WILD",
+        "ENDANGERED",
+        "SPECIES",
+        "CONSERVE",
+        "HABITAT",
+        "PROTECT",
+        "NATURE",
+        "ANIMAL",
+        "PRESERVE"
+      ]
+    },
+    {
+      "name": "Sumatran Tiger",
+      "words": [
+        "TIGERS",
+        "SUMATRA",
+        "INDONESIA",
+        "WILD",
+        "CAT",
+        "ENDANGERED",
+        "SPECIES",
+        "CONSERVE",
+        "HABITAT",
+        "PROTECT",
+        "PREDATOR",
+        "FOREST"
+      ]
+    },
+    {
+      "name": "Asiatic Cheetah",
+      "words": [
+        "CHEETAH",
+        "ASIA",
+        "IRAN",
+        "WILD",
+        "CAT",
+        "ENDANGERED",
+        "SPECIES",
+        "CONSERVE",
+        "HABITAT",
+        "PROTECT",
+        "PREDATOR",
+        "SPEED"
+      ]
+    },
+    {
+      "name": "Hawksbill Turtle",
+      "words": [
+        "HAWKSBILL",
+        "TURTLE",
+        "OCEAN",
+        "SEA",
+        "CORAL",
+        "REEF",
+        "WILD",
+        "MARINE",
+        "ENDANGERED",
+        "SPECIES",
+        "CONSERVE",
+        "SHELL"
+      ]
+    },
+    {
+      "name": "Red Wolf",
+      "words": [
+        "WOLVES",
+        "RED",
+        "WILD",
+        "CANINE",
+        "ENDANGERED",
+        "SPECIES",
+        "CONSERVE",
+        "HABITAT",
+        "PROTECT",
+        "PREDATOR",
+        "PACK"
+      ]
+    },
+    {
+      "name": "Blue Whale",
+      "words": [
+        "OCEAN",
+        "MARINE",
+        "WHALE",
+        "FINS",
+        "BLUBBER",
+        "HABITAT",
+        "CONSERVE",
+        "OCEANS",
+        "MASSIVE",
+        "ENDANGER",
+        "SPECIES",
+        "PROTECT"
+      ]
+    },
+    {
+      "name": "Snow Leopard",
+      "words": [
+        "LEOPARD",
+        "SNOWS",
+        "MOUNTAIN",
+        "WILDLIFE",
+        "PREDATOR",
+        "CATS",
+        "FURS",
+        "HABITATS",
+        "ALPINE",
+        "TRACKS",
+        "CLAWS",
+        "SURVIVAL"
+      ]
+    },
+    {
+      "name": "Orangutan",
+      "words": [
+        "ORANGUTAN",
+        "JUNGLE",
+        "PRIMATES",
+        "TREES",
+        "LEAVES",
+        "MONKEY",
+        "FOREST",
+        "WILDLIFE",
+        "HABITAT",
+        "SPECIES",
+        "APES"
+      ]
+    },
+    {
+      "name": "Gray Wolf",
+      "words": [
+        "WOLF",
+        "PACKS",
+        "HUNT",
+        "PREDATOR",
+        "WILDLIFE",
+        "CANINE",
+        "GRAY",
+        "SURVIVE",
+        "HABITAT",
+        "TRACKS",
+        "HOWLS",
+        "PROTECT"
+      ]
+    },
+    {
+      "name": "Black Rhino",
+      "words": [
+        "RHINO",
+        "BLACK",
+        "WILDLIFE",
+        "SAFARI",
+        "HORN",
+        "POACH",
+        "ENDANGER",
+        "CONSERVE",
+        "HABITAT",
+        "SPECIES",
+        "PROTECT",
+        "ANIMAL"
+      ]
+    },
+    {
+      "name": "Green Turtle",
+      "words": [
+        "TURTLE",
+        "GREEN",
+        "OCEAN",
+        "SHELL",
+        "REPTILE",
+        "MARINE",
+        "BEACH",
+        "NESTS",
+        "EGGS",
+        "HABITAT",
+        "CONSERVE",
+        "SWIM"
+      ]
+    },
+    {
+      "name": "Polar Bear",
+      "words": [
+        "BEAR",
+        "POLAR",
+        "ICE",
+        "ARCTIC",
+        "WILDLIFE",
+        "HUNT",
+        "SEAL",
+        "FURS",
+        "CLIMATE",
+        "HABITAT",
+        "SURVIVE",
+        "PROTECT"
+      ]
+    },
+    {
+      "name": "Fin Whale",
+      "words": [
+        "WHALE",
+        "FIN",
+        "OCEAN",
+        "MARINE",
+        "FINS",
+        "HABITAT",
+        "CONSERVE",
+        "OCEANS",
+        "MASSIVE",
+        "ENDANGER",
+        "SPECIES",
+        "SWIM"
+      ]
+    },
+    {
+      "name": "North Atlantic Right Whale",
+      "words": [
+        "WHALE",
+        "RIGHT",
+        "ATLANTIC",
+        "OCEAN",
+        "MARINE",
+        "HABITAT",
+        "CONSERVE",
+        "OCEANS",
+        "MASSIVE",
+        "ENDANGER",
+        "SPECIES",
+        "MIGRATE"
+      ]
+    },
+    {
+      "name": "Siberian Tiger",
+      "words": [
+        "TIGER",
+        "SIBERIAN",
+        "WILDLIFE",
+        "PREDATOR",
+        "CATS",
+        "FURS",
+        "HABITATS",
+        "ALPINE",
+        "TRACKS",
+        "CLAWS",
+        "SURVIVAL",
+        "ENDANGER"
+      ]
+    },
+    {
+      "name": "Bengal Tiger",
+      "words": [
+        "TIGER",
+        "BENGAL",
+        "WILDLIFE",
+        "PREDATOR",
+        "CATS",
+        "FURS",
+        "HABITATS",
+        "JUNGLE",
+        "TRACKS",
+        "CLAWS",
+        "SURVIVAL",
+        "CONSERVE"
+      ]
+    },
+    {
+      "name": "Indochinese Tiger",
+      "words": [
+        "TIGER",
+        "WILDLIFE",
+        "PREDATOR",
+        "CATS",
+        "FURS",
+        "HABITATS",
+        "JUNGLE",
+        "TRACKS",
+        "CLAWS",
+        "SURVIVAL",
+        "PROTECT"
+      ]
+    },
+    {
+      "name": "Malayan Tiger",
+      "words": [
+        "TIGER",
+        "WILDLIFE",
+        "CONSERVE",
+        "FORESTS",
+        "PREDATOR",
+        "ENDANGER",
+        "SPECIES",
+        "HABITAT",
+        "WILDNESS",
+        "TROPICAL",
+        "PRESERVE"
+      ]
+    },
+    {
+      "name": "South China Tiger",
+      "words": [
+        "TIGERS",
+        "CHINA",
+        "WILDLIFE",
+        "RESERVE",
+        "CONSERVE",
+        "HABITATS",
+        "ENDANGER",
+        "SPECIES",
+        "PREDATOR",
+        "FORESTS",
+        "MOUNTAIN",
+        "WILDNESS"
+      ]
+    },
+    {
+      "name": "Bali Starling",
+      "words": [
+        "BIRDS",
+        "WILDLIFE",
+        "CONSERVE",
+        "PARROT",
+        "FORESTS",
+        "ENDANGER",
+        "SPECIES",
+        "HABITAT",
+        "ISLANDS",
+        "TROPICAL",
+        "AVIAN"
+      ]
+    },
+    {
+      "name": "Mauritius Pink Pigeon",
+      "words": [
+        "PIGEON",
+        "BIRDS",
+        "WILDLIFE",
+        "CONSERVE",
+        "ISLANDS",
+        "PINK",
+        "ENDANGER",
+        "SPECIES",
+        "HABITAT",
+        "TROPICAL",
+        "FORESTS",
+        "WINGED"
+      ]
+    },
+    {
+      "name": "Spiny Turtle",
+      "words": [
+        "TURTLE",
+        "REPTILE",
+        "WILDLIFE",
+        "CONSERVE",
+        "SHELLS",
+        "ENDANGER",
+        "SPECIES",
+        "HABITAT",
+        "SPINES",
+        "AQUATIC",
+        "TROPICAL",
+        "WILDNESS"
+      ]
+    },
+    {
+      "name": "Ploughshare Tortoise",
+      "words": [
+        "TORTOISE",
+        "REPTILE",
+        "WILDLIFE",
+        "CONSERVE",
+        "SHELLS",
+        "ENDANGER",
+        "SPECIES",
+        "HABITAT",
+        "TROPICAL",
+        "PLOUGH",
+        "WILDNESS",
+        "ANIMAL"
+      ]
+    },
+    {
+      "name": "Radiated Tortoise",
+      "words": [
+        "TORTOISE",
+        "REPTILE",
+        "WILDLIFE",
+        "CONSERVE",
+        "RADIATE",
+        "ENDANGER",
+        "SPECIES",
+        "HABITAT",
+        "SHELLS",
+        "TROPICAL",
+        "WILDNESS",
+        "RADIAL"
+      ]
+    },
+    {
+      "name": "Hawksbill Sea Turtle",
+      "words": [
+        "TURTLE",
+        "REPTILE",
+        "WILDLIFE",
+        "CONSERVE",
+        "SHELLS",
+        "ENDANGER",
+        "SPECIES",
+        "HABITAT",
+        "AQUATIC",
+        "HAWK",
+        "TROPICAL",
+        "OCEANS"
+      ]
+    },
+    {
+      "name": "Leatherback Sea Turtle",
+      "words": [
+        "TURTLE",
+        "REPTILE",
+        "WILDLIFE",
+        "CONSERVE",
+        "LEATHER",
+        "ENDANGER",
+        "SPECIES",
+        "HABITAT",
+        "AQUATIC",
+        "TROPICAL",
+        "OCEANS",
+        "MARINE"
+      ]
+    },
+    {
+      "name": "Loggerhead Sea Turtle",
+      "words": [
+        "TURTLE",
+        "REPTILE",
+        "WILDLIFE",
+        "CONSERVE",
+        "LOGGER",
+        "ENDANGER",
+        "SPECIES",
+        "HABITAT",
+        "AQUATIC",
+        "TROPICAL",
+        "OCEANS",
+        "HEADS"
+      ]
+    },
+    {
+      "name": "Green Sea Turtle",
+      "words": [
+        "TURTLE",
+        "REPTILE",
+        "WILDLIFE",
+        "CONSERVE",
+        "GREEN",
+        "ENDANGER",
+        "SPECIES",
+        "HABITAT",
+        "AQUATIC",
+        "TROPICAL",
+        "OCEANS",
+        "MARINE"
+      ]
+    },
+    {
+      "name": "Olive Ridley Sea Turtle",
+      "words": [
+        "TURTLE",
+        "REPTILE",
+        "WILDLIFE",
+        "CONSERVE",
+        "OLIVE",
+        "ENDANGER",
+        "SPECIES",
+        "HABITAT",
+        "AQUATIC",
+        "TROPICAL",
+        "RIDLEY",
+        "OCEANS"
+      ]
+    },
+    {
+      "name": "African Elephant",
+      "words": [
+        "ELEPHANT",
+        "WILDLIFE",
+        "CONSERVE",
+        "HABITAT",
+        "SAFARI",
+        "TUSKER",
+        "IVORY",
+        "POACHING",
+        "PROTECT",
+        "RESERVE",
+        "SPECIES",
+        "WILD"
+      ]
+    },
+    {
+      "name": "Asian Elephant",
+      "words": [
+        "ELEPHANT",
+        "ASIA",
+        "HABITATS",
+        "ENDANGER",
+        "WILDNESS",
+        "TROPICS",
+        "FORESTS",
+        "PROTECTS",
+        "REGION",
+        "SPECIES",
+        "HUMAN"
+      ]
+    },
+    {
+      "name": "Forest Elephant",
+      "words": [
+        "ELEPHANT",
+        "FORESTS",
+        "WILDLIFE",
+        "HABITAT",
+        "CONSERVE",
+        "TROPICAL",
+        "REGION",
+        "SPECIES",
+        "PROTECT",
+        "WILD",
+        "ANIMALS",
+        "DENSE"
+      ]
+    },
+    {
+      "name": "Savanna Elephant",
+      "words": [
+        "ELEPHANT",
+        "SAVANNA",
+        "GRASS",
+        "WILDLIFE",
+        "HABITAT",
+        "OPEN",
+        "SPACE",
+        "ANIMAL",
+        "HERD",
+        "WILD",
+        "FREE",
+        "ROAM"
+      ]
+    },
+    {
+      "name": "Bactrian Camel",
+      "words": [
+        "CAMEL",
+        "BACTRIAN",
+        "ASIA",
+        "MOUNTAIN",
+        "HIGH",
+        "ALTITUDE",
+        "ANIMAL",
+        "HAIRY",
+        "WILD",
+        "SPECIES",
+        "ENDANGER",
+        "CONSERVE"
+      ]
+    },
+    {
+      "name": "Addax Antelope",
+      "words": [
+        "ADDAX",
+        "ANTELOPE",
+        "DESERT",
+        "WILDLIFE",
+        "HORNED",
+        "ANIMAL",
+        "RARE",
+        "SPECIES",
+        "ENDANGER",
+        "CONSERVE",
+        "PROTECT",
+        "SAHARA"
+      ]
+    },
+    {
+      "name": "Dama Gazelle",
+      "words": [
+        "GAZELLE",
+        "DAMA",
+        "DESERT",
+        "WILDLIFE",
+        "ANIMAL",
+        "FAST",
+        "RARE",
+        "SPECIES",
+        "ENDANGER",
+        "CONSERVE",
+        "PROTECT",
+        "SAHARA"
+      ]
+    },
+    {
+      "name": "Saiga Antelope",
+      "words": [
+        "SAIGA",
+        "ANTELOPE",
+        "WILDLIFE",
+        "ANIMAL",
+        "RARE",
+        "SPECIES",
+        "ENDANGER",
+        "CONSERVE",
+        "PROTECT",
+        "STEPPE",
+        "ASIA",
+        "HORNED"
+      ]
+    },
+    {
+      "name": "Markhor Goat",
+      "words": [
+        "MARKHOR",
+        "GOAT",
+        "WILDLIFE",
+        "ANIMAL",
+        "MOUNTAIN",
+        "HORNED",
+        "RARE",
+        "SPECIES",
+        "ENDANGER",
+        "CONSERVE",
+        "PROTECT",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Ibex Goat",
+      "words": [
+        "IBEX",
+        "GOAT",
+        "WILDLIFE",
+        "ANIMAL",
+        "MOUNTAIN",
+        "HORNED",
+        "RARE",
+        "SPECIES",
+        "ENDANGER",
+        "CONSERVE",
+        "CLIFF",
+        "ASIA"
+      ]
+    },
+    {
+      "name": "Takin Goat",
+      "words": [
+        "TAKIN",
+        "GOAT",
+        "WILDLIFE",
+        "ANIMAL",
+        "MOUNTAIN",
+        "HORNED",
+        "RARE",
+        "SPECIES",
+        "ENDANGER",
+        "CONSERVE",
+        "PROTECT",
+        "HIMALAYA"
+      ]
+    },
+    {
+      "name": "Pallas Cat",
+      "words": [
+        "PALLAS",
+        "CAT",
+        "WILDLIFE",
+        "ANIMAL",
+        "RARE",
+        "SPECIES",
+        "ENDANGER",
+        "CONSERVE",
+        "PROTECT",
+        "ASIA",
+        "MOUNTAIN",
+        "FURRY"
+      ]
+    }
+  ]
+}
