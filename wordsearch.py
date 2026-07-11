@@ -7,8 +7,10 @@ for a single title.
 Outputs an 8.5x11 interior PDF with front matter, puzzles, and full
 solutions. KDP needs a separate cover, either from their free Cover Creator
 or generated separately here."""
+from __future__ import annotations
 import argparse, json, math, os, random, string
 from reportlab.pdfgen import canvas
+from reportlab.pdfgen.canvas import Canvas
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
@@ -18,6 +20,9 @@ MARGIN = 54                        # 0.75in uniform — safe KDP gutter (<150pg)
 GRID_N = 15
 DIRS = [(0, 1), (1, 0), (1, 1), (1, -1), (0, -1), (-1, 0), (-1, -1), (-1, 1)]
 
+Cell = tuple[int, int]
+Grid = list[list[str]]
+
 FONTS = {
     "Sans":  "/System/Library/Fonts/Supplemental/Arial.ttf",
     "SansB": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
@@ -25,16 +30,16 @@ FONTS = {
 }
 
 
-def register_fonts():
+def register_fonts() -> None:
     for name, path in FONTS.items():
         pdfmetrics.registerFont(TTFont(name, path))
 
 
 # ---------------- puzzle generation ----------------
-def _try_place(grid, word, N):
+def _try_place(grid: Grid, word: str, N: int) -> list[Cell] | None:
     dr, dc = random.choice(DIRS)
     r, c = random.randint(0, N - 1), random.randint(0, N - 1)
-    cells = []
+    cells: list[Cell] = []
     for k, ch in enumerate(word):
         rr, cc = r + dr * k, c + dc * k
         if not (0 <= rr < N and 0 <= cc < N):
@@ -48,9 +53,10 @@ def _try_place(grid, word, N):
     return cells
 
 
-def generate_puzzle(words, N=GRID_N):
-    grid = [["" for _ in range(N)] for _ in range(N)]
-    placements, placed = [], []
+def generate_puzzle(words: list[str], N: int = GRID_N) -> tuple[Grid, list[list[Cell]], list[str]]:
+    grid: Grid = [["" for _ in range(N)] for _ in range(N)]
+    placements: list[list[Cell]] = []
+    placed: list[str] = []
     for w in sorted(words, key=len, reverse=True):
         cells = None
         for _ in range(500):
@@ -68,7 +74,8 @@ def generate_puzzle(words, N=GRID_N):
 
 
 # ---------------- drawing helpers ----------------
-def draw_grid(c, grid, gx, gy_top, cell, font_size, highlights=None):
+def draw_grid(c: Canvas, grid: Grid, gx: float, gy_top: float, cell: float,
+              font_size: float, highlights: list[list[Cell]] | None = None) -> None:
     N = len(grid)
     h = N * cell
     # faint internal gridlines
@@ -104,7 +111,8 @@ def draw_grid(c, grid, gx, gy_top, cell, font_size, highlights=None):
             c.drawCentredString(cx, cy, grid[r][col])
 
 
-def draw_word_list(c, words, gx, top_y, grid_w, cols=3):
+def draw_word_list(c: Canvas, words: list[str], gx: float, top_y: float,
+                    grid_w: float, cols: int = 3) -> None:
     c.setFillColorRGB(0, 0, 0)
     c.setFont("SansB", 12)
     c.drawCentredString(PAGE_W / 2, top_y, "FIND THESE WORDS")
@@ -120,14 +128,14 @@ def draw_word_list(c, words, gx, top_y, grid_w, cols=3):
         c.drawString(x, y, w)
 
 
-def footer(c, page_no):
+def footer(c: Canvas, page_no: int) -> None:
     c.setFillColorRGB(0.45, 0.45, 0.45)
     c.setFont("Sans", 9)
     c.drawCentredString(PAGE_W / 2, 34, str(page_no))
 
 
 # ---------------- pages ----------------
-def front_matter(c, title, subtitle, author):
+def front_matter(c: Canvas, title: str, subtitle: str, author: str) -> None:
     # title page
     c.setFillColorRGB(0.10, 0.10, 0.10)
     c.setFont("SansB", 30)
@@ -183,7 +191,8 @@ def front_matter(c, title, subtitle, author):
     c.showPage()
 
 
-def puzzle_page(c, idx, name, grid, words, page_no, running_title):
+def puzzle_page(c: Canvas, idx: int, name: str, grid: Grid, words: list[str],
+                 page_no: int, running_title: str) -> None:
     c.setFillColorRGB(0.5, 0.5, 0.5)
     c.setFont("Sans", 10)
     c.drawCentredString(PAGE_W / 2, PAGE_H - 40, running_title)
@@ -205,7 +214,8 @@ def puzzle_page(c, idx, name, grid, words, page_no, running_title):
     c.showPage()
 
 
-def solutions_pages(c, solutions, page_no_start, running_title):
+def solutions_pages(c: Canvas, solutions: list[tuple[int, str, Grid, list[list[Cell]]]],
+                     page_no_start: int, running_title: str) -> int:
     page_no = page_no_start
     # section divider
     c.setFillColorRGB(0.1, 0.1, 0.1)
@@ -236,7 +246,7 @@ def solutions_pages(c, solutions, page_no_start, running_title):
     return page_no
 
 
-def back_matter(c, author, also_from):
+def back_matter(c: Canvas, author: str, also_from: list[dict]) -> None:
     """Back-matter pages — the highest-leverage thing for a new KDP book:
       1. Review request (lifts review count = lifts ranking).
       2. 'Also from [author]' cross-sell (when one book sells, the others get free shelf space).
@@ -331,8 +341,10 @@ def back_matter(c, author, also_from):
 
 
 # ---------------- utils ----------------
-def _wrap(text, width):
-    words, lines, cur = text.split(), [], ""
+def _wrap(text: str, width: int) -> list[str]:
+    words = text.split()
+    lines: list[str] = []
+    cur = ""
     for w in words:
         if len(cur) + len(w) + 1 <= width:
             cur = (cur + " " + w).strip()
@@ -344,8 +356,8 @@ def _wrap(text, width):
     return lines or [text]
 
 
-def clean_words(words):
-    out = []
+def clean_words(words: list[str]) -> list[str]:
+    out: list[str] = []
     for w in words:
         w = "".join(ch for ch in w.upper() if ch.isalpha())
         if w and len(w) <= GRID_N:
@@ -353,7 +365,7 @@ def clean_words(words):
     return out
 
 
-def main():
+def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--themes", required=True)
     ap.add_argument("--out", required=True)

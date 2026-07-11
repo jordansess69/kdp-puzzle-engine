@@ -3,14 +3,18 @@
 applying random symmetry-preserving transformations to a base solved grid and
 then removing cells per difficulty level. Defaults to 100 puzzles at mixed
 difficulty (40 easy, 35 medium, 25 hard), one per page, solutions at the back."""
+from __future__ import annotations
 import argparse, json, os, random
 from reportlab.pdfgen import canvas
+from reportlab.pdfgen.canvas import Canvas
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
 PAGE_W, PAGE_H = letter
 MARGIN = 54
+
+SudokuGrid = list[list[int]]
 
 FONTS = {
     "Sans":  "/System/Library/Fonts/Supplemental/Arial.ttf",
@@ -19,7 +23,7 @@ FONTS = {
 }
 
 
-def register_fonts():
+def register_fonts() -> None:
     for name, path in FONTS.items():
         pdfmetrics.registerFont(TTFont(name, path))
 
@@ -38,7 +42,7 @@ BASE = [
 ]
 
 
-def make_solved(rng):
+def make_solved(rng: random.Random) -> SudokuGrid:
     """Apply random symmetry-preserving transforms to BASE; result is a fresh valid Sudoku solution."""
     g = [row[:] for row in BASE]
 
@@ -93,7 +97,7 @@ def make_solved(rng):
 ALL_BITS = 0b1111111110  # bits for digits 1..9 (bit 0 unused)
 
 
-def count_solutions(grid, limit=2):
+def count_solutions(grid: SudokuGrid, limit: int = 2) -> int:
     """Count solutions (capped at `limit`) of a 9x9 grid (0 = empty) via MRV backtracking.
     Returns as soon as `limit` is reached. Used to GUARANTEE puzzle uniqueness."""
     rows = [0] * 9
@@ -108,10 +112,10 @@ def count_solutions(grid, limit=2):
 
     cnt = 0
 
-    def solve():
+    def solve() -> None:
         nonlocal cnt
         # pick the empty cell with the fewest candidates (MRV) for speed
-        best = None
+        best: tuple[int, int] | None = None
         best_cands = 0
         best_n = 99
         for r in range(9):
@@ -146,7 +150,7 @@ def count_solutions(grid, limit=2):
     return cnt
 
 
-def make_puzzle(solved, difficulty, rng):
+def make_puzzle(solved: SudokuGrid, difficulty: str, rng: random.Random) -> SudokuGrid:
     """Carve a puzzle from a solved grid while GUARANTEEING a unique solution.
     A cell is only blanked if the puzzle still has exactly one solution afterward,
     so the printed `solved` grid is always THE answer. Difficulty caps how many
@@ -172,8 +176,9 @@ def make_puzzle(solved, difficulty, rng):
 
 
 # ---------------- PDF rendering ----------------
-def draw_sudoku(c, grid, gx, gy_top, cell, number_font, number_size,
-                solution_overlay=None):
+def draw_sudoku(c: Canvas, grid: SudokuGrid, gx: float, gy_top: float, cell: float,
+                 number_font: str, number_size: float,
+                 solution_overlay: SudokuGrid | None = None) -> None:
     """Render a 9x9 Sudoku grid. gy_top is the top y-coordinate.
     solution_overlay (optional): grayed-in numbers showing the answers for cells the puzzle had blank."""
     size = 9 * cell
@@ -219,13 +224,13 @@ def draw_sudoku(c, grid, gx, gy_top, cell, number_font, number_size,
                     c.drawCentredString(cx, cy, str(solution_overlay[r][col]))
 
 
-def footer(c, page_no):
+def footer(c: Canvas, page_no: int) -> None:
     c.setFillColorRGB(0.45, 0.45, 0.45)
     c.setFont("Sans", 9)
     c.drawCentredString(PAGE_W / 2, 34, str(page_no))
 
 
-def front_matter(c, title, subtitle, author):
+def front_matter(c: Canvas, title: str, subtitle: str, author: str) -> None:
     c.setFillColorRGB(0.10, 0.10, 0.10)
     c.setFont("SansB", 32)
     c.drawCentredString(PAGE_W / 2, PAGE_H - 280, title.upper())
@@ -272,7 +277,8 @@ def front_matter(c, title, subtitle, author):
     c.showPage()
 
 
-def puzzle_page(c, idx, difficulty, puzzle, page_no, running):
+def puzzle_page(c: Canvas, idx: int, difficulty: str, puzzle: SudokuGrid,
+                 page_no: int, running: str) -> None:
     c.setFillColorRGB(0.5, 0.5, 0.5); c.setFont("Sans", 10)
     c.drawCentredString(PAGE_W / 2, PAGE_H - 40, running)
     c.setFillColorRGB(0.1, 0.1, 0.1); c.setFont("SansB", 12)
@@ -291,7 +297,8 @@ def puzzle_page(c, idx, difficulty, puzzle, page_no, running):
     c.showPage()
 
 
-def solutions_section(c, items, page_no_start, running):
+def solutions_section(c: Canvas, items: list[tuple[int, SudokuGrid, SudokuGrid]],
+                       page_no_start: int, running: str) -> int:
     """6 mini-grids per page (2x3 layout) — compact solutions."""
     page_no = page_no_start
     c.setFillColorRGB(0.1, 0.1, 0.1); c.setFont("SansB", 30)
@@ -322,7 +329,7 @@ def solutions_section(c, items, page_no_start, running):
     return page_no
 
 
-def back_matter(c, author, also_from):
+def back_matter(c: Canvas, author: str, also_from: list[dict]) -> None:
     """Same back matter pattern as wordsearch.py: review CTA + cross-sell + about."""
     import math as _m
     c.setFillColorRGB(0.1, 0.1, 0.1); c.setFont("SansB", 28)
@@ -383,8 +390,10 @@ def back_matter(c, author, also_from):
         c.showPage()
 
 
-def _wrap(text, width):
-    words, lines, cur = text.split(), [], ""
+def _wrap(text: str, width: int) -> list[str]:
+    words = text.split()
+    lines: list[str] = []
+    cur = ""
     for w in words:
         if len(cur) + len(w) + 1 <= width:
             cur = (cur + " " + w).strip()
@@ -394,7 +403,7 @@ def _wrap(text, width):
     return lines or [text]
 
 
-def main():
+def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--title", default="Large Print Sudoku")
     ap.add_argument("--subtitle", default="100 Large Print Sudoku Puzzles for Adults & Seniors with Big Easy-to-Read Numbers and Full Solutions")

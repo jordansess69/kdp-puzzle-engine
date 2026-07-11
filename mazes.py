@@ -2,9 +2,11 @@
 """Print-ready large-print maze book. Perfect mazes via recursive
 backtracking (exactly one solution path each), one per page, full solutions
 at the back."""
+from __future__ import annotations
 import argparse, json, os, random
 from collections import deque
 from reportlab.pdfgen import canvas
+from reportlab.pdfgen.canvas import Canvas
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
@@ -18,17 +20,21 @@ FONTS = {
 OPP = {"N": "S", "S": "N", "E": "W", "W": "E"}
 DC = {"N": (0, -1), "S": (0, 1), "E": (1, 0), "W": (-1, 0)}  # r grows downward
 
+Coord = tuple[int, int]
+Walls = dict[Coord, set[str]]
+Path = list[Coord]
 
-def register_fonts():
+
+def register_fonts() -> None:
     for name, path in FONTS.items():
         pdfmetrics.registerFont(TTFont(name, path))
 
 
-def gen_maze(cols, rows, rng):
+def gen_maze(cols: int, rows: int, rng: random.Random) -> Walls:
     """Recursive-backtracker perfect maze. Returns walls[(c,r)] = set of present walls."""
-    walls = {(c, r): {"N", "E", "S", "W"} for c in range(cols) for r in range(rows)}
-    visited = set()
-    stack = [(0, 0)]
+    walls: Walls = {(c, r): {"N", "E", "S", "W"} for c in range(cols) for r in range(rows)}
+    visited: set[Coord] = set()
+    stack: list[Coord] = [(0, 0)]
     visited.add((0, 0))
     while stack:
         c, r = stack[-1]
@@ -48,10 +54,10 @@ def gen_maze(cols, rows, rng):
     return walls
 
 
-def solve(walls, cols, rows):
+def solve(walls: Walls, cols: int, rows: int) -> Path:
     """BFS the unique path from (0,0) to (cols-1,rows-1)."""
     start, end = (0, 0), (cols - 1, rows - 1)
-    prev = {start: None}
+    prev: dict[Coord, Coord | None] = {start: None}
     q = deque([start])
     while q:
         c, r = q.popleft()
@@ -64,15 +70,16 @@ def solve(walls, cols, rows):
             if 0 <= nc < cols and 0 <= nr < rows and (nc, nr) not in prev:
                 prev[(nc, nr)] = (c, r)
                 q.append((nc, nr))
-    path = []
-    cur = end
+    path: Path = []
+    cur: Coord | None = end
     while cur is not None:
         path.append(cur)
         cur = prev.get(cur)
     return path[::-1]
 
 
-def draw_maze(c, walls, cols, rows, gx, gy_top, cell, line_w, path=None):
+def draw_maze(c: Canvas, walls: Walls, cols: int, rows: int, gx: float, gy_top: float,
+              cell: float, line_w: float, path: Path | None = None) -> None:
     # entrance (top-left, open North) + exit (bottom-right, open South)
     w = {k: set(v) for k, v in walls.items()}
     w[(0, 0)].discard("N")
@@ -98,12 +105,12 @@ def draw_maze(c, walls, cols, rows, gx, gy_top, cell, line_w, path=None):
             c.line(pts[i][0], pts[i][1], pts[i + 1][0], pts[i + 1][1])
 
 
-def footer(c, n):
+def footer(c: Canvas, n: int) -> None:
     c.setFillColorRGB(0.45, 0.45, 0.45); c.setFont("Sans", 9)
     c.drawCentredString(PAGE_W / 2, 34, str(n))
 
 
-def front_matter(c, title, subtitle, author):
+def front_matter(c: Canvas, title: str, subtitle: str, author: str) -> None:
     c.setFillColorRGB(0.10, 0.10, 0.10); c.setFont("SansB", 32)
     c.drawCentredString(PAGE_W / 2, PAGE_H - 280, title.upper())
     c.setFont("Sans", 14)
@@ -137,7 +144,8 @@ def front_matter(c, title, subtitle, author):
     c.showPage()
 
 
-def maze_page(c, idx, walls, cols, rows, page_no, running, difficulty):
+def maze_page(c: Canvas, idx: int, walls: Walls, cols: int, rows: int,
+              page_no: int, running: str, difficulty: str) -> None:
     c.setFillColorRGB(0.5, 0.5, 0.5); c.setFont("Sans", 10)
     c.drawCentredString(PAGE_W / 2, PAGE_H - 40, running)
     c.setFillColorRGB(0.1, 0.1, 0.1); c.setFont("SansB", 12)
@@ -155,7 +163,8 @@ def maze_page(c, idx, walls, cols, rows, page_no, running, difficulty):
     footer(c, page_no); c.showPage()
 
 
-def solutions_section(c, items, page_no, running):
+def solutions_section(c: Canvas, items: list[tuple[int, Walls, int, int, Path]],
+                       page_no: int, running: str) -> int:
     c.setFillColorRGB(0.1, 0.1, 0.1); c.setFont("SansB", 30)
     c.drawCentredString(PAGE_W / 2, PAGE_H / 2 + 10, "SOLUTIONS")
     footer(c, page_no); c.showPage(); page_no += 1
@@ -185,7 +194,7 @@ def solutions_section(c, items, page_no, running):
     return page_no
 
 
-def back_matter(c, author, also_from):
+def back_matter(c: Canvas, author: str, also_from: list[dict]) -> None:
     import math as _m
     c.setFillColorRGB(0.1, 0.1, 0.1); c.setFont("SansB", 28)
     c.drawCentredString(PAGE_W / 2, PAGE_H - 200, "DID YOU ENJOY THIS BOOK?")
@@ -219,8 +228,10 @@ def back_matter(c, author, also_from):
         c.showPage()
 
 
-def _wrap(text, width):
-    words, lines, cur = text.split(), [], ""
+def _wrap(text: str, width: int) -> list[str]:
+    words = text.split()
+    lines: list[str] = []
+    cur = ""
     for w in words:
         if len(cur) + len(w) + 1 <= width:
             cur = (cur + " " + w).strip()
@@ -230,7 +241,7 @@ def _wrap(text, width):
     return lines or [text]
 
 
-def main():
+def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--title", default="Large Print Mazes")
     ap.add_argument("--subtitle", default="80 Relaxing Large Print Maze Puzzles for Adults & Seniors with Full Solutions")
