@@ -1,0 +1,1929 @@
+{
+  "schema_version": 1,
+  "created": "2026-08-22T19:24:35",
+  "policy": "Saved theme files are audited as candidate sources only. No word is imported automatically; mixed and legacy books cannot contaminate the Master Library.",
+  "summary": {
+    "files_audited": 103,
+    "files_with_root_signal_candidates": 85,
+    "supported_leads_by_topic": {
+      "American History": 2,
+      "Arts Creativity and Making": 1,
+      "Baking and Food": 4,
+      "Bible and Faith": 1,
+      "Birdwatching": 0,
+      "Books Reading and Libraries": 0,
+      "Cat Lover": 2,
+      "Christmas and Winter": 2,
+      "Coastal Lake and River Life": 5,
+      "Dog Breeds": 0,
+      "Easter and Spring": 0,
+      "Faith Inspiration and Kindness": 1,
+      "Farm Country and Rural Life": 1,
+      "Forest Wildlife and Outdoors": 1,
+      "Gardening and Garden Life": 4,
+      "Halloween Autumn and Harvest": 0,
+      "Herbs Fruits and Vegetables": 0,
+      "Hobbies Crafts and Pastimes": 3,
+      "Holidays": 1,
+      "Home and Household": 1,
+      "Homesteading": 0,
+      "Mindfulness": 0,
+      "National Parks": 7,
+      "Nature": 2,
+      "Nostalgia Through the Decades": 2,
+      "Ocean Life": 9,
+      "Outdoor Adventure": 1,
+      "Pop Culture & Entertainment": 1,
+      "Positive Parenting": 1,
+      "Seasonal Celebrations": 2,
+      "Sports and Hobbies": 3,
+      "Thanksgiving": 0,
+      "Travel Road Trips and Getaways": 0,
+      "US Geography and Landmarks": 6,
+      "Vehicles & Automotive": 1,
+      "Video Games & Gaming": 3,
+      "Weather and Climate": 2,
+      "Word Skills and Brain Games": 5,
+      "World War II History": 0
+    }
+  },
+  "themes": [
+    {
+      "file": "1950s_General_Publish_Ready_Word_Banks.json",
+      "title": "Through the Decades: Fabulous 1950s Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Sports and Hobbies"
+      ],
+      "unique_puzzle_words": 1200,
+      "new_vs_master": 251,
+      "root_signal_review_candidates": 3,
+      "review_examples": [
+        "BASEBALL",
+        "CYCLING",
+        "SPELLBOOK"
+      ]
+    },
+    {
+      "file": "1950s_Wordsearch_for_Men_Publish_Ready_Word_Banks.json",
+      "title": "The Fabulous Fifties Word Search for Men",
+      "puzzles": 50,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Sports and Hobbies"
+      ],
+      "unique_puzzle_words": 600,
+      "new_vs_master": 142,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "BASEBALL",
+        "CYCLING"
+      ]
+    },
+    {
+      "file": "1950s_Wordsearch_for_Women_Publish_Ready_Word_Banks.json",
+      "title": "The Fabulous Fifties Word Search for Women",
+      "puzzles": 50,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Sports and Hobbies"
+      ],
+      "unique_puzzle_words": 600,
+      "new_vs_master": 125,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "BASEBALLCAP",
+        "CYCLING"
+      ]
+    },
+    {
+      "file": "1960s_General_Publish_Ready_Word_Banks.json",
+      "title": "Through the Decades: Swinging 1960s Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "US Geography and Landmarks"
+      ],
+      "unique_puzzle_words": 1200,
+      "new_vs_master": 600,
+      "root_signal_review_candidates": 5,
+      "review_examples": [
+        "READ",
+        "SPELLBOOK",
+        "STATEFAIR",
+        "STATELINE",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "1960s_Wordsearch_for_Men_Publish_Ready_Word_Banks.json",
+      "title": "The Swinging Sixties Word Search for Men",
+      "puzzles": 50,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "US Geography and Landmarks"
+      ],
+      "unique_puzzle_words": 600,
+      "new_vs_master": 303,
+      "root_signal_review_candidates": 3,
+      "review_examples": [
+        "APPALACHIANS",
+        "SPELLBOOK",
+        "STATEFAIR"
+      ]
+    },
+    {
+      "file": "1960s_Wordsearch_for_Women_Publish_Ready_Word_Banks.json",
+      "title": "The Swinging Sixties Word Search for Women",
+      "puzzles": 50,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "US Geography and Landmarks"
+      ],
+      "unique_puzzle_words": 600,
+      "new_vs_master": 304,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "SPELLBOOK",
+        "STATEFLAG"
+      ]
+    },
+    {
+      "file": "1970s_General_Publish_Ready_Word_Banks.json",
+      "title": "Through the Decades: Groovy 1970s Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 1200,
+      "new_vs_master": 651,
+      "root_signal_review_candidates": 3,
+      "review_examples": [
+        "GLACIERLILY",
+        "HIKE",
+        "TRAILRIDGE"
+      ]
+    },
+    {
+      "file": "1970s_Wordsearch_for_Men_Publish_Ready_Word_Banks.json",
+      "title": "The Groovy Seventies Word Search for Men",
+      "puzzles": 50,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 600,
+      "new_vs_master": 321,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "MOUNTAINLAUREL"
+      ]
+    },
+    {
+      "file": "1970s_Wordsearch_for_Women_Publish_Ready_Word_Banks.json",
+      "title": "The Groovy Seventies Word Search for Women",
+      "puzzles": 50,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "US Geography and Landmarks"
+      ],
+      "unique_puzzle_words": 600,
+      "new_vs_master": 303,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "1980s_General_Publish_Ready_Word_Banks.json",
+      "title": "Through the Decades: Radical 1980s Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 1200,
+      "new_vs_master": 464,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "SPELLBOOK"
+      ]
+    },
+    {
+      "file": "1980s_Wordsearch_for_Men_Publish_Ready_Word_Banks.json",
+      "title": "The Radical Eighties Word Search for Men",
+      "puzzles": 50,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 600,
+      "new_vs_master": 238,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "SPELLBOOK"
+      ]
+    },
+    {
+      "file": "1980s_Wordsearch_for_Women_Publish_Ready_Word_Banks.json",
+      "title": "The Radical Eighties Word Search for Women",
+      "puzzles": 50,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 600,
+      "new_vs_master": 226,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "LETTERJACKET"
+      ]
+    },
+    {
+      "file": "1990s_General_Publish_Ready_Word_Banks.json",
+      "title": "Through the Decades: Totally Rad 1990s Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 1200,
+      "new_vs_master": 454,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "WRITE"
+      ]
+    },
+    {
+      "file": "1990s_Wordsearch_for_Men_Publish_Ready_Word_Banks.json",
+      "title": "The Totally Rad Nineties Word Search for Men",
+      "puzzles": 50,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 600,
+      "new_vs_master": 237,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "LETTERJACKET"
+      ]
+    },
+    {
+      "file": "1990s_Wordsearch_for_Women_Publish_Ready_Word_Banks.json",
+      "title": "The Totally Rad Nineties Word Search for Women",
+      "puzzles": 50,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 600,
+      "new_vs_master": 236,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "2000s_General_Publish_Ready_Word_Banks.json",
+      "title": "Through the Decades: Y2K 2000s Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 1200,
+      "new_vs_master": 468,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "SPELLBOOK"
+      ]
+    },
+    {
+      "file": "2000s_Wordsearch_for_Men_Publish_Ready_Word_Banks.json",
+      "title": "The Y2K Memories Word Search for Men",
+      "puzzles": 50,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 600,
+      "new_vs_master": 231,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "LETTERJACKET"
+      ]
+    },
+    {
+      "file": "2000s_Wordsearch_for_Women_Publish_Ready_Word_Banks.json",
+      "title": "The Y2K Memories Word Search for Women",
+      "puzzles": 50,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 600,
+      "new_vs_master": 226,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "90s_nostalgia.json",
+      "title": "The Ultimate 90s Throwback Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Seasonal Celebrations",
+        "Holidays",
+        "Nostalgia Through the Decades"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 243,
+      "root_signal_review_candidates": 5,
+      "review_examples": [
+        "ARCADETOKEN",
+        "READER",
+        "SPELLBOOK",
+        "VALENTINES",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "90s_nostalgia_word_search.json",
+      "title": "Totally Rad 90s Nostalgia Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Seasonal Celebrations",
+        "Holidays",
+        "Nostalgia Through the Decades"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 240,
+      "root_signal_review_candidates": 3,
+      "review_examples": [
+        "ARCADES",
+        "ARCADETOKEN",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "american-nostalgia.json",
+      "title": "All-American Memories Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "American History",
+        "US Geography and Landmarks",
+        "Nostalgia Through the Decades"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 273,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "animals-and-wildlife-conservation.json",
+      "title": "Wild Wonders Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Ocean Life",
+        "Word Skills and Brain Games",
+        "Nature",
+        "Forest Wildlife and Outdoors"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 294,
+      "root_signal_review_candidates": 6,
+      "review_examples": [
+        "GLACIERPOINT",
+        "HABITATS",
+        "NATURALIZE",
+        "OCEANAIR",
+        "REDWOODCOAST",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "Arizona_100_Themed_Wordsearch_Word_Banks.json",
+      "title": "Arizona Adventures Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 2000,
+      "new_vs_master": 1068,
+      "root_signal_review_candidates": 4,
+      "review_examples": [
+        "GLACIERLILY",
+        "MOUNTAINEER",
+        "MOUNTAINLAUREL",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "beach-vacation.json",
+      "title": "Beach Days and Ocean Waves Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Ocean Life",
+        "Word Skills and Brain Games",
+        "Coastal Lake and River Life",
+        "Travel Road Trips and Getaways",
+        "Cat Lover"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 300,
+      "root_signal_review_candidates": 7,
+      "review_examples": [
+        "BEACHFOAM",
+        "BEACHSHOP",
+        "BEACHWEAR",
+        "BEACHY",
+        "KAYAKING",
+        "OCEANPATH",
+        "SEAHORSE"
+      ]
+    },
+    {
+      "file": "California_100_Themed_Wordsearch_Word_Banks.json",
+      "title": "California Dreaming Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 2000,
+      "new_vs_master": 1081,
+      "root_signal_review_candidates": 6,
+      "review_examples": [
+        "GLACIERLILY",
+        "GLACIERPOINT",
+        "HIKE",
+        "READ",
+        "READER",
+        "TRAILRIDGE"
+      ]
+    },
+    {
+      "file": "childhood-memories.json",
+      "title": "Sweet Childhood Memories Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Positive Parenting",
+        "Seasonal Celebrations",
+        "Holidays"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 240,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "WRITE"
+      ]
+    },
+    {
+      "file": "christmas_100.json",
+      "title": "Merry Christmas Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Seasonal Celebrations",
+        "Christmas and Winter",
+        "Holidays"
+      ],
+      "unique_puzzle_words": 2000,
+      "new_vs_master": 872,
+      "root_signal_review_candidates": 6,
+      "review_examples": [
+        "CAROL",
+        "ORNAMENT",
+        "READER",
+        "SPELLBOOK",
+        "VALENTINES",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "endangered-species-and-wildlife.json",
+      "title": "Wildlife Guardians Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Ocean Life",
+        "Word Skills and Brain Games",
+        "Nature",
+        "Forest Wildlife and Outdoors"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 319,
+      "root_signal_review_candidates": 3,
+      "review_examples": [
+        "HABITATS",
+        "SEAHORSE",
+        "TRAILRIDGE"
+      ]
+    },
+    {
+      "file": "Florida_100_Themed_Wordsearch_Word_Banks.json",
+      "title": "Florida Sunshine Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "Ocean Life",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 2000,
+      "new_vs_master": 1093,
+      "root_signal_review_candidates": 8,
+      "review_examples": [
+        "JELLYFISH",
+        "OCEANAIR",
+        "OCEANVIEW",
+        "READ",
+        "REEF",
+        "SEAHORSE",
+        "SHARK",
+        "WHALE"
+      ]
+    },
+    {
+      "file": "gardening.json",
+      "title": "Bloom and Grow Garden Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Gardening and Garden Life",
+        "Word Skills and Brain Games",
+        "Easter and Spring"
+      ],
+      "unique_puzzle_words": 580,
+      "new_vs_master": 278,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "HERBS"
+      ]
+    },
+    {
+      "file": "halloween_100.json",
+      "title": "Haunted Halloween Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Halloween Autumn and Harvest"
+      ],
+      "unique_puzzle_words": 2000,
+      "new_vs_master": 746,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "SPELLBOOK",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "history.json",
+      "title": "Remarkable History Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "US Geography and Landmarks"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 298,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "STATECOLLEGE"
+      ]
+    },
+    {
+      "file": "home-cooking-and-baking.json",
+      "title": "Comfort Food and Baking Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Home and Household",
+        "Baking and Food"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 299,
+      "root_signal_review_candidates": 3,
+      "review_examples": [
+        "CAKE",
+        "COOKER",
+        "READER"
+      ]
+    },
+    {
+      "file": "home-cooking-and-family-traditions.json",
+      "title": "Family Table Traditions Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Home and Household",
+        "Baking and Food",
+        "Positive Parenting",
+        "Holidays"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 298,
+      "root_signal_review_candidates": 3,
+      "review_examples": [
+        "CELEBRATE",
+        "DESSERT",
+        "FLAVORS"
+      ]
+    },
+    {
+      "file": "house_pets_48.json",
+      "title": "Cozy House Pets Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Cat Lover"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 290,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "WHISKERS"
+      ]
+    },
+    {
+      "file": "movies.json",
+      "title": "Movie Night Memories Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "US Geography and Landmarks",
+        "Pop Culture & Entertainment"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 266,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "FILMNOIR"
+      ]
+    },
+    {
+      "file": "national_parks_01_greatsmokymountains.json",
+      "title": "National Parks #01: Great Smoky Mountains Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 330,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "MOUNTAINEER",
+        "MOUNTAINLAUREL"
+      ]
+    },
+    {
+      "file": "national_parks_02_zion.json",
+      "title": "National Parks #02: Zion Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 324,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "national_parks_03_yellowstone.json",
+      "title": "National Parks #03: Yellowstone Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 305,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "GLACIERPOINT",
+        "READER"
+      ]
+    },
+    {
+      "file": "national_parks_04_grandcanyon.json",
+      "title": "National Parks #04: Grand Canyon Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 313,
+      "root_signal_review_candidates": 4,
+      "review_examples": [
+        "HIKE",
+        "MOUNTAINLAUREL",
+        "READ",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "national_parks_05_yosemite.json",
+      "title": "National Parks #05: Yosemite Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 312,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "READ",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "national_parks_06_rockymountain.json",
+      "title": "National Parks #06: Rocky Mountain Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 315,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "READER",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "national_parks_07_acadia.json",
+      "title": "National Parks #07: Acadia Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 321,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "GLACIERLILY",
+        "MOUNTAINEER"
+      ]
+    },
+    {
+      "file": "national_parks_08_grandteton.json",
+      "title": "National Parks #08: Grand Teton Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 275,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "MOUNTAINEER"
+      ]
+    },
+    {
+      "file": "national_parks_09_olympic.json",
+      "title": "National Parks #09: Olympic Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 322,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "READ",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "national_parks_10_glacier.json",
+      "title": "National Parks #10: Glacier Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 317,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "READER",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "national_parks_11_joshuatree.json",
+      "title": "National Parks #11: Joshua Tree Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 316,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "TRAILRIDGE"
+      ]
+    },
+    {
+      "file": "national_parks_12_cuyahogavalley.json",
+      "title": "National Parks #12: Cuyahoga Valley Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 292,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "GLACIERLILY",
+        "TRAILRIDGE"
+      ]
+    },
+    {
+      "file": "national_parks_13_indianadunes.json",
+      "title": "National Parks #13: Indiana Dunes Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 301,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "national_parks_14_hotsprings.json",
+      "title": "National Parks #14: Hot Springs Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games",
+        "Seasonal Celebrations",
+        "Easter and Spring"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 291,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "GLACIERLILY"
+      ]
+    },
+    {
+      "file": "national_parks_15_brycecanyon.json",
+      "title": "National Parks #15: Bryce Canyon Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 313,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "WRITE"
+      ]
+    },
+    {
+      "file": "national_parks_16_shenandoah.json",
+      "title": "National Parks #16: Shenandoah Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 313,
+      "root_signal_review_candidates": 4,
+      "review_examples": [
+        "HIKE",
+        "MOUNTAINBIKING",
+        "TRAILRIDGE",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "national_parks_17_mountrainier.json",
+      "title": "National Parks #17: Mount Rainier Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Weather and Climate",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 308,
+      "root_signal_review_candidates": 5,
+      "review_examples": [
+        "GLACIERPOINT",
+        "HURRICANERIDGE",
+        "READ",
+        "SNOWFIELD",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "national_parks_18_arches.json",
+      "title": "National Parks #18: Arches Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 299,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "TRAILRIDGE"
+      ]
+    },
+    {
+      "file": "national_parks_19_newrivergorge.json",
+      "title": "National Parks #19: New River Gorge Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 317,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "national_parks_20_deathvalley.json",
+      "title": "National Parks #20: Death Valley Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 311,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "HIKE"
+      ]
+    },
+    {
+      "file": "New_York_100_Themed_Wordsearch_Word_Banks.json",
+      "title": "New York State Adventures Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "US Geography and Landmarks"
+      ],
+      "unique_puzzle_words": 2000,
+      "new_vs_master": 970,
+      "root_signal_review_candidates": 8,
+      "review_examples": [
+        "APPALACHIANS",
+        "CAPITALREGION",
+        "READ",
+        "SPELLBOOK",
+        "STATECOLLEGE",
+        "STATEFAIR",
+        "STATEFLAG",
+        "STATELINE"
+      ]
+    },
+    {
+      "file": "ocean-life.json",
+      "title": "Under the Sea Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Ocean Life",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 306,
+      "root_signal_review_candidates": 5,
+      "review_examples": [
+        "MARINE",
+        "OCEANPATH",
+        "READ",
+        "REEF",
+        "WHALE"
+      ]
+    },
+    {
+      "file": "ocean_life_100.json",
+      "title": "Ocean Wonders Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "Ocean Life",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 2000,
+      "new_vs_master": 1087,
+      "root_signal_review_candidates": 6,
+      "review_examples": [
+        "JELLYFISH",
+        "READ",
+        "SEAHORSE",
+        "SHARK",
+        "WHALE",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "outdoor-activities.json",
+      "title": "Great Outdoors Adventure Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games",
+        "Outdoor Adventure"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 302,
+      "root_signal_review_candidates": 3,
+      "review_examples": [
+        "MOUNTAINBIKING",
+        "MOUNTAINLAUREL",
+        "PADDLEBOARD"
+      ]
+    },
+    {
+      "file": "Pennsylvania_100_Themed_Wordsearch_Word_Banks.json",
+      "title": "Pennsylvania Treasures Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 2000,
+      "new_vs_master": 1073,
+      "root_signal_review_candidates": 5,
+      "review_examples": [
+        "GLACIERLILY",
+        "HIKE",
+        "MOUNTAINBIKING",
+        "MOUNTAINEER",
+        "TRAILRIDGE"
+      ]
+    },
+    {
+      "file": "pets_100.json",
+      "title": "Happy Pets Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Cat Lover"
+      ],
+      "unique_puzzle_words": 2000,
+      "new_vs_master": 1002,
+      "root_signal_review_candidates": 4,
+      "review_examples": [
+        "PURR",
+        "SPELLBOOK",
+        "WHISKERS",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "popular_01_dogbreeds.json",
+      "title": "Dog Breeds Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Dog Breeds",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 283,
+      "root_signal_review_candidates": 4,
+      "review_examples": [
+        "ARCADES",
+        "PUZZLETIME",
+        "SPELLBOOK",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "popular_02_catlover.json",
+      "title": "Cat Lover Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Cat Lover",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 289,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "popular_03_horselover.json",
+      "title": "Horse Lover Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 215,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "SPELLBOOK"
+      ]
+    },
+    {
+      "file": "popular_04_birdwatching.json",
+      "title": "Birdwatching Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Birdwatching",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 214,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "popular_05_farmanimals.json",
+      "title": "Farm Animals Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Farm Country and Rural Life",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 187,
+      "root_signal_review_candidates": 3,
+      "review_examples": [
+        "ARCADES",
+        "RANCHHOUSE",
+        "WRITE"
+      ]
+    },
+    {
+      "file": "popular_06_booksofthebible.json",
+      "title": "Books of the Bible Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Bible and Faith",
+        "Word Skills and Brain Games",
+        "Books Reading and Libraries",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 307,
+      "root_signal_review_candidates": 4,
+      "review_examples": [
+        "ARCADETOKEN",
+        "PSALMS",
+        "PUZZLETIME",
+        "SPELLBOOK"
+      ]
+    },
+    {
+      "file": "popular_07_faithandencouragement.json",
+      "title": "Faith and Encouragement Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Bible and Faith",
+        "Word Skills and Brain Games",
+        "Faith Inspiration and Kindness",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 300,
+      "root_signal_review_candidates": 4,
+      "review_examples": [
+        "ARCADETOKEN",
+        "PSALMS",
+        "PUZZLETIME",
+        "SPELLBOOK"
+      ]
+    },
+    {
+      "file": "popular_08_worldcountriesandcapitals.json",
+      "title": "World Countries and Capitals Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "US Geography and Landmarks",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 216,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "ARCADES"
+      ]
+    },
+    {
+      "file": "popular_09_americanroadtrip.json",
+      "title": "American Road Trip Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Vehicles & Automotive",
+        "National Parks",
+        "Word Skills and Brain Games",
+        "American History",
+        "US Geography and Landmarks",
+        "Travel Road Trips and Getaways",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 327,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "APPALACHIANS",
+        "SETTLER"
+      ]
+    },
+    {
+      "file": "popular_10_gardening.json",
+      "title": "Gardening Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Gardening and Garden Life",
+        "Word Skills and Brain Games",
+        "Easter and Spring",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 275,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "READER"
+      ]
+    },
+    {
+      "file": "popular_11_baking.json",
+      "title": "Baking Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Baking and Food",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 308,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "SPICES"
+      ]
+    },
+    {
+      "file": "popular_12_coffeeandtea.json",
+      "title": "Coffee and Tea Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 206,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "popular_13_wineandcheese.json",
+      "title": "Wine and Cheese Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 212,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "LETTERJACKET"
+      ]
+    },
+    {
+      "file": "popular_14_fishing.json",
+      "title": "Fishing Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Sports and Hobbies",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 118,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "LETTERJACKET",
+        "SPELLBOOK"
+      ]
+    },
+    {
+      "file": "popular_15_golf.json",
+      "title": "Golf Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Sports and Hobbies",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 121,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "ARCADETOKEN",
+        "BASEBALL"
+      ]
+    },
+    {
+      "file": "popular_16_quilting.json",
+      "title": "Quilting Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Hobbies Crafts and Pastimes",
+        "Sports and Hobbies",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 109,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "LETTERJACKET"
+      ]
+    },
+    {
+      "file": "popular_17_sewingandcrafts.json",
+      "title": "Sewing and Crafts Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Hobbies Crafts and Pastimes",
+        "Sports and Hobbies",
+        "Arts Creativity and Making",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 131,
+      "root_signal_review_candidates": 5,
+      "review_examples": [
+        "BASEBALL",
+        "PAINTBRUSH",
+        "QUILTER",
+        "SEWINGMACHINE",
+        "SKETCHBOOK"
+      ]
+    },
+    {
+      "file": "popular_18_classicliterature.json",
+      "title": "Classic Literature Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Books Reading and Libraries",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 227,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "popular_19_mindfulnessandgratitude.json",
+      "title": "Mindfulness and Gratitude Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Faith Inspiration and Kindness",
+        "Mindfulness",
+        "Thanksgiving",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 307,
+      "root_signal_review_candidates": 3,
+      "review_examples": [
+        "ARCADETOKEN",
+        "PUZZLETIME",
+        "SPELLBOOK"
+      ]
+    },
+    {
+      "file": "popular_20_cozyautumn.json",
+      "title": "Cozy Autumn Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Seasonal Celebrations",
+        "Halloween Autumn and Harvest",
+        "Video Games & Gaming"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 206,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "ARCADES"
+      ]
+    },
+    {
+      "file": "reptiles_48.json",
+      "title": "Reptile World Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 197,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "retro-travel-and-landmarks.json",
+      "title": "Vintage Road Trip Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Vehicles & Automotive",
+        "Word Skills and Brain Games",
+        "US Geography and Landmarks",
+        "Nostalgia Through the Decades"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 290,
+      "root_signal_review_candidates": 3,
+      "review_examples": [
+        "APPALACHIANS",
+        "STATELINE",
+        "TRUCKER"
+      ]
+    },
+    {
+      "file": "signature_all_star_sports.json",
+      "title": "All-Star Sports Word Search",
+      "puzzles": 60,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Sports and Hobbies",
+        "Nature"
+      ],
+      "unique_puzzle_words": 720,
+      "new_vs_master": 159,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "signature_american_history_defining_moments.json",
+      "title": "US History for Adults",
+      "puzzles": 60,
+      "recognized_topic_leads": [
+        "American History",
+        "US Geography and Landmarks",
+        "Nature"
+      ],
+      "unique_puzzle_words": 720,
+      "new_vs_master": 366,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "signature_american_history_teens.json",
+      "title": "US History for Teens",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "American History",
+        "US Geography and Landmarks",
+        "Nature"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 273,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "INDEPEND",
+        "SETTLER"
+      ]
+    },
+    {
+      "file": "signature_bible_stories.json",
+      "title": "Bible Stories Word Search",
+      "puzzles": 60,
+      "recognized_topic_leads": [
+        "Bible and Faith",
+        "Word Skills and Brain Games",
+        "World War II History",
+        "Nature"
+      ],
+      "unique_puzzle_words": 720,
+      "new_vs_master": 382,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "PSALMS",
+        "SPELLBOOK"
+      ]
+    },
+    {
+      "file": "signature_birds_of_north_america.json",
+      "title": "Birds of North America Word Search",
+      "puzzles": 60,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "US Geography and Landmarks",
+        "Birdwatching",
+        "Nature"
+      ],
+      "unique_puzzle_words": 720,
+      "new_vs_master": 405,
+      "root_signal_review_candidates": 3,
+      "review_examples": [
+        "READ",
+        "STATEFAIR",
+        "STATELINE"
+      ]
+    },
+    {
+      "file": "signature_christmas_traditions.json",
+      "title": "Christmas Traditions Word Search",
+      "puzzles": 60,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "World War II History",
+        "Nature",
+        "Seasonal Celebrations",
+        "Christmas and Winter",
+        "Holidays"
+      ],
+      "unique_puzzle_words": 720,
+      "new_vs_master": 313,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "SPELLBOOK",
+        "VALENTINES"
+      ]
+    },
+    {
+      "file": "signature_flavors_of_the_world.json",
+      "title": "Flavors of the World Word Search",
+      "puzzles": 60,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Nature",
+        "Baking and Food"
+      ],
+      "unique_puzzle_words": 720,
+      "new_vs_master": 394,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "FLAVORS",
+        "READER"
+      ]
+    },
+    {
+      "file": "signature_great_journeys.json",
+      "title": "Great Journeys Word Search",
+      "puzzles": 60,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "US Geography and Landmarks",
+        "Travel Road Trips and Getaways",
+        "Nature"
+      ],
+      "unique_puzzle_words": 720,
+      "new_vs_master": 326,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "HABITATS"
+      ]
+    },
+    {
+      "file": "signature_herbsfruitsandvegetableswordsearch.json",
+      "title": "Herbs Fruits and Vegetables Word Search",
+      "puzzles": 60,
+      "recognized_topic_leads": [
+        "Gardening and Garden Life",
+        "Word Skills and Brain Games",
+        "Nature",
+        "Baking and Food",
+        "Homesteading",
+        "Herbs Fruits and Vegetables"
+      ],
+      "unique_puzzle_words": 720,
+      "new_vs_master": 359,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "WRITE"
+      ]
+    },
+    {
+      "file": "signature_homesteadingwordsearch.json",
+      "title": "Homesteading Word Search",
+      "puzzles": 60,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Nature",
+        "Homesteading"
+      ],
+      "unique_puzzle_words": 720,
+      "new_vs_master": 348,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "signature_natures_wonders.json",
+      "title": "Nature's Wonders Word Search",
+      "puzzles": 60,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Nature"
+      ],
+      "unique_puzzle_words": 720,
+      "new_vs_master": 408,
+      "root_signal_review_candidates": 2,
+      "review_examples": [
+        "HABITATS",
+        "READER"
+      ]
+    },
+    {
+      "file": "signature_positiveparentingwordsearch.json",
+      "title": "Positive Parenting Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Word Skills and Brain Games",
+        "Nature",
+        "Positive Parenting"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 299,
+      "root_signal_review_candidates": 1,
+      "review_examples": [
+        "FAMILY"
+      ]
+    },
+    {
+      "file": "signature_signaturegardeningwordsearch.json",
+      "title": "Signature Gardening Word Search",
+      "puzzles": 60,
+      "recognized_topic_leads": [
+        "Gardening and Garden Life",
+        "Word Skills and Brain Games",
+        "Nature",
+        "Easter and Spring"
+      ],
+      "unique_puzzle_words": 720,
+      "new_vs_master": 376,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "signature_wwii_history_for_men.json",
+      "title": "World War II History for Men",
+      "puzzles": 60,
+      "recognized_topic_leads": [
+        "World War II History",
+        "Nature"
+      ],
+      "unique_puzzle_words": 720,
+      "new_vs_master": 381,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    },
+    {
+      "file": "summer-vacation.json",
+      "title": "Sunshine Summer Vacation Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Gardening and Garden Life",
+        "Word Skills and Brain Games",
+        "Travel Road Trips and Getaways",
+        "Cat Lover",
+        "Seasonal Celebrations",
+        "Easter and Spring"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 269,
+      "root_signal_review_candidates": 3,
+      "review_examples": [
+        "HERB",
+        "READER",
+        "SEEDSTART"
+      ]
+    },
+    {
+      "file": "Summer-vacay.json",
+      "title": "Ultimate Summer Vacation Word Search",
+      "puzzles": 95,
+      "recognized_topic_leads": [
+        "Gardening and Garden Life",
+        "Word Skills and Brain Games",
+        "Travel Road Trips and Getaways",
+        "Cat Lover",
+        "Seasonal Celebrations",
+        "Easter and Spring"
+      ],
+      "unique_puzzle_words": 1140,
+      "new_vs_master": 542,
+      "root_signal_review_candidates": 5,
+      "review_examples": [
+        "BLOOMS",
+        "CELEBRATE",
+        "HERB",
+        "HERBS",
+        "SEEDSTART"
+      ]
+    },
+    {
+      "file": "Texas_100_Themed_Wordsearch_Word_Banks.json",
+      "title": "Texas Big Sky Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "National Parks",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 2000,
+      "new_vs_master": 1072,
+      "root_signal_review_candidates": 5,
+      "review_examples": [
+        "HIKE",
+        "MOUNTAINBIKING",
+        "MOUNTAINEER",
+        "READ",
+        "READER"
+      ]
+    },
+    {
+      "file": "thanksgiving_100.json",
+      "title": "Thanksgiving Blessings Word Search",
+      "puzzles": 100,
+      "recognized_topic_leads": [
+        "Gardening and Garden Life",
+        "Word Skills and Brain Games",
+        "Faith Inspiration and Kindness",
+        "Thanksgiving",
+        "Easter and Spring"
+      ],
+      "unique_puzzle_words": 2000,
+      "new_vs_master": 826,
+      "root_signal_review_candidates": 3,
+      "review_examples": [
+        "BLESSINGS",
+        "HERB",
+        "READ"
+      ]
+    },
+    {
+      "file": "weather_climate_48.json",
+      "title": "Weather and Climate Word Search",
+      "puzzles": 48,
+      "recognized_topic_leads": [
+        "Weather and Climate",
+        "Word Skills and Brain Games"
+      ],
+      "unique_puzzle_words": 576,
+      "new_vs_master": 209,
+      "root_signal_review_candidates": 0,
+      "review_examples": []
+    }
+  ],
+  "review_leads_by_topic": {
+    "American History": [
+      "INDEPEND",
+      "SETTLER"
+    ],
+    "Arts Creativity and Making": [
+      "SKETCHBOOK"
+    ],
+    "Baking and Food": [
+      "CAKE",
+      "DESSERT",
+      "FLAVORS",
+      "SPICES"
+    ],
+    "Bible and Faith": [
+      "PSALMS"
+    ],
+    "Birdwatching": [],
+    "Books Reading and Libraries": [],
+    "Cat Lover": [
+      "PURR",
+      "WHISKERS"
+    ],
+    "Christmas and Winter": [
+      "CAROL",
+      "ORNAMENT"
+    ],
+    "Coastal Lake and River Life": [
+      "BEACHFOAM",
+      "BEACHSHOP",
+      "BEACHWEAR",
+      "BEACHY",
+      "KAYAKING"
+    ],
+    "Dog Breeds": [],
+    "Easter and Spring": [],
+    "Faith Inspiration and Kindness": [
+      "BLESSINGS"
+    ],
+    "Farm Country and Rural Life": [
+      "RANCHHOUSE"
+    ],
+    "Forest Wildlife and Outdoors": [
+      "REDWOODCOAST"
+    ],
+    "Gardening and Garden Life": [
+      "BLOOMS",
+      "HERB",
+      "HERBS",
+      "SEEDSTART"
+    ],
+    "Halloween Autumn and Harvest": [],
+    "Herbs Fruits and Vegetables": [],
+    "Hobbies Crafts and Pastimes": [
+      "PAINTBRUSH",
+      "QUILTER",
+      "SEWINGMACHINE"
+    ],
+    "Holidays": [
+      "CELEBRATE"
+    ],
+    "Home and Household": [
+      "COOKER"
+    ],
+    "Homesteading": [],
+    "Mindfulness": [],
+    "National Parks": [
+      "GLACIERLILY",
+      "GLACIERPOINT",
+      "HIKE",
+      "MOUNTAINBIKING",
+      "MOUNTAINEER",
+      "MOUNTAINLAUREL",
+      "TRAILRIDGE"
+    ],
+    "Nature": [
+      "HABITATS",
+      "NATURALIZE"
+    ],
+    "Nostalgia Through the Decades": [
+      "ARCADES",
+      "ARCADETOKEN"
+    ],
+    "Ocean Life": [
+      "JELLYFISH",
+      "MARINE",
+      "OCEANAIR",
+      "OCEANPATH",
+      "OCEANVIEW",
+      "REEF",
+      "SEAHORSE",
+      "SHARK",
+      "WHALE"
+    ],
+    "Outdoor Adventure": [
+      "PADDLEBOARD"
+    ],
+    "Pop Culture & Entertainment": [
+      "FILMNOIR"
+    ],
+    "Positive Parenting": [
+      "FAMILY"
+    ],
+    "Seasonal Celebrations": [
+      "CELEBRATE",
+      "VALENTINES"
+    ],
+    "Sports and Hobbies": [
+      "BASEBALL",
+      "BASEBALLCAP",
+      "CYCLING"
+    ],
+    "Thanksgiving": [],
+    "Travel Road Trips and Getaways": [],
+    "US Geography and Landmarks": [
+      "APPALACHIANS",
+      "CAPITALREGION",
+      "STATECOLLEGE",
+      "STATEFAIR",
+      "STATEFLAG",
+      "STATELINE"
+    ],
+    "Vehicles & Automotive": [
+      "TRUCKER"
+    ],
+    "Video Games & Gaming": [
+      "ARCADES",
+      "ARCADETOKEN",
+      "PUZZLETIME"
+    ],
+    "Weather and Climate": [
+      "HURRICANERIDGE",
+      "SNOWFIELD"
+    ],
+    "Word Skills and Brain Games": [
+      "LETTERJACKET",
+      "READ",
+      "READER",
+      "SPELLBOOK",
+      "WRITE"
+    ],
+    "World War II History": []
+  }
+}

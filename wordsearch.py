@@ -17,21 +17,28 @@ from reportlab.pdfbase.ttfonts import TTFont
 
 PAGE_W, PAGE_H = letter            # 612 x 792 pt  (8.5 x 11 in)
 MARGIN = 54                        # 0.75in uniform — safe KDP gutter (<150pg) + roomy large print
-GRID_N = 15
+GRID_N = 15  # The familiar default used for standard 12-word puzzles.
+MAX_GRID_N = 21
 DIRS = [(0, 1), (1, 0), (1, 1), (1, -1), (0, -1), (-1, 0), (-1, -1), (-1, 1)]
 
 Cell = tuple[int, int]
 Grid = list[list[str]]
 
-FONTS = {
-    "Sans":  "/System/Library/Fonts/Supplemental/Arial.ttf",
-    "SansB": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
-    "MonoB": "/System/Library/Fonts/Supplemental/Courier New Bold.ttf",
-}
+WINDOWS_FONTS = os.path.join(os.environ.get("WINDIR", r"C:\\Windows"), "Fonts")
 
+FONTS = {
+    "Sans":  os.path.join(WINDOWS_FONTS, "arial.ttf"),
+    "SansB": os.path.join(WINDOWS_FONTS, "arialbd.ttf"),
+    "MonoB": os.path.join(WINDOWS_FONTS, "courbd.ttf"),
+}
 
 def register_fonts() -> None:
     for name, path in FONTS.items():
+        if not os.path.exists(path):
+            raise RuntimeError(
+                f"Required Windows font was not found: {path}. "
+                "Install or restore the standard Arial and Courier New fonts, then try again."
+            )
         pdfmetrics.registerFont(TTFont(name, path))
 
 
@@ -54,23 +61,54 @@ def _try_place(grid: Grid, word: str, N: int) -> list[Cell] | None:
 
 
 def generate_puzzle(words: list[str], N: int = GRID_N) -> tuple[Grid, list[list[Cell]], list[str]]:
-    grid: Grid = [["" for _ in range(N)] for _ in range(N)]
-    placements: list[list[Cell]] = []
-    placed: list[str] = []
-    for w in sorted(words, key=len, reverse=True):
-        cells = None
-        for _ in range(500):
-            cells = _try_place(grid, w, N)
+    """Place every word when possible, retrying a whole grid before accepting less.
+
+    A greedy placement can occasionally paint itself into a corner even for a
+    small 12-word puzzle.  Retrying the empty grid makes package-time results
+    stable and prevents a different seed from passing a check then losing a
+    word in the finished PDF.
+    """
+    ordered = sorted(words, key=len, reverse=True)
+    best: tuple[Grid, list[list[Cell]], list[str]] | None = None
+    for _attempt in range(30):
+        grid: Grid = [["" for _ in range(N)] for _ in range(N)]
+        placements: list[list[Cell]] = []
+        placed: list[str] = []
+        for word in ordered:
+            cells = None
+            for _ in range(500):
+                cells = _try_place(grid, word, N)
+                if cells:
+                    break
             if cells:
-                break
-        if cells:
-            placements.append(cells)
-            placed.append(w)
+                placements.append(cells); placed.append(word)
+        if best is None or len(placed) > len(best[2]):
+            best = (grid, placements, placed)
+        if len(placed) == len(ordered):
+            break
+    assert best is not None
+    grid, placements, placed = best
     for r in range(N):
         for c in range(N):
             if not grid[r][c]:
                 grid[r][c] = random.choice(string.ascii_uppercase)
     return grid, placements, placed
+
+
+def grid_size_for(words: list[str]) -> int:
+    """Choose a readable grid size from the puzzle's word count."""
+    word_count = len(words)
+    if word_count <= 12:
+        preferred = 15
+    elif word_count <= 16:
+        preferred = 17
+    elif word_count <= 20:
+        preferred = 19
+    else:
+        preferred = 21
+
+    longest_word = max((len(word) for word in words), default=GRID_N)
+    return min(MAX_GRID_N, max(preferred, longest_word))
 
 
 # ---------------- drawing helpers ----------------
@@ -112,19 +150,20 @@ def draw_grid(c: Canvas, grid: Grid, gx: float, gy_top: float, cell: float,
 
 
 def draw_word_list(c: Canvas, words: list[str], gx: float, top_y: float,
-                    grid_w: float, cols: int = 3) -> None:
+                    grid_w: float, cols: int = 3, heading_font: int = 12,
+                    word_font: int = 13, row_step: int = 20) -> None:
     c.setFillColorRGB(0, 0, 0)
-    c.setFont("SansB", 12)
+    c.setFont("SansB", heading_font)
     c.drawCentredString(PAGE_W / 2, top_y, "FIND THESE WORDS")
     words = sorted(words)
     rows = math.ceil(len(words) / cols)
     col_w = grid_w / cols
-    c.setFont("Sans", 13)
-    start_y = top_y - 22
+    c.setFont("Sans", word_font)
+    start_y = top_y - heading_font - 10
     for i, w in enumerate(words):
         col, row = i // rows, i % rows
         x = gx + col * col_w + 8
-        y = start_y - row * 20
+        y = start_y - row * row_step
         c.drawString(x, y, w)
 
 
@@ -138,8 +177,16 @@ def footer(c: Canvas, page_no: int) -> None:
 def front_matter(c: Canvas, title: str, subtitle: str, author: str) -> None:
     # title page
     c.setFillColorRGB(0.10, 0.10, 0.10)
-    c.setFont("SansB", 30)
     for i, line in enumerate(_wrap(title.upper(), 16)):
+        # Character wrapping alone is not enough for wide capital letters.
+        # Keep every title line within the same print-safe area as the puzzles.
+        title_font = 30
+        while title_font > 14:
+            c.setFont("SansB", title_font)
+            if c.stringWidth(line, "SansB", title_font) <= PAGE_W - (MARGIN * 2):
+                break
+            title_font -= 1
+        c.setFont("SansB", title_font)
         c.drawCentredString(PAGE_W / 2, PAGE_H - 250 - i * 38, line)
     c.setFont("Sans", 15)
     for i, line in enumerate(_wrap(subtitle, 40)):
@@ -177,7 +224,7 @@ def front_matter(c: Canvas, title: str, subtitle: str, author: str) -> None:
     how = [
         "Each puzzle hides a list of words in a grid of letters.",
         "",
-        "Words run in straight lines — across, down, diagonally,",
+        "Words run in straight lines - across, down, diagonally,",
         "and sometimes backwards.",
         "",
         "Find every word in the list and circle it in the grid.",
@@ -199,19 +246,208 @@ def puzzle_page(c: Canvas, idx: int, name: str, grid: Grid, words: list[str],
     c.setFillColorRGB(0.1, 0.1, 0.1)
     c.setFont("SansB", 12)
     c.drawString(MARGIN, PAGE_H - 64, f"PUZZLE {idx}")
-    c.setFont("SansB", 22)
-    c.drawCentredString(PAGE_W / 2, PAGE_H - 96, name.upper())
+    # Long themed puzzle names must never enter the trim or gutter area.  A
+    # centered heading can otherwise look fine on screen while extending past
+    # the physical page edge (which KDP correctly rejects).  Scale the title
+    # down only as much as needed to stay inside the generous print-safe area.
+    heading = name.upper()
+    heading_font = 22
+    max_heading_width = PAGE_W - (MARGIN * 2)
+    while heading_font > 12:
+        c.setFont("SansB", heading_font)
+        if c.stringWidth(heading, "SansB", heading_font) <= max_heading_width:
+            break
+        heading_font -= 1
+    c.setFont("SansB", heading_font)
+    c.drawCentredString(PAGE_W / 2, PAGE_H - 96, heading)
 
-    cell = 30
     N = len(grid)
+    if N <= 15:
+        cell, letter_font = 30, 18
+        list_settings = {"heading_font": 12, "word_font": 13, "row_step": 20}
+    elif N <= 17:
+        cell, letter_font = 27, 16
+        list_settings = {"heading_font": 11, "word_font": 12, "row_step": 17}
+    elif N <= 19:
+        cell, letter_font = 24, 14
+        list_settings = {"heading_font": 11, "word_font": 11, "row_step": 16}
+    else:
+        cell, letter_font = 22, 13
+        list_settings = {"heading_font": 10, "word_font": 10, "row_step": 14}
     grid_w = N * cell
     gx = (PAGE_W - grid_w) / 2
     gy_top = PAGE_H - 122          # grid bottom = 670 - 450 = 220
-    draw_grid(c, grid, gx, gy_top, cell, 18)
+    draw_grid(c, grid, gx, gy_top, cell, letter_font)
 
-    draw_word_list(c, words, gx, gy_top - N * cell - 26, grid_w, cols=3)
+    draw_word_list(c, words, gx, gy_top - N * cell - 26, grid_w, cols=3,
+                   **list_settings)
     footer(c, page_no)
     c.showPage()
+
+
+def themed_welcome_page(c: Canvas, data: dict, title: str) -> None:
+    """A short, automatically tailored welcome that makes every book feel intentional."""
+    topic = str(data.get("detected_topic") or title).strip()
+    audience = str(data.get("audience") or "Adults & Teens").strip()
+    difficulty = str(data.get("difficulty_label") or "Relaxing").strip()
+    c.setFillColorRGB(0.10, 0.10, 0.10)
+    c.setFont("SansB", 24)
+    c.drawCentredString(PAGE_W / 2, PAGE_H - 150, "WELCOME TO THE COLLECTION")
+    c.setStrokeColorRGB(0.65, 0.65, 0.65); c.setLineWidth(1)
+    c.line(PAGE_W / 2 - 92, PAGE_H - 174, PAGE_W / 2 + 92, PAGE_H - 174)
+    c.setFont("Sans", 14)
+    custom_welcome = str(data.get("welcome_message") or "").strip()
+    features = [str(item).strip() for item in data.get("collection_features", []) if str(item).strip()] if isinstance(data.get("collection_features"), list) else []
+    lines = ([custom_welcome, *features] if custom_welcome else [
+        f"This {difficulty.lower()} word-search collection celebrates {topic}.",
+        f"Made for {audience.lower()}, it is a screen-free way to slow down,",
+        "focus on a favorite subject, and enjoy one satisfying challenge at a time.",
+    ]) + ["", "Circle words, take breaks, and return to any puzzle whenever you like.", "Your solutions are waiting at the back of the book."]
+    y = PAGE_H - 245
+    for line in lines:
+        # The automatic welcome can include a full book title.  Wrap it before
+        # centering so an otherwise polished page cannot cross the trim edge.
+        for wrapped in _wrap(line, 72) if line else [""]:
+            c.drawCentredString(PAGE_W / 2, y, wrapped)
+            y -= 28
+    c.setFont("SansB", 13)
+    c.drawCentredString(PAGE_W / 2, 140, "ENJOY THE SEARCH.")
+    c.showPage()
+
+
+def detail_pages(c: Canvas, data: dict, puzzles: list[dict], running_title: str) -> int:
+    """Add two useful, truth-safe collection pages to every new book.
+
+    These pages make a finished book feel more intentional without inventing
+    topic facts.  A theme may opt out with ``detail_pages.enabled: false``.
+    """
+    config = data.get("detail_pages", {})
+    if isinstance(config, dict) and config.get("enabled") is False:
+        return 0
+    topic = str(data.get("detected_topic") or data.get("series") or running_title).strip()
+    audience = str(data.get("audience") or "Adults & Teens").strip()
+    difficulty = str(data.get("difficulty_label") or "Relaxing").strip()
+    count = len(puzzles)
+
+    # Collection guide
+    c.setFillColorRGB(0.10, 0.10, 0.10)
+    c.setFont("SansB", 25)
+    c.drawCentredString(PAGE_W / 2, PAGE_H - 130, "YOUR COLLECTION GUIDE")
+    c.setStrokeColorRGB(0.65, 0.65, 0.65); c.setLineWidth(1)
+    c.line(PAGE_W / 2 - 100, PAGE_H - 152, PAGE_W / 2 + 100, PAGE_H - 152)
+    c.setFont("Sans", 14)
+    guide_lines = [
+        f"This book includes {count} {topic} word-search puzzles.",
+        f"Difficulty: {difficulty}. Made for {audience.lower()}.",
+        "",
+        "A relaxed way to enjoy the collection:",
+        "- Pick any puzzle that catches your eye - there is no required order.",
+        "- Use the puzzle name as a small topic prompt before you begin.",
+        "- Mark your favorites in the notes page that follows.",
+        "- Find complete solutions at the back whenever you need them.",
+    ]
+    y = PAGE_H - 215
+    for line in guide_lines:
+        c.drawCentredString(PAGE_W / 2, y, line)
+        y -= 29
+    c.setFont("SansB", 12)
+    c.drawCentredString(PAGE_W / 2, 130, "ONE PUZZLE AT A TIME. ENJOY THE SEARCH.")
+    c.showPage()
+
+    # Reader notes / favorite tracker — useful for every topic and audience.
+    c.setFillColorRGB(0.10, 0.10, 0.10)
+    c.setFont("SansB", 25)
+    c.drawCentredString(PAGE_W / 2, PAGE_H - 130, "MY PUZZLE NOTES")
+    c.setFont("Sans", 13)
+    c.drawCentredString(PAGE_W / 2, PAGE_H - 160, "Keep track of the puzzles and words you enjoyed most.")
+    c.setStrokeColorRGB(0.45, 0.45, 0.45); c.setLineWidth(1)
+    c.roundRect(MARGIN, PAGE_H - 360, PAGE_W - MARGIN * 2, 140, 8, stroke=1, fill=0)
+    c.setFont("SansB", 13)
+    c.drawString(MARGIN + 20, PAGE_H - 252, "My favorite puzzle:")
+    c.line(MARGIN + 160, PAGE_H - 255, PAGE_W - MARGIN - 24, PAGE_H - 255)
+    c.drawString(MARGIN + 20, PAGE_H - 292, "A word I want to remember:")
+    c.line(MARGIN + 200, PAGE_H - 295, PAGE_W - MARGIN - 24, PAGE_H - 295)
+    c.drawString(MARGIN + 20, PAGE_H - 332, "My next puzzle:")
+    c.line(MARGIN + 145, PAGE_H - 335, PAGE_W - MARGIN - 24, PAGE_H - 335)
+    c.setFont("SansB", 15)
+    c.drawString(MARGIN, PAGE_H - 420, "PUZZLES I LOVED")
+    c.setFont("Sans", 12)
+    y = PAGE_H - 452
+    for index in range(1, min(count, 12) + 1):
+        col = 0 if index <= 6 else 1
+        row = (index - 1) % 6
+        x = MARGIN + col * 265
+        yy = y - row * 34
+        c.rect(x, yy - 8, 11, 11, stroke=1, fill=0)
+        name = str(puzzles[index - 1].get("name", f"Puzzle {index}"))[:28]
+        c.drawString(x + 20, yy - 7, f"{index:02d}. {name}")
+    c.setFillColorRGB(0.45, 0.45, 0.45)
+    c.setFont("Sans", 9)
+    c.drawCentredString(PAGE_W / 2, 58, running_title)
+    c.showPage()
+    return 2
+
+
+def signature_pages(c: Canvas, puzzles: list[dict], running_title: str, config: dict | None = None) -> None:
+    """Optional premium pages that make a collection feel collectible."""
+    config = config or {}
+    # Thirty compact entries per column keep a 60-puzzle collection together on
+    # one page.  Longer collections split into balanced pages instead of letting
+    # checkboxes drift below the printable area.
+    passport_per_page = 60
+    for start in range(0, len(puzzles), passport_per_page):
+        page_puzzles = puzzles[start:start + passport_per_page]
+        c.setFillColorRGB(0.1, 0.1, 0.1)
+        c.setFont("SansB", 26)
+        heading = str(config.get("passport_title", "PUZZLE PASSPORT")).upper()
+        if len(puzzles) > passport_per_page:
+            heading += f" - PAGE {start // passport_per_page + 1}"
+        c.drawCentredString(PAGE_W / 2, PAGE_H - 110, heading)
+        c.setFont("Sans", 12)
+        c.drawCentredString(PAGE_W / 2, PAGE_H - 138, "Check off each puzzle as you complete it.")
+        entries_per_column = min(30, max(1, math.ceil(len(page_puzzles) / 2)))
+        row_step = 18
+        for offset, puzzle in enumerate(page_puzzles):
+            index = start + offset + 1
+            col, row = divmod(offset, entries_per_column)
+            x = MARGIN + col * 280
+            y = PAGE_H - 185 - row * row_step
+            c.rect(x, y - 9, 11, 11, stroke=1, fill=0)
+            c.setFont("Sans", 9)
+            label = str(puzzle.get("name", f"Puzzle {index}"))[:34]
+            c.drawString(x + 18, y - 7, f"{index:02d}. {label}")
+        c.showPage()
+    c.setFillColorRGB(0.1, 0.1, 0.1)
+    c.setFont("SansB", 28)
+    c.drawCentredString(PAGE_W / 2, PAGE_H - 190, str(config.get("achievement_title", "SIGNATURE EDITION")).upper())
+    c.setFont("Sans", 14)
+    lines = [
+        str(config.get("achievement_message", "A calm challenge, one puzzle at a time.")), "",
+        "Achievement unlocked:",
+        f"I completed all {len(puzzles)} puzzles in this collection.", "",
+        "Date completed: ______________________________", "",
+        "My favorite puzzle: __________________________", "",
+        str(config.get("challenge", "Keep this passport as a reminder of every puzzle you solved.")),
+    ]
+    for i, line in enumerate(lines):
+        c.drawCentredString(PAGE_W / 2, PAGE_H - 250 - i * 28, line)
+    c.setFont("Sans", 9)
+    c.setFillColorRGB(0.45, 0.45, 0.45)
+    c.drawCentredString(PAGE_W / 2, 58, running_title)
+    c.showPage()
+    facts = [str(fact) for fact in config.get("fact_cards", []) if str(fact).strip()]
+    if facts:
+        c.setFillColorRGB(0.1, 0.1, 0.1)
+        c.setFont("SansB", 26)
+        c.drawCentredString(PAGE_W / 2, PAGE_H - 120, str(config.get("facts_title", "DID YOU KNOW?")).upper())
+        y = PAGE_H - 180
+        c.setFont("Sans", 13)
+        for number, fact in enumerate(facts[:5], start=1):
+            for line in _wrap(f"{number}. {fact}", 78):
+                c.drawString(MARGIN, y, line)
+                y -= 21
+            y -= 16
+        c.showPage()
 
 
 def solutions_pages(c: Canvas, solutions: list[tuple[int, str, Grid, list[list[Cell]]]],
@@ -225,10 +461,6 @@ def solutions_pages(c: Canvas, solutions: list[tuple[int, str, Grid, list[list[C
     c.showPage()
     page_no += 1
 
-    cell = 17
-    N = GRID_N
-    grid_w = N * cell
-    gx = (PAGE_W - grid_w) / 2
     slots_top = [PAGE_H - 96, PAGE_H - 96 - 320]   # two solutions per page
     for i in range(0, len(solutions), 2):
         c.setFillColorRGB(0.5, 0.5, 0.5)
@@ -238,8 +470,13 @@ def solutions_pages(c: Canvas, solutions: list[tuple[int, str, Grid, list[list[C
             idx, name, grid, placements = sol
             c.setFillColorRGB(0.1, 0.1, 0.1)
             c.setFont("SansB", 13)
-            c.drawCentredString(PAGE_W / 2, slot, f"PUZZLE {idx}  —  {name.upper()}")
-            draw_grid(c, grid, gx, slot - 16, cell, 10, highlights=placements)
+            c.drawCentredString(PAGE_W / 2, slot, f"PUZZLE {idx} - {name.upper()}")
+            N = len(grid)
+            cell = min(17, 260 / N)
+            grid_w = N * cell
+            gx = (PAGE_W - grid_w) / 2
+            draw_grid(c, grid, gx, slot - 16, cell, max(7, int(cell * 0.58)),
+                      highlights=placements)
         footer(c, page_no)
         c.showPage()
         page_no += 1
@@ -360,7 +597,7 @@ def clean_words(words: list[str]) -> list[str]:
     out: list[str] = []
     for w in words:
         w = "".join(ch for ch in w.upper() if ch.isalpha())
-        if w and len(w) <= GRID_N:
+        if w and len(w) <= MAX_GRID_N:
             out.append(w)
     return out
 
@@ -373,14 +610,23 @@ def main() -> None:
     ap.add_argument("--subtitle")
     ap.add_argument("--author")
     ap.add_argument("--seed", type=int, default=7)
+    ap.add_argument("--signature-edition", action="store_true", help="add a puzzle passport and achievement page")
+    ap.add_argument("--preview-puzzles", type=int, help="generate only the first N puzzles plus solutions for a quick reader preview")
     a = ap.parse_args()
 
     random.seed(a.seed)
-    data = json.load(open(a.themes))
+    try:
+        with open(a.themes, encoding="utf-8-sig") as theme_file:
+            data = json.load(theme_file)
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SystemExit(f"Could not read theme file '{a.themes}': {exc}") from exc
+    if not isinstance(data, dict) or not isinstance(data.get("puzzles"), list) or not data["puzzles"]:
+        raise SystemExit("This theme file must contain a non-empty 'puzzles' list.")
     title = a.title or data.get("title", "Word Search")
     subtitle = a.subtitle or data.get("subtitle", "")
     author = a.author or data.get("author", "")
     running = title
+    puzzles = data["puzzles"][:max(1, a.preview_puzzles)] if a.preview_puzzles else data["puzzles"]
 
     os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True)
     register_fonts()
@@ -389,12 +635,20 @@ def main() -> None:
     c.setAuthor(author)
 
     front_matter(c, title, subtitle, author)
+    themed_welcome_page(c, data, title)
+    detail_pages(c, data, puzzles, running)
+    # Signature pages are an edition choice made at package time.  Saved theme
+    # files can retain design notes for a Signature Edition, but a normal book
+    # must never silently inherit the premium pages from those notes.
+    signature_config = data.get("signature_edition", {})
+    if a.signature_edition:
+        signature_pages(c, puzzles, running, signature_config if isinstance(signature_config, dict) else {})
 
     solutions = []
     page_no = 1
-    for i, p in enumerate(data["puzzles"], start=1):
+    for i, p in enumerate(puzzles, start=1):
         words = clean_words(p["words"])
-        grid, placements, placed = generate_puzzle(words)
+        grid, placements, placed = generate_puzzle(words, N=grid_size_for(words))
         puzzle_page(c, i, p["name"], grid, placed, page_no, running)
         solutions.append((i, p["name"], grid, placements))
         if len(placed) < len(words):
@@ -407,9 +661,16 @@ def main() -> None:
     also_from = data.get("also_from", [])
     back_matter(c, author, also_from)
 
+    # Print books use physical sheets.  KDP can add a blank page to an odd
+    # manuscript, but doing it here keeps the approved interior page count and
+    # calculated cover spine in agreement before the files ever leave Studio.
+    completed_pages = c.getPageNumber() - 1
+    if completed_pages % 2:
+        c.showPage()
+
     c.save()
 
-    n_puzzles = len(data["puzzles"])
+    n_puzzles = len(puzzles)
     size_kb = os.path.getsize(a.out) / 1024
     print(f"DONE -> {a.out}")
     print(f"  {n_puzzles} puzzles + solutions, {size_kb:.0f} KB, 8.5x11 print-ready")

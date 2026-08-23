@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Large Print Classic",
+    "palette": "nature",
+    "style": "classic",
+    "imprint": "Slade Puzzles"
+  },
+  {
+    "name": "Playful & Colorful",
+    "palette": "candy-pop",
+    "style": "playful",
+    "imprint": "Slade Puzzles"
+  },
+  {
+    "name": "Retro Nostalgia",
+    "palette": "nostalgia",
+    "style": "retro",
+    "imprint": "Slade Puzzles"
+  },
+  {
+    "name": "Bright Seasonal",
+    "palette": "sunset",
+    "style": "sunburst",
+    "imprint": "Slade Puzzles"
+  },
+  {
+    "name": "Clean & Calm",
+    "palette": "ocean-breeze",
+    "style": "minimal",
+    "imprint": "Slade Puzzles"
+  }
+]

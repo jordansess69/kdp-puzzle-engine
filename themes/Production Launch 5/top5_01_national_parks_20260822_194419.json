@@ -1,0 +1,850 @@
+{
+  "title": "America's National Parks Word Search",
+  "subtitle": "48 large-print puzzles about trails, wildlife and scenic wonders",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Seasonal and Evergreen Collection",
+  "series_rank": 1,
+  "audience": "Adults and Teens",
+  "palette": "forest-cabin",
+  "cover_style": "photo",
+  "recommended_palette": "forest-cabin",
+  "recommended_cover_style": "photo",
+  "cover_badge": "48 LARGE-PRINT PUZZLES - NO REPEATED WORDS",
+  "cover_imprint": "Slade Puzzles",
+  "no_repeat_words": true,
+  "difficulty_label": "Standard",
+  "detected_topic": "National Parks",
+  "source_word_bank": {
+    "name": "Guided Builder Master Word Bank",
+    "topics": [
+      "National Parks"
+    ]
+  },
+  "cover_art_path": "cover_assets/background_photos/national_parks_forest_v3.png",
+  "cover_art_focus": "center",
+  "clipart_search_terms": "national parks forests trails wildlife mountains",
+  "market_research_note": "Selected from current demand signals for large-print adult word searches, seasonal timing, and evergreen giftable themes. This is not a guarantee of sales.",
+  "market_research_sources": [
+    "Amazon Word Search Best Sellers",
+    "KDP paperback requirements"
+  ],
+  "draft": true,
+  "puzzles": [
+    {
+      "name": "America's National Parks Word Search Puzzle 001",
+      "words": [
+        "BLUERIDGEPARKWAY",
+        "DESERT",
+        "CONIFERFOREST",
+        "FORESTCAMP",
+        "NATUREWALK",
+        "TRAILSTONE",
+        "JUNIPER",
+        "DESERTCACTUS",
+        "UNDERSTORY",
+        "SPRUCEFIR",
+        "SHENANDOAH",
+        "BUTTE"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 002",
+      "words": [
+        "TREETOP",
+        "FORESTLAKE",
+        "GEOLOGICFORMATION",
+        "KATMAI",
+        "SCENICROUTE",
+        "NORTHCASCADES",
+        "ROCKY",
+        "MARMOT",
+        "WILDFLOWERMEADOW",
+        "GROVE",
+        "UPLAND",
+        "GEYSERBASIN"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 003",
+      "words": [
+        "GUADALUPE",
+        "FOXGLOVE",
+        "GLACIERCREEK",
+        "SCENICDRIVE",
+        "LODGEPOLEPINE",
+        "GREATPLAINS",
+        "GREATLAKES",
+        "FOXTRAIL",
+        "LANTERNLIGHT",
+        "DRAGONFLY",
+        "TRAILMAPGUIDE",
+        "SEQUOIA"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 004",
+      "words": [
+        "TRAILBLAZE",
+        "GATEWAYARCHES",
+        "SAGUARO",
+        "HIGHWAY",
+        "CONIFER",
+        "KOBUKVALLEY",
+        "MOSS",
+        "BLUERIDGE",
+        "CEDARCONE",
+        "OWLCALL",
+        "NATIONALPARK",
+        "SAGEGROUSE"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 005",
+      "words": [
+        "MARSH",
+        "BLUEJAY",
+        "ALPINEGLOW",
+        "ALPINEFOREST",
+        "GRANITEPEAK",
+        "CANYONCOUNTRY",
+        "HIGHLAND",
+        "LAKESIDE",
+        "WILDFLOWER",
+        "WOODSHED",
+        "HABITATLOSS",
+        "GRANITECLIFF"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 006",
+      "words": [
+        "BRYCECANYON",
+        "BISCAYNE",
+        "LIMESTONE",
+        "GRANDTETON",
+        "SNOWTRAIL",
+        "ISLEROYALE",
+        "ASPEN",
+        "CANYONLOOP",
+        "CLIFFDWELLING",
+        "QUAKINGASPEN",
+        "CAVEENTRANCE",
+        "BALSAMFIR"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 007",
+      "words": [
+        "ANTELOPECANYON",
+        "FOOTHILL",
+        "MOUNTAINGOAT",
+        "CAVE",
+        "BISONRANGE",
+        "RANGERWALK",
+        "ARCTICFOX",
+        "STREAMBED",
+        "SUNSETPOINT",
+        "CONGAREE",
+        "WOODPECKER",
+        "GRANITE"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 008",
+      "words": [
+        "ALPINEWILDFLOWER",
+        "WILDRIVER",
+        "CAMPSITE",
+        "MAMMOTHCAVE",
+        "BLUFF",
+        "BIRDCHECKLIST",
+        "MOUNTAINVISTA",
+        "TREEGUIDE",
+        "STREAMSIDE",
+        "CANOPY",
+        "RANGERSTATION",
+        "OAK"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 009",
+      "words": [
+        "EVERGREENS",
+        "SPRUCECONE",
+        "SKY",
+        "HARDSCAPE",
+        "RANGER",
+        "TRAILHEADSIGN",
+        "FORESTFIRE",
+        "OVERLOOKTRAIL",
+        "ORCHARD",
+        "CLIMBING",
+        "PINETRAIL",
+        "TRAILSIDE"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 010",
+      "words": [
+        "RIDGE",
+        "CANOPYTRAIL",
+        "GEOLOGYGUIDE",
+        "DUNECREST",
+        "TRAILRIVER",
+        "MONUMENT",
+        "BASINRANGE",
+        "PRAIRIEVIEW",
+        "DUNEHIKE",
+        "TRAILHEAD",
+        "TRAILREST",
+        "CAVEFISH"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 011",
+      "words": [
+        "WOODSMOKE",
+        "GORGEVIEW",
+        "CAMPGROUND",
+        "BLUEHERON",
+        "TRAILCREW",
+        "GLACIERBAY",
+        "HEMLOCKFOREST",
+        "ADVENTURETRAIL",
+        "DUNEGRASS",
+        "OSPREY",
+        "CRATERLAKE",
+        "WOODLANDPATH"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 012",
+      "words": [
+        "ZION",
+        "FIELDGUIDE",
+        "BEAVERPOND",
+        "FORESTTRAIL",
+        "FORESTROAD",
+        "BIGHORNTRAIL",
+        "LAKE",
+        "FORESTEDGE",
+        "REDWOOD",
+        "HIKINGPATH",
+        "PRICKLYPEAR",
+        "JUNIPERTRAIL"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 013",
+      "words": [
+        "LOOKOUT",
+        "DESERTBLOOM",
+        "HOTSPRINGS",
+        "RIVERHIKE",
+        "ECOLOGY",
+        "PRAIRIEPATH",
+        "GLACIERTRAIL",
+        "WETLANDWALK",
+        "TENT",
+        "SANDSTONE",
+        "HIKINGBOOT",
+        "PARKWAY"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 014",
+      "words": [
+        "DECIDUOUS",
+        "CAVEWALL",
+        "FALCONFLIGHT",
+        "MULEDEER",
+        "FALLSVIEW",
+        "BOULDERFIELD",
+        "CLIFFTOP",
+        "ROCK",
+        "DAYPACK",
+        "DEERTRACK",
+        "SUNSET",
+        "GRASSHOPPER"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 015",
+      "words": [
+        "OTTER",
+        "MESAARCH",
+        "BACKPACKTRAIL",
+        "BLACKBEAR",
+        "FORESTBIRD",
+        "ALPINEPASS",
+        "PARKMAP",
+        "BLACKCANYON",
+        "MOUNTAINHIKE",
+        "BISON",
+        "HIKINGTRAIL",
+        "HIKINGVIEW"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 016",
+      "words": [
+        "CEDAR",
+        "TURKEYVULTURE",
+        "HEMLOCK",
+        "VIRGINISLANDS",
+        "RIVERTRAIL",
+        "CAVERN",
+        "WILDLIFE",
+        "SANDSTONETRAIL",
+        "LAKEPATH",
+        "PRAIRIEGRASS",
+        "SCENICTRAIL",
+        "VOLCANICROCK"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 017",
+      "words": [
+        "HAMMOCK",
+        "FORESTHIKE",
+        "HIGHLANDTRAIL",
+        "KINGSCANYON",
+        "ROCKFORMATION",
+        "MESA",
+        "FIRELOOKOUT",
+        "GROUNDHOG",
+        "SCENICVIEW",
+        "ELEVATION",
+        "FERNLEAF",
+        "CLIFFTRAIL"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 018",
+      "words": [
+        "MOSSBANK",
+        "INDIANADUNES",
+        "LIMESTONECAVE",
+        "SCENICLOOKOUT",
+        "PETRIFIEDWOOD",
+        "MOUNTAINRIDGE",
+        "NATIVEFISH",
+        "WILDLANDS",
+        "LANDMARK",
+        "ASPENLEAF",
+        "CARIBOU",
+        "DENALI"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 019",
+      "words": [
+        "DESERTFOX",
+        "NATIONALMONUMENT",
+        "PRAIRIEFLOWER",
+        "COASTREDWOOD",
+        "WILDLAND",
+        "DUNEVIEW",
+        "SNOWCAP",
+        "SCENICPARK",
+        "DESERTBIGHORN",
+        "FORESTPOND",
+        "CREEKBED",
+        "COASTALTIDE"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 020",
+      "words": [
+        "NATIVEPLANT",
+        "EVERGREENFOREST",
+        "CLIFF",
+        "LAKESHORE",
+        "GARDEN",
+        "BLACKWATER",
+        "PARKENTRANCE",
+        "BOULDERTRAIL",
+        "ANACOSTIA",
+        "HABITAT",
+        "OAKTREE",
+        "BACKWATER"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 021",
+      "words": [
+        "LIZARD",
+        "MOUNTAINMEADOW",
+        "AMERICA",
+        "BARRIERBEACH",
+        "ARROYO",
+        "SONGBIRD",
+        "GLACIERMELT",
+        "GLADE",
+        "TRAILMILE",
+        "GRANITEBOULDER",
+        "COUNTRY",
+        "LICHEN"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 022",
+      "words": [
+        "DAYHIKE",
+        "MOSSYTRAIL",
+        "FORESTGLADE",
+        "SWITCHBACK",
+        "DRYTORTUGAS",
+        "SPRINGWATER",
+        "THEODOREROOSEVELT",
+        "TRAILCAMP",
+        "INSECTLIFE",
+        "RIDGEVIEW",
+        "SEQUOIASAPLING",
+        "SHORELINE"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 023",
+      "words": [
+        "BASIN",
+        "GRASSLANDVIEW",
+        "NATURE",
+        "RIVERGORGE",
+        "MOUNTAINVIEW",
+        "HOLLOW",
+        "PRAIRIE",
+        "PICNIC",
+        "DESERTTORTOISE",
+        "SEACOAST",
+        "TIMBERLINE",
+        "WAYFINDING"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 024",
+      "words": [
+        "PINE",
+        "ROCKYTRAIL",
+        "THIMBLEBERRY",
+        "REFUGE",
+        "LAKEVIEW",
+        "RIVERCROSSING",
+        "GEYSER",
+        "BLUFFVIEW",
+        "RIVERBEND",
+        "GLACIERPEAK",
+        "TALK",
+        "LASSENVOLCANIC"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 025",
+      "words": [
+        "YOSEMITE",
+        "AMERICANALLIGATOR",
+        "CANOE",
+        "COTTONWOOD",
+        "DESERTTRAIL",
+        "GRANITEWALL",
+        "CAPITOLREEF",
+        "WOLFPACK",
+        "SEEDLING",
+        "MOUNTAINLION",
+        "GATESOFTHEARCTIC",
+        "CREEKCROSSING"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 026",
+      "words": [
+        "FOSSIL",
+        "GRASSLAND",
+        "WILDTURKEY",
+        "FIELD",
+        "SHORE",
+        "CLIFFEDGE",
+        "SUMMIT",
+        "MOUNTAINPASS",
+        "CAVEPASS",
+        "TREEFROG",
+        "WATERFALLTRAIL",
+        "RIVERBANK"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 027",
+      "words": [
+        "NATURETRAIL",
+        "BEARGRASS",
+        "PINNACLES",
+        "LAKESHORELANDSCAPE",
+        "WATERCOURSE",
+        "TALLGRASS",
+        "RIVERSTONE",
+        "CANYONSTREAM",
+        "ALPINELAKE",
+        "SEASHORE",
+        "HEADWATER",
+        "CAMPFIRE"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 028",
+      "words": [
+        "DESERTFLOOR",
+        "FLOWER",
+        "VISITORTRAIL",
+        "SNOWBERRY",
+        "ALPINE",
+        "FORESTWALK",
+        "STARRYSKY",
+        "BIRDLIFE",
+        "MOUNTRAINIER",
+        "DAYPACKTRAIL",
+        "CLOUDFOREST",
+        "MEADOWLARK"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 029",
+      "words": [
+        "BRUSHLAND",
+        "CAVEWATER",
+        "BOARDWALK",
+        "TRAILBLAZER",
+        "VALLEYTRAIL",
+        "SUMMITTRAIL",
+        "FROST",
+        "KENEANIFJORDS",
+        "ELK",
+        "FIREWEED",
+        "CREEKTRAIL",
+        "CREEKSIDE"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 030",
+      "words": [
+        "GEOLOGICTRAIL",
+        "CAVETOUR",
+        "NATIVEGRASS",
+        "FROGCALL",
+        "CAMPSTOVE",
+        "FIRETOWER",
+        "EVERGREEN",
+        "EVERGLADES",
+        "SALMON",
+        "FORESTCANOPY",
+        "PARKPASS",
+        "WILDERNESSAREA"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 031",
+      "words": [
+        "ESTUARY",
+        "HAWAIIVOLCANOES",
+        "BIODIVERSITY",
+        "SNOWMELT",
+        "SNOWFALL",
+        "FORESTCREEK",
+        "TRAILWALK",
+        "MANZANITA",
+        "MOUNTAINSTREAM",
+        "WILDERNESS",
+        "PRAIRIETRAIL",
+        "CAPITAL"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 032",
+      "words": [
+        "GLACIER",
+        "FORESTSTREAM",
+        "WILDLIFEPATH",
+        "COASTLINE",
+        "PARKGUIDE",
+        "TRAILBRIDGE",
+        "WOODLAND",
+        "GREENVALLEY",
+        "GREENWAY",
+        "MOOSE",
+        "JUNIPERTREE",
+        "ALASKAPARKS"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 033",
+      "words": [
+        "CREEK",
+        "GRANDCANYON",
+        "HOODOO",
+        "CABIN",
+        "CANYONPATH",
+        "GLACIERFIELD",
+        "CANYONRIM",
+        "CEDARTRAIL",
+        "MEADOW",
+        "VISTA",
+        "CANYONVIEW",
+        "CEDARFOREST"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 034",
+      "words": [
+        "TRAILGUIDE",
+        "BIGHORNSHEEP",
+        "ACORN",
+        "CANYONWREN",
+        "VOLCANICFIELD",
+        "ROCKFACE",
+        "SUMMITVIEW",
+        "NEWRIVERGORGE",
+        "BROOK",
+        "WETLANDTRAIL",
+        "YELLOWSTONE",
+        "PRESERVE"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 035",
+      "words": [
+        "BLACKSPRUCE",
+        "WOODDUCK",
+        "ARCHES",
+        "TRAILCAMPING",
+        "ANTLER",
+        "WRANGELLSAINTELIAS",
+        "ROCKPOOL",
+        "VALLEYHIKE",
+        "MOUNTAINLAKE",
+        "BASINLAKE",
+        "TRAILPOST",
+        "CITY"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 036",
+      "words": [
+        "FOREST",
+        "CAVEPOOL",
+        "CANYONLANDS",
+        "STATE",
+        "WILDFLOWERTRAIL",
+        "AVALANCHE",
+        "REDFOX",
+        "ACADIA",
+        "NATIONALFOREST",
+        "COLORADOPLATEAU",
+        "DESERTMESA",
+        "DEATHVALLEYDUNES"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 037",
+      "words": [
+        "CANYONFLOOR",
+        "WILDBERRY",
+        "OUTDOORS",
+        "TRAILMAP",
+        "ROPE",
+        "TRAILJOURNAL",
+        "BACKPACK",
+        "HIGHCOUNTRY",
+        "DESERTVIEW",
+        "APPALACHIANTRAIL",
+        "WILDERNESSWALK",
+        "PARKROAD"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 038",
+      "words": [
+        "BEETLE",
+        "WILDROSE",
+        "FRESHWATER",
+        "PINYONPINE",
+        "BASALT",
+        "MAP",
+        "JOSHUATREE",
+        "BEARTRACK",
+        "BOULDER",
+        "PRONGHORN",
+        "HIGHDESERT",
+        "GRIZZLYBEAR"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 039",
+      "words": [
+        "MEADOWTRAIL",
+        "BACKCOUNTRY",
+        "VALLEYVIEW",
+        "CHAPARRAL",
+        "WOODLANDTRAIL",
+        "RIVERSIDE",
+        "WINDFLOWER",
+        "AUTUMN",
+        "FORESTMEADOW",
+        "FORESTFLOOR",
+        "LAKECLARK",
+        "CANYONWALL"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 040",
+      "words": [
+        "PACIFICCOAST",
+        "LONGLEAFPINE",
+        "WOODLANDVIEW",
+        "HILLSIDE",
+        "PARKLAND",
+        "FORESTPATH",
+        "THICKET",
+        "BIRCHBARK",
+        "CANYONBIRD",
+        "BEARBERRY",
+        "CANYONHIKE",
+        "LEAF"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 041",
+      "words": [
+        "VALLEY",
+        "VISITORCENTER",
+        "SHRUBLAND",
+        "MESAVERDE",
+        "STARGAZING",
+        "FERN",
+        "DESERTSCAPE",
+        "GEOLOGICMAP",
+        "BACKCOUNTRYROAD",
+        "CUYAHOGAVALLEY",
+        "VOYAGERS",
+        "TRAILROUTE"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 042",
+      "words": [
+        "ROCKTRAIL",
+        "LOWLAND",
+        "WILDLIFEVIEW",
+        "GREATBASIN",
+        "NATURECENTER",
+        "TRAILBIRD",
+        "WOODS",
+        "TRAILVIEW",
+        "GLACIERLAKE",
+        "CANYONRIDGE",
+        "LOGLAND",
+        "WATERFALL"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 043",
+      "words": [
+        "DEATHVALLEY",
+        "HUCKLEBERRY",
+        "PINECONE",
+        "WOODBISON",
+        "CLIFFROSE",
+        "SUNRISE",
+        "TRAILMARKER",
+        "OAKGROVE",
+        "TRAVELMAP",
+        "TRAIL",
+        "CARLSBADCAVERNS",
+        "MAPCASE"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 044",
+      "words": [
+        "GREATSANDDUNES",
+        "RAIN",
+        "HAWKFLIGHT",
+        "PRAIRIEDOG",
+        "SPRING",
+        "REDROCKCOUNTRY",
+        "INSECT",
+        "JUNIPERWOODLAND",
+        "FISHING",
+        "STREAM",
+        "SHELTERWOOD",
+        "VOLCANO"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 045",
+      "words": [
+        "FIREPIT",
+        "DESERTROCK",
+        "EAGLEFLIGHT",
+        "RIVER",
+        "BADLANDSBUTTE",
+        "GRASSLANDTRAIL",
+        "RAVEN",
+        "ECOSYSTEM",
+        "SANDDUNE",
+        "MOUNTAIN",
+        "SUBALPINE",
+        "MAPREADING"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 046",
+      "words": [
+        "OVERLOOK",
+        "DEW",
+        "TRAILCROSSING",
+        "MIGRATION",
+        "ROCKYMOUNTAIN",
+        "BARK",
+        "CONIFERCONE",
+        "CHANNELISLANDS",
+        "BIGSUR",
+        "ARCH",
+        "CANYON",
+        "RIVEROTTER"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 047",
+      "words": [
+        "COASTTRAIL",
+        "MEADOWPATH",
+        "SNOWSHOEHARE",
+        "TROUT",
+        "AMPHIBIAN",
+        "COMPASS",
+        "BADLANDS",
+        "SQUIRREL",
+        "RIVERLOOKOUT",
+        "BIRCHFOREST",
+        "TREELINE",
+        "PINEFOREST"
+      ]
+    },
+    {
+      "name": "America's National Parks Word Search Puzzle 048",
+      "words": [
+        "SALAMANDER",
+        "ROADRUNNER",
+        "WINDCAVE",
+        "SALMONBERRY",
+        "REDTAIL",
+        "HIKING",
+        "SAVANNA",
+        "SWITCHGRASS",
+        "DUNE",
+        "CRATER",
+        "RAVINE",
+        "PETRIFIEDFOREST"
+      ]
+    }
+  ]
+}

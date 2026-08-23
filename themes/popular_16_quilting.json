@@ -1,0 +1,864 @@
+{
+  "title": "Quilting Word Search",
+  "subtitle": "48 cozy quilting word search puzzles",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Popular Themes",
+  "series_rank": 16,
+  "palette": "valentine-rose",
+  "cover_style": "colorblock",
+  "puzzles": [
+    {
+      "name": "Quilting Puzzle 001",
+      "words": [
+        "COMMANDER",
+        "MICROCHIP",
+        "INSURANCE",
+        "DRIVETHROUGH",
+        "SPORTAGE",
+        "RADICAL",
+        "FROZENYOGURT",
+        "KILLERINSTINCT",
+        "SHELL",
+        "QUARTERHORSE",
+        "TALENTSCOUT",
+        "ACTIONFIGURE"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 002",
+      "words": [
+        "ODYSSEY",
+        "STRUT",
+        "DEVILMAYCRY",
+        "STREAMINGSERVICE",
+        "BATTLEFIELD",
+        "TWENTYONEPILOTS",
+        "AUTOCROSS",
+        "SCARF",
+        "KLONOA",
+        "HOMERSIMPSON",
+        "JOURNEY",
+        "KENDRICKLAMAR"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 003",
+      "words": [
+        "CANDLE",
+        "SUMMER",
+        "MYST",
+        "FESTIVAL",
+        "FRONTSEAT",
+        "DOCK",
+        "DPAD",
+        "CRANE",
+        "MOUNTAINROAD",
+        "KNUCKLES",
+        "BOMBERMAN",
+        "RVTRIP"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 004",
+      "words": [
+        "CARTOON",
+        "PLAYTIME",
+        "BISON",
+        "CREATIVE",
+        "AUDI",
+        "TITANFALL",
+        "ACTOR",
+        "SLAYTHESPIRE",
+        "REMAKE",
+        "GHOSTBUSTERS",
+        "PASSENGER",
+        "JAGUAR"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 005",
+      "words": [
+        "MYBAD",
+        "ICONIC",
+        "TANKTRUCK",
+        "PATTERN",
+        "GAMEMASTER",
+        "LENS",
+        "SIMPSONSGAME",
+        "SUNSHINE",
+        "DELTARUNE",
+        "MEME",
+        "DANCER",
+        "WOOFER"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 006",
+      "words": [
+        "FUELINJECTOR",
+        "MONITOR",
+        "GAMEPARTY",
+        "DISKDRIVE",
+        "PHOENIXWRIGHT",
+        "CANYON",
+        "COUNTRYDRIVE",
+        "SEASON",
+        "REBOOT",
+        "SPIRIT",
+        "DRIVEWAY",
+        "HOTWHEELS"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 007",
+      "words": [
+        "SEMITRUCK",
+        "TEALEAF",
+        "SHOPPINGMALL",
+        "COMPASS",
+        "VELOSTER",
+        "MUDFLAP",
+        "TWISTYPUZZLE",
+        "HURACAN",
+        "MICROPHONE",
+        "DREAMCAR",
+        "QUARTER",
+        "FAIRLANE"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 008",
+      "words": [
+        "HAIRCLIP",
+        "BRIDLE",
+        "VOICEACTOR",
+        "HORSEPOWER",
+        "SABRINACARPENTER",
+        "LATENIGHT",
+        "GYMCLASS",
+        "TRACTOR",
+        "RICKANDMORTY",
+        "PARMESAN",
+        "SNOWFLAKE",
+        "KFIVE"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 009",
+      "words": [
+        "GREENDAY",
+        "MIXTAPE",
+        "FIRETRUCK",
+        "BED",
+        "FLATSCREEN",
+        "WATCHPARTY",
+        "DASHCAM",
+        "BALATRO",
+        "WIIFIT",
+        "CADILLAC",
+        "PHONECORD",
+        "MUSICVENUE"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 010",
+      "words": [
+        "MONSTERHUNTER",
+        "MAVERICK",
+        "STRETCH",
+        "SINGLE",
+        "WHEELS",
+        "ROUGH",
+        "RAYMAN",
+        "RHYTHM",
+        "FISHING",
+        "STORY",
+        "PUNKROCK",
+        "THEMATRIX"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 011",
+      "words": [
+        "FIND",
+        "MUSICAL",
+        "ALTERNATOR",
+        "INKLING",
+        "PERFUME",
+        "PUTTER",
+        "TRIPPLANNER",
+        "PLAYTHROUGH",
+        "COILOVER",
+        "COLDBLOODED",
+        "PRINCESS",
+        "HATCHBACK"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 012",
+      "words": [
+        "LEAVES",
+        "TOBYKEITH",
+        "SERVICEBAY",
+        "COOLANT",
+        "SOUL",
+        "ASTEROIDS",
+        "ENDGAME",
+        "MUFFLER",
+        "CENTIPEDE",
+        "TESLA",
+        "SONOMA",
+        "PREQUEL"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 013",
+      "words": [
+        "LIONKING",
+        "TOYOTA",
+        "MONSOON",
+        "PICTURE",
+        "NEEDLE",
+        "SONGBIRD",
+        "ARCADEMACHINE",
+        "JUKEBOX",
+        "REMOTECONTROL",
+        "WIFI",
+        "SLEEPINGBAG",
+        "GOKARTING"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 014",
+      "words": [
+        "TRANSAM",
+        "CATALOG",
+        "SOLVE",
+        "CANDY",
+        "COOKINGMAMA",
+        "CUFFLINKS",
+        "GAMESTREAM",
+        "MUSICAWARDSHOW",
+        "MARIOPARTY",
+        "TAILOR",
+        "SPIDERMAN",
+        "COMMANDCONQUER"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 015",
+      "words": [
+        "OPPENHEIMER",
+        "HITCH",
+        "TASTING",
+        "BARBERSHOP",
+        "WEEKEND",
+        "TREASURECHEST",
+        "CHARGERDAYTONA",
+        "GAMEBOARD",
+        "GRILLE",
+        "CHARACTER",
+        "PARKINGLOT",
+        "TRIPMETER"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 016",
+      "words": [
+        "SLIDEOUT",
+        "PATRIOT",
+        "OILFILTER",
+        "RIO",
+        "COLLECTING",
+        "MODELY",
+        "LIVESTREAM",
+        "DUCKHUNT",
+        "FLOPPYDISK",
+        "OMG",
+        "LETTERJACKET",
+        "BUTTON"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 017",
+      "words": [
+        "PETTICOAT",
+        "WOLVERINE",
+        "WIRELESSCONTROLLER",
+        "MEETANDGREET",
+        "MARSHMALLOW",
+        "BRAKEFLUID",
+        "CAMPCHAIR",
+        "FREERIDE",
+        "BODACIOUS",
+        "THEGODFATHER",
+        "DUMBANDDUMBER",
+        "OUTRUN"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 018",
+      "words": [
+        "TOPFORTY",
+        "RETURNAL",
+        "ELECTRIC",
+        "JOHNWICK",
+        "PEARLS",
+        "TALENTSHOW",
+        "DRIVINGLESSON",
+        "YUKON",
+        "GOUDA",
+        "GOAT",
+        "PHAT",
+        "SALMON"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 019",
+      "words": [
+        "THOROUGHBRED",
+        "NOWAY",
+        "ROCKCRAWLING",
+        "YARN",
+        "YOUTUBE",
+        "BUTTERFLYCLIPS",
+        "INTERCOOLER",
+        "FUELSTOP",
+        "LOL",
+        "WIZARDS",
+        "RENTAL",
+        "HITSHOW"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 020",
+      "words": [
+        "DOOWOP",
+        "DASHBOARD",
+        "VIRAL",
+        "DRIVER",
+        "HANNAHMONTANA",
+        "ASTROVAN",
+        "ALIEN",
+        "TACOMA",
+        "NBAJAM",
+        "HABITAT",
+        "DANCECREW",
+        "FINALFANTASY"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 021",
+      "words": [
+        "REALITYSHOW",
+        "POWERPOINT",
+        "BROADWAY",
+        "DESERT",
+        "GASPUMP",
+        "ODOMETER",
+        "ANCHORMAN",
+        "CHER",
+        "RAMCHARGER",
+        "ACTRESS",
+        "HALO",
+        "ROCKET"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 022",
+      "words": [
+        "SOUNDOFMUSIC",
+        "FREEWAY",
+        "FARMTRACTOR",
+        "SHANIATWAIN",
+        "DISCOVER",
+        "TERRARIA",
+        "SADDLESHOES",
+        "VENTURE",
+        "LAMBORGHINI",
+        "SEARCH",
+        "SIDEBYSIDE",
+        "DURANGO"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 023",
+      "words": [
+        "SOMMELIER",
+        "ALBUM",
+        "DESK",
+        "TRACKSUIT",
+        "BINGEWATCH",
+        "FORMICA",
+        "VIDEOCASE",
+        "HARVEST",
+        "PHOTO",
+        "CANTER",
+        "HAMILTON",
+        "XTERRA"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 024",
+      "words": [
+        "CHERRYCOLA",
+        "TRAILMAP",
+        "BISCUIT",
+        "ZOMBIEGAMES",
+        "TURTLE",
+        "THEBATMAN",
+        "HANDHELDGAME",
+        "BABYTEE",
+        "REWIND",
+        "LOWRISEJEANS",
+        "KITCHEN",
+        "LEMMINGS"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 025",
+      "words": [
+        "PRIMETIME",
+        "JUNGLE",
+        "SLUMBERPARTY",
+        "YODA",
+        "MOBILE",
+        "AWARDWINNER",
+        "FASTANDFURIOUS",
+        "CAMPINGGEAR",
+        "SATURDAYMATINEE",
+        "WORKOUT",
+        "SWIMMING",
+        "BINDING"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 026",
+      "words": [
+        "INDIEROCK",
+        "MEMORY",
+        "SINGLEPLAYER",
+        "THOR",
+        "TONYHAWK",
+        "MUSTANG",
+        "ROADMUSIC",
+        "MONZA",
+        "HARVESTMOON",
+        "FLY",
+        "COACH",
+        "FROSTEDTIPS"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 027",
+      "words": [
+        "LICENSE",
+        "LIGHTSABER",
+        "ACHIEVEMENTS",
+        "SPARROW",
+        "SANDDUNE",
+        "COZY",
+        "ROADSIDE",
+        "WALLPAPER",
+        "FIFTHHARMONY",
+        "TRICYCLE",
+        "CARSOAP",
+        "AUTOMOBILE"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 028",
+      "words": [
+        "TURBO",
+        "ARCADEHALL",
+        "HUMMINGBIRD",
+        "THROWBACK",
+        "DINER",
+        "OILPAN",
+        "FANPAGE",
+        "STAGECREW",
+        "EPISODE",
+        "POPCULTUREQUIZ",
+        "PERMIT",
+        "FLORIST"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 029",
+      "words": [
+        "JUICEBOX",
+        "GAMESTORE",
+        "COMPACTCAR",
+        "INSIGHT",
+        "THEMASK",
+        "PINTO",
+        "LIPGLOSS",
+        "COOLDOWN",
+        "BUICK",
+        "AFTERPARTY",
+        "FRUITSNACKS",
+        "CHALLENGER"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 030",
+      "words": [
+        "WHISTLE",
+        "WINDSHIELDWIPER",
+        "MMA",
+        "PICKUP",
+        "LASERDISC",
+        "QUEST",
+        "AGEOFEMPIRES",
+        "GOTHAM",
+        "DRAGONQUEST",
+        "THECROWN",
+        "SILENTHILL",
+        "APP"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 031",
+      "words": [
+        "REPAIR",
+        "ACHIEVEMENT",
+        "SPORTS",
+        "CAPPUCCINO",
+        "BLADERUNNER",
+        "BOOSTERSEAT",
+        "PLANET",
+        "NEON",
+        "ATV",
+        "MARIOSTRIKERS",
+        "ARMYWOMEN",
+        "MIXCD"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 032",
+      "words": [
+        "MUSICCHART",
+        "DART",
+        "TREAD",
+        "HADES",
+        "ARCADECABINET",
+        "VOYAGER",
+        "DOOM",
+        "HEADUNIT",
+        "GILMOREGIRLS",
+        "REDDEAD",
+        "DEADCELLS",
+        "DAYSGONE"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 033",
+      "words": [
+        "ANGLER",
+        "VIDEO",
+        "LATESHOW",
+        "BIGHORN",
+        "TRANSFORMERS",
+        "GAMERSCORE",
+        "JAWS",
+        "OSPREY",
+        "VOLKSWAGEN",
+        "DANCECENTRAL",
+        "GLS",
+        "TVGUIDE"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 034",
+      "words": [
+        "ROGUELEGACY",
+        "GAMEBOY",
+        "HAIRMETAL",
+        "RANCHHOUSE",
+        "PORCH",
+        "BLUEY",
+        "SCREEN",
+        "LAKETRIP",
+        "SPLATOON",
+        "DIFFERENTIAL",
+        "CLANK",
+        "MATRIX"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 035",
+      "words": [
+        "BAND",
+        "QUIZSHOW",
+        "BANK",
+        "BAROMETER",
+        "CABERNET",
+        "PORSCHE",
+        "GODOFWAR",
+        "TURNSIGNAL",
+        "SELFIE",
+        "DISCORD",
+        "CRUISER",
+        "SPECTRA"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 036",
+      "words": [
+        "MERMAID",
+        "HARDWARESTORE",
+        "SHIELD",
+        "HITPOINTS",
+        "STRATEGY",
+        "MINIGAME",
+        "BUSYSIGNAL",
+        "TOMBRAIDER",
+        "GELPEN",
+        "STRANGERTHINGS",
+        "MUSICFESTIVAL",
+        "STARFIELD"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 037",
+      "words": [
+        "MOANA",
+        "YOSHI",
+        "GAMEDAY",
+        "TIRE",
+        "MAPAPP",
+        "CITYCAR",
+        "REPLAY",
+        "ATARI",
+        "KATAMARI",
+        "VIEWFINDER",
+        "BLOCKBUSTER",
+        "WORKTRUCK"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 038",
+      "words": [
+        "SNEAKERSTORE",
+        "CHILL",
+        "CENTURY",
+        "RVPARK",
+        "DIESEL",
+        "NAPKIN",
+        "ESCALADE",
+        "FRIENDREQUEST",
+        "RADIOHOUR",
+        "RACING",
+        "MUSICFEST",
+        "WEHAPPYFEW"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 039",
+      "words": [
+        "FOODCOURT",
+        "KINGDOMCOME",
+        "RESIDENTEVIL",
+        "ROLEPLAY",
+        "PERFORMANCE",
+        "JEEP",
+        "KARAOKE",
+        "COMBO",
+        "CLAN",
+        "INSPECTION",
+        "NEWCAR",
+        "BLUETOOTH"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 040",
+      "words": [
+        "VCR",
+        "FANART",
+        "CASSEROLE",
+        "POKEMONSNAP",
+        "BRIE",
+        "OFFICE",
+        "TRACKING",
+        "SAFEDRIVER",
+        "ENTERTAINMENT",
+        "REGAL",
+        "SPONGEBOB",
+        "BACKSTAGE"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 041",
+      "words": [
+        "POOL",
+        "FAMILYCAR",
+        "JONASBROTHERS",
+        "HITMAN",
+        "CROCODILE",
+        "TRAFFICJAM",
+        "SANDLOT",
+        "EARTHBOUND",
+        "DRUGSTORE",
+        "MORTALKOMBAT",
+        "HOCKEY",
+        "GOKART"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 042",
+      "words": [
+        "TOWHITCH",
+        "MOVIESTAR",
+        "POWERRANGERS",
+        "PLUSHIE",
+        "FEATUREFILM",
+        "GARAGE",
+        "MUGGLE",
+        "WIISPORTS",
+        "WASHBUCKET",
+        "MAP",
+        "HANDSFREE",
+        "WICKED"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 043",
+      "words": [
+        "FORECAST",
+        "DEFENDER",
+        "MAROONFIVE",
+        "TIRESTORE",
+        "MXFIVE",
+        "SONICMANIA",
+        "RAINBOWSIX",
+        "MOTORHOME",
+        "BMX",
+        "HOODIE",
+        "TOOLBOX",
+        "PIXEL"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 044",
+      "words": [
+        "BAGGYJEANS",
+        "SEDAN",
+        "EQUIPMENT",
+        "SNOWWHITE",
+        "KIA",
+        "CDPLAYER",
+        "QUATTRO",
+        "BACKROAD",
+        "PATHFINDER",
+        "MEDAL",
+        "STADIUM",
+        "SEAOFTHIEVES"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 045",
+      "words": [
+        "WAND",
+        "GAMEGIFT",
+        "LONDON",
+        "MASSEFFECT",
+        "CULTURECLUB",
+        "TVSERIES",
+        "MESSAGE",
+        "HUFFLEPUFF",
+        "STARWARSGAME",
+        "AUDIOBOOK",
+        "FAMILYROOM",
+        "FEDORA"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 046",
+      "words": [
+        "FAX",
+        "VLOGGER",
+        "BIKE",
+        "KEYFOB",
+        "SHERLOCK",
+        "SOFA",
+        "PORTALDOOR",
+        "CARPET",
+        "TIGUAN",
+        "HORN",
+        "CHALLENGE",
+        "IDK"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 047",
+      "words": [
+        "GLUEGUN",
+        "FLANNEL",
+        "MELODY",
+        "CXNINETY",
+        "SUMMERHIT",
+        "JAZZERCISE",
+        "RAPPER",
+        "NEEDFORSPEED",
+        "ECLIPSE",
+        "DRIVETHRU",
+        "POPCORN",
+        "EXPLORER"
+      ]
+    },
+    {
+      "name": "Quilting Puzzle 048",
+      "words": [
+        "GAMECREDITS",
+        "GROUPCHAT",
+        "JUMPERCABLES",
+        "HELLDIVERS",
+        "SUBNAUTICA",
+        "SOLSTICE",
+        "CAIRO",
+        "BULLDOZER",
+        "BACKWARDCOMPATIBLE",
+        "LINK",
+        "HOPSCOTCH",
+        "MODEM"
+      ]
+    }
+  ],
+  "detected_topic": "Sports and Hobbies",
+  "recommended_palette": "sports",
+  "recommended_cover_style": "bold",
+  "clipart_search_terms": "Sports and Hobbies Commander Microchip Insurance illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Standard",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "Sports and Hobbies",
+      "General Interest",
+      "Pop Culture & Entertainment",
+      "Video Games & Gaming",
+      "Vehicles & Automotive"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "Sports and Hobbies"
+    ],
+    "checked_at": "2026-08-22T10:08:39"
+  }
+}

@@ -1,0 +1,865 @@
+{
+  "title": "Classic Literature Word Search",
+  "subtitle": "48 timeless bookish word search puzzles",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Popular Themes",
+  "series_rank": 18,
+  "palette": "midnight-gold",
+  "cover_style": "classic",
+  "puzzles": [
+    {
+      "name": "Classic Literature Puzzle 001",
+      "words": [
+        "EARBUDS",
+        "FOUNTAINPEN",
+        "MACEDON",
+        "CAFE",
+        "DIABLO",
+        "OSPREY",
+        "CASSET",
+        "JAGUAR",
+        "DISNEYLAND",
+        "MINIGAME",
+        "CHANNEL",
+        "SCARF"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 002",
+      "words": [
+        "AVENUE",
+        "TWIST",
+        "SPORTCOAT",
+        "TOWER",
+        "CRACKERS",
+        "FRANKENSTEIN",
+        "TASTING",
+        "BUTTONDOWN",
+        "TOURIST",
+        "SUBWAY",
+        "THRILLER",
+        "PONYCAR"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 003",
+      "words": [
+        "WIZARDS",
+        "QUAKEARENA",
+        "CONCESSION",
+        "LOCKER",
+        "JAWS",
+        "PARIS",
+        "BARBIECORE",
+        "CURSOR",
+        "RIBBON",
+        "WAND",
+        "FORT",
+        "JOHNWICK"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 004",
+      "words": [
+        "SEPPUKU",
+        "RATING",
+        "FALLOUT",
+        "JURASSICPARK",
+        "FLATSCREEN",
+        "PARLIAMENT",
+        "STARFOX",
+        "DIALTONE",
+        "MARKET",
+        "SHOULDERPADS",
+        "APP",
+        "PREDATOR"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 005",
+      "words": [
+        "MUSICSTREAM",
+        "KINGDOMCOME",
+        "HAIRGEL",
+        "TIME",
+        "BOYBAND",
+        "SLOTCAR",
+        "DIALOGUE",
+        "FINDINGNEMO",
+        "SERIAL",
+        "DPAD",
+        "SAFETY",
+        "WINDBREAKER"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 006",
+      "words": [
+        "CROCHET",
+        "ROLLERSKATES",
+        "ORCHARD",
+        "KIRBYDREAMLAND",
+        "MALLDAY",
+        "SKATING",
+        "HALTERTOP",
+        "CROSSWALK",
+        "CLAN",
+        "SPECIAL",
+        "SPICEGIRLS",
+        "POTLUCK"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 007",
+      "words": [
+        "ROCKY",
+        "SHIELD",
+        "SONICMOVIE",
+        "LAUNDROMAT",
+        "TOMBRAIDER",
+        "CHRISTIAN",
+        "KNEEPADS",
+        "WATCHPARTY",
+        "BAGEL",
+        "MECHANISM",
+        "SUMMER",
+        "SEWING"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 008",
+      "words": [
+        "DAREDEVIL",
+        "BALATRO",
+        "WONDERWOMAN",
+        "CAMP",
+        "DEADPOOL",
+        "MEMORIAL",
+        "MUTE",
+        "BRAINAGE",
+        "AGARIO",
+        "TANK",
+        "MARY",
+        "VINYLBOOTS"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 009",
+      "words": [
+        "PARKSANDRECREATION",
+        "BRAWLHALLA",
+        "CAMPING",
+        "PROJECTOR",
+        "CHOREOGRAPHY",
+        "FORDS",
+        "ATOM",
+        "THANKFUL",
+        "VIRTUAFIGHTER",
+        "FROGGER",
+        "MADONNA",
+        "FREEDOM"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 010",
+      "words": [
+        "WIZARD",
+        "EXCITING",
+        "ISLAND",
+        "RECREATION",
+        "HERCULES",
+        "MOANA",
+        "LITTLEMERMAID",
+        "ARCADEMACHINE",
+        "GOSSIP",
+        "FANBASE",
+        "THEMESONG",
+        "PRODUCERCHAIR"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 011",
+      "words": [
+        "DROPBOX",
+        "DISKDRIVE",
+        "SEQUEL",
+        "ELIZABETH",
+        "PADDLING",
+        "DONUT",
+        "CASTS",
+        "ENERGYDRINK",
+        "ICESTORM",
+        "RAIDER",
+        "FJORD",
+        "PATRIARCH"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 012",
+      "words": [
+        "LASTOFUS",
+        "WADERS",
+        "EDUCATE",
+        "PRIZES",
+        "BUTTONS",
+        "SPIKEDHAIR",
+        "HAN",
+        "WEBSITE",
+        "SWIFTIE",
+        "HUDSONRIVER",
+        "ARCHIVE",
+        "WATER"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 013",
+      "words": [
+        "TRENDSETTER",
+        "PARADISE",
+        "RAVENCLAW",
+        "FLANNEL",
+        "KIOSK",
+        "ARABIAN",
+        "JIGGLYPUFF",
+        "TEMPLAR",
+        "CAROUSEL",
+        "CARDIO",
+        "ENCORE",
+        "APOLLO"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 014",
+      "words": [
+        "BASEBALLCAP",
+        "PARAPPATHERAPPER",
+        "PATCHNOTES",
+        "GAMEPAD",
+        "BOWLING",
+        "CENTIPEDE",
+        "COMBO",
+        "CONVERTIBLE",
+        "PRINTER",
+        "NINETEENTHHOLE",
+        "MISSILE",
+        "RIDE"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 015",
+      "words": [
+        "TATTOO",
+        "REDDEAD",
+        "FRANCE",
+        "CORNDOG",
+        "BEACH",
+        "GAMER",
+        "DRUMS",
+        "FRUITSNACKS",
+        "COWBOY",
+        "ROCKSTAR",
+        "DISCOVERY",
+        "RIDDLES"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 016",
+      "words": [
+        "RENDER",
+        "SCOREBOARD",
+        "ORANGE",
+        "PINECONE",
+        "PEDAL",
+        "PAPARAZZI",
+        "PHOTOKIOSK",
+        "GAMECASE",
+        "KPOP",
+        "GAMEHERO",
+        "CHART",
+        "ACTIONTOY"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 017",
+      "words": [
+        "SNEAKERSTORE",
+        "BREAKFAST",
+        "ROGUELEGACY",
+        "GAMEMUSIC",
+        "TALENTSCOUT",
+        "PALM",
+        "WILDERNESS",
+        "MMA",
+        "COIN",
+        "TRAVELER",
+        "APEXLEGENDS",
+        "FOOTBALLMANAGER"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 018",
+      "words": [
+        "SUNSHINE",
+        "BLOCKBUSTER",
+        "ANIMALWELL",
+        "FROST",
+        "ANALYSIS",
+        "EMPIRE",
+        "SCISSORS",
+        "FANMAIL",
+        "COMPOSITION",
+        "CHILD",
+        "PHOTO",
+        "CATSKILLS"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 019",
+      "words": [
+        "NSYNC",
+        "BASS",
+        "CHEESE",
+        "REPLAY",
+        "BUTTONMASH",
+        "VERSE",
+        "BIRDFEEDER",
+        "MONSOON",
+        "GAMELIBRARY",
+        "GAGME",
+        "BALLOON",
+        "REBOOT"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 020",
+      "words": [
+        "TAILFINS",
+        "STORIES",
+        "SYMPHONY",
+        "SUPERPOWER",
+        "WARS",
+        "SKATESHOP",
+        "HUNTING",
+        "CHAIN",
+        "ROCKBAND",
+        "SPORTING",
+        "SCREENS",
+        "CHAMOMILE"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 021",
+      "words": [
+        "MEMORY",
+        "DEADSPACE",
+        "LOOT",
+        "HOTWHEELS",
+        "RECORDSHOP",
+        "CARVING",
+        "CASTLE",
+        "VOICEMAIL",
+        "CASSETTE",
+        "WARMUP",
+        "GAMEFACE",
+        "ROCK"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 022",
+      "words": [
+        "RED",
+        "GEM",
+        "PODCAST",
+        "SKI",
+        "HIKE",
+        "ESCALATOR",
+        "THAMES",
+        "GREYSANATOMY",
+        "ORI",
+        "SHOVELKNIGHT",
+        "BROOMSTICK",
+        "USERNAME"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 023",
+      "words": [
+        "STREAMINGSERVICE",
+        "WESTERN",
+        "GAMEDAY",
+        "MONEY",
+        "FARE",
+        "HEARTHSTONE",
+        "RETAIL",
+        "FASHION",
+        "GRODY",
+        "FORM",
+        "SINGLE",
+        "DISCO"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 024",
+      "words": [
+        "MASCOT",
+        "MUSICFESTIVAL",
+        "NOT",
+        "LABEL",
+        "STALLED",
+        "PROFIT",
+        "NOSTALGIA",
+        "VINTAGE",
+        "PORT",
+        "HEATWAVE",
+        "FARMLAND",
+        "HAIRSTYLE"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 025",
+      "words": [
+        "MULLET",
+        "CONDOR",
+        "SPACEAGE",
+        "VICTORIA",
+        "CIVILIZATION",
+        "ARCADECABINET",
+        "BUSHIDO",
+        "CELESTE",
+        "ENGLAND",
+        "CIRCUIT",
+        "AVIATORS",
+        "LUNCHBOX"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 026",
+      "words": [
+        "ROSALINA",
+        "RADIOSTAR",
+        "PEDALING",
+        "DISPOSABLECAMERA",
+        "HORSEMAN",
+        "COUNTRY",
+        "FLY",
+        "LIGHTSABER",
+        "GLOBE",
+        "BIGHAIR",
+        "TAP",
+        "POPSTAR"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 027",
+      "words": [
+        "GAMEPASS",
+        "RAYMANLEGENDS",
+        "SIMPSONSGAME",
+        "GAMENIGHT",
+        "SKYWALKER",
+        "SWAPPED",
+        "FARMINGSIMULATOR",
+        "KNIGHT",
+        "MOTORIST",
+        "THEMASK",
+        "NEGATIVE",
+        "BEEPER"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 028",
+      "words": [
+        "FAIRS",
+        "SALADBAR",
+        "DRAKE",
+        "COHORT",
+        "SHAGCARPET",
+        "MILK",
+        "AEROSMITH",
+        "EMAIL",
+        "RAPTOR",
+        "POWERUP",
+        "SHUTTER",
+        "SATIRE"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 029",
+      "words": [
+        "CLIMAX",
+        "AUSTRALIA",
+        "EVENT",
+        "SPACESHIP",
+        "THOROUGHBRED",
+        "LITTLEMIX",
+        "FANART",
+        "WARCRAFT",
+        "COMPACTDISC",
+        "MAKEUP",
+        "CLAIM",
+        "PIONEER"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 030",
+      "words": [
+        "FORMAT",
+        "LATEFEE",
+        "BEYONCE",
+        "SIXTHSENSE",
+        "GAS",
+        "PATTERN",
+        "TRICKORTREAT",
+        "GAMEBOOTH",
+        "TOY",
+        "CALCULATOR",
+        "BRIDGE",
+        "DRAGRACE"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 031",
+      "words": [
+        "ISLANDER",
+        "BROOKLYNNINENINE",
+        "EPIC",
+        "CUSTOMS",
+        "HALFMINUTELIFE",
+        "DESTINYSCHILD",
+        "CITIZEN",
+        "SINGERSONGWRITER",
+        "GUN",
+        "EDITING",
+        "BLOCKING",
+        "TERRARIA"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 032",
+      "words": [
+        "ICECREAM",
+        "COLORTV",
+        "SCRIPT",
+        "SPEEDRUN",
+        "TWISTYPUZZLE",
+        "POPQUIZ",
+        "STREETSOFRAGE",
+        "ZELDAORACLE",
+        "TEKKEN",
+        "PHAT",
+        "AMERICANIDOL",
+        "REDFACTION"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 033",
+      "words": [
+        "GLAMROCK",
+        "TIEDYE",
+        "FROZENYOGURT",
+        "GHOST",
+        "GEARSOFWAR",
+        "PRESLEY",
+        "ARCADE",
+        "VIDEOSTORE",
+        "ALIEN",
+        "GUNFIGHT",
+        "HEADPHONES",
+        "ROCKLEGEND"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 034",
+      "words": [
+        "ABOLISH",
+        "CURSE",
+        "SEA",
+        "TACO",
+        "HANDHELD",
+        "STARFIELD",
+        "EXTINCT",
+        "LASER",
+        "LODGE",
+        "CARNIVAL",
+        "AFTERBURNER",
+        "PETTICOAT"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 035",
+      "words": [
+        "JOUST",
+        "CALLBACK",
+        "CARTOGRAPHY",
+        "VIEWINGPARTY",
+        "SATURDAY",
+        "ONEDIRECTION",
+        "SPACERACE",
+        "CAMERABAG",
+        "MISSEDCALL",
+        "SUNRISE",
+        "GARLIC",
+        "ENGINEER"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 036",
+      "words": [
+        "LIVESTREAMER",
+        "LIBERTY",
+        "PHRASES",
+        "COLOR",
+        "ROOKIE",
+        "BASKETBAL",
+        "COASTLINE",
+        "SPROCKET",
+        "POPART",
+        "BONES",
+        "WARP",
+        "MASSEFFECT"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 037",
+      "words": [
+        "BILLBOARDS",
+        "CORNMAZE",
+        "TESTER",
+        "CALLERID",
+        "PATIO",
+        "TREE",
+        "MOBILE",
+        "POODLESKIRT",
+        "FAXMACHINE",
+        "GRANTURISMO",
+        "BLUE",
+        "ONLINEFRIEND"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 038",
+      "words": [
+        "TOKEN",
+        "SHADE",
+        "ITHACA",
+        "HOCKEY",
+        "CAMPFIRE",
+        "SMARTPHONE",
+        "TOUGH",
+        "BINGHAMTON",
+        "HILLSIDE",
+        "GUESTS",
+        "TOWERING",
+        "WHEEL"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 039",
+      "words": [
+        "OVERWATCH",
+        "PANNING",
+        "SOUNDTRACK",
+        "TACTICAL",
+        "CREWCUT",
+        "DESIGNER",
+        "WATCHDOGSLEGION",
+        "LEGENDS",
+        "CHARISMA",
+        "DESKTOP",
+        "PIKMINBLOOM",
+        "CRUSADERKINGS"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 040",
+      "words": [
+        "PHARAOH",
+        "ADVERTISE",
+        "BLUEJAY",
+        "WORD",
+        "BURGER",
+        "FRENZY",
+        "CAPITOL",
+        "SNACKCAKE",
+        "TEXTME",
+        "VIRTUALREALITY",
+        "METRO",
+        "DOWNLOADABLE"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 041",
+      "words": [
+        "PARK",
+        "FIELDER",
+        "COMPASS",
+        "RUNNING",
+        "GREEN",
+        "COLLECTIBLE",
+        "MAGICSPELL",
+        "NEWSSTAND",
+        "GAMETOKEN",
+        "WRAP",
+        "JEWELS",
+        "EASPORTS"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 042",
+      "words": [
+        "POP",
+        "PARACHUTE",
+        "INSIDEOUT",
+        "WIFI",
+        "POWERRANGERS",
+        "ASSEMBLY",
+        "SEAL",
+        "DELIGHT",
+        "PHOTOALBUM",
+        "BOMBERMAN",
+        "SURFBOARD",
+        "TOYBOX"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 043",
+      "words": [
+        "EXCITEBIKE",
+        "SOCIAL",
+        "TROPICO",
+        "BEACON",
+        "LAB",
+        "AMERICA",
+        "SKYSCRAPER",
+        "SHIMMER",
+        "FLYERS",
+        "LEGION",
+        "PAR",
+        "TRUCKERHAT"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 044",
+      "words": [
+        "LONGISLAND",
+        "SITH",
+        "JUMP",
+        "MATINEE",
+        "RADAR",
+        "FEATHEREDHAIR",
+        "PEAK",
+        "MARVEL",
+        "TELESCOPE",
+        "TOPOGRAPHY",
+        "IGUANA",
+        "EXPLORER"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 045",
+      "words": [
+        "BOLDPRINT",
+        "LIGHTING",
+        "SPEEDOMETER",
+        "TRIVIA",
+        "APPLE",
+        "DUNE",
+        "CURTAINS",
+        "WOODPANELING",
+        "BACKTOTHEFUTURE",
+        "ASTRONAUT",
+        "BOOTY",
+        "RESIST"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 046",
+      "words": [
+        "CUSTOMIZATION",
+        "RAMPAGE",
+        "VILLAGE",
+        "COOKIES",
+        "PROTAGONIST",
+        "OAR",
+        "SIDEBURNS",
+        "EGG",
+        "DEADBYDAYLIGHT",
+        "TENT",
+        "HEIGHT",
+        "JAZZ"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 047",
+      "words": [
+        "SECRETAGENT",
+        "DUNGEONKEEPER",
+        "MISSIONCONTROL",
+        "BINDER",
+        "GNARLY",
+        "MADDENNFL",
+        "SCENICROUTE",
+        "SAVEGAME",
+        "TRUCKER",
+        "XCOM",
+        "GAMERDESK",
+        "MALTS"
+      ]
+    },
+    {
+      "name": "Classic Literature Puzzle 048",
+      "words": [
+        "NBATWOK",
+        "SPIDERMAN",
+        "SPINOFF",
+        "LAVALAMP",
+        "TINATURNER",
+        "ALTITUDE",
+        "DISCOELYSIUM",
+        "CARHOP",
+        "AUTOS",
+        "PITCHPERFECT",
+        "THEBEATLES",
+        "VIEWFINDER"
+      ]
+    }
+  ],
+  "detected_topic": "General Interest",
+  "recommended_palette": "nature",
+  "recommended_cover_style": "classic",
+  "clipart_search_terms": "General Interest Earbuds Fountainpen Macedon illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Relaxing",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "General Interest",
+      "Pop Culture & Entertainment",
+      "Video Games & Gaming",
+      "Sports and Hobbies",
+      "Travel and Geography",
+      "Nature"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "General Interest"
+    ],
+    "checked_at": "2026-08-22T10:08:39"
+  }
+}

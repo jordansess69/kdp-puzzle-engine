@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "purpose": "Authoritative starting points for checking future topic-word additions. Sources support research and definitions; they do not grant permission to bulk-copy source text.",
+  "sources": [
+    {
+      "topics": ["National Parks", "Nature", "Forest Wildlife and Outdoors", "US Geography and Landmarks"],
+      "publisher": "U.S. National Park Service",
+      "title": "What are Natural Resources?",
+      "url": "https://www.nps.gov/dscw/nr.htm"
+    },
+    {
+      "topics": ["National Parks", "Nature", "Forest Wildlife and Outdoors"],
+      "publisher": "U.S. National Park Service",
+      "title": "A Biodiversity Glossary",
+      "url": "https://www.nps.gov/articles/parkscience31-1_eckert-plumb.htm"
+    },
+    {
+      "topics": ["World War II History", "American History"],
+      "publisher": "The National WWII Museum",
+      "title": "WWII Glossary",
+      "url": "https://www.nationalww2museum.org/sites/default/files/2017-07/2016-17-school-previsit-packet.pdf"
+    },
+    {
+      "topics": ["Ocean Life", "Coastal Lake and River Life", "Weather and Climate"],
+      "publisher": "NOAA Ocean Service",
+      "title": "Coastal Pollution Glossary",
+      "url": "https://oceanservice.noaa.gov/education/tutorial-coastal/glossary.html"
+    },
+    {
+      "topics": ["Weather and Climate", "Science and Discovery"],
+      "publisher": "NOAA Physical Sciences Laboratory",
+      "title": "Climate Glossary",
+      "url": "https://psl.noaa.gov/enso/glossary.html"
+    },
+    {
+      "topics": ["Gardening and Garden Life", "Herbs Fruits and Vegetables", "Homesteading", "Farm Country and Rural Life"],
+      "publisher": "USDA National Agricultural Library",
+      "title": "NALT Core: Horticulture",
+      "url": "https://lod.nal.usda.gov/nalt-core/en/page/?uri=https%3A%2F%2Flod.nal.usda.gov%2Fnalt%2F18"
+    }
+  ]
+}

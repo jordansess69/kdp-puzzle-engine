@@ -1,0 +1,897 @@
+{
+  "title": "The Totally Rad Nineties Word Search for Men",
+  "subtitle": "100 themed word search puzzles",
+  "author": "Slade Puzzles",
+  "palette": "nature",
+  "puzzles": [
+    {
+      "name": "Camera Days",
+      "words": [
+        "VIDEO",
+        "ORACLE",
+        "WALKTHROUGH",
+        "QUEEN",
+        "SMOOTHIE",
+        "DOCTORWHO",
+        "CHILL",
+        "SPIDERMAN",
+        "GRANDTHEFTAUTO",
+        "WHEEL",
+        "BASEBALLCAP",
+        "BELLBOTTOMS"
+      ]
+    },
+    {
+      "name": "Mall Hangout",
+      "words": [
+        "DELTARUNE",
+        "CONVERTIBLE",
+        "NOIR",
+        "DESKTOPPC",
+        "MING",
+        "VOICEMAIL",
+        "CHARLIESANGELS",
+        "STATEHOOD",
+        "AIRPORT",
+        "EAGLE",
+        "DEADBYDAYLIGHT",
+        "FORZA"
+      ]
+    },
+    {
+      "name": "Phones & Pagers",
+      "words": [
+        "FLOPPYDISK",
+        "LOCOMOTIVE",
+        "CANADA",
+        "CELEBRITYNEWS",
+        "TREEHOUSE",
+        "GOLD",
+        "RAIDERS",
+        "FIREEMBLEM",
+        "GROUPCHAT",
+        "TALKSHOW",
+        "PARKS",
+        "LEISURE"
+      ]
+    },
+    {
+      "name": "Dial Up Internet",
+      "words": [
+        "FEZ",
+        "ATHLETIC",
+        "CHARCUTERIE",
+        "GALAXY",
+        "CURSE",
+        "GAMETOKEN",
+        "LURE",
+        "EXPRESSION",
+        "PRINTER",
+        "LANDLINE",
+        "GAMEENGINE",
+        "DANCEMUSIC"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "words": [
+        "AGARIO",
+        "HEALTHBAR",
+        "EDITING",
+        "HOMESTEAD",
+        "TEMPLE",
+        "TROPICAL",
+        "COLORFUL",
+        "MOUNTAINEER",
+        "CROSSROAD",
+        "BAROQUE",
+        "ITINERARY",
+        "FLIPHAIR"
+      ]
+    },
+    {
+      "name": "Extreme Sports",
+      "words": [
+        "CHEVY",
+        "PROPELL",
+        "ORCHESTRA",
+        "QUARTERHORSE",
+        "GLACIER",
+        "RANDOM",
+        "CARPHONE",
+        "QBERT",
+        "PLUSHTOY",
+        "SOCIALMEDIA",
+        "MOHAWKVALLEY",
+        "VESSEL"
+      ]
+    },
+    {
+      "name": "Snacks & Hangouts",
+      "words": [
+        "HEIGHT",
+        "STARWARS",
+        "VIEWFINDER",
+        "SODASHOP",
+        "PEPRALLY",
+        "PARAPPATHERAPPER",
+        "VEHICLE",
+        "PHASER",
+        "LEADER",
+        "SODAFOUNTAIN",
+        "BARBECUE",
+        "ARRIVAL"
+      ]
+    },
+    {
+      "name": "Video Store",
+      "words": [
+        "PRINCEOFPERSIA",
+        "ENDURANCE",
+        "LASER",
+        "JOURNEY",
+        "VIDEOGAMER",
+        "POPQUIZ",
+        "COFFIN",
+        "SURVIVAL",
+        "LEGION",
+        "ROCK",
+        "PEARLS",
+        "TRANSFORMERS"
+      ]
+    },
+    {
+      "name": "School Days",
+      "words": [
+        "MALL",
+        "SUFFRAGE",
+        "NARRATE",
+        "MEAL",
+        "CHARDONNAY",
+        "PATH",
+        "ROTARYCUTTER",
+        "CLANK",
+        "SILLY",
+        "ROBIN",
+        "SOUTHERNTIER",
+        "CONVERSATION"
+      ]
+    },
+    {
+      "name": "Grunge & Music",
+      "words": [
+        "BONUS",
+        "HARMONY",
+        "COLLECTS",
+        "CODEX",
+        "MAP",
+        "TRAVELS",
+        "VINYLRECORD",
+        "ESPRESSO",
+        "SPACERACE",
+        "MARIORPG",
+        "ZACHBRYAN",
+        "FLEET"
+      ]
+    },
+    {
+      "name": "Fashion",
+      "words": [
+        "SOCCERBALL",
+        "VIBRATE",
+        "DISCOUNT",
+        "JUMPROPE",
+        "EQUESTRIAN",
+        "KATAMARI",
+        "MUSICLOVER",
+        "MICROPROCESSOR",
+        "BURGER",
+        "SLEEPYHOLLOW",
+        "DUNE",
+        "SIDEBURNS"
+      ]
+    },
+    {
+      "name": "Slang",
+      "words": [
+        "TRIVIA",
+        "PRINCESS",
+        "HOTLINEMIAMI",
+        "RIGHTEOUS",
+        "CONFED",
+        "TEXTMESSAGE",
+        "SNAPSHOT",
+        "PUBLICITY",
+        "SONG",
+        "DISNEY",
+        "PAPERDOLL",
+        "VISUALS"
+      ]
+    },
+    {
+      "name": "Camera Days: Essentials",
+      "words": [
+        "GEARS",
+        "WEEKEND",
+        "CUFFLINKS",
+        "GAMERDESK",
+        "TEAM",
+        "FORTUNETOY",
+        "SUNSHINE",
+        "SUBJECT",
+        "STARFOX",
+        "SWORD",
+        "ATARI",
+        "VENGINE"
+      ]
+    },
+    {
+      "name": "Mall Hangout: Essentials",
+      "words": [
+        "BATTLETOADS",
+        "DIESEL",
+        "FRANKENSTEIN",
+        "MUFFIN",
+        "TUBETOP",
+        "POPULAR",
+        "RESTSTOP",
+        "WRAP",
+        "TOURNAMENT",
+        "ROUTINE",
+        "GEOLOGY",
+        "GOLDENEYE"
+      ]
+    },
+    {
+      "name": "Phones & Pagers: Essentials",
+      "words": [
+        "TREKKER",
+        "SHOESTORE",
+        "HORSEMAN",
+        "MOTIONCONTROL",
+        "ALBUM",
+        "POLYESTER",
+        "DOCUMENTARY",
+        "BAGGYJEANS",
+        "CLIMAX",
+        "NEWSREEL",
+        "DOCK",
+        "TEALEAF"
+      ]
+    },
+    {
+      "name": "Dial Up Internet: Essentials",
+      "words": [
+        "TIME",
+        "ROCKANDROLL",
+        "TUDOR",
+        "MOVIEHOUSE",
+        "CAESAR",
+        "SEQUEL",
+        "GAMEGUIDE",
+        "SWIMSUIT",
+        "KIRBYSADVENTURE",
+        "DISCOELYSIUM",
+        "ARMOR",
+        "WORLDTOUR"
+      ]
+    },
+    {
+      "name": "Gaming: Essentials",
+      "words": [
+        "MARCH",
+        "DIFFICULTY",
+        "TOUR",
+        "CUPCAKE",
+        "STUDDEDBELT",
+        "DOWNLOAD",
+        "ALBANY",
+        "VIRALVIDEO",
+        "SALES",
+        "IMAGINE",
+        "ROBLOX",
+        "DISKDRIVE"
+      ]
+    },
+    {
+      "name": "Extreme Sports: Essentials",
+      "words": [
+        "CHAINWALLET",
+        "PITCHER",
+        "EMMYS",
+        "HILLSIDE",
+        "WICKED",
+        "SCRIPTS",
+        "SATURDAYMATINEE",
+        "POKEMONGO",
+        "SCHEDULE",
+        "VINYLBOOTS",
+        "RETAIL",
+        "EXCITING"
+      ]
+    },
+    {
+      "name": "Snacks & Hangouts: Essentials",
+      "words": [
+        "SHOOTER",
+        "RINGS",
+        "LEGEND",
+        "FJORD",
+        "MYST",
+        "BIOSHOCK",
+        "PLAZA",
+        "FIREWATCH",
+        "BONES",
+        "VINEYARD",
+        "SAND",
+        "STATION"
+      ]
+    },
+    {
+      "name": "Video Store: Essentials",
+      "words": [
+        "JUKEBOX",
+        "ARMYWOMEN",
+        "PROPS",
+        "CHICKEN",
+        "GAME",
+        "PLAYSTATION",
+        "XCOM",
+        "LOL",
+        "HAYBALE",
+        "SOUL",
+        "CYCLIST",
+        "SEWINGMACHINE"
+      ]
+    },
+    {
+      "name": "School Days: Essentials",
+      "words": [
+        "MARY",
+        "SHOWCASE",
+        "CREAT",
+        "YARN",
+        "FABRIC",
+        "WORKSHOP",
+        "MOONROCKET",
+        "PARK",
+        "ROBLOXSTUDIO",
+        "PHOTOLAB",
+        "FALLOUT",
+        "DUMBANDDUMBER"
+      ]
+    },
+    {
+      "name": "Grunge & Music: Essentials",
+      "words": [
+        "BOOK",
+        "MASON",
+        "FILMBUFF",
+        "EXCAVATION",
+        "SHERIFF",
+        "TOPGUN",
+        "FORECAST",
+        "FRONTIER",
+        "GLORY",
+        "FORDS",
+        "KEY",
+        "SCRAPS"
+      ]
+    },
+    {
+      "name": "Fashion: Essentials",
+      "words": [
+        "STRETCH",
+        "APP",
+        "ROADTRIP",
+        "PORTABLECDPLAYER",
+        "NINTENDOGS",
+        "ROLEPLAY",
+        "SHOWS",
+        "BAT",
+        "CONCERTTICKET",
+        "HUMOR",
+        "RAMP",
+        "NIAGARA"
+      ]
+    },
+    {
+      "name": "Slang: Essentials",
+      "words": [
+        "CABERNET",
+        "BEATNIK",
+        "SIXTEENBIT",
+        "RAILS",
+        "CARDINAL",
+        "YEARBOOK",
+        "HUMMINGBIRD",
+        "MENU",
+        "SYSTEMSHOCK",
+        "CLICK",
+        "BUILDING",
+        "WAGON"
+      ]
+    },
+    {
+      "name": "Camera Days: Memory Lane",
+      "words": [
+        "CURRICULUM",
+        "MARBLE",
+        "BASEBALL",
+        "DIMMER",
+        "STAGEFRIGHT",
+        "RENTAL",
+        "GHOSTOFTSUSHIMA",
+        "COLLECTION",
+        "DEW",
+        "BLUEJAY",
+        "RAIDER",
+        "TROUT"
+      ]
+    },
+    {
+      "name": "Mall Hangout: Memory Lane",
+      "words": [
+        "PRINCESSBRIDE",
+        "FOLLOWERCOUNT",
+        "CORN",
+        "WARBLER",
+        "CHRISTIAN",
+        "TENNIS",
+        "GUM",
+        "TIMEMACHINE",
+        "TRIP",
+        "GUILTYGEAR",
+        "WEALTH",
+        "SHOPPINGBAG"
+      ]
+    },
+    {
+      "name": "Phones & Pagers: Memory Lane",
+      "words": [
+        "BRAZIL",
+        "DEVILMAYCRY",
+        "FOG",
+        "PROJECTZOMBOID",
+        "NORSE",
+        "MEETUPS",
+        "FAIRWAY",
+        "QUIDDITCH",
+        "CAMERABAG",
+        "ACTIONFIGURE",
+        "SLAPBRACELET",
+        "GOLDFINCH"
+      ]
+    },
+    {
+      "name": "Dial Up Internet: Memory Lane",
+      "words": [
+        "CRACKERS",
+        "COUNTERCULTURE",
+        "WANDAVISION",
+        "JEDI",
+        "BACKSTAGE",
+        "SHREK",
+        "SPECIAL",
+        "JIGGLYPUFF",
+        "BUSYSIGNAL",
+        "POODLESKIRT",
+        "CHARMING",
+        "CLUELESS"
+      ]
+    },
+    {
+      "name": "Gaming: Memory Lane",
+      "words": [
+        "TRACKMANIA",
+        "THROWER",
+        "DESIGNER",
+        "METROID",
+        "SCREENS",
+        "SPEEDOMETER",
+        "CHEWBACCA",
+        "FRENZY",
+        "HERITAGE",
+        "WEREWOLF",
+        "COOL",
+        "ICECLIMBER"
+      ]
+    },
+    {
+      "name": "Extreme Sports: Memory Lane",
+      "words": [
+        "WOODEN",
+        "SPOON",
+        "SPORTCOAT",
+        "PARMESAN",
+        "FILTER",
+        "TAPERECORDER",
+        "COMBO",
+        "ONLINEPLAY",
+        "ALEXANDER",
+        "BINGEWATCH",
+        "RECEIVER",
+        "OLYMPIC"
+      ]
+    },
+    {
+      "name": "Snacks & Hangouts: Memory Lane",
+      "words": [
+        "SOULMUSIC",
+        "SCHITTSCREEK",
+        "STAMP",
+        "MAIN",
+        "FANWEEKEND",
+        "EMINEM",
+        "THEMASK",
+        "DOWNLOADABLE",
+        "SCISSORS",
+        "SALADBAR",
+        "FARMLAND",
+        "WHISTLE"
+      ]
+    },
+    {
+      "name": "Video Store: Memory Lane",
+      "words": [
+        "ROYAL",
+        "LIVESTREAMER",
+        "MOTORCYCLE",
+        "ZEUS",
+        "WOODPANELING",
+        "POMPADOUR",
+        "HIPPIE",
+        "HOUSEPLANT",
+        "ANGRYBIRDS",
+        "STRANGERTHINGS",
+        "CONVERSATIONPIT",
+        "ASTEROIDS"
+      ]
+    },
+    {
+      "name": "School Days: Memory Lane",
+      "words": [
+        "ACTIVIST",
+        "SKATESHOP",
+        "ETMOVIE",
+        "PHILOSOPHY",
+        "ROUTE",
+        "ROOKIE",
+        "ROGUELEGACY",
+        "CABLETV",
+        "AMUSEMENTPARK",
+        "CONQUEST",
+        "SCENIC",
+        "FEATHEREDHAIR"
+      ]
+    },
+    {
+      "name": "Grunge & Music: Memory Lane",
+      "words": [
+        "SHEEP",
+        "SKYLAB",
+        "DVD",
+        "WALUIGI",
+        "RATATOUILLE",
+        "FAN",
+        "RUSH",
+        "ESCALATOR",
+        "GUITARHERO",
+        "SCHOOLDANCE",
+        "TRICKORTREAT",
+        "RESIDENTEVIL"
+      ]
+    },
+    {
+      "name": "Fashion: Memory Lane",
+      "words": [
+        "QING",
+        "PAGES",
+        "NEWWAVE",
+        "COMPETITION",
+        "MOCHA",
+        "DVDPLAYER",
+        "FLIGHTS",
+        "COCONUT",
+        "PULPFICTION",
+        "THOROUGHBRED",
+        "CALCULATOR",
+        "MICKEY"
+      ]
+    },
+    {
+      "name": "Slang: Memory Lane",
+      "words": [
+        "OLIMAR",
+        "HEADSCARF",
+        "IRONMAN",
+        "WARP",
+        "BIRDING",
+        "POSTOFFICE",
+        "ISLAND",
+        "FOLLOWER",
+        "CERAMIC",
+        "FREIGHT",
+        "FURY",
+        "TOMBRAIDER"
+      ]
+    },
+    {
+      "name": "Camera Days: Everyday Memories",
+      "words": [
+        "AMONGUS",
+        "GOSSIP",
+        "STROBELIGHT",
+        "REVISION",
+        "SHOVELKNIGHT",
+        "GRANTURISMO",
+        "KINGDOM",
+        "ORI",
+        "DRAMA",
+        "BACKLOT",
+        "NONFICTION",
+        "REFINE"
+      ]
+    },
+    {
+      "name": "Mall Hangout: Everyday Memories",
+      "words": [
+        "SCRIPT",
+        "LISTEN",
+        "SHOWBIZ",
+        "COASTLINE",
+        "MUSICFESTIVAL",
+        "SILENTHILL",
+        "CREAM",
+        "MELODY",
+        "NATIONALPARK",
+        "CAPITAL",
+        "ARCH",
+        "SNACKCAKE"
+      ]
+    },
+    {
+      "name": "Phones & Pagers: Everyday Memories",
+      "words": [
+        "WARIO",
+        "HIGHSCHOOLMUSICAL",
+        "FOOTBALLMANAGER",
+        "GUESTS",
+        "TRICK",
+        "GLOVES",
+        "POOL",
+        "LOON",
+        "SAFETY",
+        "GAMECASE",
+        "SOCIALSTAR",
+        "ADDAMSFAMILY"
+      ]
+    },
+    {
+      "name": "Dial Up Internet: Everyday Memories",
+      "words": [
+        "CARNIVAL",
+        "TAIL",
+        "DOWNTONABBEY",
+        "DRAWBRIDGE",
+        "STUNTS",
+        "SPHINX",
+        "CATALOG",
+        "TRANSISTOR",
+        "RAINBOW",
+        "FAIRS",
+        "CARRIAGE",
+        "CUTSCENE"
+      ]
+    },
+    {
+      "name": "Gaming: Everyday Memories",
+      "words": [
+        "AVENGERS",
+        "INDEPEND",
+        "ROBESPIERRE",
+        "BONUSROUND",
+        "TIEDYE",
+        "RIVER",
+        "CIVIL",
+        "ANGLER",
+        "ATHENS",
+        "VOICE",
+        "VAULTS",
+        "MAXIDRESS"
+      ]
+    },
+    {
+      "name": "Extreme Sports: Everyday Memories",
+      "words": [
+        "BIKERIDE",
+        "HISTORIC",
+        "TRUCKER",
+        "PATRIOT",
+        "FOODCOURT",
+        "ROAD",
+        "BEATMANIA",
+        "COMMENTARY",
+        "MANOR",
+        "COMICCON",
+        "SITE",
+        "SPYRO"
+      ]
+    },
+    {
+      "name": "Snacks & Hangouts: Everyday Memories",
+      "words": [
+        "PANELS",
+        "MEMORIES",
+        "RYEBREAD",
+        "MUSICVENUE",
+        "LAKE",
+        "LANPARTY",
+        "HOLLY",
+        "HYRULE",
+        "SHANIATWAIN",
+        "QUALITY",
+        "ADVENTURE",
+        "CRUISING"
+      ]
+    },
+    {
+      "name": "Video Store: Everyday Memories",
+      "words": [
+        "STALLED",
+        "ACHIEVEMENTS",
+        "QUOTES",
+        "BOOM",
+        "GAMECRAFT",
+        "COMPETE",
+        "CAPSULE",
+        "LEGWARMERS",
+        "OUTDOORS",
+        "GRASS",
+        "SIMPSONSGAME",
+        "CRAZYTAXI"
+      ]
+    },
+    {
+      "name": "School Days: Everyday Memories",
+      "words": [
+        "PANEL",
+        "BOLDPRINT",
+        "CLASSICS",
+        "DANCING",
+        "APPLE",
+        "BOSSBATTLE",
+        "SIA",
+        "BABYTEE",
+        "SULTANS",
+        "AUTOGRAPH",
+        "SONICMOVIE",
+        "FILMSET"
+      ]
+    },
+    {
+      "name": "Grunge & Music: Everyday Memories",
+      "words": [
+        "LIBERTY",
+        "AUSTEN",
+        "GORGES",
+        "VAMPIRE",
+        "DEMOCRACY",
+        "THROWBACK",
+        "MODEM",
+        "GNARLY",
+        "CROSS",
+        "DONKEYKONGCOUNTRY",
+        "BLONDIE",
+        "SECRETAGENT"
+      ]
+    },
+    {
+      "name": "Fashion: Everyday Memories",
+      "words": [
+        "RETROGAMING",
+        "SKELETON",
+        "NPC",
+        "ICON",
+        "RECORDSTORE",
+        "MACEDON",
+        "CLAN",
+        "GLOBAL",
+        "GAMEGEAR",
+        "CLOTH",
+        "QUIZZES",
+        "LETTERJACKET"
+      ]
+    },
+    {
+      "name": "Slang: Everyday Memories",
+      "words": [
+        "HOMEALONE",
+        "DARK",
+        "BLIZZARD",
+        "CITIZEN",
+        "ROLLERBLADES",
+        "KLONOA",
+        "BIRDFEEDER",
+        "GARAGE",
+        "ARCADECABINET",
+        "COAST",
+        "GRAVEYARD",
+        "GELPEN"
+      ]
+    },
+    {
+      "name": "Camera Days: Weekend Flashback",
+      "words": [
+        "ROME",
+        "ZOMBIEGAMES",
+        "GRADATION",
+        "HIGHWAYMAN",
+        "DONKEYKONG",
+        "HARBOR",
+        "COZYGAME",
+        "MAPS",
+        "KEEL",
+        "WARMUP",
+        "BUBBLEBOBBLE",
+        "CONDUCT"
+      ]
+    },
+    {
+      "name": "Mall Hangout: Weekend Flashback",
+      "words": [
+        "PERSONA",
+        "FRUITSNACKS",
+        "COASTER",
+        "PETROCK",
+        "TOBYKEITH",
+        "PIG",
+        "CHANGE",
+        "SWEATBAND",
+        "CALIPH",
+        "FLATIRON",
+        "REGATTA",
+        "TOWER"
+      ]
+    }
+  ],
+  "detected_topic": "General Interest",
+  "recommended_palette": "nature",
+  "recommended_cover_style": "classic",
+  "cover_style": "classic",
+  "clipart_search_terms": "General Interest Video Oracle Walkthrough illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Challenging",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:08",
+    "sources": [
+      "General Interest",
+      "Pop Culture & Entertainment",
+      "Video Games & Gaming",
+      "Sports and Hobbies",
+      "Travel and Geography",
+      "Nature"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 50,
+    "unique_words_in_book": 600,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "General Interest"
+    ],
+    "checked_at": "2026-08-22T10:08:37"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\production_tests\\advanced_vocabulary_60\\source_theme.json": {
+    "fingerprint": "7bd43d2261d9f29f08bbe1e47ace1dd0edf8b3ce85a8d21c4ee33590e4acc908",
+    "status": "Passed",
+    "errors": [],
+    "warnings": [],
+    "checked_at": "2026-08-23T14:18:18"
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\advanced_vocabulary_challenge.json": {
+    "fingerprint": "313d4b08238c30577863d14d67e1f23865d77ffb67241fb901995475c2c69866",
+    "status": "Passed",
+    "errors": [],
+    "warnings": [],
+    "checked_at": "2026-08-23T14:25:48"
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\classic_cars_road_trips.json": {
+    "fingerprint": "dbb64ee34fb77abc020b65d5c6637cc88e022ad0d59f400b491bdaf9dd3e3e0d",
+    "status": "Passed",
+    "errors": [],
+    "warnings": [
+      "Some shared vocabulary with 'Cars, Trucks and Road Trips Word Search' (52%). Review it before publishing both books.",
+      "Some shared vocabulary with 'Cars, Trucks and Road Trips Word Search' (51%). Review it before publishing both books."
+    ],
+    "checked_at": "2026-08-23T14:25:56"
+  },
+  "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\themes\\Launch Collection\\Verified Release Candidates\\thanksgiving_table_traditions.json": {
+    "fingerprint": "86f6565d8fa3ad7e0aab061f39bebbd6a0ffec6c280beab4b0f2f19e89a0fa9f",
+    "status": "Passed",
+    "errors": [],
+    "warnings": [
+      "Some shared vocabulary with 'Garden Lovers Word Search' (45%). Review it before publishing both books."
+    ],
+    "checked_at": "2026-08-23T14:27:13"
+  }
+}

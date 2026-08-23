@@ -1,0 +1,1661 @@
+{
+  "title": "Ultimate Summer Vacation Word Search",
+  "subtitle": "A mixed-theme word search collection",
+  "author": "Slade Puzzles",
+  "palette": "nature",
+  "puzzles": [
+    {
+      "name": "Beach House",
+      "words": [
+        "SUNSET",
+        "ART",
+        "HOLLYHOCK",
+        "MOON",
+        "MEATS",
+        "CLIMBER",
+        "LADYBUG",
+        "LANTERN",
+        "LILYTURF",
+        "BASKET",
+        "BALMY",
+        "MOLLUSK"
+      ]
+    },
+    {
+      "name": "Summer Breeze",
+      "words": [
+        "CANDY",
+        "CLOUD",
+        "SHAPE",
+        "HUNT",
+        "TRUNK",
+        "FAMILY",
+        "SANDALS",
+        "ENDIVE",
+        "TEACH",
+        "THISTLE",
+        "RUSSET",
+        "POOL"
+      ]
+    },
+    {
+      "name": "Vacation Mode",
+      "words": [
+        "CASSEROLE",
+        "BRIGHT",
+        "WARMTH",
+        "SCRAMBLED",
+        "EMBERS",
+        "PORTION",
+        "CLEMATIS",
+        "PICNIC",
+        "LEYLANDII",
+        "FOODIE",
+        "PIT",
+        "REGIONAL"
+      ]
+    },
+    {
+      "name": "Tropical Island",
+      "words": [
+        "GRATE",
+        "CHICORY",
+        "CLEAR",
+        "CLUE",
+        "FOUNT",
+        "WAVES",
+        "SAIL",
+        "HORNBEAM",
+        "LUPINE",
+        "WATERINGCAN",
+        "CANNING",
+        "CLIMATE"
+      ]
+    },
+    {
+      "name": "Sunglasses",
+      "words": [
+        "JUG",
+        "ELDERFLOWER",
+        "SALT",
+        "CHOWDER",
+        "PRIMROSE",
+        "SYMMETRY",
+        "BIRD",
+        "LEAF",
+        "POPPY",
+        "FEATHER",
+        "LAKE",
+        "ABALONE"
+      ]
+    },
+    {
+      "name": "Ice Cream Truck",
+      "words": [
+        "GRIND",
+        "TRANSPORT",
+        "UNWIND",
+        "HOMESTEAD",
+        "GRATER",
+        "RINSE",
+        "SHED",
+        "BORDER",
+        "TUBEROSE",
+        "WORMS",
+        "CHAPTER",
+        "COBBLE"
+      ]
+    },
+    {
+      "name": "Seashells",
+      "words": [
+        "AIRY",
+        "PRINT",
+        "CORE",
+        "DISPLAY",
+        "HALFHARDY",
+        "BIENNIAL",
+        "COCONUT",
+        "COOKIES",
+        "AUTHOR",
+        "ZUCCHINI",
+        "MARKET",
+        "STREAM"
+      ]
+    },
+    {
+      "name": "Surfboard",
+      "words": [
+        "BIRDS",
+        "BIRDSONG",
+        "LAVENDER",
+        "TIE",
+        "NEST",
+        "BROTH",
+        "VIBRANT",
+        "COOKWARE",
+        "PUZZLE",
+        "GLAZE",
+        "MANURE",
+        "AMBER"
+      ]
+    },
+    {
+      "name": "Sunscreen",
+      "words": [
+        "FLOWER",
+        "IVY",
+        "AIRBORNE",
+        "GERANIUM",
+        "CREAMY",
+        "HOME",
+        "STRIPE",
+        "MINT",
+        "PLATTER",
+        "FISHES",
+        "AQUATIC",
+        "ABILENE"
+      ]
+    },
+    {
+      "name": "Pool Party",
+      "words": [
+        "YOLK",
+        "ICECREAM",
+        "SAUNA",
+        "ROOTCELLAR",
+        "FLEDGLING",
+        "FOREST",
+        "ASTER",
+        "ROSE",
+        "PEPPER",
+        "HUT",
+        "ROD",
+        "ABOLISH"
+      ]
+    },
+    {
+      "name": "Flip Flops",
+      "words": [
+        "SIFT",
+        "WOODEN",
+        "TRADITION",
+        "CABIN",
+        "BOWL",
+        "ASTRONOMY",
+        "CROP",
+        "DRIVE",
+        "GRIT",
+        "FROST",
+        "SCREEN",
+        "STORM"
+      ]
+    },
+    {
+      "name": "BBQ Grill",
+      "words": [
+        "CHEESE",
+        "HERBS",
+        "HOMECOOKED",
+        "SERENE",
+        "CONCH",
+        "FENCE",
+        "SOLVE",
+        "STROKE",
+        "SEASONAL",
+        "FORK",
+        "STEM",
+        "ABOLITION"
+      ]
+    },
+    {
+      "name": "Watermelon",
+      "words": [
+        "SAGE",
+        "OLIVE",
+        "POTATO",
+        "BERGAMOT",
+        "CHILD",
+        "COASTLINE",
+        "SOW",
+        "NATURAL",
+        "BEESWAX",
+        "KETTLE",
+        "MOONLIGHT",
+        "SALTWATER"
+      ]
+    },
+    {
+      "name": "Lighthouse",
+      "words": [
+        "PUMP",
+        "SCALE",
+        "EXCITING",
+        "BIRDOFPARADISE",
+        "BOARD",
+        "SWALLOWTAIL",
+        "MAP",
+        "SQUASH",
+        "BALANCE",
+        "COLD",
+        "PASSION",
+        "DISCOVER"
+      ]
+    },
+    {
+      "name": "Cruise Ship",
+      "words": [
+        "FOAM",
+        "ROLLER",
+        "STORY",
+        "DELICIOUS",
+        "THUNDER",
+        "CONFECTION",
+        "CONEFLOWER",
+        "PINE",
+        "SAVORY",
+        "BAKING",
+        "SPIRIT",
+        "DECK"
+      ]
+    },
+    {
+      "name": "Beach Towel",
+      "words": [
+        "CHAIR",
+        "HAVEN",
+        "CHEF",
+        "YEAST",
+        "SPICY",
+        "WINDY",
+        "SCENT",
+        "CHIPMUNK",
+        "SMORES",
+        "GLASS",
+        "TOOL",
+        "WHISK"
+      ]
+    },
+    {
+      "name": "Coconut Tree",
+      "words": [
+        "DRAINAGE",
+        "OUTDOORS",
+        "FINCH",
+        "MAYFLOWER",
+        "SNACK",
+        "OUTDO",
+        "FREETIME",
+        "MOUNTAIN",
+        "PEACH",
+        "RICE",
+        "HARDY",
+        "MEAT"
+      ]
+    },
+    {
+      "name": "Ocean Waves",
+      "words": [
+        "SUNSCREEN",
+        "HOST",
+        "APRICOT",
+        "RIPE",
+        "CHURN",
+        "FLOUR",
+        "PUREE",
+        "SORREL",
+        "DEER",
+        "CREEPINGJENNY",
+        "HAT",
+        "FUNNY"
+      ]
+    },
+    {
+      "name": "Surfing Lessons",
+      "words": [
+        "FRIEND",
+        "SHADE",
+        "PEPEROMIA",
+        "PEACEFUL",
+        "UTENSIL",
+        "STYLISH",
+        "FENNEL",
+        "KAYAK",
+        "THORN",
+        "LILAC",
+        "BOUGAINVILLEA",
+        "VISION"
+      ]
+    },
+    {
+      "name": "Beach Volleyball",
+      "words": [
+        "HOBBY",
+        "HISTORY",
+        "SQUAWK",
+        "JAM",
+        "BLUEBERRY",
+        "BLACKBERRY",
+        "ROTATION",
+        "UNIVERSE",
+        "PRICKLY",
+        "SHELLFISH",
+        "PEAT",
+        "COMPOST"
+      ]
+    },
+    {
+      "name": "Tropical Flowers",
+      "words": [
+        "AERATE",
+        "HERB",
+        "RING",
+        "TRAVEL",
+        "SUET",
+        "SOLE",
+        "SINGSONG",
+        "YAM",
+        "TOY",
+        "STICKY",
+        "INGREDIENT",
+        "GADGET"
+      ]
+    },
+    {
+      "name": "Summer Camp",
+      "words": [
+        "PRODUCE",
+        "EGG",
+        "CARD",
+        "ABUNDANCE",
+        "TEAM",
+        "SANDAL",
+        "PALM",
+        "NATURE",
+        "DRINK",
+        "PARK",
+        "BLUEBELL",
+        "SWIMMER"
+      ]
+    },
+    {
+      "name": "Lake House",
+      "words": [
+        "CORN",
+        "NOEL",
+        "ROMANCE",
+        "COOKIE",
+        "MOTHER",
+        "HOUSE",
+        "CRUSTACEAN",
+        "TIMER",
+        "BUSHEL",
+        "WINDOWBOX",
+        "INTEREST",
+        "DEEP"
+      ]
+    },
+    {
+      "name": "Water Park",
+      "words": [
+        "PADS",
+        "WILLOW",
+        "RASPS",
+        "JEWELS",
+        "GAME",
+        "PROJECT",
+        "MASHEDPOTATO",
+        "AUTUMN",
+        "RETREAT",
+        "BOND",
+        "FLAKE",
+        "GARLIC"
+      ]
+    },
+    {
+      "name": "Paddleboard",
+      "words": [
+        "HOE",
+        "PARSLEY",
+        "PAN",
+        "RAINBOW",
+        "SOCIAL",
+        "PORK",
+        "CLIP",
+        "SAFFRON",
+        "FOIL",
+        "PEARL",
+        "CULINARY",
+        "MORNING"
+      ]
+    },
+    {
+      "name": "Snorkeling Gear",
+      "words": [
+        "FOXGLOVE",
+        "STEAM",
+        "PEAR",
+        "RASP",
+        "NUTRIENT",
+        "BUD",
+        "KNEAD",
+        "PANCAKE",
+        "WHIP",
+        "WILDLIFE",
+        "FAUCET",
+        "NAP"
+      ]
+    },
+    {
+      "name": "Beach Umbrella",
+      "words": [
+        "COUNSELOR",
+        "STOCK",
+        "SOURDOUGH",
+        "PORCH",
+        "CALM",
+        "SALTY",
+        "RECALL",
+        "SEASON",
+        "PRUNER",
+        "NEIGHBOR",
+        "WREN",
+        "LOGS"
+      ]
+    },
+    {
+      "name": "Seagulls",
+      "words": [
+        "HIGH",
+        "BLAZINGSTAR",
+        "THIN",
+        "DONUTS",
+        "GETAWAY",
+        "THANKFUL",
+        "ROMAINE",
+        "PAST",
+        "SEED",
+        "CART",
+        "SPARKLE",
+        "QUICHE"
+      ]
+    },
+    {
+      "name": "Sandcastles",
+      "words": [
+        "BROMELIAD",
+        "FRAGRANT",
+        "DEADHEAD",
+        "SEASIDE",
+        "LAGOON",
+        "FLAMES",
+        "CORAL",
+        "DUMPLING",
+        "FLASH",
+        "RAIN",
+        "KELP",
+        "BUTTER"
+      ]
+    },
+    {
+      "name": "Treasure Hunt",
+      "words": [
+        "DESIGN",
+        "ILLUMINATE",
+        "ENJOY",
+        "WORDSEARCH",
+        "TULIP",
+        "FEEDER",
+        "OUTDOOR",
+        "TERRACOTTA",
+        "RUTABAGA",
+        "CEDAR",
+        "JUICY",
+        "BEACH"
+      ]
+    },
+    {
+      "name": "Summer Lovin",
+      "words": [
+        "ARBOR",
+        "NUTRITION",
+        "VANILLA",
+        "FOOD",
+        "FICTION",
+        "FERN",
+        "BENCH",
+        "ROOMS",
+        "TIDE",
+        "PEBBLE",
+        "TABLECLOTH",
+        "BIODYNAMIC"
+      ]
+    },
+    {
+      "name": "Island Getaway",
+      "words": [
+        "SAFETY",
+        "FLOODLIGHT",
+        "NET",
+        "BONFIRE",
+        "HELICONIA",
+        "CANOE",
+        "SCARECROW",
+        "ROLL",
+        "TIDAL",
+        "VOLE",
+        "DOGWOOD",
+        "JADE"
+      ]
+    },
+    {
+      "name": "Golf Cart",
+      "words": [
+        "EXPLOSION",
+        "SNAP",
+        "PREVENT",
+        "COMFY",
+        "ADVENTURE",
+        "TABLE",
+        "APPLIANCE",
+        "PETAL",
+        "SOARING",
+        "HOPS",
+        "BRIDGE",
+        "QUEST"
+      ]
+    },
+    {
+      "name": "Sandy Toes",
+      "words": [
+        "LIFELINE",
+        "TREASURE",
+        "NOODLE",
+        "SPARROW",
+        "FIREWOOD",
+        "RAKED",
+        "TOGETHER",
+        "SEDUM",
+        "GERMINATE",
+        "PIE",
+        "ICEBERG",
+        "MONSTERA"
+      ]
+    },
+    {
+      "name": "Sea Breeze",
+      "words": [
+        "CRUMB",
+        "MINCE",
+        "BOOKWORM",
+        "HONEY",
+        "PLATE",
+        "SWEEP",
+        "SPORT",
+        "WEATHER",
+        "SMELL",
+        "CUT",
+        "CONCERT",
+        "RITUAL"
+      ]
+    },
+    {
+      "name": "Pier Fishing",
+      "words": [
+        "CUP",
+        "EQUIPMENT",
+        "ARUGULA",
+        "WATERMELON",
+        "LEASH",
+        "BEETLE",
+        "BEANS",
+        "WINGS",
+        "RALLY",
+        "HIVE",
+        "ISLAND",
+        "BROCCOLI"
+      ]
+    },
+    {
+      "name": "Boat Ride",
+      "words": [
+        "PARCHMENT",
+        "CLIFFS",
+        "ALOE",
+        "ZEN",
+        "POPLAR",
+        "GENEROSITY",
+        "STUFFING",
+        "PLUM",
+        "FIG",
+        "PIER",
+        "CHILDHOOD",
+        "BORAGE"
+      ]
+    },
+    {
+      "name": "Lifeguard Tower",
+      "words": [
+        "WHEELBARROW",
+        "SPRING",
+        "SYRUP",
+        "JOURNEY",
+        "FLIGHT",
+        "STYLE",
+        "NUT",
+        "PEAS",
+        "CATCH",
+        "COUNTRYSIDE",
+        "CAPTAIN",
+        "WAVE"
+      ]
+    },
+    {
+      "name": "Coastal Walk",
+      "words": [
+        "CINNAMON",
+        "SYCAMORE",
+        "COB",
+        "ICING",
+        "PUZZLETIME",
+        "PYRACANTHA",
+        "POWERFUL",
+        "BEE",
+        "FROSTING",
+        "ABSORBENT",
+        "SCALLOP",
+        "FALLLEAVES"
+      ]
+    },
+    {
+      "name": "Tide Pool",
+      "words": [
+        "BEES",
+        "MEATLOAF",
+        "LARKSPUR",
+        "PEEL",
+        "EXOTIC",
+        "TOPSOIL",
+        "FREEZE",
+        "KEEL",
+        "COMBER",
+        "EARTHWORM",
+        "EASY",
+        "CONTAINER"
+      ]
+    },
+    {
+      "name": "Driftwood",
+      "words": [
+        "PROTECTOR",
+        "MOVIE",
+        "SHELL",
+        "COZY",
+        "SPIDERPLANT",
+        "LEMON",
+        "PRESS",
+        "JAMMING",
+        "SLUG",
+        "CASUAL",
+        "CLASS",
+        "DIVING"
+      ]
+    },
+    {
+      "name": "Kite Flying",
+      "words": [
+        "FLAVORS",
+        "PARTY",
+        "PAGODA",
+        "MAGNOLIA",
+        "AERIAL",
+        "AJUGA",
+        "SWING",
+        "CHICKEN",
+        "TRADIT",
+        "SCENIC",
+        "SPOUT",
+        "STARGAZING"
+      ]
+    },
+    {
+      "name": "Summer Salad",
+      "words": [
+        "BOAT",
+        "IMAGINATION",
+        "FESTIVE",
+        "BEACON",
+        "XMAS",
+        "CHIVEBLOSSOM",
+        "METEOR",
+        "SILVER",
+        "NOZZLE",
+        "SEEDS",
+        "GIFT",
+        "COLLARD"
+      ]
+    },
+    {
+      "name": "Ice Cream Cone",
+      "words": [
+        "TOES",
+        "COMFORT",
+        "MOWER",
+        "PARFAIT",
+        "BEAUTY",
+        "ANNUAL",
+        "SUN",
+        "GUIDE",
+        "TURKEY",
+        "CASTLE",
+        "SIZZLE",
+        "MYCORRHIZAE"
+      ]
+    },
+    {
+      "name": "Beach Bonfire",
+      "words": [
+        "PASTRY",
+        "WHISTLE",
+        "RECIPE",
+        "INSTRUCTOR",
+        "SEAGULL",
+        "CROCK",
+        "NONFICTION",
+        "TWINE",
+        "TRAIL",
+        "TOASTY",
+        "VIEW",
+        "STEW"
+      ]
+    },
+    {
+      "name": "Stargazing",
+      "words": [
+        "EXPLORE",
+        "RELAX",
+        "MEMORY",
+        "RESORT",
+        "RIDE",
+        "SUNRISE",
+        "GENEROUS",
+        "JUNEBERRY",
+        "SONGS",
+        "COLOR",
+        "RADISH",
+        "ABSORB"
+      ]
+    },
+    {
+      "name": "Fireworks Display",
+      "words": [
+        "SKY",
+        "CABBAGE",
+        "TIDY",
+        "CHAR",
+        "TIN",
+        "RECHARGE",
+        "KINDNESS",
+        "GEL",
+        "BROWNIE",
+        "COASTAL",
+        "DOCK",
+        "PROMENADE"
+      ]
+    },
+    {
+      "name": "Summer Reading",
+      "words": [
+        "SPICES",
+        "BEET",
+        "HYDRATE",
+        "PRUNE",
+        "INSTRUCTION",
+        "BANANA",
+        "BOIL",
+        "REEF",
+        "GALAXY",
+        "GOLDENROD",
+        "BREAKFAST",
+        "GAZE"
+      ]
+    },
+    {
+      "name": "Beach Vacation",
+      "words": [
+        "ROAST",
+        "FIREPIT",
+        "DIBBER",
+        "FLIP",
+        "TREE",
+        "VINE",
+        "HIBERNATE",
+        "RECREATION",
+        "MOAT",
+        "SHALLOT",
+        "LAWN",
+        "ORGANIC"
+      ]
+    },
+    {
+      "name": "Summer Sunshine",
+      "words": [
+        "CHICKADEE",
+        "PIPE",
+        "COFFEE",
+        "CURRY",
+        "SURF",
+        "HEDGE",
+        "ACTIVE",
+        "FACE",
+        "ASIAN",
+        "TOWEL",
+        "LEAVES",
+        "SWEET"
+      ]
+    },
+    {
+      "name": "Ice Cream Truck (Summer)",
+      "words": [
+        "HEN",
+        "PANTRY",
+        "DAISY",
+        "SHOT",
+        "BAIT",
+        "BEVERAGE",
+        "LAUREL",
+        "HANGING",
+        "SUGAR",
+        "DELPHINIUM",
+        "EMERGENCY",
+        "DECORATING"
+      ]
+    },
+    {
+      "name": "Seaside Resort",
+      "words": [
+        "GAMES",
+        "CHALLENGE",
+        "BOOK",
+        "TIME",
+        "RESCUE",
+        "TEXTURE",
+        "PASS",
+        "ALMOND",
+        "SQUEEZE",
+        "FERTILIZER",
+        "BRAINGAME",
+        "HORIZON"
+      ]
+    },
+    {
+      "name": "Garden Party",
+      "words": [
+        "SOAR",
+        "SAND",
+        "SUPPER",
+        "ARTIST",
+        "SPRINKLES",
+        "TREAT",
+        "SEASHELL",
+        "STUDENT",
+        "PORT",
+        "WATERFALL",
+        "SWEETPOTATO",
+        "ABYSS"
+      ]
+    },
+    {
+      "name": "Watermelon Slice",
+      "words": [
+        "WILDFLOWER",
+        "COMET",
+        "WIND",
+        "COURSE",
+        "GINGER",
+        "FLAME",
+        "CURRANT",
+        "PICKLE",
+        "JASMINE",
+        "WASH",
+        "BLOOM",
+        "INVITE"
+      ]
+    },
+    {
+      "name": "Surfboard Ride",
+      "words": [
+        "BLENDER",
+        "CREAM",
+        "PANSY",
+        "LIST",
+        "DROUGHT",
+        "FESTIVAL",
+        "CALENDULA",
+        "DAFFODIL",
+        "LOTUS",
+        "QUIETTIME",
+        "POD",
+        "TENDER"
+      ]
+    },
+    {
+      "name": "Lake House (Summer)",
+      "words": [
+        "FRUIT",
+        "GAZEBO",
+        "SPATULA",
+        "NEBULA",
+        "HONEYSUCKLE",
+        "DRIP",
+        "PATHWAY",
+        "LUXURY",
+        "COOKING",
+        "CELESTIAL",
+        "PASSENGER",
+        "LENTIL"
+      ]
+    },
+    {
+      "name": "Tropical Island (Summer)",
+      "words": [
+        "GRID",
+        "RISE",
+        "BLUEBIRD",
+        "TAIL",
+        "SWEETPEA",
+        "TOWER",
+        "PLUMERIA",
+        "PILGRIM",
+        "PATH",
+        "PATIO",
+        "GUARDIAN",
+        "VACATION"
+      ]
+    },
+    {
+      "name": "Backyard BBQ",
+      "words": [
+        "LICHEN",
+        "TRANSPLANT",
+        "REPOT",
+        "FILTER",
+        "SIMMER",
+        "IRRIGATION",
+        "BEAN",
+        "SLATE",
+        "CARING",
+        "EASTER",
+        "MEMORIES",
+        "ACADIA"
+      ]
+    },
+    {
+      "name": "Fireworks Display (Summer)",
+      "words": [
+        "SPOTLIGHT",
+        "ECOSYSTEM",
+        "PLANK",
+        "CELLAR",
+        "DESSERT",
+        "ANCHOR",
+        "ROSEMARY",
+        "GLASSES",
+        "PACHYSANDRA",
+        "FOODWAY",
+        "MILL",
+        "RIND"
+      ]
+    },
+    {
+      "name": "Summer Flowers",
+      "words": [
+        "WALK",
+        "BERRY",
+        "POTHOS",
+        "TEA",
+        "GENTLE",
+        "DANDELION",
+        "COMPANION",
+        "CEREAL",
+        "SPEEDBOAT",
+        "DICHONDRA",
+        "CHEER",
+        "SUCCULENT"
+      ]
+    },
+    {
+      "name": "Butterfly Garden",
+      "words": [
+        "BRAIN",
+        "STARS",
+        "WATERCRESS",
+        "NURTURE",
+        "TENDRIL",
+        "FIN",
+        "ANTENNA",
+        "SMOOTHIE",
+        "LETTER",
+        "GOURD",
+        "WEEKEND",
+        "EVERGREEN"
+      ]
+    },
+    {
+      "name": "Ocean Waves (Summer)",
+      "words": [
+        "SOUP",
+        "CRUST",
+        "FOCAL",
+        "BASIN",
+        "TREATS",
+        "PECANPIE",
+        "TRIP",
+        "HOLIDAY",
+        "LINKS",
+        "BUTTERCUP",
+        "BARREL",
+        "SPICE"
+      ]
+    },
+    {
+      "name": "Sandy Toes (Summer)",
+      "words": [
+        "DRIFT",
+        "ECHEVERIA",
+        "NOURISH",
+        "FROG",
+        "SPACE",
+        "SHORELINE",
+        "RIVER",
+        "SEARCH",
+        "SURFER",
+        "SEAWEED",
+        "CLIPPINGS",
+        "FRAME"
+      ]
+    },
+    {
+      "name": "Seagull Flight",
+      "words": [
+        "CORNBREAD",
+        "STAMEN",
+        "GARDEN",
+        "TROUGH",
+        "ROSETTE",
+        "AMBIENT",
+        "STAR",
+        "BEACHTOWEL",
+        "KATSURA",
+        "CANDLE",
+        "ONION",
+        "PYROTECHNIC"
+      ]
+    },
+    {
+      "name": "Lighthouse Tower",
+      "words": [
+        "LEARN",
+        "YEW",
+        "COOKER",
+        "SUNNY",
+        "CHAMOMILE",
+        "NIGELLA",
+        "BLESSINGS",
+        "PISTIL",
+        "GRAVEL",
+        "CLAY",
+        "CHICKENCOOP",
+        "TOAD"
+      ]
+    },
+    {
+      "name": "Palm Tree Shade",
+      "words": [
+        "OCEANVIEW",
+        "VESSEL",
+        "TRICKS",
+        "BEACHCOMB",
+        "MEASURE",
+        "SAILING",
+        "FOODS",
+        "COACH",
+        "FURROW",
+        "PASTA",
+        "LOAF",
+        "ZEST"
+      ]
+    },
+    {
+      "name": "Summer Reading (Summer)",
+      "words": [
+        "SPLASH",
+        "GATHERING",
+        "WEATHERED",
+        "SAXIFRAGE",
+        "CROCUS",
+        "IRIS",
+        "SPRINK",
+        "MACARONI",
+        "FAVORITE",
+        "CAKE",
+        "LEGACY",
+        "PRESERVING"
+      ]
+    },
+    {
+      "name": "Beachcomber",
+      "words": [
+        "POT",
+        "SUNHAT",
+        "SNACKS",
+        "GOLF",
+        "SEEDSTART",
+        "CUSTOM",
+        "HEALTH",
+        "SNORKEL",
+        "LABEL",
+        "FARM",
+        "TUNE",
+        "FEAST"
+      ]
+    },
+    {
+      "name": "Sun Hat",
+      "words": [
+        "GIFTS",
+        "ORION",
+        "TASTE",
+        "RASPBERRY",
+        "VIGILANT",
+        "CREEPER",
+        "FRIED",
+        "TENNIS",
+        "MULCH",
+        "PERFORM",
+        "BUTTERFLY",
+        "BLOOMS"
+      ]
+    },
+    {
+      "name": "Sunglasses (Summer)",
+      "words": [
+        "HUMID",
+        "FAIRY",
+        "SHELF",
+        "BLUE",
+        "DORMANT",
+        "LESSONS",
+        "NUTHATCH",
+        "DOWN",
+        "STEAK",
+        "FIRE",
+        "ACORN",
+        "ACOUSTIC"
+      ]
+    },
+    {
+      "name": "Coconut Drink",
+      "words": [
+        "WHEAT",
+        "BOXWOOD",
+        "TOMATO",
+        "HOOK",
+        "APHID",
+        "BUMBLEBEE",
+        "KITEFLYER",
+        "OVEN",
+        "FREE",
+        "TARRAGON",
+        "PASSIONFLOWER",
+        "ANEMONE"
+      ]
+    },
+    {
+      "name": "Tropical Fruit",
+      "words": [
+        "BERRIES",
+        "MANGO",
+        "WASP",
+        "CURIOUS",
+        "MIXER",
+        "FEED",
+        "PURE",
+        "FILLING",
+        "RAISEDBED",
+        "MOLE",
+        "PALMS",
+        "GUEST"
+      ]
+    },
+    {
+      "name": "Summer Camp (Summer)",
+      "words": [
+        "LETTUCE",
+        "MEADOW",
+        "PRACTICE",
+        "SLIDE",
+        "MASK",
+        "DAHLIA",
+        "VENT",
+        "MOLD",
+        "OILS",
+        "AROMA",
+        "HUSK",
+        "NUTMEG"
+      ]
+    },
+    {
+      "name": "Water Sports",
+      "words": [
+        "NUTS",
+        "KITCHEN",
+        "WARM",
+        "NIGHT",
+        "MENU",
+        "UMBRELLA",
+        "TEMPLE",
+        "LAYOUT",
+        "OIL",
+        "PARASOL",
+        "VEHICLE",
+        "DRAIN"
+      ]
+    },
+    {
+      "name": "Beach Ball",
+      "words": [
+        "WELCOME",
+        "NECTAR",
+        "UNITY",
+        "READING",
+        "SNIP",
+        "HAYRIDE",
+        "SPRUCE",
+        "TRIM",
+        "CELEBRATE",
+        "PARSNIP",
+        "STOVE",
+        "FRANGIPANI"
+      ]
+    },
+    {
+      "name": "Volleyball Net",
+      "words": [
+        "PASTE",
+        "SWITCHGRASS",
+        "SINK",
+        "EYEWEAR",
+        "BUTTERHEAD",
+        "BALL",
+        "FLOWERS",
+        "COURT",
+        "TARTS",
+        "CORNMAZE",
+        "ROW",
+        "LOUNGER"
+      ]
+    },
+    {
+      "name": "Surfing Lesson",
+      "words": [
+        "EXTRACT",
+        "SPAS",
+        "SHARING",
+        "BEAT",
+        "CREATIVE",
+        "STONE",
+        "CLOUDS",
+        "INFLATE",
+        "MOISTURE",
+        "COOKBOOK",
+        "PIES",
+        "JAR"
+      ]
+    },
+    {
+      "name": "Paddleboard Ride",
+      "words": [
+        "OPOSSUM",
+        "FRIENDS",
+        "SPREAD",
+        "DRESSING",
+        "CREATIVITY",
+        "REFRESHING",
+        "PUDDLE",
+        "HONEYBEE",
+        "SKYSHOW",
+        "ANCESTOR",
+        "COLLECT",
+        "VACATE"
+      ]
+    },
+    {
+      "name": "Kayak Adventure",
+      "words": [
+        "GRANITE",
+        "CANOPY",
+        "GATE",
+        "BLOCK",
+        "PRATIA",
+        "EXPLODE",
+        "RAY",
+        "CRANBERRY",
+        "MEAL",
+        "VIOLET",
+        "PLANT",
+        "BREW"
+      ]
+    },
+    {
+      "name": "Fishing Trip",
+      "words": [
+        "CRISP",
+        "SPOON",
+        "COOL",
+        "EGGPLANT",
+        "LOCAL",
+        "SPADE",
+        "BOUNCE",
+        "FEATHERS",
+        "SERENITY",
+        "HIBISCUS",
+        "HUMMINGBIRD",
+        "MIST"
+      ]
+    },
+    {
+      "name": "Boat Cruise",
+      "words": [
+        "DETHATCH",
+        "HOLLY",
+        "LITERATURE",
+        "LEISURE",
+        "FREESIA",
+        "NAVY",
+        "SURFING",
+        "GLOVES",
+        "ESCALLONIA",
+        "PUMPKINPIE",
+        "NEEM",
+        "STORE"
+      ]
+    },
+    {
+      "name": "Seaside Promenade",
+      "words": [
+        "VINCA",
+        "WALLFLOWER",
+        "SLIDES",
+        "SETTING",
+        "SPROUT",
+        "PLANET",
+        "BREEZE",
+        "DIVE",
+        "DECAY",
+        "CARDINAL",
+        "STIRFRY",
+        "PARKS"
+      ]
+    },
+    {
+      "name": "Garden Walk",
+      "words": [
+        "TRAY",
+        "BREAD",
+        "DESERT",
+        "MILK",
+        "GLIDE",
+        "NICOTIANA",
+        "CARE",
+        "LILY",
+        "ALGAE",
+        "GLITTER",
+        "CAMP",
+        "WALNUT"
+      ]
+    },
+    {
+      "name": "Park Picnic",
+      "words": [
+        "PROCESSOR",
+        "NOVEMBER",
+        "THYME",
+        "LENS",
+        "SMOKE",
+        "ORCHID",
+        "ASH",
+        "SECRET",
+        "SWEETS",
+        "MILKWEED",
+        "CITRUS",
+        "GRASS"
+      ]
+    },
+    {
+      "name": "Summer Berries",
+      "words": [
+        "LOTION",
+        "ROOTS",
+        "EGGS",
+        "FILM",
+        "TRELLIS",
+        "PICK",
+        "BIRDBATH",
+        "SMILE",
+        "WICKER",
+        "COSMOS",
+        "SQUASHBLOSSOM",
+        "ACROPOLIS"
+      ]
+    },
+    {
+      "name": "Water Park (Summer)",
+      "words": [
+        "FLOATS",
+        "HAWTHORN",
+        "RAKE",
+        "FOOTPATH",
+        "JOY",
+        "CUTTING",
+        "SAFE",
+        "SUNDAY",
+        "ETHNIC",
+        "GLOW",
+        "CINEMA",
+        "CONES"
+      ]
+    },
+    {
+      "name": "Splash Pad",
+      "words": [
+        "COCOON",
+        "SPIKE",
+        "MOUND",
+        "STAGE",
+        "CASSIOPEIA",
+        "SHOVEL",
+        "DRAGONFLY",
+        "WORD",
+        "SQUIRREL",
+        "PINECONE",
+        "PLAY",
+        "SHORE"
+      ]
+    },
+    {
+      "name": "Summer Concert",
+      "words": [
+        "SCENE",
+        "LAUGH",
+        "URSA",
+        "SKIN",
+        "BAMBOO",
+        "MALLOW",
+        "KNIFE",
+        "CHOCOLATE",
+        "BULB",
+        "CREVICE",
+        "COLORFUL",
+        "ACTION"
+      ]
+    },
+    {
+      "name": "Outdoor Movie",
+      "words": [
+        "HARBOR",
+        "TACO",
+        "SEAWEATHER",
+        "KETCHUP",
+        "BUCKET",
+        "HIKE",
+        "HEIRLOOM",
+        "TART",
+        "HARVEST",
+        "PADDLE",
+        "BOUQUET",
+        "CLOVER"
+      ]
+    },
+    {
+      "name": "Fire Pit Gathering",
+      "words": [
+        "COLUMBINE",
+        "SNAIL",
+        "COTTAGE",
+        "GREENHOUSE",
+        "SHOE",
+        "TROWEL",
+        "FOLD",
+        "SEATS",
+        "CANYON",
+        "SNOWDROP",
+        "SWIM",
+        "ACTIONTOY"
+      ]
+    },
+    {
+      "name": "Stargazing Night",
+      "words": [
+        "ROBIN",
+        "BUOYANT",
+        "FICUS",
+        "PAGE",
+        "VETCH",
+        "JETS",
+        "OCEANIC",
+        "SHEARS",
+        "RECREATE",
+        "MEALTIME",
+        "LID",
+        "RAINBARREL"
+      ]
+    },
+    {
+      "name": "Summer Salad (Summer)",
+      "words": [
+        "PEA",
+        "POPCORN",
+        "MARINE",
+        "FUEL",
+        "STARFISH",
+        "PRESERVE",
+        "MARSH",
+        "CULTURE",
+        "FARMLAND",
+        "PINK",
+        "HOLE",
+        "ACTIVIST"
+      ]
+    },
+    {
+      "name": "Grilled Corn",
+      "words": [
+        "CHILL",
+        "NASTURTIUM",
+        "HYACINTH",
+        "WAFFLE",
+        "ELM",
+        "STRING",
+        "ESCAPE",
+        "DECKS",
+        "MEALS",
+        "HOTEL",
+        "ICE",
+        "ACTIVITY"
+      ]
+    },
+    {
+      "name": "Ice Cream Social",
+      "words": [
+        "CENTERPIECE",
+        "WORM",
+        "TECHNIQUE",
+        "HELIOTROPE",
+        "SHIP",
+        "PROPAGATE",
+        "CATERPILLAR",
+        "THRILL",
+        "ITALIAN",
+        "SERVE",
+        "AGAVE",
+        "CAMPFIRE"
+      ]
+    },
+    {
+      "name": "Beach Bonfire (Summer)",
+      "words": [
+        "PEONY",
+        "BUNDLE",
+        "JUICE",
+        "TOAST",
+        "REFRESH",
+        "HUMUS",
+        "POND",
+        "GRAVY",
+        "MEASURINGCUP",
+        "INDEX",
+        "QUINCE",
+        "YARROW"
+      ]
+    }
+  ],
+  "detected_topic": "Gardening",
+  "recommended_palette": "spring-meadow",
+  "recommended_cover_style": "gallery",
+  "cover_style": "gallery",
+  "clipart_search_terms": "Gardening Sunset Art Hollyhock illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Relaxing",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "Gardening",
+      "Herbs Fruits and Vegetables",
+      "Homesteading",
+      "Nature",
+      "Baking and Food"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 95,
+    "unique_words_in_book": 1140,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "Gardening"
+    ],
+    "checked_at": "2026-08-22T10:08:39"
+  }
+}

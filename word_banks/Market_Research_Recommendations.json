@@ -1,0 +1,37 @@
+{
+  "name": "Market Research Recommendations",
+  "updated": "2026-08-22",
+  "purpose": "Planning reference for the Guided Book Builder. This is not sales or profit data; Amazon does not publicly provide unit sales or profit by niche.",
+  "recommended_directions": [
+    {
+      "direction": "Large-print themed collections for adults and seniors",
+      "why": "The visible bestseller list includes many large-print adult and senior formats and substantial puzzle-count collections.",
+      "builder_packs": ["Large-Print Friendly Themes", "Relaxation & Mindfulness", "Book Lovers, Reading & Libraries"]
+    },
+    {
+      "direction": "Mindfulness, kindness and encouragement",
+      "why": "Mindfulness and acts-of-kindness themed word searches appear in the visible bestseller signals.",
+      "builder_packs": ["Mindfulness, Gratitude & Kindness", "Bible, Faith & Encouragement"]
+    },
+    {
+      "direction": "Nostalgia and decade collections",
+      "why": "Nostalgic television and decade-oriented activity titles appear in the visible bestseller signals.",
+      "builder_packs": ["Nostalgia Through the Decades", "Throwback Pop Culture"]
+    },
+    {
+      "direction": "Seasonal and gardening collections",
+      "why": "Garden, four-seasons and holiday themed word-search titles appear in current marketplace results.",
+      "builder_packs": ["Garden, Flowers & Growing Things", "Seasonal Holidays & Celebrations"]
+    },
+    {
+      "direction": "Focused travel and national-park collections",
+      "why": "A national-parks collection is currently visible in marketplace results; focused series also create clear follow-up volumes.",
+      "builder_packs": ["National Parks & Outdoors", "Travel & World Discovery"]
+    }
+  ],
+  "guardrails": [
+    "Validate each title, subtitle and cover claim before publishing.",
+    "Use original generic vocabulary for new books; do not market unofficial franchise, celebrity or trademark collections without permission.",
+    "Treat price and competition as a live decision to check again before publishing."
+  ]
+}

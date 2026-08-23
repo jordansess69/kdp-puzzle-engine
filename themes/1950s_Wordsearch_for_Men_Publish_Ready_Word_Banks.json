@@ -1,0 +1,896 @@
+{
+  "title": "The Fabulous Fifties Word Search for Men",
+  "subtitle": "100 themed word search puzzles",
+  "author": "Slade Puzzles",
+  "palette": "nature",
+  "puzzles": [
+    {
+      "name": "Toys & Childhood",
+      "words": [
+        "PORTABLECASSETTE",
+        "TAYLORSWIFT",
+        "CUFFLINKS",
+        "RATCHET",
+        "CABERNET",
+        "KITE",
+        "FLEETWOOD",
+        "PARAPPA",
+        "COMPETITIVE",
+        "LEBARON",
+        "KAYAK",
+        "FRIENDREQUEST"
+      ]
+    },
+    {
+      "name": "School Days",
+      "words": [
+        "DEW",
+        "SONGLYRICS",
+        "CHANNEL",
+        "QUILTBLOCK",
+        "SINGLE",
+        "LIFTKIT",
+        "FRESHENER",
+        "VOYAGER",
+        "POPICON",
+        "LONGDRIVE",
+        "PROTEGE",
+        "ECLIPSE"
+      ]
+    },
+    {
+      "name": "Cars & Cruising",
+      "words": [
+        "JUSTINBIEBER",
+        "PLAYSTATION",
+        "PILOT",
+        "FAXMACHINE",
+        "KARATEKID",
+        "BMW",
+        "HELMET",
+        "CARPETCLEANER",
+        "BRAKEROTOR",
+        "GARBAGETRUCK",
+        "CAPRICE",
+        "BREEZE"
+      ]
+    },
+    {
+      "name": "Entertainment",
+      "words": [
+        "SPORTCOAT",
+        "DOCTORSTRANGE",
+        "TEEBOX",
+        "POWERUP",
+        "SNACKCAKE",
+        "SOLTERRA",
+        "MODELTRAIN",
+        "RANGE",
+        "COMET",
+        "CINEMATIC",
+        "SPRING",
+        "ROLEPLAY"
+      ]
+    },
+    {
+      "name": "Technology",
+      "words": [
+        "GLOSS",
+        "PARACHUTEPANTS",
+        "MERLOT",
+        "FILM",
+        "MAINSTREET",
+        "ACADIA",
+        "TAILGATEPARTY",
+        "CARGOVAN",
+        "DUMBANDDUMBER",
+        "ROME",
+        "PETTICOAT",
+        "OSPREY"
+      ]
+    },
+    {
+      "name": "Space Age",
+      "words": [
+        "WARIOWARE",
+        "JOURNEY",
+        "GAMEPLAY",
+        "CRV",
+        "RAIL",
+        "DRAKE",
+        "THREAD",
+        "GARAGEFLOOR",
+        "BODYGLITTER",
+        "HUBCAP",
+        "HANDICAP",
+        "PIKACHU"
+      ]
+    },
+    {
+      "name": "Weekend Fun",
+      "words": [
+        "ROADGAMES",
+        "CHILLY",
+        "GIRLGROUP",
+        "GARAGEBAND",
+        "MASK",
+        "EXTREMESPORTS",
+        "VOLLEYBALL",
+        "EXCITEBIKE",
+        "TALKSHOW",
+        "ATOM",
+        "RHYTHM",
+        "SUV"
+      ]
+    },
+    {
+      "name": "Fashion",
+      "words": [
+        "MEDIAPLAYER",
+        "WARIO",
+        "CONTRA",
+        "RIVERBANK",
+        "CLEAN",
+        "NOSTALGIA",
+        "BLACKCAT",
+        "MONSTERTRUCK",
+        "RANKED",
+        "DEALERSHIP",
+        "LASERDISC",
+        "METROID"
+      ]
+    },
+    {
+      "name": "Diner Days",
+      "words": [
+        "LUIGISMANSION",
+        "MINIGOLF",
+        "COMPASS",
+        "SPEED",
+        "GAMETIME",
+        "PRINT",
+        "SUBURBAN",
+        "PAPERBACK",
+        "DELICA",
+        "SWIMMING",
+        "BLADERUNNER",
+        "SHIELD"
+      ]
+    },
+    {
+      "name": "Music & Dancing",
+      "words": [
+        "SCREAM",
+        "OPENMIC",
+        "PRIMETIME",
+        "MEGAMAN",
+        "MAVERICK",
+        "RIMWORLD",
+        "ICECREAM",
+        "SKATEPARK",
+        "FILMFESTIVAL",
+        "SALMON",
+        "BARBERSHOP",
+        "PHOTOLAB"
+      ]
+    },
+    {
+      "name": "Home Life",
+      "words": [
+        "TRACTOR",
+        "QUIETTIME",
+        "PLAYTHROUGH",
+        "NEGATIVE",
+        "PERSONA",
+        "NETWORKTV",
+        "GYM",
+        "BEATMANIA",
+        "TOUR",
+        "STREAMING",
+        "JONASBROTHERS",
+        "CAIRO"
+      ]
+    },
+    {
+      "name": "Main Street",
+      "words": [
+        "LATEFEE",
+        "CHARACTERSELECT",
+        "NEWSREEL",
+        "SIDEPONY",
+        "IMPREZA",
+        "GAMEQUEST",
+        "TAIL",
+        "ACORN",
+        "HAIRCLIP",
+        "DRIVING",
+        "SHOPPINGMALL",
+        "KPOP"
+      ]
+    },
+    {
+      "name": "Toys & Childhood: Essentials",
+      "words": [
+        "CIRRUS",
+        "FRIES",
+        "SKYLANDERS",
+        "AUSTEN",
+        "REMIX",
+        "CHALLENGE",
+        "BEAUTYPARLOR",
+        "WEEKENDTRIP",
+        "HAUNTEDHOUSE",
+        "BUSSTOP",
+        "FRANCHISE",
+        "THERMOSTAT"
+      ]
+    },
+    {
+      "name": "School Days: Essentials",
+      "words": [
+        "SEATCOVER",
+        "GAMEPAD",
+        "BERLINGO",
+        "CANDLE",
+        "SINGERSONGWRITER",
+        "WRISTBAND",
+        "STATIONWAGON",
+        "TEASER",
+        "VIRTUALREALITY",
+        "SPOILER",
+        "TRICYCLE",
+        "TOBYKEITH"
+      ]
+    },
+    {
+      "name": "Cars & Cruising: Essentials",
+      "words": [
+        "GAMEHERO",
+        "DESKTOP",
+        "FLATIRON",
+        "CHARGINGCABLE",
+        "HALO",
+        "TROLLS",
+        "DIAL",
+        "FLY",
+        "THUNDER",
+        "HALLPASS",
+        "ZACHBRYAN",
+        "VCR"
+      ]
+    },
+    {
+      "name": "Entertainment: Essentials",
+      "words": [
+        "FARMTRACTOR",
+        "FIFTHHARMONY",
+        "COILOVER",
+        "SWAYBAR",
+        "EVERQUEST",
+        "SUSPENSION",
+        "POKEMON",
+        "TUNEUP",
+        "PYTHON",
+        "PIKMIN",
+        "BUS",
+        "CLASHOFCLANS"
+      ]
+    },
+    {
+      "name": "Technology: Essentials",
+      "words": [
+        "GAMERCHAIR",
+        "ROADREADY",
+        "CELLPHONE",
+        "TERRARIUM",
+        "SUNFIRE",
+        "PHOTOALBUM",
+        "METAKNIGHT",
+        "WORKOUT",
+        "RAM",
+        "POMPADOUR",
+        "CHARGINGSTATION",
+        "MIRAGE"
+      ]
+    },
+    {
+      "name": "Space Age: Essentials",
+      "words": [
+        "INTERNETSTAR",
+        "NOVA",
+        "THROWBACK",
+        "THRILLER",
+        "MUSICLIBRARY",
+        "ICONIC",
+        "HOGWARTS",
+        "FATALFURY",
+        "COCO",
+        "OBSERVATORY",
+        "PARKINGLOT",
+        "HIGHWAY"
+      ]
+    },
+    {
+      "name": "Weekend Fun: Essentials",
+      "words": [
+        "LITTLEBIGPLANET",
+        "MUMMY",
+        "BATTLEARENA",
+        "ESCALATOR",
+        "CLOCK",
+        "TELLURIDE",
+        "TEARDROP",
+        "ARCADE",
+        "HAIRSTYLE",
+        "SONGBIRD",
+        "HITSHOW",
+        "BRAINAGE"
+      ]
+    },
+    {
+      "name": "Fashion: Essentials",
+      "words": [
+        "EARLYSATELLITE",
+        "LATTE",
+        "DISC",
+        "CRACKERS",
+        "BANGLES",
+        "BOAT",
+        "CALIFORNIA",
+        "EXHAUST",
+        "FLOORMAT",
+        "CAMPCHAIR",
+        "CAPSULE",
+        "GASGAUGE"
+      ]
+    },
+    {
+      "name": "Diner Days: Essentials",
+      "words": [
+        "TOWBAR",
+        "SIENNA",
+        "PIXAR",
+        "CHER",
+        "SUNROOF",
+        "ELDERSCROLLS",
+        "SCISSORS",
+        "CARWASH",
+        "DURANGO",
+        "CRYSTALBALL",
+        "DOWNPIPE",
+        "SIDEKICK"
+      ]
+    },
+    {
+      "name": "Music & Dancing: Essentials",
+      "words": [
+        "MAT",
+        "WINDSHIELDWIPER",
+        "WARFRAME",
+        "LAKE",
+        "STAGECREW",
+        "GAMESNIGHT",
+        "STABLE",
+        "LIGHTNING",
+        "RUNESCAPE",
+        "HEATER",
+        "FESTIVAL",
+        "COLORADO"
+      ]
+    },
+    {
+      "name": "Home Life: Essentials",
+      "words": [
+        "BIKERIDE",
+        "COLDPLAY",
+        "GAMELOBBY",
+        "SHOWTIME",
+        "HERO",
+        "HEADLIGHT",
+        "RAYMAN",
+        "PARKAVENUE",
+        "TWILIGHT",
+        "ASCENT",
+        "HAMBURGER",
+        "ROADWORK"
+      ]
+    },
+    {
+      "name": "Main Street: Essentials",
+      "words": [
+        "DETROITBECOMEHUMAN",
+        "HIGHSCORE",
+        "WORKTRUCK",
+        "CLANK",
+        "ACURA",
+        "BRB",
+        "EASPORTS",
+        "HANDHELD",
+        "DUSTER",
+        "PUMPKIN",
+        "MASTERCHIEF",
+        "SUPERHERO"
+      ]
+    },
+    {
+      "name": "Toys & Childhood: Memory Lane",
+      "words": [
+        "PHOTOGRAPH",
+        "AGEOFEMPIRES",
+        "TEXTING",
+        "CHEVROLET",
+        "LAUNCH",
+        "MOUNTAINROAD",
+        "NISSAN",
+        "MECHANIC",
+        "SNACKSTOP",
+        "BUSYSIGNAL",
+        "PROJECTOR",
+        "MERMAID"
+      ]
+    },
+    {
+      "name": "School Days: Memory Lane",
+      "words": [
+        "BASS",
+        "DIRECTOR",
+        "DASHBOARDCAM",
+        "REDDEAD",
+        "SEQUEL",
+        "ESCALADE",
+        "HITCHBALL",
+        "RUNWAY",
+        "TRAILERPARK",
+        "AEROSMITH",
+        "GENESIS",
+        "METALLICA"
+      ]
+    },
+    {
+      "name": "Cars & Cruising: Memory Lane",
+      "words": [
+        "GREYSANATOMY",
+        "MINIGAME",
+        "DOCTORWHO",
+        "CARSTICKER",
+        "SATURDAYMATINEE",
+        "ROADMAP",
+        "NBAJAM",
+        "TURBO",
+        "DATA",
+        "WAND",
+        "HAIRMETAL",
+        "AVIATOR"
+      ]
+    },
+    {
+      "name": "Entertainment: Memory Lane",
+      "words": [
+        "HAMILTON",
+        "FASTFOOD",
+        "RACECAR",
+        "TIREGAUGE",
+        "TEMPERATURE",
+        "LOAFERS",
+        "LOOT",
+        "PERFORMER",
+        "TOMBRAIDER",
+        "SCARECROW",
+        "MISSEDCALL",
+        "BARBECUE"
+      ]
+    },
+    {
+      "name": "Technology: Memory Lane",
+      "words": [
+        "INDIEROCK",
+        "CROCHET",
+        "FAMILYGAME",
+        "PISTON",
+        "EMBROIDERY",
+        "CARPLAY",
+        "TINTOY",
+        "SAFARI",
+        "ZELDA",
+        "OKAMI",
+        "POOL",
+        "ROCKYBALBOA"
+      ]
+    },
+    {
+      "name": "Space Age: Memory Lane",
+      "words": [
+        "SOUTHPARKGAME",
+        "TRIVIANIGHT",
+        "LONDON",
+        "STRUT",
+        "MONTERO",
+        "ETMOVIE",
+        "PRODUCER",
+        "VACUUM",
+        "RAIDERS",
+        "LIONKING",
+        "COMICBOOK",
+        "STRAW"
+      ]
+    },
+    {
+      "name": "Weekend Fun: Memory Lane",
+      "words": [
+        "PLAYLIST",
+        "REEL",
+        "FOAL",
+        "UNDERTALE",
+        "WATCHPARTY",
+        "DRIVINGSAFE",
+        "POWERRANGERS",
+        "RIBBON",
+        "SIDEBANGS",
+        "KFIVE",
+        "CALLERID",
+        "ROCKABILLY"
+      ]
+    },
+    {
+      "name": "Fashion: Memory Lane",
+      "words": [
+        "BONUSROUND",
+        "PORSCHE",
+        "NIRVANA",
+        "FIRETRUCK",
+        "MITSUBISHI",
+        "YUKON",
+        "BOOYAH",
+        "SOCIALNETWORK",
+        "TOWHITCH",
+        "CALLBACK",
+        "TAILOR",
+        "FRIENDS"
+      ]
+    },
+    {
+      "name": "Diner Days: Memory Lane",
+      "words": [
+        "PAPERCRAFT",
+        "ENVOY",
+        "BURRITO",
+        "BOTTLE",
+        "BEACHTRIP",
+        "GOTHAM",
+        "FROZEN",
+        "TREEHOUSE",
+        "RODEO",
+        "CITYCAR",
+        "PULPFICTION",
+        "UNICORN"
+      ]
+    },
+    {
+      "name": "Music & Dancing: Memory Lane",
+      "words": [
+        "TEXTME",
+        "CULTCLASSIC",
+        "DASHCAM",
+        "AMPERA",
+        "SPOOL",
+        "LIBRARY",
+        "DRIVETHRU",
+        "CYBERPUNK",
+        "DART",
+        "WEREWOLF",
+        "TOYHAULER",
+        "PARKINGBRAKE"
+      ]
+    },
+    {
+      "name": "Home Life: Memory Lane",
+      "words": [
+        "MICKEY",
+        "SAMANDMAX",
+        "NEEDLE",
+        "CONCERT",
+        "RAMCHARGER",
+        "OCTOBER",
+        "VIDEOSTORE",
+        "PODCAST",
+        "TWENTYONEPILOTS",
+        "BLUEY",
+        "PROM",
+        "TTYL"
+      ]
+    },
+    {
+      "name": "Main Street: Memory Lane",
+      "words": [
+        "RIVERDALE",
+        "KENDRICKLAMAR",
+        "PIG",
+        "BLUETOOTH",
+        "TROUT",
+        "POPMUSIC",
+        "SLUMBERPARTY",
+        "GUITARSOLO",
+        "GAMECREDITS",
+        "SUBNAUTICA",
+        "USHER",
+        "DINNERBELL"
+      ]
+    },
+    {
+      "name": "Toys & Childhood: Everyday Memories",
+      "words": [
+        "COBWEB",
+        "AMUSEMENTPARK",
+        "AUTOMOBILE",
+        "AUTOMATIC",
+        "BLOCKPUZZLE",
+        "TRAILERHITCH",
+        "TITANIC",
+        "RESPAWN",
+        "LORDOFTHERINGS",
+        "DUMPTRUCK",
+        "GREENDAY",
+        "PLAYTIME"
+      ]
+    },
+    {
+      "name": "School Days: Everyday Memories",
+      "words": [
+        "BEETLE",
+        "ARMADA",
+        "CYCLING",
+        "JUNGLE",
+        "CANDYMAN",
+        "HARVEST",
+        "BASEBALL",
+        "ANIMATION",
+        "VOLUME",
+        "FRONTIER",
+        "CARPOOL",
+        "VEHICLECARE"
+      ]
+    },
+    {
+      "name": "Cars & Cruising: Everyday Memories",
+      "words": [
+        "TIRESTORE",
+        "CAMERAPHONE",
+        "AUSTRALIA",
+        "WIIFIT",
+        "PERSONALCOMPUTER",
+        "KIA",
+        "FLATSCREEN",
+        "CASABLANCA",
+        "PAPERDOLL",
+        "ATLAS",
+        "ROCKLEGEND",
+        "TRAVELTRAILER"
+      ]
+    },
+    {
+      "name": "Entertainment: Everyday Memories",
+      "words": [
+        "SHERLOCK",
+        "DOWNLOAD",
+        "VIDEOCASE",
+        "EQUESTRIAN",
+        "PONTOON",
+        "ROUGH",
+        "KITCHEN",
+        "THEBEATLES",
+        "CHARACTER",
+        "LEAVES",
+        "HALFPIPE",
+        "INTERSECTION"
+      ]
+    },
+    {
+      "name": "Technology: Everyday Memories",
+      "words": [
+        "WHISTLE",
+        "TURTLES",
+        "WONDER",
+        "LURE",
+        "MALL",
+        "GEARSOFWAR",
+        "PAUSE",
+        "PATIO",
+        "VACATION",
+        "HYUNDAI",
+        "LATESHOW",
+        "ARCADEMACHINE"
+      ]
+    },
+    {
+      "name": "Space Age: Everyday Memories",
+      "words": [
+        "AIMING",
+        "GRIND",
+        "TELESCOPE",
+        "CARBATTERYCHARGER",
+        "BOOKMARK",
+        "CUTLASS",
+        "GLS",
+        "CIVIC",
+        "VIEWINGPARTY",
+        "SPARROW",
+        "STAR",
+        "SUPERMEATBOY"
+      ]
+    },
+    {
+      "name": "Weekend Fun: Everyday Memories",
+      "words": [
+        "GEARSHIFT",
+        "CAMPOUT",
+        "FANPAGE",
+        "TRAILRIDE",
+        "HIGHTOPS",
+        "QUARTERHORSE",
+        "GARAGE",
+        "CHARDONNAY",
+        "FRONTPORCH",
+        "PAINTBRUSH",
+        "DENIMJACKET",
+        "LEGO"
+      ]
+    },
+    {
+      "name": "Fashion: Everyday Memories",
+      "words": [
+        "OFFROADFUN",
+        "REMOTECAR",
+        "SADDLE",
+        "FAN",
+        "THOROUGHBRED",
+        "THUNDERBIRD",
+        "PROBE",
+        "CRUZE",
+        "SKATE",
+        "VOICECHAT",
+        "LIMOUSINE",
+        "BATTLEPASS"
+      ]
+    },
+    {
+      "name": "Diner Days: Everyday Memories",
+      "words": [
+        "HOMEY",
+        "TWISTYPUZZLE",
+        "LIZZO",
+        "MENU",
+        "RATATOUILLE",
+        "WEIGHTS",
+        "FLASHBULB",
+        "SELFIE",
+        "SIMCITY",
+        "JAMESBOND",
+        "GALAXY",
+        "VIPER"
+      ]
+    },
+    {
+      "name": "Music & Dancing: Everyday Memories",
+      "words": [
+        "CHRONOTRIGGER",
+        "EGGBASKET",
+        "SEWINGMACHINE",
+        "GUITAR",
+        "CRUISING",
+        "RIM",
+        "MOTORCOACH",
+        "USERNAME",
+        "SILVERADO",
+        "ZOOTOPIA",
+        "FOOTBALLMANAGER",
+        "TONYHAWK"
+      ]
+    },
+    {
+      "name": "Home Life: Everyday Memories",
+      "words": [
+        "RAINBOWSIX",
+        "VILLAIN",
+        "DANCEPARTY",
+        "CARHOP",
+        "FORESTROAD",
+        "ATARI",
+        "SCARF",
+        "MOVIENIGHT",
+        "WARCRAFT",
+        "GAMEGIFT",
+        "WONKA",
+        "ALLTHAT"
+      ]
+    },
+    {
+      "name": "Main Street: Everyday Memories",
+      "words": [
+        "CARAVANPARK",
+        "BINGEWATCH",
+        "CONSOLE",
+        "SUPERBAD",
+        "TIGERKING",
+        "ACHIEVEMENT",
+        "IDK",
+        "MINIBUS",
+        "FORESTER",
+        "SPONGE",
+        "TAILFINS",
+        "BOOTH"
+      ]
+    },
+    {
+      "name": "Toys & Childhood: Weekend Flashback",
+      "words": [
+        "MUFFLER",
+        "OTTAWA",
+        "FIRSTLOOK",
+        "STEAM",
+        "CLUE",
+        "FISHINGPOLE",
+        "SUNNYSIDE",
+        "LOWERINGKIT",
+        "FOUNTAINPEN",
+        "ACCORDHYBRID",
+        "SPINOFF",
+        "CASTINGCALL"
+      ]
+    },
+    {
+      "name": "School Days: Weekend Flashback",
+      "words": [
+        "DIALUP",
+        "WHEELS",
+        "PHOTOBOOTH",
+        "CINEMA",
+        "GALLOP",
+        "MEMORYCARD",
+        "SHARKNADO",
+        "BELAIR",
+        "RENTAL",
+        "BUNKHOUSE",
+        "TANKTRUCK",
+        "PICTURE"
+      ]
+    }
+  ],
+  "detected_topic": "Sports and Hobbies",
+  "recommended_palette": "sports",
+  "recommended_cover_style": "bold",
+  "cover_style": "bold",
+  "clipart_search_terms": "Sports and Hobbies Portablecassette Taylorswift Cufflinks illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Challenging",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:07",
+    "sources": [
+      "Sports and Hobbies",
+      "General Interest",
+      "Pop Culture & Entertainment",
+      "Video Games & Gaming",
+      "Vehicles & Automotive"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 50,
+    "unique_words_in_book": 600,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "Sports and Hobbies"
+    ],
+    "checked_at": "2026-08-22T10:08:37"
+  }
+}

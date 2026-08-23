@@ -1,0 +1,34 @@
+{
+  "themes\\national_parks_01_greatsmokymountains.json": {
+    "palette": "nature",
+    "style": "gallery",
+    "badge": "INCLUDES 48 PUZZLES",
+    "imprint": "Slade Puzzles",
+    "art": "",
+    "art_focus": "center"
+  },
+  "themes\\popular_10_gardening.json": {
+    "palette": "spring-meadow",
+    "style": "photo",
+    "badge": "NO REPEATED WORDS",
+    "imprint": "Slade Puzzles",
+    "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\gardening.png",
+    "art_focus": "center"
+  },
+  "themes\\Launch Collection\\launch_space_astronomy_20260822_174014.json": {
+    "palette": "starlight-indigo",
+    "style": "photo",
+    "badge": "48 LARGE-PRINT PUZZLES - NO REPEATED WORDS",
+    "imprint": "Slade Puzzles",
+    "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\space_astronomy.png",
+    "art_focus": "center"
+  },
+  "themes\\1980s_General_Publish_Ready_Word_Banks.json": {
+    "palette": "ocean-life",
+    "style": "photo",
+    "badge": "NO REPEATED WORDS",
+    "imprint": "Jordan M. Slade",
+    "art": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\cover_assets\\background_photos\\ocean_life.png",
+    "art_focus": "center"
+  }
+}

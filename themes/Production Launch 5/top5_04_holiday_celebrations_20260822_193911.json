@@ -1,0 +1,850 @@
+{
+  "title": "Holiday Celebrations Word Search",
+  "subtitle": "48 large-print puzzles for festive traditions and cozy moments",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Seasonal and Evergreen Collection",
+  "series_rank": 4,
+  "audience": "Adults and Teens",
+  "palette": "winter-frost",
+  "cover_style": "photo",
+  "recommended_palette": "winter-frost",
+  "recommended_cover_style": "photo",
+  "cover_badge": "48 LARGE-PRINT PUZZLES - NO REPEATED WORDS",
+  "cover_imprint": "Slade Puzzles",
+  "no_repeat_words": true,
+  "difficulty_label": "Relaxing",
+  "detected_topic": "Holidays",
+  "source_word_bank": {
+    "name": "Guided Builder Master Word Bank",
+    "topics": [
+      "Holidays"
+    ]
+  },
+  "cover_art_path": "cover_assets/background_photos/winter_fireplace_v3.png",
+  "cover_art_focus": "center",
+  "clipart_search_terms": "holiday celebrations winter christmas festive traditions",
+  "market_research_note": "Selected from current demand signals for large-print adult word searches, seasonal timing, and evergreen giftable themes. This is not a guarantee of sales.",
+  "market_research_sources": [
+    "Amazon Word Search Best Sellers",
+    "KDP paperback requirements"
+  ],
+  "draft": true,
+  "puzzles": [
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 001",
+      "words": [
+        "HUMIDITYLEVEL",
+        "AUTUMNPIE",
+        "CANDLELIGHT",
+        "ICEPELLET",
+        "ANTICYCLONE",
+        "WETBULB",
+        "OZONE",
+        "PARTYGAME",
+        "HARVESTBASKET",
+        "SUNNYDAY",
+        "FALLCAMPFIRE",
+        "SUBTROPICAL"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 002",
+      "words": [
+        "RAINFALL",
+        "HARVESTCIDER",
+        "SNOWSTORM",
+        "FUNNELCLOUD",
+        "HURRICANE",
+        "MITTEN",
+        "CHRISTMASDAY",
+        "REDRIBBON",
+        "FROSTYWALK",
+        "DRYSPELL",
+        "SUMMER",
+        "ARCTICAIR"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 003",
+      "words": [
+        "EVAPORATION",
+        "WINTERSONG",
+        "RADAR",
+        "WINTERHIKE",
+        "ATMOSPHERE",
+        "WINTERMARKET",
+        "ZEPHYR",
+        "WINTERROAD",
+        "HARVESTCORN",
+        "CINNAMONSTICK",
+        "SNOWYROAD",
+        "JACKOLANTERN"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 004",
+      "words": [
+        "CHEER",
+        "GINGERBREADMAN",
+        "DESERTCLIMATE",
+        "EXTREMEWEATHER",
+        "WINDGUST",
+        "AUTUMNCOLOR",
+        "EASTERBASKET",
+        "WINTERCOTTAGE",
+        "PARTYTABLE",
+        "THANKSGIVINGTABLE",
+        "WAVECLOUD",
+        "GIFTBOX"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 005",
+      "words": [
+        "CURRENT",
+        "SNOWANGEL",
+        "SPRINGMARKET",
+        "PARTYFAVOR",
+        "WOODEDTRAIL",
+        "FAMILYCHRISTMAS",
+        "FRONT",
+        "FESTIVEMAIL",
+        "VALENTINECANDY",
+        "HARVESTPUMPKIN",
+        "JOYFULJUMPER",
+        "CANDLEHOLDER"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 006",
+      "words": [
+        "CANDYSTORE",
+        "HOLIDAYBRUNCH",
+        "MOONLITNIGHT",
+        "DECORATIONS",
+        "GIFTBOW",
+        "AUTUMNBONFIRE",
+        "AURORA",
+        "INVERSION",
+        "STORMTRACK",
+        "LOWPRESSURE",
+        "WEATHERCHART",
+        "WINTERSLEIGH"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 007",
+      "words": [
+        "COCOA",
+        "REINDEER",
+        "SUMMERWEEKEND",
+        "YULETIDE",
+        "WINDGAUGE",
+        "KEEPSAKEORNAMENT",
+        "SNOWLINE",
+        "RIBBONBOW",
+        "PUMPKINCOOKIE",
+        "TREEORNAMENT",
+        "PUMPKINFIELD",
+        "SUMMERGARDEN"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 008",
+      "words": [
+        "EASTERPARADE",
+        "CLIMATE",
+        "CLOUDCOVER",
+        "CONVECTION",
+        "CHRISTMASCOOKIE",
+        "BONFIRE",
+        "FAMILYGATHERING",
+        "THANKFULTHOUGHT",
+        "ANGELIC",
+        "PINEBRANCH",
+        "FALLWEATHER",
+        "WINTERFESTIVAL"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 009",
+      "words": [
+        "CONDENSATION",
+        "MICROCLIMATE",
+        "AUTUMNSUNSET",
+        "SEASONAL",
+        "WINTERSUN",
+        "HAILSTONE",
+        "SPARKLINGLIGHTS",
+        "HOLIDAYCHEER",
+        "HOLIDAYTABLE",
+        "RAINGAUGE",
+        "LANTERNPATH",
+        "CHRISTMASLIGHTS"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 010",
+      "words": [
+        "THANKSGIVINGPIE",
+        "HUNTDAY",
+        "GIFTWRAP",
+        "ANTHEM",
+        "THANKSGIVINGFEAST",
+        "BELLRINGING",
+        "PUMPKIN",
+        "SUMMERPARTY",
+        "SNOWFALL",
+        "ICECAP",
+        "TWINKLINGTREE",
+        "WINTERGREEN"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 011",
+      "words": [
+        "SPECIALDAY",
+        "LEAFGARLAND",
+        "GIFTLIST",
+        "COBWEB",
+        "HARVESTPARADE",
+        "MERRYANDBRIGHT",
+        "SEASONOFGIVING",
+        "WELCOMEHOME",
+        "TWINKLELIGHTS",
+        "HARVESTTABLE",
+        "CELEBRATIONCENTER",
+        "MAGICPOTION"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 012",
+      "words": [
+        "PLUME",
+        "SCARECROWHAT",
+        "COUNTDOWN",
+        "DROUGHTINDEX",
+        "SANTAHAT",
+        "SPRING",
+        "UPDRAFT",
+        "FESTIVEPHOTO",
+        "OCTOBERPARTY",
+        "WITCHYWOODLAND",
+        "AIRMASS",
+        "HEATWAVE"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 013",
+      "words": [
+        "STORMCLOUD",
+        "AUTUMN",
+        "FALLFESTIVAL",
+        "MONSOONRAIN",
+        "OCTOBERORNAMENT",
+        "ICICLE",
+        "SUMMERBARBECUE",
+        "SNOWPACK",
+        "MOISTURE",
+        "HARVESTDAY",
+        "ROASTEDCORN",
+        "HOLIDAYPARTY"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 014",
+      "words": [
+        "HOLIDAYWISHES",
+        "HARVESTBARN",
+        "EGGPAINTING",
+        "TORNADO",
+        "ORNAMENTBOX",
+        "FESTIVEFEAST",
+        "FALLCOLOR",
+        "SNOWYFOREST",
+        "HOST",
+        "AUTUMNLANE",
+        "FESTIVEJOY",
+        "WINTERBOOTS"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 015",
+      "words": [
+        "EASTERMORNING",
+        "GHOSTSTORY",
+        "HAUNTEDHOUSE",
+        "SNOWDRIFT",
+        "HOLIDAYDINNER",
+        "PICNIC",
+        "CORNMAZE",
+        "ADVENTCALENDAR",
+        "GINGERBREADHOUSE",
+        "SEASONALCHANGE",
+        "PRECIPITATIONRATE",
+        "GRAUPEL"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 016",
+      "words": [
+        "SPRINGMORNING",
+        "CHRISTMASTREE",
+        "SPRINGRAIN",
+        "KNITTEDSCARF",
+        "MASQUERADE",
+        "SLEIGHRIDE",
+        "WINTERPARTY",
+        "SPRINGTIME",
+        "WINTERVILLAGE",
+        "WEATHERFRONT",
+        "VALENTINEMESSAGE",
+        "AUTUMNMORNING"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 017",
+      "words": [
+        "EASTEREGG",
+        "CLIMATEPATTERN",
+        "EASTERBUNNY",
+        "CYCLONE",
+        "CLOUDDECK",
+        "PUMPKINBREAD",
+        "EASTERLILY",
+        "AUTUMNPATH",
+        "PLACECARD",
+        "SUMMERBREAK",
+        "SNOWCAPPED",
+        "CHRISTMASGIFT"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 018",
+      "words": [
+        "WINTERMEAL",
+        "EQUATOR",
+        "FROSTEDWINDOW",
+        "WINDDIRECTION",
+        "WINTERMITTENS",
+        "SUMMERRECIPE",
+        "MISTLETOE",
+        "CHRISTMAS",
+        "THANKSGIVINGTURKEY",
+        "MOONLIGHT",
+        "HOLIDAYBREAK",
+        "PUMPKINPIE"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 019",
+      "words": [
+        "AUTUMNWEEKEND",
+        "DECEMBERNIGHT",
+        "CLOUDINESS",
+        "WINTERWONDERLAND",
+        "CRAFTTABLE",
+        "FESTIVEFIREPLACE",
+        "YULETIME",
+        "BAKING",
+        "BLIZZARD",
+        "SEASONALTABLE",
+        "WINTERHOME",
+        "GIFTGIVER"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 020",
+      "words": [
+        "WRAPPEDGIFT",
+        "FALLSEASON",
+        "TABLETOP",
+        "HOLIDAYDESSERT",
+        "SPRINGHOLIDAY",
+        "HARVESTAPPLE",
+        "PRESSUREGRADIENT",
+        "WINTER",
+        "SOLSTICE",
+        "GALE",
+        "HOLLYLEAF",
+        "PINECONE"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 021",
+      "words": [
+        "PARTYPLANNER",
+        "AUTUMNMARKET",
+        "RAINDROP",
+        "WARMCIDER",
+        "CANDYCANE",
+        "GIFTLABEL",
+        "AUTUMNAPPLE",
+        "SUGARPLUM",
+        "WISHLIST",
+        "CARAMELAPPLE",
+        "WEATHERALERT",
+        "CLIMATOLOGY"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 022",
+      "words": [
+        "COSTUME",
+        "WINDSTORM",
+        "AUTUMNPARTY",
+        "WEATHERBALLOON",
+        "CLIMATECHANGE",
+        "CENTERPIECE",
+        "ORNAMENTHOOK",
+        "EVERGREENGARLAND",
+        "CIRRUS",
+        "STOCKINGS",
+        "TRADE",
+        "COSTUMECONTEST"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 023",
+      "words": [
+        "VALENTINEWEEKEND",
+        "ARID",
+        "NOREASTER",
+        "COZYKITCHEN",
+        "SNOWSHOE",
+        "GREETINGCARD",
+        "CLOUDFORMATION",
+        "MAGICALSNOW",
+        "HOLIDAYGUEST",
+        "NEWYEARSDAY",
+        "SPRINGCRAFT",
+        "SLEIGHBELL"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 024",
+      "words": [
+        "SUMMERMARKET",
+        "HOLIDAYMEAL",
+        "COSTUMEPARADE",
+        "POTLUCK",
+        "FAIRWEATHER",
+        "SUNRISE",
+        "STARORNAMENT",
+        "WINTERCOAT",
+        "AUTUMNPICNIC",
+        "HOLIDAY",
+        "CANDYCORN",
+        "HOLIDAYGREETING"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 025",
+      "words": [
+        "FALLHARVEST",
+        "PUMPKINSTAND",
+        "EGGROLL",
+        "VAPOR",
+        "STARLIGHT",
+        "COZYREADING",
+        "HOLIDAYHOME",
+        "SPOOKYSEASON",
+        "FESTIVEBOW",
+        "WINTERCOOKIE",
+        "ANEMOMETER",
+        "SUMMERCRAFT"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 026",
+      "words": [
+        "SPRINGPARTY",
+        "CHRISTMASDECOR",
+        "WINTERPINE",
+        "FALLKITCHEN",
+        "MEMORYMAKING",
+        "MONSOON",
+        "WINTERSTORM",
+        "FALLNIGHT",
+        "FALLCIDER",
+        "HARVESTFIRE",
+        "BROOMSTICK",
+        "WINTERNIGHT"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 027",
+      "words": [
+        "HALLOWEENPARTY",
+        "POSTCARD",
+        "WINTERFOREST",
+        "AUTUMNFOREST",
+        "HOLIDAYCOOKIE",
+        "HOLIDAYWEEKEND",
+        "RECIPEBOOK",
+        "HOLIDAYMUSIC",
+        "GIFTCARD",
+        "WINTERLIGHTS",
+        "PUMPKINFARM",
+        "SPRINGRECIPE"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 028",
+      "words": [
+        "GIFTEXCHANGE",
+        "HOLIDAYSEASON",
+        "FALLMARKET",
+        "SNOWDAY",
+        "LIGHTNINGBOLT",
+        "SPRINGBREAK",
+        "GINGERBREAD",
+        "FALL",
+        "NORTHPOLE",
+        "LANTERNLIGHT",
+        "SNOWBALL",
+        "RAINBOW"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 029",
+      "words": [
+        "TRADITIONTREE",
+        "SNOWGLOBE",
+        "VALENTINEROSE",
+        "SNOWMAN",
+        "FOG",
+        "SPRINGBLOOM",
+        "SPRINGWEEKEND",
+        "CLAUS",
+        "AUTUMNLEAVES",
+        "VACATIONWEEK",
+        "DECEMBER",
+        "SPRINGFESTIVAL"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 030",
+      "words": [
+        "RIBBON",
+        "CHIMNEY",
+        "HARVESTMEAL",
+        "WINTERSCARF",
+        "AUTUMNAIR",
+        "CHRISTMASEVE",
+        "FESTIVECOOKIE",
+        "ORCHARDWALK",
+        "FESTIVEPARTY",
+        "POLARVORTEX",
+        "WEATHERJOURNAL",
+        "CHRISTMASMUSIC"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 031",
+      "words": [
+        "FLAGS",
+        "SUNSHINE",
+        "SCARECROW",
+        "BIRTHDAY",
+        "BLACKCAT",
+        "WINTERHAT",
+        "CINNAMON",
+        "TREEFARM",
+        "TROPICALSTORM",
+        "AUTUMNNIGHT",
+        "HOLIDAYPLAYLIST",
+        "GLOBALWARMING"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 032",
+      "words": [
+        "BIRTHDAYBANNER",
+        "KEEPSAKE",
+        "TORNADOALLEY",
+        "SPRINGGARDEN",
+        "WINTERBREAK",
+        "SPICEDCIDER",
+        "SNOWFLAKE",
+        "ALMANAC",
+        "BAKINGDAY",
+        "PUMPKINSEED",
+        "COZYFIRE",
+        "WINDSPEED"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 033",
+      "words": [
+        "VISIBILITY",
+        "RAINFALLRATE",
+        "HARVESTMOON",
+        "WINTERWEEKEND",
+        "GARLAND",
+        "THUNDERCLAP",
+        "KITCHENBAKING",
+        "HAYRIDE",
+        "LIGHTNING",
+        "WARMFRONT",
+        "NUTCRACKER",
+        "RAINSHADOW"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 034",
+      "words": [
+        "GREENHOUSEGAS",
+        "TYPHOON",
+        "HUMIDITY",
+        "URBANHEAT",
+        "CUMULONIMBUS",
+        "GIFTBAG",
+        "EASTER",
+        "SUMMERFIREWORKS",
+        "MUSICBOX",
+        "STORM",
+        "SUMMERHOLIDAY",
+        "SLEET"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 035",
+      "words": [
+        "AUTUMNWALK",
+        "EVERGREEN",
+        "AUTUMNBARN",
+        "SANTASACK",
+        "JETSTREAM",
+        "WINDCHILL",
+        "COLDWEATHER",
+        "FALLPARTY",
+        "HOLIDAYCANDLE",
+        "REGIONALCLIMATE",
+        "SEALEVEL",
+        "DROUGHT"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 036",
+      "words": [
+        "EASTERTREAT",
+        "VALENTINECARD",
+        "CREEPYNIGHT",
+        "OCEAN",
+        "ORNAMENTPAPER",
+        "TURKEYDINNER",
+        "TINSEL",
+        "CROWFIELD",
+        "HAIL",
+        "FLOODPLAIN",
+        "COASTALCLIMATE",
+        "WINDROSE"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 037",
+      "words": [
+        "CANDYBOWL",
+        "BREEZE",
+        "FALLPORCH",
+        "PUMPKINPATCH",
+        "CORNSTALK",
+        "AUTUMNPORCH",
+        "WINDS",
+        "WINTERLANTERN",
+        "DUSTSTORM",
+        "BAUBLE",
+        "HARVEST",
+        "OVERCAST"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 038",
+      "words": [
+        "SQUALL",
+        "ADVENT",
+        "FROSTYGLASS",
+        "FLASHFLOOD",
+        "HOLIDAYPHOTO",
+        "CLIMATEZONE",
+        "HARVESTFESTIVAL",
+        "HALLOWEEN",
+        "WINTEREVENING",
+        "WINTERHOLIDAY",
+        "GATHERING",
+        "JANUARY"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 039",
+      "words": [
+        "DEWPOINT",
+        "HOLIDAYCRAFT",
+        "AUTUMNMOON",
+        "FALLHIKE",
+        "PUMPKINSPICE",
+        "KITCHENAROMA",
+        "CAROLING",
+        "HOLIDAYGIFT",
+        "WITCHHAT",
+        "FROSTYDAY",
+        "WATERSHED",
+        "COLDFRONT"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 040",
+      "words": [
+        "SCARECROWFIELD",
+        "WINTERFIRE",
+        "HARVESTDECOR",
+        "COZY",
+        "AUTUMNHARVEST",
+        "SPOOKYTRAIL",
+        "TROPICAL",
+        "FROSTLINE",
+        "MIST",
+        "VALENTINEDAY",
+        "REUNION",
+        "ROASTEDCHESTNUT"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 041",
+      "words": [
+        "LEAFPILE",
+        "HOLIDAYJOY",
+        "THANKSGIVING",
+        "AUTUMNCANDLE",
+        "CHRISTMASMARKET",
+        "LONGWEEKEND",
+        "TEMPERATURE",
+        "AUTUMNBAKING",
+        "MAPLELEAF",
+        "ECOSYSTEM",
+        "FALLBONFIRE",
+        "HARVESTPIE"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 042",
+      "words": [
+        "PERMAFROST",
+        "BAROMETER",
+        "THUNDER",
+        "DOORWREATH",
+        "COZYBLANKET",
+        "HOLLYBERRY",
+        "SPOOKYSTORY",
+        "SNOWFALLWATCH",
+        "SUMMERPICNIC",
+        "FIRBRANCH",
+        "FALLFOREST",
+        "STOCKINGSTUFFER"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 043",
+      "words": [
+        "PUMPKINLANTERN",
+        "HARVESTHOME",
+        "MICROBURST",
+        "WINTERGLOVES",
+        "PARADE",
+        "HARVESTGARDEN",
+        "FORECAST",
+        "PUMPKINCARVING",
+        "FESTIVERED",
+        "AUTUMNRECIPE",
+        "NEWYEAR",
+        "AUTUMNFESTIVAL"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 044",
+      "words": [
+        "TRICKORTREAT",
+        "FIREPLACE",
+        "WINTERMORNING",
+        "HAYBALE",
+        "CLOUDBURST",
+        "WEATHERDESK",
+        "FIREPLACEGLOW",
+        "WINTERCANDLE",
+        "CUPOFCOCOA",
+        "FALLCANDLE",
+        "CHRISTMASCARD",
+        "HEATADVISORY"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 045",
+      "words": [
+        "AUTUMNHIKE",
+        "HEATINDEX",
+        "WINTERJACKET",
+        "STRATOCUMULUS",
+        "JINGLEBELL",
+        "FROSTYAIR",
+        "LANTERN",
+        "TREE",
+        "HOLIDAYLIGHTS",
+        "CRANBERRY",
+        "THUNDERSTORM",
+        "PRECIPITATION"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 046",
+      "words": [
+        "LEAFRAKING",
+        "WINTERBERRY",
+        "DRIZZLE",
+        "CRISPAIR",
+        "TREELIGHTING",
+        "PARTYHAT",
+        "GOBLIN",
+        "STORMCELL",
+        "VALENTINE",
+        "PEPPERMINT",
+        "CAROLBOOK",
+        "TEMPERATUREDROP"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 047",
+      "words": [
+        "SNOWYDAY",
+        "WRAPPINGPAPER",
+        "SURGE",
+        "CAROLSINGER",
+        "THUNDERHEAD",
+        "CHRISTMASDINNER",
+        "LAKEEFFECT",
+        "FROST",
+        "FESTIVEHOME",
+        "SPRINGPICNIC",
+        "WINTERCRAFT",
+        "HOLIDAYTRADITION"
+      ]
+    },
+    {
+      "name": "Holiday Celebrations Word Search Puzzle 048",
+      "words": [
+        "WEATHERSTATION",
+        "WINTERGLOW",
+        "VALENTINECRAFT",
+        "TOYSHOP",
+        "CHRISTMASPARTY",
+        "WATERCYCLE",
+        "STRATUS",
+        "OCCASION",
+        "HOSTESS",
+        "VALENTINEGIFT",
+        "CELEBRATION",
+        "HEATISLAND"
+      ]
+    }
+  ]
+}

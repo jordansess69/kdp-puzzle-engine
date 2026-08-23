@@ -4,7 +4,7 @@
 The hero is a real solved grid with the theme words highlighted, so the
 cover shows what's actually inside rather than generic clip art. Theme
 silhouettes per niche."""
-import argparse, os, random
+import argparse, json, os, random, re
 from PIL import Image, ImageDraw, ImageFont
 
 W, H = 2550, 3300
@@ -24,7 +24,44 @@ PALETTES = {
     "sports":    {"bg": (245, 244, 238), "accent": (44, 92, 162), "deep": (20, 40, 74), "mute": (98, 110, 132), "hi": (255, 196, 60)},
     "ocean-life": {"bg": (236, 244, 247), "accent": (30, 112, 144), "deep": (12, 44, 68), "mute": (94, 120, 134), "hi": (255, 205, 80)},
     "retro-travel-and-landmarks": {"bg": (240, 230, 210), "accent": (176, 116, 62), "deep": (74, 52, 34), "mute": (140, 116, 90), "hi": (255, 200, 74)},
+    "sunset":    {"bg": (255, 241, 224), "accent": (235, 101, 86), "deep": (74, 49, 70), "mute": (145, 92, 90), "hi": (255, 190, 74)},
+    "ocean-breeze": {"bg": (234, 248, 247), "accent": (42, 153, 169), "deep": (22, 64, 91), "mute": (83, 126, 143), "hi": (255, 205, 86)},
+    "lavender-pop": {"bg": (248, 240, 255), "accent": (143, 104, 204), "deep": (69, 51, 101), "mute": (125, 103, 151), "hi": (255, 194, 95)},
+    "candy-pop": {"bg": (255, 244, 241), "accent": (232, 92, 132), "deep": (78, 53, 88), "mute": (149, 100, 122), "hi": (112, 205, 190)},
+    "neon-arcade": {"bg": (24, 21, 52), "accent": (255, 71, 154), "deep": (250, 244, 255), "mute": (184, 177, 211), "hi": (52, 231, 213)},
+    "midnight-gold": {"bg": (24, 31, 48), "accent": (211, 164, 69), "deep": (248, 242, 224), "mute": (160, 170, 187), "hi": (239, 202, 106)},
+    "berry-blush": {"bg": (255, 240, 244), "accent": (194, 62, 100), "deep": (83, 35, 58), "mute": (150, 96, 118), "hi": (246, 178, 94)},
+    "forest-cabin": {"bg": (238, 238, 219), "accent": (75, 111, 76), "deep": (38, 63, 43), "mute": (113, 129, 97), "hi": (220, 165, 75)},
+    "desert-sun": {"bg": (255, 239, 211), "accent": (199, 91, 49), "deep": (93, 51, 41), "mute": (156, 106, 83), "hi": (245, 187, 76)},
+    "coastal-blue": {"bg": (235, 247, 250), "accent": (43, 126, 164), "deep": (25, 66, 93), "mute": (100, 137, 151), "hi": (244, 191, 74)},
+    "autumn-harvest": {"bg": (250, 237, 211), "accent": (181, 79, 37), "deep": (92, 52, 32), "mute": (144, 104, 70), "hi": (231, 161, 55)},
+    "winter-frost": {"bg": (239, 248, 252), "accent": (77, 143, 177), "deep": (34, 66, 91), "mute": (112, 144, 161), "hi": (214, 238, 246)},
+    "spring-meadow": {"bg": (245, 250, 230), "accent": (100, 160, 81), "deep": (45, 83, 52), "mute": (124, 151, 101), "hi": (244, 204, 73)},
+    "royal-plum": {"bg": (247, 239, 250), "accent": (117, 60, 139), "deep": (64, 34, 79), "mute": (132, 98, 143), "hi": (228, 181, 76)},
+    "espresso-cream": {"bg": (247, 238, 222), "accent": (126, 83, 53), "deep": (63, 42, 31), "mute": (134, 112, 91), "hi": (222, 168, 77)},
+    "tropical-pop": {"bg": (255, 244, 209), "accent": (25, 153, 142), "deep": (26, 75, 88), "mute": (84, 144, 136), "hi": (244, 106, 89)},
+    "holly-jolly": {"bg": (247, 244, 232), "accent": (184, 42, 50), "deep": (31, 91, 58), "mute": (112, 132, 101), "hi": (220, 174, 66)},
+    "spooky-night": {"bg": (30, 25, 48), "accent": (238, 112, 39), "deep": (245, 238, 210), "mute": (151, 126, 174), "hi": (146, 87, 177)},
+    "valentine-rose": {"bg": (255, 239, 244), "accent": (207, 52, 95), "deep": (111, 34, 61), "mute": (165, 105, 127), "hi": (240, 171, 100)},
+    "easter-pastel": {"bg": (250, 246, 230), "accent": (115, 159, 201), "deep": (80, 78, 117), "mute": (151, 142, 169), "hi": (246, 193, 91)},
+    "patriotic": {"bg": (247, 245, 238), "accent": (181, 46, 57), "deep": (35, 65, 117), "mute": (107, 122, 144), "hi": (222, 181, 69)},
+    "scholarly-blue": {"bg": (241, 247, 252), "accent": (53, 124, 177), "deep": (28, 56, 91), "mute": (101, 133, 158), "hi": (243, 190, 74)},
+    "notebook-mint": {"bg": (242, 250, 245), "accent": (67, 157, 128), "deep": (30, 74, 65), "mute": (108, 145, 132), "hi": (246, 198, 76)},
+    "library-burgundy": {"bg": (250, 242, 238), "accent": (143, 49, 70), "deep": (80, 29, 42), "mute": (150, 100, 109), "hi": (223, 174, 76)},
+    "starlight-indigo": {"bg": (240, 241, 252), "accent": (91, 91, 184), "deep": (43, 42, 97), "mute": (122, 122, 166), "hi": (244, 201, 87)},
+    "citrus-study": {"bg": (255, 250, 229), "accent": (224, 132, 35), "deep": (77, 70, 37), "mute": (148, 132, 86), "hi": (87, 171, 130)},
+    "graphite-copper": {"bg": (241, 240, 236), "accent": (180, 105, 55), "deep": (45, 49, 55), "mute": (111, 113, 115), "hi": (232, 185, 93)},
+    "pixel-neon": {"bg": (26, 23, 46), "accent": (87, 232, 201), "deep": (248, 242, 255), "mute": (174, 160, 204), "hi": (255, 104, 173)},
+    "cinema-red": {"bg": (252, 243, 236), "accent": (197, 52, 49), "deep": (83, 33, 37), "mute": (151, 100, 96), "hi": (235, 181, 68)},
 }
+# Kept as a friendly legacy option because older saved themes and the UI offer
+# "christmas" as a palette name, while the newer name is "holly-jolly".
+PALETTES["christmas"] = PALETTES["holly-jolly"]
+# Historical launch themes used these earlier names.  Keeping aliases means
+# older saved books stay visually intentional instead of silently falling back.
+PALETTES["retro-drive"] = PALETTES["retro-travel-and-landmarks"]
+PALETTES["retro-pop"] = PALETTES["nostalgia"]
+PALETTES["cosmic-night"] = PALETTES["starlight-indigo"]
 
 ARIALB = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
 ARIAL = "/System/Library/Fonts/Supplemental/Arial.ttf"
@@ -34,10 +71,24 @@ MONO = "/System/Library/Fonts/Supplemental/Courier New Bold.ttf"
 
 
 def f(path, size):
-    try:
-        return ImageFont.truetype(path, size)
-    except Exception:
-        return ImageFont.truetype(ARIALB, size)
+    """Load a sensible font on macOS, Windows, or a bundled Python runtime."""
+    windows_fonts = os.path.join(os.environ.get("WINDIR", r"C:\\Windows"), "Fonts")
+    bold = "Bold" in path or path == IMPACT or path == GEORGIA
+    candidates = [
+        path,
+        os.path.join(windows_fonts, "impact.ttf") if path == IMPACT else "",
+        os.path.join(windows_fonts, "georgiab.ttf") if path == GEORGIA else "",
+        os.path.join(windows_fonts, "arialbd.ttf" if bold else "arial.ttf"),
+        "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf",
+    ]
+    for candidate in candidates:
+        if not candidate:
+            continue
+        try:
+            return ImageFont.truetype(candidate, size)
+        except OSError:
+            continue
+    return ImageFont.load_default()
 
 
 def wrap(d, text, fnt, maxw):
@@ -259,7 +310,7 @@ THEME_WORDS = {
 DEFAULT_HERO_WORDS = ["WORD", "SEARCH", "PUZZLE", "SOLVE"]
 
 
-def hero_grid(d, cx, cy, cell, theme, accent, deep, hi):
+def hero_grid(d, cx, cy, cell, theme, accent, deep, hi, words=None):
     """A solved-looking word search: 9x9 grid, some words highlighted with yellow sweeps."""
     n = 9
     size = n * cell
@@ -270,9 +321,14 @@ def hero_grid(d, cx, cy, cell, theme, accent, deep, hi):
 
     # placements: (word, (r,c), (dr,dc)). Pad to 4 words so an unregistered
     # theme falls back gracefully instead of an IndexError.
-    words = list(THEME_WORDS.get(theme, [])) or list(DEFAULT_HERO_WORDS)
-    while len(words) < 4:
-        words.append(DEFAULT_HERO_WORDS[len(words)])
+    source_words = words or list(THEME_WORDS.get(theme, [])) or list(DEFAULT_HERO_WORDS)
+    cleaned = ["".join(ch for ch in word.upper() if ch.isalpha()) for word in source_words]
+    cleaned = [word for word in cleaned if word]
+    # Select real theme words that fit the four demonstration paths.
+    words = []
+    for limit in (8, 7, 6, 7):
+        match = next((word for word in cleaned if len(word) <= limit and word not in words), None)
+        words.append(match or DEFAULT_HERO_WORDS[len(words)])
     # Four pairwise-DISJOINT placements (top row / right col / center diagonal /
     # left col) so no two highlighted words share a cell — otherwise the later
     # word overwrites the crossing letter and the sweep reads as a garbled word.
@@ -312,7 +368,8 @@ def hero_grid(d, cx, cy, cell, theme, accent, deep, hi):
     d.rectangle([x0, y0, x0 + size, y0 + size], outline=deep, width=6)
 
     # 4) Letters
-    lf = ImageFont.truetype(MONO, int(cell * 0.56))
+    # Use the cross-platform font helper here too; MONO is a macOS path.
+    lf = f(MONO, int(cell * 0.56))
     for r in range(n):
         for c in range(n):
             ch = grid[r][c]
@@ -321,24 +378,424 @@ def hero_grid(d, cx, cy, cell, theme, accent, deep, hi):
                    ch, font=lf, fill=deep)
 
 
+def theme_words(path):
+    """Return the selected theme's words for cover detail; gracefully fall back."""
+    if not path:
+        return None
+    try:
+        data = json.load(open(path, encoding="utf-8"))
+        return [word for puzzle in data.get("puzzles", []) for word in puzzle.get("words", [])]
+    except (OSError, ValueError, TypeError):
+        return None
+
+
+def translucent_puzzle_overlay(d, a):
+    """Place a quiet, genuine-theme puzzle excerpt in unused lower cover space."""
+    overlay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    od = ImageDraw.Draw(overlay)
+    hero_grid(od, W // 2, 2390, cell=80, theme=a.theme or a.palette,
+              accent=(57, 191, 183), deep=(47, 45, 78), hi=(255, 209, 80),
+              words=getattr(a, "cover_words", None))
+    alpha = overlay.getchannel("A").point(lambda value: value * 36 // 255)
+    overlay.putalpha(alpha)
+    d._image.paste(overlay, (0, 0), overlay)
+
+
+def _centered(d, text, font, y, color):
+    d.text(((W - d.textlength(text, font=font)) / 2, y), text, font=font, fill=color)
+
+
+def difficulty_chip(d, difficulty, palette):
+    """Draw a compact book-level difficulty marker without competing with the title."""
+    if not difficulty:
+        return
+    label = str(difficulty).upper()
+    font = f(ARIALB, 30)
+    width = d.textlength(label, font=font)
+    x1, y1 = W - 145, 126
+    x0, y0 = x1 - width - 42, y1 - 10
+    d.rounded_rectangle([x0, y0, x1, y1 + 42], radius=18,
+                        fill=palette["deep"], outline=palette["hi"], width=3)
+    d.text((x0 + 21, y0 + 6), label, font=font, fill=palette["bg"])
+
+
+def _title_lines(d, title, font, max_width):
+    return wrap(d, title.upper().replace("LARGE PRINT ", ""), font, max_width)
+
+
+def format_label(a, include_word_search=False):
+    """Use a truthful format label instead of assuming every book is large print."""
+    label = str(getattr(a, "format_label", "") or "WORD SEARCH").upper().strip()
+    if label == "LARGE PRINT" and include_word_search:
+        return "LARGE PRINT WORD SEARCH"
+    return label
+
+
+def cassette(d, x, y, s, body, detail):
+    w, h = int(360 * s), int(230 * s)
+    d.rounded_rectangle([x, y, x + w, y + h], radius=int(28 * s), fill=body, outline=(47, 45, 78), width=max(3, int(8 * s)))
+    d.rounded_rectangle([x + int(54*s), y + int(38*s), x + w - int(54*s), y + int(128*s)], radius=int(10*s), fill=(250, 244, 226))
+    for cx in (x + int(115*s), x + w - int(115*s)):
+        d.ellipse([cx - int(34*s), y + int(125*s), cx + int(34*s), y + int(193*s)], fill=detail, outline=(47, 45, 78), width=max(2, int(5*s)))
+        d.ellipse([cx - int(10*s), y + int(149*s), cx + int(10*s), y + int(169*s)], fill=(250, 244, 226))
+    d.rectangle([x + int(135*s), y + int(158*s), x + w - int(135*s), y + int(178*s)], fill=(47, 45, 78))
+
+
+def game_controller(d, x, y, s, body, detail):
+    w, h = int(390 * s), int(190 * s)
+    d.rounded_rectangle([x, y, x + w, y + h], radius=int(75*s), fill=body, outline=(47, 45, 78), width=max(3, int(8*s)))
+    cx, cy = x + int(110*s), y + int(95*s)
+    d.rectangle([cx - int(15*s), cy - int(48*s), cx + int(15*s), cy + int(48*s)], fill=(47, 45, 78))
+    d.rectangle([cx - int(48*s), cy - int(15*s), cx + int(48*s), cy + int(15*s)], fill=(47, 45, 78))
+    for ox, oy in ((285, 62), (325, 105)):
+        d.ellipse([x + int((ox-20)*s), y + int((oy-20)*s), x + int((ox+20)*s), y + int((oy+20)*s)], fill=detail, outline=(47,45,78), width=max(2, int(4*s)))
+    d.ellipse([x + int(180*s), y + int(78*s), x + int(210*s), y + int(108*s)], fill=(47,45,78))
+
+
+def tv(d, x, y, s, screen, body):
+    w, h = int(300*s), int(240*s)
+    d.rounded_rectangle([x, y, x+w, y+h], radius=int(32*s), fill=body, outline=(47,45,78), width=max(3,int(8*s)))
+    d.rounded_rectangle([x+int(30*s), y+int(38*s), x+int(205*s), y+int(178*s)], radius=int(12*s), fill=screen)
+    d.ellipse([x+int(235*s), y+int(67*s), x+int(265*s), y+int(97*s)], fill=(47,45,78))
+    d.ellipse([x+int(235*s), y+int(122*s), x+int(265*s), y+int(152*s)], fill=(47,45,78))
+    d.line([(x+int(90*s), y), (x+int(55*s), y-int(75*s))], fill=(47,45,78), width=max(3,int(7*s)))
+    d.line([(x+int(120*s), y), (x+int(155*s), y-int(75*s))], fill=(47,45,78), width=max(3,int(7*s)))
+
+
+def playful_90s_cover(d, a, palette):
+    """Colorful, object-led layout that respects the selected palette."""
+    cream, teal, navy, pink, yellow = palette["bg"], palette["accent"], palette["deep"], palette["mute"], palette["hi"]
+    purple = tuple(min(255, value + 28) for value in pink)
+    d.rectangle([0, 0, W, H], fill=cream)
+    d.rectangle([0, 0, W, 330], fill=teal)
+    d.rectangle([0, H-275, W, H], fill=purple)
+    translucent_puzzle_overlay(d, a)
+    # Playful background shapes stay outside the title's safe reading zone.
+    for x, y, r, color in [(210,480,86,yellow), (2325,475,72,pink), (250,2580,100,teal), (2300,2600,95,yellow)]:
+        d.ellipse([x-r, y-r, x+r, y+r], fill=color, outline=navy, width=8)
+    cassette(d, 120, 720, 0.92, pink, yellow)
+    game_controller(d, 1990, 780, 0.95, purple, yellow)
+    tv(d, 145, 2300, 0.86, teal, yellow)
+    cassette(d, 1930, 2250, 0.82, teal, pink)
+    # Central title card gives the copy an uncluttered, high-contrast home.
+    d.rounded_rectangle([320, 405, W-320, 1645], radius=58, fill=navy)
+    _centered(d, format_label(a), f(IMPACT, 95), 510, yellow)
+    title_font = f(IMPACT, 155)
+    y = 685
+    for line in _title_lines(d, a.title, title_font, W-790):
+        _centered(d, line, title_font, y, cream)
+        y += 175
+    subtitle_font = f(ARIALB, 48)
+    for line in wrap(d, a.subtitle, subtitle_font, W-800):
+        _centered(d, line, subtitle_font, y+18, yellow)
+        y += 65
+    if a.badge:
+        badge_font = f(IMPACT, 80)
+        badge_w = d.textlength(a.badge, font=badge_font)
+        d.rounded_rectangle([(W-badge_w)/2-52, 1700, (W+badge_w)/2+52, 1835], radius=32, fill=yellow, outline=navy, width=7)
+        _centered(d, a.badge, badge_font, 1722, navy)
+    # Give the lower half a real proof-of-product focal point instead of a faint background grid.
+    d.rounded_rectangle([430, 1940, W-430, 2820], radius=40, fill=cream, outline=navy, width=12)
+    hero_grid(d, W // 2, 2380, cell=96, theme=a.theme or a.palette, accent=teal, deep=navy, hi=yellow)
+    # A few simple confetti marks add energy without reducing small-size clarity.
+    for x, y, color in [(280,2050,pink), (2200,2200,teal), (2180,1990,purple), (320,2620,pink), (2240,2690,yellow)]:
+        d.line([(x-38,y-38),(x+38,y+38)], fill=color, width=18)
+        d.line([(x-38,y+38),(x+38,y-38)], fill=color, width=18)
+    if a.author:
+        _centered(d, a.author, f(ARIALB, 58), 2920, cream)
+
+
+def sunburst_cover(d, a, palette):
+    """A poster-like layout with energetic rays and a protected copy area."""
+    bg, accent, deep, mute, hi = palette["bg"], palette["accent"], palette["deep"], palette["mute"], palette["hi"]
+    d.rectangle([0, 0, W, H], fill=bg)
+    cx, cy = W // 2, H // 2
+    import math
+    for n in range(28):
+        a0, a1 = math.tau * n / 28, math.tau * (n + 0.48) / 28
+        d.polygon([(cx, cy), (cx + 2900 * math.cos(a0), cy + 2900 * math.sin(a0)), (cx + 2900 * math.cos(a1), cy + 2900 * math.sin(a1))], fill=accent if n % 2 == 0 else hi)
+    d.rounded_rectangle([220, 210, W - 220, 1150], radius=50, fill=bg, outline=deep, width=12)
+    _centered(d, format_label(a), f(IMPACT, 95), 300, accent)
+    title_font, y = f(IMPACT, 144), 470
+    for line in _title_lines(d, a.title, title_font, W - 620):
+        _centered(d, line, title_font, y, deep); y += 163
+    for line in wrap(d, a.subtitle, f(ARIALB, 45), W - 650):
+        _centered(d, line, f(ARIALB, 45), y + 12, mute); y += 62
+    d.rounded_rectangle([500, 1290, W - 500, 2390], radius=34, fill=bg, outline=deep, width=12)
+    hero_grid(d, W // 2, 1840, cell=102, theme=a.theme or a.palette, accent=accent, deep=deep, hi=hi)
+    if a.badge:
+        badge_font, badge_width = f(IMPACT, 74), d.textlength(a.badge, font=f(IMPACT, 74))
+        d.rounded_rectangle([(W-badge_width)/2-48, 2545, (W+badge_width)/2+48, 2675], radius=28, fill=deep)
+        _centered(d, a.badge, badge_font, 2567, bg)
+    if a.author:
+        _centered(d, a.author, f(ARIALB, 56), 2900, deep)
+
+
+def photo_hero_cover(d, a, palette):
+    """A photo-led editorial cover: image first, with refined readable type."""
+    if not a.art or not os.path.isfile(a.art):
+        raise ValueError("Photo Hero needs a hero artwork image.")
+    source = Image.open(a.art).convert("RGB")
+    scale = max(W / source.width, H / source.height)
+    resized = source.resize((round(source.width * scale), round(source.height * scale)), Image.Resampling.LANCZOS)
+    left = (resized.width - W) // 2
+    extra_height = max(0, resized.height - H)
+    top = 0 if getattr(a, "art_focus", "center") == "top" else (extra_height if getattr(a, "art_focus", "center") == "bottom" else extra_height // 2)
+    d._image.paste(resized.crop((left, top, left + W, top + H)), (0, 0))
+    # A gentle top-to-bottom vignette protects type without hiding the art.
+    # This deliberately avoids the old, oversized rounded title card.
+    vignette = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    vd = ImageDraw.Draw(vignette)
+    for y in range(H):
+        if y < 1220:
+            alpha = int(176 - (y / 1220) * 142)
+        elif y > 2380:
+            alpha = int(20 + ((y - 2380) / (H - 2380)) * 95)
+        else:
+            alpha = 24
+        vd.line([(0, y), (W, y)], fill=(14, 20, 30, max(0, min(176, alpha))))
+    d._image.paste(vignette, (0, 0), vignette)
+    bg, accent, deep, mute, hi = palette["bg"], palette["accent"], palette["deep"], palette["mute"], palette["hi"]
+    # Keep the cover visibly connected to the puzzle inside it.  This is a
+    # quiet, low-contrast word-search texture—not another competing title card.
+    overlay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    od = ImageDraw.Draw(overlay)
+    grid_left, grid_top, cell, size = 1320, 1880, 118, 9
+    line_color = (*hi, 48)
+    letter_color = (*bg, 64)
+    font = f(ARIALB, 48)
+    word_source = list(getattr(a, "cover_words", []) or DEFAULT_HERO_WORDS)
+    letters = "".join(re.sub(r"[^A-Z]", "", str(word).upper()) for word in word_source) or "WORDSEARCHPUZZLES"
+    for row in range(size + 1):
+        od.line([(grid_left, grid_top + row * cell), (grid_left + size * cell, grid_top + row * cell)], fill=line_color, width=3)
+    for column in range(size + 1):
+        od.line([(grid_left + column * cell, grid_top), (grid_left + column * cell, grid_top + size * cell)], fill=line_color, width=3)
+    for row in range(size):
+        for column in range(size):
+            letter = letters[(row * size + column) % len(letters)]
+            od.text((grid_left + column * cell + 35, grid_top + row * cell + 31), letter, font=font, fill=letter_color)
+    d._image.paste(overlay, (0, 0), overlay)
+    # Restrained editorial label and a short accent rule make the cover feel
+    # designed for this image rather than dropped into a template.
+    label_font = f(ARIALB, 38)
+    _centered(d, format_label(a, include_word_search=True), label_font, 205, hi)
+    d.line([(W // 2 - 165, 278), (W // 2 + 165, 278)], fill=hi, width=5)
+    title_size = 142
+    title_lines = []
+    for candidate in (154, 142, 130, 118, 106, 94):
+        candidate_font = f(IMPACT, candidate)
+        candidate_lines = _title_lines(d, a.title, candidate_font, W - 480)
+        if len(candidate_lines) <= 3:
+            title_size, title_lines = candidate, candidate_lines
+            break
+    if not title_lines:
+        title_lines = _title_lines(d, a.title, f(IMPACT, title_size), W - 480)
+    title_font = f(IMPACT, title_size)
+    y = 345
+    for line in title_lines:
+        x = (W - d.textlength(line, font=title_font)) / 2
+        # Photo covers can use a very dark palette background.  The old
+        # palette-bg title ink became nearly invisible over a dark photo, so
+        # use the palette highlight for consistently readable display type.
+        d.text((x + 4, y + 5), line, font=title_font, fill=(0, 0, 0))
+        d.text((x, y), line, font=title_font, fill=hi)
+        y += int(title_size * 1.02)
+    subtitle_font = f(ARIALB, 42)
+    for line in wrap(d, a.subtitle, subtitle_font, W - 560)[:2]:
+        _centered(d, line, subtitle_font, y + 20, hi)
+        y += 58
+    if a.badge:
+        badge_font = f(ARIALB, 40)
+        badge = a.badge.upper()
+        badge_width = min(d.textlength(badge, font=badge_font), W - 420)
+        bx0, bx1 = (W - badge_width) / 2 - 34, (W + badge_width) / 2 + 34
+        d.rounded_rectangle([bx0, 2820, bx1, 2896], radius=20, fill=deep, outline=hi, width=3)
+        _centered(d, badge, badge_font, 2837, bg)
+    if a.author:
+        _centered(d, a.author, f(ARIALB, 42), 3090, hi)
+
+
+def standout_cover(d, a, palette):
+    """Three higher-contrast, print-safe alternatives to the classic layout."""
+    bg, accent, deep, mute, hi = palette["bg"], palette["accent"], palette["deep"], palette["mute"], palette["hi"]
+    style = a.style
+    if style == "photo":
+        photo_hero_cover(d, a, palette)
+    elif style == "sunburst":
+        sunburst_cover(d, a, palette)
+    elif style == "playful":
+        playful_90s_cover(d, a, palette)
+    elif style == "bold":
+        d.rectangle([0, 0, W, H], fill=deep)
+        for x in range(-400, W + 500, 250):
+            d.line([(x, 0), (x + 880, H)], fill=accent, width=42)
+        d.rounded_rectangle([150, 130, W - 150, 940], radius=50, fill=bg)
+        label_font = f(IMPACT, 112)
+        _centered(d, format_label(a), label_font, 205, deep)
+        title_font = f(IMPACT, 174)
+        y = 390
+        for line in _title_lines(d, a.title, title_font, W - 420):
+            _centered(d, line, title_font, y, deep)
+            y += 185
+        subtitle_font = f(ARIAL, 54)
+        for line in wrap(d, a.subtitle, subtitle_font, W - 520):
+            _centered(d, line, subtitle_font, y + 25, mute)
+            y += 72
+        d.rounded_rectangle([335, 1135, W - 335, 2580], radius=42, fill=bg, outline=hi, width=18)
+        hero_grid(d, W // 2, 1850, cell=132, theme=a.theme or a.palette, accent=accent, deep=deep, hi=hi)
+        if a.badge:
+            badge_font = f(IMPACT, 92)
+            badge_w = d.textlength(a.badge, font=badge_font)
+            d.rounded_rectangle([(W - badge_w) / 2 - 58, 2665, (W + badge_w) / 2 + 58, 2805], radius=30, fill=hi)
+            _centered(d, a.badge, badge_font, 2684, deep)
+        if a.author:
+            _centered(d, a.author, f(ARIALB, 62), 3050, bg)
+    elif style == "retro":
+        d.rectangle([0, 0, W, H], fill=bg)
+        # A restrained 90s-inspired frame: visual personality without competing
+        # with title legibility when the cover is seen at Amazon thumbnail size.
+        d.rectangle([0, 0, W, 165], fill=accent)
+        d.rectangle([0, H - 165, W, H], fill=accent)
+        d.rounded_rectangle([170, 210, W - 170, 1040], radius=44, fill=deep)
+        for cx, cy, radius in [(230, 250, 78), (2320, 250, 78), (230, 3070, 78), (2320, 3070, 78)]:
+            d.ellipse([cx - radius, cy - radius, cx + radius, cy + radius], fill=hi)
+            d.line([(cx - radius // 2, cy + radius // 2), (cx + radius // 2, cy - radius // 2)], fill=accent, width=15)
+        _centered(d, format_label(a), f(IMPACT, 90), 285, hi)
+        title_font = f(IMPACT, 132)
+        y = 445
+        for line in _title_lines(d, a.title, title_font, W - 500):
+            _centered(d, line, title_font, y, bg)
+            y += 150
+        subtitle_font = f(ARIALB, 44)
+        for line in wrap(d, a.subtitle, subtitle_font, W - 560):
+            _centered(d, line, subtitle_font, y + 14, hi)
+            y += 59
+        # The proof grid supports the sale without overwhelming the cover.
+        d.rounded_rectangle([545, 1215, W - 545, 2355], radius=26, fill=bg, outline=deep, width=12)
+        hero_grid(d, W // 2, 1785, cell=104, theme=a.theme or a.palette, accent=accent, deep=deep, hi=hi)
+        if a.badge:
+            badge_font = f(IMPACT, 72)
+            badge_width = d.textlength(a.badge, font=badge_font)
+            d.rounded_rectangle([(W - badge_width) / 2 - 42, 2475, (W + badge_width) / 2 + 42, 2605], radius=28, fill=hi)
+            _centered(d, a.badge, badge_font, 2497, deep)
+        if a.author:
+            _centered(d, a.author, f(ARIALB, 56), 2820, deep)
+    elif style == "gallery":
+        d.rectangle([0, 0, W, H], fill=bg)
+        d.rectangle([0, 0, W, 920], fill=deep)
+        d.rectangle([0, 920, W, 980], fill=hi)
+        _centered(d, "WORD SEARCH", f(ARIALB, 72), 150, hi)
+        y = 300
+        title_font = f(IMPACT, 138)
+        for line in _title_lines(d, a.title, title_font, W - 430):
+            _centered(d, line, title_font, y, bg); y += 150
+        d.rounded_rectangle([300, 1160, W - 300, 2540], radius=38, fill=(255, 255, 255), outline=accent, width=18)
+        hero_grid(d, W // 2, 1845, cell=126, theme=a.theme or a.palette, accent=accent, deep=deep, hi=hi)
+        if a.badge: _centered(d, a.badge, f(ARIALB, 70), 2665, accent)
+        if a.author: _centered(d, a.author, f(ARIALB, 58), 3000, deep)
+    elif style == "colorblock":
+        d.rectangle([0, 0, W, H], fill=accent)
+        d.rectangle([0, 0, W, 1120], fill=deep)
+        d.rectangle([150, 150, W - 150, 970], fill=bg)
+        _centered(d, "WORD SEARCH", f(ARIALB, 70), 220, accent)
+        y = 390
+        for line in _title_lines(d, a.title, f(IMPACT, 132), W - 440):
+            _centered(d, line, f(IMPACT, 132), y, deep); y += 145
+        hero_grid(d, W // 2, 1900, cell=146, theme=a.theme or a.palette, accent=hi, deep=deep, hi=bg)
+        if a.badge: _centered(d, a.badge, f(ARIALB, 72), 2780, deep)
+        if a.author: _centered(d, a.author, f(ARIALB, 58), 3040, deep)
+    elif style == "ticket":
+        d.rectangle([0, 0, W, H], fill=hi)
+        d.rounded_rectangle([130, 150, W - 130, H - 150], radius=55, fill=bg, outline=deep, width=16)
+        for y in (520, 2780): d.line([(220, y), (W - 220, y)], fill=accent, width=8)
+        _centered(d, "WORD SEARCH COLLECTION", f(ARIALB, 65), 260, accent)
+        y = 640
+        for line in _title_lines(d, a.title, f(IMPACT, 135), W - 460): _centered(d, line, f(IMPACT, 135), y, deep); y += 150
+        hero_grid(d, W // 2, 1790, cell=128, theme=a.theme or a.palette, accent=accent, deep=deep, hi=hi)
+        if a.badge: _centered(d, a.badge, f(ARIALB, 72), 2475, accent)
+        if a.author: _centered(d, a.author, f(ARIALB, 56), 2950, deep)
+    elif style == "halo":
+        d.rectangle([0, 0, W, H], fill=deep)
+        for radius, color in ((1050, accent), (800, hi), (560, bg)):
+            d.ellipse([W//2-radius, 1700-radius, W//2+radius, 1700+radius], outline=color, width=34)
+        d.rounded_rectangle([190, 160, W-190, 1010], radius=48, fill=bg)
+        _centered(d, "WORD SEARCH", f(ARIALB, 68), 245, accent)
+        y=440
+        for line in _title_lines(d, a.title, f(IMPACT, 138), W-480): _centered(d,line,f(IMPACT,138),y,deep); y+=150
+        hero_grid(d, W//2, 1750, cell=122, theme=a.theme or a.palette, accent=accent, deep=deep, hi=hi)
+        if a.badge: _centered(d,a.badge,f(ARIALB,70),2600,bg)
+        if a.author: _centered(d,a.author,f(ARIALB,56),3040,bg)
+    elif style == "stripe":
+        d.rectangle([0,0,W,H],fill=bg)
+        for x in range(-500,W+600,330): d.polygon([(x,0),(x+110,0),(x+W,H),(x+W-110,H)],fill=accent)
+        d.rounded_rectangle([260,210,W-260,1120],radius=46,fill=deep)
+        _centered(d,"WORD SEARCH",f(ARIALB,68),290,hi); y=480
+        for line in _title_lines(d,a.title,f(IMPACT,134),W-580): _centered(d,line,f(IMPACT,134),y,bg); y+=148
+        hero_grid(d,W//2,1920,cell=138,theme=a.theme or a.palette,accent=hi,deep=deep,hi=bg)
+        if a.badge: _centered(d,a.badge,f(ARIALB,72),2750,deep)
+        if a.author: _centered(d,a.author,f(ARIALB,56),3030,deep)
+    else:  # minimal
+        d.rectangle([0, 0, W, H], fill=bg)
+        d.rectangle([150, 150, W - 150, H - 150], outline=accent, width=7)
+        d.line([(360, 385), (W - 360, 385)], fill=accent, width=8)
+        _centered(d, format_label(a), f(ARIALB, 78), 220, accent)
+        title_font = f(GEORGIA, 126)
+        y = 480
+        for line in _title_lines(d, a.title, title_font, W - 500):
+            _centered(d, line, title_font, y, deep)
+            y += 145
+        subtitle_font = f(ARIAL, 50)
+        for line in wrap(d, a.subtitle, subtitle_font, W - 600):
+            _centered(d, line, subtitle_font, y + 14, mute)
+            y += 64
+        hero_grid(d, W // 2, 1930, cell=140, theme=a.theme or a.palette, accent=accent, deep=deep, hi=hi)
+        if a.badge:
+            _centered(d, a.badge, f(ARIALB, 68), 2695, accent)
+        if a.author:
+            _centered(d, a.author, f(ARIALB, 58), 3005, deep)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--title", required=True)
     ap.add_argument("--subtitle", default="")
     ap.add_argument("--author", default="")
     ap.add_argument("--badge", default="")
+    ap.add_argument("--difficulty", default="", help="book-level difficulty shown as a small cover marker")
+    ap.add_argument("--format-label", default="WORD SEARCH", help="truthful cover format label, such as LARGE PRINT or WORD SEARCH")
     ap.add_argument("--palette", default="nature")
     ap.add_argument("--theme", default=None, help="silhouette theme; defaults to --palette")
+    ap.add_argument("--theme-file", default=None, help="theme JSON used for real-word puzzle cover details")
+    ap.add_argument("--art", default=None, help="licensed image used by the Photo Hero layout")
+    ap.add_argument("--art-focus", choices=("top", "center", "bottom"), default="center", help="automatic crop focus for Photo Hero artwork")
+    ap.add_argument("--style", choices=("classic", "photo", "playful", "sunburst", "bold", "retro", "minimal", "gallery", "colorblock", "ticket", "halo", "stripe"), default="classic")
     ap.add_argument("--out", required=True)
+    ap.add_argument("--preview", action="store_true", help="write a quick 510x660 preview instead of a print cover")
     a = ap.parse_args()
 
     random.seed(11)
     theme = a.theme or a.palette
+    a.cover_words = theme_words(a.theme_file)
     P = PALETTES.get(a.palette, PALETTES["nature"])
     bg, accent, deep, mute, hi = P["bg"], P["accent"], P["deep"], P["mute"], P["hi"]
 
     img = Image.new("RGB", (W, H), bg)
     d = ImageDraw.Draw(img)
+
+    if a.style != "classic":
+        standout_cover(d, a, P)
+        difficulty_chip(d, a.difficulty, P)
+        os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True)
+        if a.preview:
+            img.resize((510, 660), Image.Resampling.LANCZOS).save(a.out, "PNG")
+            print(f"PREVIEW -> {a.out}")
+            return
+        img.save(a.out, "PNG")
+        img.resize((255, 330), Image.Resampling.LANCZOS).save(
+            os.path.splitext(a.out)[0] + "_thumbnail.png", "PNG"
+        )
+        print(f"DONE -> {a.out}  ({W}x{H}, palette={a.palette}, style={a.style})")
+        return
 
     # double frame
     m = 120
@@ -350,9 +807,9 @@ def main():
         fn(d, int(W * fx), int(H * fy), scale, accent)
 
     # ---- TITLE block ----
-    # "LARGE PRINT" stand-alone bar (high contrast attention grab at thumbnail size)
+    # Truthful stand-alone format bar (high contrast attention grab at thumbnail size)
     lpf = f(IMPACT, 138)
-    lp = "LARGE PRINT"
+    lp = format_label(a)
     lpw = d.textlength(lp, font=lpf)
     bar_pad_x, bar_pad_y = 60, 28
     bx0, by0 = (W - lpw) / 2 - bar_pad_x, 380 - bar_pad_y
@@ -417,8 +874,17 @@ def main():
         aw = d.textlength(a.author, font=af)
         d.text(((W - aw) / 2, H - 280), a.author, font=af, fill=deep)
 
+    difficulty_chip(d, a.difficulty, P)
+
     os.makedirs(os.path.dirname(a.out) or ".", exist_ok=True)
+    if a.preview:
+        img.resize((510, 660), Image.Resampling.LANCZOS).save(a.out, "PNG")
+        print(f"PREVIEW -> {a.out}")
+        return
     img.save(a.out, "PNG")
+    img.resize((255, 330), Image.Resampling.LANCZOS).save(
+        os.path.splitext(a.out)[0] + "_thumbnail.png", "PNG"
+    )
     print(f"DONE -> {a.out}  ({W}x{H}, palette={a.palette}, theme={theme})")
 
 

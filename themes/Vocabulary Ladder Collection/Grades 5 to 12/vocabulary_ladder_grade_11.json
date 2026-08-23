@@ -1,0 +1,851 @@
+{
+  "title": "Vocabulary Ladder: Grade 11 Word Quest",
+  "subtitle": "48 vocabulary word searches to build stronger reading and writing skills",
+  "author": "Slade Puzzles",
+  "audience": "Teens & Adults",
+  "series": "Vocabulary Ladder: Grades 5–12",
+  "palette": "midnight-gold",
+  "cover_style": "gallery",
+  "cover_badge": "48 LARGE-PRINT PUZZLES - NO REPEATED WORDS",
+  "cover_imprint": "Slade Puzzles • Vocabulary Ladder",
+  "series_design": {
+    "family": "Vocabulary Ladder",
+    "layout": "gallery",
+    "signature_accent": false
+  },
+  "no_repeat_words": true,
+  "detected_topic": "Grade 11 Vocabulary",
+  "difficulty_label": "Challenging",
+  "clipart_search_terms": "grade 11 vocabulary books pencils learning illustration transparent background",
+  "welcome_message": "Welcome to the Grade 11 Word Quest—one puzzle at a time, build words you can use with confidence.",
+  "collection_features": [
+    "48 Grade 11 vocabulary challenges with 12 words in every puzzle.",
+    "A calm, screen-free way to practice words for reading, writing, and class discussion.",
+    "Try the Word Power Challenge after each completed puzzle."
+  ],
+  "source_word_bank": {
+    "name": "Guided Builder Master Word Bank",
+    "topics": [
+      "Grade 11 Vocabulary"
+    ],
+    "selection_policy": "Direct frequency-screened grade pool only"
+  },
+  "puzzles": [
+    {
+      "name": "Grade 11 - Everyday Words 001",
+      "words": [
+        "CONDITIONER",
+        "OBLIGATIONS",
+        "PERMISSIONS",
+        "BOREDOM",
+        "CARACAS",
+        "WORSHIPPERS",
+        "FABRICATING",
+        "APPEARANCES",
+        "GOTTLIEB",
+        "ANYWHERE",
+        "ROULETTE",
+        "NIRVANA"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Learning 002",
+      "words": [
+        "MALIGNANT",
+        "APPLAUDING",
+        "SUBDIVISIONS",
+        "EYELINER",
+        "VICTIMS",
+        "DETERMINANT",
+        "PLUNGED",
+        "GARNISH",
+        "SMALLPOX",
+        "SUBSIDED",
+        "UTILIZING",
+        "TRANSFERS"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Feelings 003",
+      "words": [
+        "MATHEMATICIANS",
+        "MASTERING",
+        "SIGNALLED",
+        "RADIOCARBON",
+        "LANDFALL",
+        "ENLARGEMENT",
+        "ELEGANTLY",
+        "RENOUNCED",
+        "APPRENTICES",
+        "SINGLETON",
+        "CRIPPLING",
+        "REFINING"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Actions 004",
+      "words": [
+        "HOPPING",
+        "SUCCESSORS",
+        "SECURITIES",
+        "MANHUNT",
+        "AVIONICS",
+        "SERGEANT",
+        "PUBLICATION",
+        "OPPRESS",
+        "COACHED",
+        "PHANTOMS",
+        "DETERIORATE",
+        "DAMAGED"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Describing 005",
+      "words": [
+        "DEPENDANT",
+        "RANKINGS",
+        "DISASTROUS",
+        "RACETRACK",
+        "OKINAWA",
+        "NATURES",
+        "WARRANTIES",
+        "INSPIRES",
+        "DEPOSITED",
+        "TRAMWAY",
+        "BEREAVEMENT",
+        "CLASSICS"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for People 006",
+      "words": [
+        "CAMILLA",
+        "ORIENTATED",
+        "DISCOGRAPHY",
+        "GROCERY",
+        "CHUCKLED",
+        "BOOKMARKS",
+        "CLIPPED",
+        "ROSARIO",
+        "SANDWICH",
+        "BACHELOR",
+        "WORDING",
+        "TERRORS"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Places 007",
+      "words": [
+        "LUTHERAN",
+        "CURTAINS",
+        "FLUORESCENCE",
+        "DISCONTENT",
+        "ESTUARY",
+        "STRINGS",
+        "FOLLICLES",
+        "TRAILERS",
+        "COMPLEXION",
+        "MAINTAINED",
+        "DEDUCTIBLE",
+        "HOOKERS"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Nature 008",
+      "words": [
+        "SLASHING",
+        "STARTER",
+        "SQUEAKY",
+        "ELEVATORS",
+        "CREDIBILITY",
+        "BORROWING",
+        "BASTIAN",
+        "SUPPOSE",
+        "HEADLINER",
+        "CONTRIBUTED",
+        "INEVITABILITY",
+        "ENCOMPASS"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Ideas 009",
+      "words": [
+        "FIREFLIES",
+        "CHAPTER",
+        "KEYWORDS",
+        "OSTEOPOROSIS",
+        "FOLLICLE",
+        "OVERSEEING",
+        "STRINGER",
+        "HOUSEWIFE",
+        "UPLOADING",
+        "RECTORY",
+        "MITOCHONDRIAL",
+        "ARROGANT"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Stories 010",
+      "words": [
+        "OBJECTIVITY",
+        "WELDING",
+        "CEILING",
+        "APPLICATIONS",
+        "VOICING",
+        "SENTENCES",
+        "PROFUSELY",
+        "ASBESTOS",
+        "DIVERSIFY",
+        "DECADENCE",
+        "SNATCHING",
+        "MULTIPLICATION"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for School 011",
+      "words": [
+        "RECOMMENDS",
+        "NEWSROOM",
+        "DISCRIMINATED",
+        "DISCOURAGING",
+        "DIAGONALLY",
+        "PROFILES",
+        "SERGEANTS",
+        "INSURRECTION",
+        "TESTERS",
+        "RUTHLESSLY",
+        "PARENTAGE",
+        "AUSTRIA"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Growth 012",
+      "words": [
+        "EDUCATING",
+        "RUDENESS",
+        "UPSTATE",
+        "COLLECTOR",
+        "UNCOVERING",
+        "INSTRUCTS",
+        "WEDLOCK",
+        "REMNANT",
+        "SAXOPHONE",
+        "TERMINATES",
+        "DIGESTIVE",
+        "PERSUASION"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Decisions 013",
+      "words": [
+        "UNDERPANTS",
+        "RESIDUES",
+        "SUNFLOWER",
+        "DEMOGRAPHY",
+        "PRUSSIAN",
+        "SPLITTER",
+        "GODMOTHER",
+        "CLEANEST",
+        "LEAVING",
+        "READILY",
+        "TRIANGLE",
+        "HEADGEAR"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Discovery 014",
+      "words": [
+        "COBBLER",
+        "PEAKING",
+        "SHUFFLED",
+        "PROSECUTORS",
+        "PACKAGED",
+        "DISPUTES",
+        "STARTING",
+        "DRAFTING",
+        "PRESCRIBE",
+        "PRECAUTIONARY",
+        "SALESPERSON",
+        "KICKERS"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Communication 015",
+      "words": [
+        "INROADS",
+        "DISGRACED",
+        "PEREIRA",
+        "EDUCATOR",
+        "SUBSIDE",
+        "CONJURED",
+        "GREETED",
+        "MILLING",
+        "CUSTARD",
+        "AFFILIATE",
+        "UNLEASH",
+        "LOUNGES"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Success 016",
+      "words": [
+        "HYPNOTIC",
+        "COMPRESSORS",
+        "UNDERSCORES",
+        "CANBERRA",
+        "LABRADOR",
+        "ARCHITECTURAL",
+        "DELIBERATIONS",
+        "HARBORS",
+        "AUTHORITARIAN",
+        "EASTMAN",
+        "REQUIREMENT",
+        "UNOPENED"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Change 017",
+      "words": [
+        "HESITANT",
+        "SHARPNESS",
+        "MENTORSHIP",
+        "AMETHYST",
+        "NOTICEABLE",
+        "ABSORBED",
+        "KNIGHTED",
+        "GENEVIEVE",
+        "PRESENTATIONS",
+        "UNFORTUNATELY",
+        "FUNNIEST",
+        "DIRECTS"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Challenges 018",
+      "words": [
+        "FIRESTONE",
+        "LACTATION",
+        "TEACHINGS",
+        "COLLABORATIONS",
+        "AGONIST",
+        "RADIOACTIVITY",
+        "QUARANTINED",
+        "TRACTOR",
+        "MILITARILY",
+        "CONSTRUED",
+        "DETRACT",
+        "HEAVENS"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Creativity 019",
+      "words": [
+        "WHITTLE",
+        "EXTREMITIES",
+        "DISPENSING",
+        "PREPARATORY",
+        "DISINTEGRATE",
+        "VARIETIES",
+        "DISRESPECTFUL",
+        "SIBLING",
+        "OBSERVANCE",
+        "UNWIELDY",
+        "LIQUIDITY",
+        "MIDLANDS"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for the Future 020",
+      "words": [
+        "NAVIGATIONAL",
+        "TRAGEDIES",
+        "INDICES",
+        "STEAMED",
+        "FALSIFIED",
+        "MATERIALISM",
+        "PHOTOGRAPHY",
+        "FANATIC",
+        "VANESSA",
+        "JITTERS",
+        "PILGRIMS",
+        "RELENTLESSLY"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words to Know 021",
+      "words": [
+        "SUSTENANCE",
+        "EXAMINATION",
+        "SOUTHWESTERN",
+        "WEIGHED",
+        "DISCOURSE",
+        "MAJORING",
+        "ADVANCEMENT",
+        "SCROLLING",
+        "SWEETENED",
+        "BEDTIME",
+        "POSITIONS",
+        "FLUCTUATION"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words to Use 022",
+      "words": [
+        "NEANDERTHALS",
+        "WHICHEVER",
+        "INDIFFERENCE",
+        "REGULARLY",
+        "GUSHING",
+        "HOTTEST",
+        "WANDERS",
+        "ERASURE",
+        "CORPSES",
+        "CAMPBELL",
+        "PROHIBITIONS",
+        "EASTERN"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words to Remember 023",
+      "words": [
+        "AEROPLANE",
+        "PACKING",
+        "EVERGLADES",
+        "APOLOGISED",
+        "CAULDRON",
+        "SPEEDING",
+        "STRONGER",
+        "GIRAFFES",
+        "MINIONS",
+        "TATTERED",
+        "CONGRATULATED",
+        "RELIEVING"
+      ]
+    },
+    {
+      "name": "Grade 11 - Vocabulary Finale 024",
+      "words": [
+        "SUBCOMMITTEE",
+        "HARDSHIP",
+        "SPEEDWAY",
+        "DEFENDANT",
+        "NEPALESE",
+        "TRANSCENDS",
+        "BATTLESHIP",
+        "CASTLES",
+        "PUMPKINS",
+        "DENOMINATOR",
+        "MIDDLEMAN",
+        "INORGANIC"
+      ]
+    },
+    {
+      "name": "Grade 11 - Everyday Words 025",
+      "words": [
+        "TEASING",
+        "SUBSTITUTION",
+        "ESTABLISHMENT",
+        "LAWMAKER",
+        "CONSIGNMENT",
+        "MEZZANINE",
+        "MARGARET",
+        "BATTLES",
+        "BEARISH",
+        "DISREGARDED",
+        "ILLUSIONS",
+        "DISASTER"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Learning 026",
+      "words": [
+        "CONGOLESE",
+        "ACCUSATIONS",
+        "LAWSUITS",
+        "AMICABLE",
+        "THERAPEUTIC",
+        "BROKERAGE",
+        "SUSTAINING",
+        "CAPSULES",
+        "TRANSPORTED",
+        "PUBLISHED",
+        "BOUTIQUES",
+        "MISMANAGEMENT"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Feelings 027",
+      "words": [
+        "PAYCHECKS",
+        "DISCUSS",
+        "NEUROLOGY",
+        "REISSUED",
+        "IMPERIALIST",
+        "EVANGELICALS",
+        "TINIEST",
+        "CALIFORNIANS",
+        "TREASON",
+        "INTENDED",
+        "PROFITABLE",
+        "EXPLORATION"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Actions 028",
+      "words": [
+        "APPRECIATED",
+        "SPOILED",
+        "PROCLAIMING",
+        "STUTTERING",
+        "LEANING",
+        "ADVERSITY",
+        "FOUNDATIONS",
+        "LUSCIOUS",
+        "IMAGINES",
+        "CONDUCIVE",
+        "SOLOMON",
+        "PURCHASERS"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Describing 029",
+      "words": [
+        "PRESLEY",
+        "DIFFERENTIATES",
+        "PENISES",
+        "SOLVING",
+        "DRINKER",
+        "ACTUALITY",
+        "VERMONT",
+        "DRAUGHT",
+        "PLUTONIUM",
+        "VANISHED",
+        "VICINITY",
+        "PATRICK"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for People 030",
+      "words": [
+        "PETITION",
+        "SHREDDING",
+        "POSTURE",
+        "CHARLOTTE",
+        "MITCHELL",
+        "RECURRENT",
+        "TALKATIVE",
+        "RANCHER",
+        "HIGHNESS",
+        "REPRESENTATIVE",
+        "ARMISTICE",
+        "SUPERMAN"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Places 031",
+      "words": [
+        "MERMAID",
+        "BYZANTIUM",
+        "SHATTERS",
+        "DETAINEES",
+        "SCOURED",
+        "HURTFUL",
+        "TOPLESS",
+        "GREENING",
+        "IMPASSIONED",
+        "AIRBAGS",
+        "SNOWFALL",
+        "ASSISTANT"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Nature 032",
+      "words": [
+        "RESULTANT",
+        "OBTAINABLE",
+        "MIRACULOUSLY",
+        "EXCEEDED",
+        "SUPPOSING",
+        "OVERUSE",
+        "PROJECTED",
+        "DISTANT",
+        "FREEING",
+        "EMULATE",
+        "WORKSHOPS",
+        "SEMANTICS"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Ideas 033",
+      "words": [
+        "STRENGTHENS",
+        "THUNDERBIRD",
+        "SASKATCHEWAN",
+        "WHITMAN",
+        "DEMONSTRATING",
+        "BERNICE",
+        "MOONSHINE",
+        "ROUNDTABLE",
+        "REALIZED",
+        "RECOGNIZING",
+        "SENATORIAL",
+        "RECREATIONAL"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Stories 034",
+      "words": [
+        "ADJUSTABLE",
+        "ABSOLVE",
+        "VENTRICULAR",
+        "HYPOTHETICAL",
+        "FRENZIED",
+        "LIBRARY",
+        "TAPERED",
+        "LAZINESS",
+        "BATTLESHIPS",
+        "UNFAITHFUL",
+        "IMPURITIES",
+        "RENEWAL"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for School 035",
+      "words": [
+        "SHREWSBURY",
+        "BACKUPS",
+        "SYMBOLICALLY",
+        "NIGHTMARE",
+        "VISIBLY",
+        "QUALIFIER",
+        "ULTERIOR",
+        "BRADFORD",
+        "STRAIGHTEN",
+        "APOLOGETIC",
+        "INHIBITOR",
+        "WORSENED"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Growth 036",
+      "words": [
+        "FERNANDO",
+        "MEASLES",
+        "REVOLUTIONIZED",
+        "PRESIDE",
+        "CHEMISTS",
+        "DOLLHOUSE",
+        "TOURNAMENT",
+        "INSIDERS",
+        "KINETIC",
+        "FLAMBOYANT",
+        "CORRUPTING",
+        "CRITICISM"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Decisions 037",
+      "words": [
+        "FUGITIVES",
+        "OBTAINING",
+        "EROSION",
+        "RENAMING",
+        "HOPELESSNESS",
+        "INTONATION",
+        "STEAMING",
+        "EXTREME",
+        "OPENERS",
+        "RECYCLE",
+        "ROYALIST",
+        "GEOGRAPHIC"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Discovery 038",
+      "words": [
+        "ENGLISHMEN",
+        "CAPTURING",
+        "OBLITERATED",
+        "DEFENSIVELY",
+        "TUBERCULOSIS",
+        "FREDDIE",
+        "DISCREDITED",
+        "ASYMPTOMATIC",
+        "ADDICTS",
+        "ILLNESSES",
+        "REVIVING",
+        "OFFENSIVE"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Communication 039",
+      "words": [
+        "CHAMBERLAIN",
+        "LANGLEY",
+        "SAMARITAN",
+        "GENDERED",
+        "GEORDIE",
+        "CIGARETTE",
+        "BROADEST",
+        "SIMPLEST",
+        "SACRIFICE",
+        "JESUITS",
+        "ESSENTIALLY",
+        "RECONCILED"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Success 040",
+      "words": [
+        "NEUTRAL",
+        "GIGGLES",
+        "DISSOLVING",
+        "DEFENDER",
+        "DYSTROPHY",
+        "TUMBLED",
+        "DIFFERENTIATE",
+        "PLAGUES",
+        "AFFIRMATION",
+        "CLEARWATER",
+        "TENSILE",
+        "OBSERVATORY"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Change 041",
+      "words": [
+        "REINSURANCE",
+        "HYDROXIDE",
+        "DUPLICATE",
+        "FRONTAL",
+        "ASSIGNED",
+        "PARALYSIS",
+        "STATUES",
+        "CONFESSING",
+        "STIFFER",
+        "MERITORIOUS",
+        "SEPARATING",
+        "PADDING"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Challenges 042",
+      "words": [
+        "SANDALS",
+        "DEPENDING",
+        "RETRIEVING",
+        "CLICHES",
+        "ACCIDENTAL",
+        "MOBILIZATION",
+        "ACCELERATING",
+        "RANDOMNESS",
+        "COUNTERING",
+        "HEIGHTEN",
+        "NEWCOMER",
+        "PRESSURES"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for Creativity 043",
+      "words": [
+        "NETWORK",
+        "CLEOPATRA",
+        "SALINITY",
+        "RECEIVES",
+        "CIVILIANS",
+        "JOHANNES",
+        "LAPPING",
+        "REWORKED",
+        "LOCOMOTIVES",
+        "CERTIFICATES",
+        "OVERLAY",
+        "WATERFALLS"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words for the Future 044",
+      "words": [
+        "CENSURE",
+        "ATTACHED",
+        "PSYCHOLOGICAL",
+        "EDIBLES",
+        "ADHERENCE",
+        "TWOFOLD",
+        "SEAWATER",
+        "CERTIFYING",
+        "HOTLINE",
+        "UNRESPONSIVE",
+        "CHILLING",
+        "CONDUCTS"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words to Know 045",
+      "words": [
+        "GIGGLING",
+        "ARBITRAGE",
+        "MARQUEE",
+        "KITTENS",
+        "GENERATION",
+        "VICTIMIZATION",
+        "CLICKED",
+        "ENDURANCE",
+        "ADOPTION",
+        "BARRISTER",
+        "TOOLING",
+        "SAPPHIRE"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words to Use 046",
+      "words": [
+        "CLARENDON",
+        "HURDLES",
+        "GALAXIES",
+        "ENTHUSIASTS",
+        "WEIGHTLIFTING",
+        "EVOLUTION",
+        "PRECAUTIONS",
+        "EJACULATION",
+        "BOMBERS",
+        "ASPARAGUS",
+        "INSTINCTIVE",
+        "GRIEVOUS"
+      ]
+    },
+    {
+      "name": "Grade 11 - Words to Remember 047",
+      "words": [
+        "SHILLING",
+        "OVERDONE",
+        "COEXISTENCE",
+        "DISADVANTAGES",
+        "DONATIONS",
+        "INCOMPARABLE",
+        "PLANKTON",
+        "SHANKAR",
+        "CARTRIDGE",
+        "TENANCY",
+        "SORTING",
+        "ADMITTED"
+      ]
+    },
+    {
+      "name": "Grade 11 - Vocabulary Finale 048",
+      "words": [
+        "STRAINED",
+        "ADJUSTING",
+        "CARDIOLOGY",
+        "NORBERT",
+        "SPILLING",
+        "SCULPTED",
+        "CANTERBURY",
+        "FILIPINA",
+        "GLISTENING",
+        "IRREPLACEABLE",
+        "HARNESSED",
+        "ENCYCLOPEDIA"
+      ]
+    }
+  ]
+}

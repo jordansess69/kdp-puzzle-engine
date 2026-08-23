@@ -1,0 +1,864 @@
+{
+  "title": "Fishing Word Search",
+  "subtitle": "48 lake and river word search puzzles",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Popular Themes",
+  "series_rank": 14,
+  "palette": "ocean-life",
+  "cover_style": "stripe",
+  "puzzles": [
+    {
+      "name": "Fishing Puzzle 001",
+      "words": [
+        "MOCHA",
+        "CAPTAINAMERICA",
+        "SERVICEBAY",
+        "CARMEET",
+        "PROSECCO",
+        "MOVIERENTAL",
+        "RIVERDALE",
+        "WIPER",
+        "NIGHTDRIVE",
+        "PASSWORD",
+        "RIVIAN",
+        "SWAMP"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 002",
+      "words": [
+        "CONTROLLER",
+        "BRAINGAME",
+        "SADDLESHOES",
+        "MODELKIT",
+        "RIDETHELL",
+        "FRIENDLIST",
+        "LENS",
+        "RALLYCAR",
+        "HIKER",
+        "GRANTURISMO",
+        "MULAN",
+        "ESPRESSO"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 003",
+      "words": [
+        "PARKSANDRECREATION",
+        "GRANDTHEFTAUTO",
+        "TOPFORTY",
+        "DOLL",
+        "INKLING",
+        "PARTYCHAT",
+        "GNARLY",
+        "BAT",
+        "SIA",
+        "BAROMETER",
+        "BIGSCREEN",
+        "TAPERECORDER"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 004",
+      "words": [
+        "FORZA",
+        "CANTER",
+        "OSPREY",
+        "BEACHTRIP",
+        "CAMPERVAN",
+        "DOWNLOADABLE",
+        "AVATAR",
+        "WIRELESSCONTROLLER",
+        "GAMECASE",
+        "SHOVELKNIGHT",
+        "BACKROAD",
+        "TSX"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 005",
+      "words": [
+        "TERRARIA",
+        "HERCULES",
+        "PROJECTZOMBOID",
+        "PINBALL",
+        "CHAINWALLET",
+        "MIGRATION",
+        "PRIUS",
+        "ROADMAP",
+        "WEEKENDDRIVE",
+        "OFFROADFUN",
+        "DIABLO",
+        "HITSHOW"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 006",
+      "words": [
+        "CAMPSTORE",
+        "BINGE",
+        "RAVFOUR",
+        "AGEOFEMPIRES",
+        "BLOCKBUSTER",
+        "GAMELOBBY",
+        "KITE",
+        "BADGE",
+        "TRUCK",
+        "HULAHOOP",
+        "SCREAM",
+        "RAM"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 007",
+      "words": [
+        "MOVIEMAGIC",
+        "GARAGESALE",
+        "MOUNTAINROAD",
+        "FLANNEL",
+        "SPACEINVADERS",
+        "TSHIRT",
+        "HAIRGEL",
+        "VOLVO",
+        "ROADHELP",
+        "WINDSHIELD",
+        "HASHTAG",
+        "GUILTYGEAR"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 008",
+      "words": [
+        "HOLLYWOOD",
+        "GOUDA",
+        "RAIDERS",
+        "ZACHBRYAN",
+        "MAVERICK",
+        "WEREWOLF",
+        "WORMS",
+        "MARVEL",
+        "SELFIESTICK",
+        "GMC",
+        "MILEYCYRUS",
+        "TERCEL"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 009",
+      "words": [
+        "SPORTSCAR",
+        "CARDIGAN",
+        "PROGRAM",
+        "MODELTHREE",
+        "PICNIC",
+        "FILTER",
+        "FIRSTLOOK",
+        "DARKSOULS",
+        "MITSUBISHI",
+        "EARTHBOUND",
+        "USBDRIVE",
+        "CIVILIZATION"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 010",
+      "words": [
+        "LAKETRIP",
+        "TRADINGCARDS",
+        "ROLLERBLADES",
+        "BREEZEWAY",
+        "VIDEO",
+        "GRANDIA",
+        "GRAVEYARD",
+        "SATURDAYMATINEE",
+        "BAND",
+        "CARSEAT",
+        "MONTERO",
+        "TERRITORY"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 011",
+      "words": [
+        "FLEETWOODMAC",
+        "HAMBURGER",
+        "JAGUAR",
+        "BOXSET",
+        "OFFICE",
+        "GRAPHICNOVEL",
+        "CREATIVE",
+        "WIRING",
+        "LIBRARY",
+        "FORESTER",
+        "TREAD",
+        "PORTABLECDPLAYER"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 012",
+      "words": [
+        "BOSS",
+        "HIGHWAY",
+        "AVIATOR",
+        "MERLOT",
+        "BANJOKAZOOIE",
+        "PRINT",
+        "STARION",
+        "GAMEPAD",
+        "FAMILYGUY",
+        "TTYL",
+        "NINETEENTHHOLE",
+        "LIVEMUSIC"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 013",
+      "words": [
+        "VEHICLE",
+        "FEZ",
+        "NISSAN",
+        "RAPPER",
+        "NOVA",
+        "SOLTERRA",
+        "SPACEAGE",
+        "ROMANCE",
+        "NOMANSSKY",
+        "EQUIPMENT",
+        "CASSETTE",
+        "SIMPSONSGAME"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 014",
+      "words": [
+        "NEWCAR",
+        "POPSTAR",
+        "ROCKET",
+        "SONIC",
+        "UNBOXING",
+        "DESERTROAD",
+        "COUPE",
+        "IMPREZA",
+        "THEBEATLES",
+        "MOVIEHOUSE",
+        "SKATE",
+        "CREEPER"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 015",
+      "words": [
+        "COOLDOWN",
+        "TEKKEN",
+        "RAMCHARGER",
+        "SPYRO",
+        "FINDINGNEMO",
+        "AUTHOR",
+        "GAUNTLET",
+        "DRIVETHROUGH",
+        "BOXTRUCK",
+        "BUTTONPRESS",
+        "TIRE",
+        "TOKEN"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 016",
+      "words": [
+        "BUS",
+        "FASTFOOD",
+        "EPIC",
+        "FLOORMAT",
+        "COMPUTERLAB",
+        "GAMEDISC",
+        "VAMPIRESURVIVORS",
+        "RVLIFE",
+        "SONGWRITER",
+        "MEME",
+        "TRIBECA",
+        "MICROPHONE"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 017",
+      "words": [
+        "GAGME",
+        "CXNINETY",
+        "VALHEIM",
+        "JOUST",
+        "PROFILE",
+        "TONYHAWK",
+        "VIDEOCASE",
+        "KARMANNGHIA",
+        "SIGNAL",
+        "NOMINEE",
+        "IRONMAN",
+        "MULTIPLAYER"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 018",
+      "words": [
+        "CARSOAP",
+        "WONDERWOMAN",
+        "WASHBUCKET",
+        "CAPPUCCINO",
+        "THRILLER",
+        "GAMEPASS",
+        "FUSE",
+        "SHUFFLE",
+        "JIMMY",
+        "DUCKHUNT",
+        "TWISTEDMETAL",
+        "FRANCHISE"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 019",
+      "words": [
+        "DENIMJACKET",
+        "BFF",
+        "FORKLIFT",
+        "WATERBOTTLE",
+        "MOTEL",
+        "PUNCHOUT",
+        "FANWEEKEND",
+        "FILM",
+        "WALUIGI",
+        "THEATER",
+        "BOWLING",
+        "CASTINGCALL"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 020",
+      "words": [
+        "CUTSCENE",
+        "QUIETTIME",
+        "MUSICVIDEO",
+        "WAGON",
+        "REGENERATIVE",
+        "UNCHARTED",
+        "ROCKETLEAGUE",
+        "BRAIN",
+        "BIRDIE",
+        "DANCECREW",
+        "GRAVELROAD",
+        "WANDAVISION"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 021",
+      "words": [
+        "MEMORY",
+        "NIGHTLIFE",
+        "RATCHETANDCLANK",
+        "SEOUL",
+        "DESERT",
+        "SPELLBOOK",
+        "CRANKSHAFT",
+        "SEXANDTHECITY",
+        "CHERRYCOLA",
+        "RAVEN",
+        "SUPERFAN",
+        "BARN"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 022",
+      "words": [
+        "BOBBER",
+        "HERO",
+        "PITCHPERFECT",
+        "PIXELART",
+        "NEWKIDS",
+        "SAVEGAME",
+        "EMOJI",
+        "MAXIMA",
+        "JUMP",
+        "CLUBHOUSE",
+        "COOLANT",
+        "BEATMANIA"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 023",
+      "words": [
+        "HEADERS",
+        "BORA",
+        "ELECTRONICSSTORE",
+        "GARBAGETRUCK",
+        "GALAGA",
+        "CARPETCLEANER",
+        "ROOF",
+        "HARRYPOTTER",
+        "SCHOOLOFROCK",
+        "POTION",
+        "POMPADOUR",
+        "LATESHOW"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 024",
+      "words": [
+        "GRIMDAWN",
+        "HOODIE",
+        "TURBOCHARGER",
+        "AVATARFILM",
+        "AUTOSHOP",
+        "PLUSHTOY",
+        "DANCE",
+        "SPORTS",
+        "CORKSCREW",
+        "EIGHTEENWHEELER",
+        "RETRO",
+        "OLIMAR"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 025",
+      "words": [
+        "KILLERINSTINCT",
+        "CAMOUFLAGE",
+        "CARWASH",
+        "SCREENSAVER",
+        "SIERRA",
+        "BEAT",
+        "MILEAGE",
+        "CAMERAPHONE",
+        "VINEYARD",
+        "NSYNC",
+        "METALGEARSOLID",
+        "FUN"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 026",
+      "words": [
+        "WORD",
+        "STARTER",
+        "EMMYS",
+        "TRUNK",
+        "DEADSPACE",
+        "RIO",
+        "CABLETV",
+        "SCIFI",
+        "GUILD",
+        "BEACH",
+        "ALIEN",
+        "MARVELVSCAPCOM"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 027",
+      "words": [
+        "DISCORD",
+        "OMG",
+        "MAGIC",
+        "RETURNAL",
+        "JEEPTRAIL",
+        "POKEMONGO",
+        "GPS",
+        "JANETJACKSON",
+        "SUPERMARIOBROS",
+        "FOAL",
+        "SNOWRUNNER",
+        "FANDOM"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 028",
+      "words": [
+        "SONGLYRICS",
+        "COFFEEBEAN",
+        "ICESTORM",
+        "CHARGERDAYTONA",
+        "MASCOT",
+        "SPACESHUTTLE",
+        "BRAKECHECK",
+        "PIXAR",
+        "INSPECTION",
+        "EIGHTBIT",
+        "CEMENTMIXER",
+        "WINDOWSHOPPING"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 029",
+      "words": [
+        "TALENTSHOW",
+        "FINALFANTASY",
+        "GLOSS",
+        "MONSTERHUNTER",
+        "TOKYO",
+        "ROOFRACK",
+        "FOUNTAINPEN",
+        "POWERPOINT",
+        "OTTAWA",
+        "STARFIELD",
+        "AMERICASGOTTALENT",
+        "ACCORDHYBRID"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 030",
+      "words": [
+        "SPARROW",
+        "CUFFLINKS",
+        "CAMARO",
+        "ENDGAME",
+        "SPOILER",
+        "RAYMAN",
+        "BOOSTERSEAT",
+        "CROSSOVER",
+        "SILVERADO",
+        "PROTAGONIST",
+        "GRILLE",
+        "FANPAGE"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 031",
+      "words": [
+        "ELECTRIC",
+        "TALKSHOW",
+        "COMPACTDISC",
+        "ROLLERRINK",
+        "MIDNIGHT",
+        "FAMILYPICNIC",
+        "SERVICESTATION",
+        "PHOENIXWRIGHT",
+        "HEADUNIT",
+        "SOCIALNETWORK",
+        "THESIMS",
+        "BACKSTAGEPASS"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 032",
+      "words": [
+        "MUDFLAP",
+        "KEYBOARD",
+        "ALTERNATOR",
+        "FATALFURY",
+        "MOONLIGHTER",
+        "ROBOT",
+        "WEBPAGE",
+        "CARTRIP",
+        "HAIRSPRAY",
+        "HORIZON",
+        "DEADPOOL",
+        "CHRONOTRIGGER"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 033",
+      "words": [
+        "AQUAMAN",
+        "ALTERNATIVEROCK",
+        "JAPAN",
+        "FLY",
+        "WARCRAFT",
+        "HOCKEY",
+        "BROADBAND",
+        "STADIUM",
+        "QUEST",
+        "LETTERJACKET",
+        "DOORLOCK",
+        "TRICKORTREAT"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 034",
+      "words": [
+        "DIGITALWATCH",
+        "COLORADO",
+        "GAMETOKEN",
+        "CONCORDE",
+        "TRACKMANIA",
+        "WORKOUT",
+        "DOWNLOAD",
+        "ROADSIDECAMP",
+        "RABBIDS",
+        "AEROSTAR",
+        "AEROBICS",
+        "GAMECRAFT"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 035",
+      "words": [
+        "SOUTHPARKGAME",
+        "SABLE",
+        "TIKTOK",
+        "CONTROLARM",
+        "ANOLIS",
+        "SPORE",
+        "TELLURIDE",
+        "THEWEEKND",
+        "CALLOFDUTY",
+        "TOMBRAIDER",
+        "ROBIN",
+        "REACTION"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 036",
+      "words": [
+        "SWIFTIE",
+        "FAIRLANE",
+        "TRIPPLANNER",
+        "CHRYSLER",
+        "TIGUAN",
+        "DISNEYLAND",
+        "FUELINJECTOR",
+        "KLONOA",
+        "FAIRWAY",
+        "HEROSTORM",
+        "GLADIATOR",
+        "WEEKENDTRIP"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 037",
+      "words": [
+        "RUNEFACTORY",
+        "MYBAD",
+        "RANCHHOUSE",
+        "BATTLEARENA",
+        "GAMERCHAIR",
+        "PORTAL",
+        "DESKTOP",
+        "OPENMIC",
+        "MUSICFESTIVAL",
+        "CAMPERLIFE",
+        "PHOTOLAB",
+        "SPRING"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 038",
+      "words": [
+        "DIGITALSTORE",
+        "SONOMA",
+        "SUBNAUTICA",
+        "TRENDSETTER",
+        "YUKON",
+        "BASKETBALL",
+        "HIGHLANDER",
+        "WITCH",
+        "TURTLE",
+        "KIDICARUS",
+        "HEROINE",
+        "COMPETITION"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 039",
+      "words": [
+        "CLANK",
+        "CAMPSITE",
+        "PORTALDOOR",
+        "TEXTING",
+        "COMEDY",
+        "GAMING",
+        "HOOF",
+        "GRODY",
+        "CARPLAY",
+        "SNOWDRIVE",
+        "BURNEDCD",
+        "SEQUOIA"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 040",
+      "words": [
+        "COOLER",
+        "RIBBON",
+        "PIKMIN",
+        "FUSION",
+        "ROCKABILLY",
+        "PEACH",
+        "RUNWAY",
+        "RACING",
+        "HARVEST",
+        "BRIE",
+        "THEFOREST",
+        "PUZZLE"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 041",
+      "words": [
+        "VERSE",
+        "RODEO",
+        "CINEMA",
+        "MANGA",
+        "AMUSEMENTPARK",
+        "COOL",
+        "HALLPASS",
+        "WESTWORLD",
+        "DRAMA",
+        "LIVESTREAM",
+        "SKINNYJEANS",
+        "DONKEY"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 042",
+      "words": [
+        "PARIS",
+        "PUTTER",
+        "SPONGEBOB",
+        "CARFESTIVAL",
+        "FIREBIRD",
+        "FRONTWHEEL",
+        "GOOFY",
+        "COFFEESHOP",
+        "PICKUP",
+        "NEGATIVE",
+        "SOCCERBALL",
+        "BULLDOZER"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 043",
+      "words": [
+        "NEWRELEASE",
+        "HANDBAG",
+        "BENCHSEAT",
+        "ENCORE",
+        "SLIDEOUT",
+        "BACKWARDCOMPATIBLE",
+        "ASTRONAUT",
+        "SUPERMEATBOY",
+        "LURE",
+        "ROADWORK",
+        "THEGODFATHER",
+        "BAD"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 044",
+      "words": [
+        "ANDROIDAUTO",
+        "MPPLAYER",
+        "SERVICE",
+        "FAMILYGAME",
+        "RUNESCAPE",
+        "TASTING",
+        "CANDYMAN",
+        "LUNCHBOX",
+        "CARALARM",
+        "WEHAPPYFEW",
+        "DONKEYKONGCOUNTRY",
+        "TALKTOTHEHAND"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 045",
+      "words": [
+        "BREEZE",
+        "BANJOTOOIE",
+        "DIRECTOR",
+        "TWISTYPUZZLE",
+        "COLLECTOR",
+        "VINYL",
+        "BUTTON",
+        "ELTONJOHN",
+        "ROLLCAGE",
+        "BILLBOARD",
+        "GHOSTBUSTERS",
+        "NAVIGATION"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 046",
+      "words": [
+        "CAULDRON",
+        "RAINBOWSIX",
+        "CITYCAR",
+        "TRICK",
+        "MEGAMAN",
+        "SHENMUE",
+        "JOURNEY",
+        "GARAGEKEY",
+        "PARAPPA",
+        "BRIDGETON",
+        "JETGRINDRADIO",
+        "BATMAN"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 047",
+      "words": [
+        "SCHITTSCREEK",
+        "DROUGHT",
+        "CORNMAZE",
+        "PLAYBUTTON",
+        "GROCERY",
+        "SPEEDRUN",
+        "TURTLES",
+        "DRIVESHAFT",
+        "BACKUPCAMERA",
+        "PREMIERE",
+        "KINGDOMHEARTS",
+        "VEHICLECARE"
+      ]
+    },
+    {
+      "name": "Fishing Puzzle 048",
+      "words": [
+        "DELTARUNE",
+        "TRACKING",
+        "CHUNKYHIGHLIGHTS",
+        "MEGADRIVE",
+        "RADAR",
+        "THANKFUL",
+        "SEWINGMACHINE",
+        "FRIENDS",
+        "LANPARTY",
+        "QUARTER",
+        "BIRTHDAYPARTY",
+        "CONCERT"
+      ]
+    }
+  ],
+  "detected_topic": "Sports and Hobbies",
+  "recommended_palette": "sports",
+  "recommended_cover_style": "bold",
+  "clipart_search_terms": "Sports and Hobbies Mocha Captainamerica Servicebay illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Relaxing",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "Sports and Hobbies",
+      "General Interest",
+      "Pop Culture & Entertainment",
+      "Video Games & Gaming",
+      "Vehicles & Automotive"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "Sports and Hobbies"
+    ],
+    "checked_at": "2026-08-22T10:08:39"
+  }
+}

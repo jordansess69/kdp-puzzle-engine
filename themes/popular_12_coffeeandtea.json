@@ -1,0 +1,865 @@
+{
+  "title": "Coffee and Tea Word Search",
+  "subtitle": "48 cozy cafe word search puzzles",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Popular Themes",
+  "series_rank": 12,
+  "palette": "espresso-cream",
+  "cover_style": "minimal",
+  "puzzles": [
+    {
+      "name": "Coffee and Tea Puzzle 001",
+      "words": [
+        "MEMORIAL",
+        "PLUSHTOY",
+        "ANIME",
+        "SEPPUKU",
+        "CROWN",
+        "FLASHBULB",
+        "VOICEACTOR",
+        "NEEDLE",
+        "MOUNTAIN",
+        "SHOT",
+        "FROSTEDTIPS",
+        "CABLE"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 002",
+      "words": [
+        "PATCHWORK",
+        "DONUT",
+        "PSYCH",
+        "STITCH",
+        "NIGHTLIFE",
+        "ARCADEGAME",
+        "GAMESHOW",
+        "WIIU",
+        "SNEAKERSTORE",
+        "EPIC",
+        "VASSAL",
+        "DOOM"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 003",
+      "words": [
+        "MILKING",
+        "DISC",
+        "POLYESTER",
+        "POKEMONSTADIUM",
+        "TEXTME",
+        "GAMEZONE",
+        "REMOTECONTROL",
+        "BATTING",
+        "BATTLEARENA",
+        "THEATER",
+        "SALOON",
+        "ROUNDONE"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 004",
+      "words": [
+        "SEATS",
+        "HEADBAND",
+        "MENU",
+        "FLAGSTICK",
+        "CENTRALNEWYORK",
+        "STATEOFDECAY",
+        "ARMOR",
+        "GHOSTOFTSUSHIMA",
+        "HOLLY",
+        "SONICMOVIE",
+        "SONICMANIA",
+        "DANCECREW"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 005",
+      "words": [
+        "FAMILYROOM",
+        "NERF",
+        "BARN",
+        "CATALOG",
+        "APPLIQUE",
+        "MARVELVSCAPCOM",
+        "COLORFUL",
+        "SUGAR",
+        "WEEKEND",
+        "HANDLE",
+        "FANCLUB",
+        "HEADLINER"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 006",
+      "words": [
+        "DRIVESIN",
+        "SUMMER",
+        "SEASHELL",
+        "LIGHTS",
+        "DARKSOULS",
+        "NINETEENTHHOLE",
+        "GAMECUBE",
+        "POTLUCK",
+        "BREAKER",
+        "VIEWER",
+        "MARITIME",
+        "ACIDWASH"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 007",
+      "words": [
+        "GAMEOFTHRONES",
+        "POMPADOUR",
+        "SCIFI",
+        "AWESOME",
+        "CAMPAIGN",
+        "METROPOLIS",
+        "MPPLAYER",
+        "TEAM",
+        "MOVIEMARATHON",
+        "STEAMER",
+        "ANALYSIS",
+        "TELESCOPE"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 008",
+      "words": [
+        "FACTORIO",
+        "BLOCKING",
+        "BEATNIK",
+        "CROSSPLAY",
+        "SCRAPS",
+        "TRIP",
+        "SUFFRAGE",
+        "RINK",
+        "HIGHSCORE",
+        "GAMEPLAY",
+        "CIVILIZATION",
+        "FISHINGROD"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 009",
+      "words": [
+        "PARTHENON",
+        "APERTURE",
+        "MARIOPARTY",
+        "MEANGIRLS",
+        "BASILICA",
+        "WRISTBAND",
+        "ARCHIVIST",
+        "VIDEO",
+        "TRADINGPOST",
+        "CHARMING",
+        "CLIMB",
+        "SHOWCASE"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 010",
+      "words": [
+        "MODDING",
+        "EMOTE",
+        "SEAOFTHIEVES",
+        "PLATFORMSHOES",
+        "UNICORN",
+        "PICKUP",
+        "FROGGER",
+        "GLITTER",
+        "WHITEWALLS",
+        "EEVEE",
+        "MMA",
+        "TAILS"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 011",
+      "words": [
+        "SEAGULL",
+        "GAMEMASTER",
+        "FOLKSONG",
+        "VAMPIRESURVIVORS",
+        "CHEESE",
+        "MOVIEMAGIC",
+        "TESTER",
+        "ADVENTUREISLAND",
+        "HOMESTEAD",
+        "ASTEROIDS",
+        "GANONDORF",
+        "EUROPE"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 012",
+      "words": [
+        "QUAKE",
+        "DEADBYDAYLIGHT",
+        "ARISTOCRAT",
+        "DRAMA",
+        "DISCOVER",
+        "COLA",
+        "LAKEPLACID",
+        "CITY",
+        "XENOBLADE",
+        "FACES",
+        "BARBIECORE",
+        "AEROSMITH"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 013",
+      "words": [
+        "PROTEST",
+        "CERAMIC",
+        "GUILLOTINE",
+        "PROPELLER",
+        "WANDER",
+        "LIPGLOSS",
+        "EXPLORER",
+        "PLAY",
+        "FEATUREFILM",
+        "ADELE",
+        "BARBERSHOP",
+        "DEFENDER"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 014",
+      "words": [
+        "PAPER",
+        "TIGERKING",
+        "STICKER",
+        "FEDERATION",
+        "ATHENS",
+        "HULL",
+        "BOOGIE",
+        "HARMON",
+        "GAMESNIGHT",
+        "JACKOLANTERN",
+        "OUTRUN",
+        "TAILOR"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 015",
+      "words": [
+        "MARY",
+        "SINGER",
+        "MAGAZINE",
+        "KEYCHAIN",
+        "MUTE",
+        "COMPETE",
+        "ROBLOX",
+        "BIRDIE",
+        "TRAIL",
+        "SEASIDE",
+        "POSTER",
+        "FIND"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 016",
+      "words": [
+        "MARBLE",
+        "RENTAL",
+        "LEARN",
+        "PORCH",
+        "CAMEL",
+        "WAVE",
+        "AIRPORT",
+        "SURFING",
+        "KARATEKID",
+        "INTERNETSTAR",
+        "BEAR",
+        "ROTARYPHONE"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 017",
+      "words": [
+        "GAMES",
+        "BURGER",
+        "BANJOKAZOOIE",
+        "VELOUR",
+        "ACORN",
+        "REPLAY",
+        "ORNATE",
+        "DIGITALART",
+        "LEMMINGS",
+        "AVIATORS",
+        "KPOP",
+        "PLAYERS"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 018",
+      "words": [
+        "ONLINEFRIEND",
+        "NAVIGATE",
+        "LIGHTHEART",
+        "SHAKE",
+        "BLUEJAY",
+        "MEDIEVAL",
+        "PANTOMIME",
+        "RECOGNIZE",
+        "PARIS",
+        "REMNANT",
+        "JELLO",
+        "BLONDIE"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 019",
+      "words": [
+        "MICROCHIP",
+        "TICKETSTUB",
+        "BEACHCOMB",
+        "NATIONAL",
+        "KEEL",
+        "SIMCITY",
+        "CELEBRITY",
+        "CABERNET",
+        "POP",
+        "SWAMP",
+        "CLUBHOUSE",
+        "FANDOM"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 020",
+      "words": [
+        "TRENDSETTER",
+        "APEXLEGENDS",
+        "APPLECIDER",
+        "GUARDIANS",
+        "REFRESH",
+        "INK",
+        "MUSICVENUE",
+        "COSTUME",
+        "GLOSS",
+        "FALLOUT",
+        "LEISURE",
+        "VERSE"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 021",
+      "words": [
+        "CATSKILLS",
+        "FOOD",
+        "NATION",
+        "WHEEL",
+        "GARLIC",
+        "DONKEY",
+        "CAB",
+        "MAN",
+        "PULPFICTION",
+        "FAITH",
+        "CUSTOMIZATION",
+        "ROLLOFFILM"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 022",
+      "words": [
+        "RAP",
+        "SONG",
+        "MARKER",
+        "GALLOP",
+        "FUTURE",
+        "CARDGAME",
+        "STAMP",
+        "MIDWAY",
+        "TIME",
+        "RANKING",
+        "PARADISE",
+        "HARVESTMOON"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 023",
+      "words": [
+        "CASTS",
+        "ALLIGATOR",
+        "PROTAGONIST",
+        "WILDFLOWER",
+        "THUNDER",
+        "DIDDYKONG",
+        "WICKED",
+        "PRIZE",
+        "GAMETRAILER",
+        "SCORES",
+        "CLOUDGAMING",
+        "LEGALLYBLONDE"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 024",
+      "words": [
+        "MUSICFEST",
+        "GOLDFINCH",
+        "BATTLEMENT",
+        "FOOTBALLMANAGER",
+        "JAGUAR",
+        "SEINFELD",
+        "CAPPUCCINO",
+        "CLOUD",
+        "GAMEPASS",
+        "GRIMDAWN",
+        "SPYHUNTER",
+        "TENT"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 025",
+      "words": [
+        "MATCHMAKING",
+        "MINIONS",
+        "BOARD",
+        "LONDON",
+        "PUMPKIN",
+        "RINGTONE",
+        "TOWERING",
+        "SCENE",
+        "EMPEROR",
+        "CHAINWALLET",
+        "YEAR",
+        "AUSTEN"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 026",
+      "words": [
+        "PENCIL",
+        "BANJOTOOIE",
+        "NEONLIGHT",
+        "BIGAPPLE",
+        "NAILPOLISH",
+        "LODGE",
+        "CAR",
+        "PLAYGROUND",
+        "RAVENCLAW",
+        "STREAMER",
+        "DANCER",
+        "TOURISM"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 027",
+      "words": [
+        "STUDIES",
+        "GAMETOKEN",
+        "SATIRE",
+        "CUPCAKE",
+        "HURRICANE",
+        "NSYNC",
+        "GRANTURISMO",
+        "MEMORIES",
+        "CHARLIESANGELS",
+        "INFLUENCER",
+        "RETAIL",
+        "HOMECOMPUTER"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 028",
+      "words": [
+        "CAPS",
+        "CONTACTS",
+        "AREACODE",
+        "TOYCAR",
+        "RELAXED",
+        "YELLOWSTONE",
+        "BUSHIDO",
+        "GLOBE",
+        "UPDATES",
+        "RUDDER",
+        "FRESH",
+        "SHEARLINGBOOTS"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 029",
+      "words": [
+        "ADVERTS",
+        "FIGURINE",
+        "GRANDTHEFTAUTO",
+        "TINYTINA",
+        "FROZENYOGURT",
+        "PHOTOS",
+        "AUTUMN",
+        "ENERGYDRINK",
+        "SCARECROW",
+        "BALATRO",
+        "GAMEFRIEND",
+        "SINGALONG"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 030",
+      "words": [
+        "SEQUENCE",
+        "PARAPPATHERAPPER",
+        "GENRE",
+        "GAMEMUSIC",
+        "FILMMAKER",
+        "LEADER",
+        "METALLICA",
+        "DRAGON",
+        "CLIMAX",
+        "SITH",
+        "JANISSARY",
+        "HOUSEPLANT"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 031",
+      "words": [
+        "TITANIC",
+        "ANIMATED",
+        "SPACEAGENCY",
+        "TEEBOX",
+        "SKINK",
+        "VISA",
+        "XCOM",
+        "EQUIPMENT",
+        "BOSS",
+        "PAYDAY",
+        "VCR",
+        "POPQUIZ"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 032",
+      "words": [
+        "TAILFINS",
+        "DANCING",
+        "DARTHVADER",
+        "DRAWING",
+        "THEGODFATHER",
+        "FEDORA",
+        "GENIUS",
+        "TONE",
+        "SOLDIER",
+        "SEQUEL",
+        "THANKFUL",
+        "LIVESTREAMER"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 033",
+      "words": [
+        "AVATARFILM",
+        "NEWGAME",
+        "RANCH",
+        "WEST",
+        "BATTERY",
+        "ROOFTOP",
+        "CROSSOVER",
+        "CURTAINS",
+        "ARCHER",
+        "DRAWBRIDGE",
+        "SOCCER",
+        "RIDETHELL"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 034",
+      "words": [
+        "CREAM",
+        "TROPICAL",
+        "THROWER",
+        "VACATION",
+        "REVOLT",
+        "PINBALL",
+        "DUDE",
+        "TOURIST",
+        "SEASON",
+        "PLATFORMER",
+        "MILLENNIUMFALCON",
+        "TORCHLIGHT"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 035",
+      "words": [
+        "MAPLESYRUP",
+        "ANIMATE",
+        "NIRVANA",
+        "MUSCLE",
+        "LATESHOW",
+        "NBAJAM",
+        "JACKS",
+        "BOOKCASE",
+        "MUSICFESTIVAL",
+        "GODOFWAR",
+        "AVIATOR",
+        "CHRISTIAN"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 036",
+      "words": [
+        "VIDEOSTORE",
+        "GATHER",
+        "NEWKIDS",
+        "FANFICTION",
+        "HOTWHEELS",
+        "FERRY",
+        "SKI",
+        "GEAR",
+        "PROPELL",
+        "OSPREY",
+        "CONTRAST",
+        "CHER"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 037",
+      "words": [
+        "BLOCKS",
+        "ANTIQUE",
+        "SWEET",
+        "BINGHAMTON",
+        "TASTING",
+        "LMAO",
+        "RIVERDALE",
+        "TRAINING",
+        "CHARIZARD",
+        "CHALKBOARD",
+        "PHOTOBOOTH",
+        "BOYBAND"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 038",
+      "words": [
+        "GAMERSCORE",
+        "MUSICIDOL",
+        "YOSHI",
+        "MASTER",
+        "RESTORE",
+        "KUNGFUPANDA",
+        "CALCULATOR",
+        "EXPLOSIVE",
+        "QUILTBLOCK",
+        "ROBOT",
+        "GIRLGROUP",
+        "WORMS"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 039",
+      "words": [
+        "QUAKEARENA",
+        "COCONUT",
+        "LUNCH",
+        "ITINERARY",
+        "WIZARD",
+        "TAIL",
+        "MOCHA",
+        "LYRIC",
+        "RAMP",
+        "DUMBANDDUMBER",
+        "GEOLOGY",
+        "SUNDAYFUNDAY"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 040",
+      "words": [
+        "ACTRESS",
+        "APPRAISAL",
+        "KIRBY",
+        "ESPORTS",
+        "CHINA",
+        "WESTWORLD",
+        "PORTALDOOR",
+        "EMPIRESTATE",
+        "DOCUMENTARY",
+        "FOSSIL",
+        "SADDLE",
+        "BURNER"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 041",
+      "words": [
+        "FLY",
+        "GAMEHERO",
+        "HALFPIPE",
+        "POPART",
+        "BUTTONMASH",
+        "FORMICA",
+        "METROID",
+        "COMBO",
+        "EXTINCT",
+        "JAWS",
+        "CRASHBANDICOOT",
+        "OVERWATCH"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 042",
+      "words": [
+        "MACHINES",
+        "QUEST",
+        "KNIGHT",
+        "GAMEBOY",
+        "MILL",
+        "ELSA",
+        "SANDLOT",
+        "ALLTHAT",
+        "CARDS",
+        "RATCHETANDCLANK",
+        "DOTA",
+        "UNCHARTED"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 043",
+      "words": [
+        "TINTOY",
+        "TERRARIA",
+        "TEASER",
+        "GAMEOVER",
+        "DRUMS",
+        "SHELL",
+        "HOMEVIDEO",
+        "BONUSFEATURES",
+        "CARTOON",
+        "OUTLAW",
+        "STUDDEDBELT",
+        "HALLWAY"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 044",
+      "words": [
+        "SHOOTER",
+        "INFORM",
+        "CROWD",
+        "MALTS",
+        "WICKER",
+        "ATLAS",
+        "GUITARSOLO",
+        "SOCIAL",
+        "MOOSE",
+        "GEORGE",
+        "MIITOPIA",
+        "OLYMPIC"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 045",
+      "words": [
+        "RATING",
+        "FAMOUS",
+        "HASHTAG",
+        "CARRIEUNDERWOOD",
+        "NIGHTCLUB",
+        "GRAY",
+        "EXHIBIT",
+        "COUNTRYSIDE",
+        "BUS",
+        "KNIGHTS",
+        "FAVORITE",
+        "ADIRONDACKS"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 046",
+      "words": [
+        "MEETUPS",
+        "COMFORT",
+        "WOLVERINE",
+        "SPARROW",
+        "SKYWALKER",
+        "FAMILYGAME",
+        "TEENIDOL",
+        "COASTAL",
+        "PUZZLE",
+        "EVERQUEST",
+        "ROMAN",
+        "DRAW"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 047",
+      "words": [
+        "LOCOMOTE",
+        "GRUNGE",
+        "OLIMAR",
+        "ARABIAN",
+        "FEATHER",
+        "CARAVAN",
+        "SNACKCAKE",
+        "WOODPANELING",
+        "BEETLEJUICE",
+        "LIZZO",
+        "UTICA",
+        "FUNFAIR"
+      ]
+    },
+    {
+      "name": "Coffee and Tea Puzzle 048",
+      "words": [
+        "COACH",
+        "FUNNY",
+        "LUIGISMANSION",
+        "DVD",
+        "BIOSHOCK",
+        "CHUNKYHIGHLIGHTS",
+        "PENDULUM",
+        "FOCUS",
+        "MAYAN",
+        "ZEUS",
+        "MODELING",
+        "CUSTOMS"
+      ]
+    }
+  ],
+  "detected_topic": "General Interest",
+  "recommended_palette": "nature",
+  "recommended_cover_style": "classic",
+  "clipart_search_terms": "General Interest Memorial Plushtoy Anime illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Relaxing",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "General Interest",
+      "Pop Culture & Entertainment",
+      "Video Games & Gaming",
+      "Sports and Hobbies",
+      "Travel and Geography",
+      "Nature"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "General Interest"
+    ],
+    "checked_at": "2026-08-22T10:08:39"
+  }
+}

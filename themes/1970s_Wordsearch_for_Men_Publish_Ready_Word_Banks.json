@@ -1,0 +1,897 @@
+{
+  "title": "The Groovy Seventies Word Search for Men",
+  "subtitle": "100 themed word search puzzles",
+  "author": "Slade Puzzles",
+  "palette": "nature",
+  "puzzles": [
+    {
+      "name": "Arcade & Games",
+      "words": [
+        "MACRAME",
+        "FOOD",
+        "INSTAMATIC",
+        "TALENT",
+        "IRIS",
+        "FAST",
+        "NESTS",
+        "FURNITURE",
+        "RAILWAY",
+        "THREAD",
+        "PARODY",
+        "PALACE"
+      ]
+    },
+    {
+      "name": "Disco Night",
+      "words": [
+        "SEQUENCE",
+        "MAYFLOWER",
+        "STARFISH",
+        "HARMONY",
+        "ARCADE",
+        "PONDEROSA",
+        "NAZI",
+        "DIVE",
+        "STING",
+        "HORSES",
+        "BOOBY",
+        "IVY"
+      ]
+    },
+    {
+      "name": "Fashion",
+      "words": [
+        "SANCTUARY",
+        "OILDERRICK",
+        "DEEP",
+        "TRADINGPOST",
+        "LONESTAR",
+        "SALT",
+        "BEANBAG",
+        "ARMS",
+        "SCREEN",
+        "SONAR",
+        "MAKO",
+        "ZOO"
+      ]
+    },
+    {
+      "name": "Cars & Vans",
+      "words": [
+        "SQUIRREL",
+        "RIMTRAIL",
+        "COLORADORIVER",
+        "JACKS",
+        "COKEOVEN",
+        "FEATHER",
+        "HAN",
+        "BIOLOGY",
+        "LILAC",
+        "WATCH",
+        "FILM",
+        "GOLDENSTATE"
+      ]
+    },
+    {
+      "name": "Outdoors",
+      "words": [
+        "PRESCOTT",
+        "TOYS",
+        "PRODUCTION",
+        "FRESH",
+        "ROBINS",
+        "LIMESTONE",
+        "RIDERS",
+        "TRACKED",
+        "LEGS",
+        "GENTOO",
+        "LEAP",
+        "CATFISH"
+      ]
+    },
+    {
+      "name": "Rock & Records",
+      "words": [
+        "APES",
+        "BUFFALOWINGS",
+        "OPEN",
+        "LINER",
+        "HUMID",
+        "ANNUAL",
+        "TENTACLE",
+        "FERN",
+        "REVISION",
+        "GAMES",
+        "PARASOL",
+        "SONORANDESERT"
+      ]
+    },
+    {
+      "name": "TV Night",
+      "words": [
+        "THEAT",
+        "CAMPFIRE",
+        "CHILI",
+        "HOSE",
+        "SURFBOARD",
+        "EARTHWORM",
+        "FLUKE",
+        "PENNSYLVANIAWILDS",
+        "WARRIOR",
+        "LANDMARK",
+        "APPRAISAL",
+        "DIMMER"
+      ]
+    },
+    {
+      "name": "Roller Rink",
+      "words": [
+        "RAPIDS",
+        "KEYWEST",
+        "MIRRORBALL",
+        "FORT",
+        "COLORFUL",
+        "COMFY",
+        "SUMATRA",
+        "CHROME",
+        "ANCHOR",
+        "CONVENT",
+        "PRESSURE",
+        "EAT"
+      ]
+    },
+    {
+      "name": "Food & Fondue",
+      "words": [
+        "BOOGIE",
+        "PARK",
+        "AVENUE",
+        "COOKOUT",
+        "STATELINE",
+        "FRONTIER",
+        "SAILBOAT",
+        "FREEWHEEL",
+        "SURFBOARDS",
+        "CELLAR",
+        "DROPS",
+        "HUBCAP"
+      ]
+    },
+    {
+      "name": "CB Radio",
+      "words": [
+        "PETAL",
+        "LUPINE",
+        "MOSS",
+        "EFFECTS",
+        "SNACKS",
+        "FRONT",
+        "FEDERATION",
+        "FLORIDAKEYS",
+        "ANCHOVY",
+        "REFUGE",
+        "RIVER",
+        "FANART"
+      ]
+    },
+    {
+      "name": "Tech & Video",
+      "words": [
+        "SOLVE",
+        "SHEARS",
+        "SONG",
+        "PROMOTE",
+        "FILMMAKER",
+        "DIVING",
+        "UNITY",
+        "KNIGHTS",
+        "BOOK",
+        "QUALITY",
+        "GENTLE",
+        "HEDGE"
+      ]
+    },
+    {
+      "name": "Home Decor",
+      "words": [
+        "REDWOODCOAST",
+        "CANISTER",
+        "FAIRWAY",
+        "BREAKWATER",
+        "RIM",
+        "TRAIL",
+        "PETRICHOR",
+        "CHAIN",
+        "THANKFUL",
+        "FRIENDS",
+        "COMMUNICATE",
+        "RANKING"
+      ]
+    },
+    {
+      "name": "Arcade & Games: Essentials",
+      "words": [
+        "SNACKBAR",
+        "TRIP",
+        "COLORADODESERT",
+        "MORAN",
+        "QING",
+        "ARCTIC",
+        "CROW",
+        "ADIRONDACKS",
+        "POPULATIONS",
+        "CATERPILLAR",
+        "COPEPOD",
+        "VIEW"
+      ]
+    },
+    {
+      "name": "Disco Night: Essentials",
+      "words": [
+        "ODESSA",
+        "PANEL",
+        "LAYOUT",
+        "GLAM",
+        "HAVEN",
+        "GOBY",
+        "MOUNTAINGOAT",
+        "COLOSSEUM",
+        "AMUSE",
+        "SYMPHONY",
+        "ROCKS",
+        "BRAINGAME"
+      ]
+    },
+    {
+      "name": "Fashion: Essentials",
+      "words": [
+        "NECTAR",
+        "WAVES",
+        "BASTROP",
+        "PAGES",
+        "HORNED",
+        "GREENS",
+        "ELM",
+        "ANGELSLANDING",
+        "KRILL",
+        "COLISEUM",
+        "MOLE",
+        "LEGACY"
+      ]
+    },
+    {
+      "name": "Cars & Vans: Essentials",
+      "words": [
+        "GRAPEFRUIT",
+        "HORIZON",
+        "COVEREDBRIDGE",
+        "LASER",
+        "ARMADILLO",
+        "SLOW",
+        "BOOTH",
+        "REJUVENATE",
+        "CONVERSATION",
+        "SPINNER",
+        "PRESS",
+        "BRAZOS"
+      ]
+    },
+    {
+      "name": "Outdoors: Essentials",
+      "words": [
+        "GORILLAS",
+        "NORTHCOUNTRY",
+        "ORNAMENT",
+        "ARCADES",
+        "SYRACUSE",
+        "CLOWNFISH",
+        "COBBLESTONE",
+        "MAINFRAME",
+        "HEADBAND",
+        "DESTINATION",
+        "ORGANIC",
+        "ARCH"
+      ]
+    },
+    {
+      "name": "Rock & Records: Essentials",
+      "words": [
+        "AVIATOR",
+        "SNOWBOARD",
+        "TECHNOLOGY",
+        "SANDDUNES",
+        "EMOTION",
+        "OSCAR",
+        "PINECONE",
+        "DRAGSTRIP",
+        "MONOCHROME",
+        "SQUASHBLOSSOM",
+        "MINER",
+        "GALLOP"
+      ]
+    },
+    {
+      "name": "TV Night: Essentials",
+      "words": [
+        "INFORM",
+        "STUDIO",
+        "PHLOX",
+        "ARCHES",
+        "WORDSEARCH",
+        "COCONUT",
+        "GERANIUM",
+        "PLANKTON",
+        "BLOCKBUSTER",
+        "AMERICA",
+        "ELECTRIC",
+        "SEARCH"
+      ]
+    },
+    {
+      "name": "Roller Rink: Essentials",
+      "words": [
+        "PUFFIN",
+        "ORTHODOX",
+        "FROG",
+        "FICUS",
+        "SMORES",
+        "HIDE",
+        "PRINT",
+        "ALIENS",
+        "WARP",
+        "IBEX",
+        "FLY",
+        "CHART"
+      ]
+    },
+    {
+      "name": "Food & Fondue: Essentials",
+      "words": [
+        "BUCKET",
+        "WETSUITS",
+        "HATCH",
+        "NOBLES",
+        "MUSIC",
+        "WOODPANELING",
+        "CANYON",
+        "COLD",
+        "SAGE",
+        "GROUPER",
+        "PULSE",
+        "TOOTH"
+      ]
+    },
+    {
+      "name": "CB Radio: Essentials",
+      "words": [
+        "SHADOW",
+        "PONG",
+        "SEATING",
+        "OPINION",
+        "TIGERS",
+        "OYSTER",
+        "GEORGE",
+        "MUREX",
+        "PISTACHIO",
+        "CHIP",
+        "COUNTRY",
+        "FOLK"
+      ]
+    },
+    {
+      "name": "Tech & Video: Essentials",
+      "words": [
+        "TULIP",
+        "CHALET",
+        "BLENNY",
+        "FIDDLE",
+        "HUMOR",
+        "WRITERS",
+        "ROOMS",
+        "ENGAGING",
+        "CAT",
+        "NEAP",
+        "CHAPTER",
+        "PEACESIGN"
+      ]
+    },
+    {
+      "name": "Home Decor: Essentials",
+      "words": [
+        "NIGELLA",
+        "SHARK",
+        "FILTER",
+        "BOBCATS",
+        "SILLY",
+        "SNOWMELT",
+        "HOVERFLY",
+        "ROTARYPHONE",
+        "SABERTOOTHEDCAT",
+        "BRISKET",
+        "FLIPHAIR",
+        "MEDUSA"
+      ]
+    },
+    {
+      "name": "Arcade & Games: Memory Lane",
+      "words": [
+        "WILDS",
+        "BERKELEY",
+        "STYLE",
+        "LIZARD",
+        "EUCALYPTUS",
+        "TUDOR",
+        "TEMPLE",
+        "DAYHIKE",
+        "POSTER",
+        "PASSION",
+        "SHALLOT",
+        "CAMERAS"
+      ]
+    },
+    {
+      "name": "Disco Night: Memory Lane",
+      "words": [
+        "DENSE",
+        "SPADE",
+        "KEYLIME",
+        "RAFTING",
+        "ROADSIGN",
+        "SCRIPTS",
+        "HIGHSCORE",
+        "SNAIL",
+        "ARMOR",
+        "PROGRESS",
+        "WILDLIFE",
+        "HENRY"
+      ]
+    },
+    {
+      "name": "Fashion: Memory Lane",
+      "words": [
+        "TURNTABLE",
+        "TOWPATH",
+        "PIONEER",
+        "MALLOW",
+        "TAKIN",
+        "GOLDCOAST",
+        "CHARADE",
+        "JAVAN",
+        "KINGMAN",
+        "SONGBOOK",
+        "BELUGA",
+        "BARGAIN"
+      ]
+    },
+    {
+      "name": "Cars & Vans: Memory Lane",
+      "words": [
+        "FERRY",
+        "DRAWING",
+        "PADDLING",
+        "CONQUEST",
+        "HEADPHONES",
+        "DIRECTOR",
+        "TANG",
+        "CRASH",
+        "SNOOK",
+        "COMET",
+        "AWARDS",
+        "TORTILLA"
+      ]
+    },
+    {
+      "name": "Outdoors: Memory Lane",
+      "words": [
+        "RUSH",
+        "PICKUP",
+        "COMPOSER",
+        "GERMINATE",
+        "SKYLINEDRIVE",
+        "EUREKA",
+        "SMART",
+        "HERRING",
+        "LANDING",
+        "OVERSEASHIGHWAY",
+        "MONK",
+        "SUNDAE"
+      ]
+    },
+    {
+      "name": "Rock & Records: Memory Lane",
+      "words": [
+        "BATTERY",
+        "ARTICHOKE",
+        "DONUT",
+        "ROUND",
+        "SEASPRAY",
+        "SPIKY",
+        "BURGER",
+        "PASSENGER",
+        "SCRAPPLE",
+        "CRAFT",
+        "ZOOKEEPER",
+        "PUZZLE"
+      ]
+    },
+    {
+      "name": "TV Night: Memory Lane",
+      "words": [
+        "CONCERT",
+        "HUMUS",
+        "SOLAR",
+        "BLUEBIRD",
+        "GORGE",
+        "SANANTONIO",
+        "MOON",
+        "BEARS",
+        "HAMMOCK",
+        "WATERTROUGH",
+        "SQUARE",
+        "STEAMBOAT"
+      ]
+    },
+    {
+      "name": "Roller Rink: Memory Lane",
+      "words": [
+        "HORN",
+        "HOE",
+        "LIFEGUARD",
+        "METAL",
+        "CURL",
+        "WOLVES",
+        "PRIDE",
+        "ROUTE",
+        "OLYMPUS",
+        "ROADRUNNER",
+        "ORDER",
+        "CONSERVE"
+      ]
+    },
+    {
+      "name": "Food & Fondue: Memory Lane",
+      "words": [
+        "LARIAT",
+        "LATERAL",
+        "BLACKBEANS",
+        "TOMBSTONE",
+        "GORGES",
+        "BALL",
+        "CANOE",
+        "RIDGELINE",
+        "BABOONS",
+        "BOATRIDE",
+        "LANTERN",
+        "CARDS"
+      ]
+    },
+    {
+      "name": "CB Radio: Memory Lane",
+      "words": [
+        "LICHEN",
+        "OCEANPATH",
+        "OCEANIC",
+        "ZONE",
+        "GHOST",
+        "WARMTH",
+        "BLESSINGS",
+        "CAUSEWAY",
+        "LANCASTER",
+        "SPRINGWATER",
+        "FACTORY",
+        "SWIMMING"
+      ]
+    },
+    {
+      "name": "Tech & Video: Memory Lane",
+      "words": [
+        "GECKOS",
+        "SCALES",
+        "PATTERN",
+        "MANURE",
+        "NATURALIZE",
+        "COLLECTOR",
+        "BUTTERCUP",
+        "TREASURE",
+        "DISCIPLINE",
+        "MONUMENT",
+        "WINNER",
+        "PAINTER"
+      ]
+    },
+    {
+      "name": "Home Decor: Memory Lane",
+      "words": [
+        "VCR",
+        "MICROPHONE",
+        "DOCK",
+        "ORION",
+        "MACEDON",
+        "THRILL",
+        "ARCHIVIST",
+        "HANDLEBAR",
+        "CHAMPION",
+        "SLUICE",
+        "PILOT",
+        "NAPA"
+      ]
+    },
+    {
+      "name": "Arcade & Games: Everyday Memories",
+      "words": [
+        "SCOOTER",
+        "HALTERTOP",
+        "LEAFY",
+        "HORNEDLIZARD",
+        "COMPUTER",
+        "ADVENT",
+        "DELIGHT",
+        "DANCEFLOOR",
+        "ATLAS",
+        "ROWING",
+        "MARCH",
+        "TROPICAL"
+      ]
+    },
+    {
+      "name": "Disco Night: Everyday Memories",
+      "words": [
+        "MANTA",
+        "GOLDCOLOR",
+        "MANATEES",
+        "TABLE",
+        "CAPITOL",
+        "GESTURE",
+        "QUIZZES",
+        "TRAINSET",
+        "FAVORITE",
+        "WORD",
+        "SIDEWALK",
+        "INFLATE"
+      ]
+    },
+    {
+      "name": "Fashion: Everyday Memories",
+      "words": [
+        "LAKEBROWNWOOD",
+        "SHAFT",
+        "RESCUES",
+        "OXYGEN",
+        "JAMMING",
+        "TURTLES",
+        "DOWNPOUR",
+        "GRANDPRISMATIC",
+        "BASEBALL",
+        "COURSE",
+        "COFFIN",
+        "HEAVENLY"
+      ]
+    },
+    {
+      "name": "Cars & Vans: Everyday Memories",
+      "words": [
+        "HAIRY",
+        "SKIN",
+        "LIBRETTO",
+        "HOHRAINFOREST",
+        "HILLCOUNTRY",
+        "FARE",
+        "SPACECRAFT",
+        "ORANGUTANS",
+        "ENCOUNTER",
+        "CAFE",
+        "SNIP",
+        "PUNK"
+      ]
+    },
+    {
+      "name": "Outdoors: Everyday Memories",
+      "words": [
+        "FIRE",
+        "SCHEDULE",
+        "GENIUS",
+        "WESTERN",
+        "GETTYSBURG",
+        "WEATHER",
+        "HEIRLOOM",
+        "PLOTLINE",
+        "MOUNTAINLAUREL",
+        "BRANCH",
+        "FORTRESS",
+        "SHOAL"
+      ]
+    },
+    {
+      "name": "Rock & Records: Everyday Memories",
+      "words": [
+        "TOMATO",
+        "BRIGHT",
+        "LIBERTY",
+        "ENJOY",
+        "PARACHUTE",
+        "HEMLOCK",
+        "SKIS",
+        "NACRE",
+        "BREAKFAST",
+        "LABOR",
+        "LOAFERS",
+        "BRAMBLE"
+      ]
+    },
+    {
+      "name": "TV Night: Everyday Memories",
+      "words": [
+        "MISSION",
+        "GANNET",
+        "PREY",
+        "JAVELINA",
+        "FREIGHTS",
+        "FAMOUS",
+        "PANNING",
+        "SPINY",
+        "SOCCER",
+        "ANTIQUES",
+        "FRINGE",
+        "DRYLAKE"
+      ]
+    },
+    {
+      "name": "Roller Rink: Everyday Memories",
+      "words": [
+        "NECK",
+        "GATHERING",
+        "ALMOND",
+        "ROMANCE",
+        "MONAHANS",
+        "TRAILHEAD",
+        "GOINGTOSUN",
+        "SUSQUEHANNAVALLEY",
+        "BUILDING",
+        "PEPEROMIA",
+        "LACE",
+        "WALRUSES"
+      ]
+    },
+    {
+      "name": "Food & Fondue: Everyday Memories",
+      "words": [
+        "WHOOPIEPIE",
+        "CAPITAL",
+        "SUCKER",
+        "STERN",
+        "SIEGE",
+        "CHEVY",
+        "ELEVATION",
+        "POPCORN",
+        "COMBER",
+        "CHARACTER",
+        "SWEETPEA",
+        "BOILINGRIVER"
+      ]
+    },
+    {
+      "name": "CB Radio: Everyday Memories",
+      "words": [
+        "WATERFALL",
+        "HOME",
+        "SCENE",
+        "CRUELTY",
+        "SANDS",
+        "COOLING",
+        "VISION",
+        "BLACKBERRY",
+        "GUADALUPERIVER",
+        "PLAYGROUND",
+        "EATERY",
+        "SCRIPT"
+      ]
+    },
+    {
+      "name": "Tech & Video: Everyday Memories",
+      "words": [
+        "POSTERS",
+        "LEOPARDS",
+        "MYCORRHIZAE",
+        "BOOKCASE",
+        "AVOCADO",
+        "CHIVALRY",
+        "MYTH",
+        "SALTY",
+        "INK",
+        "NIAGARA",
+        "NATION",
+        "NET"
+      ]
+    },
+    {
+      "name": "Home Decor: Everyday Memories",
+      "words": [
+        "TRAWL",
+        "CALENDAR",
+        "TENT",
+        "STALL",
+        "FLAT",
+        "POTATO",
+        "SOFTWARE",
+        "KITE",
+        "IBIS",
+        "RESORTS",
+        "UNIVERSE",
+        "PLACER"
+      ]
+    },
+    {
+      "name": "Arcade & Games: Weekend Flashback",
+      "words": [
+        "HIMALAYA",
+        "BALMORHEA",
+        "FRISBEE",
+        "REEL",
+        "MARY",
+        "FUNNY",
+        "TUCSON",
+        "SPARK",
+        "PARLIAMENT",
+        "AUGER",
+        "SHOOFLYPIE",
+        "ADAPTATION"
+      ]
+    },
+    {
+      "name": "Disco Night: Weekend Flashback",
+      "words": [
+        "BURIAL",
+        "RIPE",
+        "OUTDOOR",
+        "JACKSONLAKE",
+        "SUNSHINE",
+        "PRESLEY",
+        "CUSTOMS",
+        "SCENICDRIVE",
+        "HOTSPRING",
+        "STREAM",
+        "GRANDTETON",
+        "MOTEL"
+      ]
+    }
+  ],
+  "detected_topic": "National Parks",
+  "recommended_palette": "nature",
+  "recommended_cover_style": "gallery",
+  "cover_style": "gallery",
+  "clipart_search_terms": "National Parks Macrame Food Instamatic illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Challenging",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:07",
+    "sources": [
+      "National Parks",
+      "Nature",
+      "Travel and Geography",
+      "Gardening",
+      "Homesteading",
+      "Ocean Life"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 50,
+    "unique_words_in_book": 600,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "National Parks"
+    ],
+    "checked_at": "2026-08-22T10:08:37"
+  }
+}

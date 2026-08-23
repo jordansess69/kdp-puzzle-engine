@@ -1,0 +1,850 @@
+{
+  "title": "Thanksgiving Word Search",
+  "subtitle": "48 cozy large-print puzzles for gratitude, harvest and family time",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Seasonal and Evergreen Collection",
+  "series_rank": 3,
+  "audience": "Adults and Teens",
+  "palette": "autumn-harvest",
+  "cover_style": "photo",
+  "recommended_palette": "autumn-harvest",
+  "recommended_cover_style": "photo",
+  "cover_badge": "48 LARGE-PRINT PUZZLES - NO REPEATED WORDS",
+  "cover_imprint": "Slade Puzzles",
+  "no_repeat_words": true,
+  "difficulty_label": "Relaxing",
+  "detected_topic": "Thanksgiving",
+  "source_word_bank": {
+    "name": "Guided Builder Master Word Bank",
+    "topics": [
+      "Thanksgiving"
+    ]
+  },
+  "cover_art_path": "cover_assets/background_photos/autumn_harvest_v3.png",
+  "cover_art_focus": "center",
+  "clipart_search_terms": "thanksgiving harvest autumn family table",
+  "market_research_note": "Selected from current demand signals for large-print adult word searches, seasonal timing, and evergreen giftable themes. This is not a guarantee of sales.",
+  "market_research_sources": [
+    "Amazon Word Search Best Sellers",
+    "KDP paperback requirements"
+  ],
+  "puzzles": [
+    {
+      "name": "Thanksgiving Word Search Puzzle 001",
+      "words": [
+        "AIRPLANT",
+        "IRRIGATION",
+        "BORAGE",
+        "WATERBUTT",
+        "AUTUMNHARVEST",
+        "GHOSTSTORY",
+        "PINECONE",
+        "EGGPAINTING",
+        "RHUBARBPATCH",
+        "SUMMERBARBECUE",
+        "KALE",
+        "AUTUMNPARTY"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 002",
+      "words": [
+        "EASTERPARADE",
+        "SOILTEST",
+        "FALLRECIPE",
+        "RIBBON",
+        "FLOWERSEED",
+        "MELON",
+        "BALSAM",
+        "AZALEA",
+        "WATERINGCAN",
+        "HERBBED",
+        "SUMMERBREAK",
+        "BEGONIA"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 003",
+      "words": [
+        "GARDENHOSE",
+        "POLLINATORS",
+        "PUMPKINBREAD",
+        "AUTUMNPATH",
+        "AUTUMNNIGHT",
+        "MAGNOLIA",
+        "SEEDSTARTER",
+        "HARVESTPUMPKIN",
+        "SENSORYGARDEN",
+        "GRAPEVINE",
+        "GARDENMAP",
+        "VERONICA"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 004",
+      "words": [
+        "PARTYPLANNER",
+        "GARDENWEED",
+        "BLUEBERRY",
+        "SOILNUTRITION",
+        "HANDSPADE",
+        "WATERMELON",
+        "PRUNINGKNIFE",
+        "TULIP",
+        "REUNION",
+        "POTAGER",
+        "LEMON",
+        "FALLLANTERN"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 005",
+      "words": [
+        "SUMMERCRAFT",
+        "CELEBRATIONCENTER",
+        "FOLIAGE",
+        "DECORATIONS",
+        "GARDENER",
+        "HOLIDAYLIGHTS",
+        "WORMFARM",
+        "HOLIDAYDINNER",
+        "PLANTSTAKE",
+        "COLEUS",
+        "STARLIGHT",
+        "AUTUMNCOLOR"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 006",
+      "words": [
+        "FENNEL",
+        "BEET",
+        "SNOWMAN",
+        "VEGETABLEPLOT",
+        "WOODCHIPMULCH",
+        "FRAGRANCEGARDEN",
+        "PERENNIALBED",
+        "POSTCARD",
+        "HARVESTRECIPE",
+        "YARD",
+        "MITTEN",
+        "GREENHOUSETOOL"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 007",
+      "words": [
+        "CRISPAIR",
+        "AUTUMNCANDLE",
+        "TRADITIONTREE",
+        "POTTINGTABLE",
+        "EPIMEDIUM",
+        "MORNINGGLORY",
+        "HOLIDAYHOME",
+        "HANDTROWEL",
+        "ALLIUM",
+        "HARVESTFIRE",
+        "YARDLONGBEAN",
+        "PRAIRIEGARDEN"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 008",
+      "words": [
+        "PHLOX",
+        "WOODEDTRAIL",
+        "POTLUCK",
+        "ENDIVE",
+        "WINDOWSILLGARDEN",
+        "COSTUMECONTEST",
+        "SCALLION",
+        "COCKSCOMB",
+        "CORNSTALK",
+        "AGAPANTHUS",
+        "GARDENPATH",
+        "PEANUT"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 009",
+      "words": [
+        "OKRA",
+        "WEEDINGTOOL",
+        "ORGANICGARDEN",
+        "FUCHSIA",
+        "GRAPEFRUIT",
+        "BERGAMOT",
+        "RAINBARREL",
+        "COSMOS",
+        "PANSY",
+        "CONTAINERPLANT",
+        "CAULIFLOWER",
+        "SPINACH"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 010",
+      "words": [
+        "SPRINGWEEKEND",
+        "PULSATILLA",
+        "WELCOMEHOME",
+        "GREENHOUSE",
+        "GARDENHELPER",
+        "VALENTINECARD",
+        "SEEDCOAT",
+        "ROCKGARDEN",
+        "SPRINGBLOOM",
+        "SNAPDRAGON",
+        "FALLLEAVES",
+        "LOBELIA"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 011",
+      "words": [
+        "PARSLEY",
+        "SUMMERPARTY",
+        "TORENIA",
+        "WINTERBREAK",
+        "FLAGS",
+        "VERBENA",
+        "GREENMANURE",
+        "HYSSOP",
+        "WINTERCOTTAGE",
+        "EDIBLEGARDEN",
+        "SPRINGCRAFT",
+        "SHISO"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 012",
+      "words": [
+        "HUNTDAY",
+        "MICROGREEN",
+        "ROOTBALL",
+        "EASTERBASKET",
+        "CHIVE",
+        "WALNUT",
+        "HANDPRUNER",
+        "NEWYEARSDAY",
+        "HOSENOZZLE",
+        "SALVIA",
+        "LOTUS",
+        "HOLLY"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 013",
+      "words": [
+        "SCABIOSA",
+        "GARDENBASKET",
+        "FALLSUNSET",
+        "AGAVE",
+        "VACATIONWEEK",
+        "HOSE",
+        "AUTUMNLANE",
+        "SOILCONDITIONER",
+        "GARDENWORKGLOVES",
+        "CATMINT",
+        "PUMPKINCARVING",
+        "HARVESTFESTIVAL"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 014",
+      "words": [
+        "MAHONIA",
+        "SPRINGRECIPE",
+        "PHYSALIS",
+        "SORREL",
+        "PAMPASGRASS",
+        "GREENHOUSEPLANT",
+        "STAKE",
+        "NEPETA",
+        "THUNBERGIA",
+        "SUMMERFIREWORKS",
+        "FORESTGARDEN",
+        "LILAC"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 015",
+      "words": [
+        "SOILHEALTH",
+        "GERMINATION",
+        "EARTHWORM",
+        "GARDENARCH",
+        "SPARKLINGLIGHTS",
+        "COTONEASTER",
+        "AUTUMNBARN",
+        "HARVESTAPPLE",
+        "FLOWERPOT",
+        "WINTERGARDEN",
+        "GARDENSTOOL",
+        "FIREPLACE"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 016",
+      "words": [
+        "JACKOLANTERN",
+        "WHEELHOE",
+        "GIFTLIST",
+        "LEAFMOULD",
+        "HALLOWEENPARTY",
+        "RANUNCULUS",
+        "SWEETBASIL",
+        "SEASONALMUSIC",
+        "HOLIDAYJOY",
+        "WEEDING",
+        "MULCHBED",
+        "GROUNDCOVER"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 017",
+      "words": [
+        "HARVESTMEAL",
+        "HARVESTTIME",
+        "SHOVEL",
+        "KNIPHOFIA",
+        "POLYANTHUS",
+        "GERANIUM",
+        "PUMPKINPATCH",
+        "REEL",
+        "GARDENLAYOUT",
+        "PARSNIP",
+        "KEEPSAKE",
+        "BLOOM"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 018",
+      "words": [
+        "FALLFOREST",
+        "TOMATILLO",
+        "RECIPEBOOK",
+        "WINTERGREEN",
+        "HOLIDAYTABLE",
+        "OCTOBERPARTY",
+        "CENTERPIECE",
+        "SNOWGLOBE",
+        "GROWLIGHT",
+        "ESPALIER",
+        "BRUSSELSPROUT",
+        "HOLIDAYSEASON"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 019",
+      "words": [
+        "FLOWERBED",
+        "COLDWEATHER",
+        "COTTAGEGARDEN",
+        "SQUASH",
+        "GIFTGIVER",
+        "FLOWERGARDEN",
+        "EVERGREEN",
+        "HOLIDAYBAKING",
+        "AUTUMNRECIPE",
+        "PIEPLATE",
+        "HOLIDAYCRAFT",
+        "GARDENSTRING"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 020",
+      "words": [
+        "FEVERFEW",
+        "ADVENT",
+        "GOOSEBERRY",
+        "RADISH",
+        "JICAMA",
+        "BIODYNAMIC",
+        "THANKSGIVING",
+        "MASQUERADE",
+        "GARDENPOND",
+        "OREGANO",
+        "SEEDDRILL",
+        "SEMPERVIVUM"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 021",
+      "words": [
+        "GARDENSTORAGE",
+        "HYDRANGEA",
+        "OXALIS",
+        "GARDENINGGLOVES",
+        "LAMIUM",
+        "PEATPOT",
+        "AUTUMNPORCH",
+        "HAYRIDE",
+        "POLLINATOR",
+        "WATERINGCANISTER",
+        "KITCHENAROMA",
+        "SHADEBORDER"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 022",
+      "words": [
+        "INDOORPLANT",
+        "BIRDBATH",
+        "PUMPKINCOOKIE",
+        "REDCURRANT",
+        "CABBAGE",
+        "GARDENRAKE",
+        "HOLIDAYDESSERT",
+        "BALCONYGARDEN",
+        "ROOTVEGETABLE",
+        "ORCHARDWALK",
+        "EASTEREGG",
+        "TRICKORTREAT"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 023",
+      "words": [
+        "PICNIC",
+        "HOLIDAY",
+        "COSTUMEPARADE",
+        "HEDGEROW",
+        "IRIS",
+        "STEVIA",
+        "TRELLIS",
+        "GARDENWORKSHOP",
+        "SCARECROWHAT",
+        "GROUNDCHERRY",
+        "BOGGARDEN",
+        "SUMMER"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 024",
+      "words": [
+        "FALLBONFIRE",
+        "POTATO",
+        "EASTERLILY",
+        "GATHERING",
+        "PLANT",
+        "GARDENPLAN",
+        "HARVESTTABLE",
+        "ONION",
+        "BEAN",
+        "BLOSSOMTIME",
+        "HUMMINGBIRD",
+        "ILEX"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 025",
+      "words": [
+        "WATERINGGAUGE",
+        "AQUAPONICS",
+        "HOLIDAYBREAK",
+        "GREENHOUSEKIT",
+        "CULTIVATOR",
+        "WRAPPINGPAPER",
+        "WINTERTREAT",
+        "TROWEL",
+        "LILYPAD",
+        "CYCLAMEN",
+        "FIG",
+        "PUMPKIN"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 026",
+      "words": [
+        "CILANTRO",
+        "HARVESTGARDEN",
+        "BLACKEYEDSUSAN",
+        "AUTUMNLEAVES",
+        "HARVESTCIDER",
+        "GARDENAPRON",
+        "SUMMERHOLIDAY",
+        "ACANTHUS",
+        "EASTERMORNING",
+        "LINARIA",
+        "ANNUAL",
+        "LADYBUG"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 027",
+      "words": [
+        "PEAR",
+        "HALLOWEEN",
+        "GARDENMARKER",
+        "VALENTINEMESSAGE",
+        "CRAFTTABLE",
+        "YULETIME",
+        "SPRINGMARKET",
+        "GARDENSTONE",
+        "PATCH",
+        "CORNFLOWER",
+        "PEPPERPLANT",
+        "AUTUMNWALK"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 028",
+      "words": [
+        "BOKCHOY",
+        "CONEFLOWER",
+        "FOXGLOVE",
+        "COMPOSTPILE",
+        "CANDLELIGHT",
+        "OCCASION",
+        "TURNIP",
+        "ACHILLEA",
+        "CARAWAY",
+        "STACHYS",
+        "SOILFERTILITY",
+        "COMPOSTTEA"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 029",
+      "words": [
+        "FALLNIGHT",
+        "AUTUMNSUNSET",
+        "SOILMIX",
+        "GARDENPOT",
+        "HARVEST",
+        "WINTEREVENING",
+        "GREENBEAN",
+        "ESCAROLE",
+        "HOLIDAYPLAYLIST",
+        "SOILCOMPOST",
+        "MALLOW",
+        "CINERARIA"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 030",
+      "words": [
+        "WINTERMORNING",
+        "PLANTPROPAGATION",
+        "THANKSGIVINGFEAST",
+        "GARDENMULCH",
+        "SEASONAL",
+        "GARDENHOE",
+        "MOONLITNIGHT",
+        "GARDENIA",
+        "FERTILIZER",
+        "VALENTINE",
+        "SCARECROWFIELD",
+        "SEEDLINGRACK"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 031",
+      "words": [
+        "CHAMOMILE",
+        "SUGARCOOKIE",
+        "GREENHOUSEGROWER",
+        "VALENTINEDAY",
+        "SEEDCOUNT",
+        "CORIANDER",
+        "BOXWOOD",
+        "LAVENDER",
+        "WEEDBASKET",
+        "SUMMERRECIPE",
+        "SOILAMENDMENT",
+        "FALLKITCHEN"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 032",
+      "words": [
+        "GARDENLATTICE",
+        "HAZELNUT",
+        "WINTERMARKET",
+        "GARLIC",
+        "PETUNIA",
+        "BORDER",
+        "COCOA",
+        "PERENNIAL",
+        "POTTINGBENCH",
+        "HARVESTDECOR",
+        "VEGETABLEBED",
+        "WINTERFESTIVAL"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 033",
+      "words": [
+        "SUMMERMARKET",
+        "KIWI",
+        "TOPSOIL",
+        "HAUNTEDHOUSE",
+        "SOILCOVER",
+        "DILL",
+        "CANDYBOWL",
+        "NASTURTIUMSEED",
+        "HARVESTBARN",
+        "NICOTIANA",
+        "BONFIRE",
+        "GIFTCARD"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 034",
+      "words": [
+        "HORTICULTURE",
+        "LYSIMACHIA",
+        "PARADE",
+        "PLANTPOT",
+        "WATERCRESS",
+        "WINTERWEEKEND",
+        "CROWFIELD",
+        "TWINKLELIGHTS",
+        "MULCHLAYER",
+        "SEASONALCRAFT",
+        "COMPOSTING",
+        "MINT"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 035",
+      "words": [
+        "HEATHER",
+        "SUMMERFESTIVAL",
+        "CUCUMBER",
+        "PARTYTABLE",
+        "WEEDFORK",
+        "DAYLILY",
+        "FALLSEASON",
+        "LANDSCAPING",
+        "BUTTERFLYGARDEN",
+        "BERRY",
+        "CELERIAC",
+        "ARTICHOKE"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 036",
+      "words": [
+        "CHRYSANTHEMUM",
+        "HONEYSUCKLE",
+        "JASMINE",
+        "ROASTEDCORN",
+        "BAKINGDAY",
+        "LIME",
+        "HOLIDAYPHOTO",
+        "BACKYARDGARDEN",
+        "WALLFLOWER",
+        "FALLWEATHER",
+        "BAKING",
+        "GERMINATE"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 037",
+      "words": [
+        "VINCA",
+        "CANDYSTORE",
+        "OCTOBERORNAMENT",
+        "RHUBARB",
+        "GARDENPLOT",
+        "GARLICBULB",
+        "DOORWREATH",
+        "FALLPORCH",
+        "SPRAYBOTTLE",
+        "SWEETPOTATO",
+        "HOLIDAYTRADITION",
+        "HARVESTDAY"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 038",
+      "words": [
+        "SEASONOFGIVING",
+        "SOILTESTER",
+        "HOLIDAYGIFT",
+        "HARVESTPIE",
+        "COBWEB",
+        "PLANTSPREADER",
+        "SPRINGTIME",
+        "COZY",
+        "SEEDTAPE",
+        "RAISEDBED",
+        "VICTORYGARDEN",
+        "YARROW"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 039",
+      "words": [
+        "TRANSPLANT",
+        "WISTERIA",
+        "SEEDPOTATO",
+        "COMPOSTBIN",
+        "SOILTHERMOMETER",
+        "TRANSPLANTING",
+        "PEONY",
+        "BIRTHDAY",
+        "WORMCASTINGS",
+        "GARDENLIGHT",
+        "HARVESTBASKET",
+        "VALENTINECRAFT"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 040",
+      "words": [
+        "SNOWDROP",
+        "FALLPARTY",
+        "CRANBERRY",
+        "PLUM",
+        "PLANTFOOD",
+        "NASTURTIUM",
+        "BOTANY",
+        "COREOPSIS",
+        "GLADIOLUS",
+        "ALYSSUM",
+        "FALL",
+        "AUTUMNBAKING"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 041",
+      "words": [
+        "ORNAMENTPAPER",
+        "FALLCANDLE",
+        "AUTUMNPICNIC",
+        "POTTING",
+        "JANUARY",
+        "GRAPE",
+        "SOILBLOCK",
+        "TRELLISNET",
+        "PARTYFAVOR",
+        "LEAFRAKING",
+        "GARDENBORDER",
+        "LONGWEEKEND"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 042",
+      "words": [
+        "KALANCHOE",
+        "LEAFPILE",
+        "HEIRLOOM",
+        "WINTER",
+        "GROWER",
+        "ROOTPRUNER",
+        "SWEETWILLIAM",
+        "GARDENTWINE",
+        "PARTYHAT",
+        "GARDENWHEEL",
+        "AUTUMNMORNING",
+        "LIMONIUM"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 043",
+      "words": [
+        "ROWCOVER",
+        "CISTUS",
+        "SEEDBED",
+        "VALENTINEROSE",
+        "DECEMBER",
+        "MEMORYMAKING",
+        "TRANSPLANTSHOCK",
+        "DELPHINIUM",
+        "SUNNYDAY",
+        "VALERIAN",
+        "CAMPANULA",
+        "GARDENCLOCHE"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 044",
+      "words": [
+        "FALLCIDER",
+        "GARDENPRUNER",
+        "GARDENSTAKE",
+        "PUMPKINFARM",
+        "HOLIDAYMEMORY",
+        "GARDENRECYCLE",
+        "GREENHOUSEPOT",
+        "SCARECROW",
+        "CAROLING",
+        "CROCUS",
+        "DEEPWATERING",
+        "SPRINGFESTIVAL"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 045",
+      "words": [
+        "GARDENWORK",
+        "CATTAIL",
+        "HOLIDAYPARTY",
+        "HAYBALE",
+        "FALLFESTIVAL",
+        "PITTOSPORUM",
+        "PUMPKINPIE",
+        "WATERGARDEN",
+        "LANTERNLIGHT",
+        "CELOSIA",
+        "STOCKINGS",
+        "ARBOR"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 046",
+      "words": [
+        "MOONLIGHT",
+        "CONTAINERGARDEN",
+        "DAFFODIL",
+        "ROOFTOPGARDEN",
+        "GARDENROOM",
+        "DANDELION",
+        "WINTERHOLIDAY",
+        "BLACKBERRY",
+        "POTTINGSOIL",
+        "SUCCULENTGARDEN",
+        "LEAFGARLAND",
+        "HOLLYHOCK"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 047",
+      "words": [
+        "CHARD",
+        "THANKSGIVINGTABLE",
+        "TRACHELIUM",
+        "MARJORAM",
+        "GARDENBENCH",
+        "HOLIDAYWEEKEND",
+        "SPRINGPICNIC",
+        "SAXIFRAGE",
+        "ASTER",
+        "PERIWINKLE",
+        "WATERINGHOSE",
+        "WINTERPARTY"
+      ]
+    },
+    {
+      "name": "Thanksgiving Word Search Puzzle 048",
+      "words": [
+        "LANTERNPATH",
+        "ROSEBUSH",
+        "BEETS",
+        "MONARDA",
+        "ANEMONE",
+        "TOMATO",
+        "MULCH",
+        "SPOOKYSTORY",
+        "LARKSPUR",
+        "PUMPKINSTAND",
+        "FALLCAMPFIRE",
+        "AUTUMNAIR"
+      ]
+    }
+  ],
+  "draft": true
+}

@@ -1,0 +1,1741 @@
+{
+  "title": "Space, Planets and Astronomy Word Search - Signature Edition",
+  "subtitle": "100 large-print puzzles for stargazers, explorers and curious minds",
+  "author": "Slade Puzzles",
+  "series": "Signature Editions: Explore and Discover",
+  "series_rank": 2,
+  "audience": "Adults and Teens",
+  "palette": "cosmic-night",
+  "cover_style": "photo",
+  "recommended_palette": "cosmic-night",
+  "recommended_cover_style": "photo",
+  "cover_badge": "100 LARGE-PRINT PUZZLES - NO REPEATED WORDS",
+  "cover_imprint": "Slade Puzzles",
+  "no_repeat_words": true,
+  "difficulty_label": "Standard",
+  "detected_topic": "Space & Astronomy",
+  "source_word_bank": {
+    "name": "Guided Builder Master Word Bank",
+    "topics": [
+      "Space & Astronomy"
+    ]
+  },
+  "cover_art_path": "cover_assets/background_photos/space_planet_v2.png",
+  "cover_art_focus": "center",
+  "clipart_search_terms": "space planets astronomy solar system galaxy stars telescope",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Cosmic Discovery Passport",
+    "achievement_title": "Star Navigator",
+    "achievement_message": "Complete the collection one satisfying puzzle at a time.",
+    "facts_title": "DISCOVER MORE",
+    "fact_cards": [
+      "Our solar system includes the Sun, eight planets, dwarf planets, moons, asteroids, and comets.",
+      "A light-year measures distance\u2014the distance light travels in one year\u2014not time.",
+      "Planets outside our solar system are called exoplanets."
+    ]
+  },
+  "draft": true,
+  "puzzles": [
+    {
+      "name": "Space, Planets and Astronomy Puzzle 001",
+      "words": [
+        "FULLMOON",
+        "MAGNETICWAVE",
+        "SUNSPOT",
+        "GIBBOUS",
+        "PERDIT",
+        "ORBITPATH",
+        "FOBOS",
+        "HELIOSPHERE",
+        "MOONTRACK",
+        "LUYTEN",
+        "CERES",
+        "VOYAGERONE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 002",
+      "words": [
+        "ELECTRON",
+        "DEEPFIELD",
+        "SOLARRADIUS",
+        "ASTROCHEMICAL",
+        "CLOUDTOP",
+        "STARLINER",
+        "QUAOAR",
+        "VELA",
+        "INTERGALACTIC",
+        "SYCORAX",
+        "SPACESCHOOL",
+        "AQUARIUS"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 003",
+      "words": [
+        "MATTER",
+        "HELIUMCORE",
+        "SPHERE",
+        "SUNRISE",
+        "URANUSRINGS",
+        "TETHYS",
+        "COMA",
+        "NEBULAE",
+        "PLANETARYCORE",
+        "STARTRACKER",
+        "GRANULATION",
+        "ALNILAM"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 004",
+      "words": [
+        "ROSALINDFRANKLIN",
+        "ASTROMETRY",
+        "COUNTDOWNCLOCK",
+        "ZODIACAL",
+        "ELECTROSTATIC",
+        "DAWN",
+        "NEARSPACE",
+        "COMETWATCH",
+        "KOSMOS",
+        "MISSIONLOGO",
+        "ORBITS",
+        "EXPLORE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 005",
+      "words": [
+        "DOPPLER",
+        "FLUX",
+        "PANDIA",
+        "EUROPAORBITER",
+        "VERONICA",
+        "JUPITERSTORM",
+        "VACUUM",
+        "ASTRONAUTICS",
+        "NEARSHOOTER",
+        "COMETSHOWER",
+        "MARSODYSSEY",
+        "ACCRETIONDISK"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 006",
+      "words": [
+        "RAINDROP",
+        "SOLARMINIMUM",
+        "MAINSEQUENCE",
+        "DWARFSTAR",
+        "CASTOR",
+        "NOX",
+        "VOYAGERPROBE",
+        "SINOPE",
+        "VENUSIAN",
+        "LUNARLAND",
+        "KALYKE",
+        "MOONSTONE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 007",
+      "words": [
+        "AURORAUSTRALIS",
+        "APOLLO",
+        "EXOMOON",
+        "AURORAL",
+        "DAEDALIA",
+        "POLLUX",
+        "SPACEQUEST",
+        "MIRANDA",
+        "ROCKET",
+        "ALMATHEA",
+        "ACTAEON",
+        "BIOLOGY"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 008",
+      "words": [
+        "SPACEPUZZLE",
+        "NIGHTSKY",
+        "OPHELIA",
+        "RETROGRADEORBIT",
+        "SUPERNOVA",
+        "CALLIRRHOE",
+        "DAY",
+        "SATELLITEBUS",
+        "PROMINENCE",
+        "BIRDS",
+        "CAMELOPARDALIS",
+        "COUNTDOWN"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 009",
+      "words": [
+        "ATLAS",
+        "SPACEHAB",
+        "LANDER",
+        "STARTRAIL",
+        "KILOPARSEC",
+        "ELECTRODYNAMIC",
+        "THEMISTO",
+        "NEPTUNE",
+        "COLLIMATOR",
+        "IDUN",
+        "DESDEMONA",
+        "PARTHENOPE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 010",
+      "words": [
+        "VESTA",
+        "MARINER",
+        "DIONE",
+        "PLASMA",
+        "SURVEYOR",
+        "CELESTIALEQUATOR",
+        "MOONBUGGY",
+        "EXPERIMENT",
+        "LUNARPHASE",
+        "SPECIMEN",
+        "STARVIEWER",
+        "BLACKBODY"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 011",
+      "words": [
+        "JOURNEY",
+        "LUMINOSITYCLASS",
+        "DARKNEBULA",
+        "TELEMETRY",
+        "RAINCLOUD",
+        "CIRCUMLUNAR",
+        "TINYPLANET",
+        "GEOGRAPHY",
+        "ROCKYPLANET",
+        "ELECTRA",
+        "HAYABUSA",
+        "LUNARCALENDAR"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 012",
+      "words": [
+        "MARSGLOBAL",
+        "ASTRAEUS",
+        "YILDUN",
+        "SPACEWATCH",
+        "ROCHE",
+        "SUNPATH",
+        "IONTAIL",
+        "CRYOSPHERE",
+        "ECLIPTICPLANE",
+        "MIDNIGHT",
+        "LANTERN",
+        "SCIENCEFAIR"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 013",
+      "words": [
+        "IMAGINING",
+        "STARCHART",
+        "MARSROVER",
+        "ANANKE",
+        "BIGDIPPER",
+        "BOREALIS",
+        "PROTOSUN",
+        "ASTROGEOLOGY",
+        "NIGHTOBSERVING",
+        "GEODESIC",
+        "WIND",
+        "TIDALFORCE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 014",
+      "words": [
+        "PROCYON",
+        "EUROPACLIPPER",
+        "GEOID",
+        "IMAGINATION",
+        "MOONPHASE",
+        "GLOWING",
+        "PENUMBRA",
+        "SUNBEAM",
+        "NARCISSUS",
+        "TELESCOPELENS",
+        "SPACESCIENCE",
+        "LAOMEDEIA"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 015",
+      "words": [
+        "ROCKETTRAIL",
+        "SOLARPROBE",
+        "METEORPATH",
+        "ARIEL",
+        "LIFTOFF",
+        "HELIUM",
+        "MONOCEROS",
+        "NANOMETER",
+        "FORNAX",
+        "MAGNITUDE",
+        "HYDROGEN",
+        "EURYBATES"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 016",
+      "words": [
+        "ARTEMISONE",
+        "STARCOLLECTION",
+        "WORLDSPACE",
+        "CALDWELL",
+        "MAGNETOSPHERE",
+        "HYDRA",
+        "MAGNET",
+        "PLANETEARTH",
+        "ASTROSPHERE",
+        "VIKINGTWO",
+        "RINGPARTICLE",
+        "ZODIAC"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 017",
+      "words": [
+        "ORBITER",
+        "MAGIC",
+        "LIGHTPOLLUTION",
+        "BLUE",
+        "METHONE",
+        "NAIAD",
+        "BLUESHIFT",
+        "SKY",
+        "ROUNDPLANET",
+        "PLUTOID",
+        "UNIVERSEQUIZ",
+        "TELLUS"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 018",
+      "words": [
+        "MERCURYCRATER",
+        "MAB",
+        "STARWATCH",
+        "STARFIELD",
+        "ORBITTRACK",
+        "STARDUST",
+        "MAVEN",
+        "AIR",
+        "URSAMAJOR",
+        "MERAK",
+        "HALLEYSCOMET",
+        "SKATHI"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 019",
+      "words": [
+        "KALYPSO",
+        "COSMICDUST",
+        "FLASHLIGHT",
+        "OCCULTATIONPATH",
+        "ASCENSION",
+        "PISCES",
+        "VARIABLE",
+        "ROCKETRIDE",
+        "CONJUNCTION",
+        "ROCKYWORLD",
+        "VOYAGERTWO",
+        "HYPERION"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 020",
+      "words": [
+        "POLARORBIT",
+        "STARTRAVEL",
+        "SOJOURNER",
+        "SUNLIGHT",
+        "BENETNASCH",
+        "MOLECULARCLOUD",
+        "NAUSICAA",
+        "PLANETARYNEBULA",
+        "EGREGORIA",
+        "GRUS",
+        "VALLESMARINERIS",
+        "COMETNUCLEUS"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 021",
+      "words": [
+        "FOREGROUND",
+        "MOONSET",
+        "MISSIONPATCH",
+        "STARRYNIGHT",
+        "CHANDRAYAANONE",
+        "LUNAR",
+        "SPECTROMETER",
+        "ORBITERCRAFT",
+        "STARJUMP",
+        "SPACESTORY",
+        "SPACEFLIGHT",
+        "TARANIS"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 022",
+      "words": [
+        "WHITEDWARF",
+        "FLARESTAR",
+        "MERCURYFLYBY",
+        "XRAYBINARY",
+        "DUSTCLOUD",
+        "SPACEX",
+        "HORIZONLINE",
+        "MOON",
+        "CELESTIALPOLE",
+        "TITIUS",
+        "FOSSIL",
+        "BARYON"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 023",
+      "words": [
+        "SPACEMOVIE",
+        "APSIS",
+        "SATURNFIVE",
+        "CALDERA",
+        "METEORTRAIL",
+        "SOLARCORONA",
+        "CHANGE",
+        "TONATIUH",
+        "DEEPIMPACT",
+        "VELOCITY",
+        "ANTARES",
+        "SOLARFLARE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 024",
+      "words": [
+        "ROCKETENGINE",
+        "BINARYSYSTEM",
+        "ASELLUS",
+        "WHITE",
+        "JUPITERMOON",
+        "GEOSYNCHRONOUS",
+        "OCEANS",
+        "GOLDENRECORD",
+        "SERPENS",
+        "SEXTANS",
+        "SUNSET",
+        "DENEB"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 025",
+      "words": [
+        "LUNARVALLEY",
+        "METEORSTORM",
+        "BARYCENTRIC",
+        "PROTON",
+        "THUNDER",
+        "ANALEMMA",
+        "ICECAP",
+        "ROTATIONAXIS",
+        "CREWDRAGON",
+        "RHEA",
+        "EXOPLANET",
+        "CETI"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 026",
+      "words": [
+        "ARTEMIS",
+        "SPICA",
+        "HAMAL",
+        "INTERSTELLARSPACE",
+        "ATMOSPHERE",
+        "GEOCENTRIC",
+        "TITAN",
+        "TIAMAT",
+        "LIGHTCURVE",
+        "LUNARROCK",
+        "EXOSPHERE",
+        "PSYCHE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 027",
+      "words": [
+        "MISSIONBADGE",
+        "EARTHSHADOW",
+        "LYSITHEA",
+        "ABSOLUTEMAGNITUDE",
+        "STARGUIDE",
+        "VULCAN",
+        "ASTRODYNAMICS",
+        "ZOND",
+        "ROCKETLAUNCH",
+        "GEOTAIL",
+        "VENUSPHASE",
+        "TESTFLIGHT"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 028",
+      "words": [
+        "PHOEBE",
+        "ALTITUDE",
+        "BORMAN",
+        "STARFRUIT",
+        "CHROMOSPHERE",
+        "ROCKETFUEL",
+        "XRAY",
+        "NATURE",
+        "METEOROID",
+        "STARLORE",
+        "COLDPLANET",
+        "TELESCOPEOPTIC"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 029",
+      "words": [
+        "PLANETSHOW",
+        "CALORISBASIN",
+        "URANIAN",
+        "HELIOSHEATH",
+        "MOONBEAM",
+        "DISTANT",
+        "WAVEFORM",
+        "INNERPLANET",
+        "SPACEPOSTER",
+        "WISE",
+        "CORONAL",
+        "ATEA"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 030",
+      "words": [
+        "URANUS",
+        "STARGATE",
+        "BLUEPLANET",
+        "DWARFPLANET",
+        "ASTRONOMY",
+        "LEO",
+        "COMPACTOBJECT",
+        "PLANETWATCH",
+        "SOLARCORE",
+        "FARAWAY",
+        "STAR",
+        "ARCTURUS"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 031",
+      "words": [
+        "GALILEO",
+        "LUNARBASE",
+        "ATOM",
+        "ULTRACOOL",
+        "BOTES",
+        "STARSHIP",
+        "KHARON",
+        "DYSNOMIA",
+        "CONTINENTS",
+        "AMALTHEA",
+        "NEMESIS",
+        "MARSSKY"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 032",
+      "words": [
+        "GRAVITATIONAL",
+        "SATURNIAN",
+        "ROCHELIMIT",
+        "SUNPROBE",
+        "METEORITE",
+        "PHOENI",
+        "MOONLET",
+        "ANTIMATTER",
+        "SPACEJOURNAL",
+        "ELARA",
+        "VENERA",
+        "THYONE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 033",
+      "words": [
+        "SOLARSYSTEM",
+        "VERNAL",
+        "DARKENERGY",
+        "MUSCA",
+        "DWARFGALAXY",
+        "AQUILA",
+        "TERRESTRIAL",
+        "COSMOS",
+        "OBSERVATORY",
+        "NIGHTGLOW",
+        "PLANETQUIZ",
+        "SETI"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 034",
+      "words": [
+        "DAYLIGHT",
+        "ASTRONAUT",
+        "VIKINGONE",
+        "SNOWFLAKE",
+        "CLEMENTINE",
+        "UMBRA",
+        "STARFISH",
+        "PLANETOID",
+        "LUCY",
+        "ALCYONEUS",
+        "CIRCUMSOLAR",
+        "SUNMOON"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 035",
+      "words": [
+        "ROCKETWATCH",
+        "SOLAREVENT",
+        "SOHO",
+        "PROMETHEUS",
+        "HYPERBOLIC",
+        "MARTIAN",
+        "ROCKETSHIP",
+        "ALCYONE",
+        "STARLAB",
+        "HELIOPHYSICS",
+        "FIREFLY",
+        "TIANGONG"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 036",
+      "words": [
+        "PROTOSTAR",
+        "STARFORMATION",
+        "PERIAPSIS",
+        "ARMSTRONG",
+        "PALEOBLUE",
+        "GASCLOUD",
+        "ANTUMBRA",
+        "FORTUNA",
+        "INNERCORE",
+        "ZENITHDISTANCE",
+        "THRYMR",
+        "WASP"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 037",
+      "words": [
+        "BEPICOLOMBO",
+        "PLEIADES",
+        "KORE",
+        "CORONA",
+        "PAVO",
+        "TELESCOPESCOPE",
+        "CYGNUS",
+        "BRIGHTSKY",
+        "OORTCLOUD",
+        "CAPRICORNUS",
+        "POLARISDAWN",
+        "STARBURST"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 038",
+      "words": [
+        "HERA",
+        "ASTROMETRIC",
+        "EQUINOX",
+        "POLARCAP",
+        "STARCOMPASS",
+        "SPACEFOOD",
+        "FARSIDEFLYBY",
+        "GALAXY",
+        "PASIPHAE",
+        "LYNX",
+        "FUTUREWORLD",
+        "ORBITPLANE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 039",
+      "words": [
+        "MOONLANDING",
+        "CHIMERA",
+        "ALIEN",
+        "ROCKETSCIENCE",
+        "SPIRIT",
+        "SATURNPROBE",
+        "DIFFRACTION",
+        "ZEPHYR",
+        "GALATEA",
+        "ASTRONOMER",
+        "HELIOTAIL",
+        "NEPTUNIAN"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 040",
+      "words": [
+        "PLANETTRIP",
+        "MESSENGER",
+        "GALACTICCENTER",
+        "PHOENIX",
+        "ZEROGRAVITY",
+        "SWIFT",
+        "ALMANAC",
+        "LARISSA",
+        "SOLARCROWN",
+        "PROTEUS",
+        "OUTERPLANET",
+        "WHITEHOLE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 041",
+      "words": [
+        "FLYING",
+        "TESS",
+        "KAINATE",
+        "ATLANTIS",
+        "LRO",
+        "SPACEGAME",
+        "POLARISPROBE",
+        "MERCURY",
+        "ECLIPSEPATH",
+        "PARACHUTE",
+        "SOLARARRAY",
+        "ATHENA"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 042",
+      "words": [
+        "ZUBENELGENUBI",
+        "DSCOVR",
+        "SAGITTARIUS",
+        "CURIOSITY",
+        "CHANDRAYAAN",
+        "NEWMOON",
+        "SOLSTATION",
+        "GAMMA",
+        "BLUEBIRD",
+        "VIKINGLANDER",
+        "DOPPLERSHIFT",
+        "PSYCH"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 043",
+      "words": [
+        "ALHENA",
+        "KERBEROS",
+        "OCCULTATION",
+        "ALDEBARAN",
+        "THERMOSPHERE",
+        "ASTROPARTICLE",
+        "OBERTH",
+        "STARLIGHT",
+        "CORDELIA",
+        "ULTRAVIOLETBAND",
+        "THEMIS",
+        "HAUMEA"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 044",
+      "words": [
+        "ALSHAIN",
+        "SCUTUM",
+        "POLARIMETER",
+        "ALBEDO",
+        "BIOSIGNATURE",
+        "RIGHTASCENSION",
+        "STARSHIPCREW",
+        "MAINBELT",
+        "AURIGA",
+        "SPACECRAFT",
+        "TIANWEN",
+        "TRIANGULUM"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 045",
+      "words": [
+        "PROGRADE",
+        "CANOPUS",
+        "SOLARORBITER",
+        "IRRADIANCE",
+        "VALETUDO",
+        "GRAVITYGAME",
+        "STARMAP",
+        "JUPITERICY",
+        "MOIRA",
+        "STARBOOKLET",
+        "COSMOGENESIS",
+        "CHANDRAYAANTHREE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 046",
+      "words": [
+        "DEIMOS",
+        "VOYAGER",
+        "UMBRIEL",
+        "VARDA",
+        "ANDROMEDA",
+        "ANGSTROM",
+        "ASTEROSEISMOLOGY",
+        "NEREID",
+        "MOONRIDER",
+        "UNIVERSEBOOK",
+        "LEDA",
+        "SUNDIAL"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 047",
+      "words": [
+        "BARYONIC",
+        "ANTIOPE",
+        "CARME",
+        "WONDER",
+        "PASITHEE",
+        "PHOTON",
+        "STARGAZING",
+        "CRESCENT",
+        "TELESCOPEARRAY",
+        "RADIOTELESCOPE",
+        "SEDNA",
+        "ECLIPSETIME"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 048",
+      "words": [
+        "THEBE",
+        "INTERSTELLAR",
+        "STARSTORY",
+        "RAINBOW",
+        "TELESCOPECLUB",
+        "ALGORAB",
+        "PUPPIS",
+        "HABITAT",
+        "REDSHIFT",
+        "STARPARTY",
+        "ORBITALPERIOD",
+        "ALUDRA"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 049",
+      "words": [
+        "NEPTUNEWINDS",
+        "PLUTOHEART",
+        "COLUMBIA",
+        "IAPETUS",
+        "SPARKLING",
+        "BOLIDE",
+        "MOONDANCE",
+        "CLYDE",
+        "BENNU",
+        "COMET",
+        "STARLESSON",
+        "HUBBLE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 050",
+      "words": [
+        "ALPHARD",
+        "PANDORA",
+        "NEWHORIZONS",
+        "KEPLERIAN",
+        "ERIS",
+        "MENSA",
+        "BASALT",
+        "APHELION",
+        "GANYMEDE",
+        "CAPRICORN",
+        "SEMIMAJOR",
+        "ARGONAUT"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 051",
+      "words": [
+        "WILDLIFE",
+        "MOONPROBE",
+        "MICROMETEORITE",
+        "NIX",
+        "LUPUS",
+        "ATLASMOON",
+        "ORBIT",
+        "GRAVITYWELL",
+        "PLANET",
+        "SPACEBALL",
+        "UNIVERSE",
+        "WEATHER"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 052",
+      "words": [
+        "HYDROSTATIC",
+        "SARGAS",
+        "HAYABUSAONE",
+        "RESONANCE",
+        "BRADBURY",
+        "PAYLOAD",
+        "EPIMETHEUS",
+        "SPACEBUDDY",
+        "DECLINATION",
+        "CELESTIA",
+        "STARALBUM",
+        "SCORPIO"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 053",
+      "words": [
+        "BLUESKY",
+        "LATITUDE",
+        "SPECTRUM",
+        "KITE",
+        "PERIGEE",
+        "STARSEARCH",
+        "MELETE",
+        "HIMALIA",
+        "BARYCENTER",
+        "FURUD",
+        "HYDRUS",
+        "DAEDALUS"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 054",
+      "words": [
+        "NIGHTFALL",
+        "AIRPLANE",
+        "ALKAID",
+        "RINGEDPLANET",
+        "BIGBANG",
+        "SUPERNOVAE",
+        "DEMETER",
+        "AFTERGLOW",
+        "SPACEBOOK",
+        "LIGHTMETER",
+        "VOLANS",
+        "MOONQUAKES"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 055",
+      "words": [
+        "MOONSHADOW",
+        "IDA",
+        "ACCRETION",
+        "HYDROCARBON",
+        "SUPERMASSIVE",
+        "EVENING",
+        "SIRIUS",
+        "SUNFLARE",
+        "UNIVERSEJOURNEY",
+        "HYSTERIA",
+        "URSAMINOR",
+        "SPACEWEATHER"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 056",
+      "words": [
+        "JUNO",
+        "BLAZAR",
+        "CEPHUS",
+        "EXPLOREMORE",
+        "LIGHTYEAR",
+        "BOOTES",
+        "COSMICTRIP",
+        "FLUENCE",
+        "CARINA",
+        "ORPHEUS",
+        "NORAD",
+        "FREQUENCY"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 057",
+      "words": [
+        "LUNA",
+        "DAYLENGTH",
+        "STARQUEST",
+        "GODDARD",
+        "NOVA",
+        "CISLUNAR",
+        "STELLARCORE",
+        "LACERTA",
+        "NUCLEUS",
+        "RADIOQUIET",
+        "RADIANCE",
+        "PARALLAX"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 058",
+      "words": [
+        "LEPUS",
+        "HERMIPPE",
+        "STARCLOUD",
+        "WORLD",
+        "RADIALORBIT",
+        "KUIPERBELT",
+        "SATURN",
+        "COSMOLOGY",
+        "BOREAS",
+        "CELESTIAL",
+        "RAINYDAY",
+        "MOONBASE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 059",
+      "words": [
+        "EPHEMERIS",
+        "AURORARING",
+        "GALACTICEQUATOR",
+        "SUBORBITAL",
+        "ENIF",
+        "JAMESWEBB",
+        "RADIATION",
+        "OUTGASSING",
+        "LAUNCHDAY",
+        "AEGIR",
+        "ALTOCUMULUS",
+        "VIKING"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 060",
+      "words": [
+        "OPPOSITION",
+        "CHARON",
+        "LEONIS",
+        "EARTHQUAKE",
+        "STARBADGE",
+        "PALLAS",
+        "HERCULES",
+        "SAMPLE",
+        "YSABEL",
+        "OSIRISREX",
+        "COSMIC",
+        "METEOR"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 061",
+      "words": [
+        "TITANIA",
+        "ISOTROPE",
+        "DAYTIME",
+        "SEMIMAJORAXIS",
+        "MOONROCK",
+        "SPACECAMP",
+        "METEORBURST",
+        "SAGITTA",
+        "WOLFMOON",
+        "COMETTAIL",
+        "PIONEERPROBE",
+        "BACKYARD"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 062",
+      "words": [
+        "DWARF",
+        "INCLINATION",
+        "NARVI",
+        "DARKMATTER",
+        "EMISSION",
+        "WORMHOLE",
+        "EAGLEMODULE",
+        "ECLIPSINGBINARY",
+        "CAELUM",
+        "SPACETIME",
+        "FARSIDE",
+        "DRAGONFLY"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 063",
+      "words": [
+        "SPACEHOME",
+        "EARTHSHINE",
+        "APOAPSIS",
+        "ASTEROIDBELT",
+        "INTERPLANETARY",
+        "ERIDANUS",
+        "TARVOS",
+        "XRAYTELESCOPE",
+        "STARGLOW",
+        "STARSPOT",
+        "MOONCYCLE",
+        "BIANCA"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 064",
+      "words": [
+        "ASTRONAUTPATCH",
+        "JUPITERTROJAN",
+        "NIGHTSCAPE",
+        "TELESCOPIC",
+        "TELESCOPECASE",
+        "COLUMBA",
+        "ELPIS",
+        "MARS",
+        "LAGRANGEPOINT",
+        "HEBE",
+        "VIKINGORBITER",
+        "TERRESTRIALPLANET"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 065",
+      "words": [
+        "SATURNRINGS",
+        "SOLARWIND",
+        "QUARK",
+        "BELLATRIX",
+        "SPACESHIPWINDOW",
+        "DEBRISDISK",
+        "ECLIPSE",
+        "ENCELADUS",
+        "ORBITGAME",
+        "PERIHELION",
+        "ARCSECOND",
+        "ROSETTA"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 066",
+      "words": [
+        "LUNARPLAIN",
+        "SUNHALO",
+        "SPACEVIDEO",
+        "SUNRAY",
+        "METEORFALL",
+        "VENUSCLOUDS",
+        "STARSTREAM",
+        "SATURNMOON",
+        "OBERON",
+        "MAGNETICSTORM",
+        "REENTRY",
+        "SPACESHUTTLE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 067",
+      "words": [
+        "CETUS",
+        "LITTLEPLANET",
+        "PLANETGUIDE",
+        "NORTHSTAR",
+        "CRUX",
+        "GLOBULARCLUSTER",
+        "PATHFINDER",
+        "STELLARWIND",
+        "GOMEISA",
+        "CASSINIHUYGENS",
+        "TIDAL",
+        "GREATREDSPOT"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 068",
+      "words": [
+        "ELECTROMAGNETIC",
+        "DISCOVERY",
+        "CALLISTO",
+        "CRESSIDA",
+        "STELLAR",
+        "CHEMISTRY",
+        "AETHRA",
+        "SOLARSAIL",
+        "COSMICRAY",
+        "LONGPERIOD",
+        "SOLARIS",
+        "MIM"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 069",
+      "words": [
+        "LABORATORY",
+        "SPACETRAVEL",
+        "ROCKETTOY",
+        "BLACKHOLE",
+        "VENUS",
+        "SPACEALBUM",
+        "MISSION",
+        "TERMINATOR",
+        "CAPELLA",
+        "SPACEGARDEN",
+        "BEYOND",
+        "ARACELI"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 070",
+      "words": [
+        "CASSIOPEIA",
+        "HOROLOGIUM",
+        "SPITZER",
+        "STARCLUSTER",
+        "PARKER",
+        "SCIENCEBOOK",
+        "TRAPPIST",
+        "EARTHRISE",
+        "MOONWALK",
+        "WHITECAP",
+        "ABLATION",
+        "ALTAIR"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 071",
+      "words": [
+        "NUCLEARFUSION",
+        "PHOBOS",
+        "EGEDE",
+        "PICTOR",
+        "MOONRISE",
+        "ROSALIND",
+        "HELIOCENTRISM",
+        "ALPHERATZ",
+        "TRANSIT",
+        "STARCAMP",
+        "STARSEASON",
+        "ANGULARMOMENTUM"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 072",
+      "words": [
+        "ANOMALOUS",
+        "KEPLER",
+        "RINA",
+        "LUNARORBITER",
+        "ARGUS",
+        "SUPERMOON",
+        "FLASH",
+        "NEUTRINO",
+        "LAUNCHING",
+        "LAUNCH",
+        "TWILIGHT",
+        "ILYUSHIN"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 073",
+      "words": [
+        "PEACEFUL",
+        "FACULA",
+        "HEPHAESTUS",
+        "SHERATAN",
+        "EXTRASOLAR",
+        "ECLIPSEGLASSES",
+        "HERMES",
+        "SCIENTIST",
+        "COSMOCHEMICAL",
+        "PLANETARIUM",
+        "PROTOGALAXY",
+        "TRANSITMETHOD"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 074",
+      "words": [
+        "RED",
+        "SENTINEL",
+        "LITTLEDIPPER",
+        "RINGPLANE",
+        "PLANETLOVER",
+        "CARINAE",
+        "SAMPLETUBE",
+        "NEUTRONNOVA",
+        "OPTICALTELESCOPE",
+        "PULSAR",
+        "MILKYWAY",
+        "JUPITER"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 075",
+      "words": [
+        "SUNWARD",
+        "SPACEPLANE",
+        "LIBRA",
+        "CLOUD",
+        "LIBRATION",
+        "MASSNUMBER",
+        "VENUSCLOUD",
+        "SPACEAGE",
+        "SUALOCIN",
+        "CHAMELEON",
+        "POLARAXIS",
+        "EXTRAGALACTIC"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 076",
+      "words": [
+        "EUPORIE",
+        "SOLARSTORM",
+        "STARFINDER",
+        "LAUNCHPAD",
+        "EARTHORBIT",
+        "PLUTO",
+        "DORADO",
+        "ABELL",
+        "EXOMARS",
+        "WORLDS",
+        "NIGHT",
+        "CARBONACEOUS"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 077",
+      "words": [
+        "UNIVERSEGUIDE",
+        "ADRASTEA",
+        "TRITON",
+        "ASTROBIOLOGY",
+        "AEOLUS",
+        "CIRCUMSTELLAR",
+        "RETROGRADE",
+        "CHROMATIC",
+        "TUCANA",
+        "GRAVITATIONALWAVE",
+        "QUASAR",
+        "SPACEMAN"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 078",
+      "words": [
+        "SPACECRAFTWINDOW",
+        "SPACEEXPLORER",
+        "IRIDIUM",
+        "ULTRAVIOLET",
+        "GIANTPLANET",
+        "NIGHTMOON",
+        "CORCAROLI",
+        "QUIET",
+        "BODES",
+        "STARADVENTURE",
+        "SPECTROSCOPY",
+        "OBSERVATION"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 079",
+      "words": [
+        "SIRONA",
+        "ORBITING",
+        "STARBASE",
+        "YARA",
+        "PLANETTOUR",
+        "FLARE",
+        "MOONMAP",
+        "STARATLAS",
+        "CORECOLLAPSE",
+        "SPARKLE",
+        "ROCKETTEAM",
+        "SPUTNIK"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 080",
+      "words": [
+        "OUTPOST",
+        "INSIGHT",
+        "MYSTERY",
+        "MARSRECONNAISSANCE",
+        "STARCOLOR",
+        "KALLICHORE",
+        "ALCMENA",
+        "SUNNYSPACE",
+        "FARBAUTI",
+        "HELIOGRAPHIC",
+        "RUSALKA",
+        "ANTLIA"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 081",
+      "words": [
+        "MEGACLITE",
+        "MICROSCOPE",
+        "REGOLITH",
+        "FALCONHEAVY",
+        "MAIA",
+        "SPACEPARTY",
+        "HADAR",
+        "SHOOTINGSTAR",
+        "WINDY",
+        "BROWN",
+        "REFLECTANCE",
+        "ASTRONAUTHELMET"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 082",
+      "words": [
+        "SUNSHIELD",
+        "SUNSHINE",
+        "ORIONNEBULA",
+        "METIS",
+        "PLANETOLOGY",
+        "LAIKA",
+        "TAURUS",
+        "SCINTILLATION",
+        "RAIN",
+        "TELESCOPE",
+        "CELESTIALSPHERE",
+        "SOLAR"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 083",
+      "words": [
+        "JETSTREAM",
+        "DRACO",
+        "BABYPLANET",
+        "DAWNMISSION",
+        "SKYWATCHER",
+        "BOOSTER",
+        "NIGHTLIGHT",
+        "HORIZON",
+        "SATELLITEGALAXY",
+        "DUBHE",
+        "MOONMUSEUM",
+        "STEPHANO"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 084",
+      "words": [
+        "THRUSTER",
+        "PERIASTRON",
+        "INTERFEROMETER",
+        "CREW",
+        "AEOLIS",
+        "AMMONIA",
+        "HEMISPHERE",
+        "ORBITWATCH",
+        "EARTH",
+        "MISSIONFLAG",
+        "CHELYABINSK",
+        "ALGOL"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 085",
+      "words": [
+        "RADIALVELOCITY",
+        "SKYLINE",
+        "FLIGHTPLAN",
+        "IONIZATION",
+        "EARTHSYSTEM",
+        "AMAZING",
+        "SOLARMAXIMUM",
+        "SOLARECLIPSE",
+        "STARSHINE",
+        "PERSEVERANCE",
+        "SOLARCYCLE",
+        "ORIONBELT"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 086",
+      "words": [
+        "NIGHTINGALE",
+        "HELIOCENTRIC",
+        "ARCMINUTE",
+        "ORION",
+        "BERENICES",
+        "BETELGEUSE",
+        "COSMICWEB",
+        "PRECESSION",
+        "GAIA",
+        "SATELLITEORBIT",
+        "PYXIS",
+        "SUN"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 087",
+      "words": [
+        "PLANETARIUMSHOW",
+        "EVENTHORIZON",
+        "DISCOVERYDAY",
+        "SPACEBADGE",
+        "HELENE",
+        "EXOPLANETFINDER",
+        "FLYBY",
+        "MONOCER",
+        "REDPLANET",
+        "ADVENTURE",
+        "MOONSHINE",
+        "SKYGUIDE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 088",
+      "words": [
+        "PARKERPROBE",
+        "MOONCAKE",
+        "STARDOME",
+        "ABLATIONZONE",
+        "SUBGIANT",
+        "GLOW",
+        "DENEBOLA",
+        "MOUNTAIN",
+        "STARMUSEUM",
+        "BLUEMOON",
+        "GALAXYVIEW",
+        "UNIVERSEVIEW"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 089",
+      "words": [
+        "ANGULARSIZE",
+        "PERSEUS",
+        "ECLIPTIC",
+        "TELESCOPETRIP",
+        "XUNTIAN",
+        "TRANSNEPTUNIAN",
+        "STARNURSERY",
+        "VISIBLELIGHT",
+        "CAPSULE",
+        "LYRA",
+        "ARIES",
+        "SIDEREAL"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 090",
+      "words": [
+        "ASTEROID",
+        "HEAVENS",
+        "AURORA",
+        "SABIK",
+        "STARVIEW",
+        "ORCUS",
+        "MOONPARTY",
+        "RAN",
+        "ROCKETRACE",
+        "VACUUMENERGY",
+        "DESPIN",
+        "REDGIANT"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 091",
+      "words": [
+        "LEGRANGE",
+        "BALLOON",
+        "BIELA",
+        "EXTRAVEHICULAR",
+        "BOLOMETRIC",
+        "PUCK",
+        "PLANETESIMAL",
+        "CENTAURI",
+        "COPERNICUS",
+        "ROTATION",
+        "FOMALHAUT",
+        "CONSTELLATION"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 092",
+      "words": [
+        "OPHIUCHUS",
+        "OLYMPUSMONS",
+        "UNCREWED",
+        "GEMINI",
+        "ULTRAVIOLETVIEW",
+        "BREEZE",
+        "ARROKOTH",
+        "MAGNETICFIELD",
+        "PROPERMOTION",
+        "MINORPLANET",
+        "ABSORPTIONLINE",
+        "ELECTRONVOLT"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 093",
+      "words": [
+        "COSMICVIEW",
+        "VINDEMIATRIX",
+        "MOONBEAMS",
+        "ORIX",
+        "IONOSPHERE",
+        "MISSIONCONTROL",
+        "VIRGO",
+        "GRAVITY",
+        "GASGIANT",
+        "MAGNETOGRAM",
+        "WEBB",
+        "EUROPA"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 094",
+      "words": [
+        "MIMAS",
+        "CANISMINOR",
+        "ZODIACLIGHT",
+        "JARNSAXA",
+        "PROBE",
+        "RADIATIONBELT",
+        "SCIENCECLUB",
+        "STARPATH",
+        "SHENZHOU",
+        "RETICULUM",
+        "MICROSCOPIUM",
+        "MOONCRATER"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 095",
+      "words": [
+        "POLARIS",
+        "WAVELENGTH",
+        "SPACEWALK",
+        "PARSEC",
+        "MOONRAKER",
+        "VALENTINE",
+        "MOONLIGHT",
+        "ALBI",
+        "HABITABLEZONE",
+        "METEORSTREAM",
+        "MILLIARCSECOND",
+        "COMMANDMODULE"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 096",
+      "words": [
+        "CYBELE",
+        "FUSION",
+        "VENUSFLYBY",
+        "RETURN",
+        "SPACECREW",
+        "ANTAPEX",
+        "ASTRONAUTTEAM",
+        "DOUBLE",
+        "EXPLORER",
+        "MICROLENSING",
+        "LONGITUDE",
+        "ZENITH"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 097",
+      "words": [
+        "VENUSPROBE",
+        "ASTEROPE",
+        "SPACEWALKERS",
+        "MEGARA",
+        "TELESCOPEVIEW",
+        "ALIENWORLD",
+        "PORTIA",
+        "GALAXYGROUP",
+        "THERMONUCLEAR",
+        "SCORPIUS",
+        "STARQUAKE",
+        "CARPO"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 098",
+      "words": [
+        "SCULPTOR",
+        "WAVELENGTHBAND",
+        "SPACESTATION",
+        "MAKEMAKE",
+        "ARIANE",
+        "ROVER",
+        "PLANETBOOK",
+        "TRANSITFINDER",
+        "STARGAZER",
+        "PAN",
+        "LAUNCHSITE",
+        "PLANETFAMILY"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 099",
+      "words": [
+        "BUZZALDRIN",
+        "PHOTOSPHERE",
+        "SOYUZ",
+        "SPECTROGRAPH",
+        "ECCENTRICITY",
+        "STARREADER",
+        "PEGASUS",
+        "CLIMATE",
+        "BRIGHT",
+        "SATELLITEVIEW",
+        "PLANETDAY",
+        "VERITAS"
+      ]
+    },
+    {
+      "name": "Space, Planets and Astronomy Puzzle 100",
+      "words": [
+        "UNIVERSECLUB",
+        "STARBOOK",
+        "LUNARHORIZON",
+        "BELLONA",
+        "DELPHINUS",
+        "STYX",
+        "MIRACH",
+        "RINGMOON",
+        "SPECTROSCOPE",
+        "GALAXYTRIP",
+        "SKYFIELD",
+        "MOONWALKERS"
+      ]
+    }
+  ]
+}

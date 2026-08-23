@@ -17,9 +17,9 @@ MARGIN = 54
 SudokuGrid = list[list[int]]
 
 FONTS = {
-    "Sans":  "/System/Library/Fonts/Supplemental/Arial.ttf",
-    "SansB": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
-    "MonoB": "/System/Library/Fonts/Supplemental/Courier New Bold.ttf",
+    "Sans":  "C:/Windows/Fonts/arial.ttf",
+    "SansB": "C:/Windows/Fonts/arialbd.ttf",
+    "MonoB": "C:/Windows/Fonts/courbd.ttf",
 }
 
 
@@ -176,9 +176,26 @@ def make_puzzle(solved: SudokuGrid, difficulty: str, rng: random.Random) -> Sudo
 
 
 # ---------------- PDF rendering ----------------
+def _draw_shape(c: Canvas, value: int, cx: float, cy: float, size: float) -> None:
+    """Nine font-free symbols for special Sudoku games; safe in every PDF."""
+    r = size * 0.25
+    if value == 1: c.circle(cx, cy, r, stroke=1, fill=0)
+    elif value == 2: c.rect(cx-r, cy-r, 2*r, 2*r, stroke=1, fill=0)
+    elif value == 3:
+        p=c.beginPath(); p.moveTo(cx,cy+r); p.lineTo(cx-r,cy-r); p.lineTo(cx+r,cy-r); p.close(); c.drawPath(p,stroke=1,fill=0)
+    elif value == 4:
+        p=c.beginPath(); p.moveTo(cx,cy+r); p.lineTo(cx-r,cy); p.lineTo(cx,cy-r); p.lineTo(cx+r,cy); p.close(); c.drawPath(p,stroke=1,fill=0)
+    elif value == 5: c.line(cx-r,cy,cx+r,cy); c.line(cx,cy-r,cx,cy+r)
+    elif value == 6: c.line(cx-r,cy-r,cx+r,cy+r); c.line(cx-r,cy+r,cx+r,cy-r)
+    elif value == 7: c.circle(cx, cy, r, stroke=1, fill=1)
+    elif value == 8: c.roundRect(cx-r,cy-r,2*r,2*r,r*.35,stroke=1,fill=0)
+    else:
+        p=c.beginPath(); p.moveTo(cx,cy+r); p.lineTo(cx-r*.95,cy-r*.7); p.lineTo(cx+r*.95,cy-r*.7); p.close(); c.drawPath(p,stroke=1,fill=1)
+
+
 def draw_sudoku(c: Canvas, grid: SudokuGrid, gx: float, gy_top: float, cell: float,
                  number_font: str, number_size: float,
-                 solution_overlay: SudokuGrid | None = None) -> None:
+                 solution_overlay: SudokuGrid | None = None, display_style: str = "numbers") -> None:
     """Render a 9x9 Sudoku grid. gy_top is the top y-coordinate.
     solution_overlay (optional): grayed-in numbers showing the answers for cells the puzzle had blank."""
     size = 9 * cell
@@ -188,7 +205,8 @@ def draw_sudoku(c: Canvas, grid: SudokuGrid, gx: float, gy_top: float, cell: flo
     c.rect(gx, gy_top - size, size, size, stroke=0, fill=1)
 
     # thin gridlines (every cell)
-    c.setLineWidth(0.5)
+    # KDP's print guidance calls for lines that remain visible after printing.
+    c.setLineWidth(0.8)
     c.setStrokeColorRGB(0.65, 0.65, 0.65)
     for i in range(10):
         c.line(gx + i * cell, gy_top, gx + i * cell, gy_top - size)
@@ -201,7 +219,7 @@ def draw_sudoku(c: Canvas, grid: SudokuGrid, gx: float, gy_top: float, cell: flo
         c.line(gx + i * cell, gy_top, gx + i * cell, gy_top - size)
         c.line(gx, gy_top - i * cell, gx + size, gy_top - i * cell)
 
-    # numbers
+    # Numbers, letters, or font-free vector shapes use the same verified grid.
     c.setFont(number_font, number_size)
     for r in range(9):
         for col in range(9):
@@ -210,7 +228,9 @@ def draw_sudoku(c: Canvas, grid: SudokuGrid, gx: float, gy_top: float, cell: flo
                 c.setFillColorRGB(0, 0, 0)
                 cx = gx + col * cell + cell / 2
                 cy = gy_top - r * cell - cell / 2 - number_size * 0.34
-                c.drawCentredString(cx, cy, str(v))
+                if display_style == "letters": c.drawCentredString(cx, cy, chr(64 + v))
+                elif display_style == "shapes": _draw_shape(c, v, cx, cy + number_size * .18, cell)
+                else: c.drawCentredString(cx, cy, str(v))
 
     # solution overlay (the values that were originally blank, drawn lighter)
     if solution_overlay is not None:
@@ -221,7 +241,10 @@ def draw_sudoku(c: Canvas, grid: SudokuGrid, gx: float, gy_top: float, cell: flo
                 if grid[r][col] == 0 and solution_overlay[r][col] != 0:
                     cx = gx + col * cell + cell / 2
                     cy = gy_top - r * cell - cell / 2 - number_size * 0.34
-                    c.drawCentredString(cx, cy, str(solution_overlay[r][col]))
+                v = solution_overlay[r][col]
+                if display_style == "letters": c.drawCentredString(cx, cy, chr(64 + v))
+                elif display_style == "shapes": _draw_shape(c, v, cx, cy + number_size * .18, cell)
+                else: c.drawCentredString(cx, cy, str(v))
 
 
 def footer(c: Canvas, page_no: int) -> None:
@@ -278,26 +301,27 @@ def front_matter(c: Canvas, title: str, subtitle: str, author: str) -> None:
 
 
 def puzzle_page(c: Canvas, idx: int, difficulty: str, puzzle: SudokuGrid,
-                 page_no: int, running: str) -> None:
+                 page_no: int, running: str, display_style: str = "numbers") -> None:
     c.setFillColorRGB(0.5, 0.5, 0.5); c.setFont("Sans", 10)
     c.drawCentredString(PAGE_W / 2, PAGE_H - 40, running)
     c.setFillColorRGB(0.1, 0.1, 0.1); c.setFont("SansB", 12)
     c.drawString(MARGIN, PAGE_H - 64, f"PUZZLE {idx}")
     c.setFont("SansB", 11)
     c.setFillColorRGB(0.4, 0.4, 0.4)
-    c.drawRightString(PAGE_W - MARGIN, PAGE_H - 64, f"DIFFICULTY: {difficulty.upper()}")
+    label = {"numbers": "NUMBER", "letters": "LETTER", "shapes": "SHAPE"}.get(display_style, "NUMBER")
+    c.drawRightString(PAGE_W - MARGIN, PAGE_H - 64, f"{label} • {difficulty.upper()}")
 
     cell = 50
     grid_w = 9 * cell
     gx = (PAGE_W - grid_w) / 2
     gy_top = PAGE_H - 130
-    draw_sudoku(c, puzzle, gx, gy_top, cell, "MonoB", 28)
+    draw_sudoku(c, puzzle, gx, gy_top, cell, "MonoB", 28, display_style=display_style)
 
     footer(c, page_no)
     c.showPage()
 
 
-def solutions_section(c: Canvas, items: list[tuple[int, SudokuGrid, SudokuGrid]],
+def solutions_section(c: Canvas, items: list[tuple[int, SudokuGrid, SudokuGrid, str]],
                        page_no_start: int, running: str) -> int:
     """6 mini-grids per page (2x3 layout) — compact solutions."""
     page_no = page_no_start
@@ -318,13 +342,13 @@ def solutions_section(c: Canvas, items: list[tuple[int, SudokuGrid, SudokuGrid]]
         c.setFillColorRGB(0.5, 0.5, 0.5); c.setFont("Sans", 10)
         c.drawCentredString(PAGE_W / 2, PAGE_H - 40, running)
         batch = items[i:i + per_page]
-        for j, (idx, puzzle, solved) in enumerate(batch):
+        for j, (idx, puzzle, solved, display_style) in enumerate(batch):
             row, col = divmod(j, cols)
             gx = start_x + col * (grid_w + col_gap)
             top_y = PAGE_H - 90 - row * (grid_w + row_gap + 30)
             c.setFillColorRGB(0.1, 0.1, 0.1); c.setFont("SansB", 11)
             c.drawCentredString(gx + grid_w / 2, top_y + 10, f"PUZZLE {idx}")
-            draw_sudoku(c, solved, gx, top_y, cell, "MonoB", 13)
+            draw_sudoku(c, solved, gx, top_y, cell, "MonoB", 13, display_style=display_style)
         footer(c, page_no); c.showPage(); page_no += 1
     return page_no
 
@@ -406,7 +430,7 @@ def _wrap(text: str, width: int) -> list[str]:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--title", default="Large Print Sudoku")
-    ap.add_argument("--subtitle", default="100 Large Print Sudoku Puzzles for Adults & Seniors with Big Easy-to-Read Numbers and Full Solutions")
+    ap.add_argument("--subtitle", default="100 Number, Letter and Shape Sudoku Puzzles with Full Solutions")
     ap.add_argument("--author", default="Evergreen Puzzle Press")
     ap.add_argument("--count", type=int, default=100)
     ap.add_argument("--also-from", default="")  # path to JSON list
@@ -425,10 +449,11 @@ def main() -> None:
     rng.shuffle(difficulties)  # mix them through the book
 
     puzzles = []
-    for d in difficulties:
+    special_styles = ("numbers", "letters", "shapes")
+    for idx, d in enumerate(difficulties):
         solved = make_solved(rng)
         puzzle = make_puzzle(solved, d, rng)
-        puzzles.append((d, puzzle, solved))
+        puzzles.append((d, puzzle, solved, special_styles[idx % len(special_styles)]))
 
     also_from = []
     if a.also_from and os.path.exists(a.also_from):
@@ -442,9 +467,9 @@ def main() -> None:
 
     page_no = 1
     items_for_sol = []
-    for i, (d, p, s) in enumerate(puzzles, start=1):
-        puzzle_page(c, i, d, p, page_no, a.title)
-        items_for_sol.append((i, p, s))
+    for i, (d, p, s, display_style) in enumerate(puzzles, start=1):
+        puzzle_page(c, i, d, p, page_no, a.title, display_style)
+        items_for_sol.append((i, p, s, display_style))
         page_no += 1
 
     page_no = solutions_section(c, items_for_sol, page_no, a.title)

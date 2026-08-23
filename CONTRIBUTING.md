@@ -19,7 +19,7 @@ CI runs this plus `python -m compileall -q .` on every push and PR. The tests co
 ## Making a change
 
 1. Branch off `main`.
-2. If you're touching `wordsearch.py`, `sudoku.py`, or `mazes.py`, add a test alongside the existing ones in `tests/` — these are pure functions and cheap to cover.
+2. If you're touching `wordsearch.py` or `sudoku.py`, add a test alongside the existing ones in `tests/` — these are pure functions and cheap to cover.
 3. PDF/cover rendering (`draw_*`, `front_matter`, `back_matter`, etc.) is harder to unit test meaningfully; changes there are reviewed by generating a sample book and checking it by eye rather than by an automated check.
 4. Open a PR against `main`.
 

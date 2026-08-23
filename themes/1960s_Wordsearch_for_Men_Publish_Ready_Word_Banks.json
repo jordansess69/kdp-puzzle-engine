@@ -1,0 +1,897 @@
+{
+  "title": "The Swinging Sixties Word Search for Men",
+  "subtitle": "100 themed word search puzzles",
+  "author": "Slade Puzzles",
+  "palette": "nature",
+  "puzzles": [
+    {
+      "name": "Space Race",
+      "words": [
+        "ACADIA",
+        "MOON",
+        "RECEIVER",
+        "FURRY",
+        "FREEWAY",
+        "RECORD",
+        "TOMB",
+        "TEXTMESSAGE",
+        "CARSEATCOVER",
+        "CLEVER",
+        "CANDLE",
+        "EMERGENCY"
+      ]
+    },
+    {
+      "name": "Road Trip",
+      "words": [
+        "ROADSCENE",
+        "DISCOBALL",
+        "EBB",
+        "CHILI",
+        "BROOMSTICK",
+        "WILDS",
+        "HOODOO",
+        "TRACKING",
+        "STRAW",
+        "ODOMETER",
+        "TEXTING",
+        "FEARLESS"
+      ]
+    },
+    {
+      "name": "Beach & Surf",
+      "words": [
+        "DEFEND",
+        "SQUID",
+        "FLASHLIGHT",
+        "CASAGRANDE",
+        "FORTDAVIS",
+        "GAINESVILLE",
+        "MOTORCOACH",
+        "ICEBERG",
+        "SUNDAE",
+        "REVOLUTION",
+        "LOBBY",
+        "RIVER"
+      ]
+    },
+    {
+      "name": "Tech & Gadgets",
+      "words": [
+        "RUINS",
+        "SCENICROUTE",
+        "YACHT",
+        "SYRUP",
+        "CROCODILE",
+        "RECYCLE",
+        "FASTFORWARD",
+        "SKATE",
+        "PIE",
+        "WORDSEARCH",
+        "KRILL",
+        "BURNER"
+      ]
+    },
+    {
+      "name": "Toys & Games",
+      "words": [
+        "FOG",
+        "COMICBOOK",
+        "PANTHERS",
+        "CAST",
+        "BMX",
+        "SHORELINE",
+        "BOLT",
+        "BIKE",
+        "VACUUM",
+        "PACIFIC",
+        "GLIDE",
+        "RECOGNIZE"
+      ]
+    },
+    {
+      "name": "Everyday Home",
+      "words": [
+        "CENTURION",
+        "MAXIDRESS",
+        "FLAMINGO",
+        "CHAINWALLET",
+        "TALENT",
+        "VICTORIA",
+        "SPACECOAST",
+        "GRIZZLYBEAR",
+        "RACE",
+        "COUNTRYSIDE",
+        "CELICA",
+        "SMART"
+      ]
+    },
+    {
+      "name": "Flower Power",
+      "words": [
+        "RHYTHM",
+        "HUMAN",
+        "FLOPPYDISK",
+        "ANTIQUES",
+        "OYSTER",
+        "CLIMBING",
+        "CONSERVE",
+        "BASEBALL",
+        "CLUBS",
+        "BINGHAMTON",
+        "CRAWL",
+        "EQUAL"
+      ]
+    },
+    {
+      "name": "Cars & Roads",
+      "words": [
+        "ROLE",
+        "BARB",
+        "PLOTLINE",
+        "COLDBLOODED",
+        "CAROUSEL",
+        "SIBERIAN",
+        "STRING",
+        "SANFRANCISCO",
+        "BREED",
+        "QUEEN",
+        "SPACESHUTTLE",
+        "FORDS"
+      ]
+    },
+    {
+      "name": "Coffeehouse",
+      "words": [
+        "REMOTECAR",
+        "MANATEE",
+        "BEACHGEAR",
+        "RELAXED",
+        "ROGUE",
+        "MESSAGE",
+        "PECANPIE",
+        "SCARF",
+        "VENDOR",
+        "MARKHOR",
+        "YUMA",
+        "DROPS"
+      ]
+    },
+    {
+      "name": "Music & Dancing",
+      "words": [
+        "CLOCKRADIO",
+        "TYPE",
+        "SUBJECT",
+        "SPOTTED",
+        "WHITETAILDEER",
+        "ROADMASTER",
+        "ASPEN",
+        "FLASHFLOOD",
+        "IGUANA",
+        "GRADATION",
+        "BREEZY",
+        "WARP"
+      ]
+    },
+    {
+      "name": "Television",
+      "words": [
+        "LOOPS",
+        "COLD",
+        "GRANDVITARA",
+        "ZFOUR",
+        "PACIFICA",
+        "EXHIBITS",
+        "BAITS",
+        "LEOTARD",
+        "COMMONWEALTH",
+        "ROADREADY",
+        "SUNFLOWER",
+        "GORILLAS"
+      ]
+    },
+    {
+      "name": "Mod Fashion",
+      "words": [
+        "LIPGLOSS",
+        "PINE",
+        "ATV",
+        "SANDS",
+        "CAPRICE",
+        "FLEETWOOD",
+        "ZION",
+        "CONTROLARM",
+        "READERS",
+        "TSX",
+        "CDROM",
+        "PINUPS"
+      ]
+    },
+    {
+      "name": "Space Race: Essentials",
+      "words": [
+        "DIRECTOR",
+        "QUAY",
+        "BILLBOARD",
+        "BEHAVIOR",
+        "LANDMARK",
+        "SILLY",
+        "MEMORY",
+        "BOOT",
+        "SPROCKET",
+        "PADDLING",
+        "MAMMAL",
+        "SIGNAL"
+      ]
+    },
+    {
+      "name": "Road Trip: Essentials",
+      "words": [
+        "PHOENIX",
+        "GAMEOVER",
+        "WACO",
+        "BISBEE",
+        "INSPECTION",
+        "TENTDOOR",
+        "FLANNEL",
+        "MODEM",
+        "CAMERAPHONE",
+        "BUBBLE",
+        "THOROUGHBRED",
+        "MOUSEPAD"
+      ]
+    },
+    {
+      "name": "Beach & Surf: Essentials",
+      "words": [
+        "DOWNLOAD",
+        "WINDSTAR",
+        "SPHINX",
+        "COMPACTCAR",
+        "WASTE",
+        "CALIPH",
+        "TOOTH",
+        "CABOOSE",
+        "FACT",
+        "ENCHANTEDROCK",
+        "MIRRORBALL",
+        "BLACKBEANS"
+      ]
+    },
+    {
+      "name": "Tech & Gadgets: Essentials",
+      "words": [
+        "CAPTURE",
+        "FLEET",
+        "CHIC",
+        "REALITY",
+        "CARRIDE",
+        "OLDIES",
+        "BRONCO",
+        "CRASHING",
+        "SPELLBOOK",
+        "FEDERATION",
+        "CITY",
+        "IBIS"
+      ]
+    },
+    {
+      "name": "Toys & Games: Essentials",
+      "words": [
+        "SPORTSCAR",
+        "ESTUARY",
+        "VIDEOGAME",
+        "HOTSAUCE",
+        "NEON",
+        "REELS",
+        "TAXI",
+        "EXTINCT",
+        "COFFEEHOUSE",
+        "FEASTING",
+        "CAMPERBUS",
+        "LAKEMICHIGAN"
+      ]
+    },
+    {
+      "name": "Everyday Home: Essentials",
+      "words": [
+        "CHILL",
+        "PERFUME",
+        "ROOSTER",
+        "HOOK",
+        "ASSAY",
+        "FABRIC",
+        "DAMA",
+        "PHOTO",
+        "HYBRIDCAR",
+        "BIRDFEEDER",
+        "BATTLES",
+        "FIELD"
+      ]
+    },
+    {
+      "name": "Flower Power: Essentials",
+      "words": [
+        "MOVIES",
+        "WATERTOWER",
+        "WILD",
+        "FARM",
+        "COCONUT",
+        "BELLBOTTOMS",
+        "CREATIVE",
+        "BRUNCH",
+        "TARPON",
+        "ROADRUNNER",
+        "LIONS",
+        "PETRICHOR"
+      ]
+    },
+    {
+      "name": "Cars & Roads: Essentials",
+      "words": [
+        "BOTTLE",
+        "GILL",
+        "MINIATURE",
+        "WINGED",
+        "BEACHWEAR",
+        "EXHAUST",
+        "TRACKED",
+        "CONSTRUCT",
+        "RUN",
+        "PEBBLE",
+        "MUREX",
+        "HEROES"
+      ]
+    },
+    {
+      "name": "Coffeehouse: Essentials",
+      "words": [
+        "ENCORE",
+        "RANCHHAND",
+        "GROUSE",
+        "BALCONY",
+        "FAITH",
+        "SOVEREIGN",
+        "MEDUSA",
+        "CHURCH",
+        "BRAZOSBEND",
+        "STEEL",
+        "FRONTSEAT",
+        "FILMS"
+      ]
+    },
+    {
+      "name": "Music & Dancing: Essentials",
+      "words": [
+        "SPIN",
+        "SERFS",
+        "GRID",
+        "OPENMIC",
+        "MMA",
+        "FUSION",
+        "HARMONY",
+        "MAYAN",
+        "SPARETIRE",
+        "PULSAR",
+        "CHANGE",
+        "SNAKE"
+      ]
+    },
+    {
+      "name": "Television: Essentials",
+      "words": [
+        "DRIVETHROUGH",
+        "DIRTBIKE",
+        "CONSTITUTION",
+        "UMBRELLA",
+        "NARRATE",
+        "LODGE",
+        "FAST",
+        "COPPER",
+        "TOOLBOX",
+        "EVERGLADES",
+        "GOPHERTORTOISE",
+        "BOAS"
+      ]
+    },
+    {
+      "name": "Mod Fashion: Essentials",
+      "words": [
+        "GARBAGETRUCK",
+        "MANDARIN",
+        "AIRBORNE",
+        "LIONFISH",
+        "MARKETED",
+        "KNEEPADS",
+        "HORSE",
+        "COUNTRYMAN",
+        "MOTORHOME",
+        "DAKOTA",
+        "SUNNY",
+        "FREDERICKSBURG"
+      ]
+    },
+    {
+      "name": "Space Race: Memory Lane",
+      "words": [
+        "SURFSPRAY",
+        "CHAMELEON",
+        "BALLOON",
+        "PROTECTION",
+        "ALTITUDE",
+        "HUNT",
+        "BREAKWATER",
+        "CARGO",
+        "LOCOMOTE",
+        "BAT",
+        "LIGHTHOUSE",
+        "TURQUOISE"
+      ]
+    },
+    {
+      "name": "Road Trip: Memory Lane",
+      "words": [
+        "COOLING",
+        "COLLECTS",
+        "SMALLTOWN",
+        "DAMSEL",
+        "DREAMCAR",
+        "PEACH",
+        "CAMPER",
+        "SEAOTTERS",
+        "WICKER",
+        "HOUSTON",
+        "GORILLA",
+        "GRAY"
+      ]
+    },
+    {
+      "name": "Beach & Surf: Memory Lane",
+      "words": [
+        "VISIT",
+        "AVALANCHE",
+        "PETALS",
+        "FACES",
+        "MONARCH",
+        "INDEPENDENCEHALL",
+        "MEDIEVAL",
+        "EARTHTONES",
+        "CRAB",
+        "TAHOE",
+        "ARCTIC",
+        "GOLDENPOPPY"
+      ]
+    },
+    {
+      "name": "Tech & Gadgets: Memory Lane",
+      "words": [
+        "FORTUNE",
+        "FARMERSMARKET",
+        "STICKERBOOK",
+        "WIND",
+        "STADIUMS",
+        "STATEHOOD",
+        "STORY",
+        "TRANSIT",
+        "ELVIS",
+        "WOODPANELING",
+        "MINERAL",
+        "LOSTMAPLES"
+      ]
+    },
+    {
+      "name": "Toys & Games: Memory Lane",
+      "words": [
+        "AEROBICS",
+        "THRUWAY",
+        "TWILIGHT",
+        "JETSKI",
+        "NARRATIVE",
+        "BOARDGAME",
+        "CONVENT",
+        "DESERTROAD",
+        "SHELTERS",
+        "CALIBER",
+        "CARPARADE",
+        "FUSE"
+      ]
+    },
+    {
+      "name": "Everyday Home: Memory Lane",
+      "words": [
+        "SUBURBAN",
+        "PALMTREE",
+        "ATTRACTION",
+        "CAMPCHAIR",
+        "LEATHERJACKET",
+        "COMMANDER",
+        "OILFILTER",
+        "SALSA",
+        "SCENERY",
+        "WINDY",
+        "NITRO",
+        "DIALOGUE"
+      ]
+    },
+    {
+      "name": "Flower Power: Memory Lane",
+      "words": [
+        "CENTURY",
+        "CHILDSEAT",
+        "FLAT",
+        "TUB",
+        "ROOKIE",
+        "BANDANA",
+        "APPALACHIANS",
+        "SNAP",
+        "HALLPASS",
+        "FUTURISM",
+        "ALLROAD",
+        "SPIRIT"
+      ]
+    },
+    {
+      "name": "Cars & Roads: Memory Lane",
+      "words": [
+        "PROTAGONIST",
+        "AUSTEN",
+        "MEMORIAL",
+        "SCOUT",
+        "MUSICIAN",
+        "CATTLEDRIVE",
+        "ROADGAMES",
+        "OAKLAND",
+        "LISTEN",
+        "TRAILER",
+        "SHIP",
+        "ANSWERINGMACHINE"
+      ]
+    },
+    {
+      "name": "Coffeehouse: Memory Lane",
+      "words": [
+        "PARACHUTE",
+        "CARVE",
+        "SIDEBURNS",
+        "VERDEVALLEY",
+        "BOSS",
+        "MUSICLIBRARY",
+        "TOPOGRAPHY",
+        "RVPARK",
+        "ESCALATOR",
+        "OUTDOOR",
+        "ADELIE",
+        "BUTTERFLYCLIPS"
+      ]
+    },
+    {
+      "name": "Music & Dancing: Memory Lane",
+      "words": [
+        "GEORGE",
+        "BASEBALLCAP",
+        "LANCASTER",
+        "QUARTZ",
+        "CHROME",
+        "COMPETITION",
+        "SEALS",
+        "LANDROVER",
+        "JELLO",
+        "GRAPHICTEE",
+        "HEADBAND",
+        "GRAZE"
+      ]
+    },
+    {
+      "name": "Television: Memory Lane",
+      "words": [
+        "SAIL",
+        "SKELETON",
+        "GRANCOUPE",
+        "BROADWAY",
+        "TUBETOP",
+        "POPULATIONS",
+        "ROADSIGN",
+        "SIDE",
+        "GLS",
+        "XTERRA",
+        "BORDER",
+        "BONUS"
+      ]
+    },
+    {
+      "name": "Mod Fashion: Memory Lane",
+      "words": [
+        "CLAM",
+        "TRIVIA",
+        "BMW",
+        "PENNSYLVANIA",
+        "JALAPENO",
+        "SORENTO",
+        "BOYBAND",
+        "NAVIGATION",
+        "TREASURES",
+        "CHARGINGSTATION",
+        "VIEWFINDER",
+        "PILLAR"
+      ]
+    },
+    {
+      "name": "Space Race: Everyday Memories",
+      "words": [
+        "PICKUPTRUCK",
+        "BANJO",
+        "MALL",
+        "TRANSLATE",
+        "EQUESTRIAN",
+        "WESTERN",
+        "FILMMAKER",
+        "TONE",
+        "INDONESIA",
+        "CRV",
+        "WALLPAPER",
+        "CRACK"
+      ]
+    },
+    {
+      "name": "Road Trip: Everyday Memories",
+      "words": [
+        "HUMPBACK",
+        "JET",
+        "LASERDISC",
+        "MEMORABILIA",
+        "CADILLACMOUNTAIN",
+        "ROADSIDE",
+        "MISSION",
+        "POUGHKEEPSIE",
+        "BROWNSVILLE",
+        "PALLIDBAT",
+        "ICESTORM",
+        "CANNON"
+      ]
+    },
+    {
+      "name": "Beach & Surf: Everyday Memories",
+      "words": [
+        "SCRUNCHIE",
+        "WING",
+        "PAWS",
+        "PLAYER",
+        "REVENUE",
+        "WALKWAY",
+        "CHRISTIAN",
+        "BRAIN",
+        "PYTHONS",
+        "NET",
+        "POLYP",
+        "INSTAMATIC"
+      ]
+    },
+    {
+      "name": "Tech & Gadgets: Everyday Memories",
+      "words": [
+        "DUGONG",
+        "CHEVELLE",
+        "MARLIN",
+        "BEACHDAY",
+        "MOCKINGBIRD",
+        "BEAUTY",
+        "MILK",
+        "RACECAR",
+        "CARDINALS",
+        "APPALACHIAN",
+        "MYSTERY",
+        "BALANCEDROCK"
+      ]
+    },
+    {
+      "name": "Toys & Games: Everyday Memories",
+      "words": [
+        "COMPOSER",
+        "SCHOOLDANCE",
+        "BARBECUE",
+        "HERMIT",
+        "TRAILERPARK",
+        "GLACIERPOINT",
+        "BUFFALOWINGS",
+        "TREATBAG",
+        "EQUINE",
+        "DANCEMUSIC",
+        "BAGEL",
+        "TRADINGCARDS"
+      ]
+    },
+    {
+      "name": "Everyday Home: Everyday Memories",
+      "words": [
+        "JUDGE",
+        "PUTTER",
+        "AQUATIC",
+        "PAPER",
+        "SHUTTLEBUS",
+        "BUTTERFLY",
+        "SAGEBRUSH",
+        "COMPUTERLAB",
+        "WINDOWS",
+        "ROADTRIP",
+        "FIREBIRD",
+        "COUNTDOWN"
+      ]
+    },
+    {
+      "name": "Flower Power: Everyday Memories",
+      "words": [
+        "BARN",
+        "DEVELOP",
+        "SURFERS",
+        "TOURIST",
+        "HATCH",
+        "REGION",
+        "GELPEN",
+        "KEEN",
+        "MINKS",
+        "HAGGLE",
+        "DARKSKY",
+        "SENTRA"
+      ]
+    },
+    {
+      "name": "Cars & Roads: Everyday Memories",
+      "words": [
+        "GOGOBOOTS",
+        "SMOKYMOUNTAINS",
+        "SOUVENIR",
+        "STATEFAIR",
+        "PLIERS",
+        "BIOLOGY",
+        "SING",
+        "PLAYGROUND",
+        "PATTERN",
+        "CENTRALPA",
+        "PEACE",
+        "CHEST"
+      ]
+    },
+    {
+      "name": "Coffeehouse: Everyday Memories",
+      "words": [
+        "DABOMB",
+        "SNOWMELT",
+        "ROCKET",
+        "TERCEL",
+        "ABALONE",
+        "PLASTIC",
+        "FISHTACO",
+        "VCR",
+        "PATRIOT",
+        "CREOSOTE",
+        "RVLIVING",
+        "BASS"
+      ]
+    },
+    {
+      "name": "Music & Dancing: Everyday Memories",
+      "words": [
+        "HOPPING",
+        "PREY",
+        "MAZDA",
+        "GROWTH",
+        "HOLE",
+        "SMOOTHIE",
+        "HOME",
+        "TROLLEY",
+        "CHALET",
+        "KNOT",
+        "LAUNCHPAD",
+        "FLASH"
+      ]
+    },
+    {
+      "name": "Television: Everyday Memories",
+      "words": [
+        "SAILBOAT",
+        "GRAYWATER",
+        "SEABED",
+        "HUDDLE",
+        "OVERLAND",
+        "MOUNTAINROAD",
+        "SHOPPINGBAG",
+        "CRANKSHAFT",
+        "PAR",
+        "CONDUCTOR",
+        "ENCLAVE",
+        "TREEHOUSE"
+      ]
+    },
+    {
+      "name": "Mod Fashion: Everyday Memories",
+      "words": [
+        "MARINE",
+        "MONTERO",
+        "GAMECONSOLE",
+        "ENTERPRISE",
+        "GOGO",
+        "VOYAGER",
+        "HORNED",
+        "FAX",
+        "PASTURE",
+        "SCHISM",
+        "CAMPKITCHEN",
+        "CARDINAL"
+      ]
+    },
+    {
+      "name": "Space Race: Weekend Flashback",
+      "words": [
+        "ANIMATE",
+        "LANDING",
+        "INKWELL",
+        "CAPUCHIN",
+        "SPECTATOR",
+        "TOWN",
+        "FROST",
+        "SCREENING",
+        "ARCHAEOLOGY",
+        "RUDDER",
+        "NESTS",
+        "DIALUP"
+      ]
+    },
+    {
+      "name": "Road Trip: Weekend Flashback",
+      "words": [
+        "FRINGE",
+        "POUCH",
+        "TELESCOPE",
+        "LETTER",
+        "MANATEES",
+        "CONCESS",
+        "WAX",
+        "JOURNEY",
+        "SCENIC",
+        "VINEYARD",
+        "SHOPPE",
+        "LAPTOP"
+      ]
+    }
+  ],
+  "detected_topic": "Travel and Geography",
+  "recommended_palette": "coastal-blue",
+  "recommended_cover_style": "stripe",
+  "cover_style": "stripe",
+  "clipart_search_terms": "Travel and Geography Acadia Moon Receiver illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Standard",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:07",
+    "sources": [
+      "Travel and Geography",
+      "National Parks",
+      "Nature",
+      "Ocean Life",
+      "General Interest",
+      "Vehicles & Automotive"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 50,
+    "unique_words_in_book": 600,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "Travel and Geography"
+    ],
+    "checked_at": "2026-08-22T10:08:37"
+  }
+}

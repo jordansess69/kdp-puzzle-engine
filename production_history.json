@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Thanksgiving Table and Traditions Word Search",
+    "theme": "thanksgiving_table_traditions.json",
+    "created": "2026-08-23T14:27:20",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\ui_production_tests\\03_thanksgiving_table_traditions_20260823_142713",
+    "palette": "autumn-harvest",
+    "style": "playful"
+  },
+  {
+    "title": "Classic Cars and Road Trips Word Search",
+    "theme": "classic_cars_road_trips.json",
+    "created": "2026-08-23T14:26:02",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\ui_production_tests\\02_classic_cars_road_trips_20260823_142556",
+    "palette": "retro-drive",
+    "style": "retro"
+  },
+  {
+    "title": "Advanced Vocabulary Challenge Word Search",
+    "theme": "advanced_vocabulary_challenge.json",
+    "created": "2026-08-23T14:25:55",
+    "package": "C:\\Users\\jorda\\Desktop\\Word Search Creator\\kdp-puzzle-engine\\out\\ui_production_tests\\01_advanced_vocabulary_challenge_20260823_142548",
+    "palette": "scholarly-blue",
+    "style": "classic"
+  }
+]

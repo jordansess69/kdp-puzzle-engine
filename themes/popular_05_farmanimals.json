@@ -1,0 +1,865 @@
+{
+  "title": "Farm Animals Word Search",
+  "subtitle": "48 barnyard word search puzzles",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Popular Themes",
+  "series_rank": 5,
+  "palette": "autumn-harvest",
+  "cover_style": "colorblock",
+  "puzzles": [
+    {
+      "name": "Farm Animals Puzzle 001",
+      "words": [
+        "SIPHON",
+        "LIFEGUARD",
+        "SOUNDOFMUSIC",
+        "DISNEY",
+        "ACTIONTOY",
+        "OWL",
+        "SCREENPLAY",
+        "BOOKMARK",
+        "ROBOT",
+        "HOBBY",
+        "CARDIGAN",
+        "SNOWFLAKE"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 002",
+      "words": [
+        "CALCULATOR",
+        "DEPARTMENTSTORE",
+        "MERLOT",
+        "CHARISMA",
+        "LEGALLYBLONDE",
+        "CONVERTIBLE",
+        "ROLLOFFILM",
+        "BINDING",
+        "THRILLER",
+        "TOBYKEITH",
+        "CARBURETOR",
+        "CAMERAPHONE"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 003",
+      "words": [
+        "MENU",
+        "RED",
+        "STAMP",
+        "CRITICS",
+        "TRACKING",
+        "HALLPASS",
+        "SYRUP",
+        "MUSICVIDEO",
+        "CAPTAINAMERICA",
+        "FAN",
+        "DOOM",
+        "GAMEOFTHRONES"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 004",
+      "words": [
+        "RAPPER",
+        "ROMAN",
+        "REVIEW",
+        "STEPBROTHERS",
+        "PARLIAMENT",
+        "COZYGAME",
+        "FLORIST",
+        "VASSAL",
+        "CELEBRITYNEWS",
+        "BOXSET",
+        "BRAIN",
+        "PLAYSTATION"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 005",
+      "words": [
+        "ACORN",
+        "PLAYERS",
+        "DESTINATION",
+        "TITANIC",
+        "GAMEBOOTH",
+        "PENCIL",
+        "SELFIE",
+        "FLATSCREEN",
+        "PADDLING",
+        "MEMORYCARD",
+        "CHORUS",
+        "THAMES"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 006",
+      "words": [
+        "ROUTINE",
+        "HALFLIFE",
+        "SMASHBROS",
+        "BOARDWALK",
+        "PRETZEL",
+        "SKINK",
+        "DARTHVADER",
+        "LEATHERJACKET",
+        "AMERICANIDOL",
+        "MALTS",
+        "BAND",
+        "NEST"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 007",
+      "words": [
+        "LIZZO",
+        "SOLDIER",
+        "TACTICAL",
+        "BELLBOTTOMS",
+        "ELECTRONICSSTORE",
+        "HOLLY",
+        "CAR",
+        "THEATER",
+        "MAPLESYRUP",
+        "STRETCH",
+        "HOLLOWKNIGHT",
+        "SPACEAGE"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 008",
+      "words": [
+        "SUNGLASSES",
+        "CAMPFIRE",
+        "HAN",
+        "NIER",
+        "CONCERT",
+        "BAGEL",
+        "MACHINES",
+        "HANDHELDGAME",
+        "URBAN",
+        "MOUNTAIN",
+        "TALENTSCOUT",
+        "OASIS"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 009",
+      "words": [
+        "LITTLEBIGPLANET",
+        "REPLAY",
+        "INSTAGRAM",
+        "VIRALVIDEO",
+        "ERA",
+        "FIREEMBLEM",
+        "ICESTORM",
+        "STAGEFRIGHT",
+        "LONGISLAND",
+        "BREAKER",
+        "HIPHOP",
+        "RICKANDMORTY"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 010",
+      "words": [
+        "LEGWARMERS",
+        "VINYLRECORD",
+        "BROADWAY",
+        "TORNADO",
+        "SIDE",
+        "GLORY",
+        "CRAFTTABLE",
+        "COMEDYNIGHT",
+        "MOTORIST",
+        "FIGURES",
+        "PLAYGROUND",
+        "COHORT"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 011",
+      "words": [
+        "TEENIDOL",
+        "VENICE",
+        "LENS",
+        "ORTHODOX",
+        "TOYCAR",
+        "MAT",
+        "POSEIDON",
+        "EMINEM",
+        "AIRPLANE",
+        "BALATRO",
+        "QUOTES",
+        "FEUDAL"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 012",
+      "words": [
+        "SIGNAL",
+        "INTERNET",
+        "MILKING",
+        "CLAPPER",
+        "WRITE",
+        "GECKO",
+        "MEGAMAN",
+        "XCOM",
+        "MICROPHONE",
+        "FANDOM",
+        "ORBIT",
+        "YOUTUBE"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 013",
+      "words": [
+        "HAYRIDE",
+        "MANE",
+        "TEMPLE",
+        "DISCOELYSIUM",
+        "SEATS",
+        "LAB",
+        "GOLD",
+        "CHERRYCOLA",
+        "ROOFTOP",
+        "POPCULTUREQUIZ",
+        "JURASSICPARK",
+        "WATERBED"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 014",
+      "words": [
+        "SPOOL",
+        "COMET",
+        "THEWALKINGDEAD",
+        "SPORTING",
+        "DVR",
+        "SAMUS",
+        "CONVERSATION",
+        "LOYALTY",
+        "RAMPAGE",
+        "REMOTECONTROL",
+        "SUITCASE",
+        "MEMORABILIA"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 015",
+      "words": [
+        "RANCHHOUSE",
+        "DIRECTION",
+        "AREACODE",
+        "SHOT",
+        "TRANSISTOR",
+        "MOSS",
+        "MARVELVSCAPCOM",
+        "HOMECOMING",
+        "RETROGAMING",
+        "SUPERBAD",
+        "NEWSREEL",
+        "EVERQUEST"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 016",
+      "words": [
+        "PLUSHIE",
+        "FRENCH",
+        "HORSE",
+        "DARKSOULS",
+        "CLUTCH",
+        "PIXELART",
+        "WINDOWSHOPPING",
+        "ELTONJOHN",
+        "LATIN",
+        "FILTER",
+        "KILLERINSTINCT",
+        "SIDEPONY"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 017",
+      "words": [
+        "KATYPERRY",
+        "BARBIECORE",
+        "MALLDAY",
+        "BARBECUE",
+        "CLANK",
+        "DRIVEIN",
+        "KNIGHTS",
+        "BROOMSTICK",
+        "BOWLING",
+        "EXCELLENT",
+        "DANCEFLOOR",
+        "FEDORA"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 018",
+      "words": [
+        "SACKBOY",
+        "WILDERNESS",
+        "POWERUP",
+        "THOR",
+        "GUITARHERO",
+        "DANCEMUSIC",
+        "HANDLEBAR",
+        "RECORDSTORE",
+        "DOCTORSTRANGE",
+        "MERMAID",
+        "ROADTRIP",
+        "JETGRINDRADIO"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 019",
+      "words": [
+        "HOMEROOM",
+        "BRB",
+        "ROBESPIERRE",
+        "GROOVE",
+        "VAMPIRESURVIVORS",
+        "EMMYS",
+        "TRADINGCARDS",
+        "TVSHOW",
+        "LICENSE",
+        "MILEYCYRUS",
+        "SPEAR",
+        "ROCKANDROLL"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 020",
+      "words": [
+        "WINNER",
+        "EFFECTS",
+        "ROCHESTER",
+        "ROBLOX",
+        "VOICECHAT",
+        "GAMES",
+        "WARIO",
+        "PITCHER",
+        "COLORFUL",
+        "MARIOPARTY",
+        "POPSTAR",
+        "SOCKHOP"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 021",
+      "words": [
+        "COMPUTERLAB",
+        "FOOTBALLMANAGER",
+        "WATERFALL",
+        "DEADBYDAYLIGHT",
+        "FEDERATION",
+        "LABOR",
+        "WORKSHOP",
+        "PAGES",
+        "PANELS",
+        "DOWNLOAD",
+        "SHOPPINGMALL",
+        "TRANSLATE"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 022",
+      "words": [
+        "IMPERIAL",
+        "VALHEIM",
+        "KETCHUP",
+        "SYNTHPOP",
+        "PRINCESSBRIDE",
+        "APRON",
+        "GHOST",
+        "DOOWOP",
+        "MARKET",
+        "COAT",
+        "SCENICROUTE",
+        "ROLLERBLADES"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 023",
+      "words": [
+        "MISSIONCONTROL",
+        "OCEANSELEVEN",
+        "DEFEAT",
+        "POKEMONGO",
+        "BLOCKS",
+        "SPICEGIRLS",
+        "DRAKE",
+        "ROUGH",
+        "DUDE",
+        "NETWORKTV",
+        "FROZEN",
+        "KARATEKID"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 024",
+      "words": [
+        "TUTORIAL",
+        "GRANTURISMO",
+        "RIVERBANK",
+        "FLASH",
+        "MOANA",
+        "CLASHOFCLANS",
+        "MEXICO",
+        "MIITOPIA",
+        "WASSUP",
+        "BLONDIE",
+        "PARTS",
+        "HANDHELD"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 025",
+      "words": [
+        "SURVIVAL",
+        "TOAD",
+        "DIALOGUE",
+        "NEONLIGHT",
+        "FORUM",
+        "GRASS",
+        "EMPEROR",
+        "WRITING",
+        "GARLIC",
+        "MAIN",
+        "BICYCLE",
+        "GRINDING"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 026",
+      "words": [
+        "DESIGN",
+        "SIMULATION",
+        "MAZEGAME",
+        "NINETEENTHHOLE",
+        "SNOWCAP",
+        "TYPEWRITER",
+        "STADIUM",
+        "SIEGE",
+        "JUSTINBIEBER",
+        "NIGHTS",
+        "RACECAR",
+        "VIDEOCASE"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 027",
+      "words": [
+        "WRESTLING",
+        "COUNTERCULTURE",
+        "PROPELL",
+        "MOVEMENT",
+        "HIGHTOPS",
+        "LAKE",
+        "ELSA",
+        "STICKERBOOK",
+        "VIBRATE",
+        "SHENMUE",
+        "THEMESONG",
+        "ELEGANT"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 028",
+      "words": [
+        "AVATARFILM",
+        "ITALY",
+        "BONES",
+        "GOLFCART",
+        "PEGGLE",
+        "AERIAL",
+        "GAS",
+        "SKATE",
+        "DIGITALWATCH",
+        "BYZANTINE",
+        "VALLEY",
+        "WATCH"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 029",
+      "words": [
+        "ABOLISH",
+        "CARD",
+        "TOWNHALL",
+        "EYELINER",
+        "HOMAGE",
+        "SHEARLINGBOOTS",
+        "PUBLICITY",
+        "TREEHOUSE",
+        "FORMICA",
+        "BLUES",
+        "PHAT",
+        "TRAVEL"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 030",
+      "words": [
+        "VIEWER",
+        "DPAD",
+        "SETUP",
+        "SEINFELD",
+        "MOHAWKVALLEY",
+        "CHEDDAR",
+        "ARCADES",
+        "MADONNA",
+        "VESSEL",
+        "SWIVEL",
+        "CAMEL",
+        "NOBLES"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 031",
+      "words": [
+        "JOKER",
+        "HEARTHSTONE",
+        "HIP",
+        "MEDIA",
+        "SALOON",
+        "CRAFT",
+        "TIGERKING",
+        "SWEATER",
+        "SKYSCRAPER",
+        "CARTRIDGE",
+        "SEKIRO",
+        "GRODY"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 032",
+      "words": [
+        "SUNSET",
+        "PORCH",
+        "BRONZER",
+        "SONG",
+        "FLYERS",
+        "NIRVANA",
+        "COASTLINE",
+        "YOSHI",
+        "MOVIETHEATER",
+        "CARDIO",
+        "SOULCALIBUR",
+        "CURIOUS"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 033",
+      "words": [
+        "LUNCH",
+        "CHEESECAKE",
+        "GAMETOKEN",
+        "FORDS",
+        "SPYRO",
+        "SLUMBERPARTY",
+        "RERUN",
+        "CANYON",
+        "BUCKETHAT",
+        "POPULAR",
+        "GRYFFINDOR",
+        "LEFTFOURDEAD"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 034",
+      "words": [
+        "CONTACTS",
+        "IMAGINE",
+        "STEAMBOAT",
+        "SERENE",
+        "TOMNOOK",
+        "TIKTOK",
+        "AMONGUS",
+        "SCRIPT",
+        "CARRIEUNDERWOOD",
+        "UNION",
+        "CHEWBACCA",
+        "PHOTOKIOSK"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 035",
+      "words": [
+        "COASTAL",
+        "SUPERMARIOBROS",
+        "GAMECRAFT",
+        "SUPERHERO",
+        "LYRIC",
+        "MARINA",
+        "DAISY",
+        "BELL",
+        "TRANSFORMERS",
+        "KINGDOMHEARTS",
+        "SHOOT",
+        "ONLINEPLAY"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 036",
+      "words": [
+        "ATHLETIC",
+        "APEXLEGENDS",
+        "FONT",
+        "GAMECORNER",
+        "MUSICFESTIVAL",
+        "CADDIE",
+        "PRESS",
+        "CABOOSE",
+        "LAME",
+        "TEKKEN",
+        "OCTOBER",
+        "VENOM"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 037",
+      "words": [
+        "LORDOFTHERINGS",
+        "METALLICA",
+        "OVERCOOKED",
+        "JOURNAL",
+        "STAND",
+        "TERRARIUM",
+        "NIGHTLIFE",
+        "CROCODILE",
+        "LEISURE",
+        "STYLE",
+        "DISKDRIVE",
+        "LAKEPLACID"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 038",
+      "words": [
+        "WEHAPPYFEW",
+        "SPACEAGENCY",
+        "SNAKE",
+        "RIDETHELL",
+        "HOTDOG",
+        "DJSET",
+        "CHAIN",
+        "RIGHTEOUS",
+        "DIALUP",
+        "QBERT",
+        "DANCECREW",
+        "GUITARSOLO"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 039",
+      "words": [
+        "ELECTRONICS",
+        "RUNNING",
+        "RIHANNA",
+        "MARCH",
+        "ESPRESSO",
+        "MOTEL",
+        "MOAT",
+        "FOXMCCLOUD",
+        "WESTERN",
+        "POWERRANGERS",
+        "ONEDIRECTION",
+        "OVERWATCH"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 040",
+      "words": [
+        "TERRARIA",
+        "VRHEADSET",
+        "CHILL",
+        "BOBBER",
+        "SMILE",
+        "OUTDOORS",
+        "LIBRARYS",
+        "INDIEROCK",
+        "TINYTINA",
+        "BOOM",
+        "HABITAT",
+        "BOOK"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 041",
+      "words": [
+        "BEYONCE",
+        "QUALITY",
+        "MINER",
+        "FARMLAND",
+        "CANISTER",
+        "OLIMAR",
+        "VINEYARD",
+        "CASTS",
+        "MUSTANG",
+        "DOCK",
+        "LARACROFT",
+        "ORCHESTRA"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 042",
+      "words": [
+        "RUNEFACTORY",
+        "EAGLE",
+        "TURKEY",
+        "VIDEO",
+        "GAMETESTER",
+        "GLOSS",
+        "MOONSHOT",
+        "FRUITSNACKS",
+        "CARAVAN",
+        "PORTAL",
+        "GENIUS",
+        "DAYTIME"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 043",
+      "words": [
+        "TORTOISE",
+        "XENOBLADE",
+        "CREATOR",
+        "GHOSTBUSTERS",
+        "PULPFICTION",
+        "SCREENS",
+        "KIRBY",
+        "BACKSTREETBOYS",
+        "FORECAST",
+        "TRACKS",
+        "PORTABLECASSETTE",
+        "BOOTH"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 044",
+      "words": [
+        "CHARACTER",
+        "MEGADRIVE",
+        "MARIORPG",
+        "BRIDGERTON",
+        "VACUUM",
+        "HANNAHMONTANA",
+        "GAMERSCORE",
+        "GHOSTOFTSUSHIMA",
+        "BATTLEPASS",
+        "DESTINYSCHILD",
+        "EARBUDS",
+        "GAMECARD"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 045",
+      "words": [
+        "SWAMP",
+        "ELDERSCROLLS",
+        "CRIMPEDHAIR",
+        "REPRINTS",
+        "BRAZIL",
+        "EXCITEBIKE",
+        "SKATING",
+        "OTTOMAN",
+        "MONOPOLY",
+        "PARKINGLOT",
+        "VOLLEYBALL",
+        "FREEFIRE"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 046",
+      "words": [
+        "PERSONALCOMPUTER",
+        "FALLGUYS",
+        "OBSERVATORY",
+        "MARQUEE",
+        "CHIME",
+        "POP",
+        "BODACIOUS",
+        "FOLLOWERCOUNT",
+        "DANCECENTRAL",
+        "ROOSTER",
+        "LOL",
+        "LIVEMUSIC"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 047",
+      "words": [
+        "ELVIS",
+        "BREAKINGBAD",
+        "CDPLAYER",
+        "CONSOLE",
+        "ENERGYDRINK",
+        "TRENDING",
+        "TOURIST",
+        "OSPREY",
+        "PODCAST",
+        "EARLYSATELLITE",
+        "NEGATIVE",
+        "BEETLEJUICE"
+      ]
+    },
+    {
+      "name": "Farm Animals Puzzle 048",
+      "words": [
+        "EPISODE",
+        "PRESERVE",
+        "SPACE",
+        "HISTORY",
+        "LIBRETTO",
+        "FARE",
+        "GORGES",
+        "PIER",
+        "QUILTBLOCK",
+        "ISLAND",
+        "MUSICAL",
+        "THREAD"
+      ]
+    }
+  ],
+  "detected_topic": "General Interest",
+  "recommended_palette": "nature",
+  "recommended_cover_style": "classic",
+  "clipart_search_terms": "General Interest Siphon Lifeguard Soundofmusic illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Relaxing",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "General Interest",
+      "Pop Culture & Entertainment",
+      "Video Games & Gaming",
+      "Sports and Hobbies",
+      "Travel and Geography",
+      "Nature"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "General Interest"
+    ],
+    "checked_at": "2026-08-22T10:08:39"
+  }
+}

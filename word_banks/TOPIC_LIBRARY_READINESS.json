@@ -1,0 +1,796 @@
+{
+  "schema_version": 1,
+  "created": "2026-08-22T19:34:09",
+  "rules": {
+    "standard_book_words": 576,
+    "signature_book_words": 1200
+  },
+  "summary": {
+    "topics": 78,
+    "ready_for_standard": 23,
+    "ready_for_signature": 11,
+    "needs_expansion": 55
+  },
+  "topics": [
+    {
+      "topic": "World War II History",
+      "proven_words": 17,
+      "suggested_review_candidates": 45,
+      "standard_48_puzzle_gap": 559,
+      "signature_100_puzzle_gap": 1183,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Word Skills and Brain Games",
+      "proven_words": 20,
+      "suggested_review_candidates": 33,
+      "standard_48_puzzle_gap": 556,
+      "signature_100_puzzle_gap": 1180,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "US Geography and Landmarks",
+      "proven_words": 21,
+      "suggested_review_candidates": 47,
+      "standard_48_puzzle_gap": 555,
+      "signature_100_puzzle_gap": 1179,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Science and Discovery",
+      "proven_words": 23,
+      "suggested_review_candidates": 24,
+      "standard_48_puzzle_gap": 553,
+      "signature_100_puzzle_gap": 1177,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Faith Inspiration and Kindness",
+      "proven_words": 26,
+      "suggested_review_candidates": 36,
+      "standard_48_puzzle_gap": 550,
+      "signature_100_puzzle_gap": 1174,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Careers Community and Everyday Life",
+      "proven_words": 28,
+      "suggested_review_candidates": 32,
+      "standard_48_puzzle_gap": 548,
+      "signature_100_puzzle_gap": 1172,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Coastal Lake and River Life",
+      "proven_words": 29,
+      "suggested_review_candidates": 27,
+      "standard_48_puzzle_gap": 547,
+      "signature_100_puzzle_gap": 1171,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Hobbies Crafts and Pastimes",
+      "proven_words": 30,
+      "suggested_review_candidates": 27,
+      "standard_48_puzzle_gap": 546,
+      "signature_100_puzzle_gap": 1170,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Sports & Hobbies",
+      "proven_words": 30,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 546,
+      "signature_100_puzzle_gap": 1170,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Sports and Hobbies",
+      "proven_words": 30,
+      "suggested_review_candidates": 23,
+      "standard_48_puzzle_gap": 546,
+      "signature_100_puzzle_gap": 1170,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Farm Country and Rural Life",
+      "proven_words": 31,
+      "suggested_review_candidates": 30,
+      "standard_48_puzzle_gap": 545,
+      "signature_100_puzzle_gap": 1169,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Outdoor Adventure",
+      "proven_words": 33,
+      "suggested_review_candidates": 47,
+      "standard_48_puzzle_gap": 543,
+      "signature_100_puzzle_gap": 1167,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Arts Creativity and Making",
+      "proven_words": 35,
+      "suggested_review_candidates": 69,
+      "standard_48_puzzle_gap": 541,
+      "signature_100_puzzle_gap": 1165,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Wellness and Self Care",
+      "proven_words": 35,
+      "suggested_review_candidates": 38,
+      "standard_48_puzzle_gap": 541,
+      "signature_100_puzzle_gap": 1165,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Music and Instruments",
+      "proven_words": 36,
+      "suggested_review_candidates": 26,
+      "standard_48_puzzle_gap": 540,
+      "signature_100_puzzle_gap": 1164,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Travel Road Trips and Getaways",
+      "proven_words": 36,
+      "suggested_review_candidates": 10,
+      "standard_48_puzzle_gap": 540,
+      "signature_100_puzzle_gap": 1164,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "American History",
+      "proven_words": 38,
+      "suggested_review_candidates": 43,
+      "standard_48_puzzle_gap": 538,
+      "signature_100_puzzle_gap": 1162,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Mindfulness",
+      "proven_words": 43,
+      "suggested_review_candidates": 40,
+      "standard_48_puzzle_gap": 533,
+      "signature_100_puzzle_gap": 1157,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Mindfulness & Wellness",
+      "proven_words": 43,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 533,
+      "signature_100_puzzle_gap": 1157,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Home and Household",
+      "proven_words": 44,
+      "suggested_review_candidates": 32,
+      "standard_48_puzzle_gap": 532,
+      "signature_100_puzzle_gap": 1156,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "American Heritage",
+      "proven_words": 47,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 529,
+      "signature_100_puzzle_gap": 1153,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Faith & Encouragement",
+      "proven_words": 47,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 529,
+      "signature_100_puzzle_gap": 1153,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Travel & World Discovery",
+      "proven_words": 53,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 523,
+      "signature_100_puzzle_gap": 1147,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Travel and Geography",
+      "proven_words": 53,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 523,
+      "signature_100_puzzle_gap": 1147,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Positive Parenting",
+      "proven_words": 64,
+      "suggested_review_candidates": 11,
+      "standard_48_puzzle_gap": 512,
+      "signature_100_puzzle_gap": 1136,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Seasonal Celebrations",
+      "proven_words": 69,
+      "suggested_review_candidates": 22,
+      "standard_48_puzzle_gap": 507,
+      "signature_100_puzzle_gap": 1131,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Cat Lover",
+      "proven_words": 72,
+      "suggested_review_candidates": 72,
+      "standard_48_puzzle_gap": 504,
+      "signature_100_puzzle_gap": 1128,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Nature",
+      "proven_words": 72,
+      "suggested_review_candidates": 23,
+      "standard_48_puzzle_gap": 504,
+      "signature_100_puzzle_gap": 1128,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Ocean Life",
+      "proven_words": 72,
+      "suggested_review_candidates": 23,
+      "standard_48_puzzle_gap": 504,
+      "signature_100_puzzle_gap": 1128,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Books Reading and Libraries",
+      "proven_words": 82,
+      "suggested_review_candidates": 52,
+      "standard_48_puzzle_gap": 494,
+      "signature_100_puzzle_gap": 1118,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Birdwatching",
+      "proven_words": 84,
+      "suggested_review_candidates": 17,
+      "standard_48_puzzle_gap": 492,
+      "signature_100_puzzle_gap": 1116,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Birdwatching & Wildlife",
+      "proven_words": 84,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 492,
+      "signature_100_puzzle_gap": 1116,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Dog Breeds",
+      "proven_words": 84,
+      "suggested_review_candidates": 17,
+      "standard_48_puzzle_gap": 492,
+      "signature_100_puzzle_gap": 1116,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Baking & Food",
+      "proven_words": 92,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 484,
+      "signature_100_puzzle_gap": 1108,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Baking and Food",
+      "proven_words": 92,
+      "suggested_review_candidates": 23,
+      "standard_48_puzzle_gap": 484,
+      "signature_100_puzzle_gap": 1108,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "General Interest",
+      "proven_words": 143,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 433,
+      "signature_100_puzzle_gap": 1057,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Forest Wildlife and Outdoors",
+      "proven_words": 172,
+      "suggested_review_candidates": 12,
+      "standard_48_puzzle_gap": 404,
+      "signature_100_puzzle_gap": 1028,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Forest, Wildlife & Outdoors",
+      "proven_words": 172,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 404,
+      "signature_100_puzzle_gap": 1028,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Holiday and Seasonal Life",
+      "proven_words": 196,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 380,
+      "signature_100_puzzle_gap": 1004,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Weather & Climate",
+      "proven_words": 222,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 354,
+      "signature_100_puzzle_gap": 978,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Weather and Climate",
+      "proven_words": 222,
+      "suggested_review_candidates": 56,
+      "standard_48_puzzle_gap": 354,
+      "signature_100_puzzle_gap": 978,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Pets and Animal Care",
+      "proven_words": 343,
+      "suggested_review_candidates": 10,
+      "standard_48_puzzle_gap": 233,
+      "signature_100_puzzle_gap": 857,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Cats & Pets",
+      "proven_words": 403,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 173,
+      "signature_100_puzzle_gap": 797,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Dogs & Pets",
+      "proven_words": 419,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 157,
+      "signature_100_puzzle_gap": 781,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Gardening and Garden Life",
+      "proven_words": 452,
+      "suggested_review_candidates": 44,
+      "standard_48_puzzle_gap": 124,
+      "signature_100_puzzle_gap": 748,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Bible and Faith",
+      "proven_words": 456,
+      "suggested_review_candidates": 16,
+      "standard_48_puzzle_gap": 120,
+      "signature_100_puzzle_gap": 744,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Halloween",
+      "proven_words": 462,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 114,
+      "signature_100_puzzle_gap": 738,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Halloween Autumn and Harvest",
+      "proven_words": 462,
+      "suggested_review_candidates": 18,
+      "standard_48_puzzle_gap": 114,
+      "signature_100_puzzle_gap": 738,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Signature Gardening",
+      "proven_words": 498,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 78,
+      "signature_100_puzzle_gap": 702,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Christmas",
+      "proven_words": 515,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 61,
+      "signature_100_puzzle_gap": 685,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Christmas and Winter",
+      "proven_words": 515,
+      "suggested_review_candidates": 21,
+      "standard_48_puzzle_gap": 61,
+      "signature_100_puzzle_gap": 685,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Garden to Table",
+      "proven_words": 524,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 52,
+      "signature_100_puzzle_gap": 676,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Herbs Fruits and Vegetables",
+      "proven_words": 524,
+      "suggested_review_candidates": 34,
+      "standard_48_puzzle_gap": 52,
+      "signature_100_puzzle_gap": 676,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Homestead Living",
+      "proven_words": 572,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 4,
+      "signature_100_puzzle_gap": 628,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "Homesteading",
+      "proven_words": 572,
+      "suggested_review_candidates": 7,
+      "standard_48_puzzle_gap": 4,
+      "signature_100_puzzle_gap": 628,
+      "ready_for_standard": false,
+      "ready_for_signature": false,
+      "next_action": "Review suggested candidates and add researched topic words before generating"
+    },
+    {
+      "topic": "National Parks",
+      "proven_words": 592,
+      "suggested_review_candidates": 28,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 608,
+      "ready_for_standard": true,
+      "ready_for_signature": false,
+      "next_action": "Ready for a 48-puzzle standard book; expand before Signature"
+    },
+    {
+      "topic": "National Parks & Outdoors",
+      "proven_words": 592,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 608,
+      "ready_for_standard": true,
+      "ready_for_signature": false,
+      "next_action": "Ready for a 48-puzzle standard book; expand before Signature"
+    },
+    {
+      "topic": "Video Games & Gaming",
+      "proven_words": 603,
+      "suggested_review_candidates": 7,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 597,
+      "ready_for_standard": true,
+      "ready_for_signature": false,
+      "next_action": "Ready for a 48-puzzle standard book; expand before Signature"
+    },
+    {
+      "topic": "Holidays",
+      "proven_words": 605,
+      "suggested_review_candidates": 20,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 595,
+      "ready_for_standard": true,
+      "ready_for_signature": false,
+      "next_action": "Ready for a 48-puzzle standard book; expand before Signature"
+    },
+    {
+      "topic": "Gardening",
+      "proven_words": 615,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 585,
+      "ready_for_standard": true,
+      "ready_for_signature": false,
+      "next_action": "Ready for a 48-puzzle standard book; expand before Signature"
+    },
+    {
+      "topic": "Gardening & Garden Life",
+      "proven_words": 615,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 585,
+      "ready_for_standard": true,
+      "ready_for_signature": false,
+      "next_action": "Ready for a 48-puzzle standard book; expand before Signature"
+    },
+    {
+      "topic": "Pop Culture & Entertainment",
+      "proven_words": 650,
+      "suggested_review_candidates": 30,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 550,
+      "ready_for_standard": true,
+      "ready_for_signature": false,
+      "next_action": "Ready for a 48-puzzle standard book; expand before Signature"
+    },
+    {
+      "topic": "Nostalgia Through the Decades",
+      "proven_words": 673,
+      "suggested_review_candidates": 17,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 527,
+      "ready_for_standard": true,
+      "ready_for_signature": false,
+      "next_action": "Ready for a 48-puzzle standard book; expand before Signature"
+    },
+    {
+      "topic": "Thanksgiving",
+      "proven_words": 754,
+      "suggested_review_candidates": 9,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 446,
+      "ready_for_standard": true,
+      "ready_for_signature": false,
+      "next_action": "Ready for a 48-puzzle standard book; expand before Signature"
+    },
+    {
+      "topic": "Space & Astronomy",
+      "proven_words": 788,
+      "suggested_review_candidates": 30,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 412,
+      "ready_for_standard": true,
+      "ready_for_signature": false,
+      "next_action": "Ready for a 48-puzzle standard book; expand before Signature"
+    },
+    {
+      "topic": "Easter and Spring",
+      "proven_words": 821,
+      "suggested_review_candidates": 21,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 379,
+      "ready_for_standard": true,
+      "ready_for_signature": false,
+      "next_action": "Ready for a 48-puzzle standard book; expand before Signature"
+    },
+    {
+      "topic": "Vehicles & Automotive",
+      "proven_words": 834,
+      "suggested_review_candidates": 65,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 366,
+      "ready_for_standard": true,
+      "ready_for_signature": false,
+      "next_action": "Ready for a 48-puzzle standard book; expand before Signature"
+    },
+    {
+      "topic": "Grade 6 Vocabulary",
+      "proven_words": 1347,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 0,
+      "ready_for_standard": true,
+      "ready_for_signature": true,
+      "next_action": "Ready for a 100-puzzle Signature Edition"
+    },
+    {
+      "topic": "Grade 7 Vocabulary",
+      "proven_words": 1348,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 0,
+      "ready_for_standard": true,
+      "ready_for_signature": true,
+      "next_action": "Ready for a 100-puzzle Signature Edition"
+    },
+    {
+      "topic": "Grade 10 Vocabulary",
+      "proven_words": 1349,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 0,
+      "ready_for_standard": true,
+      "ready_for_signature": true,
+      "next_action": "Ready for a 100-puzzle Signature Edition"
+    },
+    {
+      "topic": "Grade 12 Vocabulary",
+      "proven_words": 1349,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 0,
+      "ready_for_standard": true,
+      "ready_for_signature": true,
+      "next_action": "Ready for a 100-puzzle Signature Edition"
+    },
+    {
+      "topic": "Grade 11 Vocabulary",
+      "proven_words": 1350,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 0,
+      "ready_for_standard": true,
+      "ready_for_signature": true,
+      "next_action": "Ready for a 100-puzzle Signature Edition"
+    },
+    {
+      "topic": "Grade 5 Vocabulary",
+      "proven_words": 1350,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 0,
+      "ready_for_standard": true,
+      "ready_for_signature": true,
+      "next_action": "Ready for a 100-puzzle Signature Edition"
+    },
+    {
+      "topic": "Grade 8 Vocabulary",
+      "proven_words": 1350,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 0,
+      "ready_for_standard": true,
+      "ready_for_signature": true,
+      "next_action": "Ready for a 100-puzzle Signature Edition"
+    },
+    {
+      "topic": "Grade 9 Vocabulary",
+      "proven_words": 1350,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 0,
+      "ready_for_standard": true,
+      "ready_for_signature": true,
+      "next_action": "Ready for a 100-puzzle Signature Edition"
+    },
+    {
+      "topic": "Grade School Vocabulary",
+      "proven_words": 2607,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 0,
+      "ready_for_standard": true,
+      "ready_for_signature": true,
+      "next_action": "Ready for a 100-puzzle Signature Edition"
+    },
+    {
+      "topic": "Middle School Vocabulary",
+      "proven_words": 2608,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 0,
+      "ready_for_standard": true,
+      "ready_for_signature": true,
+      "next_action": "Ready for a 100-puzzle Signature Edition"
+    },
+    {
+      "topic": "High School Vocabulary",
+      "proven_words": 5128,
+      "suggested_review_candidates": 0,
+      "standard_48_puzzle_gap": 0,
+      "signature_100_puzzle_gap": 0,
+      "ready_for_standard": true,
+      "ready_for_signature": true,
+      "next_action": "Ready for a 100-puzzle Signature Edition"
+    }
+  ]
+}

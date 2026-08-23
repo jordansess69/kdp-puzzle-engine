@@ -1,0 +1,262 @@
+{
+  "title": "Word Wise: Middle School Vocabulary — Signature Edition",
+  "subtitle": "A confidence-building Signature Edition word search collection for grades 6–8",
+  "author": "Slade Puzzles",
+  "audience": "Teens",
+  "series": "Vocabulary Ladder Collection",
+  "palette": "coastal-blue",
+  "cover_style": "halo",
+  "cover_badge": "NO REPEATED WORDS",
+  "cover_imprint": "Slade Puzzles • Vocabulary Ladder",
+  "series_design": {
+    "family": "Vocabulary Ladder",
+    "layout": "halo",
+    "signature_accent": true
+  },
+  "no_repeat_words": true,
+  "detected_topic": "Middle School Vocabulary",
+  "difficulty_label": "Standard",
+  "clipart_search_terms": "middle school vocabulary books pencils learning illustration transparent background",
+  "welcome_message": "Welcome to a word-building adventure designed to make new vocabulary feel friendly and fun.",
+  "collection_features": [
+    "Find 12 carefully chosen words in every puzzle.",
+    "Use one favorite word in a sentence after each puzzle.",
+    "Build confidence for reading, writing, and everyday conversation."
+  ],
+  "puzzles": [
+    {
+      "name": "Everyday Words",
+      "words": [
+        "ABILITY",
+        "ABUNDANT",
+        "ACCURATE",
+        "ACTIVATE",
+        "ADAPT",
+        "ADEQUATE",
+        "ADVOCATE",
+        "ANALYZE",
+        "ANCIENT",
+        "ANTICIPATE",
+        "APPARENT",
+        "APPROACH"
+      ]
+    },
+    {
+      "name": "Words for Learning",
+      "words": [
+        "ARRANGE",
+        "ASSUME",
+        "ASTONISH",
+        "ATTEMPT",
+        "ATTITUDE",
+        "AUTHENTIC",
+        "AVAILABLE",
+        "AVOID",
+        "BALANCE",
+        "BENEFIT",
+        "BRIEF",
+        "CALCULATE"
+      ]
+    },
+    {
+      "name": "Words for Feelings",
+      "words": [
+        "CAPABLE",
+        "CHALLENGE",
+        "CLARIFY",
+        "COMBINE",
+        "COMPARE",
+        "COMPETE",
+        "COMPLEX",
+        "CONCENTRATE",
+        "CONCLUDE",
+        "CONDUCT",
+        "CONFIRM",
+        "CONNECT"
+      ]
+    },
+    {
+      "name": "Words for Actions",
+      "words": [
+        "CONSIDER",
+        "CONSISTENT",
+        "CONTRAST",
+        "CONVINCE",
+        "COOPERATE",
+        "CREATE",
+        "CURIOUS",
+        "DEBATE",
+        "DECREASE",
+        "DEFINE",
+        "DEMONSTRATE",
+        "DESCRIBE"
+      ]
+    },
+    {
+      "name": "Words for Describing",
+      "words": [
+        "DETERMINE",
+        "DEVELOP",
+        "DISTINGUISH",
+        "DIVERSE",
+        "DOCUMENT",
+        "DURATION",
+        "EFFECT",
+        "EFFICIENT",
+        "ELABORATE",
+        "EMERGE",
+        "EMPHASIZE",
+        "ENABLE"
+      ]
+    },
+    {
+      "name": "Words for People",
+      "words": [
+        "ENCOUNTER",
+        "ENHANCE",
+        "ENORMOUS",
+        "ENVIRONMENT",
+        "ESTABLISH",
+        "ESTIMATE",
+        "EVALUATE",
+        "EVIDENCE",
+        "EXPAND",
+        "EXPLAIN",
+        "FACTOR",
+        "FEATURE"
+      ]
+    },
+    {
+      "name": "Words for Places",
+      "words": [
+        "FLEXIBLE",
+        "FOCUS",
+        "FORMULATE",
+        "FREQUENT",
+        "FUNCTION",
+        "GENERATE",
+        "GRADUAL",
+        "HIGHLIGHT",
+        "IDENTIFY",
+        "ILLUSTRATE",
+        "IMPACT",
+        "IMPROVE"
+      ]
+    },
+    {
+      "name": "Words for Nature",
+      "words": [
+        "INCLUDE",
+        "INDICATE",
+        "INFLUENCE",
+        "INFORM",
+        "INSPIRE",
+        "INTENSE",
+        "INTERPRET",
+        "INVESTIGATE",
+        "JUSTIFY",
+        "LANGUAGE",
+        "LOGICAL",
+        "MAINTAIN"
+      ]
+    },
+    {
+      "name": "Words for Ideas",
+      "words": [
+        "MAJOR",
+        "METHOD",
+        "MODIFY",
+        "MOTIVATE",
+        "NEGOTIATE",
+        "OBSERVE",
+        "OBTAIN",
+        "OCCUR",
+        "PARTICIPATE",
+        "PARTICULAR",
+        "PERCEIVE",
+        "PERFORM"
+      ]
+    },
+    {
+      "name": "Words for Stories",
+      "words": [
+        "PERIOD",
+        "PERSUADE",
+        "POTENTIAL",
+        "PREDICT",
+        "PREVIOUS",
+        "PRIMARY",
+        "PRIORITY",
+        "PROCESS",
+        "PROMOTE",
+        "PROVIDE",
+        "PUBLISH",
+        "QUALIFY"
+      ]
+    },
+    {
+      "name": "Words for School",
+      "words": [
+        "REACT",
+        "REASONABLE",
+        "RECOGNIZE",
+        "RECOMMEND",
+        "REFLECT",
+        "REGION",
+        "REGULATE",
+        "RELEVANT",
+        "REQUIRE",
+        "RESEARCH",
+        "RESPOND",
+        "REVEAL"
+      ]
+    },
+    {
+      "name": "Words for Growth",
+      "words": [
+        "REVISE",
+        "ROLE",
+        "ROUTE",
+        "SELECT",
+        "SEQUENCE",
+        "SIGNIFICANT",
+        "SIMILAR",
+        "SIMPLIFY",
+        "SOLUTION",
+        "SOURCE",
+        "SPECIFIC",
+        "STRATEGY"
+      ]
+    },
+    {
+      "name": "Words for Decisions",
+      "words": [
+        "STRUCTURE",
+        "SUMMARIZE",
+        "SUPPORT",
+        "SURVEY",
+        "SYMBOL",
+        "TECHNIQUE",
+        "TEMPORARY",
+        "THEORY",
+        "TRANSFER",
+        "TRANSFORM",
+        "UNIQUE",
+        "VALID"
+      ]
+    }
+  ],
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Middle School Vocabulary Puzzle Passport",
+    "achievement_title": "Vocabulary Achievement",
+    "achievement_message": "Every puzzle solved is another set of words ready to use.",
+    "facts_title": "WORDS TO REMEMBER",
+    "fact_cards": [
+      "Vocabulary grows through reading, conversation, and using new words in context.",
+      "Try using one favorite word from each puzzle in a sentence this week.",
+      "Keep this Passport as a record of every vocabulary challenge you completed."
+    ],
+    "challenge": "Word Power Challenge: use one new word in a sentence today."
+  }
+}

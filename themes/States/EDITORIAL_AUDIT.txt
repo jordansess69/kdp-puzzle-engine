@@ -1,0 +1,11 @@
+EDITORIAL AUDIT
+============================================================
+
+Texas: puzzles=100 | unique banks=100 | max term reuse=28 | 20-word structural check=PASS
+New York: puzzles=100 | unique banks=100 | max term reuse=42 | 20-word structural check=PASS
+California: puzzles=100 | unique banks=100 | max term reuse=28 | 20-word structural check=PASS
+Arizona: puzzles=100 | unique banks=100 | max term reuse=34 | 20-word structural check=PASS
+Florida: puzzles=100 | unique banks=100 | max term reuse=34 | 20-word structural check=PASS
+Pennsylvania: puzzles=100 | unique banks=100 | max term reuse=35 | 20-word structural check=PASS
+
+All six state books passed structural validation.

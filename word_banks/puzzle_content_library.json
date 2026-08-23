@@ -1,0 +1,3265 @@
+{
+  "name": "Slade Puzzles Specialty Content Library",
+  "version": "expanded-themed-response-pools-2026-08-23",
+  "note": "Themed Cryptogram and Scramble + Trivia pools are expanded from Master Library topic-linked terms; each supports 100-puzzle production with replacement room.",
+  "packs": {
+    "Space & Astronomy": {
+      "cryptograms": [
+        "MARS IS OFTEN CALLED THE RED PLANET",
+        "SATURN IS FAMOUS FOR ITS BRIGHT RINGS",
+        "A GALAXY HOLDS BILLIONS OF STARS",
+        "A TELESCOPE HELPS US SEE FARTHER",
+        "THE MOON REFLECTS LIGHT FROM THE SUN",
+        "JUPITER IS THE LARGEST PLANET",
+        "COMETS GLOW WHEN THEY NEAR THE SUN",
+        "ASTRONAUTS TRAIN FOR LIFE IN SPACE",
+        "A METEOR IS A STREAK OF LIGHT",
+        "VENUS IS WRAPPED IN THICK CLOUDS",
+        "CURIOSITY MAKES ABELL MORE INTERESTING TO EXPLORE",
+        "ABLATION IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ABLATIONZONE CAN REVEAL SOMETHING NEW",
+        "ABSORPTIONLINE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ACCRETION CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ACCRETIONDISK MORE INTERESTING TO EXPLORE",
+        "ACTAEON IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ACTIVEGALAXY CAN REVEAL SOMETHING NEW",
+        "ADELAIDE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ADRASTEA CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ADVENTURE MORE INTERESTING TO EXPLORE",
+        "AEGIR IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT AEOLIS CAN REVEAL SOMETHING NEW",
+        "AEOLUS INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "AETHRA CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES AFTERGLOW MORE INTERESTING TO EXPLORE",
+        "AIRPLANE IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT AKATSUKI CAN REVEAL SOMETHING NEW",
+        "ALBEDO INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ALBI CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ALCMENA MORE INTERESTING TO EXPLORE",
+        "ALCYONE IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ALCYONEUS CAN REVEAL SOMETHING NEW",
+        "ALDEBARAN INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ALGOL CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ALGORAB MORE INTERESTING TO EXPLORE",
+        "ALHENA IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ALIEN CAN REVEAL SOMETHING NEW",
+        "ALIENWORLD INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ALKAID CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ALMANAC MORE INTERESTING TO EXPLORE",
+        "ALMATHEA IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ALNILAM CAN REVEAL SOMETHING NEW",
+        "ALNITAK INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ALPHARD CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ALPHERATZ MORE INTERESTING TO EXPLORE",
+        "ALSHAIN IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ALTAIR CAN REVEAL SOMETHING NEW",
+        "ALTITUDE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ALTOCUMULUS CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ALUDRA MORE INTERESTING TO EXPLORE",
+        "AMALTHEA IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT AMAZING CAN REVEAL SOMETHING NEW",
+        "AMMONIA INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ANALEMMA CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ANANKE MORE INTERESTING TO EXPLORE",
+        "ANDROMEDA IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ANGSTROM CAN REVEAL SOMETHING NEW",
+        "ANGULARSIZE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ANOMALOUS CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ANTAPEX MORE INTERESTING TO EXPLORE",
+        "ANTARES IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ANTIMATTER CAN REVEAL SOMETHING NEW",
+        "ANTIOPE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ANTLIA CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ANTUMBRA MORE INTERESTING TO EXPLORE",
+        "APHELION IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT APOAPSIS CAN REVEAL SOMETHING NEW",
+        "APOLLO INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "APOLLOELEVEN CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES APSIS MORE INTERESTING TO EXPLORE",
+        "APUS IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT AQUARIUS CAN REVEAL SOMETHING NEW",
+        "AQUILA INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ARACELI CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ARCMINUTE MORE INTERESTING TO EXPLORE",
+        "ARCSECOND IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ARCTURUS CAN REVEAL SOMETHING NEW",
+        "ARES INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ARGO CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ARGONAUT MORE INTERESTING TO EXPLORE",
+        "ARGUS IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ARIANE CAN REVEAL SOMETHING NEW",
+        "ARIEL INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ARIES CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ARMSTRONG MORE INTERESTING TO EXPLORE",
+        "ARROKOTH IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ARTEMIS CAN REVEAL SOMETHING NEW",
+        "ARTEMISONE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ASCENSION CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ASELLUS MORE INTERESTING TO EXPLORE",
+        "ASTEROIDBELT IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ASTEROIDFIELD CAN REVEAL SOMETHING NEW",
+        "ASTEROPE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ASTRAEUS CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ASTROBIOLOGY MORE INTERESTING TO EXPLORE",
+        "ASTROCHEMICAL IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ASTRODYNAMICS CAN REVEAL SOMETHING NEW",
+        "ASTROGEOLOGY INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ASTROMETRIC CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ASTROMETRY MORE INTERESTING TO EXPLORE",
+        "ASTRONAUT IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ASTRONAUTICS CAN REVEAL SOMETHING NEW",
+        "ASTRONAUTPATCH INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ASTRONAUTTEAM CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ASTRONOMER MORE INTERESTING TO EXPLORE",
+        "ASTRONOMY IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ASTRONOMYCLUB CAN REVEAL SOMETHING NEW",
+        "ASTROPARTICLE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ASTROSPHERE CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ATEA MORE INTERESTING TO EXPLORE",
+        "ATHENA IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT ATLANTIS CAN REVEAL SOMETHING NEW",
+        "ATLAS INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ATLASMOON CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES ATMOSPHERE MORE INTERESTING TO EXPLORE",
+        "ATOM IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT AURIGA CAN REVEAL SOMETHING NEW",
+        "AURORA INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "AURORABOREALIS CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES AURORAL MORE INTERESTING TO EXPLORE",
+        "AURORARING IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT AURORAUSTRALIS CAN REVEAL SOMETHING NEW",
+        "AXIS INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BABYPLANET CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES BACKYARD MORE INTERESTING TO EXPLORE",
+        "BALLOON IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT BARYCENTER CAN REVEAL SOMETHING NEW",
+        "BARYCENTRIC INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BARYOGENESIS CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES BARYON MORE INTERESTING TO EXPLORE",
+        "BARYONIC IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT BASALT CAN REVEAL SOMETHING NEW",
+        "BELINDA INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BELLATRIX CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES BELLONA MORE INTERESTING TO EXPLORE",
+        "BENETNASCH IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT BENNU CAN REVEAL SOMETHING NEW",
+        "BEPICOLOMBO INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BERENICES CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES BETELGEUSE MORE INTERESTING TO EXPLORE",
+        "BEYOND IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT BIANCA CAN REVEAL SOMETHING NEW",
+        "BIELA INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BIGBANG CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES BIGDIPPER MORE INTERESTING TO EXPLORE",
+        "BINARYSYSTEM IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT BIOLOGY CAN REVEAL SOMETHING NEW",
+        "BIOSIGNATURE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BIRDS CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES BLACKBODY MORE INTERESTING TO EXPLORE",
+        "BLACKHOLE IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT BLAZAR CAN REVEAL SOMETHING NEW",
+        "BLUE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BLUEBIRD CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES BLUEMOON MORE INTERESTING TO EXPLORE",
+        "BLUEPLANET IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT BLUESHIFT CAN REVEAL SOMETHING NEW",
+        "BLUESKY INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BODES CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES BOLIDE MORE INTERESTING TO EXPLORE",
+        "BOLOMETRIC IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT BOOSTER CAN REVEAL SOMETHING NEW",
+        "BOOTES INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BOREALIS CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES BOREAS MORE INTERESTING TO EXPLORE",
+        "BORMAN IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT BOTES CAN REVEAL SOMETHING NEW",
+        "BRADBURY INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BREEZE CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES BRIGHT MORE INTERESTING TO EXPLORE",
+        "BRIGHTSKY IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT BROWN CAN REVEAL SOMETHING NEW",
+        "BUZZALDRIN INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CAELUM CAN OPEN A NEW PATH TO THE WIDER UNIVERSE",
+        "CURIOSITY MAKES CALDERA MORE INTERESTING TO EXPLORE",
+        "CALDWELL IS ONE PART OF A BIGGER STORY ABOUT THE WIDER UNIVERSE",
+        "A CAREFUL LOOK AT CALLIOPE CAN REVEAL SOMETHING NEW",
+        "CALLIRRHOE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CALLISTO CAN OPEN A NEW PATH TO THE WIDER UNIVERSE"
+      ],
+      "trivia": [
+        [
+          "ROCKET",
+          "What vehicle carries people or equipment into space?",
+          "Rocket"
+        ],
+        [
+          "GALAXY",
+          "What huge collection contains stars, gas, and dust?",
+          "Galaxy"
+        ],
+        [
+          "ORBIT",
+          "What curved path does a planet follow around the Sun?",
+          "Orbit"
+        ],
+        [
+          "ASTEROID",
+          "What rocky object travels around the Sun?",
+          "Asteroid"
+        ],
+        [
+          "ECLIPSE",
+          "What event occurs when one space object blocks another?",
+          "Eclipse"
+        ],
+        [
+          "NEPTUNE",
+          "Which planet is known for its deep blue color?",
+          "Neptune"
+        ],
+        [
+          "CONSTELLATION",
+          "What is a recognized pattern of stars called?",
+          "Constellation"
+        ],
+        [
+          "CRATER",
+          "What bowl-shaped mark is often found on the Moon?",
+          "Crater"
+        ],
+        [
+          "SOLAR",
+          "What word describes something related to the Sun?",
+          "Solar"
+        ],
+        [
+          "COSMOS",
+          "What word can mean the universe as an ordered whole?",
+          "Cosmos"
+        ],
+        [
+          "ABELL",
+          "Space & Astronomy clue 11: What topic-related word is hidden in this scramble?",
+          "Abell"
+        ],
+        [
+          "ABLATION",
+          "Space & Astronomy clue 12: What topic-related word is hidden in this scramble?",
+          "Ablation"
+        ],
+        [
+          "ABLATIONZONE",
+          "Space & Astronomy clue 13: What topic-related word is hidden in this scramble?",
+          "Ablationzone"
+        ],
+        [
+          "ABSORPTIONLINE",
+          "Space & Astronomy clue 14: What topic-related word is hidden in this scramble?",
+          "Absorptionline"
+        ],
+        [
+          "ACCRETION",
+          "Space & Astronomy clue 15: What topic-related word is hidden in this scramble?",
+          "Accretion"
+        ],
+        [
+          "ACCRETIONDISK",
+          "Space & Astronomy clue 16: What topic-related word is hidden in this scramble?",
+          "Accretiondisk"
+        ],
+        [
+          "ACTAEON",
+          "Space & Astronomy clue 17: What topic-related word is hidden in this scramble?",
+          "Actaeon"
+        ],
+        [
+          "ACTIVEGALAXY",
+          "Space & Astronomy clue 18: What topic-related word is hidden in this scramble?",
+          "Activegalaxy"
+        ],
+        [
+          "ADELAIDE",
+          "Space & Astronomy clue 19: What topic-related word is hidden in this scramble?",
+          "Adelaide"
+        ],
+        [
+          "ADRASTEA",
+          "Space & Astronomy clue 20: What topic-related word is hidden in this scramble?",
+          "Adrastea"
+        ],
+        [
+          "ADVENTURE",
+          "Space & Astronomy clue 21: What topic-related word is hidden in this scramble?",
+          "Adventure"
+        ],
+        [
+          "AEGIR",
+          "Space & Astronomy clue 22: What topic-related word is hidden in this scramble?",
+          "Aegir"
+        ],
+        [
+          "AEOLIS",
+          "Space & Astronomy clue 23: What topic-related word is hidden in this scramble?",
+          "Aeolis"
+        ],
+        [
+          "AEOLUS",
+          "Space & Astronomy clue 24: What topic-related word is hidden in this scramble?",
+          "Aeolus"
+        ],
+        [
+          "AETHRA",
+          "Space & Astronomy clue 25: What topic-related word is hidden in this scramble?",
+          "Aethra"
+        ],
+        [
+          "AFTERGLOW",
+          "Space & Astronomy clue 26: What topic-related word is hidden in this scramble?",
+          "Afterglow"
+        ],
+        [
+          "AIRPLANE",
+          "Space & Astronomy clue 27: What topic-related word is hidden in this scramble?",
+          "Airplane"
+        ],
+        [
+          "AKATSUKI",
+          "Space & Astronomy clue 28: What topic-related word is hidden in this scramble?",
+          "Akatsuki"
+        ],
+        [
+          "ALBEDO",
+          "Space & Astronomy clue 29: What topic-related word is hidden in this scramble?",
+          "Albedo"
+        ],
+        [
+          "ALBI",
+          "Space & Astronomy clue 30: What topic-related word is hidden in this scramble?",
+          "Albi"
+        ],
+        [
+          "ALCMENA",
+          "Space & Astronomy clue 31: What topic-related word is hidden in this scramble?",
+          "Alcmena"
+        ],
+        [
+          "ALCYONE",
+          "Space & Astronomy clue 32: What topic-related word is hidden in this scramble?",
+          "Alcyone"
+        ],
+        [
+          "ALCYONEUS",
+          "Space & Astronomy clue 33: What topic-related word is hidden in this scramble?",
+          "Alcyoneus"
+        ],
+        [
+          "ALDEBARAN",
+          "Space & Astronomy clue 34: What topic-related word is hidden in this scramble?",
+          "Aldebaran"
+        ],
+        [
+          "ALGOL",
+          "Space & Astronomy clue 35: What topic-related word is hidden in this scramble?",
+          "Algol"
+        ],
+        [
+          "ALGORAB",
+          "Space & Astronomy clue 36: What topic-related word is hidden in this scramble?",
+          "Algorab"
+        ],
+        [
+          "ALHENA",
+          "Space & Astronomy clue 37: What topic-related word is hidden in this scramble?",
+          "Alhena"
+        ],
+        [
+          "ALIEN",
+          "Space & Astronomy clue 38: What topic-related word is hidden in this scramble?",
+          "Alien"
+        ],
+        [
+          "ALIENWORLD",
+          "Space & Astronomy clue 39: What topic-related word is hidden in this scramble?",
+          "Alienworld"
+        ],
+        [
+          "ALKAID",
+          "Space & Astronomy clue 40: What topic-related word is hidden in this scramble?",
+          "Alkaid"
+        ],
+        [
+          "ALMANAC",
+          "Space & Astronomy clue 41: What topic-related word is hidden in this scramble?",
+          "Almanac"
+        ],
+        [
+          "ALMATHEA",
+          "Space & Astronomy clue 42: What topic-related word is hidden in this scramble?",
+          "Almathea"
+        ],
+        [
+          "ALNILAM",
+          "Space & Astronomy clue 43: What topic-related word is hidden in this scramble?",
+          "Alnilam"
+        ],
+        [
+          "ALNITAK",
+          "Space & Astronomy clue 44: What topic-related word is hidden in this scramble?",
+          "Alnitak"
+        ],
+        [
+          "ALPHARD",
+          "Space & Astronomy clue 45: What topic-related word is hidden in this scramble?",
+          "Alphard"
+        ],
+        [
+          "ALPHERATZ",
+          "Space & Astronomy clue 46: What topic-related word is hidden in this scramble?",
+          "Alpheratz"
+        ],
+        [
+          "ALSHAIN",
+          "Space & Astronomy clue 47: What topic-related word is hidden in this scramble?",
+          "Alshain"
+        ],
+        [
+          "ALTAIR",
+          "Space & Astronomy clue 48: What topic-related word is hidden in this scramble?",
+          "Altair"
+        ],
+        [
+          "ALTITUDE",
+          "Space & Astronomy clue 49: What topic-related word is hidden in this scramble?",
+          "Altitude"
+        ],
+        [
+          "ALTOCUMULUS",
+          "Space & Astronomy clue 50: What topic-related word is hidden in this scramble?",
+          "Altocumulus"
+        ],
+        [
+          "ALUDRA",
+          "Space & Astronomy clue 51: What topic-related word is hidden in this scramble?",
+          "Aludra"
+        ],
+        [
+          "AMALTHEA",
+          "Space & Astronomy clue 52: What topic-related word is hidden in this scramble?",
+          "Amalthea"
+        ],
+        [
+          "AMAZING",
+          "Space & Astronomy clue 53: What topic-related word is hidden in this scramble?",
+          "Amazing"
+        ],
+        [
+          "AMMONIA",
+          "Space & Astronomy clue 54: What topic-related word is hidden in this scramble?",
+          "Ammonia"
+        ],
+        [
+          "ANALEMMA",
+          "Space & Astronomy clue 55: What topic-related word is hidden in this scramble?",
+          "Analemma"
+        ],
+        [
+          "ANANKE",
+          "Space & Astronomy clue 56: What topic-related word is hidden in this scramble?",
+          "Ananke"
+        ],
+        [
+          "ANDROMEDA",
+          "Space & Astronomy clue 57: What topic-related word is hidden in this scramble?",
+          "Andromeda"
+        ],
+        [
+          "ANGSTROM",
+          "Space & Astronomy clue 58: What topic-related word is hidden in this scramble?",
+          "Angstrom"
+        ],
+        [
+          "ANGULARSIZE",
+          "Space & Astronomy clue 59: What topic-related word is hidden in this scramble?",
+          "Angularsize"
+        ],
+        [
+          "ANOMALOUS",
+          "Space & Astronomy clue 60: What topic-related word is hidden in this scramble?",
+          "Anomalous"
+        ],
+        [
+          "ANTAPEX",
+          "Space & Astronomy clue 61: What topic-related word is hidden in this scramble?",
+          "Antapex"
+        ],
+        [
+          "ANTARES",
+          "Space & Astronomy clue 62: What topic-related word is hidden in this scramble?",
+          "Antares"
+        ],
+        [
+          "ANTIMATTER",
+          "Space & Astronomy clue 63: What topic-related word is hidden in this scramble?",
+          "Antimatter"
+        ],
+        [
+          "ANTIOPE",
+          "Space & Astronomy clue 64: What topic-related word is hidden in this scramble?",
+          "Antiope"
+        ],
+        [
+          "ANTLIA",
+          "Space & Astronomy clue 65: What topic-related word is hidden in this scramble?",
+          "Antlia"
+        ],
+        [
+          "ANTUMBRA",
+          "Space & Astronomy clue 66: What topic-related word is hidden in this scramble?",
+          "Antumbra"
+        ],
+        [
+          "APHELION",
+          "Space & Astronomy clue 67: What topic-related word is hidden in this scramble?",
+          "Aphelion"
+        ],
+        [
+          "APOAPSIS",
+          "Space & Astronomy clue 68: What topic-related word is hidden in this scramble?",
+          "Apoapsis"
+        ],
+        [
+          "APOLLO",
+          "Space & Astronomy clue 69: What topic-related word is hidden in this scramble?",
+          "Apollo"
+        ],
+        [
+          "APOLLOELEVEN",
+          "Space & Astronomy clue 70: What topic-related word is hidden in this scramble?",
+          "Apolloeleven"
+        ],
+        [
+          "APSIS",
+          "Space & Astronomy clue 71: What topic-related word is hidden in this scramble?",
+          "Apsis"
+        ],
+        [
+          "APUS",
+          "Space & Astronomy clue 72: What topic-related word is hidden in this scramble?",
+          "Apus"
+        ],
+        [
+          "AQUARIUS",
+          "Space & Astronomy clue 73: What topic-related word is hidden in this scramble?",
+          "Aquarius"
+        ],
+        [
+          "AQUILA",
+          "Space & Astronomy clue 74: What topic-related word is hidden in this scramble?",
+          "Aquila"
+        ],
+        [
+          "ARACELI",
+          "Space & Astronomy clue 75: What topic-related word is hidden in this scramble?",
+          "Araceli"
+        ],
+        [
+          "ARCMINUTE",
+          "Space & Astronomy clue 76: What topic-related word is hidden in this scramble?",
+          "Arcminute"
+        ],
+        [
+          "ARCSECOND",
+          "Space & Astronomy clue 77: What topic-related word is hidden in this scramble?",
+          "Arcsecond"
+        ],
+        [
+          "ARCTURUS",
+          "Space & Astronomy clue 78: What topic-related word is hidden in this scramble?",
+          "Arcturus"
+        ],
+        [
+          "ARES",
+          "Space & Astronomy clue 79: What topic-related word is hidden in this scramble?",
+          "Ares"
+        ],
+        [
+          "ARGO",
+          "Space & Astronomy clue 80: What topic-related word is hidden in this scramble?",
+          "Argo"
+        ],
+        [
+          "ARGONAUT",
+          "Space & Astronomy clue 81: What topic-related word is hidden in this scramble?",
+          "Argonaut"
+        ],
+        [
+          "ARGUS",
+          "Space & Astronomy clue 82: What topic-related word is hidden in this scramble?",
+          "Argus"
+        ],
+        [
+          "ARIANE",
+          "Space & Astronomy clue 83: What topic-related word is hidden in this scramble?",
+          "Ariane"
+        ],
+        [
+          "ARIEL",
+          "Space & Astronomy clue 84: What topic-related word is hidden in this scramble?",
+          "Ariel"
+        ],
+        [
+          "ARIES",
+          "Space & Astronomy clue 85: What topic-related word is hidden in this scramble?",
+          "Aries"
+        ],
+        [
+          "ARMSTRONG",
+          "Space & Astronomy clue 86: What topic-related word is hidden in this scramble?",
+          "Armstrong"
+        ],
+        [
+          "ARROKOTH",
+          "Space & Astronomy clue 87: What topic-related word is hidden in this scramble?",
+          "Arrokoth"
+        ],
+        [
+          "ARTEMIS",
+          "Space & Astronomy clue 88: What topic-related word is hidden in this scramble?",
+          "Artemis"
+        ],
+        [
+          "ARTEMISONE",
+          "Space & Astronomy clue 89: What topic-related word is hidden in this scramble?",
+          "Artemisone"
+        ],
+        [
+          "ASCENSION",
+          "Space & Astronomy clue 90: What topic-related word is hidden in this scramble?",
+          "Ascension"
+        ],
+        [
+          "ASELLUS",
+          "Space & Astronomy clue 91: What topic-related word is hidden in this scramble?",
+          "Asellus"
+        ],
+        [
+          "ASTEROIDBELT",
+          "Space & Astronomy clue 92: What topic-related word is hidden in this scramble?",
+          "Asteroidbelt"
+        ],
+        [
+          "ASTEROIDFIELD",
+          "Space & Astronomy clue 93: What topic-related word is hidden in this scramble?",
+          "Asteroidfield"
+        ],
+        [
+          "ASTEROPE",
+          "Space & Astronomy clue 94: What topic-related word is hidden in this scramble?",
+          "Asterope"
+        ],
+        [
+          "ASTRAEUS",
+          "Space & Astronomy clue 95: What topic-related word is hidden in this scramble?",
+          "Astraeus"
+        ],
+        [
+          "ASTROBIOLOGY",
+          "Space & Astronomy clue 96: What topic-related word is hidden in this scramble?",
+          "Astrobiology"
+        ],
+        [
+          "ASTROCHEMICAL",
+          "Space & Astronomy clue 97: What topic-related word is hidden in this scramble?",
+          "Astrochemical"
+        ],
+        [
+          "ASTRODYNAMICS",
+          "Space & Astronomy clue 98: What topic-related word is hidden in this scramble?",
+          "Astrodynamics"
+        ],
+        [
+          "ASTROGEOLOGY",
+          "Space & Astronomy clue 99: What topic-related word is hidden in this scramble?",
+          "Astrogeology"
+        ],
+        [
+          "ASTROMETRIC",
+          "Space & Astronomy clue 100: What topic-related word is hidden in this scramble?",
+          "Astrometric"
+        ],
+        [
+          "ASTROMETRY",
+          "Space & Astronomy clue 101: What topic-related word is hidden in this scramble?",
+          "Astrometry"
+        ],
+        [
+          "ASTRONAUT",
+          "Space & Astronomy clue 102: What topic-related word is hidden in this scramble?",
+          "Astronaut"
+        ],
+        [
+          "ASTRONAUTICS",
+          "Space & Astronomy clue 103: What topic-related word is hidden in this scramble?",
+          "Astronautics"
+        ],
+        [
+          "ASTRONAUTPATCH",
+          "Space & Astronomy clue 104: What topic-related word is hidden in this scramble?",
+          "Astronautpatch"
+        ],
+        [
+          "ASTRONAUTTEAM",
+          "Space & Astronomy clue 105: What topic-related word is hidden in this scramble?",
+          "Astronautteam"
+        ],
+        [
+          "ASTRONOMER",
+          "Space & Astronomy clue 106: What topic-related word is hidden in this scramble?",
+          "Astronomer"
+        ],
+        [
+          "ASTRONOMY",
+          "Space & Astronomy clue 107: What topic-related word is hidden in this scramble?",
+          "Astronomy"
+        ],
+        [
+          "ASTRONOMYCLUB",
+          "Space & Astronomy clue 108: What topic-related word is hidden in this scramble?",
+          "Astronomyclub"
+        ],
+        [
+          "ASTROPARTICLE",
+          "Space & Astronomy clue 109: What topic-related word is hidden in this scramble?",
+          "Astroparticle"
+        ],
+        [
+          "ASTROSPHERE",
+          "Space & Astronomy clue 110: What topic-related word is hidden in this scramble?",
+          "Astrosphere"
+        ],
+        [
+          "ATEA",
+          "Space & Astronomy clue 111: What topic-related word is hidden in this scramble?",
+          "Atea"
+        ],
+        [
+          "ATHENA",
+          "Space & Astronomy clue 112: What topic-related word is hidden in this scramble?",
+          "Athena"
+        ],
+        [
+          "ATLANTIS",
+          "Space & Astronomy clue 113: What topic-related word is hidden in this scramble?",
+          "Atlantis"
+        ],
+        [
+          "ATLAS",
+          "Space & Astronomy clue 114: What topic-related word is hidden in this scramble?",
+          "Atlas"
+        ],
+        [
+          "ATLASMOON",
+          "Space & Astronomy clue 115: What topic-related word is hidden in this scramble?",
+          "Atlasmoon"
+        ],
+        [
+          "ATMOSPHERE",
+          "Space & Astronomy clue 116: What topic-related word is hidden in this scramble?",
+          "Atmosphere"
+        ],
+        [
+          "ATOM",
+          "Space & Astronomy clue 117: What topic-related word is hidden in this scramble?",
+          "Atom"
+        ],
+        [
+          "AURIGA",
+          "Space & Astronomy clue 118: What topic-related word is hidden in this scramble?",
+          "Auriga"
+        ],
+        [
+          "AURORA",
+          "Space & Astronomy clue 119: What topic-related word is hidden in this scramble?",
+          "Aurora"
+        ],
+        [
+          "AURORABOREALIS",
+          "Space & Astronomy clue 120: What topic-related word is hidden in this scramble?",
+          "Auroraborealis"
+        ],
+        [
+          "AURORAL",
+          "Space & Astronomy clue 121: What topic-related word is hidden in this scramble?",
+          "Auroral"
+        ],
+        [
+          "AURORARING",
+          "Space & Astronomy clue 122: What topic-related word is hidden in this scramble?",
+          "Auroraring"
+        ],
+        [
+          "AURORAUSTRALIS",
+          "Space & Astronomy clue 123: What topic-related word is hidden in this scramble?",
+          "Auroraustralis"
+        ],
+        [
+          "AXIS",
+          "Space & Astronomy clue 124: What topic-related word is hidden in this scramble?",
+          "Axis"
+        ],
+        [
+          "BABYPLANET",
+          "Space & Astronomy clue 125: What topic-related word is hidden in this scramble?",
+          "Babyplanet"
+        ],
+        [
+          "BACKYARD",
+          "Space & Astronomy clue 126: What topic-related word is hidden in this scramble?",
+          "Backyard"
+        ],
+        [
+          "BALLOON",
+          "Space & Astronomy clue 127: What topic-related word is hidden in this scramble?",
+          "Balloon"
+        ],
+        [
+          "BARYCENTER",
+          "Space & Astronomy clue 128: What topic-related word is hidden in this scramble?",
+          "Barycenter"
+        ],
+        [
+          "BARYCENTRIC",
+          "Space & Astronomy clue 129: What topic-related word is hidden in this scramble?",
+          "Barycentric"
+        ],
+        [
+          "BARYOGENESIS",
+          "Space & Astronomy clue 130: What topic-related word is hidden in this scramble?",
+          "Baryogenesis"
+        ],
+        [
+          "BARYON",
+          "Space & Astronomy clue 131: What topic-related word is hidden in this scramble?",
+          "Baryon"
+        ],
+        [
+          "BARYONIC",
+          "Space & Astronomy clue 132: What topic-related word is hidden in this scramble?",
+          "Baryonic"
+        ],
+        [
+          "BASALT",
+          "Space & Astronomy clue 133: What topic-related word is hidden in this scramble?",
+          "Basalt"
+        ],
+        [
+          "BELINDA",
+          "Space & Astronomy clue 134: What topic-related word is hidden in this scramble?",
+          "Belinda"
+        ],
+        [
+          "BELLATRIX",
+          "Space & Astronomy clue 135: What topic-related word is hidden in this scramble?",
+          "Bellatrix"
+        ],
+        [
+          "BELLONA",
+          "Space & Astronomy clue 136: What topic-related word is hidden in this scramble?",
+          "Bellona"
+        ],
+        [
+          "BENETNASCH",
+          "Space & Astronomy clue 137: What topic-related word is hidden in this scramble?",
+          "Benetnasch"
+        ],
+        [
+          "BENNU",
+          "Space & Astronomy clue 138: What topic-related word is hidden in this scramble?",
+          "Bennu"
+        ],
+        [
+          "BEPICOLOMBO",
+          "Space & Astronomy clue 139: What topic-related word is hidden in this scramble?",
+          "Bepicolombo"
+        ],
+        [
+          "BERENICES",
+          "Space & Astronomy clue 140: What topic-related word is hidden in this scramble?",
+          "Berenices"
+        ],
+        [
+          "BETELGEUSE",
+          "Space & Astronomy clue 141: What topic-related word is hidden in this scramble?",
+          "Betelgeuse"
+        ],
+        [
+          "BEYOND",
+          "Space & Astronomy clue 142: What topic-related word is hidden in this scramble?",
+          "Beyond"
+        ],
+        [
+          "BIANCA",
+          "Space & Astronomy clue 143: What topic-related word is hidden in this scramble?",
+          "Bianca"
+        ],
+        [
+          "BIELA",
+          "Space & Astronomy clue 144: What topic-related word is hidden in this scramble?",
+          "Biela"
+        ],
+        [
+          "BIGBANG",
+          "Space & Astronomy clue 145: What topic-related word is hidden in this scramble?",
+          "Bigbang"
+        ],
+        [
+          "BIGDIPPER",
+          "Space & Astronomy clue 146: What topic-related word is hidden in this scramble?",
+          "Bigdipper"
+        ],
+        [
+          "BINARYSYSTEM",
+          "Space & Astronomy clue 147: What topic-related word is hidden in this scramble?",
+          "Binarysystem"
+        ],
+        [
+          "BIOLOGY",
+          "Space & Astronomy clue 148: What topic-related word is hidden in this scramble?",
+          "Biology"
+        ],
+        [
+          "BIOSIGNATURE",
+          "Space & Astronomy clue 149: What topic-related word is hidden in this scramble?",
+          "Biosignature"
+        ],
+        [
+          "BIRDS",
+          "Space & Astronomy clue 150: What topic-related word is hidden in this scramble?",
+          "Birds"
+        ],
+        [
+          "BLACKBODY",
+          "Space & Astronomy clue 151: What topic-related word is hidden in this scramble?",
+          "Blackbody"
+        ],
+        [
+          "BLACKHOLE",
+          "Space & Astronomy clue 152: What topic-related word is hidden in this scramble?",
+          "Blackhole"
+        ],
+        [
+          "BLAZAR",
+          "Space & Astronomy clue 153: What topic-related word is hidden in this scramble?",
+          "Blazar"
+        ],
+        [
+          "BLUE",
+          "Space & Astronomy clue 154: What topic-related word is hidden in this scramble?",
+          "Blue"
+        ],
+        [
+          "BLUEBIRD",
+          "Space & Astronomy clue 155: What topic-related word is hidden in this scramble?",
+          "Bluebird"
+        ],
+        [
+          "BLUEMOON",
+          "Space & Astronomy clue 156: What topic-related word is hidden in this scramble?",
+          "Bluemoon"
+        ],
+        [
+          "BLUEPLANET",
+          "Space & Astronomy clue 157: What topic-related word is hidden in this scramble?",
+          "Blueplanet"
+        ],
+        [
+          "BLUESHIFT",
+          "Space & Astronomy clue 158: What topic-related word is hidden in this scramble?",
+          "Blueshift"
+        ],
+        [
+          "BLUESKY",
+          "Space & Astronomy clue 159: What topic-related word is hidden in this scramble?",
+          "Bluesky"
+        ],
+        [
+          "BODES",
+          "Space & Astronomy clue 160: What topic-related word is hidden in this scramble?",
+          "Bodes"
+        ],
+        [
+          "BOLIDE",
+          "Space & Astronomy clue 161: What topic-related word is hidden in this scramble?",
+          "Bolide"
+        ],
+        [
+          "BOLOMETRIC",
+          "Space & Astronomy clue 162: What topic-related word is hidden in this scramble?",
+          "Bolometric"
+        ],
+        [
+          "BOOSTER",
+          "Space & Astronomy clue 163: What topic-related word is hidden in this scramble?",
+          "Booster"
+        ],
+        [
+          "BOOTES",
+          "Space & Astronomy clue 164: What topic-related word is hidden in this scramble?",
+          "Bootes"
+        ],
+        [
+          "BOREALIS",
+          "Space & Astronomy clue 165: What topic-related word is hidden in this scramble?",
+          "Borealis"
+        ],
+        [
+          "BOREAS",
+          "Space & Astronomy clue 166: What topic-related word is hidden in this scramble?",
+          "Boreas"
+        ],
+        [
+          "BORMAN",
+          "Space & Astronomy clue 167: What topic-related word is hidden in this scramble?",
+          "Borman"
+        ],
+        [
+          "BOTES",
+          "Space & Astronomy clue 168: What topic-related word is hidden in this scramble?",
+          "Botes"
+        ],
+        [
+          "BRADBURY",
+          "Space & Astronomy clue 169: What topic-related word is hidden in this scramble?",
+          "Bradbury"
+        ],
+        [
+          "BREEZE",
+          "Space & Astronomy clue 170: What topic-related word is hidden in this scramble?",
+          "Breeze"
+        ],
+        [
+          "BRIGHT",
+          "Space & Astronomy clue 171: What topic-related word is hidden in this scramble?",
+          "Bright"
+        ],
+        [
+          "BRIGHTSKY",
+          "Space & Astronomy clue 172: What topic-related word is hidden in this scramble?",
+          "Brightsky"
+        ],
+        [
+          "BROWN",
+          "Space & Astronomy clue 173: What topic-related word is hidden in this scramble?",
+          "Brown"
+        ],
+        [
+          "BUZZALDRIN",
+          "Space & Astronomy clue 174: What topic-related word is hidden in this scramble?",
+          "Buzzaldrin"
+        ],
+        [
+          "CAELUM",
+          "Space & Astronomy clue 175: What topic-related word is hidden in this scramble?",
+          "Caelum"
+        ],
+        [
+          "CALDERA",
+          "Space & Astronomy clue 176: What topic-related word is hidden in this scramble?",
+          "Caldera"
+        ],
+        [
+          "CALDWELL",
+          "Space & Astronomy clue 177: What topic-related word is hidden in this scramble?",
+          "Caldwell"
+        ],
+        [
+          "CALLIOPE",
+          "Space & Astronomy clue 178: What topic-related word is hidden in this scramble?",
+          "Calliope"
+        ],
+        [
+          "CALLIRRHOE",
+          "Space & Astronomy clue 179: What topic-related word is hidden in this scramble?",
+          "Callirrhoe"
+        ],
+        [
+          "CALLISTO",
+          "Space & Astronomy clue 180: What topic-related word is hidden in this scramble?",
+          "Callisto"
+        ]
+      ]
+    },
+    "Garden & Growing": {
+      "cryptograms": [
+        "A GARDEN GROWS ONE SMALL SEED AT A TIME",
+        "HERBS CAN ADD FLAVOR TO A SIMPLE MEAL",
+        "BEES HELP MANY FLOWERS MAKE SEEDS",
+        "RAIN GIVES ROOTS A FRESH DRINK",
+        "A GREENHOUSE HELPS YOUNG PLANTS GROW",
+        "COMPOST RETURNS NUTRIENTS TO THE SOIL",
+        "TOMATOES GROW BEST WITH WARM SUNSHINE",
+        "A TROWEL IS USEFUL FOR SMALL PLANTING JOBS",
+        "BUTTERFLIES VISIT BRIGHT BLOOMS",
+        "A HARVEST CELEBRATES PATIENT WORK",
+        "CURIOSITY MAKES ACANTHUS MORE INTERESTING TO EXPLORE",
+        "ACHILLEA IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT ACORN CAN REVEAL SOMETHING NEW",
+        "ACREAGE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "AGAPANTHUS CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES AGAVE MORE INTERESTING TO EXPLORE",
+        "AGRICULTURE IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT AGROFORESTRY CAN REVEAL SOMETHING NEW",
+        "AGROTEK INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "AIRPLANT CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES ALFALFA MORE INTERESTING TO EXPLORE",
+        "ALLIUM IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT ALLOTMENT CAN REVEAL SOMETHING NEW",
+        "ALPACA INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ALPINE CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES ALYSSUM MORE INTERESTING TO EXPLORE",
+        "AMARANTH IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT AMARYLLIS CAN REVEAL SOMETHING NEW",
+        "ANEMONE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ANGORA CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES ANISE MORE INTERESTING TO EXPLORE",
+        "ANNUAL IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT APIARY CAN REVEAL SOMETHING NEW",
+        "APIARYBOX INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "APPLEBLOSSOM CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES APPLEBUTTER MORE INTERESTING TO EXPLORE",
+        "APPLECIDER IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT APPLEORCHARD CAN REVEAL SOMETHING NEW",
+        "APPLEPIE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "APPLESAUCE CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES APRICOT MORE INTERESTING TO EXPLORE",
+        "APRICOTTREE IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT APRON CAN REVEAL SOMETHING NEW",
+        "AQUAPONICS INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ARBOR CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES ARBORVITAE MORE INTERESTING TO EXPLORE",
+        "ARBUTUS IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT ARONIA CAN REVEAL SOMETHING NEW",
+        "ARTICHOKE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ARUGULA CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES ASPARAGUS MORE INTERESTING TO EXPLORE",
+        "ASTER IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT AUTUMN CAN REVEAL SOMETHING NEW",
+        "AZALEA INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BACKPORCH CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BACKYARDFARM MORE INTERESTING TO EXPLORE",
+        "BACKYARDGARDEN IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BAKINGPAN CAN REVEAL SOMETHING NEW",
+        "BALCONYGARDEN INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BALSAM CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BANNETON MORE INTERESTING TO EXPLORE",
+        "BARK IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BARLEY CAN REVEAL SOMETHING NEW",
+        "BARLEYFIELD INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BARN CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BARNBEAM MORE INTERESTING TO EXPLORE",
+        "BARNBOARD IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BARNCAT CAN REVEAL SOMETHING NEW",
+        "BARNCLEANING INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BARNFLOOR CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BARNLIGHT MORE INTERESTING TO EXPLORE",
+        "BARNLOFT IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BARNRAISER CAN REVEAL SOMETHING NEW",
+        "BARNWOOD INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BARNYARD CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BASIL MORE INTERESTING TO EXPLORE",
+        "BAYLEAF IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BEAN CAN REVEAL SOMETHING NEW",
+        "BEANPATCH INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BEANPOLE CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BEANSTALK MORE INTERESTING TO EXPLORE",
+        "BEEHIVE IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BEEHIVEFRAME CAN REVEAL SOMETHING NEW",
+        "BEEKEEPER INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BEEKEEPERSUIT CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BEEKEEPING MORE INTERESTING TO EXPLORE",
+        "BEESWAX IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BEESWING CAN REVEAL SOMETHING NEW",
+        "BEET INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BEETROOT CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BEETS MORE INTERESTING TO EXPLORE",
+        "BEETSOUP IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BEGONIA CAN REVEAL SOMETHING NEW",
+        "BELLPEPPER INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BERGAMOT CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BERRY MORE INTERESTING TO EXPLORE",
+        "BERRYBUSH IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BIODYNAMIC CAN REVEAL SOMETHING NEW",
+        "BIRDBATH INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BIRDNETTING CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BLACKBERRY MORE INTERESTING TO EXPLORE",
+        "BLACKEYEDSUSAN IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BLACKSMITH CAN REVEAL SOMETHING NEW",
+        "BLANKET INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BLOODMEAL CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BLOOM MORE INTERESTING TO EXPLORE",
+        "BLOSSOM IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BLOSSOMTIME CAN REVEAL SOMETHING NEW",
+        "BLUEBERR INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BLUEBERRY CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BOARDFENCE MORE INTERESTING TO EXPLORE",
+        "BOGGARDEN IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BOKCHOY CAN REVEAL SOMETHING NEW",
+        "BORAGE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BORDER CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BORDERPLANT MORE INTERESTING TO EXPLORE",
+        "BOTANY IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BOTTLING CAN REVEAL SOMETHING NEW",
+        "BOULDER INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BOXWOOD CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BRAMBLE MORE INTERESTING TO EXPLORE",
+        "BREADBOX IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BREADMAKING CAN REVEAL SOMETHING NEW",
+        "BREADOVEN INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BREADPROOF CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BREWER MORE INTERESTING TO EXPLORE",
+        "BROCCOLI IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BROCCOLIPATCH CAN REVEAL SOMETHING NEW",
+        "BROOD INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BROODER CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BROODHEN MORE INTERESTING TO EXPLORE",
+        "BROODYHEN IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BRUSSELSPROUT CAN REVEAL SOMETHING NEW",
+        "BUCKET INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BUCKWHEAT CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BULBPLANT MORE INTERESTING TO EXPLORE",
+        "BUSH IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT BUSHBEAN CAN REVEAL SOMETHING NEW",
+        "BUTTERCUP INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BUTTERMAKING CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES BUTTERMOLD MORE INTERESTING TO EXPLORE",
+        "CABBAGE IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT CABBAGEPATCH CAN REVEAL SOMETHING NEW",
+        "CABBAGEROW INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CAGE CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES CALENDULA MORE INTERESTING TO EXPLORE",
+        "CALF IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT CALFPEN CAN REVEAL SOMETHING NEW",
+        "CAMPANULA INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CANDLEWICK CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES CANES MORE INTERESTING TO EXPLORE",
+        "CANNER IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT CANNING CAN REVEAL SOMETHING NEW",
+        "CANNINGBATH INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CANNINGFUNNEL CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES CANNINGJAR MORE INTERESTING TO EXPLORE",
+        "CANNINGLABEL IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT CANNINGLID CAN REVEAL SOMETHING NEW",
+        "CANNINGPOT INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CANNINGRACK CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES CANNINGSEAL MORE INTERESTING TO EXPLORE",
+        "CANNINGTONGS IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT CANNINGWAX CAN REVEAL SOMETHING NEW",
+        "CANNINGWEIGHT INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CANTALOUPE CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES CANYON MORE INTERESTING TO EXPLORE",
+        "CAPE IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT CARAWAY CAN REVEAL SOMETHING NEW",
+        "CARDOON INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CARNATION CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES CARROT MORE INTERESTING TO EXPLORE",
+        "CARROTPATCH IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT CASTIRON CAN REVEAL SOMETHING NEW",
+        "CASTIRONPAN INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CATMINT CAN OPEN A NEW PATH TO A THRIVING GARDEN",
+        "CURIOSITY MAKES CATTAIL MORE INTERESTING TO EXPLORE",
+        "CATTLEGUARD IS ONE PART OF A BIGGER STORY ABOUT A THRIVING GARDEN",
+        "A CAREFUL LOOK AT CAULDRON CAN REVEAL SOMETHING NEW",
+        "CAULIFLOWER INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CELANDINE CAN OPEN A NEW PATH TO A THRIVING GARDEN"
+      ],
+      "trivia": [
+        [
+          "SEEDLING",
+          "What is a very young plant called?",
+          "Seedling"
+        ],
+        [
+          "MULCH",
+          "What protective layer is spread over soil?",
+          "Mulch"
+        ],
+        [
+          "BULB",
+          "What underground plant part can grow into a flower?",
+          "Bulb"
+        ],
+        [
+          "PETAL",
+          "What is a colorful part of many flowers called?",
+          "Petal"
+        ],
+        [
+          "SPROUT",
+          "What is a new shoot from a seed called?",
+          "Sprout"
+        ],
+        [
+          "TROWEL",
+          "What small hand tool is used for digging in a garden?",
+          "Trowel"
+        ],
+        [
+          "HARVEST",
+          "What is gathering ripe crops called?",
+          "Harvest"
+        ],
+        [
+          "COMPOST",
+          "What nutrient-rich material is made from decomposed organic matter?",
+          "Compost"
+        ],
+        [
+          "POLLEN",
+          "What powder is moved between flowers by pollinators?",
+          "Pollen"
+        ],
+        [
+          "TRELLIS",
+          "What framework supports climbing plants?",
+          "Trellis"
+        ],
+        [
+          "ACANTHUS",
+          "Garden & Growing clue 11: What topic-related word is hidden in this scramble?",
+          "Acanthus"
+        ],
+        [
+          "ACHILLEA",
+          "Garden & Growing clue 12: What topic-related word is hidden in this scramble?",
+          "Achillea"
+        ],
+        [
+          "ACORN",
+          "Garden & Growing clue 13: What topic-related word is hidden in this scramble?",
+          "Acorn"
+        ],
+        [
+          "ACREAGE",
+          "Garden & Growing clue 14: What topic-related word is hidden in this scramble?",
+          "Acreage"
+        ],
+        [
+          "AGAPANTHUS",
+          "Garden & Growing clue 15: What topic-related word is hidden in this scramble?",
+          "Agapanthus"
+        ],
+        [
+          "AGAVE",
+          "Garden & Growing clue 16: What topic-related word is hidden in this scramble?",
+          "Agave"
+        ],
+        [
+          "AGRICULTURE",
+          "Garden & Growing clue 17: What topic-related word is hidden in this scramble?",
+          "Agriculture"
+        ],
+        [
+          "AGROFORESTRY",
+          "Garden & Growing clue 18: What topic-related word is hidden in this scramble?",
+          "Agroforestry"
+        ],
+        [
+          "AGROTEK",
+          "Garden & Growing clue 19: What topic-related word is hidden in this scramble?",
+          "Agrotek"
+        ],
+        [
+          "AIRPLANT",
+          "Garden & Growing clue 20: What topic-related word is hidden in this scramble?",
+          "Airplant"
+        ],
+        [
+          "ALFALFA",
+          "Garden & Growing clue 21: What topic-related word is hidden in this scramble?",
+          "Alfalfa"
+        ],
+        [
+          "ALLIUM",
+          "Garden & Growing clue 22: What topic-related word is hidden in this scramble?",
+          "Allium"
+        ],
+        [
+          "ALLOTMENT",
+          "Garden & Growing clue 23: What topic-related word is hidden in this scramble?",
+          "Allotment"
+        ],
+        [
+          "ALPACA",
+          "Garden & Growing clue 24: What topic-related word is hidden in this scramble?",
+          "Alpaca"
+        ],
+        [
+          "ALPINE",
+          "Garden & Growing clue 25: What topic-related word is hidden in this scramble?",
+          "Alpine"
+        ],
+        [
+          "ALYSSUM",
+          "Garden & Growing clue 26: What topic-related word is hidden in this scramble?",
+          "Alyssum"
+        ],
+        [
+          "AMARANTH",
+          "Garden & Growing clue 27: What topic-related word is hidden in this scramble?",
+          "Amaranth"
+        ],
+        [
+          "AMARYLLIS",
+          "Garden & Growing clue 28: What topic-related word is hidden in this scramble?",
+          "Amaryllis"
+        ],
+        [
+          "ANEMONE",
+          "Garden & Growing clue 29: What topic-related word is hidden in this scramble?",
+          "Anemone"
+        ],
+        [
+          "ANGORA",
+          "Garden & Growing clue 30: What topic-related word is hidden in this scramble?",
+          "Angora"
+        ],
+        [
+          "ANISE",
+          "Garden & Growing clue 31: What topic-related word is hidden in this scramble?",
+          "Anise"
+        ],
+        [
+          "ANNUAL",
+          "Garden & Growing clue 32: What topic-related word is hidden in this scramble?",
+          "Annual"
+        ],
+        [
+          "APIARY",
+          "Garden & Growing clue 33: What topic-related word is hidden in this scramble?",
+          "Apiary"
+        ],
+        [
+          "APIARYBOX",
+          "Garden & Growing clue 34: What topic-related word is hidden in this scramble?",
+          "Apiarybox"
+        ],
+        [
+          "APPLEBLOSSOM",
+          "Garden & Growing clue 35: What topic-related word is hidden in this scramble?",
+          "Appleblossom"
+        ],
+        [
+          "APPLEBUTTER",
+          "Garden & Growing clue 36: What topic-related word is hidden in this scramble?",
+          "Applebutter"
+        ],
+        [
+          "APPLECIDER",
+          "Garden & Growing clue 37: What topic-related word is hidden in this scramble?",
+          "Applecider"
+        ],
+        [
+          "APPLEORCHARD",
+          "Garden & Growing clue 38: What topic-related word is hidden in this scramble?",
+          "Appleorchard"
+        ],
+        [
+          "APPLEPIE",
+          "Garden & Growing clue 39: What topic-related word is hidden in this scramble?",
+          "Applepie"
+        ],
+        [
+          "APPLESAUCE",
+          "Garden & Growing clue 40: What topic-related word is hidden in this scramble?",
+          "Applesauce"
+        ],
+        [
+          "APRICOT",
+          "Garden & Growing clue 41: What topic-related word is hidden in this scramble?",
+          "Apricot"
+        ],
+        [
+          "APRICOTTREE",
+          "Garden & Growing clue 42: What topic-related word is hidden in this scramble?",
+          "Apricottree"
+        ],
+        [
+          "APRON",
+          "Garden & Growing clue 43: What topic-related word is hidden in this scramble?",
+          "Apron"
+        ],
+        [
+          "AQUAPONICS",
+          "Garden & Growing clue 44: What topic-related word is hidden in this scramble?",
+          "Aquaponics"
+        ],
+        [
+          "ARBOR",
+          "Garden & Growing clue 45: What topic-related word is hidden in this scramble?",
+          "Arbor"
+        ],
+        [
+          "ARBORVITAE",
+          "Garden & Growing clue 46: What topic-related word is hidden in this scramble?",
+          "Arborvitae"
+        ],
+        [
+          "ARBUTUS",
+          "Garden & Growing clue 47: What topic-related word is hidden in this scramble?",
+          "Arbutus"
+        ],
+        [
+          "ARONIA",
+          "Garden & Growing clue 48: What topic-related word is hidden in this scramble?",
+          "Aronia"
+        ],
+        [
+          "ARTICHOKE",
+          "Garden & Growing clue 49: What topic-related word is hidden in this scramble?",
+          "Artichoke"
+        ],
+        [
+          "ARUGULA",
+          "Garden & Growing clue 50: What topic-related word is hidden in this scramble?",
+          "Arugula"
+        ],
+        [
+          "ASPARAGUS",
+          "Garden & Growing clue 51: What topic-related word is hidden in this scramble?",
+          "Asparagus"
+        ],
+        [
+          "ASTER",
+          "Garden & Growing clue 52: What topic-related word is hidden in this scramble?",
+          "Aster"
+        ],
+        [
+          "AUTUMN",
+          "Garden & Growing clue 53: What topic-related word is hidden in this scramble?",
+          "Autumn"
+        ],
+        [
+          "AZALEA",
+          "Garden & Growing clue 54: What topic-related word is hidden in this scramble?",
+          "Azalea"
+        ],
+        [
+          "BACKPORCH",
+          "Garden & Growing clue 55: What topic-related word is hidden in this scramble?",
+          "Backporch"
+        ],
+        [
+          "BACKYARDFARM",
+          "Garden & Growing clue 56: What topic-related word is hidden in this scramble?",
+          "Backyardfarm"
+        ],
+        [
+          "BACKYARDGARDEN",
+          "Garden & Growing clue 57: What topic-related word is hidden in this scramble?",
+          "Backyardgarden"
+        ],
+        [
+          "BAKINGPAN",
+          "Garden & Growing clue 58: What topic-related word is hidden in this scramble?",
+          "Bakingpan"
+        ],
+        [
+          "BALCONYGARDEN",
+          "Garden & Growing clue 59: What topic-related word is hidden in this scramble?",
+          "Balconygarden"
+        ],
+        [
+          "BALSAM",
+          "Garden & Growing clue 60: What topic-related word is hidden in this scramble?",
+          "Balsam"
+        ],
+        [
+          "BANNETON",
+          "Garden & Growing clue 61: What topic-related word is hidden in this scramble?",
+          "Banneton"
+        ],
+        [
+          "BARK",
+          "Garden & Growing clue 62: What topic-related word is hidden in this scramble?",
+          "Bark"
+        ],
+        [
+          "BARLEY",
+          "Garden & Growing clue 63: What topic-related word is hidden in this scramble?",
+          "Barley"
+        ],
+        [
+          "BARLEYFIELD",
+          "Garden & Growing clue 64: What topic-related word is hidden in this scramble?",
+          "Barleyfield"
+        ],
+        [
+          "BARN",
+          "Garden & Growing clue 65: What topic-related word is hidden in this scramble?",
+          "Barn"
+        ],
+        [
+          "BARNBEAM",
+          "Garden & Growing clue 66: What topic-related word is hidden in this scramble?",
+          "Barnbeam"
+        ],
+        [
+          "BARNBOARD",
+          "Garden & Growing clue 67: What topic-related word is hidden in this scramble?",
+          "Barnboard"
+        ],
+        [
+          "BARNCAT",
+          "Garden & Growing clue 68: What topic-related word is hidden in this scramble?",
+          "Barncat"
+        ],
+        [
+          "BARNCLEANING",
+          "Garden & Growing clue 69: What topic-related word is hidden in this scramble?",
+          "Barncleaning"
+        ],
+        [
+          "BARNFLOOR",
+          "Garden & Growing clue 70: What topic-related word is hidden in this scramble?",
+          "Barnfloor"
+        ],
+        [
+          "BARNLIGHT",
+          "Garden & Growing clue 71: What topic-related word is hidden in this scramble?",
+          "Barnlight"
+        ],
+        [
+          "BARNLOFT",
+          "Garden & Growing clue 72: What topic-related word is hidden in this scramble?",
+          "Barnloft"
+        ],
+        [
+          "BARNRAISER",
+          "Garden & Growing clue 73: What topic-related word is hidden in this scramble?",
+          "Barnraiser"
+        ],
+        [
+          "BARNWOOD",
+          "Garden & Growing clue 74: What topic-related word is hidden in this scramble?",
+          "Barnwood"
+        ],
+        [
+          "BARNYARD",
+          "Garden & Growing clue 75: What topic-related word is hidden in this scramble?",
+          "Barnyard"
+        ],
+        [
+          "BASIL",
+          "Garden & Growing clue 76: What topic-related word is hidden in this scramble?",
+          "Basil"
+        ],
+        [
+          "BAYLEAF",
+          "Garden & Growing clue 77: What topic-related word is hidden in this scramble?",
+          "Bayleaf"
+        ],
+        [
+          "BEAN",
+          "Garden & Growing clue 78: What topic-related word is hidden in this scramble?",
+          "Bean"
+        ],
+        [
+          "BEANPATCH",
+          "Garden & Growing clue 79: What topic-related word is hidden in this scramble?",
+          "Beanpatch"
+        ],
+        [
+          "BEANPOLE",
+          "Garden & Growing clue 80: What topic-related word is hidden in this scramble?",
+          "Beanpole"
+        ],
+        [
+          "BEANSTALK",
+          "Garden & Growing clue 81: What topic-related word is hidden in this scramble?",
+          "Beanstalk"
+        ],
+        [
+          "BEEHIVE",
+          "Garden & Growing clue 82: What topic-related word is hidden in this scramble?",
+          "Beehive"
+        ],
+        [
+          "BEEHIVEFRAME",
+          "Garden & Growing clue 83: What topic-related word is hidden in this scramble?",
+          "Beehiveframe"
+        ],
+        [
+          "BEEKEEPER",
+          "Garden & Growing clue 84: What topic-related word is hidden in this scramble?",
+          "Beekeeper"
+        ],
+        [
+          "BEEKEEPERSUIT",
+          "Garden & Growing clue 85: What topic-related word is hidden in this scramble?",
+          "Beekeepersuit"
+        ],
+        [
+          "BEEKEEPING",
+          "Garden & Growing clue 86: What topic-related word is hidden in this scramble?",
+          "Beekeeping"
+        ],
+        [
+          "BEESWAX",
+          "Garden & Growing clue 87: What topic-related word is hidden in this scramble?",
+          "Beeswax"
+        ],
+        [
+          "BEESWING",
+          "Garden & Growing clue 88: What topic-related word is hidden in this scramble?",
+          "Beeswing"
+        ],
+        [
+          "BEET",
+          "Garden & Growing clue 89: What topic-related word is hidden in this scramble?",
+          "Beet"
+        ],
+        [
+          "BEETROOT",
+          "Garden & Growing clue 90: What topic-related word is hidden in this scramble?",
+          "Beetroot"
+        ],
+        [
+          "BEETS",
+          "Garden & Growing clue 91: What topic-related word is hidden in this scramble?",
+          "Beets"
+        ],
+        [
+          "BEETSOUP",
+          "Garden & Growing clue 92: What topic-related word is hidden in this scramble?",
+          "Beetsoup"
+        ],
+        [
+          "BEGONIA",
+          "Garden & Growing clue 93: What topic-related word is hidden in this scramble?",
+          "Begonia"
+        ],
+        [
+          "BELLPEPPER",
+          "Garden & Growing clue 94: What topic-related word is hidden in this scramble?",
+          "Bellpepper"
+        ],
+        [
+          "BERGAMOT",
+          "Garden & Growing clue 95: What topic-related word is hidden in this scramble?",
+          "Bergamot"
+        ],
+        [
+          "BERRY",
+          "Garden & Growing clue 96: What topic-related word is hidden in this scramble?",
+          "Berry"
+        ],
+        [
+          "BERRYBUSH",
+          "Garden & Growing clue 97: What topic-related word is hidden in this scramble?",
+          "Berrybush"
+        ],
+        [
+          "BIODYNAMIC",
+          "Garden & Growing clue 98: What topic-related word is hidden in this scramble?",
+          "Biodynamic"
+        ],
+        [
+          "BIRDBATH",
+          "Garden & Growing clue 99: What topic-related word is hidden in this scramble?",
+          "Birdbath"
+        ],
+        [
+          "BIRDNETTING",
+          "Garden & Growing clue 100: What topic-related word is hidden in this scramble?",
+          "Birdnetting"
+        ],
+        [
+          "BLACKBERRY",
+          "Garden & Growing clue 101: What topic-related word is hidden in this scramble?",
+          "Blackberry"
+        ],
+        [
+          "BLACKEYEDSUSAN",
+          "Garden & Growing clue 102: What topic-related word is hidden in this scramble?",
+          "Blackeyedsusan"
+        ],
+        [
+          "BLACKSMITH",
+          "Garden & Growing clue 103: What topic-related word is hidden in this scramble?",
+          "Blacksmith"
+        ],
+        [
+          "BLANKET",
+          "Garden & Growing clue 104: What topic-related word is hidden in this scramble?",
+          "Blanket"
+        ],
+        [
+          "BLOODMEAL",
+          "Garden & Growing clue 105: What topic-related word is hidden in this scramble?",
+          "Bloodmeal"
+        ],
+        [
+          "BLOOM",
+          "Garden & Growing clue 106: What topic-related word is hidden in this scramble?",
+          "Bloom"
+        ],
+        [
+          "BLOSSOM",
+          "Garden & Growing clue 107: What topic-related word is hidden in this scramble?",
+          "Blossom"
+        ],
+        [
+          "BLOSSOMTIME",
+          "Garden & Growing clue 108: What topic-related word is hidden in this scramble?",
+          "Blossomtime"
+        ],
+        [
+          "BLUEBERR",
+          "Garden & Growing clue 109: What topic-related word is hidden in this scramble?",
+          "Blueberr"
+        ],
+        [
+          "BLUEBERRY",
+          "Garden & Growing clue 110: What topic-related word is hidden in this scramble?",
+          "Blueberry"
+        ],
+        [
+          "BOARDFENCE",
+          "Garden & Growing clue 111: What topic-related word is hidden in this scramble?",
+          "Boardfence"
+        ],
+        [
+          "BOGGARDEN",
+          "Garden & Growing clue 112: What topic-related word is hidden in this scramble?",
+          "Boggarden"
+        ],
+        [
+          "BOKCHOY",
+          "Garden & Growing clue 113: What topic-related word is hidden in this scramble?",
+          "Bokchoy"
+        ],
+        [
+          "BORAGE",
+          "Garden & Growing clue 114: What topic-related word is hidden in this scramble?",
+          "Borage"
+        ],
+        [
+          "BORDER",
+          "Garden & Growing clue 115: What topic-related word is hidden in this scramble?",
+          "Border"
+        ],
+        [
+          "BORDERPLANT",
+          "Garden & Growing clue 116: What topic-related word is hidden in this scramble?",
+          "Borderplant"
+        ],
+        [
+          "BOTANY",
+          "Garden & Growing clue 117: What topic-related word is hidden in this scramble?",
+          "Botany"
+        ],
+        [
+          "BOTTLING",
+          "Garden & Growing clue 118: What topic-related word is hidden in this scramble?",
+          "Bottling"
+        ],
+        [
+          "BOULDER",
+          "Garden & Growing clue 119: What topic-related word is hidden in this scramble?",
+          "Boulder"
+        ],
+        [
+          "BOXWOOD",
+          "Garden & Growing clue 120: What topic-related word is hidden in this scramble?",
+          "Boxwood"
+        ],
+        [
+          "BRAMBLE",
+          "Garden & Growing clue 121: What topic-related word is hidden in this scramble?",
+          "Bramble"
+        ],
+        [
+          "BREADBOX",
+          "Garden & Growing clue 122: What topic-related word is hidden in this scramble?",
+          "Breadbox"
+        ],
+        [
+          "BREADMAKING",
+          "Garden & Growing clue 123: What topic-related word is hidden in this scramble?",
+          "Breadmaking"
+        ],
+        [
+          "BREADOVEN",
+          "Garden & Growing clue 124: What topic-related word is hidden in this scramble?",
+          "Breadoven"
+        ],
+        [
+          "BREADPROOF",
+          "Garden & Growing clue 125: What topic-related word is hidden in this scramble?",
+          "Breadproof"
+        ],
+        [
+          "BREWER",
+          "Garden & Growing clue 126: What topic-related word is hidden in this scramble?",
+          "Brewer"
+        ],
+        [
+          "BROCCOLI",
+          "Garden & Growing clue 127: What topic-related word is hidden in this scramble?",
+          "Broccoli"
+        ],
+        [
+          "BROCCOLIPATCH",
+          "Garden & Growing clue 128: What topic-related word is hidden in this scramble?",
+          "Broccolipatch"
+        ],
+        [
+          "BROOD",
+          "Garden & Growing clue 129: What topic-related word is hidden in this scramble?",
+          "Brood"
+        ],
+        [
+          "BROODER",
+          "Garden & Growing clue 130: What topic-related word is hidden in this scramble?",
+          "Brooder"
+        ],
+        [
+          "BROODHEN",
+          "Garden & Growing clue 131: What topic-related word is hidden in this scramble?",
+          "Broodhen"
+        ],
+        [
+          "BROODYHEN",
+          "Garden & Growing clue 132: What topic-related word is hidden in this scramble?",
+          "Broodyhen"
+        ],
+        [
+          "BRUSSELSPROUT",
+          "Garden & Growing clue 133: What topic-related word is hidden in this scramble?",
+          "Brusselsprout"
+        ],
+        [
+          "BUCKET",
+          "Garden & Growing clue 134: What topic-related word is hidden in this scramble?",
+          "Bucket"
+        ],
+        [
+          "BUCKWHEAT",
+          "Garden & Growing clue 135: What topic-related word is hidden in this scramble?",
+          "Buckwheat"
+        ],
+        [
+          "BULBPLANT",
+          "Garden & Growing clue 136: What topic-related word is hidden in this scramble?",
+          "Bulbplant"
+        ],
+        [
+          "BUSH",
+          "Garden & Growing clue 137: What topic-related word is hidden in this scramble?",
+          "Bush"
+        ],
+        [
+          "BUSHBEAN",
+          "Garden & Growing clue 138: What topic-related word is hidden in this scramble?",
+          "Bushbean"
+        ],
+        [
+          "BUTTERCUP",
+          "Garden & Growing clue 139: What topic-related word is hidden in this scramble?",
+          "Buttercup"
+        ],
+        [
+          "BUTTERMAKING",
+          "Garden & Growing clue 140: What topic-related word is hidden in this scramble?",
+          "Buttermaking"
+        ],
+        [
+          "BUTTERMOLD",
+          "Garden & Growing clue 141: What topic-related word is hidden in this scramble?",
+          "Buttermold"
+        ],
+        [
+          "CABBAGE",
+          "Garden & Growing clue 142: What topic-related word is hidden in this scramble?",
+          "Cabbage"
+        ],
+        [
+          "CABBAGEPATCH",
+          "Garden & Growing clue 143: What topic-related word is hidden in this scramble?",
+          "Cabbagepatch"
+        ],
+        [
+          "CABBAGEROW",
+          "Garden & Growing clue 144: What topic-related word is hidden in this scramble?",
+          "Cabbagerow"
+        ],
+        [
+          "CAGE",
+          "Garden & Growing clue 145: What topic-related word is hidden in this scramble?",
+          "Cage"
+        ],
+        [
+          "CALENDULA",
+          "Garden & Growing clue 146: What topic-related word is hidden in this scramble?",
+          "Calendula"
+        ],
+        [
+          "CALF",
+          "Garden & Growing clue 147: What topic-related word is hidden in this scramble?",
+          "Calf"
+        ],
+        [
+          "CALFPEN",
+          "Garden & Growing clue 148: What topic-related word is hidden in this scramble?",
+          "Calfpen"
+        ],
+        [
+          "CAMPANULA",
+          "Garden & Growing clue 149: What topic-related word is hidden in this scramble?",
+          "Campanula"
+        ],
+        [
+          "CANDLEWICK",
+          "Garden & Growing clue 150: What topic-related word is hidden in this scramble?",
+          "Candlewick"
+        ],
+        [
+          "CANES",
+          "Garden & Growing clue 151: What topic-related word is hidden in this scramble?",
+          "Canes"
+        ],
+        [
+          "CANNER",
+          "Garden & Growing clue 152: What topic-related word is hidden in this scramble?",
+          "Canner"
+        ],
+        [
+          "CANNING",
+          "Garden & Growing clue 153: What topic-related word is hidden in this scramble?",
+          "Canning"
+        ],
+        [
+          "CANNINGBATH",
+          "Garden & Growing clue 154: What topic-related word is hidden in this scramble?",
+          "Canningbath"
+        ],
+        [
+          "CANNINGFUNNEL",
+          "Garden & Growing clue 155: What topic-related word is hidden in this scramble?",
+          "Canningfunnel"
+        ],
+        [
+          "CANNINGJAR",
+          "Garden & Growing clue 156: What topic-related word is hidden in this scramble?",
+          "Canningjar"
+        ],
+        [
+          "CANNINGLABEL",
+          "Garden & Growing clue 157: What topic-related word is hidden in this scramble?",
+          "Canninglabel"
+        ],
+        [
+          "CANNINGLID",
+          "Garden & Growing clue 158: What topic-related word is hidden in this scramble?",
+          "Canninglid"
+        ],
+        [
+          "CANNINGPOT",
+          "Garden & Growing clue 159: What topic-related word is hidden in this scramble?",
+          "Canningpot"
+        ],
+        [
+          "CANNINGRACK",
+          "Garden & Growing clue 160: What topic-related word is hidden in this scramble?",
+          "Canningrack"
+        ],
+        [
+          "CANNINGSEAL",
+          "Garden & Growing clue 161: What topic-related word is hidden in this scramble?",
+          "Canningseal"
+        ],
+        [
+          "CANNINGTONGS",
+          "Garden & Growing clue 162: What topic-related word is hidden in this scramble?",
+          "Canningtongs"
+        ],
+        [
+          "CANNINGWAX",
+          "Garden & Growing clue 163: What topic-related word is hidden in this scramble?",
+          "Canningwax"
+        ],
+        [
+          "CANNINGWEIGHT",
+          "Garden & Growing clue 164: What topic-related word is hidden in this scramble?",
+          "Canningweight"
+        ],
+        [
+          "CANTALOUPE",
+          "Garden & Growing clue 165: What topic-related word is hidden in this scramble?",
+          "Cantaloupe"
+        ],
+        [
+          "CANYON",
+          "Garden & Growing clue 166: What topic-related word is hidden in this scramble?",
+          "Canyon"
+        ],
+        [
+          "CAPE",
+          "Garden & Growing clue 167: What topic-related word is hidden in this scramble?",
+          "Cape"
+        ],
+        [
+          "CARAWAY",
+          "Garden & Growing clue 168: What topic-related word is hidden in this scramble?",
+          "Caraway"
+        ],
+        [
+          "CARDOON",
+          "Garden & Growing clue 169: What topic-related word is hidden in this scramble?",
+          "Cardoon"
+        ],
+        [
+          "CARNATION",
+          "Garden & Growing clue 170: What topic-related word is hidden in this scramble?",
+          "Carnation"
+        ],
+        [
+          "CARROT",
+          "Garden & Growing clue 171: What topic-related word is hidden in this scramble?",
+          "Carrot"
+        ],
+        [
+          "CARROTPATCH",
+          "Garden & Growing clue 172: What topic-related word is hidden in this scramble?",
+          "Carrotpatch"
+        ],
+        [
+          "CASTIRON",
+          "Garden & Growing clue 173: What topic-related word is hidden in this scramble?",
+          "Castiron"
+        ],
+        [
+          "CASTIRONPAN",
+          "Garden & Growing clue 174: What topic-related word is hidden in this scramble?",
+          "Castironpan"
+        ],
+        [
+          "CATMINT",
+          "Garden & Growing clue 175: What topic-related word is hidden in this scramble?",
+          "Catmint"
+        ],
+        [
+          "CATTAIL",
+          "Garden & Growing clue 176: What topic-related word is hidden in this scramble?",
+          "Cattail"
+        ],
+        [
+          "CATTLEGUARD",
+          "Garden & Growing clue 177: What topic-related word is hidden in this scramble?",
+          "Cattleguard"
+        ],
+        [
+          "CAULDRON",
+          "Garden & Growing clue 178: What topic-related word is hidden in this scramble?",
+          "Cauldron"
+        ],
+        [
+          "CAULIFLOWER",
+          "Garden & Growing clue 179: What topic-related word is hidden in this scramble?",
+          "Cauliflower"
+        ],
+        [
+          "CELANDINE",
+          "Garden & Growing clue 180: What topic-related word is hidden in this scramble?",
+          "Celandine"
+        ]
+      ]
+    },
+    "Travel & Adventure": {
+      "cryptograms": [
+        "A MAP CAN TURN A NEW PLACE INTO A PLAN",
+        "A ROAD TRIP MAKES ROOM FOR SMALL DISCOVERIES",
+        "A COMPASS HELPS A TRAVELER FIND DIRECTION",
+        "A SUITCASE HOLDS THE THINGS WE NEED AWAY FROM HOME",
+        "A TRAIL CAN LEAD TO A BEAUTIFUL VIEW",
+        "NEW PLACES OFTEN TEACH US NEW THINGS",
+        "A PASSPORT HELPS WITH INTERNATIONAL TRAVEL",
+        "A TRAIN WINDOW CAN FRAME A CHANGING LANDSCAPE",
+        "A WEEKEND GETAWAY CAN FEEL LIKE A FRESH START",
+        "THE BEST TRIPS LEAVE ROOM FOR CURIOSITY",
+        "CURIOSITY MAKES AIRPORT MORE INTERESTING TO EXPLORE",
+        "AMERICA IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT BACKPACK CAN REVEAL SOMETHING NEW",
+        "BEACH INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BRIDGE CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CAMPSITE MORE INTERESTING TO EXPLORE",
+        "CAPITAL IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CARTRIP CAN REVEAL SOMETHING NEW",
+        "CITY INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "COASTLINE CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES COMPASS MORE INTERESTING TO EXPLORE",
+        "COUNTRY IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT DESERT CAN REVEAL SOMETHING NEW",
+        "DESTINATION INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "FOREST CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES FREEWAY MORE INTERESTING TO EXPLORE",
+        "GETAWAY IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT GREATLAKES CAN REVEAL SOMETHING NEW",
+        "HOTEL INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "MOTEL CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES MOUNTAIN MORE INTERESTING TO EXPLORE",
+        "MUSEUM IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT NATIONALPARK CAN REVEAL SOMETHING NEW",
+        "PICNIC INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "PRAIRIE CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES RIVER MORE INTERESTING TO EXPLORE",
+        "ROAD IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT ROADTRIP CAN REVEAL SOMETHING NEW",
+        "ROUTE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "SIGHTSEEING CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES SOUVENIR MORE INTERESTING TO EXPLORE",
+        "STATE IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT SUITCASE CAN REVEAL SOMETHING NEW",
+        "SUNSET INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "TOUR CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES TRAIL MORE INTERESTING TO EXPLORE",
+        "TRAVEL IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT VACATION CAN REVEAL SOMETHING NEW",
+        "VALLEY INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "WASHINGTON CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES WATERFALL MORE INTERESTING TO EXPLORE",
+        "WEEKEND IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT WILDERNESS CAN REVEAL SOMETHING NEW",
+        "ADVENTURETRAIL INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "AGROFORESTRY CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES ALLROAD MORE INTERESTING TO EXPLORE",
+        "ALPINEFOREST IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT ALPINELAKE CAN REVEAL SOMETHING NEW",
+        "ANIMALCARE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "ANTELOPECANYON CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES AQUARIUMCARE MORE INTERESTING TO EXPLORE",
+        "ARBORVITAE IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT AUTUMNFOREST CAN REVEAL SOMETHING NEW",
+        "AUTUMNHARVEST INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "AUTUMNHIKE CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES AWARDSEASON MORE INTERESTING TO EXPLORE",
+        "BACKPACKTRAIL IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT BACKROAD CAN REVEAL SOMETHING NEW",
+        "BACKSEAT INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BARRIERBEACH CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES BASINLAKE MORE INTERESTING TO EXPLORE",
+        "BEACHES IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT BEACHTRIP CAN REVEAL SOMETHING NEW",
+        "BIGHORNTRAIL INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BIRCHFOREST CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES BIRDCARE MORE INTERESTING TO EXPLORE",
+        "BLACKCANYON IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT BLAKE CAN REVEAL SOMETHING NEW",
+        "BOOSTERSEAT INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BOULDERTRAIL CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES BOXTRUCK MORE INTERESTING TO EXPLORE",
+        "BROAD IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT BROADCAST CAN REVEAL SOMETHING NEW",
+        "BROADCASTED INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BROADCASTER CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES BROADCASTS MORE INTERESTING TO EXPLORE",
+        "BROADEN IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT BROADER CAN REVEAL SOMETHING NEW",
+        "BROADEST INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "BROADWAY CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES BRYCECANYON MORE INTERESTING TO EXPLORE",
+        "BUSDRIVER IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CAMPAIGN CAN REVEAL SOMETHING NEW",
+        "CAMPAIGNMODE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CAMPANULA CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CAMPBELL MORE INTERESTING TO EXPLORE",
+        "CAMPCHAIR IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CAMPER CAN REVEAL SOMETHING NEW",
+        "CAMPERBUS INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CAMPERLIFE CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CAMPERS MORE INTERESTING TO EXPLORE",
+        "CAMPERSHELL IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CAMPERVAN CAN REVEAL SOMETHING NEW",
+        "CAMPFIRE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CAMPGROUND CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CAMPING MORE INTERESTING TO EXPLORE",
+        "CAMPINGGEAR IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CAMPINGVAN CAN REVEAL SOMETHING NEW",
+        "CAMPKITCHEN INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CAMPMEAL CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CAMPOUT MORE INTERESTING TO EXPLORE",
+        "CAMPS IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CAMPSTORE CAN REVEAL SOMETHING NEW",
+        "CAMPSTOVE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CAMPTRAIL CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CAMPUS MORE INTERESTING TO EXPLORE",
+        "CAMPUSES IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CANNINGSEAL CAN REVEAL SOMETHING NEW",
+        "CANOE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CANOPYTRAIL CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CANYON MORE INTERESTING TO EXPLORE",
+        "CANYONBIRD IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CANYONCOUNTRY CAN REVEAL SOMETHING NEW",
+        "CANYONFLOOR INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CANYONHIKE CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CANYONLAKE MORE INTERESTING TO EXPLORE",
+        "CANYONLANDS IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CANYONLOOP CAN REVEAL SOMETHING NEW",
+        "CANYONPATH INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CANYONRIDGE CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CANYONRIM MORE INTERESTING TO EXPLORE",
+        "CANYONSTREAM IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CANYONVIEW CAN REVEAL SOMETHING NEW",
+        "CANYONWALL INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CANYONWREN CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CARACAS MORE INTERESTING TO EXPLORE",
+        "CARALARM IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CARAMELAPPLE CAN REVEAL SOMETHING NEW",
+        "CARAUCTION INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CARAVAN CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CARAVANPARK MORE INTERESTING TO EXPLORE",
+        "CARAWAY IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CARBATTERY CAN REVEAL SOMETHING NEW",
+        "CARBOHYDRATE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CARBON CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CARBONACEOUS MORE INTERESTING TO EXPLORE",
+        "CARBONATE IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CARBOOK CAN REVEAL SOMETHING NEW",
+        "CARBURETOR INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CARCARE CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CARCINOMA MORE INTERESTING TO EXPLORE",
+        "CARCLEAN IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CARCLUB CAN REVEAL SOMETHING NEW",
+        "CARCOLLECTION INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CARCOVER CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CARCULTURE MORE INTERESTING TO EXPLORE",
+        "CARDETAILING IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CARDGAME CAN REVEAL SOMETHING NEW",
+        "CARDINAL INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CARDINALS CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CARDIOLOGY MORE INTERESTING TO EXPLORE",
+        "CARDMAKING IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CARDOON CAN REVEAL SOMETHING NEW",
+        "CAREER INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CAREERS CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CAREFULLY MORE INTERESTING TO EXPLORE",
+        "CAREGIVING IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CARELESS CAN REVEAL SOMETHING NEW",
+        "CARENTHUSIAST INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CARES CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CARESSING MORE INTERESTING TO EXPLORE",
+        "CARFESTIVAL IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CARGAME CAN REVEAL SOMETHING NEW",
+        "CARGARAGE INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CARGO CAN OPEN A NEW PATH TO THE NEXT ADVENTURE",
+        "CURIOSITY MAKES CARGOES MORE INTERESTING TO EXPLORE",
+        "CARGOVAN IS ONE PART OF A BIGGER STORY ABOUT THE NEXT ADVENTURE",
+        "A CAREFUL LOOK AT CARIBBEAN CAN REVEAL SOMETHING NEW",
+        "CARIBOU INVITES PATIENT THINKING AND FRESH DISCOVERY",
+        "CARICATURES CAN OPEN A NEW PATH TO THE NEXT ADVENTURE"
+      ],
+      "trivia": [
+        [
+          "PASSPORT",
+          "What document is commonly used for international travel?",
+          "Passport"
+        ],
+        [
+          "LUGGAGE",
+          "What word means bags packed for a trip?",
+          "Luggage"
+        ],
+        [
+          "ITINERARY",
+          "What is a planned schedule for a trip called?",
+          "Itinerary"
+        ],
+        [
+          "LANDMARK",
+          "What well-known place helps identify a location?",
+          "Landmark"
+        ],
+        [
+          "HOSTEL",
+          "What budget-friendly lodging is popular with some travelers?",
+          "Hostel"
+        ],
+        [
+          "JOURNEY",
+          "What word means traveling from one place to another?",
+          "Journey"
+        ],
+        [
+          "HIGHWAY",
+          "What major road is designed for fast travel?",
+          "Highway"
+        ],
+        [
+          "POSTCARD",
+          "What small card can be mailed as a travel greeting?",
+          "Postcard"
+        ],
+        [
+          "TOURIST",
+          "What is a visitor to a place for pleasure called?",
+          "Tourist"
+        ],
+        [
+          "ADVENTURE",
+          "What exciting experience often involves exploration?",
+          "Adventure"
+        ],
+        [
+          "AIRPORT",
+          "Travel & Adventure clue 11: What topic-related word is hidden in this scramble?",
+          "Airport"
+        ],
+        [
+          "AMERICA",
+          "Travel & Adventure clue 12: What topic-related word is hidden in this scramble?",
+          "America"
+        ],
+        [
+          "BACKPACK",
+          "Travel & Adventure clue 13: What topic-related word is hidden in this scramble?",
+          "Backpack"
+        ],
+        [
+          "BEACH",
+          "Travel & Adventure clue 14: What topic-related word is hidden in this scramble?",
+          "Beach"
+        ],
+        [
+          "BRIDGE",
+          "Travel & Adventure clue 15: What topic-related word is hidden in this scramble?",
+          "Bridge"
+        ],
+        [
+          "CAMPSITE",
+          "Travel & Adventure clue 16: What topic-related word is hidden in this scramble?",
+          "Campsite"
+        ],
+        [
+          "CAPITAL",
+          "Travel & Adventure clue 17: What topic-related word is hidden in this scramble?",
+          "Capital"
+        ],
+        [
+          "CARTRIP",
+          "Travel & Adventure clue 18: What topic-related word is hidden in this scramble?",
+          "Cartrip"
+        ],
+        [
+          "CITY",
+          "Travel & Adventure clue 19: What topic-related word is hidden in this scramble?",
+          "City"
+        ],
+        [
+          "COASTLINE",
+          "Travel & Adventure clue 20: What topic-related word is hidden in this scramble?",
+          "Coastline"
+        ],
+        [
+          "COMPASS",
+          "Travel & Adventure clue 21: What topic-related word is hidden in this scramble?",
+          "Compass"
+        ],
+        [
+          "COUNTRY",
+          "Travel & Adventure clue 22: What topic-related word is hidden in this scramble?",
+          "Country"
+        ],
+        [
+          "DESERT",
+          "Travel & Adventure clue 23: What topic-related word is hidden in this scramble?",
+          "Desert"
+        ],
+        [
+          "DESTINATION",
+          "Travel & Adventure clue 24: What topic-related word is hidden in this scramble?",
+          "Destination"
+        ],
+        [
+          "FOREST",
+          "Travel & Adventure clue 25: What topic-related word is hidden in this scramble?",
+          "Forest"
+        ],
+        [
+          "FREEWAY",
+          "Travel & Adventure clue 26: What topic-related word is hidden in this scramble?",
+          "Freeway"
+        ],
+        [
+          "GETAWAY",
+          "Travel & Adventure clue 27: What topic-related word is hidden in this scramble?",
+          "Getaway"
+        ],
+        [
+          "GREATLAKES",
+          "Travel & Adventure clue 28: What topic-related word is hidden in this scramble?",
+          "Greatlakes"
+        ],
+        [
+          "HOTEL",
+          "Travel & Adventure clue 29: What topic-related word is hidden in this scramble?",
+          "Hotel"
+        ],
+        [
+          "MOTEL",
+          "Travel & Adventure clue 30: What topic-related word is hidden in this scramble?",
+          "Motel"
+        ],
+        [
+          "MOUNTAIN",
+          "Travel & Adventure clue 31: What topic-related word is hidden in this scramble?",
+          "Mountain"
+        ],
+        [
+          "MUSEUM",
+          "Travel & Adventure clue 32: What topic-related word is hidden in this scramble?",
+          "Museum"
+        ],
+        [
+          "NATIONALPARK",
+          "Travel & Adventure clue 33: What topic-related word is hidden in this scramble?",
+          "Nationalpark"
+        ],
+        [
+          "PICNIC",
+          "Travel & Adventure clue 34: What topic-related word is hidden in this scramble?",
+          "Picnic"
+        ],
+        [
+          "PRAIRIE",
+          "Travel & Adventure clue 35: What topic-related word is hidden in this scramble?",
+          "Prairie"
+        ],
+        [
+          "RIVER",
+          "Travel & Adventure clue 36: What topic-related word is hidden in this scramble?",
+          "River"
+        ],
+        [
+          "ROAD",
+          "Travel & Adventure clue 37: What topic-related word is hidden in this scramble?",
+          "Road"
+        ],
+        [
+          "ROADTRIP",
+          "Travel & Adventure clue 38: What topic-related word is hidden in this scramble?",
+          "Roadtrip"
+        ],
+        [
+          "ROUTE",
+          "Travel & Adventure clue 39: What topic-related word is hidden in this scramble?",
+          "Route"
+        ],
+        [
+          "SIGHTSEEING",
+          "Travel & Adventure clue 40: What topic-related word is hidden in this scramble?",
+          "Sightseeing"
+        ],
+        [
+          "SOUVENIR",
+          "Travel & Adventure clue 41: What topic-related word is hidden in this scramble?",
+          "Souvenir"
+        ],
+        [
+          "STATE",
+          "Travel & Adventure clue 42: What topic-related word is hidden in this scramble?",
+          "State"
+        ],
+        [
+          "SUITCASE",
+          "Travel & Adventure clue 43: What topic-related word is hidden in this scramble?",
+          "Suitcase"
+        ],
+        [
+          "SUNSET",
+          "Travel & Adventure clue 44: What topic-related word is hidden in this scramble?",
+          "Sunset"
+        ],
+        [
+          "TOUR",
+          "Travel & Adventure clue 45: What topic-related word is hidden in this scramble?",
+          "Tour"
+        ],
+        [
+          "TRAIL",
+          "Travel & Adventure clue 46: What topic-related word is hidden in this scramble?",
+          "Trail"
+        ],
+        [
+          "TRAVEL",
+          "Travel & Adventure clue 47: What topic-related word is hidden in this scramble?",
+          "Travel"
+        ],
+        [
+          "VACATION",
+          "Travel & Adventure clue 48: What topic-related word is hidden in this scramble?",
+          "Vacation"
+        ],
+        [
+          "VALLEY",
+          "Travel & Adventure clue 49: What topic-related word is hidden in this scramble?",
+          "Valley"
+        ],
+        [
+          "WASHINGTON",
+          "Travel & Adventure clue 50: What topic-related word is hidden in this scramble?",
+          "Washington"
+        ],
+        [
+          "WATERFALL",
+          "Travel & Adventure clue 51: What topic-related word is hidden in this scramble?",
+          "Waterfall"
+        ],
+        [
+          "WEEKEND",
+          "Travel & Adventure clue 52: What topic-related word is hidden in this scramble?",
+          "Weekend"
+        ],
+        [
+          "WILDERNESS",
+          "Travel & Adventure clue 53: What topic-related word is hidden in this scramble?",
+          "Wilderness"
+        ],
+        [
+          "ADVENTURETRAIL",
+          "Travel & Adventure clue 54: What topic-related word is hidden in this scramble?",
+          "Adventuretrail"
+        ],
+        [
+          "AGROFORESTRY",
+          "Travel & Adventure clue 55: What topic-related word is hidden in this scramble?",
+          "Agroforestry"
+        ],
+        [
+          "ALLROAD",
+          "Travel & Adventure clue 56: What topic-related word is hidden in this scramble?",
+          "Allroad"
+        ],
+        [
+          "ALPINEFOREST",
+          "Travel & Adventure clue 57: What topic-related word is hidden in this scramble?",
+          "Alpineforest"
+        ],
+        [
+          "ALPINELAKE",
+          "Travel & Adventure clue 58: What topic-related word is hidden in this scramble?",
+          "Alpinelake"
+        ],
+        [
+          "ANIMALCARE",
+          "Travel & Adventure clue 59: What topic-related word is hidden in this scramble?",
+          "Animalcare"
+        ],
+        [
+          "ANTELOPECANYON",
+          "Travel & Adventure clue 60: What topic-related word is hidden in this scramble?",
+          "Antelopecanyon"
+        ],
+        [
+          "AQUARIUMCARE",
+          "Travel & Adventure clue 61: What topic-related word is hidden in this scramble?",
+          "Aquariumcare"
+        ],
+        [
+          "ARBORVITAE",
+          "Travel & Adventure clue 62: What topic-related word is hidden in this scramble?",
+          "Arborvitae"
+        ],
+        [
+          "AUTUMNFOREST",
+          "Travel & Adventure clue 63: What topic-related word is hidden in this scramble?",
+          "Autumnforest"
+        ],
+        [
+          "AUTUMNHARVEST",
+          "Travel & Adventure clue 64: What topic-related word is hidden in this scramble?",
+          "Autumnharvest"
+        ],
+        [
+          "AUTUMNHIKE",
+          "Travel & Adventure clue 65: What topic-related word is hidden in this scramble?",
+          "Autumnhike"
+        ],
+        [
+          "AWARDSEASON",
+          "Travel & Adventure clue 66: What topic-related word is hidden in this scramble?",
+          "Awardseason"
+        ],
+        [
+          "BACKPACKTRAIL",
+          "Travel & Adventure clue 67: What topic-related word is hidden in this scramble?",
+          "Backpacktrail"
+        ],
+        [
+          "BACKROAD",
+          "Travel & Adventure clue 68: What topic-related word is hidden in this scramble?",
+          "Backroad"
+        ],
+        [
+          "BACKSEAT",
+          "Travel & Adventure clue 69: What topic-related word is hidden in this scramble?",
+          "Backseat"
+        ],
+        [
+          "BARRIERBEACH",
+          "Travel & Adventure clue 70: What topic-related word is hidden in this scramble?",
+          "Barrierbeach"
+        ],
+        [
+          "BASINLAKE",
+          "Travel & Adventure clue 71: What topic-related word is hidden in this scramble?",
+          "Basinlake"
+        ],
+        [
+          "BEACHES",
+          "Travel & Adventure clue 72: What topic-related word is hidden in this scramble?",
+          "Beaches"
+        ],
+        [
+          "BEACHTRIP",
+          "Travel & Adventure clue 73: What topic-related word is hidden in this scramble?",
+          "Beachtrip"
+        ],
+        [
+          "BIGHORNTRAIL",
+          "Travel & Adventure clue 74: What topic-related word is hidden in this scramble?",
+          "Bighorntrail"
+        ],
+        [
+          "BIRCHFOREST",
+          "Travel & Adventure clue 75: What topic-related word is hidden in this scramble?",
+          "Birchforest"
+        ],
+        [
+          "BIRDCARE",
+          "Travel & Adventure clue 76: What topic-related word is hidden in this scramble?",
+          "Birdcare"
+        ],
+        [
+          "BLACKCANYON",
+          "Travel & Adventure clue 77: What topic-related word is hidden in this scramble?",
+          "Blackcanyon"
+        ],
+        [
+          "BLAKE",
+          "Travel & Adventure clue 78: What topic-related word is hidden in this scramble?",
+          "Blake"
+        ],
+        [
+          "BOOSTERSEAT",
+          "Travel & Adventure clue 79: What topic-related word is hidden in this scramble?",
+          "Boosterseat"
+        ],
+        [
+          "BOULDERTRAIL",
+          "Travel & Adventure clue 80: What topic-related word is hidden in this scramble?",
+          "Bouldertrail"
+        ],
+        [
+          "BOXTRUCK",
+          "Travel & Adventure clue 81: What topic-related word is hidden in this scramble?",
+          "Boxtruck"
+        ],
+        [
+          "BROAD",
+          "Travel & Adventure clue 82: What topic-related word is hidden in this scramble?",
+          "Broad"
+        ],
+        [
+          "BROADCAST",
+          "Travel & Adventure clue 83: What topic-related word is hidden in this scramble?",
+          "Broadcast"
+        ],
+        [
+          "BROADCASTED",
+          "Travel & Adventure clue 84: What topic-related word is hidden in this scramble?",
+          "Broadcasted"
+        ],
+        [
+          "BROADCASTER",
+          "Travel & Adventure clue 85: What topic-related word is hidden in this scramble?",
+          "Broadcaster"
+        ],
+        [
+          "BROADCASTS",
+          "Travel & Adventure clue 86: What topic-related word is hidden in this scramble?",
+          "Broadcasts"
+        ],
+        [
+          "BROADEN",
+          "Travel & Adventure clue 87: What topic-related word is hidden in this scramble?",
+          "Broaden"
+        ],
+        [
+          "BROADER",
+          "Travel & Adventure clue 88: What topic-related word is hidden in this scramble?",
+          "Broader"
+        ],
+        [
+          "BROADEST",
+          "Travel & Adventure clue 89: What topic-related word is hidden in this scramble?",
+          "Broadest"
+        ],
+        [
+          "BROADWAY",
+          "Travel & Adventure clue 90: What topic-related word is hidden in this scramble?",
+          "Broadway"
+        ],
+        [
+          "BRYCECANYON",
+          "Travel & Adventure clue 91: What topic-related word is hidden in this scramble?",
+          "Brycecanyon"
+        ],
+        [
+          "BUSDRIVER",
+          "Travel & Adventure clue 92: What topic-related word is hidden in this scramble?",
+          "Busdriver"
+        ],
+        [
+          "CAMPAIGN",
+          "Travel & Adventure clue 93: What topic-related word is hidden in this scramble?",
+          "Campaign"
+        ],
+        [
+          "CAMPAIGNMODE",
+          "Travel & Adventure clue 94: What topic-related word is hidden in this scramble?",
+          "Campaignmode"
+        ],
+        [
+          "CAMPANULA",
+          "Travel & Adventure clue 95: What topic-related word is hidden in this scramble?",
+          "Campanula"
+        ],
+        [
+          "CAMPBELL",
+          "Travel & Adventure clue 96: What topic-related word is hidden in this scramble?",
+          "Campbell"
+        ],
+        [
+          "CAMPCHAIR",
+          "Travel & Adventure clue 97: What topic-related word is hidden in this scramble?",
+          "Campchair"
+        ],
+        [
+          "CAMPER",
+          "Travel & Adventure clue 98: What topic-related word is hidden in this scramble?",
+          "Camper"
+        ],
+        [
+          "CAMPERBUS",
+          "Travel & Adventure clue 99: What topic-related word is hidden in this scramble?",
+          "Camperbus"
+        ],
+        [
+          "CAMPERLIFE",
+          "Travel & Adventure clue 100: What topic-related word is hidden in this scramble?",
+          "Camperlife"
+        ],
+        [
+          "CAMPERS",
+          "Travel & Adventure clue 101: What topic-related word is hidden in this scramble?",
+          "Campers"
+        ],
+        [
+          "CAMPERSHELL",
+          "Travel & Adventure clue 102: What topic-related word is hidden in this scramble?",
+          "Campershell"
+        ],
+        [
+          "CAMPERVAN",
+          "Travel & Adventure clue 103: What topic-related word is hidden in this scramble?",
+          "Campervan"
+        ],
+        [
+          "CAMPFIRE",
+          "Travel & Adventure clue 104: What topic-related word is hidden in this scramble?",
+          "Campfire"
+        ],
+        [
+          "CAMPGROUND",
+          "Travel & Adventure clue 105: What topic-related word is hidden in this scramble?",
+          "Campground"
+        ],
+        [
+          "CAMPING",
+          "Travel & Adventure clue 106: What topic-related word is hidden in this scramble?",
+          "Camping"
+        ],
+        [
+          "CAMPINGGEAR",
+          "Travel & Adventure clue 107: What topic-related word is hidden in this scramble?",
+          "Campinggear"
+        ],
+        [
+          "CAMPINGVAN",
+          "Travel & Adventure clue 108: What topic-related word is hidden in this scramble?",
+          "Campingvan"
+        ],
+        [
+          "CAMPKITCHEN",
+          "Travel & Adventure clue 109: What topic-related word is hidden in this scramble?",
+          "Campkitchen"
+        ],
+        [
+          "CAMPMEAL",
+          "Travel & Adventure clue 110: What topic-related word is hidden in this scramble?",
+          "Campmeal"
+        ],
+        [
+          "CAMPOUT",
+          "Travel & Adventure clue 111: What topic-related word is hidden in this scramble?",
+          "Campout"
+        ],
+        [
+          "CAMPS",
+          "Travel & Adventure clue 112: What topic-related word is hidden in this scramble?",
+          "Camps"
+        ],
+        [
+          "CAMPSTORE",
+          "Travel & Adventure clue 113: What topic-related word is hidden in this scramble?",
+          "Campstore"
+        ],
+        [
+          "CAMPSTOVE",
+          "Travel & Adventure clue 114: What topic-related word is hidden in this scramble?",
+          "Campstove"
+        ],
+        [
+          "CAMPTRAIL",
+          "Travel & Adventure clue 115: What topic-related word is hidden in this scramble?",
+          "Camptrail"
+        ],
+        [
+          "CAMPUS",
+          "Travel & Adventure clue 116: What topic-related word is hidden in this scramble?",
+          "Campus"
+        ],
+        [
+          "CAMPUSES",
+          "Travel & Adventure clue 117: What topic-related word is hidden in this scramble?",
+          "Campuses"
+        ],
+        [
+          "CANNINGSEAL",
+          "Travel & Adventure clue 118: What topic-related word is hidden in this scramble?",
+          "Canningseal"
+        ],
+        [
+          "CANOE",
+          "Travel & Adventure clue 119: What topic-related word is hidden in this scramble?",
+          "Canoe"
+        ],
+        [
+          "CANOPYTRAIL",
+          "Travel & Adventure clue 120: What topic-related word is hidden in this scramble?",
+          "Canopytrail"
+        ],
+        [
+          "CANYON",
+          "Travel & Adventure clue 121: What topic-related word is hidden in this scramble?",
+          "Canyon"
+        ],
+        [
+          "CANYONBIRD",
+          "Travel & Adventure clue 122: What topic-related word is hidden in this scramble?",
+          "Canyonbird"
+        ],
+        [
+          "CANYONCOUNTRY",
+          "Travel & Adventure clue 123: What topic-related word is hidden in this scramble?",
+          "Canyoncountry"
+        ],
+        [
+          "CANYONFLOOR",
+          "Travel & Adventure clue 124: What topic-related word is hidden in this scramble?",
+          "Canyonfloor"
+        ],
+        [
+          "CANYONHIKE",
+          "Travel & Adventure clue 125: What topic-related word is hidden in this scramble?",
+          "Canyonhike"
+        ],
+        [
+          "CANYONLAKE",
+          "Travel & Adventure clue 126: What topic-related word is hidden in this scramble?",
+          "Canyonlake"
+        ],
+        [
+          "CANYONLANDS",
+          "Travel & Adventure clue 127: What topic-related word is hidden in this scramble?",
+          "Canyonlands"
+        ],
+        [
+          "CANYONLOOP",
+          "Travel & Adventure clue 128: What topic-related word is hidden in this scramble?",
+          "Canyonloop"
+        ],
+        [
+          "CANYONPATH",
+          "Travel & Adventure clue 129: What topic-related word is hidden in this scramble?",
+          "Canyonpath"
+        ],
+        [
+          "CANYONRIDGE",
+          "Travel & Adventure clue 130: What topic-related word is hidden in this scramble?",
+          "Canyonridge"
+        ],
+        [
+          "CANYONRIM",
+          "Travel & Adventure clue 131: What topic-related word is hidden in this scramble?",
+          "Canyonrim"
+        ],
+        [
+          "CANYONSTREAM",
+          "Travel & Adventure clue 132: What topic-related word is hidden in this scramble?",
+          "Canyonstream"
+        ],
+        [
+          "CANYONVIEW",
+          "Travel & Adventure clue 133: What topic-related word is hidden in this scramble?",
+          "Canyonview"
+        ],
+        [
+          "CANYONWALL",
+          "Travel & Adventure clue 134: What topic-related word is hidden in this scramble?",
+          "Canyonwall"
+        ],
+        [
+          "CANYONWREN",
+          "Travel & Adventure clue 135: What topic-related word is hidden in this scramble?",
+          "Canyonwren"
+        ],
+        [
+          "CARACAS",
+          "Travel & Adventure clue 136: What topic-related word is hidden in this scramble?",
+          "Caracas"
+        ],
+        [
+          "CARALARM",
+          "Travel & Adventure clue 137: What topic-related word is hidden in this scramble?",
+          "Caralarm"
+        ],
+        [
+          "CARAMELAPPLE",
+          "Travel & Adventure clue 138: What topic-related word is hidden in this scramble?",
+          "Caramelapple"
+        ],
+        [
+          "CARAUCTION",
+          "Travel & Adventure clue 139: What topic-related word is hidden in this scramble?",
+          "Carauction"
+        ],
+        [
+          "CARAVAN",
+          "Travel & Adventure clue 140: What topic-related word is hidden in this scramble?",
+          "Caravan"
+        ],
+        [
+          "CARAVANPARK",
+          "Travel & Adventure clue 141: What topic-related word is hidden in this scramble?",
+          "Caravanpark"
+        ],
+        [
+          "CARAWAY",
+          "Travel & Adventure clue 142: What topic-related word is hidden in this scramble?",
+          "Caraway"
+        ],
+        [
+          "CARBATTERY",
+          "Travel & Adventure clue 143: What topic-related word is hidden in this scramble?",
+          "Carbattery"
+        ],
+        [
+          "CARBOHYDRATE",
+          "Travel & Adventure clue 144: What topic-related word is hidden in this scramble?",
+          "Carbohydrate"
+        ],
+        [
+          "CARBON",
+          "Travel & Adventure clue 145: What topic-related word is hidden in this scramble?",
+          "Carbon"
+        ],
+        [
+          "CARBONACEOUS",
+          "Travel & Adventure clue 146: What topic-related word is hidden in this scramble?",
+          "Carbonaceous"
+        ],
+        [
+          "CARBONATE",
+          "Travel & Adventure clue 147: What topic-related word is hidden in this scramble?",
+          "Carbonate"
+        ],
+        [
+          "CARBOOK",
+          "Travel & Adventure clue 148: What topic-related word is hidden in this scramble?",
+          "Carbook"
+        ],
+        [
+          "CARBURETOR",
+          "Travel & Adventure clue 149: What topic-related word is hidden in this scramble?",
+          "Carburetor"
+        ],
+        [
+          "CARCARE",
+          "Travel & Adventure clue 150: What topic-related word is hidden in this scramble?",
+          "Carcare"
+        ],
+        [
+          "CARCINOMA",
+          "Travel & Adventure clue 151: What topic-related word is hidden in this scramble?",
+          "Carcinoma"
+        ],
+        [
+          "CARCLEAN",
+          "Travel & Adventure clue 152: What topic-related word is hidden in this scramble?",
+          "Carclean"
+        ],
+        [
+          "CARCLUB",
+          "Travel & Adventure clue 153: What topic-related word is hidden in this scramble?",
+          "Carclub"
+        ],
+        [
+          "CARCOLLECTION",
+          "Travel & Adventure clue 154: What topic-related word is hidden in this scramble?",
+          "Carcollection"
+        ],
+        [
+          "CARCOVER",
+          "Travel & Adventure clue 155: What topic-related word is hidden in this scramble?",
+          "Carcover"
+        ],
+        [
+          "CARCULTURE",
+          "Travel & Adventure clue 156: What topic-related word is hidden in this scramble?",
+          "Carculture"
+        ],
+        [
+          "CARDETAILING",
+          "Travel & Adventure clue 157: What topic-related word is hidden in this scramble?",
+          "Cardetailing"
+        ],
+        [
+          "CARDGAME",
+          "Travel & Adventure clue 158: What topic-related word is hidden in this scramble?",
+          "Cardgame"
+        ],
+        [
+          "CARDINAL",
+          "Travel & Adventure clue 159: What topic-related word is hidden in this scramble?",
+          "Cardinal"
+        ],
+        [
+          "CARDINALS",
+          "Travel & Adventure clue 160: What topic-related word is hidden in this scramble?",
+          "Cardinals"
+        ],
+        [
+          "CARDIOLOGY",
+          "Travel & Adventure clue 161: What topic-related word is hidden in this scramble?",
+          "Cardiology"
+        ],
+        [
+          "CARDMAKING",
+          "Travel & Adventure clue 162: What topic-related word is hidden in this scramble?",
+          "Cardmaking"
+        ],
+        [
+          "CARDOON",
+          "Travel & Adventure clue 163: What topic-related word is hidden in this scramble?",
+          "Cardoon"
+        ],
+        [
+          "CAREER",
+          "Travel & Adventure clue 164: What topic-related word is hidden in this scramble?",
+          "Career"
+        ],
+        [
+          "CAREERS",
+          "Travel & Adventure clue 165: What topic-related word is hidden in this scramble?",
+          "Careers"
+        ],
+        [
+          "CAREFULLY",
+          "Travel & Adventure clue 166: What topic-related word is hidden in this scramble?",
+          "Carefully"
+        ],
+        [
+          "CAREGIVING",
+          "Travel & Adventure clue 167: What topic-related word is hidden in this scramble?",
+          "Caregiving"
+        ],
+        [
+          "CARELESS",
+          "Travel & Adventure clue 168: What topic-related word is hidden in this scramble?",
+          "Careless"
+        ],
+        [
+          "CARENTHUSIAST",
+          "Travel & Adventure clue 169: What topic-related word is hidden in this scramble?",
+          "Carenthusiast"
+        ],
+        [
+          "CARES",
+          "Travel & Adventure clue 170: What topic-related word is hidden in this scramble?",
+          "Cares"
+        ],
+        [
+          "CARESSING",
+          "Travel & Adventure clue 171: What topic-related word is hidden in this scramble?",
+          "Caressing"
+        ],
+        [
+          "CARFESTIVAL",
+          "Travel & Adventure clue 172: What topic-related word is hidden in this scramble?",
+          "Carfestival"
+        ],
+        [
+          "CARGAME",
+          "Travel & Adventure clue 173: What topic-related word is hidden in this scramble?",
+          "Cargame"
+        ],
+        [
+          "CARGARAGE",
+          "Travel & Adventure clue 174: What topic-related word is hidden in this scramble?",
+          "Cargarage"
+        ],
+        [
+          "CARGO",
+          "Travel & Adventure clue 175: What topic-related word is hidden in this scramble?",
+          "Cargo"
+        ],
+        [
+          "CARGOES",
+          "Travel & Adventure clue 176: What topic-related word is hidden in this scramble?",
+          "Cargoes"
+        ],
+        [
+          "CARGOVAN",
+          "Travel & Adventure clue 177: What topic-related word is hidden in this scramble?",
+          "Cargovan"
+        ],
+        [
+          "CARIBBEAN",
+          "Travel & Adventure clue 178: What topic-related word is hidden in this scramble?",
+          "Caribbean"
+        ],
+        [
+          "CARIBOU",
+          "Travel & Adventure clue 179: What topic-related word is hidden in this scramble?",
+          "Caribou"
+        ],
+        [
+          "CARICATURES",
+          "Travel & Adventure clue 180: What topic-related word is hidden in this scramble?",
+          "Caricatures"
+        ]
+      ]
+    }
+  }
+}

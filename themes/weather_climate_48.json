@@ -1,0 +1,863 @@
+{
+  "title": "Weather and Climate Word Search",
+  "subtitle": "48 fascinating weather and climate puzzles",
+  "author": "Slade Puzzles",
+  "palette": "winter-frost",
+  "puzzles": [
+    {
+      "name": "Weather Puzzle 001",
+      "words": [
+        "TREASURECHEST",
+        "NIGHTLIFE",
+        "SWIFTIE",
+        "COMMAND",
+        "ROCKLEGEND",
+        "CBRADIO",
+        "HUDSONRIVER",
+        "MOHAWKVALLEY",
+        "ZOOTOPIA",
+        "AUTOMOBILE",
+        "MODELTRAIN",
+        "PERFORM"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 002",
+      "words": [
+        "REEL",
+        "HAUNTEDHOUSE",
+        "TOUR",
+        "GAMEENGINE",
+        "CLANK",
+        "WIIU",
+        "SHIFTDRESS",
+        "WESTWORLD",
+        "HAIRCLIP",
+        "SEXANDTHECITY",
+        "SANDWICH",
+        "PROJECT"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 003",
+      "words": [
+        "PROPELL",
+        "FRAME",
+        "GUILD",
+        "BLONDIE",
+        "STEREO",
+        "MUSICLOVER",
+        "DABOMB",
+        "ELECTRONICS",
+        "HEARTHSTONE",
+        "ROFL",
+        "PORCH",
+        "CONTRA"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 004",
+      "words": [
+        "PYRAMID",
+        "SEOUL",
+        "POWERRANGERS",
+        "LIKEADRAGON",
+        "FOUNTAIN",
+        "CUTSCENE",
+        "CROSSPLAY",
+        "STARWARSGAME",
+        "FACT",
+        "FOOTBALLMANAGER",
+        "ROUNDONE",
+        "ERA"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 005",
+      "words": [
+        "MUTE",
+        "SCARECROW",
+        "WRESTLING",
+        "CHAMPION",
+        "ROOSTER",
+        "BATTLEFIELD",
+        "RATCHET",
+        "OCEANSELEVEN",
+        "CONCERT",
+        "TRENDSETTER",
+        "SEAT",
+        "FROGGER"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 006",
+      "words": [
+        "DRAMA",
+        "MARIOSTRIKERS",
+        "CEREAL",
+        "EGYPT",
+        "COLLECTIBLE",
+        "BACKWARDCOMPATIBLE",
+        "MULLET",
+        "MARIORPG",
+        "SUPERBAD",
+        "FORTNITE",
+        "GUITARHERO",
+        "MILEMARKER"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 007",
+      "words": [
+        "VACUUMTUBE",
+        "RINGS",
+        "KARATEKID",
+        "GECKO",
+        "FZERO",
+        "GENERAL",
+        "PLOTLINE",
+        "TOWNHALL",
+        "AVIATOR",
+        "TELESCOPE",
+        "QUARTER",
+        "TRAILER"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 008",
+      "words": [
+        "GAMELIBRARY",
+        "SONICMOVIE",
+        "BROWNSTONE",
+        "CURATOR",
+        "RANDOM",
+        "LEATHER",
+        "ARCADEGAME",
+        "DISCOUNT",
+        "MOUSE",
+        "RUDY",
+        "HAIRSPRAY",
+        "SIDEPONY"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 009",
+      "words": [
+        "VICTORIA",
+        "ADVENTURE",
+        "VAMPIRE",
+        "LONDON",
+        "FRAMING",
+        "PICKUP",
+        "BEETLEJUICE",
+        "PHONE",
+        "TSHIRT",
+        "WEALTH",
+        "SARATOGA",
+        "NOVEL"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 010",
+      "words": [
+        "PERM",
+        "BRAWLHALLA",
+        "QUIETTIME",
+        "PEDAL",
+        "SPACEWALK",
+        "DISCOVER",
+        "AQUAMAN",
+        "PAPYRI",
+        "CORNMAZE",
+        "PEPRALLY",
+        "NATION",
+        "SPORE"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 011",
+      "words": [
+        "NETWORKTV",
+        "WEST",
+        "DOTA",
+        "INDIEROCK",
+        "TIMEMACHINE",
+        "COW",
+        "TEKKEN",
+        "POWERPOINT",
+        "FLASHDRIVE",
+        "FEATUREFILM",
+        "SETUP",
+        "ENTERTAIN"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 012",
+      "words": [
+        "POPCORN",
+        "BACKTOTHEFUTURE",
+        "NEWWAVE",
+        "ARTIST",
+        "BINGEWATCH",
+        "FRISBEE",
+        "COUCH",
+        "WIRELESS",
+        "ROOTBEER",
+        "ESPORTS",
+        "COSTUME",
+        "EARLYSATELLITE"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 013",
+      "words": [
+        "SURROUNDSOUND",
+        "GUESTS",
+        "SKINNYJEANS",
+        "SPECIAL",
+        "POPULAR",
+        "TEMPERATURE",
+        "PERSONALCOMPUTER",
+        "HEADLINER",
+        "MOVIETHEATER",
+        "SPLASHDOWN",
+        "SCRAPS",
+        "REBELS"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 014",
+      "words": [
+        "APRON",
+        "CREW",
+        "SNACKBAR",
+        "PONYCAR",
+        "BREAKER",
+        "WHATEVER",
+        "STAMP",
+        "GAMEGUIDE",
+        "RIGHTS",
+        "CHAMELEON",
+        "PEGGLE",
+        "FURNITURE"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 015",
+      "words": [
+        "THOROUGHBRED",
+        "GAMECRAFT",
+        "THUNDER",
+        "GASOLINE",
+        "FLOPPYDISK",
+        "GAUNTLET",
+        "PLUSHTOY",
+        "TRADED",
+        "PORTRAY",
+        "PERFORMANCE",
+        "SIXTEENBIT",
+        "FINALE"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 016",
+      "words": [
+        "GYMCLASS",
+        "BAT",
+        "RAILWAY",
+        "KNIGHT",
+        "TORTOISE",
+        "SHIP",
+        "PHARAOH",
+        "CHARM",
+        "SABRINACARPENTER",
+        "SILENT",
+        "CHALLENGE",
+        "GAME"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 017",
+      "words": [
+        "FUNFAIR",
+        "ANSWERINGMACHINE",
+        "RANKED",
+        "HIPHOP",
+        "WHEELS",
+        "BREAKFAST",
+        "BATTLEPASS",
+        "INSTAMATIC",
+        "MANE",
+        "DETECTIVE",
+        "EXCITEBIKE",
+        "WINDOWSHOPPING"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 018",
+      "words": [
+        "HIGHSCORE",
+        "CONDUCT",
+        "CRACKERS",
+        "AIMING",
+        "IDENTITY",
+        "TOPFORTY",
+        "DRAGONFLY",
+        "MINIGAME",
+        "MASSEFFECT",
+        "NOT",
+        "SATURDAYMATINEE",
+        "SEAL"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 019",
+      "words": [
+        "DIALTONE",
+        "NOMANSSKY",
+        "BURGER",
+        "BURRITO",
+        "GEM",
+        "THEFOREST",
+        "HERO",
+        "ISLANDER",
+        "RIGHTEOUS",
+        "GAMELOBBY",
+        "MOVEMENT",
+        "OKAMI"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 020",
+      "words": [
+        "RAMPAGE",
+        "PIZZA",
+        "PROGRAMS",
+        "INFLUENCER",
+        "LIONKING",
+        "ASTROBOT",
+        "RAMP",
+        "ROBLOX",
+        "LOCK",
+        "PATH",
+        "CRIMPEDHAIR",
+        "BEACHDAY"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 021",
+      "words": [
+        "VOLLEYBALL",
+        "LIFEGUARD",
+        "PLAYTIME",
+        "THANKFUL",
+        "HULL",
+        "PORT",
+        "GHOST",
+        "POPICON",
+        "ROADSIGN",
+        "MIRRORBALL",
+        "SHOWBIZ",
+        "FARMLAND"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 022",
+      "words": [
+        "GLACIER",
+        "STAGEFRIGHT",
+        "FONDUEPOT",
+        "FIGURINE",
+        "MUSICIDOL",
+        "LEOTARD",
+        "REFRESH",
+        "TOTALLY",
+        "LEGENDS",
+        "CPO",
+        "INCA",
+        "SOUTHERNTIER"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 023",
+      "words": [
+        "LILNASX",
+        "PHONECASE",
+        "MOON",
+        "PLANES",
+        "GAMERSCORE",
+        "HALLWAY",
+        "ANOLIS",
+        "BORDER",
+        "FLASHMOB",
+        "SCREEN",
+        "GRAND",
+        "COMICCON"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 024",
+      "words": [
+        "ACORN",
+        "ALIEN",
+        "CREAM",
+        "SUNDAE",
+        "EMBROIDERY",
+        "CITIZEN",
+        "GAMEGEAR",
+        "TRAVELER",
+        "DEFENDER",
+        "SIGHTSEE",
+        "PARKS",
+        "CLIMB"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 025",
+      "words": [
+        "MEDIAPLAYER",
+        "GORGE",
+        "GENRE",
+        "MIDNIGHT",
+        "STREAMINGSERVICE",
+        "CLOWN",
+        "PATCHNOTES",
+        "HABITAT",
+        "DANCECHALLENGE",
+        "BICYCLE",
+        "VERSE",
+        "COACH"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 026",
+      "words": [
+        "TOPOGRAPHY",
+        "FIGURES",
+        "PARIS",
+        "WRISTBAND",
+        "METAL",
+        "BANNER",
+        "ARCADEMACHINE",
+        "CARS",
+        "APERTURE",
+        "NEEDLE",
+        "PRINT",
+        "OCEAN"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 027",
+      "words": [
+        "VAULTS",
+        "REELS",
+        "NIAGARA",
+        "LEVELUP",
+        "BAGEL",
+        "VENDOR",
+        "WEDNESDAY",
+        "STAND",
+        "WONKA",
+        "LITTLEMERMAID",
+        "BUTTERFLYCLIP",
+        "BILLBOARD"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 028",
+      "words": [
+        "LOL",
+        "BANJO",
+        "HIGHLIGHT",
+        "WARFARE",
+        "NARRATIVE",
+        "CAMP",
+        "CHAMOMILE",
+        "HEROES",
+        "DONKEY",
+        "ACTION",
+        "BLACKCAT",
+        "AUTHOR"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 029",
+      "words": [
+        "REBEL",
+        "MICROPHONE",
+        "BIRDFEEDER",
+        "JOURNAL",
+        "SHERLOCK",
+        "ROUTINE",
+        "BOTTLE",
+        "LOVE",
+        "SHOWCASE",
+        "SPRINGTOY",
+        "YEAR",
+        "RUINS"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 030",
+      "words": [
+        "ANIMATE",
+        "NILE",
+        "CARAVAN",
+        "INSPIRE",
+        "OUTRUN",
+        "MEXICO",
+        "MOONLIGHT",
+        "COUNTDOWN",
+        "SELLER",
+        "HEADSCARF",
+        "FACTORIO",
+        "FARMINGSIMULATOR"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 031",
+      "words": [
+        "PUBLICITY",
+        "DOLLYPARTON",
+        "NINTENDOGS",
+        "MOSS",
+        "CHILLY",
+        "BREAKINGBAD",
+        "MOTOWN",
+        "COZYGAME",
+        "GLAMROCK",
+        "TROPICAL",
+        "POODLESKIRT",
+        "WATCHPARTY"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 032",
+      "words": [
+        "MECHANISM",
+        "HARRYPOTTER",
+        "HEADBAND",
+        "CAMOUFLAGE",
+        "YEARBOOK",
+        "HORSE",
+        "HOTROD",
+        "MEETUPS",
+        "CRUISING",
+        "NIRVANA",
+        "AUSTEN",
+        "FREEFIRE"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 033",
+      "words": [
+        "CARTOON",
+        "PANEL",
+        "ESCALATOR",
+        "QUICHE",
+        "COLA",
+        "SKYWARD",
+        "GODOFWAR",
+        "HOLLYWOOD",
+        "TRADINGCARD",
+        "CIVIL",
+        "LUNCH",
+        "CREATIVE"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 034",
+      "words": [
+        "SESAMESTREET",
+        "SCENICDRIVE",
+        "JANISSARY",
+        "CONCESS",
+        "MICROPROCESSOR",
+        "ROCKY",
+        "ENGAGING",
+        "SUPERHERO",
+        "SCHOOL",
+        "COBWEB",
+        "JOYSTICK",
+        "WEBPAGE"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 035",
+      "words": [
+        "RABBIDS",
+        "BELL",
+        "COFFEETABLE",
+        "MOTIONCONTROL",
+        "GOGO",
+        "THAMES",
+        "FIRSTLOOK",
+        "NORSE",
+        "MONEY",
+        "STREAMER",
+        "REMNANT",
+        "GRUNGE"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 036",
+      "words": [
+        "PURPLE",
+        "OLYMPIC",
+        "PROJECTZOMBOID",
+        "CROWD",
+        "MOODRING",
+        "DIMMER",
+        "KNUCKLES",
+        "MOD",
+        "ACHIEVEMENTS",
+        "PASSENGER",
+        "CLICK",
+        "UNIVERSE"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 037",
+      "words": [
+        "LANDSCAPE",
+        "SOCCER",
+        "TWANG",
+        "VIEW",
+        "FLOAT",
+        "CHARCUTERIE",
+        "SHOOT",
+        "EQUAL",
+        "FRONT",
+        "EEVEE",
+        "STREET",
+        "URBAN"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 038",
+      "words": [
+        "PUZZLETIME",
+        "DEFEAT",
+        "GEOLOGY",
+        "HELLDIVERS",
+        "KNEEPADS",
+        "PRODUCERCHAIR",
+        "TINATURNER",
+        "SPLINTERCELL",
+        "ATHLETIC",
+        "SNOWWHITE",
+        "WEHAPPYFEW",
+        "CONDOR"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 039",
+      "words": [
+        "STALLED",
+        "YONKERS",
+        "STUNTS",
+        "BUSYSIGNAL",
+        "GAMEFACE",
+        "HALFLIFE",
+        "MARIO",
+        "FLASHBULB",
+        "BATTLEMENT",
+        "MUSICIAN",
+        "WEEKEND",
+        "GRODY"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 040",
+      "words": [
+        "ROCKYBALBOA",
+        "PETROCK",
+        "PHOTOGRAPH",
+        "MAROONFIVE",
+        "TEMPLAR",
+        "ABOLISH",
+        "NOSTALGIA",
+        "RIVERBANK",
+        "CURRICULUM",
+        "CLUBHOUSE",
+        "BASS",
+        "BANDAGE"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 041",
+      "words": [
+        "SODASHOP",
+        "PUBLICATION",
+        "TRICK",
+        "STARWARS",
+        "SKIING",
+        "FLIPHAIR",
+        "KAYAK",
+        "HUNTING",
+        "MATINEE",
+        "NSYNC",
+        "STROBELIGHT",
+        "GRAPHICS"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 042",
+      "words": [
+        "CHIC",
+        "TRAINING",
+        "THEATER",
+        "TECHNOLOGY",
+        "TENT",
+        "MUSICCHANNEL",
+        "VALLEY",
+        "BATTLES",
+        "BRIDGETON",
+        "CADDIE",
+        "SAILBOAT",
+        "PLANTSVSZOMBIES"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 043",
+      "words": [
+        "STATION",
+        "PHRASES",
+        "FANCLUB",
+        "TIME",
+        "PAGES",
+        "PLAYERS",
+        "KIRBYSADVENTURE",
+        "NARRATE",
+        "NEWKIDS",
+        "BOYBAND",
+        "MYST",
+        "GAMERZONE"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 044",
+      "words": [
+        "VIEWER",
+        "FONDUE",
+        "FANDOM",
+        "PHOENIXWRIGHT",
+        "THREAD",
+        "ARISTOCRAT",
+        "MUSICSTREAM",
+        "CHORUS",
+        "CARBURETOR",
+        "SPONGEBOB",
+        "STREETSOFRAGE",
+        "PAPERDOLL"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 045",
+      "words": [
+        "POPSTAR",
+        "WICKER",
+        "BRB",
+        "LOAFERS",
+        "CELLPHONE",
+        "CANAL",
+        "COLLECTION",
+        "HALFMINUTELIFE",
+        "GAMECORNER",
+        "GAMERDESK",
+        "SHIMMER",
+        "BODEGA"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 046",
+      "words": [
+        "COLOSSEUM",
+        "SUNSET",
+        "SOMMELIER",
+        "CAPITOL",
+        "SAMUS",
+        "CAPITAL",
+        "PERFECTDARK",
+        "SHUFFLE",
+        "FOG",
+        "REGATTA",
+        "PROGRAM",
+        "MOTORIST"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 047",
+      "words": [
+        "METRO",
+        "PUNKROCK",
+        "GRADATION",
+        "DESIGNER",
+        "VRHEADSET",
+        "MOHAWKRIVER",
+        "ICONIC",
+        "OMG",
+        "GAMERLIFE",
+        "WATCH",
+        "ROLLERDISCO",
+        "RAILROAD"
+      ]
+    },
+    {
+      "name": "Weather Puzzle 048",
+      "words": [
+        "LIVESTREAMER",
+        "EFFECTS",
+        "SPORTS",
+        "BAROQUE",
+        "CURIOUS",
+        "MALTSHOP",
+        "CALLOFDUTY",
+        "LEGEND",
+        "DIGITALART",
+        "RUNNING",
+        "SPEAKER",
+        "CARPOOL"
+      ]
+    }
+  ],
+  "detected_topic": "General Interest",
+  "recommended_palette": "nature",
+  "recommended_cover_style": "classic",
+  "cover_style": "classic",
+  "clipart_search_terms": "General Interest Treasurechest Nightlife Swiftie illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Relaxing",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "General Interest",
+      "Pop Culture & Entertainment",
+      "Video Games & Gaming",
+      "Sports and Hobbies",
+      "Travel and Geography",
+      "Nature"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "General Interest"
+    ],
+    "checked_at": "2026-08-22T10:08:40"
+  }
+}

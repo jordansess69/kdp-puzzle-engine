@@ -1,0 +1,864 @@
+{
+  "title": "Baking Word Search",
+  "subtitle": "48 sweet kitchen word search puzzles",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Popular Themes",
+  "series_rank": 11,
+  "palette": "food",
+  "cover_style": "ticket",
+  "puzzles": [
+    {
+      "name": "Baking Puzzle 001",
+      "words": [
+        "CAPPUCCINO",
+        "BOSS",
+        "BISCUIT",
+        "MEDIAPLAYER",
+        "ASIA",
+        "SHELF",
+        "LIGHTHOUSE",
+        "DOWN",
+        "PIECRUST",
+        "DEER",
+        "SMELL",
+        "WHISK"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 002",
+      "words": [
+        "TARTS",
+        "MALL",
+        "FOXGLOVE",
+        "CARE",
+        "ARABIAN",
+        "GETAWAY",
+        "HARDY",
+        "OREGANO",
+        "PLATE",
+        "ORANGE",
+        "SAILING",
+        "COOLDOWN"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 003",
+      "words": [
+        "DIVE",
+        "PARKINGLOT",
+        "FRANCE",
+        "PESTICIDE",
+        "ROME",
+        "LOWRISEJEANS",
+        "GRID",
+        "TOGETHER",
+        "NUTRIENT",
+        "FOOTPATH",
+        "IRRIGATION",
+        "MANURE"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 004",
+      "words": [
+        "STARFISH",
+        "SHIMMER",
+        "STEAM",
+        "PRATIA",
+        "COMMENT",
+        "TEXTURE",
+        "PARMESAN",
+        "FUN",
+        "TOKYO",
+        "CUTTER",
+        "SEEDLING",
+        "SHARING"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 005",
+      "words": [
+        "ROLLERSKATES",
+        "CHIVES",
+        "VOLE",
+        "BUD",
+        "BINOCULARS",
+        "SOCIAL",
+        "ANNUAL",
+        "PARK",
+        "TENDER",
+        "SPEED",
+        "UNITY",
+        "BUTTER"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 006",
+      "words": [
+        "VINE",
+        "FIREWOOD",
+        "MARINE",
+        "COFFEE",
+        "CRIMPEDHAIR",
+        "LOL",
+        "ANSWERINGMACHINE",
+        "PACHYSANDRA",
+        "FEEDER",
+        "VEHICLE",
+        "ELDERFLOWER",
+        "TWINE"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 007",
+      "words": [
+        "FANNYPACK",
+        "SINK",
+        "TOY",
+        "MACAROON",
+        "RADISH",
+        "MOON",
+        "HERB",
+        "PIZZA",
+        "SHEEP",
+        "VOLLEYBALL",
+        "SOFTWARE",
+        "SAVEFILE"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 008",
+      "words": [
+        "WORMS",
+        "COCOON",
+        "RAINBOW",
+        "PLANT",
+        "COTTAGE",
+        "GIRLPOWER",
+        "STRETCH",
+        "MAGPIE",
+        "CAFETERIA",
+        "JAR",
+        "CHICKADEE",
+        "EMERGENCY"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 009",
+      "words": [
+        "VOICEMAIL",
+        "LID",
+        "FASTFORWARD",
+        "HISTORY",
+        "SOURDOUGH",
+        "BAT",
+        "ALMOND",
+        "PEPEROMIA",
+        "PACKET",
+        "ROOTCELLAR",
+        "MULCH",
+        "ZEN"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 010",
+      "words": [
+        "NAVY",
+        "CUCUMBER",
+        "SECRET",
+        "RENTAL",
+        "BINDER",
+        "MPPLAYER",
+        "BOOK",
+        "CROCODILE",
+        "VACATION",
+        "HEN",
+        "ROSEMARY",
+        "URSA"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 011",
+      "words": [
+        "COAST",
+        "CHOP",
+        "DISKDRIVE",
+        "LMAO",
+        "WHATEVER",
+        "LILY",
+        "FRIES",
+        "SIDEPONY",
+        "TOAD",
+        "PIES",
+        "HANGING",
+        "TURTLE"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 012",
+      "words": [
+        "TASTE",
+        "PETUNIA",
+        "TRANSPLANT",
+        "SOLVE",
+        "BOOKWORM",
+        "LINE",
+        "LOAM",
+        "CHOCOLATE",
+        "FISHES",
+        "AUSTRALIA",
+        "LEAF",
+        "INGREDIENT"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 013",
+      "words": [
+        "SQUASH",
+        "PIG",
+        "LAME",
+        "NAILPOLISH",
+        "CAMPFIRE",
+        "BOOKSTORE",
+        "LOUNGER",
+        "BASKETBALL",
+        "PLUSHTOY",
+        "COLUMBINE",
+        "RAIL",
+        "BERRIES"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 014",
+      "words": [
+        "TIDAL",
+        "COBBLE",
+        "DIGITALWATCH",
+        "TELEVISION",
+        "CHAPTER",
+        "HIBISCUS",
+        "BAKING",
+        "HAVEN",
+        "JUICE",
+        "MILKSHAKE",
+        "TIN",
+        "BEES"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 015",
+      "words": [
+        "CALCULATOR",
+        "STARS",
+        "ANCESTOR",
+        "HIKE",
+        "RUNNING",
+        "ROLLERRINK",
+        "PASSION",
+        "BIENNIAL",
+        "BEAN",
+        "RALLY",
+        "SPRINKLE",
+        "GUM"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 016",
+      "words": [
+        "PRACTICE",
+        "MAKER",
+        "MODEM",
+        "ROFL",
+        "FERTILIZER",
+        "THEAT",
+        "DECKS",
+        "PASS",
+        "COBRA",
+        "STAR",
+        "WEED",
+        "TOYSTORE"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 017",
+      "words": [
+        "PAUSE",
+        "VIBRANT",
+        "CRUISE",
+        "DONUTS",
+        "SQUASHBLOSSOM",
+        "SINGSONG",
+        "AIRY",
+        "CASTLE",
+        "RING",
+        "LEMONADE",
+        "GIFT",
+        "HIGHTOPS"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 018",
+      "words": [
+        "BOUNTY",
+        "RANDOM",
+        "CELLAR",
+        "CRISP",
+        "BLUETOOTH",
+        "BROWNIE",
+        "BLOG",
+        "CENTERPIECE",
+        "BLIZZARD",
+        "SONGBIRD",
+        "STRAWBERRY",
+        "SNORKEL"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 019",
+      "words": [
+        "DIVING",
+        "PAYPHONE",
+        "BRAIN",
+        "GRATER",
+        "CHILDREN",
+        "BEVERAGE",
+        "GUIDE",
+        "WINDBREAKER",
+        "BLAZINGSTAR",
+        "SOFA",
+        "FLY",
+        "APHID"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 020",
+      "words": [
+        "PAGER",
+        "BONUSFEATURES",
+        "PROTECT",
+        "SYNTHESIZER",
+        "GOLD",
+        "SANDALS",
+        "EASTER",
+        "SHALLOT",
+        "ONION",
+        "MOAT",
+        "STAMEN",
+        "COURT"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 021",
+      "words": [
+        "POWERPOINT",
+        "NATURAL",
+        "RIDE",
+        "GINGER",
+        "LIPGLOSS",
+        "CLOCKRADIO",
+        "WEREWOLF",
+        "EARTHWORM",
+        "SUET",
+        "CHICKEN",
+        "FROZENYOGURT",
+        "SNAIL"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 022",
+      "words": [
+        "HUMID",
+        "TASTING",
+        "PATH",
+        "KNIFE",
+        "RHYTHM",
+        "FOCAL",
+        "FESTIVE",
+        "HEIRLOOM",
+        "BONSAI",
+        "CURIOUS",
+        "SWALLOWTAIL",
+        "BUSYSIGNAL"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 023",
+      "words": [
+        "GAMECONSOLE",
+        "DRAIN",
+        "SEA",
+        "OCEANIC",
+        "SNACK",
+        "PLUMERIA",
+        "CHUNKYHIGHLIGHTS",
+        "FRANGIPANI",
+        "RAIN",
+        "SORREL",
+        "RAINDROP",
+        "BLOOMS"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 024",
+      "words": [
+        "FIN",
+        "FAVORITE",
+        "TROPICAL",
+        "CONFECTION",
+        "GARDENIA",
+        "LEAVES",
+        "COMPUTER",
+        "SIFT",
+        "RAY",
+        "NASTURTIUM",
+        "PRIMROSE",
+        "SPADE"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 025",
+      "words": [
+        "OPOSSUM",
+        "SWAMP",
+        "TAIL",
+        "FOOD",
+        "GENTLE",
+        "CONCERT",
+        "CHEF",
+        "YEW",
+        "AERATE",
+        "MONSOON",
+        "DETHATCH",
+        "PYRACANTHA"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 026",
+      "words": [
+        "THOROUGHBRED",
+        "FLIPPHONE",
+        "FOAL",
+        "WETSUIT",
+        "BURNEDCD",
+        "SPACESHUTTLE",
+        "REPTILE",
+        "POPPY",
+        "ESCALLONIA",
+        "PEAT",
+        "SOUP",
+        "HOUSE"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 027",
+      "words": [
+        "EVERGREEN",
+        "PORTION",
+        "FASHION",
+        "CROPTOP",
+        "POPCORN",
+        "TIDY",
+        "GLITTER",
+        "CHIVEBLOSSOM",
+        "BOIL",
+        "AERIAL",
+        "BASIN",
+        "BEEPER"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 028",
+      "words": [
+        "EXPLODE",
+        "STICKERBOOK",
+        "PENCIL",
+        "STYLE",
+        "SKELETON",
+        "MERLOT",
+        "KEYPAD",
+        "PURPLE",
+        "GHOST",
+        "APPLIANCE",
+        "PHLOX",
+        "SONGS"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 029",
+      "words": [
+        "LAVENDER",
+        "COOKER",
+        "COOKIES",
+        "YARD",
+        "TRADIT",
+        "STUDDEDBELT",
+        "WING",
+        "TVSERIES",
+        "BATTERY",
+        "WATERINGCAN",
+        "GELPEN",
+        "MULBERRY"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 030",
+      "words": [
+        "MOCHA",
+        "SURF",
+        "CLOUD",
+        "VINEYARD",
+        "TEMPLE",
+        "QUICHE",
+        "COASTAL",
+        "QUEST",
+        "CORDLESSPHONE",
+        "GNARLY",
+        "DRIP",
+        "COMFY"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 031",
+      "words": [
+        "FAMILY",
+        "PORTABLECDPLAYER",
+        "SHED",
+        "GLOVES",
+        "MOLD",
+        "BRAMBLE",
+        "ROCKET",
+        "AEROBICS",
+        "SYCAMORE",
+        "SOW",
+        "SUNSET",
+        "FROG"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 032",
+      "words": [
+        "TRACKSUIT",
+        "BUCKETHAT",
+        "DUMPLING",
+        "HUMUS",
+        "SPARROW",
+        "CUP",
+        "CATEGORY",
+        "MOUSEPAD",
+        "IRIS",
+        "TRUCK",
+        "MOBILE",
+        "POT"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 033",
+      "words": [
+        "PHONECORD",
+        "CHILDHOOD",
+        "HUMIDITY",
+        "RINGTONE",
+        "CREEPER",
+        "INHERIT",
+        "ICEBERG",
+        "CART",
+        "PUREE",
+        "INSTANTMESSAGE",
+        "MEMORYCARD",
+        "TIME"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 034",
+      "words": [
+        "MOLE",
+        "POETRY",
+        "RELEASE",
+        "ROLLERBLADES",
+        "HOMEWORK",
+        "BOARD",
+        "ENJOY",
+        "DILL",
+        "CAMERABAG",
+        "MARSH",
+        "SAGE",
+        "JACKOLANTERN"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 035",
+      "words": [
+        "TITLE",
+        "LIFELINE",
+        "FRIEND",
+        "ROLL",
+        "WEBCAM",
+        "WRISTBAND",
+        "SCALLOP",
+        "ROMAINE",
+        "TROPIC",
+        "GOLDFINCH",
+        "SPICES",
+        "CUPCAKE"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 036",
+      "words": [
+        "TEACH",
+        "ETHNIC",
+        "DRESSING",
+        "EXOTIC",
+        "HOLE",
+        "CHICKENCOOP",
+        "FOODS",
+        "CROW",
+        "REPORTCARD",
+        "ICE",
+        "CLIMBER",
+        "BOXWOOD"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 037",
+      "words": [
+        "PEEL",
+        "GRILL",
+        "PARSLEY",
+        "SEDUM",
+        "SKYSHOW",
+        "JEWELS",
+        "VHS",
+        "PROJECT",
+        "BROOMSTICK",
+        "PUDDLE",
+        "BIKE",
+        "PARADISE"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 038",
+      "words": [
+        "FERN",
+        "SPIRIT",
+        "BTW",
+        "SODA",
+        "BAROMETER",
+        "TORNADO",
+        "PUMPKIN",
+        "PROFILE",
+        "KAYAK",
+        "PAN",
+        "YEARBOOK",
+        "CHARD"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 039",
+      "words": [
+        "TRIM",
+        "JUICY",
+        "SNACKS",
+        "LAUGH",
+        "SCOOTER",
+        "CRYSTALBALL",
+        "VIDEOSTORE",
+        "PARKS",
+        "DESKTOP",
+        "HONEY",
+        "HOPS",
+        "ZEST"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 040",
+      "words": [
+        "KETTLE",
+        "HAIRGEL",
+        "SNEAKERS",
+        "SNOWBOARD",
+        "PALM",
+        "GARLIC",
+        "TUBULAR",
+        "HOMEMADE",
+        "NACHOS",
+        "COOL",
+        "TRUNK",
+        "ACTIONFIGURE"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 041",
+      "words": [
+        "SPIDERPLANT",
+        "BUNDLE",
+        "CHAMELEON",
+        "FRUITSNACKS",
+        "BEETLE",
+        "BUTTERHEAD",
+        "SKATEBOARD",
+        "NEON",
+        "EQUESTRIAN",
+        "MOUND",
+        "CLIPPINGS",
+        "KALE"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 042",
+      "words": [
+        "TRICKORTREAT",
+        "WICKER",
+        "SQUEEZE",
+        "THUNDER",
+        "SPIKEDHAIR",
+        "CHEESE",
+        "CAN",
+        "FLOUR",
+        "COMPETITION",
+        "ROW",
+        "AGAVE",
+        "TREATBAG"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 043",
+      "words": [
+        "LETTER",
+        "CULINARY",
+        "MOUNTAIN",
+        "MOSS",
+        "GUEST",
+        "FOODCOURT",
+        "CLAY",
+        "GARDEN",
+        "NIGHTSKY",
+        "STUDENT",
+        "DANDELION",
+        "REUNITE"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 044",
+      "words": [
+        "BLOCK",
+        "COMET",
+        "HYDRATE",
+        "CALENDULA",
+        "FEAST",
+        "ECHEVERIA",
+        "GLASS",
+        "REMOTECAR",
+        "MASCARA",
+        "PALMS",
+        "CHOKER",
+        "SPIKE"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 045",
+      "words": [
+        "INVITE",
+        "DINNER",
+        "ORION",
+        "BUTTERFLYCLIPS",
+        "PIXEL",
+        "HUSK",
+        "ARBOR",
+        "BLUEBIRD",
+        "HAT",
+        "ESCALATOR",
+        "SWEETPOTATO",
+        "PROSECCO"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 046",
+      "words": [
+        "TOWER",
+        "FRAME",
+        "SUNGLASSES",
+        "LOTION",
+        "HONEYSUCKLE",
+        "WRESTLING",
+        "FEATHER",
+        "WEEKEND",
+        "TTYL",
+        "ZUCCHINI",
+        "SKINK",
+        "STARLIGHT"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 047",
+      "words": [
+        "RELAX",
+        "CITRUS",
+        "CASUAL",
+        "ROAST",
+        "TALKTOTHEHAND",
+        "DRINK",
+        "YARROW",
+        "SEASIDE",
+        "HOMEROOM",
+        "INSTRUCTOR",
+        "NEST",
+        "SPREAD"
+      ]
+    },
+    {
+      "name": "Baking Puzzle 048",
+      "words": [
+        "NOURISH",
+        "REFRESHING",
+        "ASIF",
+        "RECORDSTORE",
+        "GOLDENROD",
+        "EXPLOSION",
+        "KITEFLYER",
+        "CELESTIAL",
+        "CASSIOPEIA",
+        "LEAFY",
+        "PRICKLY",
+        "BEECH"
+      ]
+    }
+  ],
+  "detected_topic": "Baking and Food",
+  "recommended_palette": "food",
+  "recommended_cover_style": "ticket",
+  "clipart_search_terms": "Baking and Food Cappuccino Boss Biscuit illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Standard",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "Baking and Food",
+      "Herbs Fruits and Vegetables",
+      "Gardening",
+      "Homesteading",
+      "General Interest"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "Baking and Food"
+    ],
+    "checked_at": "2026-08-22T10:08:39"
+  }
+}

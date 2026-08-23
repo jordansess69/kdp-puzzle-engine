@@ -1,0 +1,23 @@
+EDITORIAL VALIDATION REPORT
+============================================================
+
+1950s General: 100 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=7
+1950s Men: 50 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=4
+1950s Women: 50 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=4
+1960s General: 100 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=8
+1960s Men: 50 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=5
+1960s Women: 50 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=4
+1970s General: 100 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=8
+1970s Men: 50 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=5
+1970s Women: 50 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=5
+1980s General: 100 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=8
+1980s Men: 50 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=5
+1980s Women: 50 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=5
+1990s General: 100 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=7
+1990s Men: 50 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=4
+1990s Women: 50 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=4
+2000s General: 100 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=8
+2000s Men: 50 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=5
+2000s Women: 50 puzzles | duplicate banks=0 | invalid 12-word banks=0 | max single-term reuse=5
+
+Result: structural validation passed for all 18 books.

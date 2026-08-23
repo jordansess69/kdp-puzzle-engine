@@ -1,0 +1,864 @@
+{
+  "title": "Golf Word Search",
+  "subtitle": "48 fairway word search puzzles",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Popular Themes",
+  "series_rank": 15,
+  "palette": "nature",
+  "cover_style": "minimal",
+  "puzzles": [
+    {
+      "name": "Golf Puzzle 001",
+      "words": [
+        "QUILTBLOCK",
+        "BONJOVI",
+        "HARRYSTYLES",
+        "SCHOOLBINDER",
+        "HIGHSCORE",
+        "SPARROW",
+        "SPICEGIRLS",
+        "TAILLIGHT",
+        "FINDINGNEMO",
+        "SUNVISOR",
+        "PIKACHU",
+        "CARGOVAN"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 002",
+      "words": [
+        "TVSERIES",
+        "TITANFALL",
+        "FRONTWHEEL",
+        "MOTEL",
+        "SKILLTREE",
+        "KATAMARI",
+        "TAHOE",
+        "TATTOO",
+        "GAMEDISC",
+        "BROADWAY",
+        "FORTNITE",
+        "BACKSEAT"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 003",
+      "words": [
+        "NINTENDOGS",
+        "PATRIOT",
+        "STITCH",
+        "CITYBUS",
+        "DAREDEVIL",
+        "RESIDENTEVIL",
+        "PAGER",
+        "POETRY",
+        "SNORLAX",
+        "CAPSULE",
+        "FOOFIGHTERS",
+        "PERFUME"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 004",
+      "words": [
+        "SCHOOLDANCE",
+        "HEROSTORM",
+        "SHOWROOM",
+        "HYRULE",
+        "RAYMANLEGENDS",
+        "DREAMCAST",
+        "PHONECHARGER",
+        "TALKSHOW",
+        "GUM",
+        "GOKARTING",
+        "SPEEDBUMP",
+        "KEYCHAIN"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 005",
+      "words": [
+        "TOWSERVICE",
+        "DIGITALART",
+        "BINDER",
+        "SNOWFLAKE",
+        "PARACHUTEPANTS",
+        "WOLVERINE",
+        "BRIDGERTON",
+        "MEDAL",
+        "VERSE",
+        "GAMETRAILER",
+        "DIFFICULTY",
+        "SONGLYRICS"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 006",
+      "words": [
+        "PORSCHE",
+        "GAMECAPTURE",
+        "CLOCKRADIO",
+        "COOLER",
+        "GAMEGIFT",
+        "OBSERVATORY",
+        "MEGADRIVE",
+        "RIDETHELL",
+        "LANCER",
+        "WOOFER",
+        "DUDE",
+        "CROPTOP"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 007",
+      "words": [
+        "PAR",
+        "HALFPIPE",
+        "RENEGADE",
+        "MOUSE",
+        "HORSEPOWER",
+        "KARATEKID",
+        "BRIDLE",
+        "BASEBALL",
+        "BRONZER",
+        "THEMATRIX",
+        "GAMESTREAM",
+        "SHOVELKNIGHT"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 008",
+      "words": [
+        "VIRALVIDEO",
+        "VRHEADSET",
+        "SKATE",
+        "PASSENGER",
+        "CAMPGROUND",
+        "LAMBORGHINI",
+        "CHEVELLE",
+        "LOOT",
+        "MINIBUS",
+        "VENOM",
+        "WEREWOLF",
+        "DIABLO"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 009",
+      "words": [
+        "CITYDRIVE",
+        "MALLDAY",
+        "LEBARON",
+        "CATEYE",
+        "DISCOELYSIUM",
+        "SONGBIRD",
+        "LANDROVER",
+        "DOWNLOADABLE",
+        "DESTINYSCHILD",
+        "COMEDY",
+        "PROTEGE",
+        "EAGLE"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 010",
+      "words": [
+        "COUNTRYMAN",
+        "CINEMA",
+        "GALANT",
+        "DASHBOARD",
+        "WINDOWSHOPPING",
+        "ALLROAD",
+        "BOSS",
+        "MOVIERENTAL",
+        "HEADERS",
+        "VEHICLEKEY",
+        "NAVIGATION",
+        "MATINEE"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 011",
+      "words": [
+        "ACTIONFIGURE",
+        "CAMPERBUS",
+        "DEADPOOL",
+        "SANTAFE",
+        "CANTER",
+        "PIRATE",
+        "SEWING",
+        "MASTERCHIEF",
+        "BREAKINGBAD",
+        "ROADMAP",
+        "TAILGATEPARTY",
+        "WASHBUCKET"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 012",
+      "words": [
+        "EYELINER",
+        "MADONNA",
+        "CAMPSITE",
+        "SOLVE",
+        "SAFETY",
+        "DANCEFLOOR",
+        "REPLAY",
+        "CAMPINGGEAR",
+        "SIMULATION",
+        "TIMESPLITTERS",
+        "MECHANIC",
+        "WHISTLE"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 013",
+      "words": [
+        "NINTENDOSWITCH",
+        "MADMAX",
+        "MILKING",
+        "STARWARSGAME",
+        "LEATHERJACKET",
+        "NOWAY",
+        "RODEO",
+        "PAPERMARIO",
+        "MARVELVSCAPCOM",
+        "DONKEYKONGJR",
+        "SNAPSHOT",
+        "NBATWOK"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 014",
+      "words": [
+        "RAMPAGE",
+        "SUPERMAN",
+        "MEMBERSHIP",
+        "OSCARS",
+        "BUTTONPRESS",
+        "SCARECROW",
+        "MEANGIRLS",
+        "JOUST",
+        "LEGO",
+        "QUEEREYE",
+        "TIREGAUGE",
+        "NAPKIN"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 015",
+      "words": [
+        "LIBRARY",
+        "QUIDDITCH",
+        "GRAPHICNOVEL",
+        "MERCURYCAR",
+        "RACECAR",
+        "HURRICANE",
+        "JETTA",
+        "ARIETTA",
+        "CASSEROLE",
+        "CRUISER",
+        "FAN",
+        "SNOWMOBILE"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 016",
+      "words": [
+        "HEATWAVE",
+        "CREEPER",
+        "MOVIESTAR",
+        "FALLLEAVES",
+        "LOAFERS",
+        "DEATHSTRANDING",
+        "LIGHTBAR",
+        "PAPERDOLL",
+        "CATALYTICCONVERTER",
+        "MAXIMA",
+        "CHARGER",
+        "CAIRO"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 017",
+      "words": [
+        "SONICMOVIE",
+        "POPUPTENT",
+        "PRODUCER",
+        "TICKET",
+        "NAILPOLISH",
+        "DIGITALCAMERA",
+        "SUPERHERO",
+        "CANDYCRUSH",
+        "BMX",
+        "DOWNPIPE",
+        "VAN",
+        "ARCADETOKEN"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 018",
+      "words": [
+        "STAGEPLAY",
+        "SONGWRITER",
+        "FATALFURY",
+        "DRIVEIN",
+        "ARMREST",
+        "EXCITEBIKE",
+        "BASS",
+        "JOHNWICK",
+        "STABLE",
+        "WINDBREAKER",
+        "SYSTEMSHOCK",
+        "NISSAN"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 019",
+      "words": [
+        "PAPERCRAFT",
+        "LAUNDROMAT",
+        "ORBIT",
+        "SCOOTER",
+        "SEKIRO",
+        "HANDHELDGAME",
+        "RATATOUILLE",
+        "GRAVELROAD",
+        "GEM",
+        "ROLLERRINK",
+        "SHERLOCK",
+        "FIND"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 020",
+      "words": [
+        "MOTOR",
+        "TUCSON",
+        "CARPET",
+        "TEMPERATURE",
+        "RVPARK",
+        "FLAPPYBIRD",
+        "BIGSCREEN",
+        "DUNE",
+        "MALL",
+        "TEAMWORK",
+        "COUNTER",
+        "TOYBOX"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 021",
+      "words": [
+        "LINK",
+        "BUCKETHAT",
+        "DAISY",
+        "GAMERZONE",
+        "SPEEDRUN",
+        "INJUSTICE",
+        "PURPLE",
+        "SIGNAL",
+        "GRAVEYARD",
+        "CARCARE",
+        "SODASHOP",
+        "LAUNCH"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 022",
+      "words": [
+        "KIRBYDREAMLAND",
+        "BURRITO",
+        "HAMILTON",
+        "MOTIONCONTROL",
+        "JAVELIN",
+        "PEGGLE",
+        "WINDSHIELDWASH",
+        "MATCHMAKING",
+        "OUTLANDER",
+        "ACCORD",
+        "GREENDAY",
+        "MODELTRAIN"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 023",
+      "words": [
+        "MONSOON",
+        "WAX",
+        "TRUCK",
+        "SKETCHBOOK",
+        "FRANCE",
+        "SIMCITY",
+        "FRONTIER",
+        "LITTLEBIGPLANET",
+        "BEEPER",
+        "PRIUS",
+        "GAMECARD",
+        "COMMAND"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 024",
+      "words": [
+        "NEEDFORSPEED",
+        "JACKS",
+        "KNITTING",
+        "INTERCOOLER",
+        "PIG",
+        "WORDSEARCH",
+        "THESIMS",
+        "DARKSIDERS",
+        "MONSTERTRUCK",
+        "CHARGERDAYTONA",
+        "COMICBOOK",
+        "STARION"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 025",
+      "words": [
+        "VALVE",
+        "WASSUP",
+        "OVERCOOKED",
+        "RABBIDS",
+        "GMC",
+        "ROGUELEGACY",
+        "MITSUBISHI",
+        "GLADIATOR",
+        "NSYNC",
+        "BAD",
+        "VALORANT",
+        "RIMWORLD"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 026",
+      "words": [
+        "ARCADECABINET",
+        "INTEREST",
+        "SIA",
+        "HEADUNIT",
+        "FEATUREFILM",
+        "CLANK",
+        "FISHINGPOLE",
+        "DANCEPARTY",
+        "PULSAR",
+        "PINBALL",
+        "RESTSTOP",
+        "HAYBALE"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 027",
+      "words": [
+        "BLIZZARD",
+        "WALKTHROUGH",
+        "CLIFFHANGER",
+        "PROJECT",
+        "TOTALLY",
+        "TONNEAUCOVER",
+        "FAVORITE",
+        "SEATCOVER",
+        "DOORLOCK",
+        "SUPRA",
+        "GAMETOKEN",
+        "CANDLE"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 028",
+      "words": [
+        "FLATSCREEN",
+        "GAMERLIFE",
+        "MUFFLER",
+        "GRAPHICTEE",
+        "STATEOFDECAY",
+        "CALCULATOR",
+        "RICKANDMORTY",
+        "DUNGEONKEEPER",
+        "TREND",
+        "RUNWAY",
+        "FOLLOWER",
+        "ISABELLE"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 029",
+      "words": [
+        "AIRCONDITIONER",
+        "POPMUSIC",
+        "GUILTYGEAR",
+        "PICNIC",
+        "BUBBLEBOBBLE",
+        "CARSHOW",
+        "SYNTHESIZER",
+        "VIBE",
+        "SLEEPOVER",
+        "MUSICAL",
+        "GAMESHELF",
+        "LIZARD"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 030",
+      "words": [
+        "VACATION",
+        "RVTRIP",
+        "BACKSTAGE",
+        "CATFISH",
+        "GAMEHERO",
+        "CHARIZARD",
+        "CARPETCLEANER",
+        "GAMECUBE",
+        "BLUETOOTH",
+        "ROCKETLEAGUE",
+        "CRIMPEDHAIR",
+        "RVLIVING"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 031",
+      "words": [
+        "LEGWARMERS",
+        "CYBERPUNK",
+        "FOOTBALL",
+        "SOLTERRA",
+        "INTERNET",
+        "VLOGGER",
+        "SEWINGMACHINE",
+        "KILLERINSTINCT",
+        "STAR",
+        "FILMMAKER",
+        "FAIRWAY",
+        "FLOPPYDISK"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 032",
+      "words": [
+        "MERLOT",
+        "INKLING",
+        "HYBRIDCAR",
+        "SINGALONG",
+        "PARKINGBRAKE",
+        "CROCODILE",
+        "SPARETIRE",
+        "RAMP",
+        "CROSSPLAY",
+        "CARSAFETY",
+        "TOYOTA",
+        "WATERBOTTLE"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 033",
+      "words": [
+        "AUSTEN",
+        "GAMEENGINE",
+        "ATARI",
+        "SHELL",
+        "OTTAWA",
+        "CUPCAKE",
+        "FEZ",
+        "ONLINEGAMING",
+        "SWEATBAND",
+        "HEARTHSTONE",
+        "NUMBERONE",
+        "TREAD"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 034",
+      "words": [
+        "THEBEATLES",
+        "SATURN",
+        "LIVESTREAM",
+        "DARTHVADER",
+        "KEYPAD",
+        "AEROSTAR",
+        "SPEEDLIMIT",
+        "BREAKDANCE",
+        "LASTOFUS",
+        "RAINDROP",
+        "ROAST",
+        "HOOD"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 035",
+      "words": [
+        "WINTERDRIVE",
+        "SINGERSONGWRITER",
+        "ALTERNATOR",
+        "RANDOM",
+        "ARCADEHALL",
+        "SHIMMER",
+        "DODGE",
+        "RHYTHM",
+        "FREEFIRE",
+        "PSYCH",
+        "TRUCKERHAT",
+        "LOWRISEJEANS"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 036",
+      "words": [
+        "BINOCULARS",
+        "FIFTHHARMONY",
+        "ROCKCRAWLING",
+        "PIXELART",
+        "FIESTA",
+        "SUBARU",
+        "POWERRANGERS",
+        "THEWEEKND",
+        "SERVICE",
+        "IGUANA",
+        "SMARTPHONE",
+        "TEASER"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 037",
+      "words": [
+        "HATCHLING",
+        "VOLVO",
+        "BIRTHDAYPARTY",
+        "COMPUTERROOM",
+        "COFFEEBEAN",
+        "LIVEMUSIC",
+        "BALLAD",
+        "DIRTBIKE",
+        "EMBROIDERY",
+        "TAKEACHILLPILL",
+        "RECORDLABEL",
+        "CADDIE"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 038",
+      "words": [
+        "MASCARA",
+        "WHATEVER",
+        "MIXTAPE",
+        "LEFTFOURDEAD",
+        "COROLLA",
+        "AWNING",
+        "REVIEWER",
+        "POPICON",
+        "LMAO",
+        "DOCUMENTARY",
+        "CASTLEVANIA",
+        "MUSTANG"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 039",
+      "words": [
+        "PROSECCO",
+        "TVDINNER",
+        "SLAYTHESPIRE",
+        "ROOTBEER",
+        "FROZEN",
+        "HOOF",
+        "EARBUDS",
+        "COOL",
+        "BULBASAUR",
+        "DRAGON",
+        "BARN",
+        "DRIVESHAFT"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 040",
+      "words": [
+        "BACKLOT",
+        "MINIGOLF",
+        "YOSHI",
+        "JAWS",
+        "CARSEAT",
+        "RUNESCAPE",
+        "PROJECTOR",
+        "DRIVEWAY",
+        "GALLOP",
+        "DESKTOPPC",
+        "REMNANT",
+        "CARBOOK"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 041",
+      "words": [
+        "SPONGE",
+        "REBOOT",
+        "CENTIPEDE",
+        "ENCORE",
+        "POPCORN",
+        "MOVIEHOUSE",
+        "BAGGYJEANS",
+        "SERVICEBAY",
+        "MARIOSTRIKERS",
+        "FROST",
+        "BLUES",
+        "GAMEFRIEND"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 042",
+      "words": [
+        "ELSA",
+        "SPRINTER",
+        "THREAD",
+        "BORDERLANDS",
+        "BILLBOARD",
+        "SACKBOY",
+        "ROCKET",
+        "CALIPER",
+        "DETECTIVE",
+        "CHARACTER",
+        "INTERNETSTAR",
+        "XPBOOST"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 043",
+      "words": [
+        "DANCEGAME",
+        "ROADREADY",
+        "SOUNDBAR",
+        "CREWCUT",
+        "BACKUPCAMERA",
+        "CARDINAL",
+        "JAZZERCISE",
+        "GAMEPAD",
+        "UNICORN",
+        "STRUT",
+        "AMUSEMENTPARK",
+        "GEARS"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 044",
+      "words": [
+        "ACHIEVEMENT",
+        "WINDOW",
+        "PHOTOALBUM",
+        "CHANNEL",
+        "AVALANCHE",
+        "KPOPSTAR",
+        "MATRIX",
+        "MUG",
+        "TONYHAWK",
+        "RETURNAL",
+        "SECRETAGENT",
+        "HARVEST"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 045",
+      "words": [
+        "SWEATER",
+        "DASHCAM",
+        "FITNESS",
+        "BROADBAND",
+        "XENOBLADE",
+        "SILVERADO",
+        "AFTERBURNER",
+        "ICECLIMBER",
+        "DIRECTOR",
+        "SCREENSAVER",
+        "LEVELINGKIT",
+        "HANDICAP"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 046",
+      "words": [
+        "HEADSCARF",
+        "PERSONA",
+        "ROLLOFFILM",
+        "CARPOOL",
+        "BUMPER",
+        "TRIFORCE",
+        "MYBAD",
+        "FOOTBALLMANAGER",
+        "KARAOKEBAR",
+        "TROT",
+        "BONFIRE",
+        "SKULLGIRLS"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 047",
+      "words": [
+        "DEPARTMENTSTORE",
+        "ACCELERATOR",
+        "DRIVINGSAFE",
+        "COZY",
+        "CLEAN",
+        "DANCE",
+        "FALLGUYS",
+        "BUNKER",
+        "ELDENRING",
+        "RIDING",
+        "CADILLAC",
+        "COBWEB"
+      ]
+    },
+    {
+      "name": "Golf Puzzle 048",
+      "words": [
+        "SMILE",
+        "NEWKIDS",
+        "FANART",
+        "CONTROLARM",
+        "COUCH",
+        "CARSEATCOVER",
+        "AIRFILTER",
+        "STICKERBOOK",
+        "DENIM",
+        "PHONEBOOK",
+        "DELIVERYVAN",
+        "CAMPOUT"
+      ]
+    }
+  ],
+  "detected_topic": "Sports and Hobbies",
+  "recommended_palette": "sports",
+  "recommended_cover_style": "bold",
+  "clipart_search_terms": "Sports and Hobbies Quiltblock Bonjovi Harrystyles illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Standard",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "Sports and Hobbies",
+      "General Interest",
+      "Pop Culture & Entertainment",
+      "Video Games & Gaming",
+      "Vehicles & Automotive"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "Sports and Hobbies"
+    ],
+    "checked_at": "2026-08-22T10:08:39"
+  }
+}

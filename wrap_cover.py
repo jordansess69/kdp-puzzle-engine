@@ -8,6 +8,7 @@ import argparse, os, textwrap
 from PIL import Image, ImageDraw, ImageFont
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import inch
+from cover import PALETTES as FRONT_COVER_PALETTES
 
 PALETTES = {
     "nature":    {"bg": (244, 239, 226), "accent": (107, 142, 107), "deep": (46, 70, 48),  "mute": (120, 134, 116)},
@@ -20,6 +21,34 @@ PALETTES = {
     "sudoku":    {"bg": (237, 242, 249), "accent": (72, 104, 156),  "deep": (22, 41, 78),  "mute": (108, 122, 148)},
     "maze":      {"bg": (238, 244, 236), "accent": (74, 122, 86),   "deep": (26, 58, 40),  "mute": (110, 130, 116)},
     "beach-vacation": {"bg": (250, 243, 228), "accent": (40, 138, 158), "deep": (16, 54, 78), "mute": (104, 128, 142)},
+    "sunset":    {"bg": (255, 241, 224), "accent": (235, 101, 86), "deep": (74, 49, 70), "mute": (145, 92, 90)},
+    "ocean-breeze": {"bg": (234, 248, 247), "accent": (42, 153, 169), "deep": (22, 64, 91), "mute": (83, 126, 143)},
+    "lavender-pop": {"bg": (248, 240, 255), "accent": (143, 104, 204), "deep": (69, 51, 101), "mute": (125, 103, 151)},
+    "candy-pop": {"bg": (255, 244, 241), "accent": (232, 92, 132), "deep": (78, 53, 88), "mute": (149, 100, 122)},
+    "neon-arcade": {"bg": (24, 21, 52), "accent": (255, 71, 154), "deep": (250, 244, 255), "mute": (184, 177, 211)},
+    "midnight-gold": {"bg": (24, 31, 48), "accent": (211, 164, 69), "deep": (248, 242, 224), "mute": (160, 170, 187)},
+    "berry-blush": {"bg": (255, 240, 244), "accent": (194, 62, 100), "deep": (83, 35, 58), "mute": (150, 96, 118)},
+    "forest-cabin": {"bg": (238, 238, 219), "accent": (75, 111, 76), "deep": (38, 63, 43), "mute": (113, 129, 97)},
+    "desert-sun": {"bg": (255, 239, 211), "accent": (199, 91, 49), "deep": (93, 51, 41), "mute": (156, 106, 83)},
+    "coastal-blue": {"bg": (235, 247, 250), "accent": (43, 126, 164), "deep": (25, 66, 93), "mute": (100, 137, 151)},
+    "autumn-harvest": {"bg": (250, 237, 211), "accent": (181, 79, 37), "deep": (92, 52, 32), "mute": (144, 104, 70)},
+    "winter-frost": {"bg": (239, 248, 252), "accent": (77, 143, 177), "deep": (34, 66, 91), "mute": (112, 144, 161)},
+    "spring-meadow": {"bg": (245, 250, 230), "accent": (100, 160, 81), "deep": (45, 83, 52), "mute": (124, 151, 101)},
+    "royal-plum": {"bg": (247, 239, 250), "accent": (117, 60, 139), "deep": (64, 34, 79), "mute": (132, 98, 143)},
+    "espresso-cream": {"bg": (247, 238, 222), "accent": (126, 83, 53), "deep": (63, 42, 31), "mute": (134, 112, 91)},
+    "tropical-pop": {"bg": (255, 244, 209), "accent": (25, 153, 142), "deep": (26, 75, 88), "mute": (84, 144, 136)},
+    "holly-jolly": {"bg": (247, 244, 232), "accent": (184, 42, 50), "deep": (31, 91, 58), "mute": (112, 132, 101)},
+    "spooky-night": {"bg": (30, 25, 48), "accent": (238, 112, 39), "deep": (245, 238, 210), "mute": (151, 126, 174)},
+    "valentine-rose": {"bg": (255, 239, 244), "accent": (207, 52, 95), "deep": (111, 34, 61), "mute": (165, 105, 127)},
+    "easter-pastel": {"bg": (250, 246, 230), "accent": (115, 159, 201), "deep": (80, 78, 117), "mute": (151, 142, 169)},
+    "patriotic": {"bg": (247, 245, 238), "accent": (181, 46, 57), "deep": (35, 65, 117), "mute": (107, 122, 144)},
+}
+# The wrap should always use the same palette library as the front cover.
+# Deriving it here prevents a new color option from working on the front while
+# silently falling back to nature on the back/spine.
+PALETTES = {
+    name: {key: colors[key] for key in ("bg", "accent", "deep", "mute")}
+    for name, colors in FRONT_COVER_PALETTES.items()
 }
 
 ARIALB = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
@@ -34,10 +63,23 @@ DPI = 300
 
 
 def f(path, size):
-    try:
-        return ImageFont.truetype(path, size)
-    except Exception:
-        return ImageFont.truetype(ARIALB, size)
+    """Load a sensible font on macOS, Windows, or a bundled Python runtime."""
+    windows_fonts = os.path.join(os.environ.get("WINDIR", r"C:\\Windows"), "Fonts")
+    bold = "Bold" in path or path == GEORGIA
+    candidates = [
+        path,
+        os.path.join(windows_fonts, "georgiab.ttf") if path == GEORGIA else "",
+        os.path.join(windows_fonts, "arialbd.ttf" if bold else "arial.ttf"),
+        "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf",
+    ]
+    for candidate in candidates:
+        if not candidate:
+            continue
+        try:
+            return ImageFont.truetype(candidate, size)
+        except OSError:
+            continue
+    return ImageFont.load_default()
 
 
 def main():
@@ -48,7 +90,9 @@ def main():
     ap.add_argument("--title", required=True)
     ap.add_argument("--author", default="Evergreen Puzzle Press")
     ap.add_argument("--back", required=True, help="back cover blurb text")
+    ap.add_argument("--back-heading", default="A WORD SEARCH JOURNEY", help="short, reader-facing heading for the back cover")
     ap.add_argument("--out", required=True)
+    ap.add_argument("--preview-out", help="optional smaller PNG preview of the full KDP wrap")
     a = ap.parse_args()
 
     spine_in = a.pages * SPINE_FACTOR
@@ -121,24 +165,26 @@ def main():
     # --- BACK (left) ---
     # Mirror the front's bleed treatment on the left side
     d.rectangle([0, 0, back_x1, full_h_px], fill=bg)
-    # decorative border (inside safe area, not into bleed)
+    # A restrained editorial back cover: one fine border and a small accent bar.
     safe_pad = int(0.375 * DPI)  # 0.375" inside trim edge → comfortably inside KDP's 0.25" safe margin
     bx0, by0 = bleed_px + safe_pad, bleed_px + safe_pad
     bx1, by1 = back_x1 - safe_pad, full_h_px - bleed_px - safe_pad
-    d.rectangle([bx0, by0, bx1, by1], outline=accent, width=6)
-    d.rectangle([bx0 + 24, by0 + 24, bx1 - 24, by1 - 24], outline=accent, width=2)
+    d.rectangle([bx0, by0, bx1, by1], outline=accent, width=4)
+    d.rectangle([bx0, by0, bx1, by0 + 22], fill=accent)
 
     # back blurb title
     btf = f(GEORGIA, 88)
-    blurb_title = "ABOUT THIS BOOK"
+    blurb_title = a.back_heading.upper()
+    while d.textlength(blurb_title, font=btf) > trim_w_px - 2 * safe_pad and btf.size > 42:
+        btf = f(GEORGIA, btf.size - 2)
     btw = d.textlength(blurb_title, font=btf)
     d.text((bleed_px + (trim_w_px - btw) // 2, by0 + 110), blurb_title, font=btf, fill=deep)
     # divider
     d.line([(bleed_px + trim_w_px // 2 - 200, by0 + 230),
             (bleed_px + trim_w_px // 2 + 200, by0 + 230)], fill=accent, width=4)
 
-    # body text — wrap with PIL textlength
-    body_font = f(ARIAL, 56)
+    # Body text uses headings supplied by the topic-aware blurb.
+    body_font = f(ARIAL, 50)
     body_color = deep
     text_w = trim_w_px - 2 * (safe_pad + 80)
     text_x = bleed_px + safe_pad + 80
@@ -159,9 +205,17 @@ def main():
             lines.append(cur)
         return lines
 
-    for ln in wrap_text(a.back, body_font, text_w):
-        d.text((text_x, text_y), ln, font=body_font, fill=body_color)
-        text_y += int(body_font.size * 1.35)
+    for section in [part.strip() for part in a.back.split("\n\n") if part.strip()]:
+        is_heading = section.isupper() and len(section) < 34
+        if is_heading:
+            heading_font = f(ARIALB, 34)
+            d.text((text_x, text_y), section, font=heading_font, fill=accent)
+            text_y += 60
+            continue
+        for ln in wrap_text(section, body_font, text_w):
+            d.text((text_x, text_y), ln, font=body_font, fill=body_color)
+            text_y += int(body_font.size * 1.31)
+        text_y += 35
 
     # imprint at bottom of back
     pf = f(ARIALB, 56)
@@ -177,16 +231,19 @@ def main():
     bc_margin = int(0.25 * DPI)
     bc_y1 = (full_h_px - bleed_px) - bc_margin       # bottom edge (above the bottom trim)
     bc_y0 = bc_y1 - bc_h
-    # Clear BOTH bottom corners of the back panel so the barcode zone is white
-    # whichever corner Amazon uses (and cover the decorative border there).
+    # Reserve one standard barcode zone at the lower-right of the back panel.
+    # The additional outer-corner box previously used here looked like a
+    # template artifact in the preview and is not needed for KDP's placement.
     # right/spine-side corner:
     d.rectangle([back_x1 - bc_margin - bc_w, bc_y0, back_x1 - bc_margin, bc_y1], fill=(255, 255, 255))
-    # left/outer corner:
-    d.rectangle([bleed_px + bc_margin, bc_y0, bleed_px + bc_margin + bc_w, bc_y1], fill=(255, 255, 255))
 
     # Save high-res PNG, then wrap into a PDF at exact physical size
     tmp_png = a.out.replace(".pdf", "_full.png")
     img.save(tmp_png, "PNG", dpi=(DPI, DPI))
+    if a.preview_out:
+        preview = img.copy()
+        preview.thumbnail((1800, 1050), Image.LANCZOS)
+        preview.save(a.preview_out, "PNG")
 
     c = canvas.Canvas(a.out, pagesize=(full_w_in * inch, full_h_in * inch))
     c.drawImage(tmp_png, 0, 0, width=full_w_in * inch, height=full_h_in * inch)

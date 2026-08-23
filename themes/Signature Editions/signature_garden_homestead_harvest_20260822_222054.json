@@ -1,0 +1,1742 @@
+{
+  "title": "Garden, Homestead and Harvest Word Search - Signature Edition",
+  "subtitle": "100 large-print puzzles for gardeners, homesteaders and makers",
+  "author": "Slade Puzzles",
+  "series": "Signature Editions: Food and Home",
+  "series_rank": 1,
+  "audience": "Adults and Teens",
+  "palette": "spring-meadow",
+  "cover_style": "photo",
+  "recommended_palette": "spring-meadow",
+  "recommended_cover_style": "photo",
+  "cover_badge": "100 LARGE-PRINT PUZZLES - NO REPEATED WORDS",
+  "cover_imprint": "Slade Puzzles",
+  "no_repeat_words": true,
+  "difficulty_label": "Relaxing",
+  "detected_topic": "Gardening and Homesteading",
+  "source_word_bank": {
+    "name": "Guided Builder Master Word Bank",
+    "topics": [
+      "Gardening and Garden Life",
+      "Homesteading"
+    ]
+  },
+  "cover_art_path": "cover_assets/background_photos/gardening_vegetables_v3.png",
+  "cover_art_focus": "center",
+  "clipart_search_terms": "garden homestead harvest vegetables orchard farmhouse",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Garden and Homestead Discovery Passport",
+    "achievement_title": "Harvest Keeper",
+    "achievement_message": "Complete the collection one satisfying puzzle at a time.",
+    "facts_title": "DISCOVER MORE",
+    "fact_cards": [
+      "A healthy garden can grow food, flowers, herbs, and habitat for pollinators in the same small space.",
+      "Preserving a harvest can include drying, freezing, pickling, fermenting, or canning food.",
+      "Compost returns useful organic material to the soil and can support healthy garden beds."
+    ]
+  },
+  "draft": true,
+  "puzzles": [
+    {
+      "name": "Gardening and Homesteading Puzzle 001",
+      "words": [
+        "GARDENRECYCLE",
+        "LILAC",
+        "ROOF",
+        "FRUITPRESS",
+        "GARDENLAYOUT",
+        "SEEDTRAY",
+        "PANTRYJAR",
+        "COBWEB",
+        "NASTURTIUM",
+        "WATERINGCANISTER",
+        "HONEYSUCKLE",
+        "VINEGAR"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 002",
+      "words": [
+        "DRYINGRACK",
+        "SOILBLOCK",
+        "SOURDOUGHSTARTER",
+        "RADISH",
+        "FEVERFEW",
+        "BEETSOUP",
+        "GARDENSTORAGE",
+        "KITCHENRACK",
+        "HANDMADE",
+        "SOILMIX",
+        "CHICKENFEED",
+        "FOXGLOVE"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 003",
+      "words": [
+        "GREENHOUSEBENCH",
+        "WEEDER",
+        "COMPOST",
+        "SHADEGARDEN",
+        "LETTUCELEAF",
+        "HUMMINGBIRD",
+        "CLEMATIS",
+        "RAINWATER",
+        "STRAWBASKET",
+        "CALF",
+        "HORSEFEED",
+        "CREAMSEPARATOR"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 004",
+      "words": [
+        "JAMCROCK",
+        "LAMBSWOOL",
+        "SOILCOVER",
+        "GRAPESHOT",
+        "GOAT",
+        "GARDENPATH",
+        "SOAPMAKING",
+        "OILSEED",
+        "GARDENER",
+        "ELDERFLOWER",
+        "AQUAPONICS",
+        "SAP"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 005",
+      "words": [
+        "VEGETABLEPLOT",
+        "LANTANA",
+        "WATERFILTER",
+        "BLANKET",
+        "CHEESECURD",
+        "HYACINTH",
+        "DISTILLING",
+        "HANDMIXER",
+        "HOEING",
+        "TURNIP",
+        "HOLLYHOCK",
+        "GOATKID"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 006",
+      "words": [
+        "PEACHORCHARD",
+        "SHELFSTABLE",
+        "WATERINGBUCKET",
+        "KETTLE",
+        "STALL",
+        "FARMKITCHEN",
+        "COMPOSTHEAP",
+        "BUTTERMAKING",
+        "BAKINGPAN",
+        "PIGFEED",
+        "DAIRYING",
+        "SQUASHVINE"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 007",
+      "words": [
+        "KNIFEHANDLE",
+        "APPLEBUTTER",
+        "TRANSPLANTSHOCK",
+        "RURALMARKET",
+        "LARDER",
+        "WORMFARM",
+        "PORKCHOP",
+        "SILAGE",
+        "CHRYSANTHEMUM",
+        "HANDPUMP",
+        "PASTURELAND",
+        "TANSY"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 008",
+      "words": [
+        "ANEMONE",
+        "CHEESEWHEEL",
+        "SEEDDRILL",
+        "AMARYLLIS",
+        "BANNETON",
+        "GARDENLIGHT",
+        "OREGANO",
+        "SOLARWATER",
+        "PRODUCEBOX",
+        "SHINGLE",
+        "MEATPRESERVE",
+        "KIWI"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 009",
+      "words": [
+        "FRUITPIE",
+        "TRANSPLANT",
+        "MALLOW",
+        "PEACH",
+        "HOMEGROWN",
+        "GARDENRAKE",
+        "CHEESEPRESS",
+        "PLANTNURSERY",
+        "BEGONIA",
+        "ESPALIER",
+        "HOMEBREW",
+        "RAISEDBED"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 010",
+      "words": [
+        "BED",
+        "THRESHING",
+        "KALANCHOE",
+        "ROCKGARDEN",
+        "HANDCULTIVATOR",
+        "SNOWDROP",
+        "ORGANICGARDEN",
+        "BAYLEAF",
+        "HEUCHERA",
+        "WINDOWBOX",
+        "DUCKEGG",
+        "ACANTHUS"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 011",
+      "words": [
+        "SALT",
+        "CINNAMON",
+        "WATERINGCAN",
+        "EGGWASH",
+        "VIOLET",
+        "CULTIVATOR",
+        "GOATBUTTER",
+        "HERBALBATH",
+        "PLANTDIVIDER",
+        "WATERHOSE",
+        "HANDSPADE",
+        "DEEPWATERING"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 012",
+      "words": [
+        "AGAPANTHUS",
+        "RYE",
+        "CORNCRIB",
+        "LINEN",
+        "TOMATILLO",
+        "CATTAIL",
+        "EMERGENCYLANTERN",
+        "CARAWAY",
+        "RURALCRAFT",
+        "FROSTCLOTH",
+        "COWBELL",
+        "JELLYJAR"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 013",
+      "words": [
+        "BARNWOOD",
+        "LANDSCAPING",
+        "LINENCLOTH",
+        "COMPOSTTEA",
+        "FARMHOUSEBREAD",
+        "WOODLOT",
+        "SEEDSTARTER",
+        "CREEPINGTHYME",
+        "WINDBREAK",
+        "HAYLOFT",
+        "WATERSTORAGE",
+        "GARDENCOMPOST"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 014",
+      "words": [
+        "GARLIC",
+        "TRAILERING",
+        "PEONY",
+        "GARDENHARVEST",
+        "FARMJOURNAL",
+        "SPINNER",
+        "GOATSKIN",
+        "DEHYDRATING",
+        "NATIVEFLOWER",
+        "LADYBUG",
+        "SOLARBATTERY",
+        "CAPE"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 015",
+      "words": [
+        "MORNINGGLORY",
+        "TOMATO",
+        "BLOOM",
+        "BALCONYGARDEN",
+        "SILO",
+        "MAPLEWOOD",
+        "FRESHCREAM",
+        "SYRUP",
+        "FENNEL",
+        "APPLECIDER",
+        "WOODLAND",
+        "BOXWOOD"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 016",
+      "words": [
+        "BLACKEYEDSUSAN",
+        "GARDENHELPER",
+        "SUNFLOWERSEED",
+        "ONION",
+        "BACKYARDGARDEN",
+        "SWEETWILLIAM",
+        "TRELLISWIRE",
+        "LIVESTOCKPEN",
+        "INDOORPLANT",
+        "PLANTLABEL",
+        "CARROTPATCH",
+        "BACKYARDCHICKENS"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 017",
+      "words": [
+        "BROODHEN",
+        "SORREL",
+        "HORSEBRUSH",
+        "ORCHARDROW",
+        "INCUBATORTRAY",
+        "COLOSTRUM",
+        "HOSENOZZLE",
+        "PRESERVES",
+        "CALENDULA",
+        "FLATBREAD",
+        "STRAWBROOM",
+        "PARSNIP"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 018",
+      "words": [
+        "BLOSSOM",
+        "EGGGATHERING",
+        "COWPASTURE",
+        "FENCEPOST",
+        "SEDUM",
+        "CELLAR",
+        "WOODBUCKET",
+        "RURALMAILBOX",
+        "GARDENPOT",
+        "FRUITCAKE",
+        "PLANTSTAKE",
+        "MICROGREEN"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 019",
+      "words": [
+        "FLOWERSEED",
+        "APPLEBLOSSOM",
+        "SUNFLOWER",
+        "POTTINGTABLE",
+        "SMOKEMEAT",
+        "WEIGELA",
+        "KNEADING",
+        "HERBSPIRAL",
+        "WOODFRAME",
+        "DUCKPOND",
+        "SEEDLABEL",
+        "BARNFLOOR"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 020",
+      "words": [
+        "STRAWHAT",
+        "ARTICHOKE",
+        "LOGPILE",
+        "TACKROOM",
+        "PERIWINKLE",
+        "LOTUS",
+        "DAIRYCOW",
+        "APRICOTTREE",
+        "IRONPOT",
+        "CHEESEBOARD",
+        "FLOWERFARM",
+        "NICOTIANA"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 021",
+      "words": [
+        "HORSECART",
+        "SUGARHOUSE",
+        "BREADPROOF",
+        "FARMHOUSECHEESE",
+        "YARDBIRD",
+        "VINE",
+        "ARBORVITAE",
+        "SEEDBED",
+        "SOILTEST",
+        "LIVESTOCKGUARD",
+        "GARDENPRUNER",
+        "FLOWERBORDER"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 022",
+      "words": [
+        "SOIL",
+        "GOATBARN",
+        "COMPOSTPILE",
+        "GARDENSTORE",
+        "CUTTINGGARDEN",
+        "CHEESEMAKING",
+        "RURALCRAFTS",
+        "SHOVELFUL",
+        "TRACHELIUM",
+        "IRIS",
+        "GARDENWORKSHOP",
+        "MONARDA"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 023",
+      "words": [
+        "TRANSPLANTING",
+        "DILL",
+        "HERBALTEA",
+        "SHEEPFLOCK",
+        "TOPSOIL",
+        "TOOLSHED",
+        "ROPECOIL",
+        "WINDVANE",
+        "CORNSTALK",
+        "HOMESTEADKITCHEN",
+        "SEEDEXCHANGE",
+        "PRIMULA"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 024",
+      "words": [
+        "WATERBARREL",
+        "TRACTORSEAT",
+        "DELPHINIUM",
+        "BEEKEEPER",
+        "FISHPOND",
+        "MAGNOLIA",
+        "FOODCELLAR",
+        "PLANTFOOD",
+        "MEADOWMINT",
+        "HANDTROWEL",
+        "DIANELLA",
+        "PARSLEY"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 025",
+      "words": [
+        "JAMJAR",
+        "SUCCULENTGARDEN",
+        "GARDENLATTICE",
+        "FORKHANDLE",
+        "GREENBEAN",
+        "CLAYPOT",
+        "ARBOR",
+        "WOODBOX",
+        "BUCKWHEAT",
+        "SHEEP",
+        "FORAGECROP",
+        "ORCHID"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 026",
+      "words": [
+        "APPLESAUCE",
+        "FLOWERPOT",
+        "BEET",
+        "LUPINE",
+        "VEGETABLE",
+        "GARDENKNIFE",
+        "REEL",
+        "SEEDCOAT",
+        "CAMPANULA",
+        "OXALIS",
+        "CASTIRONPAN",
+        "DRYING"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 027",
+      "words": [
+        "HORSE",
+        "SEEDLINGRACK",
+        "OKRA",
+        "CISTUS",
+        "POULTRYHOUSE",
+        "SELFRELIANCE",
+        "MUSHROOMLOG",
+        "GREENHOUSEPOT",
+        "HOSTA",
+        "FOODPRESERVER",
+        "GARDENPOND",
+        "HONEYJAR"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 028",
+      "words": [
+        "POLLINATORS",
+        "PRESERVING",
+        "SOAPDISH",
+        "CAULIFLOWER",
+        "BROOD",
+        "HANDFORK",
+        "WOODLANDGARDEN",
+        "FARMHOUSEGARDEN",
+        "GREENHOUSEGLASS",
+        "CELANDINE",
+        "FARMANIMAL",
+        "GOATWOOL"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 029",
+      "words": [
+        "BARNBOARD",
+        "COLDSMOKE",
+        "RABBITRY",
+        "GOATS",
+        "AGROTEK",
+        "PLANTNUTRITION",
+        "CISTERN",
+        "SOILAMENDMENT",
+        "PRUNINGKNIFE",
+        "SANTOLINA",
+        "WOODCHIPMULCH",
+        "MILKGOAT"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 030",
+      "words": [
+        "PURSLANE",
+        "SORGHUM",
+        "FREESIA",
+        "WATERGAUGE",
+        "WICKER",
+        "VINCA",
+        "SHED",
+        "BOKCHOY",
+        "FARMLEDGER",
+        "BUTTERMOLD",
+        "YARROW",
+        "SAWDUST"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 031",
+      "words": [
+        "GREENHOUSEFAN",
+        "HONEYBEE",
+        "WHEATFIELD",
+        "WORKSHOP",
+        "BARNCAT",
+        "WILDCRAFTING",
+        "HERD",
+        "WOODLANDFARM",
+        "RAINCHAIN",
+        "GARDENBORDER",
+        "FLOWERBED",
+        "MARKETGARDEN"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 032",
+      "words": [
+        "DESERTGARDEN",
+        "BREADBOX",
+        "GARDENROOM",
+        "SEEDSTARTING",
+        "CHAMOMILE",
+        "WOOLCARDER",
+        "HERBGARDEN",
+        "ACHILLEA",
+        "PASTUREGATE",
+        "ENAMELWARE",
+        "HAYFIELD",
+        "HARVESTMEAL"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 033",
+      "words": [
+        "IRRIGATION",
+        "OUTDOORFARM",
+        "CHICKENHOUSE",
+        "WHEAT",
+        "FIELDCROP",
+        "GRAPEVINE",
+        "GARDENCOMPANION",
+        "HAYWAGON",
+        "WEEDINGTOOL",
+        "COWHIDE",
+        "TRELLISNET",
+        "LOAFPAN"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 034",
+      "words": [
+        "PLANTCADDY",
+        "BUTTERCUP",
+        "REDBARN",
+        "OFFGRID",
+        "HEDGEROW",
+        "AGRICULTURE",
+        "LEGHORN",
+        "SOILNUTRITION",
+        "LAMIUM",
+        "JAR",
+        "CHIVE",
+        "PEARORCHARD"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 035",
+      "words": [
+        "CHEESECLOTH",
+        "ELDERBERRY",
+        "APPLEORCHARD",
+        "AGROFORESTRY",
+        "PIGSTY",
+        "FARMHAND",
+        "SHEEPFEED",
+        "FIELD",
+        "APIARYBOX",
+        "GLADIOLUS",
+        "STATICE",
+        "GREENMANURE"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 036",
+      "words": [
+        "DIGGING",
+        "MEADOW",
+        "WATERCRESS",
+        "SEMPERVIVUM",
+        "DAIRYMAID",
+        "LEEK",
+        "MELON",
+        "SOILMOISTURE",
+        "GARDENPUMP",
+        "SOAPMOLD",
+        "HONEYCOMB",
+        "LOVAGE"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 037",
+      "words": [
+        "PANTRY",
+        "SQUASHPATCH",
+        "MILKINGPARLOR",
+        "ALLIUM",
+        "SALTBOX",
+        "PECAN",
+        "FARMWAGON",
+        "GARDENBASKET",
+        "FARMPATH",
+        "LETTUCE",
+        "MASONJAR",
+        "ACREAGE"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 038",
+      "words": [
+        "BEESWING",
+        "CROPPATCH",
+        "WOOL",
+        "GARDENHOSE",
+        "BLUEBERRY",
+        "WILDFLOWER",
+        "BULBPLANT",
+        "LAVENDER",
+        "GARLICBULB",
+        "CLAYOVEN",
+        "GRAINCART",
+        "TROWEL"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 039",
+      "words": [
+        "HERBSALT",
+        "CONTAINERGARDEN",
+        "PAMPASGRASS",
+        "RASPBERR",
+        "GERMINATION",
+        "EGGPLANT",
+        "MARJORAM",
+        "CREAMERY",
+        "CANNINGBATH",
+        "WEEDPULLER",
+        "PICKLEDCORN",
+        "PETUNIA"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 040",
+      "words": [
+        "FOLIAGE",
+        "COTTAGEGARDEN",
+        "YARDLONGBEAN",
+        "CILANTRO",
+        "GOATMILKSOAP",
+        "HARVEST",
+        "SQUASH",
+        "RASPBERRY",
+        "CONTAINERPLANT",
+        "QUILTMAKING",
+        "MEATGOAT",
+        "BERRY"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 041",
+      "words": [
+        "DANDELION",
+        "XERISCAPE",
+        "ALYSSUM",
+        "SALSIFY",
+        "EGGBASKET",
+        "CANNINGFUNNEL",
+        "FIG",
+        "LEUCANTHEMUM",
+        "WISTERIA",
+        "YARNSPINNER",
+        "GRAINBIN",
+        "GARDENINGBOOK"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 042",
+      "words": [
+        "PRUNING",
+        "COWSMILK",
+        "SEEDPACKET",
+        "ORCHARDGATE",
+        "GOURD",
+        "FIREPITSTONE",
+        "STRINGBEAN",
+        "GRAPE",
+        "FENCEGATE",
+        "SHEARING",
+        "PASTURE",
+        "PEPPER"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 043",
+      "words": [
+        "GARDENJOURNAL",
+        "BARNYARD",
+        "WEEDCONTROL",
+        "CHICKENCOOP",
+        "LONGHORN",
+        "HAYBALE",
+        "PRESSUREJAR",
+        "HONEYEXTRACTOR",
+        "SWEETPEA",
+        "WATERMELON",
+        "GARDENMARKER",
+        "TULIPBULB"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 044",
+      "words": [
+        "TOOL",
+        "POTTINGBENCH",
+        "CLOTHESLINE",
+        "OUTDOOROVEN",
+        "CARNATION",
+        "LINARIA",
+        "VEGETABLECELLAR",
+        "BROODYHEN",
+        "PULSATILLA",
+        "PINECONE",
+        "PRESSURELID",
+        "GAILLARDIA"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 045",
+      "words": [
+        "BRUSSELSPROUT",
+        "RHUBARBPATCH",
+        "ONIONBRAID",
+        "HILLSIDEGARDEN",
+        "COOPCRAFT",
+        "HONEYHOUSE",
+        "INCUBATOR",
+        "DOOR",
+        "BEEHIVE",
+        "HOSE",
+        "SHEEPMILK",
+        "SUGAR"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 046",
+      "words": [
+        "WATERWELL",
+        "NURSERYBED",
+        "GRANARY",
+        "SUGARING",
+        "ELECTRICFENCE",
+        "POULTRYBARN",
+        "GERANIUM",
+        "MOLASSES",
+        "FLOWERGARDEN",
+        "PRAIRIEGARDEN",
+        "MOONSHINE",
+        "ROSEBUSH"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 047",
+      "words": [
+        "GARDENPLOT",
+        "COSMOS",
+        "BUCKET",
+        "SOILFERTILITY",
+        "PEACHTREE",
+        "FOODDEHYDRATOR",
+        "ROOSTER",
+        "GRIDDLE",
+        "ECHINACEA",
+        "OLIVEOIL",
+        "GROWLIGHT",
+        "WOOLSPINNER"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 048",
+      "words": [
+        "SWEETBASIL",
+        "PLUM",
+        "DOUGHBOX",
+        "MULCH",
+        "CHORES",
+        "FEEDSTORE",
+        "BARLEYFIELD",
+        "SEEDTAPE",
+        "SOILHEALTH",
+        "THYME",
+        "SHEEPFOLD",
+        "GARDENWORKGLOVES"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 049",
+      "words": [
+        "HONEYPOT",
+        "FLOCK",
+        "HORSEBLANKET",
+        "FLAXSEED",
+        "KNITWEAR",
+        "HOLLY",
+        "PEATPOT",
+        "SPRINKLER",
+        "APRICOT",
+        "PIGS",
+        "DUCKHOUSE",
+        "SOURDOUGHLOAF"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 050",
+      "words": [
+        "WATERBUCKET",
+        "STOCKTANK",
+        "OATMEAL",
+        "VEGETABLEGARDEN",
+        "CROPTUNNEL",
+        "PICKLINGCROCK",
+        "AMARANTH",
+        "HIVELID",
+        "MILKPAIL",
+        "KITCHENKNIFE",
+        "CAGE",
+        "PENSTEMON"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 051",
+      "words": [
+        "MAHONIA",
+        "TOOLRACK",
+        "COLDBOX",
+        "PLANT",
+        "GREENHOUSE",
+        "QUINCE",
+        "GROUNDNUT",
+        "COFFEEGRINDER",
+        "FIGTREE",
+        "SUNFLOWERFIELD",
+        "RAINCOAT",
+        "CHARD"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 052",
+      "words": [
+        "FIREPIT",
+        "SOILTESTER",
+        "WATERPUMP",
+        "CANNINGJAR",
+        "CROPROTATION",
+        "SPRINGWATER",
+        "SEEDLING",
+        "SUNROOM",
+        "APRON",
+        "LIMONIUM",
+        "HOMESTEAD",
+        "SEEDLINGPOT"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 053",
+      "words": [
+        "JAM",
+        "SEEDVAULT",
+        "CORN",
+        "DAHLIA",
+        "LOGCABIN",
+        "SEEDCOUNT",
+        "STACHYS",
+        "FUCHSIA",
+        "LINT",
+        "TERRACEGARDEN",
+        "ORCHARDTREE",
+        "CANNINGRACK"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 054",
+      "words": [
+        "DOORLATCH",
+        "SPRINGBULB",
+        "WOOLMILL",
+        "APIARY",
+        "COBOVEN",
+        "HORSEBARN",
+        "GERMINATIONTEST",
+        "MARIGOLDBED",
+        "HONEYSTRAINER",
+        "RANUNCULUS",
+        "PICKLINGJAR",
+        "BARNCLEANING"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 055",
+      "words": [
+        "TINROOF",
+        "PLOW",
+        "ANNUAL",
+        "JERSEYCOW",
+        "LIVESTOCK",
+        "KITCHENPANTRY",
+        "CUCUMBERVINE",
+        "COUNTRYSIDE",
+        "VALERIAN",
+        "SUSTAINABLE",
+        "CANNER",
+        "MEADOWLAND"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 056",
+      "words": [
+        "GARDENBOOTS",
+        "FARMYARD",
+        "MARIGOLD",
+        "ZUCCHINI",
+        "EGG",
+        "DAIRY",
+        "SOLAROVEN",
+        "GARDENWALL",
+        "PRODUCEFARM",
+        "CABBAGEROW",
+        "CORIANDER",
+        "MULCHBED"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 057",
+      "words": [
+        "SHOVEL",
+        "MINT",
+        "SMOKEHOUSE",
+        "PRODUCECART",
+        "CHICKENWIRE",
+        "CROPS",
+        "FOODSTORAGE",
+        "PANSY",
+        "GARDENWORK",
+        "GARDENIA",
+        "SOLARPANEL",
+        "HONEYGATE"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 058",
+      "words": [
+        "RAKE",
+        "ROOTCELLER",
+        "SPICEJAR",
+        "FORAGE",
+        "BROODER",
+        "BORDER",
+        "HEN",
+        "LARKSPUR",
+        "GREENHOUSEPLANT",
+        "WORKBOOTS",
+        "NETTLE",
+        "STEVIA"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 059",
+      "words": [
+        "DAIRYGOAT",
+        "FIELDPEAS",
+        "WALLFLOWER",
+        "COBBLESTONE",
+        "BARNRAISER",
+        "SHISO",
+        "WAXSEAL",
+        "DRIPPER",
+        "EGGCARTON",
+        "EUPHORBIA",
+        "ESCAROLE",
+        "BARNLIGHT"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 060",
+      "words": [
+        "PLANTPOT",
+        "GOATSOAP",
+        "CLIMBINGROSE",
+        "CUCUMBER",
+        "POND",
+        "BEETROOT",
+        "BEEKEEPING",
+        "WINDCHARGER",
+        "CAULDRON",
+        "PASSIONFLOWER",
+        "CYCLAMEN",
+        "WOODPLANK"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 061",
+      "words": [
+        "KITCHENCLOTH",
+        "SPINNINGWHEEL",
+        "GARDENINGGLOVES",
+        "BORDERPLANT",
+        "PERENNIAL",
+        "HARVESTMOON",
+        "PHLOX",
+        "FARMTABLE",
+        "GARDENPRODUCE",
+        "SOILCOMPOST",
+        "ARBUTUS",
+        "NEPETA"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 062",
+      "words": [
+        "HAYRACK",
+        "FRUITSTAND",
+        "TRELLIS",
+        "ARONIA",
+        "MIX",
+        "LIVINGOFFLAND",
+        "VEGETABLEBED",
+        "OATFIELD",
+        "EVERGREEN",
+        "BREADMAKING",
+        "HARVESTBASKET",
+        "SCALLION"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 063",
+      "words": [
+        "PLOWSHARE",
+        "WOODASH",
+        "CANNINGWEIGHT",
+        "KALEIDOSCOPE",
+        "HONEYFRAME",
+        "SCABIOSA",
+        "FARMHOUSE",
+        "HERBALVINE",
+        "GREENHOUSETOOL",
+        "HOMESTEADWORK",
+        "CLOVER",
+        "PLUMTREE"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 064",
+      "words": [
+        "STRAWBERRY",
+        "SHEEPDOG",
+        "MAPLE",
+        "BOTTLING",
+        "GROWER",
+        "GARDENMULCH",
+        "PRUNINGSHEARS",
+        "WAXCLOTH",
+        "GREENHOUSEHEAT",
+        "MULCHLAYER",
+        "OATMILK",
+        "CHICKENBROTH"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 065",
+      "words": [
+        "CANNING",
+        "HOMESTEADMEAL",
+        "FRESHBREAD",
+        "FOODCO",
+        "RANCHHOUSE",
+        "LIME",
+        "WOODCHIP",
+        "LYSIMACHIA",
+        "POULTRYRUN",
+        "PITTOSPORUM",
+        "WATERINGGAUGE",
+        "CANNINGPOT"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 066",
+      "words": [
+        "YUCCA",
+        "HOMESTEADLIVING",
+        "CROP",
+        "GARDENFOUNTAIN",
+        "TEA",
+        "ELMWOOD",
+        "ACORN",
+        "GARDENFENCE",
+        "TREE",
+        "GOATMILK",
+        "CELOSIA",
+        "BEANSTALK"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 067",
+      "words": [
+        "BELLPEPPER",
+        "CANNINGWAX",
+        "WATERBUTT",
+        "WINDOWSILL",
+        "BARNBEAM",
+        "COLEUS",
+        "HORSEPASTURE",
+        "WORMBIN",
+        "TABLEGARDEN",
+        "BERGAMOT",
+        "GERMINATE",
+        "RUTABAGA"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 068",
+      "words": [
+        "FARMSTEAD",
+        "NURSERY",
+        "GARDENPLAN",
+        "STOCKYARD",
+        "OUTDOORGRILL",
+        "FARMFRESH",
+        "CATTLEGUARD",
+        "TOOLBELT",
+        "DAYLILY",
+        "SAXIFRAGE",
+        "HYSSOP",
+        "GARDENHOE"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 069",
+      "words": [
+        "GARDENWEED",
+        "WASHBOARD",
+        "OATGROATS",
+        "FRUITGARDEN",
+        "GRAINSTORAGE",
+        "GROUNDCOVER",
+        "FARMGATE",
+        "EARTHWORM",
+        "CELLARING",
+        "BEANPOLE",
+        "SALVIA",
+        "BLOSSOMTIME"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 070",
+      "words": [
+        "GARDENSTRING",
+        "WINDPUMP",
+        "WATERINGWAND",
+        "GARDENMAP",
+        "EPIMEDIUM",
+        "FEEDCORN",
+        "WATERTROUGH",
+        "CANDLEWICK",
+        "FARMSTYLE",
+        "JICAMA",
+        "LOGSPLITTER",
+        "DAISY"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 071",
+      "words": [
+        "FARMDOG",
+        "FIELDBEANS",
+        "MUDROOM",
+        "LAYINGBOX",
+        "CIDERPRESS",
+        "HERBALREMEDY",
+        "HAYSTACK",
+        "SPRAYBOTTLE",
+        "KITCHENGARDEN",
+        "HYDRANGEA",
+        "BLACKSMITH",
+        "ORCHARD"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 072",
+      "words": [
+        "CORNPONE",
+        "GARDENROW",
+        "BUSH",
+        "ALLOTMENT",
+        "KNIPHOFIA",
+        "HELLEBORE",
+        "CORNMEAL",
+        "DRIPLINE",
+        "BALSAM",
+        "QUAIL",
+        "GARDENSTONE",
+        "LEAFRAKE"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 073",
+      "words": [
+        "WINTERGARDEN",
+        "FIRESTARTER",
+        "LEAFCOMPOST",
+        "ROOTPRUNER",
+        "HEARTHSTONE",
+        "GOATFIBER",
+        "RAINCATCHER",
+        "WASHERBOARD",
+        "CATMINT",
+        "HORTICULTURE",
+        "DRYBEANS",
+        "CINERARIA"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 074",
+      "words": [
+        "SHALLOT",
+        "GARDENARCH",
+        "HERITAGEBREED",
+        "HOMECANNING",
+        "COVERCROP",
+        "JARHOLDER",
+        "COWSHED",
+        "SHADEBORDER",
+        "ALPACA",
+        "FIREWOOD",
+        "BIODYNAMIC",
+        "GOATCHEESE"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 075",
+      "words": [
+        "THIMBLE",
+        "HERBBED",
+        "SOLARHEATER",
+        "GARDENCENTER",
+        "ROWCOVER",
+        "BORAGE",
+        "STRAWBALE",
+        "HUMUS",
+        "PEPPERPLANT",
+        "ROSEMARY",
+        "STEM",
+        "KITCHENRANGE"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 076",
+      "words": [
+        "PASTUREMIX",
+        "JERKY",
+        "ANISE",
+        "CIDERJUG",
+        "SUN",
+        "ROSEMARYBUSH",
+        "ROOTWASHING",
+        "LOAFBREAD",
+        "COCKSCOMB",
+        "JELLYBAG",
+        "STAR",
+        "MILKING"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 077",
+      "words": [
+        "TORENIA",
+        "GOATPEN",
+        "LEMON",
+        "AZALEA",
+        "BEANPATCH",
+        "POTAGER",
+        "STABLEHAND",
+        "LILYPAD",
+        "SWEETCORN",
+        "GARDENSHED",
+        "WEEDCLOTH",
+        "CRANBERRY"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 078",
+      "words": [
+        "GARLICBRAID",
+        "LOBELIA",
+        "DAFFODIL",
+        "GROUNDCHERRY",
+        "TURKEYCOOP",
+        "FERTILIZER",
+        "BREADOVEN",
+        "PONDLIFE",
+        "POPPY",
+        "EGGLAYER",
+        "CARDOON",
+        "WATERGARDEN"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 079",
+      "words": [
+        "AGAVE",
+        "WHEELBARROW",
+        "HYDRANGEABUSH",
+        "HERBTEA",
+        "BROCCOLI",
+        "BARN",
+        "MILKCRATE",
+        "CABBAGEPATCH",
+        "GARDENSTAKE",
+        "SAGE",
+        "GARDENAPRON",
+        "LARD"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 080",
+      "words": [
+        "ZINNIA",
+        "GARDENPOUCH",
+        "PIGLET",
+        "YARD",
+        "TOOLCHEST",
+        "PIECRUST",
+        "THUNBERGIA",
+        "POLLINATOR",
+        "HORSECARE",
+        "CASTIRON",
+        "BROCCOLIPATCH",
+        "GARDENTWINE"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 081",
+      "words": [
+        "BACKPORCH",
+        "CELERY",
+        "MUSHROOMKIT",
+        "SMALLHOLDING",
+        "FARMHOUSEMEAL",
+        "PASTURESEED",
+        "TABLE",
+        "FIELDGUIDE",
+        "GARDENBENCH",
+        "PRAIRIEGRASS",
+        "HANDMADEBREAD",
+        "CURRANT"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 082",
+      "words": [
+        "DUCKS",
+        "SHELFPAPER",
+        "WEATHERVANE",
+        "ENDIVE",
+        "PIGPEN",
+        "BLACKBERRYPATCH",
+        "BEETS",
+        "BOTANY",
+        "WORKBENCH",
+        "CROCUS",
+        "GARDENWHEEL",
+        "HERBDRYER"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 083",
+      "words": [
+        "WILDCRAFT",
+        "LAMBPEN",
+        "BUSHBEAN",
+        "BARLEY",
+        "APPLEPIE",
+        "ILEX",
+        "DUCKLING",
+        "COLUMBINE",
+        "ALFALFA",
+        "GARDENCLOCHE",
+        "PHYSALIS",
+        "HARVESTTIME"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 084",
+      "words": [
+        "PATCH",
+        "FORESTGARDEN",
+        "LAMB",
+        "WINDMILL",
+        "HENHOUSE",
+        "SOURMILK",
+        "LAYINGHEN",
+        "SENSORYGARDEN",
+        "WOODPILE",
+        "CANNINGLID",
+        "CALFPEN",
+        "GARDENSEED"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 085",
+      "words": [
+        "WATERCAN",
+        "SEEDCATALOG",
+        "CHICKPEAS",
+        "SOLARCHARGER",
+        "HERDBOOK",
+        "SUGARBEET",
+        "WHEELHOE",
+        "HONEYHARVEST",
+        "HAYMOW",
+        "POULTRY",
+        "SHADECLOTH",
+        "MILKCAN"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 086",
+      "words": [
+        "BRAMBLE",
+        "MUSHROOMBED",
+        "PICKLED",
+        "MAPLELEAF",
+        "FRUITCELLAR",
+        "RURALROAD",
+        "RHUBARB",
+        "WEEDEXTRACT",
+        "BEAN",
+        "CORNFLOWER",
+        "GARDENSIEVE",
+        "ARUGULA"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 087",
+      "words": [
+        "TRELLISARCH",
+        "ROOTCELLAR",
+        "SADDLEBAG",
+        "MARSHMALLOW",
+        "RUSTIC",
+        "MOLTINGHEN",
+        "PUMPKIN",
+        "VERONICA",
+        "EDIBLEGARDEN",
+        "PASTUREWALK",
+        "LEMONGRASS",
+        "BIRDNETTING"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 088",
+      "words": [
+        "BLUEBERR",
+        "SHEEPBARN",
+        "REDCLOVER",
+        "GRAINMILL",
+        "YOKE",
+        "HATCHLING",
+        "GARDENPEST",
+        "OUTBUILDING",
+        "WATERINGHOSE",
+        "COREOPSIS",
+        "LANDPLOT",
+        "SPINACH"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 089",
+      "words": [
+        "HUCKLEBERRY",
+        "ROOTBOX",
+        "KITCHENHERBS",
+        "POLYANTHUS",
+        "BOGGARDEN",
+        "FARMSTAND",
+        "SOURDOUGH",
+        "ASTER",
+        "SOILPROBE",
+        "ASPARAGUS",
+        "HORSESHOE",
+        "WORMCASTINGS"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 090",
+      "words": [
+        "PRAIRIEHAY",
+        "BUTTERFLYGARDEN",
+        "SUNSHADE",
+        "SPICEGARDEN",
+        "CELERIAC",
+        "CORNBREAD",
+        "MORNINGCHORES",
+        "COLDFRAME",
+        "BREWER",
+        "PRODUCEBASKET",
+        "FIELDSTONE",
+        "MULCHRING"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 091",
+      "words": [
+        "WALNUT",
+        "HONEYCAKE",
+        "GOOSEBERRY",
+        "WOODSMOKE",
+        "BOARDFENCE",
+        "OLDBARN",
+        "YARN",
+        "HERBPRESS",
+        "COTONEASTER",
+        "PERENNIALBED",
+        "FODDER",
+        "CARROT"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 092",
+      "words": [
+        "MILKSTRAINER",
+        "CHUTNEY",
+        "GARDENBED",
+        "REDCURRANT",
+        "SEEDPOTATO",
+        "FARMBENCH",
+        "CHICKENRUN",
+        "CHICKENS",
+        "GARDENSTOOL",
+        "IRONKETTLE",
+        "PRESSURECANNER",
+        "VERBENA"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 093",
+      "words": [
+        "HANDTOOL",
+        "KALE",
+        "CHICKENTRACTOR",
+        "RANCH",
+        "WOODFENCE",
+        "JAMMAKING",
+        "TOOLROOM",
+        "ROOTCROP",
+        "DRYGOODS",
+        "BEESWAX",
+        "SPINNERWHEEL",
+        "GARDENPLANNING"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 094",
+      "words": [
+        "FEEDBUCKET",
+        "FEEDMILL",
+        "LENTIL",
+        "PRESERVEJAR",
+        "GARDENCALENDAR",
+        "SEEDPRESS",
+        "MILKBUCKET",
+        "SOAPPOT",
+        "FARMPOND",
+        "GOATSHED",
+        "TRACTORTRAIL",
+        "VEGETABLECRATE"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 095",
+      "words": [
+        "POULTRYFEED",
+        "COMPOSTING",
+        "FENCEWIRE",
+        "RAINSPOUT",
+        "FARMCART",
+        "HOMESTEADPANTRY",
+        "JASMINE",
+        "CABBAGE",
+        "LEAFMOULD",
+        "ROOTVEGETABLE",
+        "SOAPCUTTER",
+        "STABLEDOOR"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 096",
+      "words": [
+        "SMOKE",
+        "PUMPKINPATCH",
+        "ANGORA",
+        "SOAPBAR",
+        "BIRDBATH",
+        "LEAFMOLD",
+        "AIRPLANT",
+        "CANNINGTONGS",
+        "PLANTPROPAGATION",
+        "INDOORHERBS",
+        "VEGETABLEPATCH",
+        "OILCLOTH"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 097",
+      "words": [
+        "WINDOWSILLGARDEN",
+        "BASIL",
+        "WOODRACK",
+        "SPRINGHOUSE",
+        "STAKE",
+        "OSTEOSPERMUM",
+        "VERMICOMPOST",
+        "WATERBATH",
+        "HAZELNUT",
+        "DAIRYBARN",
+        "HEARTH",
+        "POLEBARN"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 098",
+      "words": [
+        "FOODMILL",
+        "TARRAGON",
+        "FRAGRANCEGARDEN",
+        "KITCHENPLOT",
+        "HANDPRUNER",
+        "PRODUCEWASH",
+        "LIVESTOCKBARN",
+        "MILKINGSTOOL",
+        "BLOODMEAL",
+        "BLACKBERRY",
+        "HONEYWAX",
+        "CHICKENLITTER"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 099",
+      "words": [
+        "MILKROOM",
+        "SOILCONDITIONER",
+        "VICTORYGARDEN",
+        "GARDENFORK",
+        "BARNLOFT",
+        "HENSHED",
+        "BIN",
+        "RAINBARREL",
+        "TAP",
+        "WHEY",
+        "QUAILCOOP",
+        "PIEBAKING"
+      ]
+    },
+    {
+      "name": "Gardening and Homesteading Puzzle 100",
+      "words": [
+        "BULB",
+        "NASTURTIUMSEED",
+        "PATCHWORK",
+        "BACKYARDFARM",
+        "HEATHER",
+        "STABLE",
+        "CURRANTBUSH",
+        "COUNTRYKITCHEN",
+        "LIVESTOCKFEED",
+        "TRACTOR",
+        "GARDENLABEL",
+        "CURE"
+      ]
+    }
+  ]
+}

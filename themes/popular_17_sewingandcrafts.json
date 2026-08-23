@@ -1,0 +1,864 @@
+{
+  "title": "Sewing and Crafts Word Search",
+  "subtitle": "48 creative hobby word search puzzles",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Popular Themes",
+  "series_rank": 17,
+  "palette": "easter-pastel",
+  "cover_style": "playful",
+  "puzzles": [
+    {
+      "name": "Sewing and Crafts Puzzle 001",
+      "words": [
+        "SOUNDTRACK",
+        "MEME",
+        "BATTERY",
+        "JUSTDANCE",
+        "NOVEL",
+        "NEEDLE",
+        "COLLECTION",
+        "ROADGAMES",
+        "DIGITALGAME",
+        "SOUTHPARK",
+        "SHANIATWAIN",
+        "JOURNEYHOME"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 002",
+      "words": [
+        "ZELDA",
+        "GECKO",
+        "STRATUS",
+        "DANCEHALL",
+        "IGNITION",
+        "SUPRA",
+        "MOTIONCONTROL",
+        "CDROM",
+        "FROSTEDTIPS",
+        "COMPACTDISC",
+        "BRAKEPAD",
+        "BREAKINGBAD"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 003",
+      "words": [
+        "WALUIGI",
+        "HOGWARTS",
+        "MAPBOOK",
+        "WASHBUCKET",
+        "WASSUP",
+        "DOLLYPARTON",
+        "SIXTHSENSE",
+        "HATCHLING",
+        "INTERNET",
+        "FEATHER",
+        "CLOUD",
+        "NEWWAVE"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 004",
+      "words": [
+        "CARPET",
+        "KINGDOMCOME",
+        "VINEYARD",
+        "CARRIDE",
+        "PHOTOBOOTH",
+        "ROME",
+        "PAINTBRUSH",
+        "HOLLOWKNIGHT",
+        "WEBSERIES",
+        "THEWITCHER",
+        "CLIFFHANGER",
+        "FIND"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 005",
+      "words": [
+        "ROADSTER",
+        "EARTHBOUND",
+        "COLLECTING",
+        "BARTSIMPSON",
+        "HONEY",
+        "THANKFUL",
+        "CHILDSEAT",
+        "PICNIC",
+        "TRICKORTREAT",
+        "MISSEDCALL",
+        "RESPAWN",
+        "SPEEDOMETER"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 006",
+      "words": [
+        "BELAIR",
+        "COMPUTERROOM",
+        "FESTIVAL",
+        "PARK",
+        "TALKTOTHEHAND",
+        "WEBSITE",
+        "COMPETITION",
+        "DARKSIDERS",
+        "SLYTHERIN",
+        "FUELSTOP",
+        "TOTALLY",
+        "BATTLETOADS"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 007",
+      "words": [
+        "CRUISECONTROL",
+        "COLDPLAY",
+        "HOWIMETYOURMOTHER",
+        "ALTERNATIVEROCK",
+        "STOPLIGHT",
+        "TREASURE",
+        "SEDAN",
+        "CARTOON",
+        "CPO",
+        "TORNADO",
+        "DELIVERYVAN",
+        "ROTARYCUTTER"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 008",
+      "words": [
+        "WORD",
+        "EIGHTEENWHEELER",
+        "TRAFFICLIGHT",
+        "RVPARK",
+        "MERLOT",
+        "DEVILMAYCRY",
+        "REBEL",
+        "CHECKUP",
+        "POPCULTURE",
+        "TELLURIDE",
+        "RACECAR",
+        "ANIMALWELL"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 009",
+      "words": [
+        "PIG",
+        "BRUNOMARS",
+        "RENEGADE",
+        "ORBIT",
+        "PAPARAZZI",
+        "ALTIMA",
+        "SCARECROW",
+        "LEVEL",
+        "REDFACTION",
+        "TRUCKERHAT",
+        "JACKOLANTERN",
+        "TRIPPLANNER"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 010",
+      "words": [
+        "IDK",
+        "TRANSIT",
+        "CARGAME",
+        "SOCIALNETWORK",
+        "CARALARM",
+        "ROTARYPHONE",
+        "TORINO",
+        "BANDSTAND",
+        "CARWASH",
+        "MINIVAN",
+        "HALFMINUTELIFE",
+        "CHALLENGE"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 011",
+      "words": [
+        "MODEM",
+        "HEADPHONES",
+        "WHITEWALLS",
+        "TRAINING",
+        "MOVIENIGHT",
+        "POPICON",
+        "VHS",
+        "XPBOOST",
+        "COFFEE",
+        "TOWBAR",
+        "COOLER",
+        "BODYGLITTER"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 012",
+      "words": [
+        "LUCASFILM",
+        "COMMANDER",
+        "DANCECHALLENGE",
+        "ASCENT",
+        "MULLET",
+        "TRIPMETER",
+        "GAMEDISC",
+        "DIRTBIKE",
+        "FIREEMBLEM",
+        "WARIO",
+        "CALLOFDUTY",
+        "SATELLITE"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 013",
+      "words": [
+        "SAVEFILE",
+        "GRID",
+        "FILM",
+        "CALIBER",
+        "TRAFFICCONE",
+        "CARAVANPARK",
+        "PASSWORD",
+        "FIT",
+        "LUGGAGE",
+        "FIREWATCH",
+        "CHALKBOARD",
+        "DUDE"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 014",
+      "words": [
+        "MONOPOLY",
+        "MILEYCYRUS",
+        "CARNIVAL",
+        "SEKIRO",
+        "BANANASPLIT",
+        "YOUTUBE",
+        "CINEMA",
+        "DODGE",
+        "PATCHNOTES",
+        "TRANSAM",
+        "INTERCOOLER",
+        "CAIRO"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 015",
+      "words": [
+        "CARDIGAN",
+        "LEGALLYBLONDE",
+        "OVERLAND",
+        "MONSTERTRUCK",
+        "BACKTOTHEFUTURE",
+        "TEAMMATE",
+        "SKYWALKER",
+        "BALLAD",
+        "AVENGERS",
+        "MUSICCHANNEL",
+        "RVLIVING",
+        "ENVOY"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 016",
+      "words": [
+        "CARSOAP",
+        "BACKPACK",
+        "DOCTORWHO",
+        "MODELTRAIN",
+        "FROZENYOGURT",
+        "HUMMINGBIRD",
+        "TOWSERVICE",
+        "GAUNTLET",
+        "FREEFIRE",
+        "WORKVAN",
+        "DOWNLOAD",
+        "FAXMACHINE"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 017",
+      "words": [
+        "JUMPROPE",
+        "BONUS",
+        "SKATE",
+        "USERNAME",
+        "ELECTRICCAR",
+        "CHEVROLET",
+        "GELPEN",
+        "TENTDOOR",
+        "WEEKEND",
+        "SPORTS",
+        "GAMEOFTHRONES",
+        "CURTAINS"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 018",
+      "words": [
+        "WRANGLER",
+        "SCHOOLBINDER",
+        "SCREEN",
+        "PAPERBOY",
+        "BREAKOUT",
+        "DANCER",
+        "SPRINTER",
+        "AXLE",
+        "ADVENTURE",
+        "CORDLESSPHONE",
+        "KEYBOARD",
+        "HIGHLANDER"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 019",
+      "words": [
+        "IMPALA",
+        "EGG",
+        "PIKACHU",
+        "GEM",
+        "DASHBOARD",
+        "SNOWWHITE",
+        "WINNER",
+        "CHICAGO",
+        "CLUTCH",
+        "FEDORA",
+        "CARCARE",
+        "HEATER"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 020",
+      "words": [
+        "DESTINYSCHILD",
+        "SUNBATH",
+        "NPC",
+        "MUMMY",
+        "ROADSIDECAMP",
+        "JAZZERCISE",
+        "FABRIC",
+        "DRIVINGLESSON",
+        "DIFFERENTIAL",
+        "SUMMER",
+        "MYSTERY",
+        "QUIETTIME"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 021",
+      "words": [
+        "FLY",
+        "AVIATORS",
+        "CRANKSHAFT",
+        "VOLVO",
+        "WONDER",
+        "HOMEALONE",
+        "METALGEAR",
+        "SATURDAYMATINEE",
+        "TECHNO",
+        "HELLDIVERS",
+        "WEBPAGE",
+        "SCREAM"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 022",
+      "words": [
+        "DREAMCAST",
+        "SONIC",
+        "TOURBUS",
+        "CAR",
+        "ATHLETE",
+        "JAPAN",
+        "LIZARD",
+        "TAILGATEPARTY",
+        "VENGINE",
+        "CARRIEUNDERWOOD",
+        "CLUBMAN",
+        "ROOFRACK"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 023",
+      "words": [
+        "BRIDGERTON",
+        "MAGIC",
+        "QUILTER",
+        "WATCHDOGSLEGION",
+        "FREETIME",
+        "FAIRWAY",
+        "MXFIVE",
+        "THEBEATLES",
+        "MINESWEEPER",
+        "DIPSTICK",
+        "FINALE",
+        "ALIGNMENT"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 024",
+      "words": [
+        "GAMERLIFE",
+        "BATTLEFIELD",
+        "HOMEY",
+        "KITE",
+        "WORKTRUCK",
+        "SCHITTSCREEK",
+        "CUTLASS",
+        "FALLOUT",
+        "KIOSK",
+        "SKATESHOP",
+        "PARKING",
+        "GAMERTAG"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 025",
+      "words": [
+        "NEWRELEASE",
+        "HARRYPOTTER",
+        "SESAMESTREET",
+        "AWARDWINNER",
+        "PHONEBOOTH",
+        "GAMETIME",
+        "EQUIPMENT",
+        "TASTING",
+        "POPUPTENT",
+        "POPCULTUREQUIZ",
+        "TREBLE",
+        "RANKED"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 026",
+      "words": [
+        "CLEANING",
+        "HRV",
+        "SPACESHUTTLE",
+        "MONITOR",
+        "TREND",
+        "SPIRIT",
+        "HAMILTON",
+        "SODASHOP",
+        "FORZA",
+        "EARLYSATELLITE",
+        "INSIGHT",
+        "ENCLAVE"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 027",
+      "words": [
+        "GOLDFINCH",
+        "SANDLOT",
+        "GREENDAY",
+        "CANDLE",
+        "DINER",
+        "NOT",
+        "GOTHAM",
+        "RADIO",
+        "CHERRYCOLA",
+        "COFFEEBEAN",
+        "SNORLAX",
+        "SACKBOY"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 028",
+      "words": [
+        "REVIEWER",
+        "SAVEDBYTHEBELL",
+        "MATINEE",
+        "RABBIDS",
+        "VOICECHAT",
+        "LASTOFUS",
+        "DONKEY",
+        "KICKS",
+        "GOKARTING",
+        "VIEWINGPARTY",
+        "DANCECREW",
+        "CAMCORDER"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 029",
+      "words": [
+        "BLUETOOTH",
+        "EEVEE",
+        "AWARDSHOW",
+        "POLISH",
+        "TALENTSHOW",
+        "FOCUS",
+        "SNOWMOBILE",
+        "CENTURY",
+        "BRONZER",
+        "FRONTWHEEL",
+        "BESTSELLER",
+        "SIDEBYSIDE"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 030",
+      "words": [
+        "PONTOON",
+        "CARTOONCAR",
+        "GNARLY",
+        "GAMER",
+        "SMASHBROS",
+        "UPMOVIE",
+        "ARIETTA",
+        "TALENTSCOUT",
+        "SCIFI",
+        "STATIONWAGON",
+        "SIDEBANGS",
+        "TEEBOX"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 031",
+      "words": [
+        "LIVESTREAM",
+        "TRADINGCARDS",
+        "SATURN",
+        "INTEREST",
+        "NERF",
+        "QUARTERHORSE",
+        "FLANNEL",
+        "IDFOUR",
+        "CELEBRATION",
+        "ELANTRA",
+        "HYRULE",
+        "TSHIRT"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 032",
+      "words": [
+        "LEAVES",
+        "PENCIL",
+        "OUTBACK",
+        "NEST",
+        "AIRFRESHENER",
+        "GRANTURISMO",
+        "TOYBOX",
+        "REDSTONE",
+        "STARFIELD",
+        "DVD",
+        "RATATOUILLE",
+        "TINYTINA"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 033",
+      "words": [
+        "EMMYS",
+        "KARAOKEBAR",
+        "BAD",
+        "CAMERA",
+        "GUARDIANS",
+        "DESK",
+        "CONVERTIBLE",
+        "GASCAP",
+        "HELMET",
+        "REMOTECAR",
+        "CHOREOGRAPHY",
+        "CROCODILE"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 034",
+      "words": [
+        "HANDHELDGAME",
+        "SOUNDBAR",
+        "POPART",
+        "DRIVER",
+        "RATCHET",
+        "SEWINGMACHINE",
+        "HEATWAVE",
+        "COOL",
+        "SKETCHBOOK",
+        "WRESTLING",
+        "DANCEMUSIC",
+        "GODOFWAR"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 035",
+      "words": [
+        "TIRESTORE",
+        "LEATHERJACKET",
+        "HORSE",
+        "RIHANNA",
+        "STEREO",
+        "LOOTBOX",
+        "AVATAR",
+        "ALLWHEEL",
+        "ENCORE",
+        "SERVICEBOOK",
+        "HONDA",
+        "ARCADEHALL"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 036",
+      "words": [
+        "SYNTHPOP",
+        "EVERQUEST",
+        "TAXICAB",
+        "MYBAD",
+        "SYNC",
+        "SEWING",
+        "SUV",
+        "MUGGLE",
+        "ROUTINE",
+        "BREEZEWAY",
+        "CAMPSITE",
+        "TOWTRUCK"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 037",
+      "words": [
+        "WIDESCREEN",
+        "REPORTCARD",
+        "NETWORKTV",
+        "RIDETHELL",
+        "PORSCHE",
+        "TOUR",
+        "PAYPHONE",
+        "RENTAL",
+        "PERMIT",
+        "COROLLA",
+        "SHOESTORE",
+        "CARSAFETY"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 038",
+      "words": [
+        "MODELY",
+        "SPONGE",
+        "GRANDWAGONEER",
+        "SUPERPOWER",
+        "INBOX",
+        "PHONECHARGER",
+        "OVERHEAD",
+        "CARSHOW",
+        "CXFIVE",
+        "HALLWAY",
+        "DINNERBELL",
+        "ADELE"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 039",
+      "words": [
+        "TOURNAMENT",
+        "GARAGESALE",
+        "ROADSCENE",
+        "SOCKHOP",
+        "CASTLERUSH",
+        "SURVIVOR",
+        "FLAPPYBIRD",
+        "VACATION",
+        "ROADREADY",
+        "GASGAUGE",
+        "GOAT",
+        "COMEDYNIGHT"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 040",
+      "words": [
+        "RESIDENTEVIL",
+        "MODELTHREE",
+        "BOYBAND",
+        "SHAKESPEARE",
+        "ARKANOID",
+        "MASCARA",
+        "TEAM",
+        "ZELDAORACLE",
+        "DEADPOOL",
+        "SPYHUNTER",
+        "AFTERBURNER",
+        "AUSTEN"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 041",
+      "words": [
+        "DIRTROAD",
+        "TROPHY",
+        "TOPFORTY",
+        "BIGBANGTHEORY",
+        "PAR",
+        "ROMANCE",
+        "MIITOPIA",
+        "DIALUP",
+        "CABERNET",
+        "ETHANOL",
+        "FLEETWOODMAC",
+        "MIRROR"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 042",
+      "words": [
+        "PUZZLE",
+        "ARMREST",
+        "YELLOWSTONE",
+        "MISSION",
+        "SIENNA",
+        "ARABIAN",
+        "CRACKERS",
+        "COMMANDCONQUER",
+        "DETROITBECOMEHUMAN",
+        "KINGDOMHEARTS",
+        "FLOORMAT",
+        "BASEBALL"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 043",
+      "words": [
+        "ECOSPORT",
+        "BLOG",
+        "TACHOMETER",
+        "ZFOUR",
+        "CALLBACK",
+        "LAUNDROMAT",
+        "PARTYCHAT",
+        "ELSA",
+        "TAILLIGHT",
+        "VCR",
+        "DISNEYLAND",
+        "HARVEST"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 044",
+      "words": [
+        "TREASURECHEST",
+        "GAMESTREAM",
+        "CHARGINGCABLE",
+        "GENESIS",
+        "PASSENGERSEAT",
+        "OKAMI",
+        "BENCHSEAT",
+        "COUNTRYMUSIC",
+        "LANTERN",
+        "BLUEY",
+        "FITNESS",
+        "ACCELERATOR"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 045",
+      "words": [
+        "FUSION",
+        "ELDENRING",
+        "MAZDA",
+        "HIKER",
+        "WII",
+        "AVENGER",
+        "FRIES",
+        "CHORUS",
+        "CARKEY",
+        "POODLESKIRT",
+        "NIRVANA",
+        "VIRTUALWORLD"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 046",
+      "words": [
+        "COMICCON",
+        "DEDEDE",
+        "TROLLS",
+        "THEBATMAN",
+        "BRAZIL",
+        "BOSSBATTLE",
+        "PIXELART",
+        "CONTRA",
+        "CAVALIER",
+        "CUTSCENE",
+        "BMW",
+        "SOLTERRA"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 047",
+      "words": [
+        "AIRCONDITIONER",
+        "DIGITALCAMERA",
+        "SNACK",
+        "CHAMELEON",
+        "WEREWOLF",
+        "SNEAKERSTORE",
+        "CARPOOL",
+        "SODAFOUNTAIN",
+        "FRUITSNACKS",
+        "TAKEACHILLPILL",
+        "ASTROVAN",
+        "DRAGRACE"
+      ]
+    },
+    {
+      "name": "Sewing and Crafts Puzzle 048",
+      "words": [
+        "EMOJI",
+        "MOTEL",
+        "JIGGLYPUFF",
+        "OCEANSELEVEN",
+        "STARWARSGAME",
+        "JAWS",
+        "UTV",
+        "VOLKSWAGEN",
+        "TECHNOLOGY",
+        "DROPBOX",
+        "CALLERID",
+        "LIMOUSINE"
+      ]
+    }
+  ],
+  "detected_topic": "Sports and Hobbies",
+  "recommended_palette": "sports",
+  "recommended_cover_style": "bold",
+  "clipart_search_terms": "Sports and Hobbies Soundtrack Meme Battery illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Standard",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "Sports and Hobbies",
+      "General Interest",
+      "Pop Culture & Entertainment",
+      "Video Games & Gaming",
+      "Vehicles & Automotive"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "Sports and Hobbies"
+    ],
+    "checked_at": "2026-08-22T10:08:39"
+  }
+}

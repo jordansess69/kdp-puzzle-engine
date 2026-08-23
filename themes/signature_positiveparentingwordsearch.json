@@ -1,0 +1,865 @@
+{
+  "title": "Positive Parenting Word Search",
+  "subtitle": "48 encouraging family word search puzzles",
+  "author": "Slade Puzzles",
+  "palette": "lavender-pop",
+  "cover_style": "halo",
+  "detected_topic": "Positive Parenting",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Family Connection Passport",
+    "achievement_title": "Family Connection Champion",
+    "achievement_message": "Celebrate the caring moments that help families grow together.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": [
+      "Positive parenting resources describe nurturing, protecting, and guiding children as core parts of parenting.",
+      "Strong communication and active listening can support secure parent-child relationships.",
+      "Clear family rules work best when caregivers are consistent, predictable, and follow through."
+    ]
+  },
+  "puzzles": [
+    {
+      "name": "Positive Parenting Puzzle 001",
+      "words": [
+        "GRATER",
+        "CHEF",
+        "GATHERING",
+        "RADIO",
+        "FLIP",
+        "JOY",
+        "ROLLERSKATES",
+        "TEALEAF",
+        "INSTRUCTOR",
+        "ASIF",
+        "LIZARD",
+        "SCARECROW"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 002",
+      "words": [
+        "SCREEN",
+        "COURSE",
+        "PARTY",
+        "VCR",
+        "FERTILIZER",
+        "DUDE",
+        "SCALE",
+        "VEGETABLE",
+        "HEADPHONES",
+        "LISTENING",
+        "MIGRATION",
+        "MIX"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 003",
+      "words": [
+        "LEISURE",
+        "HOODIE",
+        "CURIOUS",
+        "FLAVORS",
+        "ORGANIC",
+        "MUMMY",
+        "PLAYTIME",
+        "SOAP",
+        "TRICKORTREAT",
+        "SIDEBANGS",
+        "VANILLA",
+        "FOLD"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 004",
+      "words": [
+        "WORKOUT",
+        "HUMIDITY",
+        "WHIP",
+        "EASY",
+        "FLASH",
+        "KEYBOARD",
+        "TEA",
+        "LID",
+        "VENOM",
+        "MILKSHAKE",
+        "TUBULAR",
+        "WITCH"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 005",
+      "words": [
+        "CHARDONNAY",
+        "PUREE",
+        "FLATIRON",
+        "QUARTERHORSE",
+        "PICTURE",
+        "FROZENYOGURT",
+        "ROOSTER",
+        "CRYSTALBALL",
+        "JOYSTICK",
+        "SEARCH",
+        "SKILL",
+        "OWL"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 006",
+      "words": [
+        "VIEWFINDER",
+        "MONSTER",
+        "ROAST",
+        "XMAS",
+        "CROPTOP",
+        "CHERRY",
+        "NOT",
+        "LEGACY",
+        "CHAIR",
+        "PHOTOALBUM",
+        "NURTURE",
+        "DOUGH"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 007",
+      "words": [
+        "APPLIANCE",
+        "HOMECOMPUTER",
+        "BAT",
+        "MEALS",
+        "ALTERNATIVE",
+        "SWEATBAND",
+        "WHISK",
+        "PSYCH",
+        "PRACTICE",
+        "LIGHTNING",
+        "GENEROSITY",
+        "SOFA"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 008",
+      "words": [
+        "SOIL",
+        "GOUDA",
+        "MARKET",
+        "COLDBLOODED",
+        "STIR",
+        "DUCKLING",
+        "SYRUP",
+        "LOCAL",
+        "GAMECONSOLE",
+        "SPICES",
+        "FESTIVE",
+        "BIKE"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 009",
+      "words": [
+        "CORE",
+        "CHOWDER",
+        "TOGETHER",
+        "COLOR",
+        "SCOOTER",
+        "CORDLESSPHONE",
+        "TART",
+        "LAUGH",
+        "PIPE",
+        "YEARBOOK",
+        "POPCORN",
+        "SHADOW"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 010",
+      "words": [
+        "INDEX",
+        "PROSECCO",
+        "COMPUTER",
+        "FRANKENSTEIN",
+        "PORTABLECDPLAYER",
+        "GOLDFINCH",
+        "PRESERVING",
+        "TIP",
+        "CRACKERS",
+        "SNAKE",
+        "POD",
+        "CINNAMON"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 011",
+      "words": [
+        "TASTE",
+        "MUSICVIDEO",
+        "BRIDLE",
+        "RANDOM",
+        "BTW",
+        "HOUSE",
+        "WATER",
+        "VIDEONIGHT",
+        "MINCE",
+        "GRAIN",
+        "COBRA",
+        "PIG"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 012",
+      "words": [
+        "SHEEP",
+        "MEMORY",
+        "FOOD",
+        "BEANS",
+        "MAKER",
+        "VHS",
+        "GRAVEYARD",
+        "NAILPOLISH",
+        "MASCARA",
+        "HOST",
+        "FILM",
+        "LANPARTY"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 013",
+      "words": [
+        "SEOUL",
+        "FASTFOOD",
+        "NOTEBOOK",
+        "HORSE",
+        "BREW",
+        "RINGTONE",
+        "TORTOISE",
+        "TOKEN",
+        "RIND",
+        "WEEKEND",
+        "LATEFEE",
+        "CDROM"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 014",
+      "words": [
+        "RAVEN",
+        "PLUM",
+        "SOCCER",
+        "FEASTS",
+        "WHISTLE",
+        "GUIDANCE",
+        "SLAPBRACELET",
+        "DVR",
+        "OIL",
+        "COMFORT",
+        "SALAD",
+        "FLASHDRIVE"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 015",
+      "words": [
+        "SKELETON",
+        "FIREWOOD",
+        "WALLPAPER",
+        "BERRY",
+        "EPIC",
+        "STORE",
+        "CHICKENCOOP",
+        "ZOMBIE",
+        "RELAX",
+        "FAMILY",
+        "SHOT",
+        "CALCULATOR"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 016",
+      "words": [
+        "FANNYPACK",
+        "CARDIO",
+        "WARMUP",
+        "HAUNTEDHOUSE",
+        "AUSTRALIA",
+        "HEATWAVE",
+        "SNAP",
+        "RUNNING",
+        "LIBRARY",
+        "TRICK",
+        "GRANDMA",
+        "WEREWOLF"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 017",
+      "words": [
+        "FOOTBALL",
+        "PERFUME",
+        "RECEIVER",
+        "GUITAR",
+        "FUN",
+        "EAT",
+        "HARVEST",
+        "FORECAST",
+        "LESSON",
+        "ROADTRIP",
+        "NEWRELEASE",
+        "PANTRY"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 018",
+      "words": [
+        "MOUSEPAD",
+        "DISCOVER",
+        "SPOUT",
+        "ASIAN",
+        "JUICEBOX",
+        "PHONECASE",
+        "MULTIPLAYER",
+        "GUIDE",
+        "BARN",
+        "THANKFUL",
+        "WASH",
+        "AROMA"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 019",
+      "words": [
+        "ASIA",
+        "ROLLERRINK",
+        "COOKBOOK",
+        "MERLOT",
+        "CABLETV",
+        "MOTHER",
+        "RAINDROP",
+        "BAKING",
+        "APPETIZER",
+        "POTLUCK",
+        "DEPARTMENTSTORE",
+        "GRUNGE"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 020",
+      "words": [
+        "TROT",
+        "CUSTOM",
+        "SHELL",
+        "SCRAMBLED",
+        "SCREENSAVER",
+        "JOURNEY",
+        "LOL",
+        "PURE",
+        "BONUS",
+        "DESERT",
+        "DROPBOX",
+        "BASKET"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 021",
+      "words": [
+        "SIGNAL",
+        "WEED",
+        "DESKTOPPC",
+        "COUCH",
+        "CHICKEN",
+        "VIPER",
+        "WIFI",
+        "AUTHOR",
+        "SKATEBOARD",
+        "POT",
+        "FABLE",
+        "CHURN"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 022",
+      "words": [
+        "OSPREY",
+        "TRAY",
+        "CIDER",
+        "CHEATCODE",
+        "BUTTER",
+        "SCRUNCHIE",
+        "CREAM",
+        "PIXEL",
+        "CRUSH",
+        "GAMENIGHT",
+        "BASIL",
+        "HOLE"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 023",
+      "words": [
+        "GAMEOVER",
+        "MMA",
+        "BEEPER",
+        "FEATHER",
+        "BINDER",
+        "HEIRLOOM",
+        "FLANNEL",
+        "PHONECARD",
+        "HISTORY",
+        "COFFEE",
+        "ENJOY",
+        "TEAMWORK"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 024",
+      "words": [
+        "DANCEMUSIC",
+        "LENTIL",
+        "DVD",
+        "LENS",
+        "NECTAR",
+        "AWESOME",
+        "DANCE",
+        "BOARD",
+        "FORAGING",
+        "MILK",
+        "FAXMACHINE",
+        "MODEM"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 025",
+      "words": [
+        "VAMPIRE",
+        "TECHNO",
+        "BOUNDARIES",
+        "ARABIAN",
+        "DECORATING",
+        "CAIRO",
+        "YOLK",
+        "BEEF",
+        "COMPUTERROOM",
+        "DRUMS",
+        "GRAPHICTEE",
+        "GARDEN"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 026",
+      "words": [
+        "BROWNIE",
+        "HELMET",
+        "BAKER",
+        "WHEAT",
+        "SECRET",
+        "MEAL",
+        "LEATHERJACKET",
+        "CHALKBOARD",
+        "BEDTIME",
+        "MPPLAYER",
+        "CREATIVE",
+        "PASTA"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 027",
+      "words": [
+        "NOODLE",
+        "ARCADETOKEN",
+        "TITLE",
+        "FRUITSNACKS",
+        "FLOUR",
+        "BOOK",
+        "REWIND",
+        "SHARE",
+        "BONUSFEATURES",
+        "COBWEB",
+        "CHATROOM",
+        "HELP"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 028",
+      "words": [
+        "PRINTER",
+        "CRUMB",
+        "PINBALL",
+        "SNACK",
+        "MOUSE",
+        "SHUFFLE",
+        "JUNGLE",
+        "INHERIT",
+        "CARPHONE",
+        "CASSEROLE",
+        "SKATEPARK",
+        "HOLIDAY"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 029",
+      "words": [
+        "MEASURE",
+        "SHAPE",
+        "CANDLE",
+        "SUNBATH",
+        "ICING",
+        "ALBUM",
+        "BARISTA",
+        "SWEET",
+        "PERSONALCOMPUTER",
+        "HANDHELD",
+        "REMOTECONTROL",
+        "SPATULA"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 030",
+      "words": [
+        "BUCKETHAT",
+        "OILS",
+        "QUIETTIME",
+        "ROMANCE",
+        "RAINBOW",
+        "JAPAN",
+        "GELPEN",
+        "SPIDER",
+        "BUTTERFLYCLIPS",
+        "PASTURE",
+        "SUPPORT",
+        "LEAVES"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 031",
+      "words": [
+        "TEACH",
+        "PENCIL",
+        "PROJECTOR",
+        "ZUCCHINI",
+        "IDK",
+        "MACAROON",
+        "DISPOSABLECAMERA",
+        "TAIL",
+        "SUGAR",
+        "DATA",
+        "YOYO",
+        "FAUCET"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 032",
+      "words": [
+        "BEESWAX",
+        "NUTRITION",
+        "SNOWBOARD",
+        "FLOPPYDISK",
+        "LANTERN",
+        "DABOMB",
+        "FARM",
+        "DESSERT",
+        "RINSE",
+        "LONDON",
+        "SETTING",
+        "CANADA"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 033",
+      "words": [
+        "WICKER",
+        "CALLERID",
+        "INGREDIENT",
+        "DINE",
+        "LATTE",
+        "HIPHOP",
+        "BREAKFAST",
+        "INSTANTMESSAGE",
+        "RAP",
+        "PARCHMENT",
+        "TRADINGCARDS",
+        "PLAYLIST"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 034",
+      "words": [
+        "GRIND",
+        "COMMENT",
+        "TREATS",
+        "BLUEJAY",
+        "FLY",
+        "DRINK",
+        "HERB",
+        "DVDPLAYER",
+        "PORK",
+        "CONTAINER",
+        "SURROUNDSOUND",
+        "ROOTCELLAR"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 035",
+      "words": [
+        "TUBE",
+        "CANTER",
+        "INSTRUCTION",
+        "SAFETY",
+        "ROLLOFFILM",
+        "REMOTE",
+        "SAFFRON",
+        "HIGHSCORE",
+        "CHEDDAR",
+        "PHOTOLAB",
+        "SPICY",
+        "MONITOR"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 036",
+      "words": [
+        "CROCODILE",
+        "ROBIN",
+        "OVERALLS",
+        "APPLE",
+        "WARBLER",
+        "BOND",
+        "WIDESCREEN",
+        "TRACKING",
+        "AUTUMN",
+        "PEAR",
+        "TOWER",
+        "MOCHA"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 037",
+      "words": [
+        "LAYEREDTANKS",
+        "RESPECT",
+        "BODACIOUS",
+        "MIST",
+        "ANSWERINGMACHINE",
+        "BOYBAND",
+        "WRESTLING",
+        "DIALUP",
+        "DEW",
+        "GYMCLASS",
+        "HERBS",
+        "LAUGHTER"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 038",
+      "words": [
+        "TRUCKERHAT",
+        "FRESH",
+        "MOLD",
+        "SPRINKLES",
+        "ARCADE",
+        "FREEZE",
+        "WHITE",
+        "EGGS",
+        "REMOTECAR",
+        "ADVENTURE",
+        "CAMOUFLAGE",
+        "NOWAY"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 039",
+      "words": [
+        "CHAPTER",
+        "WEBCAM",
+        "GRAPES",
+        "MAZEGAME",
+        "HALLPASS",
+        "PAST",
+        "ZEST",
+        "CORKSCREW",
+        "ROLLERBLADES",
+        "BACKPACK",
+        "ESCALATOR",
+        "WEBPAGE"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 040",
+      "words": [
+        "DISH",
+        "FILLING",
+        "SUNGLASSES",
+        "POWERUP",
+        "PLATTER",
+        "PHOTOBOOTH",
+        "PHONEBOOK",
+        "SCOREBOARD",
+        "LEARN",
+        "CLOUD",
+        "MACARONI",
+        "MYBAD"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 041",
+      "words": [
+        "TOMATO",
+        "RAINBARREL",
+        "HANDHELDGAME",
+        "CHILLY",
+        "HEAT",
+        "TABLE",
+        "EMAIL",
+        "BOSS",
+        "ITALIAN",
+        "PATIENCE",
+        "SKATESHOP",
+        "MISSEDCALL"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 042",
+      "words": [
+        "POETRY",
+        "PAYPHONE",
+        "WICKED",
+        "CARDINAL",
+        "VACATION",
+        "AVATAR",
+        "WINDOWSHOPPING",
+        "LOVE",
+        "CAFE",
+        "OVERHEAD",
+        "TRACTOR",
+        "SPREAD"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 043",
+      "words": [
+        "USBDRIVE",
+        "MALL",
+        "COCONUT",
+        "WIRELESSCONTROLLER",
+        "HAIRCLIP",
+        "SOMMELIER",
+        "CDPLAYER",
+        "READING",
+        "ANOLIS",
+        "FLIPPHONE",
+        "PARIS",
+        "DONKEY"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 044",
+      "words": [
+        "EARBUDS",
+        "DOLL",
+        "MIXCD",
+        "CEREAL",
+        "SUNDAY",
+        "COOKIES",
+        "STICKERBOOK",
+        "LASERDISC",
+        "MYSTERY",
+        "HAIRSPRAY",
+        "MAPLE",
+        "KETTLE"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 045",
+      "words": [
+        "DENIMJACKET",
+        "FLATSCREEN",
+        "SCHOOLBINDER",
+        "FUEL",
+        "GUEST",
+        "INSTANTCAMERA",
+        "GAMERTAG",
+        "ORCHARD",
+        "NUT",
+        "ROCKET",
+        "CRUNCH",
+        "SHOPPINGMALL"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 046",
+      "words": [
+        "MOVIENIGHT",
+        "WIND",
+        "WHEELS",
+        "AUSTEN",
+        "PURPLE",
+        "TECHNOLOGY",
+        "SMOOTHIE",
+        "WINTER",
+        "COSTUME",
+        "HAYBALE",
+        "RELEASE",
+        "GIRLPOWER"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 047",
+      "words": [
+        "RASPS",
+        "FRUIT",
+        "PORTION",
+        "COMMAND",
+        "CAPPUCCINO",
+        "PHOTO",
+        "ROFL",
+        "PAGER",
+        "OUTDOORS",
+        "LUNCHBOX",
+        "POWERPOINT",
+        "HAIRGEL"
+      ]
+    },
+    {
+      "name": "Positive Parenting Puzzle 048",
+      "words": [
+        "DROUGHT",
+        "NEST",
+        "SEARCHENGINE",
+        "STUDDEDBELT",
+        "CHEER",
+        "SOCIALNETWORK",
+        "SNACKCAKE",
+        "QUICHE",
+        "NOURISH",
+        "STEAM",
+        "BRAZIL",
+        "COMPUTERLAB"
+      ]
+    }
+  ],
+  "clipart_search_terms": "Positive Parenting Grater Chef Gathering illustration clipart transparent background",
+  "difficulty_label": "Relaxing",
+  "recommended_palette": "nature",
+  "recommended_cover_style": "classic",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "Positive Parenting",
+      "General Interest",
+      "Homesteading",
+      "Baking and Food"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "Positive Parenting"
+    ],
+    "checked_at": "2026-08-22T10:08:39"
+  }
+}

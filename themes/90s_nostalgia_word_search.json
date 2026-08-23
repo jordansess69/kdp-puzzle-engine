@@ -1,0 +1,862 @@
+{
+  "title": "Totally Rad 90s Nostalgia Word Search",
+  "subtitle": "48 Totally Rad Word Search Puzzles for Adults and Teens",
+  "author": "Slade Puzzles",
+  "palette": "nature",
+  "puzzles": [
+    {
+      "name": "90s TV Shows",
+      "words": [
+        "SKILL",
+        "DOLL",
+        "IRONMAN",
+        "SOIL",
+        "MARIOKART",
+        "WEEKENDWATCH",
+        "JOYFUL",
+        "HOLLY",
+        "GUEST",
+        "SATURDAY",
+        "WINNER",
+        "DOMINOS"
+      ]
+    },
+    {
+      "name": "90s Movies",
+      "words": [
+        "SONICMOVIE",
+        "GOLD",
+        "VERSE",
+        "SIGNAL",
+        "FILMSET",
+        "THESIMS",
+        "COURAGE",
+        "PASSWORD",
+        "BIRD",
+        "YOUTUBER",
+        "FRANCHISE",
+        "CHAPTER"
+      ]
+    },
+    {
+      "name": "90s Music",
+      "words": [
+        "DOCUMENTARY",
+        "BOW",
+        "DEPARTMENTSTORE",
+        "KPOP",
+        "THROWBACK",
+        "TREE",
+        "FIVE",
+        "COURSE",
+        "LIZZO",
+        "VIDEOSTORE",
+        "MEALTIME",
+        "AUTUMN"
+      ]
+    },
+    {
+      "name": "90s Technology",
+      "words": [
+        "PIRATE",
+        "BROADWAY",
+        "SWIFTIE",
+        "BAKER",
+        "MARKET",
+        "HOLLYWOOD",
+        "FASHION",
+        "TORNADO",
+        "SHOPPINGBAG",
+        "BRAIN",
+        "EASTER",
+        "RADICAL"
+      ]
+    },
+    {
+      "name": "Video Games",
+      "words": [
+        "URN",
+        "SIBLINGS",
+        "GADGET",
+        "GAMES",
+        "TOONS",
+        "PRINCE",
+        "MOSS",
+        "OUTDOORS",
+        "EXOTIC",
+        "MINNIE",
+        "SOUNGARDEN",
+        "NAILPOLISH"
+      ]
+    },
+    {
+      "name": "90s Toys",
+      "words": [
+        "BEACH",
+        "PIZZA",
+        "PARK",
+        "ELECTRONICS",
+        "RECEIVER",
+        "NOT",
+        "JUMPROPE",
+        "CANDY",
+        "GUN",
+        "PHONECARD",
+        "SNEAKERSTORE",
+        "HARMONY"
+      ]
+    },
+    {
+      "name": "School Days",
+      "words": [
+        "LEGWARMERS",
+        "FILTER",
+        "TWISTYPUZZLE",
+        "SPORTS",
+        "CHAIR",
+        "TOAST",
+        "CLIFFHANGER",
+        "BEACHES",
+        "SWINGS",
+        "RAMP",
+        "ERASER",
+        "BUTTERFLYCLIPS"
+      ]
+    },
+    {
+      "name": "90s Fashion",
+      "words": [
+        "REWARD",
+        "MEATS",
+        "MOVIERENTAL",
+        "BUTTER",
+        "RICE",
+        "BEANS",
+        "BRB",
+        "PRIMETIME",
+        "SUNSHINE",
+        "HOMEMADE",
+        "CARGOPANTS",
+        "LEAVES"
+      ]
+    },
+    {
+      "name": "Arcade",
+      "words": [
+        "TWIRL",
+        "DANCECHALLENGE",
+        "DONALD",
+        "CELEBRITY",
+        "MODELKIT",
+        "PARFAIT",
+        "SUMMER",
+        "COAT",
+        "WINTER",
+        "POTION",
+        "KEYCHAIN",
+        "COMEDYNIGHT"
+      ]
+    },
+    {
+      "name": "90s Snacks",
+      "words": [
+        "BEAT",
+        "FOIL",
+        "SUNDAYFUNDAY",
+        "LEAF",
+        "CLUE",
+        "RICKANDMORTY",
+        "DIALUP",
+        "MEXICO",
+        "TEDDY",
+        "TURKEY",
+        "MOVIEHOUSE",
+        "PRINT"
+      ]
+    },
+    {
+      "name": "Fast Food",
+      "words": [
+        "HUNT",
+        "SAVEFILE",
+        "WILD",
+        "MUSICLOVER",
+        "SWEATER",
+        "COMICBOOK",
+        "REDCARPET",
+        "MADABOUTYOU",
+        "BILLBOARD",
+        "THRILL",
+        "CHOWDER",
+        "AMUSEMENT"
+      ]
+    },
+    {
+      "name": "90s Drinks",
+      "words": [
+        "FOLD",
+        "PRESSTOUR",
+        "BEAN",
+        "VIBRATE",
+        "FANEXPO",
+        "CATCH",
+        "FROZEN",
+        "FRESH",
+        "THANKS",
+        "TRUCKS",
+        "KENANANDKEL",
+        "MEMORIES"
+      ]
+    },
+    {
+      "name": "Mall Culture",
+      "words": [
+        "FORTNITE",
+        "DEXTERSLAB",
+        "JASMINE",
+        "DISPOSABLECAMERA",
+        "RACE",
+        "CUP",
+        "MUSICAWARD",
+        "INHERIT",
+        "SUN",
+        "FASTFOOD",
+        "NOOB",
+        "FANNYPACK"
+      ]
+    },
+    {
+      "name": "Blockbuster Night",
+      "words": [
+        "FAMILYGUY",
+        "SWATKATS",
+        "CULTCLASSIC",
+        "SEINFELD",
+        "SPACESHIP",
+        "MIST",
+        "BRIE",
+        "SIMCITY",
+        "TRACK",
+        "APP",
+        "GIFT",
+        "SWEETSHOP"
+      ]
+    },
+    {
+      "name": "Cassette Era",
+      "words": [
+        "NUTRITION",
+        "FANTASY",
+        "TALKSHOW",
+        "WIFI",
+        "CURSOR",
+        "GRAPES",
+        "REGIONAL",
+        "PARIS",
+        "ARABIAN",
+        "THOUGHT",
+        "INSTRUCTOR",
+        "YEAST"
+      ]
+    },
+    {
+      "name": "90s Sports",
+      "words": [
+        "DANCE",
+        "SANDALS",
+        "COFFEE",
+        "TICKETSTUB",
+        "TRACKING",
+        "POPTARTS",
+        "ART",
+        "HITSHOW",
+        "MYBAD",
+        "ENGINE",
+        "COMMERCIALS",
+        "TIKTOK"
+      ]
+    },
+    {
+      "name": "90s Cartoons",
+      "words": [
+        "FESTIVE",
+        "TRAVEL",
+        "BLOWING",
+        "TROLLS",
+        "RAIL",
+        "DRIVE",
+        "PLAYSTATION",
+        "TRADIT",
+        "REMOTE",
+        "FRUIT",
+        "MEASURE",
+        "KURTCOBAIN"
+      ]
+    },
+    {
+      "name": "90s Sitcoms",
+      "words": [
+        "SHERLOCK",
+        "STARCRAFT",
+        "SAVEDBYBELL",
+        "YOLK",
+        "FANMAIL",
+        "GIFTBOX",
+        "OVEN",
+        "TEACH",
+        "KETTLE",
+        "KARAOKE",
+        "LIGHT",
+        "NICKELODEON"
+      ]
+    },
+    {
+      "name": "90s Celebrities",
+      "words": [
+        "COLDBLOODED",
+        "MOVIECLUB",
+        "SKINK",
+        "CRANBERRY",
+        "DISNEYLAND",
+        "VIRAL",
+        "EMOJI",
+        "MARIO",
+        "CONTROLLER",
+        "POSTMALONE",
+        "GLACIER",
+        "MTV"
+      ]
+    },
+    {
+      "name": "90s Slang",
+      "words": [
+        "SUNHAT",
+        "EGG",
+        "WORLDOFWARCRAFT",
+        "GAMESHOW",
+        "SLED",
+        "BLUEJAY",
+        "MEMORY",
+        "STATION",
+        "VIDEOCASE",
+        "KATYPERRY",
+        "CROPTOP",
+        "MARTIN"
+      ]
+    },
+    {
+      "name": "Sleepovers",
+      "words": [
+        "INSTANTMESSAGE",
+        "CHANNEL",
+        "COASTAL",
+        "BERRY",
+        "TRADINGCARD",
+        "MOVIE",
+        "DANCER",
+        "STUDDEDBELT",
+        "ROYAL",
+        "COOL",
+        "FAMILYMOVIE",
+        "PILLOW"
+      ]
+    },
+    {
+      "name": "Saturday Morning",
+      "words": [
+        "ACORN",
+        "RECORDSTORE",
+        "FINALE",
+        "PROGRAM",
+        "CUDDLE",
+        "BODACIOUS",
+        "CHEWBACCA",
+        "CLASSICROCK",
+        "CHARIZARD",
+        "PASTE",
+        "SUMMERHIT",
+        "THEBATMAN"
+      ]
+    },
+    {
+      "name": "MTV Era",
+      "words": [
+        "FOREST",
+        "TREATBAG",
+        "OCEANSELEVEN",
+        "PARENTS",
+        "PEAKYBLINDERS",
+        "ROTATE",
+        "HOLE",
+        "EXPLORER",
+        "WRITE",
+        "WARMUP",
+        "WRESTLING",
+        "HALLOWEEN"
+      ]
+    },
+    {
+      "name": "Radio Hits",
+      "words": [
+        "CREATOR",
+        "COOKER",
+        "TRACKS",
+        "QUIZSHOW",
+        "SUBWAY",
+        "SCENE",
+        "ANIMATION",
+        "MIGRATION",
+        "GOSSIP",
+        "VARIETYSHOW",
+        "CARDIO",
+        "FZERO"
+      ]
+    },
+    {
+      "name": "Grunge",
+      "words": [
+        "BLUETOOTH",
+        "DEW",
+        "RNB",
+        "GIFTS",
+        "TRICKS",
+        "BIRTHDAY",
+        "PIE",
+        "BRONZER",
+        "TART",
+        "EPISODE",
+        "VIRALVIDEO",
+        "ANIMANIACS"
+      ]
+    },
+    {
+      "name": "Boy Bands",
+      "words": [
+        "FLOUR",
+        "LICORICE",
+        "AVENGERS",
+        "WILLYWONKA",
+        "FACE",
+        "LEMONADE",
+        "BASEBALL",
+        "BOOMBOX",
+        "TOUR",
+        "MMA",
+        "MOVIETHEATER",
+        "VENOM"
+      ]
+    },
+    {
+      "name": "Girl Groups",
+      "words": [
+        "MOANA",
+        "FOLDER",
+        "DRAKE",
+        "GAGME",
+        "CAMPING",
+        "SINGALONG",
+        "PIG",
+        "STARFOX",
+        "FUTURAMA",
+        "SPIDERMAN",
+        "POWERPOINT",
+        "EQUESTRIAN"
+      ]
+    },
+    {
+      "name": "90s Hip Hop",
+      "words": [
+        "SOFT",
+        "FILMMAKER",
+        "GRAPHICNOVEL",
+        "DEGREES",
+        "BOOKMARK",
+        "TOKYO",
+        "SONGWRITER",
+        "SCHOOLOFROCK",
+        "FANFICTION",
+        "CAN",
+        "CHEF",
+        "SEGA"
+      ]
+    },
+    {
+      "name": "90s R&B",
+      "words": [
+        "MIATA",
+        "TUPAC",
+        "SIA",
+        "FLAME",
+        "SUNNY",
+        "TALES",
+        "ZUCCHINI",
+        "PAST",
+        "FEATUREFILM",
+        "CARTOYS",
+        "HIPHOP",
+        "BOND"
+      ]
+    },
+    {
+      "name": "School Supplies",
+      "words": [
+        "SPONGEBOB",
+        "ARBYS",
+        "OREOS",
+        "COZY",
+        "BEEPER",
+        "SITH",
+        "HIDEANDSEEK",
+        "ARCADES",
+        "SEARCH",
+        "PARKS",
+        "BROWNIE",
+        "GAMEROOM"
+      ]
+    },
+    {
+      "name": "Playground",
+      "words": [
+        "CULINARY",
+        "PAPERBACK",
+        "TARZAN",
+        "JACKINTHEBOX",
+        "BONUS",
+        "PROCESSOR",
+        "RATATOUILLE",
+        "MERLOT",
+        "JURASSICPARK",
+        "BOOKS",
+        "CARDGAME",
+        "RESIDENTEVIL"
+      ]
+    },
+    {
+      "name": "Childhood Games",
+      "words": [
+        "OVERALLS",
+        "JAWS",
+        "SNACK",
+        "QUARTERHORSE",
+        "NUMBERONE",
+        "SKATING",
+        "HANDHELD",
+        "MASHED",
+        "BIRTH",
+        "CONES",
+        "GYM",
+        "PRODUCER"
+      ]
+    },
+    {
+      "name": "Family Life",
+      "words": [
+        "DESKTOPPC",
+        "MUSICAL",
+        "ALIEN",
+        "SNOWFLAKE",
+        "RAVENCLAW",
+        "MAKER",
+        "RINGTONE",
+        "DIABLO",
+        "HOMEPAGE",
+        "TRADITION",
+        "BARBECUE",
+        "CLIMBING"
+      ]
+    },
+    {
+      "name": "90s Cars",
+      "words": [
+        "FAVORITE",
+        "COOKIES",
+        "BEANIEBABIES",
+        "LUCASFILM",
+        "WRISTBAND",
+        "OPENMIC",
+        "PIECRUST",
+        "MULTIPLAYER",
+        "ZOOTOPIA",
+        "WICKED",
+        "COCO",
+        "EXCITEMENT"
+      ]
+    },
+    {
+      "name": "90s Gadgets",
+      "words": [
+        "SIDEKICK",
+        "DIGITALART",
+        "SPRAY",
+        "SUNSCREEN",
+        "PAINT",
+        "ANIMATED",
+        "BLACKPANTHER",
+        "CAROL",
+        "HEALTH",
+        "MUSICSTREAM",
+        "GLOSS",
+        "SPIKEDHAIR"
+      ]
+    },
+    {
+      "name": "The Internet",
+      "words": [
+        "WENDYS",
+        "CHUTE",
+        "TREATS",
+        "AOL",
+        "TASTE",
+        "SAMURAIJACK",
+        "PASTURE",
+        "GYRATE",
+        "PLATE",
+        "PYTHON",
+        "TRENDSETTER",
+        "KNEEPADS"
+      ]
+    },
+    {
+      "name": "Computer Games",
+      "words": [
+        "FRIEND",
+        "BACKLOT",
+        "NOMINEE",
+        "FEASTS",
+        "BOOYAH",
+        "JUNGLEGYM",
+        "SURGE",
+        "SPIDER",
+        "FROSTING",
+        "DANCEFLOOR",
+        "LEATHERJACKET",
+        "SLIDE"
+      ]
+    },
+    {
+      "name": "Super Nintendo",
+      "words": [
+        "DREAMSTREET",
+        "FLIPPHONE",
+        "BLOG",
+        "POPART",
+        "NET",
+        "MOUNTAIN",
+        "HOLLYWOODSIGN",
+        "FLATSCREEN",
+        "ARCADETOKEN",
+        "RENANDSTIMPY",
+        "ACIDWASH",
+        "PURPLE"
+      ]
+    },
+    {
+      "name": "PlayStation",
+      "words": [
+        "HOMEROOM",
+        "HATCHLING",
+        "RIDE",
+        "WEEKEND",
+        "PRESS",
+        "SPRING",
+        "HOGWARTS",
+        "CLIMATE",
+        "SHARE",
+        "PAJAMAS",
+        "ROCKSTAR",
+        "TARTS"
+      ]
+    },
+    {
+      "name": "Pokemon",
+      "words": [
+        "ACID",
+        "COMPUTERLAB",
+        "REWIND",
+        "HALFPIPE",
+        "LEGOMOVIE",
+        "JOKER",
+        "PUMPKIN",
+        "JUG",
+        "STUFF",
+        "RAVEN",
+        "FANART",
+        "HOOP"
+      ]
+    },
+    {
+      "name": "Disney",
+      "words": [
+        "AALIYAH",
+        "VIEWFINDER",
+        "FILMFESTIVAL",
+        "BASKETBALL",
+        "ALADDIN",
+        "PASTRY",
+        "MONICA",
+        "STEAM",
+        "PEAS",
+        "PEDALS",
+        "SHORTVIDEO",
+        "CARROT"
+      ]
+    },
+    {
+      "name": "Nickelodeon",
+      "words": [
+        "PASTA",
+        "GAME",
+        "SLOPPYJOE",
+        "MEMORYCARD",
+        "TOYBOX",
+        "COMMUNITY",
+        "FERRISWHEEL",
+        "XMAS",
+        "WARHEADS",
+        "FABLE",
+        "CALLBACK",
+        "GAMESTORE"
+      ]
+    },
+    {
+      "name": "Cartoon Network",
+      "words": [
+        "CULTURE",
+        "CHOREOGRAPHY",
+        "TRIVIA",
+        "LONDON",
+        "TRAIL",
+        "FANDOM",
+        "MASCARA",
+        "FUNDS",
+        "TUBE",
+        "DRAGONFLY",
+        "ORCHARD",
+        "BAROMETER"
+      ]
+    },
+    {
+      "name": "90s Holidays",
+      "words": [
+        "SEASON",
+        "HALLPASS",
+        "EDDEDDNEDDY",
+        "TEA",
+        "KARAOKEBAR",
+        "GRATE",
+        "STAGEPLAY",
+        "WORKOUT",
+        "XGAMES",
+        "DATA",
+        "HEADPHONES",
+        "ROD"
+      ]
+    },
+    {
+      "name": "Summer Vacation",
+      "words": [
+        "VANILLA",
+        "BAG",
+        "FOAL",
+        "UPMOVIE",
+        "WORD",
+        "MANGA",
+        "SANTA",
+        "BANGLES",
+        "AUSTEN",
+        "DRAGON",
+        "FRENCHFRIES",
+        "ENERGYDRINK"
+      ]
+    },
+    {
+      "name": "90s Memories",
+      "words": [
+        "HURRICANE",
+        "GRAIN",
+        "STEM",
+        "BINDER",
+        "CIDER",
+        "SNOWDAY",
+        "BUCKETHAT",
+        "COUNTRYMUSIC",
+        "DICKENS",
+        "SIMONSAYS",
+        "COMPUTER",
+        "HOCUSPOCUS"
+      ]
+    },
+    {
+      "name": "Things We Miss",
+      "words": [
+        "OTTAWA",
+        "SOMMELIER",
+        "VHS",
+        "GOUDA",
+        "EARLGREY",
+        "TRACKSUIT",
+        "BUGLES",
+        "ABUNDANCE",
+        "SHEARLINGBOOTS",
+        "YOUTUBE",
+        "BIGSCREEN",
+        "VOICEMAIL"
+      ]
+    },
+    {
+      "name": "90s School Lunch",
+      "words": [
+        "GLADIATOR",
+        "NSYNC",
+        "ENCANTO",
+        "MIXTAPE",
+        "TENDER",
+        "BIGGIE",
+        "AQUAMAN",
+        "CANDIES",
+        "THETHIRDWHEEL",
+        "CAPTAINAMERICA",
+        "BLUES",
+        "BACKYARD"
+      ]
+    }
+  ],
+  "detected_topic": "Holidays",
+  "recommended_palette": "holly-jolly",
+  "recommended_cover_style": "playful",
+  "cover_style": "playful",
+  "clipart_search_terms": "Holidays Skill Doll Ironman illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Challenging",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:08",
+    "sources": [
+      "Holidays",
+      "Baking and Food",
+      "Nature",
+      "General Interest",
+      "Pop Culture & Entertainment"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "Holidays"
+    ],
+    "checked_at": "2026-08-22T10:08:38"
+  }
+}

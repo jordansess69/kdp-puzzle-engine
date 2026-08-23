@@ -1,0 +1,865 @@
+{
+  "title": "US History for Teens",
+  "subtitle": "48 engaging puzzles about people, places, and turning points",
+  "author": "Slade Puzzles",
+  "series": "Signature Editions: American History",
+  "palette": "patriotic",
+  "cover_style": "bold",
+  "detected_topic": "American History",
+  "clipart_search_terms": "American History Settler Circuit Photography illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "US History for Teens Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": [
+      "History is often studied through primary sources such as letters, photos, newspapers, and objects.",
+      "A timeline helps show the order in which events happened.",
+      "American history includes many perspectives, communities, and regional stories."
+    ]
+  },
+  "puzzles": [
+    {
+      "name": "US History for Teens Puzzle 001",
+      "words": [
+        "SETTLER",
+        "CIRCUIT",
+        "PHOTOGRAPHY",
+        "GASSTATION",
+        "ALTAR",
+        "QUICHE",
+        "TEMPERATURE",
+        "RESTORE",
+        "VISIT",
+        "MONSTER",
+        "WAITER",
+        "RIGHTEOUS"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 002",
+      "words": [
+        "SAFETY",
+        "FORDS",
+        "TRAVELGUIDE",
+        "CHIP",
+        "ITALY",
+        "ARRIVAL",
+        "TARTAR",
+        "VELOUR",
+        "ACTION",
+        "EMPIRE",
+        "DARING",
+        "MALLDAY"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 003",
+      "words": [
+        "PROTAGONIST",
+        "COSPLAY",
+        "SPACESHUTTLE",
+        "HARMON",
+        "STREAM",
+        "RHYTHM",
+        "SKYWARD",
+        "SCORES",
+        "HALFPIPE",
+        "ZEUS",
+        "BAROMETER",
+        "CAMPGROUND"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 004",
+      "words": [
+        "SULTANS",
+        "SPELLBOOK",
+        "KENYA",
+        "THAMES",
+        "VACUUM",
+        "SYRACUSE",
+        "HOMEVIDEO",
+        "FREIGHTS",
+        "TIMEKEEP",
+        "BOOMBOX",
+        "MARBLE",
+        "COUCH"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 005",
+      "words": [
+        "DENIM",
+        "VINTAGE",
+        "LINE",
+        "PERU",
+        "SAIL",
+        "COSMOS",
+        "ROMAN",
+        "GNARLY",
+        "MOONSHOT",
+        "SUGAR",
+        "ESCALATOR",
+        "ANCHOR"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 006",
+      "words": [
+        "MASK",
+        "BLOCKING",
+        "COUNTRYSIDE",
+        "GLITTER",
+        "MING",
+        "INDEPEND",
+        "MAYAN",
+        "SWAMP",
+        "NOWAY",
+        "SANDALS",
+        "FORUM",
+        "HARVEST"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 007",
+      "words": [
+        "VARIETY",
+        "WEST",
+        "MACHINE",
+        "MACRAME",
+        "DROUGHT",
+        "CARBURETOR",
+        "SUNSCREEN",
+        "LEATHERJACKET",
+        "BONUS",
+        "CARTRIDGE",
+        "INKWELL",
+        "MONGOL"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 008",
+      "words": [
+        "GALAXY",
+        "DONUT",
+        "LEGWARMERS",
+        "CONVERTIBLE",
+        "PUZZLES",
+        "BUTTERFLYCLIP",
+        "EYELINER",
+        "COFFEESHOP",
+        "PRODUCTION",
+        "ARCHER",
+        "CHEDDAR",
+        "SAILING"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 009",
+      "words": [
+        "THRONE",
+        "LASER",
+        "PERSONALCOMPUTER",
+        "VACATION",
+        "BREEZE",
+        "ARTIST",
+        "TRUTH",
+        "PAYPHONE",
+        "SKATEPARK",
+        "PARMESAN",
+        "COMPOSITION",
+        "RECOGNIZE"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 010",
+      "words": [
+        "STADIUM",
+        "ENGINE",
+        "RESORT",
+        "COLLECTS",
+        "BEAUTY",
+        "CUSTOMS",
+        "WARLORD",
+        "GLASS",
+        "CROSS",
+        "FOUNTAIN",
+        "COUNTER",
+        "VHS"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 011",
+      "words": [
+        "LOBBY",
+        "EMAIL",
+        "HISTORIC",
+        "TOYS",
+        "PATTERN",
+        "DATE",
+        "HARMONY",
+        "WEEKEND",
+        "USBDRIVE",
+        "CONSERVE",
+        "WETLAND",
+        "FORTUNETOY"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 012",
+      "words": [
+        "AIRCRAFT",
+        "CANDY",
+        "PATCHOULI",
+        "GALLOP",
+        "DEITY",
+        "TELESCOPE",
+        "SIPHON",
+        "WAGON",
+        "DRUMS",
+        "NEWYORKCITY",
+        "BALCONY",
+        "EQUESTRIAN"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 013",
+      "words": [
+        "PIER",
+        "WANDER",
+        "LISTEN",
+        "ACTOR",
+        "BREAKER",
+        "HATCHLING",
+        "STONE",
+        "TERROR",
+        "BASKET",
+        "BURGER",
+        "HAIRSPRAY",
+        "PIRATE"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 014",
+      "words": [
+        "SCENERY",
+        "VISA",
+        "CHIC",
+        "CAMEL",
+        "VOLLEYBALL",
+        "SLEEPOVER",
+        "TRAFFIC",
+        "BOARDWALK",
+        "SCENICS",
+        "ALLTHAT",
+        "SHOULDERPADS",
+        "CHAINRING"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 015",
+      "words": [
+        "REGAL",
+        "TOKENS",
+        "CHIME",
+        "PRINCE",
+        "BEATNIK",
+        "OLYMPICS",
+        "OCTOBER",
+        "ELIZABETH",
+        "PIG",
+        "BATTLES",
+        "FLASHBULB",
+        "FLATSCREEN"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 016",
+      "words": [
+        "SCREENS",
+        "TRADINGCARDS",
+        "LAYEREDTANKS",
+        "MEAL",
+        "STOOL",
+        "FARMLAND",
+        "DEBATE",
+        "IMAGINE",
+        "HOLLYWOOD",
+        "SILENT",
+        "ESPRESSO",
+        "MIDWAY"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 017",
+      "words": [
+        "COURSES",
+        "PASSWORD",
+        "NOIR",
+        "RAPTOR",
+        "CONQUEST",
+        "MINER",
+        "STUDDEDBELT",
+        "PRETZEL",
+        "CUPCAKE",
+        "VIDEOCASE",
+        "NOVELIST",
+        "FOODCOURT"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 018",
+      "words": [
+        "TEXTURE",
+        "BOARDGAME",
+        "BARISTA",
+        "LEGS",
+        "ASIF",
+        "MOVIENIGHT",
+        "BASEBALL",
+        "HURRICANE",
+        "SHORE",
+        "TOWNHALL",
+        "CAPTAIN",
+        "FEATHEREDHAIR"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 019",
+      "words": [
+        "CHARTS",
+        "LOVE",
+        "LAKEPLACID",
+        "ACIDWASH",
+        "MYBAD",
+        "DANCEFLOOR",
+        "ARCHIT",
+        "WRITING",
+        "COFFEEHOUSE",
+        "LYRIC",
+        "WONDER",
+        "VEST"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 020",
+      "words": [
+        "EXPLOSIVE",
+        "STATUS",
+        "PARTS",
+        "JACKOLANTERN",
+        "RESTSTOP",
+        "JAZZ",
+        "BUFFALOWINGS",
+        "CONDUCTOR",
+        "MUMMY",
+        "INCA",
+        "NEEDLE",
+        "SPEEDOMETER"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 021",
+      "words": [
+        "CARS",
+        "LIBERATION",
+        "VESSEL",
+        "SPACEPROGRAM",
+        "SWEATER",
+        "NOBLES",
+        "ROOFTOP",
+        "JEWELS",
+        "MONK",
+        "REPAIRS",
+        "HIP",
+        "TOYSTORE"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 022",
+      "words": [
+        "CHARCUTERIE",
+        "TEXTMESSAGE",
+        "MAPLE",
+        "SITE",
+        "RESISTANCE",
+        "ROLE",
+        "CURTAINS",
+        "GELATIN",
+        "PHOTOALBUM",
+        "BATTLEMENT",
+        "SPORTS",
+        "CHILL"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 023",
+      "words": [
+        "GONDOLA",
+        "CANISTER",
+        "RELAX",
+        "PLAZA",
+        "REWIND",
+        "HIKING",
+        "BADGES",
+        "SUNFLOWER",
+        "ROADMAP",
+        "MAPS",
+        "CHEST",
+        "SHUTTER"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 024",
+      "words": [
+        "CRITICS",
+        "MANUSCRIPT",
+        "SURFING",
+        "SPEED",
+        "CIRCUS",
+        "GUITAR",
+        "EXOTIC",
+        "KNIGHTS",
+        "SUMMER",
+        "BACKROAD",
+        "LIBERTY",
+        "SALES"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 025",
+      "words": [
+        "HUMIDITY",
+        "SKYSCRAPER",
+        "BRAVE",
+        "BACKPACK",
+        "COMMENT",
+        "GENERAL",
+        "GOAT",
+        "CHARISMA",
+        "GELPEN",
+        "TRUCKERHAT",
+        "CARVING",
+        "TOWEL"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 026",
+      "words": [
+        "HUNTING",
+        "LIZARD",
+        "CARTOGRAPHY",
+        "REMOTECAR",
+        "DYNASTY",
+        "STREET",
+        "SADDLE",
+        "SNEAKERSTORE",
+        "VETERANS",
+        "ROPE",
+        "HEATWAVE",
+        "ROMANCE"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 027",
+      "words": [
+        "BENCH",
+        "CARDIO",
+        "BYZANTINE",
+        "DIGITALCAMERA",
+        "SERIAL",
+        "CARTOON",
+        "CARAVAN",
+        "ADVENTURE",
+        "PLASTIC",
+        "PORT",
+        "WORDSEARCH",
+        "RIGGER"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 028",
+      "words": [
+        "CHARMING",
+        "CHARACTER",
+        "MOHAWKRIVER",
+        "SHELLS",
+        "ARMORY",
+        "CHUNKYHIGHLIGHTS",
+        "INTEREST",
+        "BUTTERFLYCLIPS",
+        "CAFE",
+        "GAMESTORE",
+        "HANDLE",
+        "GLAMROCK"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 029",
+      "words": [
+        "SEAL",
+        "FACES",
+        "SODA",
+        "TELEVISION",
+        "HARBOR",
+        "BOARD",
+        "MOTORIST",
+        "SUCCESS",
+        "CENTURION",
+        "SATIRE",
+        "IMAGE",
+        "POSTER"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 030",
+      "words": [
+        "RACING",
+        "PADDLING",
+        "MOONROCKET",
+        "NETWORK",
+        "MEDIEVAL",
+        "CBRADIO",
+        "VENGINE",
+        "ROFL",
+        "CHAMPION",
+        "PRESLEY",
+        "TOYCAR",
+        "SCREENSAVER"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 031",
+      "words": [
+        "CONTROLLER",
+        "GRAPE",
+        "KING",
+        "HUMAN",
+        "COWBOY",
+        "MECHANISM",
+        "SNAPSHOT",
+        "DESTINATION",
+        "SEQUENCE",
+        "WRAP",
+        "SCOREBOARD",
+        "ARCHAEOLOGY"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 032",
+      "words": [
+        "EXPLOSION",
+        "FIGHT",
+        "DELIGHT",
+        "DABOMB",
+        "MELODY",
+        "THREAD",
+        "SCARF",
+        "SIMULATION",
+        "SAMURAI",
+        "PONYCAR",
+        "FLOAT",
+        "MARKETED"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 033",
+      "words": [
+        "SUBMAR",
+        "CARRIAGE",
+        "COAST",
+        "MASON",
+        "TACO",
+        "TOOLBOX",
+        "HAIRGEL",
+        "AUSTRALIA",
+        "BUTTONDOWN",
+        "READERS",
+        "FOODS",
+        "CAULDRON"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 034",
+      "words": [
+        "ANIMATION",
+        "DUSTBOWL",
+        "VEHICLE",
+        "DONKEY",
+        "DATA",
+        "VINEYARD",
+        "PONG",
+        "MONOCHROME",
+        "BONUSFEATURES",
+        "MYTHOLOGY",
+        "STORY",
+        "NATION"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 035",
+      "words": [
+        "SEAT",
+        "TRAVEL",
+        "TRIVIA",
+        "COLLECTION",
+        "REHEARSAL",
+        "SKATEBOARD",
+        "ANTENNA",
+        "CHAIN",
+        "CABLETV",
+        "CONTACTS",
+        "PACIFIC",
+        "SPARROW"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 036",
+      "words": [
+        "ENGAGING",
+        "COCONUT",
+        "ROLL",
+        "AWARDS",
+        "ANOLIS",
+        "STEAMBOAT",
+        "GOODIES",
+        "WEALTH",
+        "WIRELESSCONTROLLER",
+        "MILE",
+        "TEMPLAR",
+        "RAILS"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 037",
+      "words": [
+        "MAGAZINE",
+        "COASTLINE",
+        "HALLPASS",
+        "CARPOOL",
+        "ANALYSIS",
+        "HOOF",
+        "ILLUSION",
+        "ACTRESS",
+        "BOOKCASE",
+        "APOLLO",
+        "MILK",
+        "SHOWCASE"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 038",
+      "words": [
+        "PRIZES",
+        "CORN",
+        "DDAY",
+        "FLIGHT",
+        "HUDSONVALLEY",
+        "CRUISING",
+        "TOUR",
+        "EXCELLENT",
+        "POSTERS",
+        "SNAKE",
+        "TREAT",
+        "STEREO"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 039",
+      "words": [
+        "REVOLUTION",
+        "HUMOR",
+        "WRITERS",
+        "PHARAOH",
+        "BANDAGE",
+        "VIBRATE",
+        "GAMEOVER",
+        "CONDOR",
+        "CODEBREAKERS",
+        "SIDE",
+        "PHONECARD",
+        "FORT"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 040",
+      "words": [
+        "FESTIVAL",
+        "SAVEFILE",
+        "PRESERVE",
+        "STAGE",
+        "TROT",
+        "FLIPPHONE",
+        "BRB",
+        "BUTTONS",
+        "LANDLINE",
+        "LAKEGEORGE",
+        "SURF",
+        "SKINNYJEANS"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 041",
+      "words": [
+        "NILE",
+        "BIKER",
+        "FOCUS",
+        "COW",
+        "DIRECTION",
+        "SERVICESTATION",
+        "TRAVELER",
+        "VASSAL",
+        "SILLY",
+        "RIDING",
+        "COMPUTERROOM",
+        "CARNIVAL"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 042",
+      "words": [
+        "DISC",
+        "TUBETOP",
+        "DANCE",
+        "HANDHELD",
+        "PEAK",
+        "BASS",
+        "SCENICDRIVE",
+        "HAYBALE",
+        "HABITAT",
+        "BLOCKBUSTER",
+        "CHAMOMILE",
+        "CELEBRITY"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 043",
+      "words": [
+        "REPRINTS",
+        "AUTHORS",
+        "DESIGNER",
+        "ROME",
+        "SKATESHOP",
+        "GAMESHOW",
+        "POPULAR",
+        "MEETUPS",
+        "COMET",
+        "RIGHTS",
+        "VILLAGE",
+        "BLACKCAT"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 044",
+      "words": [
+        "DRAWBRIDGE",
+        "WARBLER",
+        "KAYAK",
+        "CORKSCREW",
+        "GAMEPLAY",
+        "COMMENTARY",
+        "ARCH",
+        "MEMORIAL",
+        "BRIE",
+        "LEISURE",
+        "VALLEY",
+        "RELAXED"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 045",
+      "words": [
+        "PRIZE",
+        "SEARCH",
+        "RUINS",
+        "FLYERS",
+        "TOWN",
+        "TEMPLE",
+        "CAMPAIGN",
+        "RAINDROP",
+        "CONCESSION",
+        "FLY",
+        "MEMORY",
+        "CLASS"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 046",
+      "words": [
+        "YEARBOOK",
+        "PYRAMID",
+        "DESKTOP",
+        "DEW",
+        "NATIONAL",
+        "AREACODE",
+        "DRIVER",
+        "SERVICEBAY",
+        "BIRDFEEDER",
+        "HEADSET",
+        "GUN",
+        "HAYRIDE"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 047",
+      "words": [
+        "PANNING",
+        "SOUL",
+        "SIDEWALK",
+        "TRACK",
+        "PROFILE",
+        "CRAFTED",
+        "COLONY",
+        "POETRY",
+        "MOTEL",
+        "CLIMATE",
+        "OUTDOORS",
+        "YACHT"
+      ]
+    },
+    {
+      "name": "US History for Teens Puzzle 048",
+      "words": [
+        "SCHOOLDANCE",
+        "COMFORT",
+        "TOY",
+        "WEREWOLF",
+        "FONDUEPOT",
+        "DANCECRAZE",
+        "SARATOGA",
+        "ORCHESTRA",
+        "ACORN",
+        "LAME",
+        "KNEEPADS",
+        "MIST"
+      ]
+    }
+  ],
+  "difficulty_label": "Standard",
+  "recommended_palette": "coastal-blue",
+  "recommended_cover_style": "stripe",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "American History",
+      "World War II History",
+      "Travel and Geography",
+      "General Interest"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "American History"
+    ],
+    "checked_at": "2026-08-22T10:08:39"
+  }
+}

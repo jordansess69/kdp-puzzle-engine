@@ -1,0 +1,865 @@
+{
+  "title": "American Road Trip Word Search",
+  "subtitle": "48 USA travel word search puzzles",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Popular Themes",
+  "series_rank": 9,
+  "palette": "usa",
+  "cover_style": "retro",
+  "puzzles": [
+    {
+      "name": "American Road Trip Puzzle 001",
+      "words": [
+        "TROPICS",
+        "LOTION",
+        "SANDDUNE",
+        "COMMUNITY",
+        "RADISH",
+        "SQUIRRELS",
+        "JETTY",
+        "CONVERTIBLE",
+        "FOREST",
+        "CLIP",
+        "STOOL",
+        "CAPUCHIN"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 002",
+      "words": [
+        "WATCH",
+        "FINCHES",
+        "PASTRAMI",
+        "TETONRANGE",
+        "PANTOMIME",
+        "FAIRY",
+        "PILOTS",
+        "SWIVEL",
+        "RECORDSHOP",
+        "CASUAL",
+        "FANTASY",
+        "SNOWS"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 003",
+      "words": [
+        "COFFEETABLE",
+        "GASOLINE",
+        "THUNDER",
+        "TROUT",
+        "DISCOVER",
+        "BAT",
+        "SUPPORT",
+        "RIMTRAIL",
+        "LIONFISH",
+        "UNIVERSE",
+        "THANKSGIVING",
+        "KEEN"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 004",
+      "words": [
+        "EATERY",
+        "SETTLER",
+        "WAFFLE",
+        "CARGO",
+        "MACHINE",
+        "MARIGOLD",
+        "FARMLAND",
+        "CANNA",
+        "PICNIC",
+        "ARTIFACT",
+        "BIRDING",
+        "SKUNKS"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 005",
+      "words": [
+        "BOATS",
+        "DIBBER",
+        "EGG",
+        "SETUP",
+        "NEEM",
+        "REDUCE",
+        "BREAKFASTTACO",
+        "CLOWNFISH",
+        "WAVE",
+        "QUALITY",
+        "LAB",
+        "SIGHTSEE"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 006",
+      "words": [
+        "PRETZEL",
+        "SNOOK",
+        "THROWER",
+        "SMART",
+        "ISLAM",
+        "SWEETTEA",
+        "SEASTAR",
+        "TVGUIDE",
+        "SEASHELL",
+        "TIGERS",
+        "PLACER",
+        "BOOK"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 007",
+      "words": [
+        "TUBEROSE",
+        "VACATE",
+        "TIPPLE",
+        "JOURNEY",
+        "HAWTHORN",
+        "EXHIBIT",
+        "LEISURE",
+        "CACTUS",
+        "FINGERLAKES",
+        "CIDER",
+        "PASTURE",
+        "PALMETTO"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 008",
+      "words": [
+        "MOVIE",
+        "WARLORD",
+        "TIGHTS",
+        "SARATOGA",
+        "FRUIT",
+        "SALTFLAT",
+        "SCREEN",
+        "AGAVE",
+        "LODGE",
+        "OXYGEN",
+        "CELLAR",
+        "CONSERVATION"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 009",
+      "words": [
+        "SUNTENT",
+        "PINK",
+        "HUECOTANKS",
+        "REPAIRS",
+        "REPTILE",
+        "HUMUS",
+        "NETTLE",
+        "TANG",
+        "SKIING",
+        "PILOT",
+        "COFFEE",
+        "CAPTAIN"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 010",
+      "words": [
+        "SPOT",
+        "CENTRALCOAST",
+        "GATOR",
+        "PIT",
+        "THERMALWATER",
+        "JET",
+        "INTEREST",
+        "TURQUOISE",
+        "TWIST",
+        "INDONESIA",
+        "ATHLETE",
+        "ZUCCHINI"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 011",
+      "words": [
+        "PORK",
+        "FAIRWAY",
+        "HOHRAINFOREST",
+        "NAZI",
+        "LILYTURF",
+        "STALLED",
+        "KEYWEST",
+        "SOFT",
+        "ALBUMS",
+        "SATIRE",
+        "APES",
+        "EXPLORING"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 012",
+      "words": [
+        "LOOT",
+        "GARDEN",
+        "STEEP",
+        "SOUND",
+        "JAPAN",
+        "ASTRONAUT",
+        "TERN",
+        "LOBSTER",
+        "RADIAL",
+        "WARRIOR",
+        "PANNING",
+        "BOUQUET"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 013",
+      "words": [
+        "SHORELINE",
+        "COMMENT",
+        "GIRAFFE",
+        "TROPIC",
+        "CAMPAIGN",
+        "TRADITION",
+        "DESSERT",
+        "PINTOBEANS",
+        "PALLIDBAT",
+        "ORDER",
+        "CONE",
+        "CONEFLOWER"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 014",
+      "words": [
+        "ARROYO",
+        "ORNATE",
+        "BUTTONDOWN",
+        "OUTDOORS",
+        "AUTUMN",
+        "TREASURECOAST",
+        "WETLAND",
+        "BRIDLE",
+        "BASIL",
+        "LAURELHIGHLANDS",
+        "SOPAIPILLA",
+        "LASER"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 015",
+      "words": [
+        "BODIE",
+        "BALL",
+        "HUT",
+        "VIEWINGAREA",
+        "HOME",
+        "GOLDRUSH",
+        "TAPE",
+        "PROTEST",
+        "FRITTER",
+        "PEAR",
+        "HUMID",
+        "SPECTACLE"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 016",
+      "words": [
+        "FLYER",
+        "PHOTOS",
+        "ATOLL",
+        "SHORES",
+        "ENGLAND",
+        "FALLLEAVES",
+        "INITIATIVE",
+        "CALENDAR",
+        "VISION",
+        "SPECTATOR",
+        "FLASHBULB",
+        "PUBLICITY"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 017",
+      "words": [
+        "DEBRIS",
+        "STARFISH",
+        "HEADPHONES",
+        "FAJITA",
+        "RUDDER",
+        "PROTECTED",
+        "BUTTERCUP",
+        "CROCODILES",
+        "HABITUATE",
+        "SCREAM",
+        "TRAVELGUIDE",
+        "CLEVER"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 018",
+      "words": [
+        "CAPROCKCANYONS",
+        "JOY",
+        "PIPINGPLOVER",
+        "QUINCE",
+        "STARGAZING",
+        "FREDERICKSBURG",
+        "MULEDEER",
+        "CLOCK",
+        "COMMUNICATE",
+        "RINK",
+        "TENDRIL",
+        "VENUE"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 019",
+      "words": [
+        "PARSLEY",
+        "EFFORT",
+        "ANTIQUES",
+        "FAMILYROOM",
+        "MODELING",
+        "HAVEN",
+        "PANORAMA",
+        "FICTION",
+        "WANDER",
+        "CALENDULA",
+        "HOLLYHOCK",
+        "HELICONIA"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 020",
+      "words": [
+        "TRACKING",
+        "DART",
+        "CAPTURE",
+        "ENGAGING",
+        "HILLS",
+        "GUACAMOLE",
+        "ACORN",
+        "FACES",
+        "ZONE",
+        "GENOCIDE",
+        "LAKEMICHIGAN",
+        "WINGS"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 021",
+      "words": [
+        "COMPETE",
+        "GUARD",
+        "SOAR",
+        "ORANGECOUNTY",
+        "REGATTA",
+        "ICECREAM",
+        "CREAM",
+        "FISH",
+        "STADIUM",
+        "MUSHROOM",
+        "HARNESS",
+        "SOUNDTRACK"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 022",
+      "words": [
+        "FANART",
+        "SPAS",
+        "CHILDREN",
+        "TUSK",
+        "HANDLEBAR",
+        "GILLS",
+        "CRUSADE",
+        "TIMEKEEP",
+        "MAMMAL",
+        "BURIAL",
+        "STAGE",
+        "BUMBLEBEE"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 023",
+      "words": [
+        "HOE",
+        "LURE",
+        "MING",
+        "LONGSPEAK",
+        "CALCULATOR",
+        "APPALACHIANS",
+        "NEBULA",
+        "HYACINTH",
+        "CHIPMUNKS",
+        "FALCON",
+        "IRRIGATION",
+        "TRAFFIC"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 024",
+      "words": [
+        "DRAINAGE",
+        "EDUCATES",
+        "INDIANADUNES",
+        "INLANDEMPIRE",
+        "PANELS",
+        "FURNACE",
+        "ACTORS",
+        "ABYSS",
+        "LEISURESUIT",
+        "POCONOS",
+        "SQUIRREL",
+        "GENTOO"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 025",
+      "words": [
+        "RUSH",
+        "SHELTERS",
+        "MANAGEMENT",
+        "FIZZY",
+        "SEAOTTER",
+        "THAMES",
+        "OAKSAVANNA",
+        "AMBIENT",
+        "TENTACLE",
+        "ADOPT",
+        "EVOLUTION",
+        "DIATOM"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 026",
+      "words": [
+        "ILLUSION",
+        "MUSCLECAR",
+        "RAILTRAIL",
+        "EMBERS",
+        "COWGIRL",
+        "BRIDGE",
+        "PANSY",
+        "VINYLBOOTS",
+        "BRANDING",
+        "BATTLES",
+        "PACHYSANDRA",
+        "HIGHLIGHT"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 027",
+      "words": [
+        "CARAVAN",
+        "CHIVEBLOSSOM",
+        "TARO",
+        "GREENS",
+        "PICTURE",
+        "HARVESTGOLD",
+        "HOUSEPLANT",
+        "RESERVE",
+        "SCREENS",
+        "STORAGE",
+        "STRING",
+        "LAUNCH"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 028",
+      "words": [
+        "POP",
+        "RAINBARREL",
+        "HUSK",
+        "PRIZES",
+        "BEACH",
+        "SUNHATS",
+        "HOPPING",
+        "CORMORANT",
+        "INCA",
+        "EBB",
+        "SIDEWALK",
+        "STRAWBERRY"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 029",
+      "words": [
+        "COURT",
+        "BRAVE",
+        "COLLARD",
+        "PLANTAIN",
+        "STARLIGHT",
+        "TRACKED",
+        "FLOWERPOWER",
+        "HIBISCUS",
+        "FILMNOIR",
+        "GRAZE",
+        "ASSAY",
+        "LILAC"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 030",
+      "words": [
+        "TRAILER",
+        "SEDONA",
+        "DRAWBRIDGE",
+        "PETREL",
+        "MASS",
+        "SEASTACK",
+        "JURY",
+        "BARREL",
+        "NECK",
+        "UNION",
+        "WARM",
+        "CLEANER"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 031",
+      "words": [
+        "SPHINX",
+        "PADS",
+        "GREENBEANS",
+        "BOARDS",
+        "STEAM",
+        "PEARL",
+        "PAPERBACK",
+        "SHALLOT",
+        "NUTS",
+        "UTICA",
+        "MIGRATINGBIRD",
+        "SEAL"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 032",
+      "words": [
+        "CROWD",
+        "SAILS",
+        "WICKENBURG",
+        "LIME",
+        "WILD",
+        "FLOW",
+        "MEETUPS",
+        "SATELLITE",
+        "TWANG",
+        "COCONUTMILK",
+        "RECOGNIZE",
+        "DELICATEARCH"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 033",
+      "words": [
+        "POPCORN",
+        "SLIDE",
+        "WOODPANELING",
+        "WRACK",
+        "STING",
+        "WILLOW",
+        "PIONEER",
+        "DORSAL",
+        "PEDALING",
+        "EQUIP",
+        "RAY",
+        "DAHLIA"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 034",
+      "words": [
+        "WOODLAND",
+        "BOUNTY",
+        "BILBERRY",
+        "DELAWAREVALLEY",
+        "GENETICS",
+        "MYTHOLOGY",
+        "HEAT",
+        "EAGLE",
+        "SWELL",
+        "GESTURE",
+        "ROSETTE",
+        "STONECRAB"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 035",
+      "words": [
+        "CONTROLS",
+        "SUNLIGHT",
+        "CERAMIC",
+        "LETTER",
+        "HARD",
+        "CROSSROAD",
+        "GERMINATE",
+        "MECHANISM",
+        "SNACKBAR",
+        "PRINCE",
+        "VIGILANT",
+        "CRUISE"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 036",
+      "words": [
+        "MEDIA",
+        "SAFE",
+        "NORI",
+        "VAULTS",
+        "FLIPHAIR",
+        "FISHTACO",
+        "OVERLOOK",
+        "HOOKS",
+        "MAP",
+        "WETSUIT",
+        "KAIBAB",
+        "SARASOTA"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 037",
+      "words": [
+        "POD",
+        "WATER",
+        "RAKE",
+        "RELAXING",
+        "BISBEE",
+        "SPIN",
+        "WINDMILL",
+        "HAIRY",
+        "STOCK",
+        "ROMAINE",
+        "LOBBY",
+        "TRITIP"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 038",
+      "words": [
+        "TRELLIS",
+        "PETAL",
+        "RHINOS",
+        "PATHWAY",
+        "VCR",
+        "MANGO",
+        "ECOLOGY",
+        "WIND",
+        "WALK",
+        "RATING",
+        "GAME",
+        "POWERFUL"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 039",
+      "words": [
+        "PAGE",
+        "MASTER",
+        "TWINE",
+        "CHAR",
+        "FINCH",
+        "BARRIER",
+        "BLENNY",
+        "FIND",
+        "DALLAS",
+        "GILL",
+        "DUTCHCOUNTRY",
+        "CORRAL"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 040",
+      "words": [
+        "RHINO",
+        "FLUKE",
+        "HIGH",
+        "CARPET",
+        "RANCH",
+        "SPROCKET",
+        "TRAILRIDE",
+        "BABOONS",
+        "GLIMMER",
+        "LATIN",
+        "CEDAR",
+        "YACHT"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 041",
+      "words": [
+        "CYCLIST",
+        "SADDLE",
+        "BACKYARD",
+        "FORUM",
+        "FRIEND",
+        "DISPLAY",
+        "ELEPHANTEAR",
+        "BEAUTY",
+        "ICON",
+        "COOK",
+        "EQUAL",
+        "MANDRILLS"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 042",
+      "words": [
+        "MONSTER",
+        "PISTIL",
+        "MICROBE",
+        "COOKOUT",
+        "PITTSBURGH",
+        "STEAMER",
+        "RANCHER",
+        "GEARS",
+        "HONOR",
+        "DEEP",
+        "WELCOME",
+        "OPTIC"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 043",
+      "words": [
+        "BOARDSHORTS",
+        "SANDWICH",
+        "WRITING",
+        "INVASION",
+        "THANKFUL",
+        "FOSSIL",
+        "DIVE",
+        "GRANOLA",
+        "CATS",
+        "CELLULOID",
+        "MERIDIAN",
+        "THRUSH"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 044",
+      "words": [
+        "MAKO",
+        "PELICAN",
+        "GROVE",
+        "EGGPLANT",
+        "HANDLE",
+        "NEIGHBORHOOD",
+        "MANUSCRIPT",
+        "DOLPHIN",
+        "PROPELLER",
+        "SNOWDROP",
+        "ROLLERDISCO",
+        "PARODY"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 045",
+      "words": [
+        "LIZARDS",
+        "RYEBREAD",
+        "LIBERTY",
+        "SWORD",
+        "CHICKADEE",
+        "SOLAR",
+        "SANDIEGO",
+        "VENDOR",
+        "MOSS",
+        "PROGRAM",
+        "SIMULATION",
+        "NOVEL"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 046",
+      "words": [
+        "HARRISBURG",
+        "GORILLAS",
+        "LAKEMCDONALD",
+        "LOSANGELES",
+        "REFUGEES",
+        "FRENCH",
+        "CUYAHOGAVALLEY",
+        "URSA",
+        "CHALET",
+        "SNIP",
+        "HALTERTOP",
+        "ROUTE"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 047",
+      "words": [
+        "TOPOGRAPHY",
+        "MUSSEL",
+        "ABOLITION",
+        "NAVIGATION",
+        "ENTERPRISE",
+        "GRAPHICS",
+        "DISCOUNT",
+        "LEOPARD",
+        "DECKS",
+        "NEONLIGHT",
+        "SCENERY",
+        "EYE"
+      ]
+    },
+    {
+      "name": "American Road Trip Puzzle 048",
+      "words": [
+        "SHOP",
+        "SHELLS",
+        "OLYMPIC",
+        "LEAFY",
+        "SWING",
+        "PUTTER",
+        "GELATIN",
+        "GUITAR",
+        "KING",
+        "FROND",
+        "SKIN",
+        "COMMERCIAL"
+      ]
+    }
+  ],
+  "detected_topic": "National Parks",
+  "recommended_palette": "nature",
+  "recommended_cover_style": "gallery",
+  "clipart_search_terms": "National Parks Tropics Lotion Sanddune illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Standard",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "National Parks",
+      "Nature",
+      "Travel and Geography",
+      "Gardening",
+      "Homesteading",
+      "Ocean Life"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "National Parks"
+    ],
+    "checked_at": "2026-08-22T10:08:39"
+  }
+}

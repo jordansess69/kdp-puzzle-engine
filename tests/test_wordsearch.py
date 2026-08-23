@@ -5,19 +5,38 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import wordsearch as ws
+import word_search_creator as app
 
 
 def test_clean_words_uppercases_and_strips_non_alpha():
     assert ws.clean_words(["cat", "Dog-2", "  fish "]) == ["CAT", "DOG", "FISH"]
 
 
-def test_clean_words_drops_words_longer_than_grid():
-    too_long = "X" * (ws.GRID_N + 1)
+def test_clean_words_drops_words_longer_than_largest_supported_grid():
+    # Automatic sizing supports dense books up to the 21×21 grid limit.
+    too_long = "X" * (ws.MAX_GRID_N + 1)
     assert too_long not in ws.clean_words([too_long, "OK"])
 
 
 def test_clean_words_drops_empty_results():
     assert ws.clean_words(["123", "-- ", "cat"]) == ["CAT"]
+
+
+def test_quick_readiness_does_not_call_a_protected_word_bank_ready():
+    data = {
+        "title": "Test Book",
+        "puzzles": [{"name": f"Puzzle {number}", "words": [f"WORD{chr(65 + number // 26)}{chr(65 + number % 26)}{chr(65 + index)}" for index in range(12)]} for number in range(48)],
+    }
+    data["puzzles"][0]["words"][0] = "LEGO"
+    ready, label = app.quick_theme_readiness(data)
+    assert not ready
+    assert "safe word" in label.lower()
+
+
+def test_pdf_engine_uses_ascii_for_visible_separators():
+    source = Path(ws.__file__).read_text(encoding="utf-8")
+    assert "PUZZLE {idx} - {name.upper()}" in source
+    assert '"• Pick any puzzle' not in source
 
 
 def test_generate_puzzle_grid_is_square_and_fully_filled():
@@ -42,3 +61,25 @@ def test_generate_puzzle_only_reports_words_it_was_given():
     words = ["CAT", "DOG"]
     _, _, placed = ws.generate_puzzle(words)
     assert set(placed) <= set(words)
+
+
+def test_standard_package_explicitly_disables_saved_signature_extras():
+    theme = {"signature_edition": {"enabled": True, "passport_title": "Puzzle Passport"}}
+    package = app.package_data_from_settings(theme, {"signature_edition": False})
+    assert package["signature_edition"]["enabled"] is False
+
+
+def test_only_intentionally_named_signature_themes_default_to_signature():
+    signature = {"signature_edition": {"enabled": True}, "title": "Garden Word Search — Signature Edition"}
+    standard = {"signature_edition": {"enabled": True}, "title": "Zion National Park Word Search"}
+    assert app.theme_defaults_to_signature(Path("signature_garden.json"), signature)
+    assert not app.theme_defaults_to_signature(Path("national_parks_02_zion.json"), standard)
+
+
+def test_contributor_safety_rejects_brand_as_author():
+    notes = app.contributor_safety_notes("Slade Puzzles")
+    assert notes and notes[0].startswith("BLOCK")
+
+
+def test_contributor_safety_accepts_pen_name():
+    assert app.contributor_safety_notes("Jordan M. Slade") == []

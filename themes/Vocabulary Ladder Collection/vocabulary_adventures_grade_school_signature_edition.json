@@ -1,0 +1,347 @@
+{
+  "title": "Vocabulary Adventures: Grade School — Signature Edition",
+  "subtitle": "A friendly word search journey for grades 3–5",
+  "author": "Slade Puzzles",
+  "audience": "Kids & Families",
+  "series": "Vocabulary Ladder Collection",
+  "palette": "kids",
+  "cover_style": "halo",
+  "cover_badge": "NO REPEATED WORDS",
+  "cover_imprint": "Slade Puzzles • Vocabulary Ladder",
+  "series_design": {
+    "family": "Vocabulary Ladder",
+    "layout": "halo",
+    "signature_accent": true
+  },
+  "no_repeat_words": true,
+  "detected_topic": "Grade School Vocabulary",
+  "difficulty_label": "Relaxing",
+  "clipart_search_terms": "grade school vocabulary books pencils learning illustration transparent background",
+  "welcome_message": "Welcome to a word-building adventure designed to make new vocabulary feel friendly and fun.",
+  "collection_features": [
+    "Find 12 carefully chosen words in every puzzle.",
+    "Use one favorite word in a sentence after each puzzle.",
+    "Build confidence for reading, writing, and everyday conversation."
+  ],
+  "puzzles": [
+    {
+      "name": "Everyday Words",
+      "words": [
+        "ADMIRE",
+        "ADVENTURE",
+        "AMAZED",
+        "ANCIENT",
+        "ANXIOUS",
+        "ARRANGE",
+        "ARRIVE",
+        "ARTIST",
+        "ASSIST",
+        "ATTENTION",
+        "AUTUMN",
+        "BALANCE"
+      ]
+    },
+    {
+      "name": "Words for Learning",
+      "words": [
+        "BARGAIN",
+        "BEAUTIFUL",
+        "BEFORE",
+        "BELIEVE",
+        "BELONG",
+        "BENEFIT",
+        "BICYCLE",
+        "BLOSSOM",
+        "BORDER",
+        "BRAVE",
+        "BREEZE",
+        "BRILLIANT"
+      ]
+    },
+    {
+      "name": "Words for Feelings",
+      "words": [
+        "CABIN",
+        "CALENDAR",
+        "CAREFUL",
+        "CELEBRATE",
+        "CHEERFUL",
+        "CHOOSE",
+        "CLEVER",
+        "COLLECT",
+        "COLOR",
+        "COMFORT",
+        "COMPARE",
+        "COMPLETE"
+      ]
+    },
+    {
+      "name": "Words for Actions",
+      "words": [
+        "CONFIDENT",
+        "CONNECT",
+        "CURIOUS",
+        "DANGER",
+        "DECIDE",
+        "DECORATE",
+        "DELIGHT",
+        "DESCRIBE",
+        "DISCOVER",
+        "DISTANCE",
+        "EAGER",
+        "EARLY"
+      ]
+    },
+    {
+      "name": "Words for Describing",
+      "words": [
+        "EARTH",
+        "ECHO",
+        "EDUCATE",
+        "ELEGANT",
+        "EMPTY",
+        "ENCOURAGE",
+        "ENERGY",
+        "ENGINE",
+        "ENORMOUS",
+        "ESCAPE",
+        "EVENT",
+        "EXPLORE"
+      ]
+    },
+    {
+      "name": "Words for People",
+      "words": [
+        "FAIR",
+        "FAMILY",
+        "FAVORITE",
+        "FEATHER",
+        "FIERCE",
+        "FLEXIBLE",
+        "FLOAT",
+        "FLOWER",
+        "FOLLOW",
+        "FOREST",
+        "FORTUNATE",
+        "FRIENDLY"
+      ]
+    },
+    {
+      "name": "Words for Places",
+      "words": [
+        "FUTURE",
+        "GENTLE",
+        "GIANT",
+        "GLITTER",
+        "GRATEFUL",
+        "GROCERY",
+        "GROW",
+        "GUARD",
+        "GUIDE",
+        "HAPPY",
+        "HARVEST",
+        "HEALTHY"
+      ]
+    },
+    {
+      "name": "Words for Nature",
+      "words": [
+        "HELPFUL",
+        "HEROIC",
+        "HOBBY",
+        "HONEST",
+        "HOPE",
+        "HURRY",
+        "IMAGINE",
+        "IMPROVE",
+        "INCLUDE",
+        "INDOOR",
+        "INVITE",
+        "ISLAND"
+      ]
+    },
+    {
+      "name": "Words for Ideas",
+      "words": [
+        "JOURNEY",
+        "JOYFUL",
+        "JUNGLE",
+        "KINDNESS",
+        "LADDER",
+        "LANGUAGE",
+        "LAUGH",
+        "LEARN",
+        "LIBRARY",
+        "LISTEN",
+        "LIVELY",
+        "LONELY"
+      ]
+    },
+    {
+      "name": "Words for Stories",
+      "words": [
+        "LUCKY",
+        "MACHINE",
+        "MAGICAL",
+        "MANAGE",
+        "MANNERS",
+        "MARKET",
+        "MEASURE",
+        "MELODY",
+        "MEMORY",
+        "MESSAGE",
+        "MINUTE",
+        "MIRACLE"
+      ]
+    },
+    {
+      "name": "Words for School",
+      "words": [
+        "MODERN",
+        "MOUNTAIN",
+        "MUSEUM",
+        "MYSTERY",
+        "NATURE",
+        "NEIGHBOR",
+        "NOTICE",
+        "NUMBER",
+        "OBSERVE",
+        "OCEAN",
+        "OFFER",
+        "OPINION"
+      ]
+    },
+    {
+      "name": "Words for Growth",
+      "words": [
+        "ORDINARY",
+        "ORGANIZE",
+        "OUTSIDE",
+        "PALACE",
+        "PATIENCE",
+        "PEACEFUL",
+        "PERFECT",
+        "PICNIC",
+        "PICTURE",
+        "PLANET",
+        "PLAYFUL",
+        "PLEASE"
+      ]
+    },
+    {
+      "name": "Words for Decisions",
+      "words": [
+        "POLITE",
+        "POPULAR",
+        "PRACTICE",
+        "PRECIOUS",
+        "PREPARE",
+        "PRESENT",
+        "PRETEND",
+        "PROUD",
+        "PUZZLE",
+        "QUIET",
+        "RAPID",
+        "READY"
+      ]
+    },
+    {
+      "name": "Words for Discovery",
+      "words": [
+        "REASON",
+        "RECYCLE",
+        "REFLECT",
+        "REMEMBER",
+        "RESCUE",
+        "RESPECT",
+        "REST",
+        "REVIEW",
+        "RIVER",
+        "ROUND",
+        "SAFE",
+        "SAMPLE"
+      ]
+    },
+    {
+      "name": "Words for Communication",
+      "words": [
+        "SCHEDULE",
+        "SCHOOL",
+        "SCIENCE",
+        "SEARCH",
+        "SEASON",
+        "SECRET",
+        "SELECT",
+        "SENTENCE",
+        "SHADOW",
+        "SHARE",
+        "SHELTER",
+        "SHINE"
+      ]
+    },
+    {
+      "name": "Words for Success",
+      "words": [
+        "SHOULD",
+        "SIMPLE",
+        "SKILL",
+        "SMOOTH",
+        "SOLAR",
+        "SPECIAL",
+        "SPARKLE",
+        "SPEECH",
+        "SPRING",
+        "STEADY",
+        "STORY",
+        "STRONG"
+      ]
+    },
+    {
+      "name": "Words for Change",
+      "words": [
+        "STUDENT",
+        "STUDY",
+        "SUCCESS",
+        "SUDDEN",
+        "SUMMER",
+        "SURPRISE",
+        "SYMBOL",
+        "TALENT",
+        "THANKFUL",
+        "THEATER",
+        "THUNDER",
+        "TIDY"
+      ]
+    },
+    {
+      "name": "Words for Challenges",
+      "words": [
+        "TOGETHER",
+        "TRAVEL",
+        "TREASURE",
+        "TRICKY",
+        "TROUBLE",
+        "TRUST",
+        "TRUTH",
+        "USEFUL",
+        "VALLEY",
+        "VALUE",
+        "VILLAGE",
+        "VISITOR"
+      ]
+    }
+  ],
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Grade School Vocabulary Puzzle Passport",
+    "achievement_title": "Vocabulary Achievement",
+    "achievement_message": "Every puzzle solved is another set of words ready to use.",
+    "facts_title": "WORDS TO REMEMBER",
+    "fact_cards": [
+      "Vocabulary grows through reading, conversation, and using new words in context.",
+      "Try using one favorite word from each puzzle in a sentence this week.",
+      "Keep this Passport as a record of every vocabulary challenge you completed."
+    ],
+    "challenge": "Word Power Challenge: use one new word in a sentence today."
+  }
+}

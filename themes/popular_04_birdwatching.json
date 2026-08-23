@@ -1,0 +1,865 @@
+{
+  "title": "Birdwatching Word Search",
+  "subtitle": "48 backyard and wild bird word search puzzles",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Popular Themes",
+  "series_rank": 4,
+  "palette": "ocean-breeze",
+  "cover_style": "gallery",
+  "puzzles": [
+    {
+      "name": "Birdwatching Puzzle 001",
+      "words": [
+        "RANDOM",
+        "REMOTECAR",
+        "AUTUMN",
+        "BLOCKS",
+        "SIDEPONY",
+        "MARKETED",
+        "POMPADOUR",
+        "KNIGHT",
+        "RATCHET",
+        "YAKUZA",
+        "CENTRALNEWYORK",
+        "CELESTE"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 002",
+      "words": [
+        "CROSSOVER",
+        "BAGGYJEANS",
+        "VESSEL",
+        "FLASHDRIVE",
+        "LOL",
+        "CARNIVAL",
+        "ARISTOCRAT",
+        "PROPELLER",
+        "APPLE",
+        "TROY",
+        "BORDER",
+        "NAILPOLISH"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 003",
+      "words": [
+        "TOYSTORE",
+        "COACH",
+        "BOSSBATTLE",
+        "KNEEPADS",
+        "ARTIST",
+        "ACTOR",
+        "AMERICANIDOL",
+        "TRANSPORT",
+        "IMMIGRATE",
+        "HORIZON",
+        "TARTAR",
+        "BUSYSIGNAL"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 004",
+      "words": [
+        "LAYEREDTANKS",
+        "BAD",
+        "ROMANCE",
+        "RETURNAL",
+        "ADELE",
+        "FINALFANTASY",
+        "TRACKS",
+        "RETRO",
+        "HOGWARTS",
+        "BROADBAND",
+        "GAUNTLET",
+        "TOUR"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 005",
+      "words": [
+        "TRIVIANIGHT",
+        "NEGATIVE",
+        "HAYBALE",
+        "JOUST",
+        "SPONGEBOB",
+        "FOLLOWERCOUNT",
+        "NEON",
+        "GAMEGUIDE",
+        "SILVER",
+        "VINYL",
+        "TVGUIDE",
+        "ARCADECABINET"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 006",
+      "words": [
+        "BUS",
+        "WATCHPARTY",
+        "COCONUT",
+        "ADDAMSFAMILY",
+        "DEADPOOL",
+        "JIGGLYPUFF",
+        "LIONKING",
+        "ANTENNA",
+        "UNCHARTED",
+        "DRAMATIC",
+        "REVENUE",
+        "MIRRORBALL"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 007",
+      "words": [
+        "MALTS",
+        "XBOX",
+        "KLONOA",
+        "APP",
+        "THEWEEKND",
+        "MEDALS",
+        "STATIONWAGON",
+        "BIGSCREEN",
+        "LIZARD",
+        "CLASHOFCLANS",
+        "BOXSET",
+        "COW"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 008",
+      "words": [
+        "PHOTOLAB",
+        "CAMERABAG",
+        "CUTTING",
+        "PIXELART",
+        "GAMEGIFT",
+        "FIVEANDDIME",
+        "LANDING",
+        "SLEEPYHOLLOW",
+        "MASTER",
+        "VELOUR",
+        "PHONEBOOK",
+        "FLATIRON"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 009",
+      "words": [
+        "MUSEUM",
+        "HABITAT",
+        "DESTINYSCHILD",
+        "ROCKET",
+        "NINTENDOGS",
+        "ROCKETLEAGUE",
+        "GAMEPARTY",
+        "SYNC",
+        "GAMEFRIEND",
+        "MARCH",
+        "FUNFAIR",
+        "RAMPAGE"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 010",
+      "words": [
+        "FRENZY",
+        "POWERPOINT",
+        "REPORTCARD",
+        "CALLBACK",
+        "MOVIENIGHT",
+        "TSHIRT",
+        "CRASHBANDICOOT",
+        "ACROPOLIS",
+        "TRAILER",
+        "TRAFFIC",
+        "JUSTCAUSE",
+        "VISA"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 011",
+      "words": [
+        "WONDER",
+        "PORCH",
+        "TEAM",
+        "UPMOVIE",
+        "FLAPPYBIRD",
+        "SHAKESPEARE",
+        "AVATAR",
+        "AVENUE",
+        "LIGHTHOUSE",
+        "POKEMONSNAP",
+        "BACKWARDCOMPATIBLE",
+        "TICKETS"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 012",
+      "words": [
+        "CAMCORDER",
+        "SPIKEDHAIR",
+        "CHARCUTERIE",
+        "ARRIVAL",
+        "BATTLEMENT",
+        "FOXMCCLOUD",
+        "DONKEYKONGJR",
+        "SLYTHERIN",
+        "BANNER",
+        "ROBLOX",
+        "MEDAL",
+        "BOSSFIGHT"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 013",
+      "words": [
+        "TOPOGRAPHY",
+        "BONJOVI",
+        "APARTMENT",
+        "TEAMMATE",
+        "CONVERTIBLE",
+        "FASTANDFURIOUS",
+        "CUSTOMIZATION",
+        "GAMEOVER",
+        "OWL",
+        "GLAMROCK",
+        "MUSICAL",
+        "ICECREAM"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 014",
+      "words": [
+        "COOLER",
+        "THEOFFICE",
+        "PAPARAZZI",
+        "SANDALS",
+        "PEDALING",
+        "FOOFIGHTERS",
+        "RECOGNIZE",
+        "PLAZA",
+        "FITNESS",
+        "FRUITSNACKS",
+        "POKEMONSTADIUM",
+        "SINGALONG"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 015",
+      "words": [
+        "GAMEPLAN",
+        "GAMEBOARD",
+        "ENTERPRISE",
+        "INVASION",
+        "FAMILYMOVIE",
+        "KATAMARI",
+        "OASIS",
+        "SURFBOARD",
+        "WAGON",
+        "HISTORIC",
+        "SNOWFLAKE",
+        "OTTAWA"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 016",
+      "words": [
+        "VEHICLE",
+        "GLAM",
+        "BUSSTOP",
+        "MOVIEHOUSE",
+        "DRAGRACE",
+        "DANCE",
+        "SACKBOY",
+        "CHARGER",
+        "WIRELESSCONTROLLER",
+        "COLLECTOR",
+        "PERM",
+        "JEWELER"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 017",
+      "words": [
+        "COSPLAY",
+        "GRAPE",
+        "ELDERSCROLLS",
+        "CABLE",
+        "READERS",
+        "TORNADO",
+        "TROPHY",
+        "ROCKY",
+        "FEATHEREDHAIR",
+        "TOOLBOX",
+        "COMMENTARY",
+        "UNBOXING"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 018",
+      "words": [
+        "MUSICSTREAM",
+        "CONSTRUCT",
+        "BONUSROUND",
+        "MICKEY",
+        "NOT",
+        "DANCEGAME",
+        "THEBEAR",
+        "TEAMWORK",
+        "PLANK",
+        "FUN",
+        "SKYLAB",
+        "SHOOT"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 019",
+      "words": [
+        "BILLBOARDS",
+        "ROBIN",
+        "LIVEMUSIC",
+        "ELECTRONICS",
+        "RATCHETANDCLANK",
+        "MANGA",
+        "LATEFEE",
+        "MOTIONCONTROL",
+        "FILMBUFF",
+        "YOSHI",
+        "ANTIQUE",
+        "JAPAN"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 020",
+      "words": [
+        "TEENIDOL",
+        "BALLOON",
+        "STREAMINGSERVICE",
+        "STRIKE",
+        "INTERNETSTAR",
+        "THRILLER",
+        "AUTHOR",
+        "PORTFOLIO",
+        "OPENWORLD",
+        "SCARECROW",
+        "WONDERWOMAN",
+        "FATALFURY"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 021",
+      "words": [
+        "CLIMBER",
+        "METRO",
+        "SERVICESTATION",
+        "WINDOWSHOPPING",
+        "PAUSE",
+        "MILKSHAKE",
+        "PICKLE",
+        "DABOMB",
+        "HERCULES",
+        "CONES",
+        "KATYPERRY",
+        "WEBSERIES"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 022",
+      "words": [
+        "INSTAGRAM",
+        "ELSA",
+        "TOY",
+        "SEATS",
+        "COSMOS",
+        "PUTTER",
+        "FANFICTION",
+        "ROUTE",
+        "SARATOGA",
+        "FASTFORWARD",
+        "TEEBOX",
+        "SNACKS"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 023",
+      "words": [
+        "HARVESTGOLD",
+        "BIKERIDE",
+        "NETWORKTV",
+        "GAMERLIFE",
+        "PURPLE",
+        "CLANK",
+        "DOLL",
+        "WARFRAME",
+        "GUILD",
+        "CARRIAGE",
+        "BRAVE",
+        "LIBRETTO"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 024",
+      "words": [
+        "CONTRA",
+        "SETTLE",
+        "DOOWOP",
+        "ICONIC",
+        "EDUCATE",
+        "BACKYARD",
+        "ROAST",
+        "TRADINGPOST",
+        "SUBMAR",
+        "MIDNIGHT",
+        "MUTE",
+        "FORMICA"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 025",
+      "words": [
+        "MECHANISM",
+        "ROYALTY",
+        "SHIFT",
+        "CHRONOTRIGGER",
+        "FAIR",
+        "SMASHBROS",
+        "MALTSHOP",
+        "SADDLE",
+        "YOYO",
+        "ROCKABILLY",
+        "VIEWFINDER",
+        "TONYHAWK"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 026",
+      "words": [
+        "MONK",
+        "HAMBURGER",
+        "LATENIGHT",
+        "CAMERAS",
+        "DRAGONFLY",
+        "DANCECRAZE",
+        "PAINTBRUSH",
+        "VENICE",
+        "RIDE",
+        "NOBLES",
+        "FLIGHT",
+        "ANGRYBIRDS"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 027",
+      "words": [
+        "MAN",
+        "COASTAL",
+        "RIHANNA",
+        "INDEPEND",
+        "DROUGHT",
+        "REPLAY",
+        "MACHINES",
+        "DIMMER",
+        "DIGDUG",
+        "ACTRESS",
+        "LEGOMOVIE",
+        "FROGGER"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 028",
+      "words": [
+        "PHONECORD",
+        "NINTENDOSWITCH",
+        "TRACTOR",
+        "CONDOR",
+        "FUTURE",
+        "SCRUNCHIE",
+        "SURVIVOR",
+        "DRAMA",
+        "GREASE",
+        "PARACHUTE",
+        "SPORE",
+        "HAYRIDE"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 029",
+      "words": [
+        "SURFING",
+        "WARBLER",
+        "SWEET",
+        "FROZENYOGURT",
+        "JANETJACKSON",
+        "NOOB",
+        "MULTIPLAYER",
+        "HUDSONVALLEY",
+        "GNARLY",
+        "FRIENDLIST",
+        "FIREWATCH",
+        "SKYWALKER"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 030",
+      "words": [
+        "BASKETBAL",
+        "SERVICEBAY",
+        "ISABELLE",
+        "GASOLINE",
+        "VOICEMAIL",
+        "TAKEACHILLPILL",
+        "BREAKINGBAD",
+        "VENOM",
+        "CLASSIC",
+        "JUICEBOX",
+        "SOVEREIGN",
+        "ROLEPLAY"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 031",
+      "words": [
+        "ORDER",
+        "BORDERLANDS",
+        "STATIONS",
+        "RIMWORLD",
+        "JUMPROPE",
+        "WEBSITE",
+        "BIKER",
+        "TRANSFORMERS",
+        "COLOR",
+        "COLUMN",
+        "VIDEO",
+        "IRON"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 032",
+      "words": [
+        "PRETZEL",
+        "RECORDSTORE",
+        "NBAJAM",
+        "EMBROIDERY",
+        "THROWER",
+        "TWILIGHT",
+        "SOUNDOFMUSIC",
+        "PALM",
+        "FAMOUS",
+        "DARING",
+        "MEMORY",
+        "BARBIE"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 033",
+      "words": [
+        "SEA",
+        "BLUES",
+        "PEDAL",
+        "MINIATURE",
+        "COMEDY",
+        "SOFA",
+        "CONFED",
+        "CASTLE",
+        "RESIDENTEVIL",
+        "PIXEL",
+        "CAMPAIGN",
+        "CINDERELLA"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 034",
+      "words": [
+        "JOKE",
+        "SCREENS",
+        "PERFORMER",
+        "GENRE",
+        "BOAT",
+        "CONDUCTOR",
+        "FROST",
+        "NUMBERONE",
+        "SILLY",
+        "ORNAMENT",
+        "ARCHIVE",
+        "SERIAL"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 035",
+      "words": [
+        "SKYWARD",
+        "MONSTERHUNTER",
+        "ATHLETE",
+        "WARCRAFT",
+        "SEARCHENGINE",
+        "CURIOUS",
+        "BOSS",
+        "FLY",
+        "JANISSARY",
+        "SHOULDERPADS",
+        "MOBILE",
+        "SHOT"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 036",
+      "words": [
+        "RANKED",
+        "GRINDING",
+        "COMEDIAN",
+        "SPLASHDOWN",
+        "GAMEHERO",
+        "REMIX",
+        "BABYTEE",
+        "TRAINSET",
+        "SUPERMETROID",
+        "MONGOL",
+        "LAUNDRY",
+        "SEPPUKU"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 037",
+      "words": [
+        "GRODY",
+        "COASTER",
+        "CANADA",
+        "CONTROLS",
+        "CANNON",
+        "WALUIGI",
+        "CRYSTALBALL",
+        "CYBERPUNK",
+        "BODYGLITTER",
+        "MILK",
+        "EAGLE",
+        "PASSENGER"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 038",
+      "words": [
+        "DJSET",
+        "PAGES",
+        "STAGEPLAY",
+        "MUSICCHART",
+        "REALITYSHOW",
+        "SEASHELL",
+        "WORD",
+        "GLITTER",
+        "TERRARIUM",
+        "FLEETWOODMAC",
+        "GAMEBOY",
+        "DISCORD"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 039",
+      "words": [
+        "SPORTS",
+        "SPEEDSTER",
+        "ZELDA",
+        "MASTERCHIEF",
+        "PROM",
+        "ARCHAEOLOGY",
+        "MUSICLOVER",
+        "FROSTEDTIPS",
+        "PICKUP",
+        "REPAIRS",
+        "WORKER",
+        "ANIMAL"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 040",
+      "words": [
+        "BROOMSTICK",
+        "MAROONFIVE",
+        "NEEDLE",
+        "EQUIPMENT",
+        "RADIOSTAR",
+        "PAPYRI",
+        "CABOOSE",
+        "PRESLEY",
+        "SALES",
+        "IMAGINE",
+        "CANOE",
+        "SNAPSHOT"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 041",
+      "words": [
+        "GALLERY",
+        "STAGEFRIGHT",
+        "HEIGHT",
+        "ONLINEGAMING",
+        "GAMETESTER",
+        "MILEMARKER",
+        "STITCH",
+        "IRONMAN",
+        "JUSTDANCE",
+        "LEADER",
+        "RAIDER",
+        "ROCKYBALBOA"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 042",
+      "words": [
+        "MIITOPIA",
+        "MODELTRAIN",
+        "MEETANDGREET",
+        "TROLLS",
+        "PIZZA",
+        "FALLLEAVES",
+        "BRAZIL",
+        "POUGHKEEPSIE",
+        "BEACON",
+        "FEDERATION",
+        "LEGENDS",
+        "HARMON"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 043",
+      "words": [
+        "JACKS",
+        "KEY",
+        "AWARDWINNER",
+        "GUESTS",
+        "MOONLIGHTER",
+        "ROLLERSKATES",
+        "CAFETERIA",
+        "DUNE",
+        "SOUVENIR",
+        "CAPTAIN",
+        "SKINNYJEANS",
+        "KINGDOMCOME"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 044",
+      "words": [
+        "FUNK",
+        "GRAVE",
+        "TEXTING",
+        "TOMNOOK",
+        "CASTS",
+        "SPECIAL",
+        "BLACKWIDOW",
+        "FANCLUB",
+        "GUNSTARHEROES",
+        "BLUE",
+        "AERIAL",
+        "ALTERNATIVE"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 045",
+      "words": [
+        "VIRAL",
+        "DIGITALWATCH",
+        "FARE",
+        "DEMOCRACY",
+        "STEAMBOAT",
+        "TREASURE",
+        "SOUTHPARKGAME",
+        "SCREENING",
+        "GAMEMUSIC",
+        "SOUTHERNTIER",
+        "SUNDAYFUNDAY",
+        "CANDY"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 046",
+      "words": [
+        "PROJECTOR",
+        "RAYMAN",
+        "BACKSTAGE",
+        "COUNTDOWN",
+        "MOAT",
+        "PROJECTZOMBOID",
+        "EDITING",
+        "MILEYCYRUS",
+        "PERU",
+        "AREACODE",
+        "GRYFFINDOR",
+        "DVD"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 047",
+      "words": [
+        "LANDLINE",
+        "SEINFELD",
+        "HAMILTON",
+        "LANGUAGE",
+        "GAMEGEAR",
+        "KETCHUP",
+        "PHOTOKIOSK",
+        "WRESTLING",
+        "CARPET",
+        "VIRTUALWORLD",
+        "FIGHTING",
+        "BROADWAY"
+      ]
+    },
+    {
+      "name": "Birdwatching Puzzle 048",
+      "words": [
+        "SEKIRO",
+        "COMEDYNIGHT",
+        "CONQUEST",
+        "BYZANTINE",
+        "RUDY",
+        "BACKTOTHEFUTURE",
+        "FOAL",
+        "COUNTER",
+        "SWIFTIE",
+        "CARVING",
+        "WRITING",
+        "KEYPAD"
+      ]
+    }
+  ],
+  "detected_topic": "General Interest",
+  "recommended_palette": "nature",
+  "recommended_cover_style": "classic",
+  "clipart_search_terms": "General Interest Random Remotecar Autumn illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Relaxing",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "General Interest",
+      "Pop Culture & Entertainment",
+      "Video Games & Gaming",
+      "Sports and Hobbies",
+      "Travel and Geography",
+      "Nature"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "General Interest"
+    ],
+    "checked_at": "2026-08-22T10:08:39"
+  }
+}

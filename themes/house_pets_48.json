@@ -1,0 +1,861 @@
+{
+  "title": "Cozy House Pets Word Search",
+  "subtitle": "48 delightful puzzles about cats, dogs, and house pets",
+  "author": "Slade Puzzles",
+  "palette": "berry-blush",
+  "puzzles": [
+    {
+      "name": "House Puzzle 001",
+      "words": [
+        "CHOKER",
+        "RAP",
+        "MIST",
+        "PROGRESS",
+        "ARCHITECT",
+        "SUNRISE",
+        "CHANNEL",
+        "HAIRSPRAY",
+        "MILE",
+        "MISSIONCONTROL",
+        "SPEAKER",
+        "SCREEN"
+      ]
+    },
+    {
+      "name": "House Puzzle 002",
+      "words": [
+        "COLOSSEUM",
+        "TRIP",
+        "IMMIGRATION",
+        "SAILBOAT",
+        "COLORFUL",
+        "CHARACTER",
+        "NAVIGATOR",
+        "SKILLED",
+        "SARCOPHAGUS",
+        "CARVING",
+        "CLOTH",
+        "LAUGH"
+      ]
+    },
+    {
+      "name": "House Puzzle 003",
+      "words": [
+        "ALIENS",
+        "SHOW",
+        "FUNFAIR",
+        "SPRITE",
+        "DRIVER",
+        "BAT",
+        "SPACEWALK",
+        "CHIP",
+        "EGGBASKET",
+        "TALES",
+        "TOKEN",
+        "TTYL"
+      ]
+    },
+    {
+      "name": "House Puzzle 004",
+      "words": [
+        "HEIGHT",
+        "SCREENING",
+        "PROFILE",
+        "WESTERNNEWYORK",
+        "CAMCORDER",
+        "TREE",
+        "LANDSCAPE",
+        "PYRAMID",
+        "SOCIALNETWORK",
+        "ADIRONDACKS",
+        "TRADINGPOST",
+        "SUFFRAGE"
+      ]
+    },
+    {
+      "name": "House Puzzle 005",
+      "words": [
+        "REVISION",
+        "CLOUD",
+        "TRIBES",
+        "PONY",
+        "CONCESSION",
+        "BASEBALLCAP",
+        "MOUNTAIN",
+        "PASSWORD",
+        "BRAVE",
+        "TORCH",
+        "SILLY",
+        "ADVENT"
+      ]
+    },
+    {
+      "name": "House Puzzle 006",
+      "words": [
+        "TAP",
+        "BOLDPRINT",
+        "NOVEL",
+        "COMPUTERROOM",
+        "EMPEROR",
+        "JACKS",
+        "STATIONS",
+        "PONG",
+        "WHISKERS",
+        "MANUSCRIPT",
+        "SOUL",
+        "BRIDLE"
+      ]
+    },
+    {
+      "name": "House Puzzle 007",
+      "words": [
+        "CONCERT",
+        "SWAPPED",
+        "ISLAM",
+        "TREEHOUSE",
+        "COASTAL",
+        "BANDAGE",
+        "CREAT",
+        "SNOWSHOE",
+        "ANTIQUE",
+        "SATURDAYNIGHT",
+        "MPPLAYER",
+        "FACE"
+      ]
+    },
+    {
+      "name": "House Puzzle 008",
+      "words": [
+        "SERFS",
+        "CAPSULE",
+        "SONGBOOK",
+        "FRANCE",
+        "PARMESAN",
+        "SUMMIT",
+        "BONUS",
+        "AZTEC",
+        "DATA",
+        "EXTREMESPORTS",
+        "RAIDER",
+        "HENRY"
+      ]
+    },
+    {
+      "name": "House Puzzle 009",
+      "words": [
+        "NOWAY",
+        "FLIPPHONE",
+        "KNEEPADS",
+        "STUDIES",
+        "SHELTER",
+        "QUEEN",
+        "CHILD",
+        "BOOYAH",
+        "LEGION",
+        "HIGHTOPS",
+        "CHAMELEON",
+        "VINYL"
+      ]
+    },
+    {
+      "name": "House Puzzle 010",
+      "words": [
+        "CATSKILLS",
+        "COMMUNITY",
+        "MARITIME",
+        "CANYON",
+        "AMUSEMENT",
+        "ATHLETIC",
+        "FRESH",
+        "INK",
+        "OAR",
+        "PARTS",
+        "CAFE",
+        "CAMOUFLAGE"
+      ]
+    },
+    {
+      "name": "House Puzzle 011",
+      "words": [
+        "OLYMPICS",
+        "CROSSWALK",
+        "RECORD",
+        "PAPYRI",
+        "DRAW",
+        "BRAIN",
+        "BOWL",
+        "MUSIC",
+        "GROOVE",
+        "COSPLAY",
+        "MERLOT",
+        "JANISSARY"
+      ]
+    },
+    {
+      "name": "House Puzzle 012",
+      "words": [
+        "FUTURE",
+        "LONGISLAND",
+        "PHARAOH",
+        "CODEX",
+        "VIEWER",
+        "TOYCAR",
+        "AUDITORIUM",
+        "TAPE",
+        "WEREWOLF",
+        "FORTUNE",
+        "BUTTON",
+        "ARCADE"
+      ]
+    },
+    {
+      "name": "House Puzzle 013",
+      "words": [
+        "STARS",
+        "WANDER",
+        "TARTAR",
+        "MAPLE",
+        "RADICAL",
+        "SHOT",
+        "PUZZLE",
+        "COSTUME",
+        "BOATING",
+        "MILKSHAKE",
+        "LEAVES",
+        "SPACESHUTTLE"
+      ]
+    },
+    {
+      "name": "House Puzzle 014",
+      "words": [
+        "PLAYGROUND",
+        "RATING",
+        "LANGUAGE",
+        "ORCHESTRA",
+        "ALBUMS",
+        "CLACK",
+        "PONYCAR",
+        "TIEDYE",
+        "TRANSISTOR",
+        "SETUP",
+        "CROCODILE",
+        "MUSCLECOUPE"
+      ]
+    },
+    {
+      "name": "House Puzzle 015",
+      "words": [
+        "EDUCATE",
+        "ALLIES",
+        "FASTFORWARD",
+        "SHUTTER",
+        "PARK",
+        "BUTTERFLYCLIP",
+        "ESPRESSO",
+        "SPECIAL",
+        "PARADISE",
+        "PHOTOGRAPHY",
+        "PLOT",
+        "EXCITING"
+      ]
+    },
+    {
+      "name": "House Puzzle 016",
+      "words": [
+        "PLAY",
+        "CLUE",
+        "PROPS",
+        "PROGRAMS",
+        "LIGHT",
+        "FOUNTAIN",
+        "MALLDAY",
+        "BAGGYJEANS",
+        "COLUMN",
+        "STREET",
+        "THEATER",
+        "INBOX"
+      ]
+    },
+    {
+      "name": "House Puzzle 017",
+      "words": [
+        "THEME",
+        "SCRATCHPOST",
+        "KENYA",
+        "FAXMACHINE",
+        "LASERDISC",
+        "PAUSE",
+        "GUM",
+        "RUSH",
+        "WATERBOTTLE",
+        "CHARGER",
+        "LICENSE",
+        "CLASSIC"
+      ]
+    },
+    {
+      "name": "House Puzzle 018",
+      "words": [
+        "CARPOOL",
+        "SCREENPLAY",
+        "SOCCER",
+        "DIGITALWATCH",
+        "ENGLAND",
+        "SPIDER",
+        "PAWPRINT",
+        "HILLSIDE",
+        "STORIES",
+        "LOVING",
+        "LUNAR",
+        "DIRECTION"
+      ]
+    },
+    {
+      "name": "House Puzzle 019",
+      "words": [
+        "EGYPTIAN",
+        "CAPITOL",
+        "PASSPORT",
+        "PUBLICATION",
+        "RECREATION",
+        "VAULTS",
+        "ACTORS",
+        "TOYSTORE",
+        "TEXTBOOK",
+        "DOCUMENT",
+        "FLIGHT",
+        "DONKEY"
+      ]
+    },
+    {
+      "name": "House Puzzle 020",
+      "words": [
+        "SPACERACE",
+        "LOWRISEJEANS",
+        "MONITOR",
+        "ESCALATOR",
+        "LINE",
+        "GRODY",
+        "MACHINE",
+        "TONE",
+        "LOCK",
+        "HALTERTOP",
+        "COMFORT",
+        "TORTOISE"
+      ]
+    },
+    {
+      "name": "House Puzzle 021",
+      "words": [
+        "BARTER",
+        "SONG",
+        "FRISBEE",
+        "PSYCH",
+        "CHEESE",
+        "PICNIC",
+        "FINGERLAKES",
+        "BUTTONS",
+        "CHARM",
+        "COACHES",
+        "FARMLAND",
+        "FELINE"
+      ]
+    },
+    {
+      "name": "House Puzzle 022",
+      "words": [
+        "VENUE",
+        "OASIS",
+        "EXPLOSIVE",
+        "BUSYSIGNAL",
+        "ACHIEVEMENT",
+        "EXPLOSION",
+        "BOYBAND",
+        "CHARTS",
+        "RUDDER",
+        "POTLUCK",
+        "GOAT",
+        "CRAFTED"
+      ]
+    },
+    {
+      "name": "House Puzzle 023",
+      "words": [
+        "LENS",
+        "GARAGE",
+        "CLIMB",
+        "AUTHOR",
+        "BASS",
+        "HIGHWAY",
+        "THREAD",
+        "CARPHONE",
+        "LOCKER",
+        "GOLDFISH",
+        "BATTERY",
+        "CATTLE"
+      ]
+    },
+    {
+      "name": "House Puzzle 024",
+      "words": [
+        "BREAKER",
+        "GOGOBOOTS",
+        "ALIEN",
+        "CORKSCREW",
+        "LEOTARD",
+        "WALLPAPER",
+        "VAMPIRE",
+        "GRASS",
+        "BEEHIVE",
+        "DARING",
+        "CHART",
+        "NIAGARA"
+      ]
+    },
+    {
+      "name": "House Puzzle 025",
+      "words": [
+        "AUTUMN",
+        "PLATFORMSHOES",
+        "FISHING",
+        "SPIN",
+        "GALLOP",
+        "SALADBAR",
+        "CIDER",
+        "REGATTA",
+        "FRAMING",
+        "LIFEGUARD",
+        "KING",
+        "MEDIEVAL"
+      ]
+    },
+    {
+      "name": "House Puzzle 026",
+      "words": [
+        "REELTOREEL",
+        "NARRATIVE",
+        "DRIVE",
+        "VILLAGE",
+        "ARENA",
+        "REELS",
+        "JOKE",
+        "SUBTITLE",
+        "OSCAR",
+        "LASER",
+        "MOOSE",
+        "HOME"
+      ]
+    },
+    {
+      "name": "House Puzzle 027",
+      "words": [
+        "CHARACTERS",
+        "PHONEBOOK",
+        "GYMCLASS",
+        "CITIZEN",
+        "RESORT",
+        "NEWWAVE",
+        "PAYPHONE",
+        "FOODCOURT",
+        "LATIN",
+        "REMOTECONTROL",
+        "THRUWAY",
+        "HANDHELD"
+      ]
+    },
+    {
+      "name": "House Puzzle 028",
+      "words": [
+        "ENGINE",
+        "ATOMIC",
+        "PEAKS",
+        "JOURNAL",
+        "SANDWICH",
+        "FLOAT",
+        "BLIZZARD",
+        "GOD",
+        "STATUS",
+        "TOKYO",
+        "EVALUATE",
+        "WIFI"
+      ]
+    },
+    {
+      "name": "House Puzzle 029",
+      "words": [
+        "FONT",
+        "MACRAME",
+        "TENT",
+        "COUPLESSKATE",
+        "PUZZLES",
+        "GAMERTAG",
+        "VENDOR",
+        "BUTTONDOWN",
+        "RABBIT",
+        "PASTURE",
+        "SILVER",
+        "ANIMATE"
+      ]
+    },
+    {
+      "name": "House Puzzle 030",
+      "words": [
+        "MONEY",
+        "COMMENTARY",
+        "SPEED",
+        "FOREST",
+        "PLOTLINE",
+        "VIPER",
+        "FUNNY",
+        "NOTEBOOK",
+        "RUINS",
+        "BUOY",
+        "RHYTHM",
+        "GRID"
+      ]
+    },
+    {
+      "name": "House Puzzle 031",
+      "words": [
+        "EXPRESSION",
+        "LOOT",
+        "CHAINRING",
+        "BURNEDCD",
+        "LAUNCH",
+        "CHEESECAKE",
+        "COOLDOWN",
+        "EXPLORER",
+        "MOVIES",
+        "WRAPDRESS",
+        "MENU",
+        "HAN"
+      ]
+    },
+    {
+      "name": "House Puzzle 032",
+      "words": [
+        "QUALITY",
+        "RETAIL",
+        "MOSAIC",
+        "DROPS",
+        "NOIR",
+        "AVOCADO",
+        "CHEDDAR",
+        "TELEVISION",
+        "CYCLE",
+        "SEWING",
+        "GIRLPOWER",
+        "HOMECONSOLE"
+      ]
+    },
+    {
+      "name": "House Puzzle 033",
+      "words": [
+        "WILDERNESS",
+        "PADDLING",
+        "STATEHOOD",
+        "CONFED",
+        "SWIMSUIT",
+        "CURRICULUM",
+        "TEALEAF",
+        "BAROQUE",
+        "COMMENT",
+        "VICTORY",
+        "FANART",
+        "BUTTERFLY"
+      ]
+    },
+    {
+      "name": "House Puzzle 034",
+      "words": [
+        "BATTLES",
+        "SHADE",
+        "SIDEPONY",
+        "MASK",
+        "UNIVERSE",
+        "WIRELESSCONTROLLER",
+        "FILMMAKER",
+        "JUSTICE",
+        "RINK",
+        "DANCING",
+        "CASSEROLE",
+        "TASTE"
+      ]
+    },
+    {
+      "name": "House Puzzle 035",
+      "words": [
+        "FOOTBALL",
+        "MANOR",
+        "SUITCASE",
+        "VIDEONIGHT",
+        "WHEEL",
+        "CAPTAIN",
+        "SNACKCAKE",
+        "LIBRARY",
+        "OLYMPIC",
+        "PALM",
+        "FEARLESS",
+        "FLATSCREEN"
+      ]
+    },
+    {
+      "name": "House Puzzle 036",
+      "words": [
+        "DABOMB",
+        "DIP",
+        "SCREAM",
+        "PENCIL",
+        "SLEEPY",
+        "ENJOY",
+        "UNION",
+        "DEITY",
+        "TIMEKEEP",
+        "MUSICCHANNEL",
+        "TOKENS",
+        "FRIENDS"
+      ]
+    },
+    {
+      "name": "House Puzzle 037",
+      "words": [
+        "MOTORIST",
+        "NORTHCOUNTRY",
+        "HERO",
+        "HOMEWORK",
+        "BATTLEMENT",
+        "AUTOGRAPHS",
+        "CELLULOID",
+        "FLASH",
+        "HEIRLOOM",
+        "REFINE",
+        "COMEDY",
+        "SNAPSHOT"
+      ]
+    },
+    {
+      "name": "House Puzzle 038",
+      "words": [
+        "BURIAL",
+        "JEWELS",
+        "BODEGA",
+        "CABOOSE",
+        "CHALLENGE",
+        "DELI",
+        "WORKSHOP",
+        "LUNCH",
+        "ORANGE",
+        "LOBBY",
+        "GRADATION",
+        "PEACESIGN"
+      ]
+    },
+    {
+      "name": "House Puzzle 039",
+      "words": [
+        "COLLECTOR",
+        "SURFBOARD",
+        "COCONUT",
+        "FROSTEDTIPS",
+        "BONES",
+        "ABOLITION",
+        "EYELINER",
+        "LUXURY",
+        "MINES",
+        "CONDUCTOR",
+        "MAN",
+        "TRAIN"
+      ]
+    },
+    {
+      "name": "House Puzzle 040",
+      "words": [
+        "POPULAR",
+        "TRACKING",
+        "HIP",
+        "BOOKCASE",
+        "ARCHER",
+        "WINTER",
+        "COMPOSITION",
+        "WETLAND",
+        "TEXTMESSAGE",
+        "TAXATION",
+        "PEPRALLY",
+        "BLOCKPUZZLE"
+      ]
+    },
+    {
+      "name": "House Puzzle 041",
+      "words": [
+        "SUBWAY",
+        "VERSATILE",
+        "SERIAL",
+        "ORNATE",
+        "ANSWERINGMACHINE",
+        "DELIGHT",
+        "FAST",
+        "MUFFIN",
+        "JUKEBOX",
+        "ROLLS",
+        "PIE",
+        "MINER"
+      ]
+    },
+    {
+      "name": "House Puzzle 042",
+      "words": [
+        "MONOCHROME",
+        "SCHEDULE",
+        "HORSE",
+        "FONDUEPOT",
+        "LIBRARYS",
+        "FEAR",
+        "DIMMER",
+        "LODGE",
+        "TEXTME",
+        "BANGLES",
+        "CAIRO",
+        "POSTCARD"
+      ]
+    },
+    {
+      "name": "House Puzzle 043",
+      "words": [
+        "HABITAT",
+        "TEMPERATURE",
+        "ACTOR",
+        "MICROPHONE",
+        "HIGHWAYMAN",
+        "ERASER",
+        "WALKING",
+        "BADGES",
+        "GUINEAPIG",
+        "STATE",
+        "ALTAR",
+        "SONGBIRD"
+      ]
+    },
+    {
+      "name": "House Puzzle 044",
+      "words": [
+        "ICESTORM",
+        "CRUISING",
+        "CHAMPION",
+        "COLISEUM",
+        "WIDESCREEN",
+        "WATERFALL",
+        "BARGAIN",
+        "BED",
+        "MOONPROGRAM",
+        "CHAPTER",
+        "GASOLINE",
+        "KITE"
+      ]
+    },
+    {
+      "name": "House Puzzle 045",
+      "words": [
+        "SHUFFLE",
+        "STATUE",
+        "STEAMER",
+        "FROST",
+        "GAMEPLAY",
+        "TRANSPORT",
+        "NILE",
+        "CORN",
+        "REPRINTS",
+        "SEQUENCE",
+        "PORTABLECDPLAYER",
+        "WORKER"
+      ]
+    },
+    {
+      "name": "House Puzzle 046",
+      "words": [
+        "GASSTATION",
+        "VIKING",
+        "INKWELL",
+        "PURPLE",
+        "LANDMARK",
+        "MOTEL",
+        "ITALY",
+        "SHOPPINGBAG",
+        "HOUSEPLANT",
+        "VIBRATE",
+        "PATCHOULI",
+        "DIALOGUE"
+      ]
+    },
+    {
+      "name": "House Puzzle 047",
+      "words": [
+        "PROSECCO",
+        "INSPIRE",
+        "FUN",
+        "RAILWAY",
+        "SUPER",
+        "VIDEOSTORE",
+        "TREKKER",
+        "CAFETERIA",
+        "ORNAMENT",
+        "GNARLY",
+        "CASTLE",
+        "PETBED"
+      ]
+    },
+    {
+      "name": "House Puzzle 048",
+      "words": [
+        "VICTORIA",
+        "FUTURISM",
+        "SLAVERY",
+        "CALCULATOR",
+        "POLYESTER",
+        "MUSCLE",
+        "INSTANTCAMERA",
+        "TOON",
+        "FORTUNETOY",
+        "PERFUME",
+        "CARS",
+        "DRIVETHRU"
+      ]
+    }
+  ],
+  "detected_topic": "Cat Lover",
+  "recommended_palette": "candy-pop",
+  "recommended_cover_style": "playful",
+  "cover_style": "playful",
+  "clipart_search_terms": "Cat Lover Choker Rap Mist illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Relaxing",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:08",
+    "sources": [
+      "Cat Lover",
+      "General Interest",
+      "Nature",
+      "Travel and Geography"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "Cat Lover"
+    ],
+    "checked_at": "2026-08-22T10:08:38"
+  }
+}

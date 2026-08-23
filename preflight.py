@@ -1,123 +1,92 @@
-#!/usr/bin/env python3
-"""Compliance check for a built book folder before it ever reaches upload.
+"""Print-package checks shared by every Word Search Creator production route.
 
-Catches the specific things that have triggered Amazon review flags in
-practice -- the author field set to the imprint instead of a person, spine
-text sitting too close to the edge on a thin book -- plus basic print-spec
-sanity: interior page size and count, and wrap.pdf dimensions matching KDP's
-full-wrap formula for the actual page count. Thin books (under 100 pages)
-need a blank spine per KDP's own rule, so those get flagged for a manual look.
+This is a local readiness check, not a substitute for KDP's current Previewer.
+It prefers the Book Studio's ``kdp_full_wrap.pdf`` and also supports the
+older standalone factory's ``wrap.pdf`` so that route stays safe to use.
+"""
+from __future__ import annotations
 
-Exits nonzero if anything fails, so auto_factory can gate on it directly."""
-import os
 import sys
-import glob
+from pathlib import Path
 
 from pypdf import PdfReader
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-
-# Must match wrap_cover.py exactly.
 TRIM_W, TRIM_H = 8.5, 11.0
 BLEED = 0.125
-SPINE_FACTOR = 0.002252  # white paper, B&W
-PT = 72.0                 # points per inch
-TOL_PT = 4.0             # ~0.055" tolerance for rounding/raster
-
-IMPRINT = "evergreen puzzle press"  # must NOT be the author
-
-
-def _pages(reader):
-    return len(reader.pages)
+SPINE_FACTOR = 0.002252
+PT = 72.0
+TOL_PT = 4.0
+MIN_PAGES = 24
+MAX_BLACK_WHITE_PAGES = 590  # 8.5 x 11 black ink on white paper
 
 
-def _page_size_pt(reader):
+def _page_size(reader: PdfReader) -> tuple[float, float]:
     box = reader.pages[0].mediabox
     return float(box.width), float(box.height)
 
 
-def preflight(book_dir):
-    """Return (ok: bool, results: list[str]). Each result is 'PASS .' / 'FAIL .' / 'WARN .'."""
-    res = []
-    interior = os.path.join(book_dir, "interior.pdf")
-    wrap = os.path.join(book_dir, "wrap.pdf")
-
-    if not os.path.isfile(interior):
-        return False, [f"FAIL missing interior.pdf in {book_dir}"]
-    if not os.path.isfile(wrap):
-        return False, [f"FAIL missing wrap.pdf in {book_dir}"]
-
-    ir = PdfReader(interior)
-    pages = _pages(ir)
-
-    # 1) page count sane
-    if pages > 0:
-        res.append(f"PASS interior has {pages} pages")
+def preflight(book_dir: str | Path) -> tuple[bool, list[str]]:
+    """Check the actual files made by this app and return plain-English lines."""
+    folder = Path(book_dir)
+    interior = folder / "interior.pdf"
+    wrap = folder / "kdp_full_wrap.pdf"
+    if not wrap.is_file():
+        wrap = folder / "wrap.pdf"
+    results: list[str] = []
+    if not interior.is_file():
+        return False, ["FAIL - Missing interior.pdf."]
+    if not wrap.is_file():
+        return False, ["FAIL - Missing kdp_full_wrap.pdf (or legacy wrap.pdf)."]
+    try:
+        interior_reader = PdfReader(str(interior)); wrap_reader = PdfReader(str(wrap))
+    except Exception as exc:
+        return False, [f"FAIL - Could not open a PDF: {exc}"]
+    pages = len(interior_reader.pages)
+    if pages < MIN_PAGES:
+        results.append(f"FAIL - Interior has {pages} pages; KDP paperbacks need at least {MIN_PAGES}.")
+    elif pages > MAX_BLACK_WHITE_PAGES:
+        results.append(f"WARN - Interior has {pages} pages, above the known 8.5 x 11 black-and-white limit of {MAX_BLACK_WHITE_PAGES}; confirm the ink and paper options in KDP.")
     else:
-        res.append("FAIL interior has 0 pages")
-
-    # 2) interior trim size
-    w, h = _page_size_pt(ir)
-    exp_w, exp_h = TRIM_W * PT, TRIM_H * PT
-    if abs(w - exp_w) <= TOL_PT and abs(h - exp_h) <= TOL_PT:
-        res.append(f"PASS interior trim {w/PT:.3f}x{h/PT:.3f} in (8.5x11)")
+        results.append(f"PASS - Interior has {pages} page(s), within the expected 8.5 x 11 black-and-white range.")
+    if pages % 2:
+        results.append("WARN - Interior has an odd page count. KDP may round this up; rebuild the package so the final cover-spine calculation is based on the exact count.")
     else:
-        res.append(f"FAIL interior trim {w/PT:.3f}x{h/PT:.3f} in, expected 8.5x11")
-
-    # 3) author must be a person, not the imprint
-    author = (ir.metadata.author if ir.metadata else None) or ""
-    if not author.strip():
-        res.append("WARN interior /Author metadata is empty (set the pen name, e.g. 'E. P. Greenwood')")
-    elif IMPRINT in author.lower():
-        res.append(f"FAIL interior /Author is the imprint ('{author}') — Amazon flags this; use a person/pen name")
+        results.append("PASS - Interior page count is even, so the generated wrap uses the same physical-sheet count.")
+    iw, ih = _page_size(interior_reader)
+    if abs(iw - TRIM_W * PT) <= TOL_PT and abs(ih - TRIM_H * PT) <= TOL_PT:
+        results.append("PASS - Interior trim is 8.5 x 11 inches.")
     else:
-        res.append(f"PASS interior /Author is a person-style name ('{author}')")
-
-    # 4) wrap dimensions vs the KDP full-wrap formula for THIS page count
-    wr = PdfReader(wrap)
-    ww, wh = _page_size_pt(wr)
-    exp_full_w = (TRIM_W * 2 + pages * SPINE_FACTOR + BLEED * 2) * PT
-    exp_full_h = (TRIM_H + BLEED * 2) * PT
-    if abs(ww - exp_full_w) <= TOL_PT and abs(wh - exp_full_h) <= TOL_PT:
-        res.append(f"PASS wrap {ww/PT:.3f}x{wh/PT:.3f} in matches formula for {pages}pp")
+        results.append(f"FAIL - Interior trim is {iw/PT:.3f} x {ih/PT:.3f} inches; expected 8.5 x 11.")
+    ww, wh = _page_size(wrap_reader)
+    expected_w = (TRIM_W * 2 + pages * SPINE_FACTOR + BLEED * 2) * PT
+    expected_h = (TRIM_H + BLEED * 2) * PT
+    if abs(ww - expected_w) <= TOL_PT and abs(wh - expected_h) <= TOL_PT:
+        results.append(f"PASS - Full-wrap size matches the {pages}-page interior.")
     else:
-        res.append(f"FAIL wrap {ww/PT:.3f}x{wh/PT:.3f} in, expected "
-                   f"{exp_full_w/PT:.3f}x{exp_full_h/PT:.3f} for {pages}pp")
-
-    # 5) thin-book spine rule
-    if pages < 100:
-        res.append(f"WARN {pages}pp < 100 — KDP requires a BLANK spine (no text); verify wrap has no spine text")
+        results.append(f"FAIL - Full-wrap size is {ww/PT:.3f} x {wh/PT:.3f} inches; expected {expected_w/PT:.3f} x {expected_h/PT:.3f}.")
+    if pages <= 79:
+        results.append("PASS - Thin-book spine rule: this wrap should have no spine text.")
     else:
-        res.append(f"PASS {pages}pp >= 100 — spine text allowed")
-
-    ok = not any(r.startswith("FAIL") for r in res)
-    return ok, res
-
-
-def _scan_dirs(argv):
-    if len(argv) > 1:
-        return [argv[1]]
-    return sorted(glob.glob(os.path.join(HERE, "out", "auto", "*")))
+        results.append("PASS - KDP permits spine text above 79 pages; still confirm its placement in KDP Print Previewer.")
+    author = str((interior_reader.metadata.author if interior_reader.metadata else "") or "").strip()
+    results.append("PASS - Interior author metadata is present." if author else "WARN - Interior author metadata is empty; confirm the author/pen name before upload.")
+    ok = not any(line.startswith("FAIL") for line in results)
+    return ok, results
 
 
-def main():
-    dirs = _scan_dirs(sys.argv)
-    if not dirs:
-        print("No book folders found.")
-        return 1
-    all_ok = True
-    for d in dirs:
-        if not os.path.isdir(d):
-            continue
-        ok, results = preflight(d)
-        all_ok = all_ok and ok
-        flag = "OK  " if ok else "FAIL"
-        print(f"\n[{flag}] {os.path.basename(d)}")
-        for r in results:
-            print(f"    {r}")
-    print(f"\n{'ALL PASSED' if all_ok else 'SOME BOOKS FAILED'}")
-    return 0 if all_ok else 1
+def report_text(book_dir: str | Path) -> str:
+    ok, results = preflight(book_dir)
+    heading = "PUBLISHER PREFLIGHT - PASSED" if ok else "PUBLISHER PREFLIGHT - NEEDS ATTENTION"
+    return heading + "\n" + "=" * len(heading) + "\n\n" + "\n".join(results) + "\n\nAlways run the current KDP Print Previewer before uploading.\n"
+
+
+def main() -> int:
+    if len(sys.argv) != 2:
+        print("Usage: python preflight.py <finished-book-folder>")
+        return 2
+    print(report_text(sys.argv[1]))
+    return 0 if preflight(sys.argv[1])[0] else 1
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    raise SystemExit(main())

@@ -1,0 +1,851 @@
+{
+  "title": "Garden Lovers Word Search",
+  "subtitle": "48 large-print puzzles about flowers, plants and homegrown joy",
+  "author": "Jordan M. Slade",
+  "series": "Slade Puzzles Seasonal and Evergreen Collection",
+  "series_rank": 2,
+  "audience": "Adults and Teens",
+  "palette": "spring-meadow",
+  "cover_style": "photo",
+  "recommended_palette": "spring-meadow",
+  "recommended_cover_style": "photo",
+  "cover_badge": "48 LARGE-PRINT PUZZLES - NO REPEATED WORDS",
+  "cover_imprint": "Jordan M. Slade",
+  "no_repeat_words": true,
+  "difficulty_label": "Relaxing",
+  "detected_topic": "Gardening & Garden Life",
+  "source_word_bank": {
+    "name": "Guided Builder Master Word Bank",
+    "topics": [
+      "Gardening and Garden Life",
+      "Nature"
+    ]
+  },
+  "cover_art_path": "cover_assets/background_photos/gardening_greenhouse_v2.png",
+  "cover_art_focus": "center",
+  "clipart_search_terms": "gardening flowers greenhouse vegetables plants",
+  "market_research_note": "Selected from current demand signals for large-print adult word searches, seasonal timing, and evergreen giftable themes. This is not a guarantee of sales.",
+  "market_research_sources": [
+    "Amazon Word Search Best Sellers",
+    "KDP paperback requirements"
+  ],
+  "draft": false,
+  "puzzles": [
+    {
+      "name": "Garden Lovers Word Search Puzzle 001",
+      "words": [
+        "YARDLONGBEAN",
+        "ARBUTUS",
+        "SUNFLOWER",
+        "PEAR",
+        "ALYSSUM",
+        "SALVIA",
+        "ONION",
+        "SEEDTRAY",
+        "RANUNCULUS",
+        "EVERGREEN",
+        "ESCAROLE",
+        "PLANTPOT"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 002",
+      "words": [
+        "GARDENCLOCHE",
+        "POLLINATOR",
+        "POTATO",
+        "BOULDER",
+        "GROWLIGHT",
+        "GAZANIA",
+        "CALENDULA",
+        "ZINNIA",
+        "BALCONYGARDEN",
+        "DAYLILY",
+        "BORDER",
+        "BOGGARDEN"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 003",
+      "words": [
+        "HONEYSUCKLE",
+        "WISTERIA",
+        "CRANBERRY",
+        "VEGETABLEPATCH",
+        "LAKE",
+        "TRAIL",
+        "AUTUMN",
+        "BACKPACK",
+        "GARDENWORK",
+        "WINTERGARDEN",
+        "STACHYS",
+        "AIRPLANT"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 004",
+      "words": [
+        "WEEDING",
+        "GARDENCOMPANION",
+        "STARGAZING",
+        "BEAN",
+        "BOTANY",
+        "DIANTHUS",
+        "WETLAND",
+        "BIODYNAMIC",
+        "AGROTEK",
+        "BEET",
+        "BLOSSOM",
+        "FIELD"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 005",
+      "words": [
+        "WATERINGHOSE",
+        "PLANTSTAKE",
+        "MOUNTAIN",
+        "GARDENBASKET",
+        "PENSTEMON",
+        "ARTICHOKE",
+        "PUMPKIN",
+        "CHAMOMILE",
+        "HYSSOP",
+        "ANNUAL",
+        "MELON",
+        "ANEMONE"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 006",
+      "words": [
+        "SOILNUTRITION",
+        "EGGPLANT",
+        "CARROT",
+        "GARDENCOMPOST",
+        "SOILMIX",
+        "GREENBEAN",
+        "CAPE",
+        "LARKSPUR",
+        "HYDRANGEA",
+        "DESERTGARDEN",
+        "AMARYLLIS",
+        "BERGAMOT"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 007",
+      "words": [
+        "GARDENMARKER",
+        "GARDENCENTER",
+        "EARTHWORM",
+        "FLOWERPOT",
+        "CREEK",
+        "LEEK",
+        "CATTAIL",
+        "CHIVE",
+        "ROOTBALL",
+        "MARIGOLDBED",
+        "MAGNOLIA",
+        "HIKING"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 008",
+      "words": [
+        "CANOE",
+        "WINTERGREEN",
+        "PLANTSPREADER",
+        "LIME",
+        "COLUMBINE",
+        "FOXGLOVE",
+        "WINDOWSILLGARDEN",
+        "GREENHOUSEKIT",
+        "GARDENPOND",
+        "LINARIA",
+        "AQUAPONICS",
+        "COLEUS"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 009",
+      "words": [
+        "FORESTGARDEN",
+        "PULSATILLA",
+        "VALLEY",
+        "LEMON",
+        "GRAPEFRUIT",
+        "GARDENINGBOOK",
+        "HYACINTH",
+        "PRIMULA",
+        "KITCHENPLOT",
+        "MULCHBED",
+        "WOODCHIP",
+        "TORENIA"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 010",
+      "words": [
+        "MINT",
+        "CHRYSANTHEMUM",
+        "PATCH",
+        "ILEX",
+        "PRUNINGKNIFE",
+        "POLYANTHUS",
+        "SOILCONDITIONER",
+        "SNOWFALL",
+        "GARDENLIGHT",
+        "CURRANT",
+        "PRAIRIE",
+        "SANTOLINA"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 011",
+      "words": [
+        "VIOLET",
+        "ORCHARD",
+        "WEIGELA",
+        "LEAFMOULD",
+        "BACKYARDGARDEN",
+        "GARDENBORDER",
+        "CILANTRO",
+        "CARNATION",
+        "GARDENWHEEL",
+        "BLACKEYEDSUSAN",
+        "SHORELINE",
+        "RUTABAGA"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 012",
+      "words": [
+        "FOREST",
+        "FREESIA",
+        "FRAGRANCEGARDEN",
+        "BALSAM",
+        "COMPOSTBIN",
+        "SHISO",
+        "LEAF",
+        "LEMONGRASS",
+        "APPLEBLOSSOM",
+        "CREEPINGTHYME",
+        "BERRY",
+        "GARDENRAKE"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 013",
+      "words": [
+        "SWEETBASIL",
+        "SCALLION",
+        "WEEDBASKET",
+        "CAMPGROUND",
+        "STEM",
+        "HABITAT",
+        "PAMPASGRASS",
+        "IRIS",
+        "GARDENARCH",
+        "GREENHOUSEPLANT",
+        "MIX",
+        "LADYBUG"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 014",
+      "words": [
+        "JICAMA",
+        "LAVENDER",
+        "VERBENA",
+        "PEACH",
+        "TRELLIS",
+        "CELOSIA",
+        "HERBBED",
+        "SEEDBED",
+        "RAIN",
+        "SPRING",
+        "ALPINE",
+        "KNIPHOFIA"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 015",
+      "words": [
+        "PECAN",
+        "PETUNIA",
+        "ORCHID",
+        "SKY",
+        "VEGETABLE",
+        "PERIWINKLE",
+        "TRANSPLANT",
+        "LANDSCAPING",
+        "INDOORPLANT",
+        "GARDENINGGLOVES",
+        "GOOSEBERRY",
+        "NASTURTIUM"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 016",
+      "words": [
+        "WOODLANDGARDEN",
+        "SQUASH",
+        "SHALLOT",
+        "BROCCOLI",
+        "FIG",
+        "SOILTEST",
+        "BEETS",
+        "LILYPAD",
+        "XERISCAPE",
+        "SUNFLOWERFIELD",
+        "CROCUS",
+        "SORREL"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 017",
+      "words": [
+        "VICTORYGARDEN",
+        "HAMMOCK",
+        "BOXWOOD",
+        "QUINCE",
+        "CLIMBING",
+        "DAYPACK",
+        "WALLFLOWER",
+        "WORMCASTINGS",
+        "SHADEBORDER",
+        "GLADIOLUS",
+        "WATERCRESS",
+        "OSTEOSPERMUM"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 018",
+      "words": [
+        "LEUCANTHEMUM",
+        "CULTIVATOR",
+        "SOILBLOCK",
+        "SOILHEALTH",
+        "WEEDINGTOOL",
+        "TERRACEGARDEN",
+        "ALLOTMENT",
+        "YARROW",
+        "CHARD",
+        "HOLLY",
+        "GARDENSTORAGE",
+        "POTTINGSOIL"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 019",
+      "words": [
+        "MEADOW",
+        "NURSERY",
+        "GREENHOUSEBENCH",
+        "OUTDOORS",
+        "FENNEL",
+        "CUCUMBER",
+        "RAINBARREL",
+        "DAISY",
+        "GARDENMULCH",
+        "VINCA",
+        "PLANTLABEL",
+        "AGAVE"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 020",
+      "words": [
+        "SWEETCORN",
+        "BLOOM",
+        "SUNRISE",
+        "PRAIRIEGARDEN",
+        "GARDENWEED",
+        "SEEDLING",
+        "ACHILLEA",
+        "SONGBIRD",
+        "PINE",
+        "THUNBERGIA",
+        "JASMINE",
+        "PLANTDIVIDER"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 021",
+      "words": [
+        "ECHINACEA",
+        "TANSY",
+        "HORTICULTURE",
+        "COMPOSTING",
+        "COREOPSIS",
+        "AGAPANTHUS",
+        "ARUGULA",
+        "SUCCULENTGARDEN",
+        "SOILCOMPOST",
+        "GARDENBOOTS",
+        "WOODLAND",
+        "ROSEBUSH"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 022",
+      "words": [
+        "ROSEMARY",
+        "WEEDCONTROL",
+        "PLANTFOOD",
+        "FLOWERBED",
+        "GARDENHOE",
+        "GARDENAPRON",
+        "GARDEN",
+        "COMPASS",
+        "BARK",
+        "SENSORYGARDEN",
+        "LIMONIUM",
+        "POTTINGBENCH"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 023",
+      "words": [
+        "COTONEASTER",
+        "SPRAYBOTTLE",
+        "TRELLISNET",
+        "REEL",
+        "GARDENLATTICE",
+        "MULCHLAYER",
+        "GLACIER",
+        "GROUNDCOVER",
+        "DAHLIA",
+        "FLOWERSEED",
+        "NATURE",
+        "WEEDCLOTH"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 024",
+      "words": [
+        "BELLPEPPER",
+        "TARRAGON",
+        "POLLINATORS",
+        "GRASSLAND",
+        "CARDOON",
+        "POND",
+        "TRELLISWIRE",
+        "ARBOR",
+        "WATERMELON",
+        "ESPALIER",
+        "EPIMEDIUM",
+        "HANDTROWEL"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 025",
+      "words": [
+        "LEAFMOLD",
+        "GARDENPRUNER",
+        "GARDENROOM",
+        "OAK",
+        "RAISEDBED",
+        "GARDENWALL",
+        "MONARDA",
+        "WORMFARM",
+        "SNAPDRAGON",
+        "TRANSPLANTING",
+        "MOSS",
+        "PLANTPROPAGATION"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 026",
+      "words": [
+        "PURSLANE",
+        "WHEELBARROW",
+        "GERMINATE",
+        "PEONY",
+        "KIWI",
+        "SPRINKLER",
+        "GRAPEVINE",
+        "CLEMATIS",
+        "THYME",
+        "MICROGREEN",
+        "WILDFLOWER",
+        "VEGETABLEGARDEN"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 027",
+      "words": [
+        "DIANELLA",
+        "HANDSPADE",
+        "KALANCHOE",
+        "HEUCHERA",
+        "GREENHOUSE",
+        "FOLIAGE",
+        "DIGGING",
+        "GROUNDCHERRY",
+        "GARDENMAP",
+        "STATICE",
+        "HELLEBORE",
+        "RHUBARB"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 028",
+      "words": [
+        "SOILMOISTURE",
+        "CATMINT",
+        "ROCK",
+        "GARDENWORKGLOVES",
+        "PARSLEY",
+        "GARDENROW",
+        "PLANTCADDY",
+        "GARDENHELPER",
+        "PEPPERPLANT",
+        "HYDRANGEABUSH",
+        "GOURD",
+        "WATERBUTT"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 029",
+      "words": [
+        "ROWCOVER",
+        "GARDENRECYCLE",
+        "RHUBARBPATCH",
+        "GARDENPUMP",
+        "HAZELNUT",
+        "PEPPER",
+        "MAP",
+        "KALEIDOSCOPE",
+        "GARDENLAYOUT",
+        "LEAFRAKE",
+        "STRAWBERRY",
+        "CELERIAC"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 030",
+      "words": [
+        "GARDENBENCH",
+        "ROOTPRUNER",
+        "FROST",
+        "FERTILIZER",
+        "HERBSPIRAL",
+        "HEATHER",
+        "GARDENFOUNTAIN",
+        "GARDENPLAN",
+        "SEEDPACKET",
+        "WEEDEXTRACT",
+        "GARDENPLOT",
+        "COTTAGEGARDEN"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 031",
+      "words": [
+        "ALLIUM",
+        "GARDENSTONE",
+        "GARDENKNIFE",
+        "RADISH",
+        "HANDCULTIVATOR",
+        "COMPOSTTEA",
+        "TURNIP",
+        "SALSIFY",
+        "GARDENER",
+        "COMPOSTPILE",
+        "TULIP",
+        "SOILTHERMOMETER"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 032",
+      "words": [
+        "SOILTESTER",
+        "ACORN",
+        "WATERINGGAUGE",
+        "HOSTA",
+        "LOTUS",
+        "BLUEBERRY",
+        "FLOWER",
+        "TRAILHEAD",
+        "YARD",
+        "SUNSHADE",
+        "PLANT",
+        "SOILAMENDMENT"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 033",
+      "words": [
+        "BRUSSELSPROUT",
+        "WILDLIFE",
+        "BORDERPLANT",
+        "HOSE",
+        "TENT",
+        "HOLLYHOCK",
+        "HOSENOZZLE",
+        "NEPETA",
+        "BLOSSOMTIME",
+        "POTAGER",
+        "SEEDLINGRACK",
+        "GREENHOUSEFAN"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 034",
+      "words": [
+        "SHOVEL",
+        "BORAGE",
+        "VEGETABLEBED",
+        "MAHONIA",
+        "WATERFALL",
+        "INSECT",
+        "DRIPLINE",
+        "POTTING",
+        "GARDENSTRING",
+        "WOODS",
+        "PEANUT",
+        "HANDPRUNER"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 035",
+      "words": [
+        "LYSIMACHIA",
+        "DILL",
+        "GARDENSTOOL",
+        "CLIMBINGROSE",
+        "BOKCHOY",
+        "HILLSIDE",
+        "SAXIFRAGE",
+        "GARDENSHED",
+        "BLACKBERRY",
+        "AZALEA",
+        "TRACHELIUM",
+        "GARDENLABEL"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 036",
+      "words": [
+        "GREENMANURE",
+        "NICOTIANA",
+        "CORN",
+        "TRANSPLANTSHOCK",
+        "WOODCHIPMULCH",
+        "FLOWERFARM",
+        "MULCHRING",
+        "KALE",
+        "GARDENPLANNING",
+        "LETTUCE",
+        "PASSIONFLOWER",
+        "PARSNIP"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 037",
+      "words": [
+        "FROSTCLOTH",
+        "MARJORAM",
+        "SEEDDRILL",
+        "SEEDCOUNT",
+        "PRUNINGSHEARS",
+        "RASPBERRY",
+        "GROWER",
+        "CUTTINGGARDEN",
+        "SEEDCOAT",
+        "STAKE",
+        "ROSEMARYBUSH",
+        "TRAILMAP"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 038",
+      "words": [
+        "WATERINGCANISTER",
+        "CLOVER",
+        "ROOFTOPGARDEN",
+        "WATERINGWAND",
+        "BASIL",
+        "WATERGARDEN",
+        "GARDENIA",
+        "OKRA",
+        "GARDENWORKSHOP",
+        "SWEETPOTATO",
+        "BULB",
+        "MALLOW"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 039",
+      "words": [
+        "LILAC",
+        "SEEDTAPE",
+        "ORGANICGARDEN",
+        "HEIRLOOM",
+        "EUPHORBIA",
+        "MARIGOLD",
+        "DAFFODIL",
+        "RIVER",
+        "DEW",
+        "SWEETPEA",
+        "LANTANA",
+        "SNOWDROP"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 040",
+      "words": [
+        "REDCURRANT",
+        "ZUCCHINI",
+        "GRAPE",
+        "CANTALOUPE",
+        "HARVEST",
+        "COCKSCOMB",
+        "BUTTERFLYGARDEN",
+        "WATERINGCAN",
+        "CISTUS",
+        "COSMOS",
+        "CORIANDER",
+        "BUTTERCUP"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 041",
+      "words": [
+        "GARDENPOUCH",
+        "OREGANO",
+        "PLUM",
+        "GARDENPATH",
+        "TROWEL",
+        "POTTINGTABLE",
+        "GARDENSIEVE",
+        "GARLICBULB",
+        "ROPE",
+        "PRUNING",
+        "GARDENSTORE",
+        "SPRINGBULB"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 042",
+      "words": [
+        "ENDIVE",
+        "GERMINATIONTEST",
+        "VERMICOMPOST",
+        "PERENNIALBED",
+        "FERN",
+        "CAMPSITE",
+        "SEEDSTARTER",
+        "DELPHINIUM",
+        "SAGE",
+        "VALERIAN",
+        "NATIVEPLANT",
+        "OXALIS"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 043",
+      "words": [
+        "WALNUT",
+        "TOPSOIL",
+        "HANDFORK",
+        "BUSHBEAN",
+        "SEEDCATALOG",
+        "GREENHOUSEPOT",
+        "CAULIFLOWER",
+        "SEEDPOTATO",
+        "GARDENHOSE",
+        "SEEDLINGPOT",
+        "GARDENPOT",
+        "SEEDMAT"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 044",
+      "words": [
+        "SCABIOSA",
+        "CONEFLOWER",
+        "CARAWAY",
+        "SEMPERVIVUM",
+        "YUCCA",
+        "PLANTNUTRITION",
+        "GARDENSTAKE",
+        "LETTUCELEAF",
+        "HUMMINGBIRD",
+        "GARDENFENCE",
+        "GARDENCALENDAR",
+        "VINE"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 045",
+      "words": [
+        "SUNSET",
+        "SWEETWILLIAM",
+        "ROCKGARDEN",
+        "LAMIUM",
+        "CINERARIA",
+        "GERANIUM",
+        "TOMATILLO",
+        "SOILPROBE",
+        "FLOWERGARDEN",
+        "FLOWERBORDER",
+        "HEDGEROW",
+        "VEGETABLEPLOT"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 046",
+      "words": [
+        "CONTAINERGARDEN",
+        "NASTURTIUMSEED",
+        "SEEDLINGTRAY",
+        "CAMPANULA",
+        "PHLOX",
+        "PICNIC",
+        "GARDENTWINE",
+        "BIRDBATH",
+        "GARLIC",
+        "MORNINGGLORY",
+        "VERONICA",
+        "WINDOWBOX"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 047",
+      "words": [
+        "GREENHOUSEGROWER",
+        "DANDELION",
+        "ARBORVITAE",
+        "FEVERFEW",
+        "BULBPLANT",
+        "DEEPWATERING",
+        "CABBAGE",
+        "SHADEGARDEN",
+        "BEGONIA",
+        "POPPY",
+        "STEVIA",
+        "LOBELIA"
+      ]
+    },
+    {
+      "name": "Garden Lovers Word Search Puzzle 048",
+      "words": [
+        "GERMINATION",
+        "CYCLAMEN",
+        "PANSY",
+        "TOMATO",
+        "SEDUM",
+        "GARDENJOURNAL",
+        "TULIPBULB",
+        "CONTAINERPLANT",
+        "ACANTHUS",
+        "SOILFERTILITY",
+        "CANYON",
+        "TRELLISARCH"
+      ]
+    }
+  ]
+}

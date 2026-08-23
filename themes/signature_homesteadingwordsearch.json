@@ -1,0 +1,1070 @@
+{
+  "title": "Homesteading Word Search",
+  "subtitle": "60 self-sufficient living word search puzzles",
+  "author": "Slade Puzzles",
+  "palette": "forest-cabin",
+  "cover_style": "gallery",
+  "detected_topic": "Homesteading",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Homestead Skills Passport",
+    "achievement_title": "Homestead Explorer",
+    "achievement_message": "Celebrate every small skill learned along the way.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": [
+      "Homesteading often combines food growing, food preservation, practical skills, and care for home resources.",
+      "Extension services are a reliable local source for region-specific growing and food-safety guidance.",
+      "Keeping a simple garden or harvest journal helps record what works in your own climate."
+    ]
+  },
+  "puzzles": [
+    {
+      "name": "Homesteading Puzzle 001",
+      "words": [
+        "HERBS",
+        "WHEAT",
+        "POOL",
+        "SALTY",
+        "CLUE",
+        "PLANK",
+        "JELLY",
+        "HUMUS",
+        "VANILLA",
+        "TEACH",
+        "SWEETS",
+        "WATERINGCAN"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 002",
+      "words": [
+        "GLACIER",
+        "TURKEY",
+        "SEAWEATHER",
+        "SILVER",
+        "FREE",
+        "VIOLET",
+        "DRIP",
+        "PROMENADE",
+        "CEREAL",
+        "CRIMSON",
+        "MONARCH",
+        "CHOCOLATE"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 003",
+      "words": [
+        "SAXIFRAGE",
+        "AIRBORNE",
+        "ELM",
+        "WOODEN",
+        "AIRY",
+        "PEAR",
+        "PAN",
+        "MAGNOLIA",
+        "KEEL",
+        "MEAL",
+        "SEAGULL",
+        "BROCCOLI"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 004",
+      "words": [
+        "WREATH",
+        "SPATULA",
+        "INVITE",
+        "CROW",
+        "BLOCK",
+        "SMELL",
+        "ICEBERG",
+        "COMPOST",
+        "NEEM",
+        "TOGETHER",
+        "TENDRIL",
+        "CALM"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 005",
+      "words": [
+        "SCALE",
+        "DEADHEAD",
+        "SERVE",
+        "COUNSELOR",
+        "TART",
+        "SOIL",
+        "LOAF",
+        "SCENIC",
+        "SUCCULENT",
+        "BERRY",
+        "APPLIANCE",
+        "BEET"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 006",
+      "words": [
+        "ELDERBERRY",
+        "OILS",
+        "NICOTIANA",
+        "BULB",
+        "CONFECTION",
+        "SPRINKLES",
+        "ROOTS",
+        "NOODLE",
+        "SWALLOWTAIL",
+        "DRAGONFLY",
+        "SNOWDROP",
+        "FLYER"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 007",
+      "words": [
+        "EAT",
+        "WINDOWBOX",
+        "SONGS",
+        "TEAM",
+        "CROCK",
+        "EQUIPMENT",
+        "CREEK",
+        "COMPANION",
+        "BLAZINGSTAR",
+        "CREATIVE",
+        "CANYON",
+        "WILLOW"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 008",
+      "words": [
+        "NOZZLE",
+        "CLEAR",
+        "BANANA",
+        "CHARD",
+        "PORK",
+        "WHISTLE",
+        "HOUSE",
+        "FORAGING",
+        "SALTWATER",
+        "SAUNA",
+        "MARIGOLD",
+        "COOKBOOK"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 009",
+      "words": [
+        "NATURAL",
+        "BEEF",
+        "SIFT",
+        "GAMES",
+        "BLEND",
+        "NAP",
+        "CASTLE",
+        "MOWER",
+        "BROTH",
+        "JASMINE",
+        "PASTRY",
+        "REFRESH"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 010",
+      "words": [
+        "FLAVORS",
+        "GLASS",
+        "LUXURY",
+        "HAT",
+        "PICK",
+        "BRAINGAME",
+        "MEALS",
+        "BUTTERCUP",
+        "AERATE",
+        "BORAGE",
+        "CUTTING",
+        "PLANET"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 011",
+      "words": [
+        "SUNGLASSES",
+        "BLACKBERRY",
+        "SEATS",
+        "PLATTER",
+        "SPRUCE",
+        "PASS",
+        "LEISURE",
+        "TRELLIS",
+        "JUICE",
+        "SET",
+        "CUT",
+        "FIREWOOD"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 012",
+      "words": [
+        "SHOT",
+        "SALAD",
+        "LABEL",
+        "MENU",
+        "UTENSIL",
+        "HELICONIA",
+        "LILYTURF",
+        "LANTERN",
+        "GRASS",
+        "ALMOND",
+        "MOONLIGHT",
+        "STRIPE"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 013",
+      "words": [
+        "HORIZON",
+        "TIMBER",
+        "RIVER",
+        "GLOVES",
+        "LEMON",
+        "LETTUCE",
+        "SECRET",
+        "GENTLE",
+        "CHURN",
+        "HOST",
+        "TRUNK",
+        "ARCH"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 014",
+      "words": [
+        "PARSNIP",
+        "SHORELINE",
+        "TUB",
+        "GIFT",
+        "LAGOON",
+        "CLEMATIS",
+        "SEDUM",
+        "PESTICIDE",
+        "SKYWARD",
+        "LAYOUT",
+        "CUP",
+        "SPADE"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 015",
+      "words": [
+        "CARE",
+        "THORN",
+        "BUNDLE",
+        "INSTRUCTOR",
+        "MUSTARD",
+        "LAUREL",
+        "MALLOW",
+        "BLUEBELL",
+        "PEPEROMIA",
+        "FOIL",
+        "SUMMER",
+        "ENJOY"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 016",
+      "words": [
+        "RAY",
+        "TROWEL",
+        "RICE",
+        "GLIDE",
+        "PUMPKINPIE",
+        "TECHNIQUE",
+        "DINNER",
+        "BASKET",
+        "LAWN",
+        "ARBOR",
+        "NUTMEG",
+        "SPLASH"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 017",
+      "words": [
+        "MILL",
+        "CINEMA",
+        "GARDENIA",
+        "FILM",
+        "TARRAGON",
+        "MARSH",
+        "SANDAL",
+        "THANKSGIVING",
+        "HARDY",
+        "MILKWEED",
+        "BOARD",
+        "FLAVOR"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 018",
+      "words": [
+        "EASTER",
+        "COURSE",
+        "RIDE",
+        "SUGAR",
+        "SQUASHBLOSSOM",
+        "NASTURTIUM",
+        "GRILL",
+        "HIVE",
+        "PICNIC",
+        "VETCH",
+        "GUEST",
+        "THISTLE"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 019",
+      "words": [
+        "METEOR",
+        "HELIOTROPE",
+        "PILGRIM",
+        "ISLAND",
+        "CARING",
+        "MOLD",
+        "PUZZLE",
+        "BRIAR",
+        "DANCE",
+        "BEETLE",
+        "THRUSH",
+        "DELIGHT"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 020",
+      "words": [
+        "FOUNT",
+        "NUTS",
+        "SOARING",
+        "WARMTH",
+        "SUNRISE",
+        "EMBERS",
+        "URSA",
+        "GAZE",
+        "PINECONE",
+        "APPETIZER",
+        "BRAIN",
+        "PIES"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 021",
+      "words": [
+        "ARUGULA",
+        "GENRE",
+        "FENCE",
+        "BUOYANT",
+        "SUNNY",
+        "DANDELION",
+        "FLOUR",
+        "GRATE",
+        "PINK",
+        "GREENBEANS",
+        "MUSIC",
+        "SOURDOUGH"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 022",
+      "words": [
+        "SHELF",
+        "POTATO",
+        "WASH",
+        "CHIVES",
+        "BEANS",
+        "SLICE",
+        "PAST",
+        "CREEPINGJENNY",
+        "GLAZE",
+        "HAMMOCK",
+        "COMBER",
+        "PERGOLA"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 023",
+      "words": [
+        "CHILL",
+        "KALE",
+        "HANGING",
+        "VESSEL",
+        "WORD",
+        "ZUCCHINI",
+        "NIGELLA",
+        "NEBULA",
+        "EMERGENCY",
+        "HUMMINGBIRD",
+        "GIFTS",
+        "CRUST"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 024",
+      "words": [
+        "PUMPKIN",
+        "FOODS",
+        "SPICY",
+        "DICHONDRA",
+        "FICTION",
+        "CART",
+        "PRESS",
+        "AMBIENT",
+        "LADYBUG",
+        "NATURE",
+        "BUD",
+        "WICKER"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 025",
+      "words": [
+        "JUG",
+        "SWIM",
+        "FRESH",
+        "FUN",
+        "COMFY",
+        "GRAIN",
+        "DETHATCH",
+        "CORE",
+        "ROSE",
+        "GERMINATE",
+        "VEHICLE",
+        "CREAM"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 026",
+      "words": [
+        "ASH",
+        "PROPAGATE",
+        "NECTAR",
+        "HIBERNATE",
+        "COOL",
+        "SNACK",
+        "CORN",
+        "OCEANVIEW",
+        "BUTTERFLY",
+        "ASIA",
+        "LUNCH",
+        "BEESWAX"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 027",
+      "words": [
+        "DROUGHT",
+        "LEMONADE",
+        "WEED",
+        "NOVEL",
+        "QUIETTIME",
+        "BIRDS",
+        "HEDGEHOG",
+        "YEW",
+        "GENEROUS",
+        "CORAL",
+        "RASPBERRY",
+        "SPEEDBOAT"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 028",
+      "words": [
+        "SNIP",
+        "PRINT",
+        "RABBIT",
+        "TIDE",
+        "PARSLEY",
+        "FROST",
+        "CHALLENGE",
+        "TROPIC",
+        "GOAT",
+        "SERENITY",
+        "CALENDULA",
+        "EGG"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 029",
+      "words": [
+        "FEATHERS",
+        "OUTDOOR",
+        "MEMORIES",
+        "PEBBLE",
+        "MOON",
+        "LEARN",
+        "SKILL",
+        "EXCITING",
+        "CAMP",
+        "TITLE",
+        "FLIP",
+        "RING"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 030",
+      "words": [
+        "BAG",
+        "HORNBEAM",
+        "URN",
+        "CARD",
+        "ORION",
+        "TUBEROSE",
+        "PIE",
+        "CHILDREN",
+        "BIRD",
+        "CANDY",
+        "OVEN",
+        "HOLLYHOCK"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 031",
+      "words": [
+        "COASTLINE",
+        "MACARONI",
+        "SLUG",
+        "KITCHEN",
+        "PLUMERIA",
+        "DOUGH",
+        "RECHARGE",
+        "CELESTIAL",
+        "ONION",
+        "CATEGORY",
+        "EXTRACT",
+        "FLAMES"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 032",
+      "words": [
+        "BEGONIA",
+        "SOAK",
+        "GRATER",
+        "UMBRELLA",
+        "FEATHER",
+        "FAVORITE",
+        "AROMA",
+        "COCONUT",
+        "WATERMELON",
+        "WATER",
+        "NURTURE",
+        "PANSY"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 033",
+      "words": [
+        "READING",
+        "FIREPIT",
+        "MACAROON",
+        "CHOP",
+        "OCEANIC",
+        "CELEBRATE",
+        "PRIVET",
+        "YOLK",
+        "MOLLUSK",
+        "REFRESHING",
+        "GRAVEL",
+        "DELPHINIUM"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 034",
+      "words": [
+        "WHEELBARROW",
+        "PEPPER",
+        "RAINBOW",
+        "CREVICE",
+        "STYLISH",
+        "KNIFE",
+        "QUEST",
+        "BRAMBLE",
+        "RHYTHM",
+        "ROTATION",
+        "COMFORT",
+        "PROTECT"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 035",
+      "words": [
+        "FAUCET",
+        "HUSK",
+        "PATIO",
+        "PEARL",
+        "OREGANO",
+        "TIDY",
+        "SYRUP",
+        "BARREL",
+        "TARO",
+        "STAKE",
+        "SUNHAT",
+        "COUNTRYSIDE"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 036",
+      "words": [
+        "BOAT",
+        "XMAS",
+        "ESCAPE",
+        "ELEPHANTEAR",
+        "ROMANCE",
+        "WORDSEARCH",
+        "OIL",
+        "NEST",
+        "FOREST",
+        "TIP",
+        "SAFETY",
+        "PORTION"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 037",
+      "words": [
+        "STARLIGHT",
+        "LIST",
+        "FRAME",
+        "BEVERAGE",
+        "DONUTS",
+        "STUDENT",
+        "CASSEROLE",
+        "CUTTER",
+        "POLLEN",
+        "MARSHMALLOW",
+        "ABUNDANCE",
+        "REEF"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 038",
+      "words": [
+        "THANKFUL",
+        "SYMMETRY",
+        "ALOE",
+        "HOLIDAY",
+        "TIDAL",
+        "TIE",
+        "RACCOON",
+        "WARM",
+        "VOLLEYBALL",
+        "HOSE",
+        "WINDY",
+        "ROBIN"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 039",
+      "words": [
+        "MOLE",
+        "CULINARY",
+        "FLEDGLING",
+        "BREAD",
+        "BASIL",
+        "SHAPE",
+        "INFLATE",
+        "RIND",
+        "SETTING",
+        "RAISEDBED",
+        "AJUGA",
+        "FREETIME"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 040",
+      "words": [
+        "CINNAMON",
+        "SPIKE",
+        "SPRINKLER",
+        "WEEKEND",
+        "MOISTURE",
+        "CENTERPIECE",
+        "PASTE",
+        "HONEY",
+        "LAVENDER",
+        "ICING",
+        "PERFORM",
+        "ANCHOR"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 041",
+      "words": [
+        "TOAST",
+        "ACID",
+        "TABLE",
+        "JOURNEY",
+        "RINSE",
+        "CHAMOMILE",
+        "CABIN",
+        "AERIAL",
+        "MOTHER",
+        "PARTY",
+        "HERB",
+        "GAS"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 042",
+      "words": [
+        "MULCH",
+        "FESTIVE",
+        "FASHION",
+        "KOI",
+        "MAP",
+        "BAIT",
+        "DRESSING",
+        "WIND",
+        "COURT",
+        "STAR",
+        "BOWL",
+        "PADDLE"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 043",
+      "words": [
+        "POWERFUL",
+        "CLAY",
+        "MEATS",
+        "STOVE",
+        "BUMBLEBEE",
+        "BEACON",
+        "GINGER",
+        "SUNSCREEN",
+        "FINCH",
+        "MANURE",
+        "SHIP",
+        "HARVEST"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 044",
+      "words": [
+        "GRANITE",
+        "DRESS",
+        "PASSIONFLOWER",
+        "SPIRIT",
+        "PADS",
+        "SWITCHGRASS",
+        "SNOW",
+        "CROCUS",
+        "CHERRY",
+        "BAY",
+        "RAMBLER",
+        "FEAST"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 045",
+      "words": [
+        "MASHED",
+        "DIVE",
+        "DUMPLING",
+        "PORT",
+        "PAGODA",
+        "ROD",
+        "PERENNIAL",
+        "LIQUID",
+        "FIN",
+        "LESSON",
+        "ACORN",
+        "CARDINAL"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 046",
+      "words": [
+        "BUSHEL",
+        "WHITE",
+        "GATE",
+        "UNWIND",
+        "PLUM",
+        "THEAT",
+        "BAMBOO",
+        "CLOUDS",
+        "PETAL",
+        "FILL",
+        "FROSTING",
+        "DAFFODIL"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 047",
+      "words": [
+        "JAMMING",
+        "DESERT",
+        "WAVE",
+        "TOY",
+        "COOKIES",
+        "WHIP",
+        "BREAKFAST",
+        "LOGS",
+        "AUTUMN",
+        "PICKLE",
+        "SHALLOT",
+        "PURE"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 048",
+      "words": [
+        "HOVERFLY",
+        "SOLVE",
+        "FARMLAND",
+        "RAKE",
+        "MYCORRHIZAE",
+        "OUTDOORS",
+        "LAKE",
+        "PISTIL",
+        "LITERATURE",
+        "PEA",
+        "SCREEN",
+        "KNEAD"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 049",
+      "words": [
+        "BONSAI",
+        "HOMESTEAD",
+        "GATHERING",
+        "LOCAL",
+        "THUNDER",
+        "THYME",
+        "TENNIS",
+        "PRICKLY",
+        "GRATITUDE",
+        "POPPY",
+        "RASPS",
+        "WAFFLE"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 050",
+      "words": [
+        "COOKER",
+        "NUTRIENT",
+        "PEACEFUL",
+        "GLITTER",
+        "DAISY",
+        "COLLARD",
+        "SEED",
+        "SOW",
+        "STORY",
+        "KETCHUP",
+        "ROLLER",
+        "CRUSTACEAN"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 051",
+      "words": [
+        "MILK",
+        "PEONY",
+        "WALK",
+        "PINE",
+        "MOTH",
+        "HOOK",
+        "SWEETPOTATO",
+        "LAUGH",
+        "NOODLES",
+        "SOLAR",
+        "MINCE",
+        "SALT"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 052",
+      "words": [
+        "PREVENT",
+        "WILDLIFE",
+        "SPARROW",
+        "EXOTIC",
+        "PACKET",
+        "WORM",
+        "VOLE",
+        "ROMAINE",
+        "BLUEBERRY",
+        "SHADE",
+        "UNITY",
+        "OCEAN"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 053",
+      "words": [
+        "BREEZE",
+        "STROKE",
+        "BEAN",
+        "HOE",
+        "PULSE",
+        "GEL",
+        "HONEYBEE",
+        "CLIMBER",
+        "SEASONAL",
+        "STOCK",
+        "BALMY",
+        "MAPLE"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 054",
+      "words": [
+        "VEGETABLE",
+        "WALNUT",
+        "LICHEN",
+        "LARKSPUR",
+        "PRODUCE",
+        "TUBE",
+        "SOCIAL",
+        "KATSURA",
+        "FEED",
+        "GAZEBO",
+        "STYLE",
+        "LENS"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 055",
+      "words": [
+        "KETTLE",
+        "GOURD",
+        "SKYSHOW",
+        "GLOW",
+        "RECIPE",
+        "BREW",
+        "ENTERTAIN",
+        "PYRACANTHA",
+        "INTEREST",
+        "DUSK",
+        "SLIDES",
+        "CONE"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 056",
+      "words": [
+        "RALLY",
+        "CORNBREAD",
+        "FOOTPATH",
+        "HOMEMADE",
+        "TRADIT",
+        "SLIDE",
+        "WHISK",
+        "OUTDO",
+        "ART",
+        "LINKS",
+        "SAND",
+        "MASK"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 057",
+      "words": [
+        "CHUTE",
+        "COMMUNITY",
+        "CEDAR",
+        "COBBLE",
+        "FISHES",
+        "ALGAE",
+        "FACE",
+        "SERENE",
+        "CARROT",
+        "PALMS",
+        "TACO",
+        "RAIN"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 058",
+      "words": [
+        "COOKING",
+        "PULP",
+        "BIRDBATH",
+        "INHERIT",
+        "PIECRUST",
+        "FERN",
+        "QUINCE",
+        "ROLLS",
+        "BEACHTOWEL",
+        "RECREATE",
+        "EXPLODE",
+        "TARTS"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 059",
+      "words": [
+        "NUTRITION",
+        "CAN",
+        "WATERCRESS",
+        "SNAP",
+        "SPRING",
+        "FOODWAY",
+        "FREESIA",
+        "CHILD",
+        "FENNEL",
+        "PUMP",
+        "SOAP",
+        "GOLDENROD"
+      ]
+    },
+    {
+      "name": "Homesteading Puzzle 060",
+      "words": [
+        "DISHES",
+        "TROUGH",
+        "COFFEE",
+        "DIVING",
+        "ADVENTURE",
+        "CHIPMUNK",
+        "OLIVE",
+        "POPLAR",
+        "LIFELINE",
+        "REPOT",
+        "PARADISE",
+        "CATCH"
+      ]
+    }
+  ],
+  "clipart_search_terms": "Homesteading Herbs Wheat Pool illustration clipart transparent background",
+  "difficulty_label": "Relaxing",
+  "recommended_palette": "spring-meadow",
+  "recommended_cover_style": "gallery",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "Homesteading",
+      "Gardening",
+      "Herbs Fruits and Vegetables",
+      "Nature",
+      "Baking and Food"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 60,
+    "unique_words_in_book": 720,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "Homesteading"
+    ],
+    "checked_at": "2026-08-22T10:08:39"
+  }
+}

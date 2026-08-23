@@ -1,0 +1,865 @@
+{
+  "title": "Cozy Autumn Word Search",
+  "subtitle": "48 fall favorites word search puzzles",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Popular Themes",
+  "series_rank": 20,
+  "palette": "autumn-harvest",
+  "cover_style": "ticket",
+  "puzzles": [
+    {
+      "name": "Cozy Autumn Puzzle 001",
+      "words": [
+        "PARIS",
+        "PITCHER",
+        "GREENDAY",
+        "IMMIGRATION",
+        "ASSEMBLY",
+        "MOBILE",
+        "BUILDING",
+        "TIEDYE",
+        "CREWCUT",
+        "RUNNING",
+        "MILL",
+        "MERLOT"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 002",
+      "words": [
+        "DVR",
+        "REPLAY",
+        "MOANA",
+        "BATTLEARENA",
+        "PALMTREE",
+        "FIGURES",
+        "SEATS",
+        "SCIFI",
+        "CRUSADE",
+        "WEEKENDWATCH",
+        "BARTSIMPSON",
+        "TORCHLIGHT"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 003",
+      "words": [
+        "HITMAN",
+        "PANELS",
+        "COASTER",
+        "CAR",
+        "FILM",
+        "TERRARIUM",
+        "PLOTLINE",
+        "PIXEL",
+        "GLUEGUN",
+        "VOICE",
+        "PAPERBOY",
+        "MAGICSPELL"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 004",
+      "words": [
+        "DOCUMENTARY",
+        "WEEKENDFUN",
+        "GAMEDISC",
+        "COACHING",
+        "COZYGAME",
+        "SEASHELL",
+        "HARRYPOTTER",
+        "TALENT",
+        "ADVERTS",
+        "ARCADES",
+        "SAILING",
+        "UNIVERSE"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 005",
+      "words": [
+        "DRAKE",
+        "SHEEP",
+        "XBOX",
+        "ORANGE",
+        "DANCEMUSIC",
+        "THESIMS",
+        "RICKANDMORTY",
+        "SPACEWALK",
+        "SODAFOUNTAIN",
+        "OSCARS",
+        "CUTSCENE",
+        "VENDOR"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 006",
+      "words": [
+        "PREQUEL",
+        "LEGACY",
+        "OSPREY",
+        "CHORUS",
+        "GAMEZONE",
+        "GENRE",
+        "QUOTES",
+        "SHERIFF",
+        "HARRYSTYLES",
+        "RAIDERS",
+        "WEBPAGE",
+        "MAT"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 007",
+      "words": [
+        "SHOOT",
+        "CATCHPHRASE",
+        "SURFBOARD",
+        "MATINEE",
+        "TRIP",
+        "SPACEAGE",
+        "JOKER",
+        "BIGBANGTHEORY",
+        "HEATWAVE",
+        "BARBECUE",
+        "ELEGANT",
+        "ZELDAORACLE"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 008",
+      "words": [
+        "CLAIM",
+        "JELLO",
+        "COMMENT",
+        "GOLD",
+        "MADDENNFL",
+        "SYSTEM",
+        "STREAMER",
+        "ANIMAL",
+        "FARM",
+        "FILMNOIR",
+        "QUIDDITCH",
+        "ITHACA"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 009",
+      "words": [
+        "ENGLAND",
+        "CORNMAZE",
+        "SNOWRUNNER",
+        "LASERDISC",
+        "BOOKCASE",
+        "PAR",
+        "NACHOS",
+        "ASTRONAUT",
+        "DESPICABLEME",
+        "SCRIPTS",
+        "PUNK",
+        "ACHIEVEMENTS"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 010",
+      "words": [
+        "KARAOKEBAR",
+        "RIDETHELL",
+        "LIBRARY",
+        "CULTCLASSIC",
+        "LEADER",
+        "RECORDSTORE",
+        "NEWKIDS",
+        "PLAY",
+        "FLOWERPOWER",
+        "POSTMALONE",
+        "PRODUCERCHAIR",
+        "NOTEBOOK"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 011",
+      "words": [
+        "SNACK",
+        "HOLLYWOOD",
+        "VIDEOGAMER",
+        "JUMPERS",
+        "WRAPDRESS",
+        "LORDS",
+        "EQUIPMENT",
+        "HIGHPEAKS",
+        "DARTHVADER",
+        "POPMUSIC",
+        "DEITY",
+        "FRISBEE"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 012",
+      "words": [
+        "NAVY",
+        "SUBJECT",
+        "LIVESTREAM",
+        "HILLSIDE",
+        "AGARIO",
+        "WADERS",
+        "PLAYLIST",
+        "BANK",
+        "ROGUELEGACY",
+        "MEMBERSHIP",
+        "MUSEUM",
+        "SPACERACE"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 013",
+      "words": [
+        "WARFARE",
+        "NERF",
+        "BATTING",
+        "BANJO",
+        "PARKS",
+        "EMBALM",
+        "ROCKLEGEND",
+        "WILDFLOWER",
+        "SCHOOLDANCE",
+        "SUPER",
+        "LEAVES",
+        "BOXSET"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 014",
+      "words": [
+        "BRONZER",
+        "PAPERCRAFT",
+        "EFFECTS",
+        "RETURNAL",
+        "OCEANSELEVEN",
+        "CLUBHOUSE",
+        "HIGHLIGHT",
+        "CART",
+        "SCALE",
+        "JUICEBOX",
+        "WATERBED",
+        "ANIMALCROSSING"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 015",
+      "words": [
+        "QUAKEARENA",
+        "SYRACUSE",
+        "CLIFFHANGER",
+        "GAMEROOM",
+        "ANIME",
+        "GIFTING",
+        "VICTORY",
+        "CUPHEAD",
+        "SITH",
+        "CHAMOMILE",
+        "AIRPORT",
+        "SLAPBRACELET"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 016",
+      "words": [
+        "DANCEPOP",
+        "BODACIOUS",
+        "NORTHCOUNTRY",
+        "SIXTEENBIT",
+        "GRAY",
+        "STARWARSGAME",
+        "HULAHOOP",
+        "PEARLS",
+        "WITTY",
+        "SHOWCASE",
+        "BUS",
+        "RADAR"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 017",
+      "words": [
+        "ACROPOLIS",
+        "THRILL",
+        "TRENDSETTER",
+        "STAND",
+        "VACUUMTUBE",
+        "TRENDING",
+        "SPLATOON",
+        "QBERT",
+        "TWILIGHT",
+        "KINGDOMHEARTS",
+        "PORT",
+        "ROADTRIP"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 018",
+      "words": [
+        "REMOTE",
+        "MERMAID",
+        "FOOTBALL",
+        "RIDDLES",
+        "FOLLOWER",
+        "RUNEFACTORY",
+        "DESTINYSCHILD",
+        "FORUM",
+        "PASSENGER",
+        "TRAILER",
+        "TWISTEDMETAL",
+        "ARENA"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 019",
+      "words": [
+        "STREAM",
+        "DISK",
+        "MUSICLIBRARY",
+        "SOUTHERNTIER",
+        "PHONECASE",
+        "MEETUPS",
+        "SUNRISE",
+        "MANDALORIAN",
+        "CAMPAIGN",
+        "CREATIVE",
+        "BUNKER",
+        "WATCHPARTY"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 020",
+      "words": [
+        "NOMANSSKY",
+        "PACMAN",
+        "BOAT",
+        "HEADBAND",
+        "HALFLIFE",
+        "DOCTORWHO",
+        "COHORT",
+        "OASIS",
+        "STITCH",
+        "MEDALS",
+        "NEWYORKCITY",
+        "FLEET"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 021",
+      "words": [
+        "SPLINTERCELL",
+        "FRESH",
+        "SATELLITE",
+        "ANTENNA",
+        "HOMEROOM",
+        "PURPLE",
+        "JEWELER",
+        "MASCARA",
+        "COMBAT",
+        "DONUT",
+        "COIN",
+        "HISTORIC"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 022",
+      "words": [
+        "HOMEY",
+        "REFRESH",
+        "SOCCERBALL",
+        "DONKEYKONG",
+        "SLUMBERPARTY",
+        "FAMILYGAME",
+        "COLLECTOR",
+        "VISA",
+        "RACECAR",
+        "CHROME",
+        "CELEBRITY",
+        "STREETSOFRAGE"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 023",
+      "words": [
+        "REFINE",
+        "SQUIDGAME",
+        "QUEST",
+        "CONVENT",
+        "SERVICESTATION",
+        "FILMBUFF",
+        "ESPRESSO",
+        "CELLULOID",
+        "NARRATE",
+        "FLASHBULB",
+        "TRICKORTREAT",
+        "SHARKNADO"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 024",
+      "words": [
+        "CONDUCTOR",
+        "CHART",
+        "PLAYERS",
+        "TOOLBOX",
+        "TOBYKEITH",
+        "GAMEPASS",
+        "COLOR",
+        "TROUT",
+        "LEGOMOVIE",
+        "AUTOGRAPHS",
+        "FIGHTING",
+        "FANBASE"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 025",
+      "words": [
+        "CLUE",
+        "CHILL",
+        "CREAT",
+        "TRACKS",
+        "GAMECASE",
+        "ZOMBIE",
+        "ANTIQUES",
+        "ARTIST",
+        "EXPERIENCE",
+        "NEGATIVE",
+        "CANDYMAN",
+        "CHEESECAKE"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 026",
+      "words": [
+        "PEDALING",
+        "DIGDUG",
+        "AUDITORIUM",
+        "FLOPPYDISK",
+        "BRAVE",
+        "IRONMAN",
+        "FLASHMOB",
+        "PILOT",
+        "SWIMSUIT",
+        "MOOSE",
+        "BANJOTOOIE",
+        "GAMERCHAIR"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 027",
+      "words": [
+        "LIGHTING",
+        "DISCOVERY",
+        "SIPHON",
+        "GAMER",
+        "MARIOPARTY",
+        "KEEL",
+        "SPACE",
+        "BOOTH",
+        "SYNTHESIZER",
+        "RECORDSHOP",
+        "DENIM",
+        "GAMESTORE"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 028",
+      "words": [
+        "BUOY",
+        "SCREAM",
+        "MULLET",
+        "PHOTOBOOTH",
+        "TURTLE",
+        "MOTIONCONTROL",
+        "ETMOVIE",
+        "IMMIGRATE",
+        "SATURDAYMATINEE",
+        "POSTCARD",
+        "REACTION",
+        "EMOTE"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 029",
+      "words": [
+        "SHOESTORE",
+        "SWIVEL",
+        "TELESCOPE",
+        "OLDIES",
+        "SWITCHBOARD",
+        "ROME",
+        "FILMFESTIVAL",
+        "SOFA",
+        "LATENIGHT",
+        "NIGHTLIFE",
+        "STATEHOOD",
+        "CARVING"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 030",
+      "words": [
+        "SLOTCAR",
+        "LAUNCH",
+        "BEAT",
+        "DISCOELYSIUM",
+        "PICTURE",
+        "EASPORTSFC",
+        "PRESSTOUR",
+        "NATIONALPARK",
+        "COLORFUL",
+        "KINGSTON",
+        "EXPLOSION",
+        "SUNFLOWER"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 031",
+      "words": [
+        "USHER",
+        "SEA",
+        "VIEWINGPARTY",
+        "EXPLORER",
+        "LEGION",
+        "CRACKERS",
+        "ERA",
+        "CARD",
+        "CASSET",
+        "DOLLHOUSE",
+        "TEKKEN",
+        "CLOCK"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 032",
+      "words": [
+        "SOLVE",
+        "SHAKE",
+        "FORTUNETOY",
+        "TREASURES",
+        "POWERRANGERS",
+        "SATURDAY",
+        "PARTS",
+        "FLYING",
+        "ALBANY",
+        "BUSYSIGNAL",
+        "EMMYS",
+        "GALLOP"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 033",
+      "words": [
+        "CALLBACK",
+        "PIKMINBLOOM",
+        "FEATUREFILM",
+        "HUNTING",
+        "PHONECORD",
+        "BOARD",
+        "STEAM",
+        "CAPITALREGION",
+        "AIMING",
+        "CARNIVAL",
+        "TRIVIANIGHT",
+        "KPOP"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 034",
+      "words": [
+        "HERCULES",
+        "CAPPUCCINO",
+        "INDIANAJONES",
+        "BROADCAST",
+        "GELPEN",
+        "FRONT",
+        "VCR",
+        "CAROUSEL",
+        "ORCHARD",
+        "STARWARS",
+        "RACE",
+        "CABERNET"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 035",
+      "words": [
+        "TATTOO",
+        "CHEATCODE",
+        "HURRICANE",
+        "CANDYCRUSH",
+        "PHOTOS",
+        "SHORTVIDEO",
+        "GAMECORNER",
+        "GARAGE",
+        "PLASTIC",
+        "INJUSTICE",
+        "GAMEHERO",
+        "DRAGON"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 036",
+      "words": [
+        "HOMEVIDEO",
+        "SYNTHPOP",
+        "CANDLE",
+        "INSTANTMESSAGE",
+        "GAMELIBRARY",
+        "THRILLER",
+        "MYTHOLOGY",
+        "HEATSHIELD",
+        "DEFENDER",
+        "MUSTANG",
+        "TICKETSTUB",
+        "NOOB"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 037",
+      "words": [
+        "OPPENHEIMER",
+        "BATTLETOADS",
+        "GOLF",
+        "MULTIPLAYER",
+        "SPOON",
+        "CUPCAKE",
+        "SOUNDTRACK",
+        "SELFIESTICK",
+        "TYPEWRITER",
+        "CHICKEN",
+        "SPIDERMAN",
+        "DELTARUNE"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 038",
+      "words": [
+        "TAIL",
+        "POTLUCK",
+        "CHAINRING",
+        "SHORE",
+        "MALT",
+        "KIRBY",
+        "MYTH",
+        "SUMMIT",
+        "AMERICANIDOL",
+        "GAMERLIFE",
+        "PETROCK",
+        "BINDING"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 039",
+      "words": [
+        "SCHOOLBUS",
+        "CLOUD",
+        "SLEEPOVER",
+        "PHILOSOPHY",
+        "CASABLANCA",
+        "COACH",
+        "BARBIE",
+        "CABIN",
+        "NONFICTION",
+        "HANDLEBAR",
+        "MONOCHROME",
+        "SYMPHONY"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 040",
+      "words": [
+        "INKWELL",
+        "CONSOLE",
+        "SAMURAI",
+        "NATIONAL",
+        "WEREWOLF",
+        "KIOSK",
+        "HARMON",
+        "GUITARSOLO",
+        "REMNANT",
+        "SEPPUKU",
+        "VIRALVIDEO",
+        "SCENICDRIVE"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 041",
+      "words": [
+        "WEST",
+        "HUBCAP",
+        "LARACROFT",
+        "MYST",
+        "FANTHEORY",
+        "SIMBA",
+        "GLACIER",
+        "NINTENDOGS",
+        "MUMMY",
+        "GAMEENGINE",
+        "SHREK",
+        "POODLESKIRT"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 042",
+      "words": [
+        "MOVIENIGHT",
+        "VALORANT",
+        "OCEAN",
+        "ELIZABETH",
+        "STARFIELD",
+        "MOTORCYCLE",
+        "DANCER",
+        "OVERCOOKED",
+        "SIMPSONSGAME",
+        "ATHENA",
+        "COOL",
+        "STAR"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 043",
+      "words": [
+        "CONVERTIBLE",
+        "CHARTS",
+        "FARMLAND",
+        "FILMMAKER",
+        "SHUFFLE",
+        "TOPSCORE",
+        "SUPERMARIOBROS",
+        "PATRIARCH",
+        "WORDSEARCH",
+        "AWARDWINNER",
+        "JUDGE",
+        "PRINCEOFPERSIA"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 044",
+      "words": [
+        "EXCAVATE",
+        "VHS",
+        "GAMERSCORE",
+        "MOODRING",
+        "SESAMESTREET",
+        "LACES",
+        "COUNTRYMUSIC",
+        "TRADINGCARD",
+        "JEDI",
+        "BAGEL",
+        "GOAT",
+        "WINDOWSHOPPING"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 045",
+      "words": [
+        "DUCKHUNT",
+        "PRIZES",
+        "SEATING",
+        "WIIU",
+        "CHER",
+        "GHOSTBUSTERS",
+        "CALLOFDUTY",
+        "BUFFALO",
+        "FRAME",
+        "FLASHDRIVE",
+        "ESCALATOR",
+        "FUNFAIR"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 046",
+      "words": [
+        "EATERY",
+        "ISABELLE",
+        "VICTORIA",
+        "DISCOBALL",
+        "CHARM",
+        "VALHEIM",
+        "IMPERIAL",
+        "THEATER",
+        "ENDURANCE",
+        "HARVEST",
+        "CHARMING",
+        "CAMPFIRE"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 047",
+      "words": [
+        "ARCADEGAME",
+        "SMARTPHONE",
+        "MUSTACHE",
+        "MILEMARKER",
+        "RAYMAN",
+        "SCHOOLOFROCK",
+        "APP",
+        "MEANGIRLS",
+        "CALLERID",
+        "APERTURE",
+        "BEACH",
+        "SERIAL"
+      ]
+    },
+    {
+      "name": "Cozy Autumn Puzzle 048",
+      "words": [
+        "LIGHT",
+        "ARCHAEOLOGY",
+        "HONOR",
+        "DIALTONE",
+        "STARGAZING",
+        "INTERNET",
+        "NOIR",
+        "PARACHUTEPANTS",
+        "BEACHDAY",
+        "SHOP",
+        "ARCHIVIST",
+        "METALSLUG"
+      ]
+    }
+  ],
+  "detected_topic": "General Interest",
+  "recommended_palette": "nature",
+  "recommended_cover_style": "classic",
+  "clipart_search_terms": "General Interest Paris Pitcher Greenday illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Relaxing",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:09",
+    "sources": [
+      "General Interest",
+      "Pop Culture & Entertainment",
+      "Video Games & Gaming",
+      "Sports and Hobbies",
+      "Travel and Geography",
+      "Nature"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 48,
+    "unique_words_in_book": 576,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "General Interest"
+    ],
+    "checked_at": "2026-08-22T10:08:39"
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "title": "Vocabulary Mastery: High School — Signature Edition",
+  "subtitle": "A smart Signature Edition word search collection for grades 9–12",
+  "author": "Slade Puzzles",
+  "audience": "Teens & Adults",
+  "series": "Vocabulary Ladder Collection",
+  "palette": "royal-plum",
+  "cover_style": "halo",
+  "cover_badge": "NO REPEATED WORDS",
+  "cover_imprint": "Slade Puzzles • Vocabulary Ladder",
+  "series_design": {
+    "family": "Vocabulary Ladder",
+    "layout": "halo",
+    "signature_accent": true
+  },
+  "no_repeat_words": true,
+  "detected_topic": "High School Vocabulary",
+  "difficulty_label": "Challenging",
+  "clipart_search_terms": "high school vocabulary books pencils learning illustration transparent background",
+  "welcome_message": "Welcome to a word-building adventure designed to make new vocabulary feel friendly and fun.",
+  "collection_features": [
+    "Find 12 carefully chosen words in every puzzle.",
+    "Use one favorite word in a sentence after each puzzle.",
+    "Build confidence for reading, writing, and everyday conversation."
+  ],
+  "puzzles": [
+    {
+      "name": "Everyday Words",
+      "words": [
+        "ABSTRACT",
+        "ACCELERATE",
+        "ACCOMMODATE",
+        "ACKNOWLEDGE",
+        "ACQUIRE",
+        "AMBIGUOUS",
+        "ANALYZE",
+        "ANTICIPATE",
+        "ARTICULATE",
+        "ASSESS",
+        "ASSUME",
+        "BIAS"
+      ]
+    },
+    {
+      "name": "Words for Learning",
+      "words": [
+        "CATALYST",
+        "COHERENT",
+        "COLLABORATE",
+        "SCHOLARLY",
+        "COMPREHENSIVE",
+        "CONCEDE",
+        "CONFLICT",
+        "CONTEMPORARY",
+        "CONTRADICT",
+        "CONTROVERSIAL",
+        "CORRELATE",
+        "CRITERIA"
+      ]
+    },
+    {
+      "name": "Words for Feelings",
+      "words": [
+        "CRUCIAL",
+        "DECLINE",
+        "DEDUCT",
+        "DEFINE",
+        "DELIBERATE",
+        "DEMONSTRATE",
+        "DERIVE",
+        "DEVIATE",
+        "DISCRIMINATE",
+        "DISTINCT",
+        "DISTRIBUTE",
+        "DIVERSE"
+      ]
+    },
+    {
+      "name": "Words for Actions",
+      "words": [
+        "ELABORATE",
+        "ENHANCE",
+        "ETHICAL",
+        "EVALUATE",
+        "EVIDENT",
+        "EVOLVE",
+        "EXPLICIT",
+        "FACILITATE",
+        "FRAMEWORK",
+        "FUNDAMENTAL",
+        "HYPOTHESIS",
+        "ILLUSTRATE"
+      ]
+    },
+    {
+      "name": "Words for Describing",
+      "words": [
+        "IMPLY",
+        "INITIATE",
+        "INEVITABLE",
+        "INFER",
+        "INNOVATE",
+        "INTEGRATE",
+        "INTERPRET",
+        "JUSTIFY",
+        "LEGITIMATE",
+        "MANIPULATE",
+        "MATURE",
+        "MAXIMIZE"
+      ]
+    },
+    {
+      "name": "Words for People",
+      "words": [
+        "METHODOLOGY",
+        "MINIMIZE",
+        "MODIFY",
+        "NARRATIVE",
+        "OBJECTIVE",
+        "PARADOX",
+        "PERSPECTIVE",
+        "PHENOMENON",
+        "PRECISE",
+        "PRELIMINARY",
+        "PREVALENT",
+        "PRINCIPLE"
+      ]
+    },
+    {
+      "name": "Words for Places",
+      "words": [
+        "PRIORITIZE",
+        "PROFOUND",
+        "PROMOTE",
+        "QUALITATIVE",
+        "QUANTITATIVE",
+        "RATIONAL",
+        "REINFORCE",
+        "RELEVANT",
+        "RELIABLE",
+        "REVISE",
+        "RHETORIC",
+        "SCARCE"
+      ]
+    },
+    {
+      "name": "Words for Nature",
+      "words": [
+        "SCOPE",
+        "SIGNIFICANT",
+        "SOPHISTICATED",
+        "SPECIFY",
+        "STABLE",
+        "STATISTIC",
+        "STRATEGY",
+        "SUBSEQUENT",
+        "SUBSTANTIAL",
+        "SYNTHESIZE",
+        "TENTATIVE",
+        "THEORY"
+      ]
+    },
+    {
+      "name": "Words for Ideas",
+      "words": [
+        "TRANSCEND",
+        "TRANSFORM",
+        "UNANIMOUS",
+        "VALIDATE",
+        "VARIABLE",
+        "VIABLE",
+        "VIRTUAL",
+        "WHEREAS",
+        "ADVOCATE",
+        "ANOMALY",
+        "ARBITRARY",
+        "CANDID"
+      ]
+    },
+    {
+      "name": "Words for Stories",
+      "words": [
+        "CAPACITY",
+        "CHRONOLOGY",
+        "CIRCUMSTANCE",
+        "CLASSIFY",
+        "COMPATIBLE",
+        "COMPELLING",
+        "CONSENSUS",
+        "CONSTRAIN",
+        "CONTEXT",
+        "CRITERION",
+        "CREDIBLE",
+        "DECISIVE"
+      ]
+    },
+    {
+      "name": "Words for School",
+      "words": [
+        "DEFER",
+        "DIFFERENTIATE",
+        "DIMINISH",
+        "DISCRETE",
+        "DYNAMIC",
+        "EMPIRICAL",
+        "ENCOUNTER",
+        "EQUILIBRIUM",
+        "EQUIVALENT",
+        "ESSENTIAL",
+        "ESTABLISH",
+        "EXCLUDE"
+      ]
+    },
+    {
+      "name": "Words for Growth",
+      "words": [
+        "EXPLOITATION",
+        "FEASIBLE",
+        "FINITE",
+        "FLUCTUATE",
+        "FORMULATE",
+        "FRAGILE",
+        "HIERARCHY",
+        "HOLISTIC",
+        "IDEOLOGY",
+        "INCENTIVE",
+        "INCIDENCE",
+        "INHERENT"
+      ]
+    },
+    {
+      "name": "Words for Decisions",
+      "words": [
+        "INHIBIT",
+        "INTERROGATE",
+        "INTEGRITY",
+        "INTERVENE",
+        "INTRINSIC",
+        "INTUITIVE",
+        "INVOKE",
+        "ISOLATE",
+        "JUDICIOUS",
+        "LANDMARK",
+        "LITERAL",
+        "MANDATE"
+      ]
+    },
+    {
+      "name": "Words for Discovery",
+      "words": [
+        "MECHANISM",
+        "MIGRATE",
+        "MITIGATE",
+        "MUTUAL",
+        "NEUTRAL",
+        "NOTION",
+        "OBSERVATION",
+        "OBSCURE",
+        "OCCUR",
+        "PARADIGM",
+        "PERSISTENT",
+        "PLAUSIBLE"
+      ]
+    },
+    {
+      "name": "Words for Communication",
+      "words": [
+        "PRECEDENT",
+        "PRONOUNCED",
+        "PRIORITY",
+        "PROPORTION",
+        "PROTOCOL",
+        "PURSUE",
+        "RADICAL",
+        "RECONCILE",
+        "REGIME",
+        "RELUCTANT",
+        "RESILIENT",
+        "RETAIN"
+      ]
+    },
+    {
+      "name": "Words for Success",
+      "words": [
+        "REVEAL",
+        "RIGOROUS",
+        "SCENARIO",
+        "SECTOR",
+        "SIMULATE",
+        "SOLE",
+        "SUBORDINATE",
+        "SUSTAINABLE",
+        "THRIVING",
+        "THESIS",
+        "TRACE",
+        "TRAJECTORY"
+      ]
+    }
+  ],
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "High School Vocabulary Puzzle Passport",
+    "achievement_title": "Vocabulary Achievement",
+    "achievement_message": "Every puzzle solved is another set of words ready to use.",
+    "facts_title": "WORDS TO REMEMBER",
+    "fact_cards": [
+      "Vocabulary grows through reading, conversation, and using new words in context.",
+      "Try using one favorite word from each puzzle in a sentence this week.",
+      "Keep this Passport as a record of every vocabulary challenge you completed."
+    ],
+    "challenge": "Word Power Challenge: use one new word in a sentence today."
+  }
+}

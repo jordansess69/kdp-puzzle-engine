@@ -1,0 +1,840 @@
+{
+  "title": "Cars, Trucks and Road Trips Word Search",
+  "subtitle": "48 large-print puzzles for vehicle and travel fans",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Launch Collection",
+  "audience": "Adults and Teens",
+  "palette": "retro-drive",
+  "cover_style": "ticket",
+  "cover_badge": "48 LARGE-PRINT PUZZLES - NO REPEATED WORDS",
+  "cover_imprint": "Slade Puzzles",
+  "no_repeat_words": true,
+  "difficulty_label": "Standard",
+  "detected_topic": "Vehicles & Automotive",
+  "source_word_bank": {
+    "name": "Guided Builder Master Word Bank",
+    "topics": [
+      "Vehicles & Automotive",
+      "Travel Road Trips and Getaways"
+    ]
+  },
+  "clipart_search_terms": "cars trucks road trips scenic highway",
+  "puzzles": [
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 001",
+      "words": [
+        "SIERRA",
+        "JETSKI",
+        "FLOORMAT",
+        "TERCEL",
+        "LIMOUSINE",
+        "MOUNTAINROAD",
+        "COMMANDER",
+        "PORSCHE",
+        "BOAT",
+        "WIPER",
+        "CAMPING",
+        "STEERINGCOLUMN"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 002",
+      "words": [
+        "COBRA",
+        "SPRINTER",
+        "RIO",
+        "REGISTRATION",
+        "TAXICAB",
+        "SUPRA",
+        "CARGAME",
+        "JETTA",
+        "BULLDOZER",
+        "ELANTRA",
+        "TENT",
+        "SILVERADO"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 003",
+      "words": [
+        "HYBRIDCAR",
+        "AUTOBODY",
+        "GALLARDO",
+        "SIENNA",
+        "CALIPER",
+        "PONTOON",
+        "HEADREST",
+        "TRAFFICCONE",
+        "CUPHOLDER",
+        "CARGOVAN",
+        "NAUTILUS",
+        "FOURWHEEL"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 004",
+      "words": [
+        "CARNIVAL",
+        "LIFTKIT",
+        "EXPLORER",
+        "EIGHTEENWHEELER",
+        "GLADIATOR",
+        "HELMET",
+        "BLAZER",
+        "LANDCRUISER",
+        "TERRITORY",
+        "ROADMAP",
+        "VIBE",
+        "SPRING"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 005",
+      "words": [
+        "TAILGATE",
+        "CARCLEAN",
+        "CARGARAGE",
+        "SONOMA",
+        "FIESTA",
+        "SOUVENIR",
+        "ARMREST",
+        "SCOUT",
+        "MARSHMALLOW",
+        "WEEKENDDRIVE",
+        "CYLINDER",
+        "FAIRLANE"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 006",
+      "words": [
+        "VOLKSWAGEN",
+        "CONSOLE",
+        "HYBRID",
+        "SENTRA",
+        "CARREPAIR",
+        "PARKINGPASS",
+        "CAMPERLIFE",
+        "CARAVANPARK",
+        "WAX",
+        "CAMPOUT",
+        "ENCORE",
+        "CARMODEL"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 007",
+      "words": [
+        "PACIFICA",
+        "GRANDWAGONEER",
+        "GRAYWATER",
+        "DRIVINGLESSON",
+        "MERCEDES",
+        "CELICA",
+        "ROCKCRAWLING",
+        "CRUISING",
+        "CARSPOTTING",
+        "RADIO",
+        "FUELPUMP",
+        "TRAILERPARK"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 008",
+      "words": [
+        "ALTERNATOR",
+        "CARPET",
+        "REARWHEEL",
+        "STRUT",
+        "AUTOWORKER",
+        "HORN",
+        "DIESEL",
+        "VALVE",
+        "PARKINGBRAKE",
+        "DAKOTA",
+        "TELLURIDE",
+        "WINTERDRIVE"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 009",
+      "words": [
+        "SCOOTER",
+        "MAXIMA",
+        "AVALANCHE",
+        "FAMILYCAR",
+        "BACKPACK",
+        "DIRTBIKE",
+        "OILFILTER",
+        "COLORADO",
+        "GOKARTING",
+        "BACKUPCAMERA",
+        "WINCH",
+        "SPEEDLIMIT"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 010",
+      "words": [
+        "GASGAUGE",
+        "FIRETRUCK",
+        "CABRIOLET",
+        "COUNTRYDRIVE",
+        "CARPETCLEANER",
+        "CARSEAT",
+        "HURACAN",
+        "GRILLE",
+        "CITYDRIVE",
+        "FUELCELL",
+        "TOWVEHICLE",
+        "RESTSTOP"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 011",
+      "words": [
+        "MUSTANG",
+        "FRESHWATER",
+        "CEMENTMIXER",
+        "ROLLCAGE",
+        "CARTOOLS",
+        "CARCULTURE",
+        "CARMUSEUM",
+        "FAMILYTRIP",
+        "MOTORCYCLE",
+        "BEDLINER",
+        "TURBOCHARGER",
+        "DASHBOARDCAM"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 012",
+      "words": [
+        "FUELSTOP",
+        "BIKERIDE",
+        "FOCUS",
+        "JAVELIN",
+        "CRANE",
+        "DIRTROAD",
+        "IMPULSE",
+        "BED",
+        "PASSAT",
+        "TOLLBOOTH",
+        "COILOVER",
+        "AUDI"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 013",
+      "words": [
+        "SORENTO",
+        "TOWBAR",
+        "WHEELCOVER",
+        "CARWHEEL",
+        "DOORLOCK",
+        "MERCURYCAR",
+        "ROGUE",
+        "CHARGER",
+        "MICROPHONE",
+        "FREESTYLE",
+        "BUMPER",
+        "DIPSTICK"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 014",
+      "words": [
+        "ALLWHEEL",
+        "CARMEET",
+        "CARPOLISH",
+        "TAILLIGHT",
+        "KICKS",
+        "LICENSE",
+        "COLDAIRINTAKE",
+        "SOUL",
+        "NOVA",
+        "CXNINETY",
+        "ROADMASTER",
+        "THERMOSTAT"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 015",
+      "words": [
+        "FIFTHWHEEL",
+        "CARRIDE",
+        "FLEETWOOD",
+        "COMPASS",
+        "MOUNTAINTRIP",
+        "HIKING",
+        "ROADWORTHY",
+        "FREEWAY",
+        "AMIGO",
+        "ELEMENT",
+        "VIPER",
+        "PLAYLIST"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 016",
+      "words": [
+        "HITCHBALL",
+        "REBEL",
+        "PALISADE",
+        "LIGHTBAR",
+        "INTERCOOLER",
+        "VACUUM",
+        "ELECTRIC",
+        "CAR",
+        "EQUALIZER",
+        "QUEST",
+        "REMOTE",
+        "EXPEDITION"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 017",
+      "words": [
+        "TRAVELMUG",
+        "ELCAMINO",
+        "USEDCAR",
+        "ENDURANCE",
+        "WINDSHIELDWIPER",
+        "VELOSTER",
+        "PARKPASS",
+        "HATCHBACK",
+        "TRACTOR",
+        "ENCLAVE",
+        "ROADSTER",
+        "CARKEY"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 018",
+      "words": [
+        "SNOWTIRE",
+        "CANYON",
+        "SUV",
+        "TRAILRIDE",
+        "PARKAVENUE",
+        "ASCENT",
+        "HAZARDLIGHTS",
+        "CALIFORNIA",
+        "ACCORDHYBRID",
+        "SWAYBAR",
+        "TONNEAUCOVER",
+        "LANEASSIST"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 019",
+      "words": [
+        "FISHINGPOLE",
+        "OFFROAD",
+        "FAMILYROADTRIP",
+        "QUAD",
+        "AIRFILTER",
+        "YUKON",
+        "BRAKECHECK",
+        "SNOWMOBILE",
+        "VEHICLECARE",
+        "PICNICTABLE",
+        "JIMMY",
+        "CROSSTREK"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 020",
+      "words": [
+        "MASERATI",
+        "DRIVETHROUGH",
+        "WEEKENDTRIP",
+        "MECHANIC",
+        "TREBLE",
+        "CHARGERDAYTONA",
+        "PARKINGLOT",
+        "AMBULANCE",
+        "CARTRIP",
+        "TRIBECA",
+        "LAKETRIP",
+        "TIRESTORE"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 021",
+      "words": [
+        "JOURNEY",
+        "BEACH",
+        "RACECAR",
+        "OFFROADFUN",
+        "SUSPENSIONKIT",
+        "TAOS",
+        "INSIGHT",
+        "AUTOMOTIVE",
+        "MOTORTRIP",
+        "GETAWAY",
+        "CLEAN",
+        "GARAGEWORK"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 022",
+      "words": [
+        "JACK",
+        "SHOWCAR",
+        "ROADSIGN",
+        "GOLF",
+        "HEATER",
+        "TRANSMISSION",
+        "CAMPERSHELL",
+        "SAFETY",
+        "EMERGENCY",
+        "POLISH",
+        "PASSPORT",
+        "ADVENTURE"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 023",
+      "words": [
+        "ARCADIA",
+        "CARSEATCOVER",
+        "RVTRIP",
+        "KFIVE",
+        "MATRIX",
+        "RIDGELINE",
+        "TANKTRUCK",
+        "HRV",
+        "MUDTIRE",
+        "ROADWORK",
+        "ENVOY",
+        "RAVFOUR"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 024",
+      "words": [
+        "MATADOR",
+        "CUTLASS",
+        "PISTON",
+        "PATRIOT",
+        "YARIS",
+        "BRAKEHOSE",
+        "CRUISECONTROL",
+        "JAGUAR",
+        "GENERATOR",
+        "PRIUSPRIME",
+        "AUTODEALER",
+        "DRIVING"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 025",
+      "words": [
+        "MAPBOOK",
+        "MIATA",
+        "RIVIAN",
+        "LUGGAGE",
+        "CARPLAY",
+        "ESCALADE",
+        "BIGHORN",
+        "TENTDOOR",
+        "ELECTRICCAR",
+        "AXLE",
+        "RADIATOR",
+        "WRANGLER"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 026",
+      "words": [
+        "STEERINGWHEEL",
+        "LONGDRIVE",
+        "BACKSEAT",
+        "BRAKEROTOR",
+        "ARMADA",
+        "WAGONEER",
+        "SPEAKER",
+        "SPORTUTILITY",
+        "MECHANICSHOP",
+        "ENGINE",
+        "CARBURETOR",
+        "GARAGEKEY"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 027",
+      "words": [
+        "PINTO",
+        "CRV",
+        "SUITCASE",
+        "DEALERSHIP",
+        "SOLTERRA",
+        "TRAILHEAD",
+        "ACADIA",
+        "THUNDERBIRD",
+        "RAM",
+        "LAMBORGHINI",
+        "MANUAL",
+        "VOYAGER"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 028",
+      "words": [
+        "HEADERS",
+        "CARSHOW",
+        "FUELGAUGE",
+        "SEQUOIA",
+        "AUTOSHOP",
+        "COMET",
+        "CAMPER",
+        "BICYCLE",
+        "ODYSSEY",
+        "DASHBOARDLIGHT",
+        "MONZA",
+        "DART"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 029",
+      "words": [
+        "TORQUE",
+        "TRAFFICJAM",
+        "HIGHWAYDRIVE",
+        "CAMPMEAL",
+        "CONSOLECOVER",
+        "USB",
+        "SPARETIRE",
+        "PLIERS",
+        "HYUNDAI",
+        "ANTIFREEZE",
+        "SHINY",
+        "CARPOOL"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 030",
+      "words": [
+        "RVLIFE",
+        "SNACKSTOP",
+        "CAMPERVAN",
+        "HIKER",
+        "GARAGE",
+        "ROADATLAS",
+        "CRUZE",
+        "MITSUBISHI",
+        "TRICYCLE",
+        "CARCARE",
+        "CHARGINGPORT",
+        "ASTROVAN"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 031",
+      "words": [
+        "OUTBACK",
+        "TIGUAN",
+        "TUNEUPDAY",
+        "MOTEL",
+        "DASHBOARD",
+        "STARTER",
+        "INSTRUMENTPANEL",
+        "MARINER",
+        "CARLIFESTYLE",
+        "SPIRIT",
+        "LEXUS",
+        "STARION"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 032",
+      "words": [
+        "TOWTRUCK",
+        "CAMSHAFT",
+        "LEBARON",
+        "TORINO",
+        "SUNNYSIDE",
+        "BRIDGE",
+        "FALCON",
+        "HOTEL",
+        "SHOCK",
+        "SPEEDOMETER",
+        "TACHOMETER",
+        "GARAGESALE"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 033",
+      "words": [
+        "SAFETYCHECK",
+        "CHARGINGCABLE",
+        "MILEMARKER",
+        "CITYCAR",
+        "GLOVEBOX",
+        "TRAFFICLIGHT",
+        "FOURDOOR",
+        "CARTOONCAR",
+        "KEYFOB",
+        "PULSAR",
+        "SOCKET",
+        "ACCESSORY"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 034",
+      "words": [
+        "MINIBUS",
+        "DASHCAM",
+        "KIA",
+        "SONATA",
+        "CLASSICCAR",
+        "SEATPOCKET",
+        "LIFTGATE",
+        "SPECTRA",
+        "FRONTWHEEL",
+        "CARPARK",
+        "OVERLAND",
+        "CONVERTIBLE"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 035",
+      "words": [
+        "QUATTRO",
+        "KEYLESS",
+        "TOWSERVICE",
+        "DRIVINGTEST",
+        "ECLIPSE",
+        "SERVICEBOOK",
+        "PASSENGERSEAT",
+        "ROOFBOX",
+        "AWNING",
+        "HORSEPOWER",
+        "SCHOOLBUS",
+        "VACATION"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 036",
+      "words": [
+        "ACCORD",
+        "ENGINEBAY",
+        "CAMPKITCHEN",
+        "ETHANOL",
+        "ATV",
+        "ROADTRIP",
+        "FREESTAR",
+        "WINDSTAR",
+        "LUXURYCAR",
+        "COUPE",
+        "BRAKEPEDAL",
+        "SHORTTRIP"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 037",
+      "words": [
+        "COOLANT",
+        "ROADGAMES",
+        "CAVALIER",
+        "TOURBUS",
+        "ROADSIDE",
+        "ANDROIDAUTO",
+        "DAYTRIP",
+        "SHUTTLEBUS",
+        "FAIRMONT",
+        "AUTOMOBILE",
+        "WATERPUMP",
+        "DEFROSTER"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 038",
+      "words": [
+        "TRAVELTRAILER",
+        "ALTERNATORBELT",
+        "CHARGINGSTATION",
+        "AUTOMATIC",
+        "BINOCULARS",
+        "MXFIVE",
+        "GRAVELROAD",
+        "CARSOAP",
+        "AUTOCROSS",
+        "AIRFRESHENER",
+        "IGNITIONKEY",
+        "UNDERHOOD"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 039",
+      "words": [
+        "HANDSFREE",
+        "INSURANCE",
+        "MARKVIII",
+        "TWEETER",
+        "CROSSWALK",
+        "CIRRUS",
+        "RUNNINGBOARD",
+        "CARSTICKER",
+        "SHINE",
+        "DASHMAT",
+        "ACCELERATOR",
+        "CXTHIRTY"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 040",
+      "words": [
+        "SABLE",
+        "TAILPIPE",
+        "OILCHANGE",
+        "MONTERO",
+        "ATLAS",
+        "PHONECHARGER",
+        "RALLYCAR",
+        "BORA",
+        "TOUR",
+        "TERRAIN",
+        "HEADLIGHT",
+        "COROLLA"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 041",
+      "words": [
+        "SANTAFE",
+        "SIDEVIEWMIRROR",
+        "SANDDUNE",
+        "RANGE",
+        "FUSE",
+        "ROAD",
+        "JEEPTRAIL",
+        "PRIUS",
+        "OWNERSMANUAL",
+        "VENTURE",
+        "BEACHTRIP",
+        "OFFROADTRIP"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 042",
+      "words": [
+        "JUMPSTART",
+        "WIPERBLADE",
+        "TIREPRESSURE",
+        "HUBCAP",
+        "VOLUME",
+        "LEAF",
+        "CARENTHUSIAST",
+        "NITRO",
+        "ANTENNA",
+        "VACATIONRIDE",
+        "CITYBUS",
+        "CARWASHSOAP"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 043",
+      "words": [
+        "TOOLBOX",
+        "PICKUP",
+        "MOUNTAIN",
+        "CAMRY",
+        "MOONROOF",
+        "SPORTSCAR",
+        "DIFFERENTIAL",
+        "NIGHTDRIVE",
+        "STRATUS",
+        "AVALON",
+        "TOWEL",
+        "RVLIVING"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 044",
+      "words": [
+        "GASSTATION",
+        "VAN",
+        "GASCAP",
+        "CAMPGROUND",
+        "ZFOUR",
+        "RAMCHARGER",
+        "CARWINDOW",
+        "FIRSTAID",
+        "PASSENGER",
+        "INFINITI",
+        "ACURA",
+        "SUBWOOFER"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 045",
+      "words": [
+        "TESTDRIVE",
+        "TACOMA",
+        "EXHAUST",
+        "CONCORDE",
+        "PROBE",
+        "MOPED",
+        "VOLVO",
+        "CLEANING",
+        "HORNET",
+        "MURANO",
+        "FERRARI",
+        "XTERRA"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 046",
+      "words": [
+        "PARKING",
+        "EQUINOX",
+        "CARJOURNAL",
+        "TUCSON",
+        "VALIANT",
+        "LANCER",
+        "SOUNDBAR",
+        "MONSTERTRUCK",
+        "CARCLUB",
+        "CAPTIVA",
+        "AUDIOBOOK",
+        "DELIVERYVAN"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 047",
+      "words": [
+        "IMPREZA",
+        "VEHICLEHISTORY",
+        "CAMARO",
+        "CRUISER",
+        "CARLOVER",
+        "GOLFCART",
+        "CAMPINGGEAR",
+        "CARTRAVEL",
+        "PATHFINDER",
+        "LANDROVER",
+        "ROUTE",
+        "AIRPUMP"
+      ]
+    },
+    {
+      "name": "Cars, Trucks and Road Trips Word Search Puzzle 048",
+      "words": [
+        "CAB",
+        "JOURNEYHOME",
+        "ESCAPE",
+        "COOLER",
+        "POPUPTENT",
+        "BEARING",
+        "RODEO",
+        "WASHBUCKET",
+        "GOKART",
+        "CENTURY",
+        "MILEAGE",
+        "BRAKELIGHT"
+      ]
+    }
+  ]
+}

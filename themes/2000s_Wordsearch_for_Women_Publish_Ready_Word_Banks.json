@@ -1,0 +1,897 @@
+{
+  "title": "The Y2K Memories Word Search for Women",
+  "subtitle": "100 themed word search puzzles",
+  "author": "Slade Puzzles",
+  "palette": "nature",
+  "puzzles": [
+    {
+      "name": "Beauty & Hair",
+      "words": [
+        "CHRONOTRIGGER",
+        "SURFBOARD",
+        "URBAN",
+        "HUMMINGBIRD",
+        "SOVEREIGN",
+        "COFFIN",
+        "GECKO",
+        "SHOT",
+        "ELSA",
+        "QUILTER",
+        "TRIP",
+        "TONYHAWK"
+      ]
+    },
+    {
+      "name": "Mall Days",
+      "words": [
+        "GAMEPAD",
+        "PARKINGLOT",
+        "OAR",
+        "BORDERLANDS",
+        "CONFED",
+        "NERF",
+        "ICONIC",
+        "MELODY",
+        "WETLAND",
+        "PERSONALCOMPUTER",
+        "HOODIE",
+        "RACE"
+      ]
+    },
+    {
+      "name": "Sports & Action",
+      "words": [
+        "QUEEN",
+        "CHANNEL",
+        "SEARCH",
+        "ROFL",
+        "GAMEBOOTH",
+        "AFTERSHOW",
+        "RECORDPLAYER",
+        "FOOFIGHTERS",
+        "SITCOM",
+        "FAIRS",
+        "RINGTONE",
+        "VASSAL"
+      ]
+    },
+    {
+      "name": "School & Tech",
+      "words": [
+        "COACH",
+        "LAUGH",
+        "ISABELLE",
+        "FUTURISM",
+        "PIKACHU",
+        "GAMEOVER",
+        "RAMP",
+        "PROM",
+        "ROMANCE",
+        "STARTREK",
+        "THRUWAY",
+        "EDUCATE"
+      ]
+    },
+    {
+      "name": "Digital Music",
+      "words": [
+        "SETUP",
+        "VCR",
+        "ODIN",
+        "TERROR",
+        "SOUTHERNTIER",
+        "DRIVE",
+        "GRADATION",
+        "MACEDON",
+        "MEDALS",
+        "GUN",
+        "SODA",
+        "LISTEN"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "words": [
+        "STARWARS",
+        "GRAPHICTEE",
+        "GRASS",
+        "TUNNEL",
+        "TOPGUN",
+        "NEGATIVE",
+        "PALM",
+        "SPORTING",
+        "BRIDLE",
+        "TERRARIA",
+        "FOAL",
+        "SIDEKICK"
+      ]
+    },
+    {
+      "name": "Y2K Fashion",
+      "words": [
+        "PAGES",
+        "SWORD",
+        "COOKINGMAMA",
+        "MIST",
+        "RUNWAY",
+        "GASSTATION",
+        "SONIC",
+        "FIDDLE",
+        "PAPERBOY",
+        "KARAOKE",
+        "MIRRORBALL",
+        "GALLERY"
+      ]
+    },
+    {
+      "name": "Flip Phone Era",
+      "words": [
+        "FORDS",
+        "RIBBON",
+        "ICECLIMBER",
+        "BAND",
+        "NOBLES",
+        "TRAVELS",
+        "LEGENDS",
+        "FREETIME",
+        "UTICA",
+        "TUTORIAL",
+        "KEYBOARD",
+        "WEALTH"
+      ]
+    },
+    {
+      "name": "Slang & Text",
+      "words": [
+        "NAPOLEON",
+        "BRB",
+        "SATURN",
+        "STARFOX",
+        "SETTLER",
+        "MUSICLOVER",
+        "CART",
+        "STUDIO",
+        "SAHARA",
+        "WICKED",
+        "VICTORIA",
+        "CLIMBER"
+      ]
+    },
+    {
+      "name": "Food & Hangouts",
+      "words": [
+        "PERFECTDARK",
+        "PROGRESS",
+        "CHICAGO",
+        "RECORD",
+        "MIDWAY",
+        "BLOCKING",
+        "SPEEDSTER",
+        "EPISODE",
+        "PIKMINBLOOM",
+        "NBATWOK",
+        "TOKEN",
+        "CAPITOL"
+      ]
+    },
+    {
+      "name": "Early Social Web",
+      "words": [
+        "THEME",
+        "HOLLYWOOD",
+        "LATEFEE",
+        "PEGGLE",
+        "VOLLEYBALL",
+        "MILKSHAKE",
+        "NEWRELEASE",
+        "NATIONALPARK",
+        "AMERICANIDOL",
+        "WADERS",
+        "ADIRONDACKS",
+        "RACING"
+      ]
+    },
+    {
+      "name": "DVD Night",
+      "words": [
+        "KITE",
+        "SPRINGTOY",
+        "VISA",
+        "ATTRACTION",
+        "FLOPPYDISK",
+        "PHOTOGRAPHY",
+        "GAMEDISC",
+        "CATALOG",
+        "TOMBRAIDER",
+        "DANCEPOP",
+        "GESTURE",
+        "MUSICIAN"
+      ]
+    },
+    {
+      "name": "Beauty & Hair: Essentials",
+      "words": [
+        "ROBLOX",
+        "ROAD",
+        "SILVER",
+        "SELFIE",
+        "BONUSROUND",
+        "FACTORY",
+        "RECREATION",
+        "ROCKSTAR",
+        "WATCHPARTY",
+        "ROLLERSKATES",
+        "SPEAR",
+        "CONCERTTICKET"
+      ]
+    },
+    {
+      "name": "Mall Days: Essentials",
+      "words": [
+        "MAINSTREET",
+        "RAILROAD",
+        "JOKER",
+        "SKILLED",
+        "GASOLINE",
+        "BLUETOOTH",
+        "DOCTORWHO",
+        "PROPS",
+        "WARP",
+        "REDCARPET",
+        "TACO",
+        "LUNCHBOX"
+      ]
+    },
+    {
+      "name": "Sports & Action: Essentials",
+      "words": [
+        "GRANDTHEFTAUTO",
+        "COLONY",
+        "MONUMENT",
+        "PAPER",
+        "FISH",
+        "BATTLETOADS",
+        "RUDDER",
+        "CAMERA",
+        "HANDLE",
+        "PATCHOULI",
+        "SYNTHPOP",
+        "BATMAN"
+      ]
+    },
+    {
+      "name": "School & Tech: Essentials",
+      "words": [
+        "BONJOVI",
+        "NAVIGATOR",
+        "SUN",
+        "ITHACA",
+        "CAMPFIRE",
+        "THROWBACK",
+        "GAMESHELF",
+        "FIGHT",
+        "MARITIME",
+        "POP",
+        "TOBYKEITH",
+        "KING"
+      ]
+    },
+    {
+      "name": "Digital Music: Essentials",
+      "words": [
+        "GAMECARD",
+        "WILDLIFE",
+        "SONGWRITER",
+        "GUESTS",
+        "MATCHMAKING",
+        "BATTLE",
+        "COMMERCIAL",
+        "LATESHOW",
+        "MUSICFEST",
+        "RAIDERS",
+        "RANDOM",
+        "CROWD"
+      ]
+    },
+    {
+      "name": "Gaming: Essentials",
+      "words": [
+        "FILMNOIR",
+        "ROGUELEGACY",
+        "VIRTUAFIGHTER",
+        "MINIGOLF",
+        "DRIVESIN",
+        "MUTE",
+        "SURFING",
+        "SHELLS",
+        "HEADBAND",
+        "TORCH",
+        "GRYFFINDOR",
+        "PAYPHONE"
+      ]
+    },
+    {
+      "name": "Y2K Fashion: Essentials",
+      "words": [
+        "ESPRESSO",
+        "QUIZZES",
+        "DIGITALSTORE",
+        "SNACK",
+        "TWISTEDMETAL",
+        "CLASHOFCLANS",
+        "BODYGLITTER",
+        "INTERNETSTAR",
+        "ARTIFACT",
+        "AEROBICS",
+        "SCREAM",
+        "ALEXANDER"
+      ]
+    },
+    {
+      "name": "Flip Phone Era: Essentials",
+      "words": [
+        "HANGINGPLANT",
+        "SWEET",
+        "MYTH",
+        "MOONROCKET",
+        "DEADSPACE",
+        "CONSOLE",
+        "BONUSFEATURES",
+        "FUTURE",
+        "SPEAKER",
+        "PUNKROCK",
+        "MOVIESTAR",
+        "PAPARAZZI"
+      ]
+    },
+    {
+      "name": "Slang & Text: Essentials",
+      "words": [
+        "BACKWARDCOMPATIBLE",
+        "CATFISH",
+        "ENCANTO",
+        "INSTAGRAM",
+        "PHASER",
+        "SNACKBAR",
+        "HURRICANE",
+        "CABIN",
+        "LIZZO",
+        "MUSTANG",
+        "MING",
+        "SIA"
+      ]
+    },
+    {
+      "name": "Food & Hangouts: Essentials",
+      "words": [
+        "CONVERSATION",
+        "PALWORLD",
+        "VERSE",
+        "ACTORS",
+        "CATEYE",
+        "FJORD",
+        "LANDMARK",
+        "AWARDSHOW",
+        "EXCAVATE",
+        "POPART",
+        "COLUMN",
+        "SLUMBERPARTY"
+      ]
+    },
+    {
+      "name": "Early Social Web: Essentials",
+      "words": [
+        "POWERUP",
+        "BREEZE",
+        "THEOFFICE",
+        "TUBULAR",
+        "COMPETE",
+        "READERS",
+        "CONTACTS",
+        "TARTAR",
+        "CHARTS",
+        "TANK",
+        "FAMILYROOM",
+        "LIBRARYS"
+      ]
+    },
+    {
+      "name": "DVD Night: Essentials",
+      "words": [
+        "CELLULOID",
+        "CLOCK",
+        "VAULTS",
+        "THREAD",
+        "LOVE",
+        "MAPS",
+        "CHEESE",
+        "GEARS",
+        "SUFFRAGE",
+        "RIVER",
+        "FIGURINE",
+        "PORTALDOOR"
+      ]
+    },
+    {
+      "name": "Beauty & Hair: Memory Lane",
+      "words": [
+        "APPLE",
+        "IMAGINE",
+        "REMNANT",
+        "KEYPAD",
+        "VENICE",
+        "BLOG",
+        "CASTING",
+        "DISKDRIVE",
+        "OPENMIC",
+        "WIDESCREEN",
+        "SEASHELL",
+        "FLAGSTICK"
+      ]
+    },
+    {
+      "name": "Mall Days: Memory Lane",
+      "words": [
+        "TURNPIKE",
+        "INFLUENCER",
+        "PORTAL",
+        "WEEKEND",
+        "EARTHTONES",
+        "OTTOMAN",
+        "PRETZEL",
+        "PORT",
+        "COMBAT",
+        "SCHOOLDANCE",
+        "CAROUSEL",
+        "GAMELOBBY"
+      ]
+    },
+    {
+      "name": "Sports & Action: Memory Lane",
+      "words": [
+        "DICKENS",
+        "NOIR",
+        "PEAKS",
+        "HELMET",
+        "PUNK",
+        "BANANASPLIT",
+        "GAMERLIFE",
+        "HALO",
+        "MERLOT",
+        "CONTRAST",
+        "WILDFLOWER",
+        "CAPTAINAMERICA"
+      ]
+    },
+    {
+      "name": "School & Tech: Memory Lane",
+      "words": [
+        "SIDE",
+        "RIDETHELL",
+        "SHOVELKNIGHT",
+        "GLADIATOR",
+        "TENT",
+        "FLATIRON",
+        "RAVENCLAW",
+        "WINDBREAKER",
+        "DESIGNER",
+        "DJSET",
+        "LOOTBOX",
+        "PLAYTIME"
+      ]
+    },
+    {
+      "name": "Digital Music: Memory Lane",
+      "words": [
+        "FAST",
+        "LOCK",
+        "DRAW",
+        "AUTOGRAPH",
+        "GANONDORF",
+        "MALT",
+        "BLIZZARD",
+        "ROCKMUSIC",
+        "PARTS",
+        "MAN",
+        "POPROCK",
+        "HAN"
+      ]
+    },
+    {
+      "name": "Gaming: Memory Lane",
+      "words": [
+        "GAMER",
+        "RECORDSTORE",
+        "MIXCD",
+        "BOYZIIMEN",
+        "INKLING",
+        "GORGES",
+        "WALLPAPER",
+        "ENTERTAIN",
+        "CDPLAYER",
+        "FROSTEDTIPS",
+        "LOL",
+        "HUMOR"
+      ]
+    },
+    {
+      "name": "Y2K Fashion: Memory Lane",
+      "words": [
+        "PLANTSVSZOMBIES",
+        "TRADED",
+        "AWARDNIGHT",
+        "VIKING",
+        "PUBLICMARCH",
+        "SCOREBOARD",
+        "CROCODILE",
+        "SHOOT",
+        "BREAKOUT",
+        "SHOP",
+        "ALIENS",
+        "STAMP"
+      ]
+    },
+    {
+      "name": "Flip Phone Era: Memory Lane",
+      "words": [
+        "BLONDIE",
+        "IRONING",
+        "OLIVIARODRIGO",
+        "WRAP",
+        "KARATEKID",
+        "BOOGIE",
+        "GOLFCART",
+        "ENTERPRISE",
+        "BURIAL",
+        "CLUELESS",
+        "VENUE",
+        "TICKETS"
+      ]
+    },
+    {
+      "name": "Slang & Text: Memory Lane",
+      "words": [
+        "SOUNDTRACK",
+        "SINGALONG",
+        "GROUNDED",
+        "MUSICAL",
+        "AMPLIFIER",
+        "HARDWARESTORE",
+        "FLIPHAIR",
+        "PROSPECT",
+        "RESTORE",
+        "FAMILYGAME",
+        "YAKUZA",
+        "SATURDAYNIGHT"
+      ]
+    },
+    {
+      "name": "Food & Hangouts: Memory Lane",
+      "words": [
+        "ASTEROIDS",
+        "INVENTORY",
+        "GHOST",
+        "GRAMMYS",
+        "JELLO",
+        "DABOMB",
+        "STATIONS",
+        "RANKED",
+        "PINBALL",
+        "SERENE",
+        "ANCHOR",
+        "SHANIATWAIN"
+      ]
+    },
+    {
+      "name": "Early Social Web: Memory Lane",
+      "words": [
+        "WHATEVER",
+        "RATING",
+        "WARS",
+        "SUNSCREEN",
+        "DENIMJACKET",
+        "PHOTO",
+        "ANTENNA",
+        "NINTENDOGS",
+        "SCENERY",
+        "ROLES",
+        "HOTDOG",
+        "TRACKED"
+      ]
+    },
+    {
+      "name": "DVD Night: Memory Lane",
+      "words": [
+        "MODELKIT",
+        "LOYALTY",
+        "LONGBOAT",
+        "FLORIST",
+        "VIDEO",
+        "ENDURANCE",
+        "RADICAL",
+        "SNOWBOARD",
+        "GELPEN",
+        "NAVY",
+        "MOUSE",
+        "YEAR"
+      ]
+    },
+    {
+      "name": "Beauty & Hair: Everyday Memories",
+      "words": [
+        "QUIDDITCH",
+        "WARIO",
+        "CHARMING",
+        "AFTERPARTY",
+        "CHEESECAKE",
+        "PLANK",
+        "RAVEN",
+        "GOTHAM",
+        "ROCKYBALBOA",
+        "GUIDE",
+        "APARTMENT",
+        "BRAINAGE"
+      ]
+    },
+    {
+      "name": "Mall Days: Everyday Memories",
+      "words": [
+        "BOWLING",
+        "MICROPROCESSOR",
+        "CARDS",
+        "RELAXED",
+        "FUTURAMA",
+        "JANISSARY",
+        "RETAIL",
+        "GASSHORTAGE",
+        "STRIKE",
+        "WEIGHTS",
+        "COSTUME",
+        "TVSERIES"
+      ]
+    },
+    {
+      "name": "Sports & Action: Everyday Memories",
+      "words": [
+        "NINETEENTHHOLE",
+        "CATTLE",
+        "ASTROBOT",
+        "VARIETYSHOW",
+        "SPOOL",
+        "RUNNER",
+        "POSTOFFICE",
+        "GAMERCHAIR",
+        "OLD",
+        "GAMECASE",
+        "LOOPS",
+        "WII"
+      ]
+    },
+    {
+      "name": "School & Tech: Everyday Memories",
+      "words": [
+        "PAPERMARIO",
+        "HAIRMETAL",
+        "COUPLESSKATE",
+        "CHAINRING",
+        "VAMPIRE",
+        "STATUES",
+        "HARMON",
+        "BINGE",
+        "TRUCKER",
+        "WIIFIT",
+        "DISC",
+        "SUBJECT"
+      ]
+    },
+    {
+      "name": "Digital Music: Everyday Memories",
+      "words": [
+        "MONSTERHUNTER",
+        "FEDORA",
+        "CELLPHONE",
+        "DIDDYKONG",
+        "WAND",
+        "INK",
+        "NINTENDOLAND",
+        "BALATRO",
+        "FLIGHT",
+        "AIRPLANE",
+        "ACIDWASH",
+        "GLACIER"
+      ]
+    },
+    {
+      "name": "Gaming: Everyday Memories",
+      "words": [
+        "THANKFUL",
+        "PIG",
+        "PALMTREE",
+        "SKILLTREE",
+        "AWARDS",
+        "COMPASS",
+        "PLAYLIST",
+        "MASTER",
+        "STEAMER",
+        "PROJECT",
+        "OCEANSELEVEN",
+        "CELEBRITY"
+      ]
+    },
+    {
+      "name": "Y2K Fashion: Everyday Memories",
+      "words": [
+        "PATH",
+        "DOCUMENT",
+        "MENU",
+        "SELLER",
+        "HADES",
+        "HAIRGEL",
+        "GEORGE",
+        "TEEBOX",
+        "TOMNOOK",
+        "COASTLINE",
+        "SILLY",
+        "CROWN"
+      ]
+    },
+    {
+      "name": "Flip Phone Era: Everyday Memories",
+      "words": [
+        "GOLD",
+        "JAWS",
+        "LIBRARY",
+        "SPACE",
+        "CARPOOL",
+        "BOWSER",
+        "METALGEAR",
+        "REPTILE",
+        "QUAKE",
+        "EMPIRE",
+        "MOTOWN",
+        "CONTRA"
+      ]
+    },
+    {
+      "name": "Slang & Text: Everyday Memories",
+      "words": [
+        "ONLINEGAMING",
+        "DEVILMAYCRY",
+        "XENOBLADE",
+        "NEWGAME",
+        "SADDLE",
+        "PUMPKIN",
+        "CHAMPION",
+        "TROLLS",
+        "MOSS",
+        "QUIZSHOW",
+        "SINGLE",
+        "COBRA"
+      ]
+    },
+    {
+      "name": "Food & Hangouts: Everyday Memories",
+      "words": [
+        "NATIONAL",
+        "RANKING",
+        "DOLLYPARTON",
+        "CASTS",
+        "FEARLESS",
+        "KNUCKLES",
+        "LUIGI",
+        "OVERALLS",
+        "CLICK",
+        "PERFORM",
+        "MINISKIRT",
+        "BUTTERFLYCLIP"
+      ]
+    },
+    {
+      "name": "Early Social Web: Everyday Memories",
+      "words": [
+        "BEATNIK",
+        "CONCERT",
+        "EVENT",
+        "TAXATION",
+        "MASCOT",
+        "CAMP",
+        "VELOUR",
+        "PARIS",
+        "COAT",
+        "VACUUMTUBE",
+        "ATARI",
+        "ROBOT"
+      ]
+    },
+    {
+      "name": "DVD Night: Everyday Memories",
+      "words": [
+        "ARCHITECT",
+        "OMG",
+        "GRANTURISMO",
+        "WRAPDRESS",
+        "PHOTOKIOSK",
+        "PLAYSTATION",
+        "BOBBER",
+        "ELDERSCROLLS",
+        "HERITAGE",
+        "PHONE",
+        "CONDOR",
+        "EXCITEBIKE"
+      ]
+    },
+    {
+      "name": "Beauty & Hair: Weekend Flashback",
+      "words": [
+        "FOUNTAIN",
+        "MUSTACHE",
+        "GUNSTARHEROES",
+        "TWANG",
+        "MICROCHIP",
+        "TRAINING",
+        "PRESLEY",
+        "GLORY",
+        "WAGON",
+        "RADAR",
+        "REMOTECAR",
+        "PAPERDOLL"
+      ]
+    },
+    {
+      "name": "Mall Days: Weekend Flashback",
+      "words": [
+        "COBWEB",
+        "BACKYARD",
+        "RESORT",
+        "LEMMINGS",
+        "WESTWORLD",
+        "TRAFFIC",
+        "TVGUIDE",
+        "SEOUL",
+        "MAZEGAME",
+        "COLLECTS",
+        "BASILICA",
+        "SPACERACE"
+      ]
+    }
+  ],
+  "detected_topic": "General Interest",
+  "recommended_palette": "nature",
+  "recommended_cover_style": "classic",
+  "cover_style": "classic",
+  "clipart_search_terms": "General Interest Chronotrigger Surfboard Urban illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Challenging",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:08",
+    "sources": [
+      "General Interest",
+      "Pop Culture & Entertainment",
+      "Video Games & Gaming",
+      "Sports and Hobbies",
+      "Travel and Geography",
+      "Nature"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 50,
+    "unique_words_in_book": 600,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "General Interest"
+    ],
+    "checked_at": "2026-08-22T10:08:37"
+  }
+}

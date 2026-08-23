@@ -1,0 +1,850 @@
+{
+  "title": "Easter and Spring Word Search",
+  "subtitle": "48 cheerful large-print puzzles for blossoms, renewal and springtime",
+  "author": "Slade Puzzles",
+  "series": "Slade Puzzles Seasonal and Evergreen Collection",
+  "series_rank": 5,
+  "audience": "Adults and Teens",
+  "palette": "spring-meadow",
+  "cover_style": "photo",
+  "recommended_palette": "spring-meadow",
+  "recommended_cover_style": "photo",
+  "cover_badge": "48 LARGE-PRINT PUZZLES - NO REPEATED WORDS",
+  "cover_imprint": "Slade Puzzles",
+  "no_repeat_words": true,
+  "difficulty_label": "Relaxing",
+  "detected_topic": "Easter and Spring",
+  "source_word_bank": {
+    "name": "Guided Builder Master Word Bank",
+    "topics": [
+      "Easter and Spring"
+    ]
+  },
+  "cover_art_path": "cover_assets/background_photos/gardening.png",
+  "cover_art_focus": "center",
+  "clipart_search_terms": "easter spring blossoms garden renewal",
+  "market_research_note": "Selected from current demand signals for large-print adult word searches, seasonal timing, and evergreen giftable themes. This is not a guarantee of sales.",
+  "market_research_sources": [
+    "Amazon Word Search Best Sellers",
+    "KDP paperback requirements"
+  ],
+  "puzzles": [
+    {
+      "name": "Easter and Spring Word Search Puzzle 001",
+      "words": [
+        "RAISEDBED",
+        "CORIANDER",
+        "EASTERLILY",
+        "EVERGREEN",
+        "BLUEBERRY",
+        "CARAWAY",
+        "DELPHINIUM",
+        "GUSTFRONT",
+        "STAKE",
+        "EGGPAINTING",
+        "DUSTSTORM",
+        "WORMCASTINGS"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 002",
+      "words": [
+        "COMPOSTPILE",
+        "COLDFRONT",
+        "SOILCONDITIONER",
+        "GARDENLABEL",
+        "WINDOWSILLGARDEN",
+        "SEASONAL",
+        "SUNNYDAY",
+        "BROCCOLI",
+        "CARNATION",
+        "FENNEL",
+        "LANTANA",
+        "WINTERGREEN"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 003",
+      "words": [
+        "TRANSPLANT",
+        "LIMONIUM",
+        "BORDERPLANT",
+        "POTTING",
+        "LINARIA",
+        "FALL",
+        "JANUARY",
+        "FALLPARTY",
+        "CILANTRO",
+        "ARBUTUS",
+        "ARCTICAIR",
+        "SOILNUTRITION"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 004",
+      "words": [
+        "EVAPORATION",
+        "SNOWSTORM",
+        "SNOWDROP",
+        "FLOWERPOT",
+        "MARIGOLD",
+        "PARTYTABLE",
+        "CLOUDINESS",
+        "SAXIFRAGE",
+        "GERMINATION",
+        "MONARDA",
+        "DANDELION",
+        "STORM"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 005",
+      "words": [
+        "LEMON",
+        "PERENNIALBED",
+        "WATERSHED",
+        "FLOWERFARM",
+        "GREENMANURE",
+        "GARDENPUMP",
+        "HOLIDAYBAKING",
+        "SWEETCORN",
+        "PICNIC",
+        "GARDENIA",
+        "AUTUMNMORNING",
+        "GARDENSTRING"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 006",
+      "words": [
+        "SEASONALCRAFT",
+        "AMARYLLIS",
+        "SEDUM",
+        "AUTUMNBAKING",
+        "SPRINKLER",
+        "TURNIP",
+        "APPLEBLOSSOM",
+        "COLEUS",
+        "THYME",
+        "WINDS",
+        "SEEDLINGPOT",
+        "REGIONALCLIMATE"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 007",
+      "words": [
+        "SNOWMAN",
+        "SEEDCATALOG",
+        "PRIMULA",
+        "VALENTINECANDY",
+        "WETBULB",
+        "SNOWLINE",
+        "INVERSION",
+        "JETSTREAM",
+        "ECHINACEA",
+        "CHARD",
+        "LETTUCE",
+        "EASTER"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 008",
+      "words": [
+        "SOILMOISTURE",
+        "HARVEST",
+        "TERRACEGARDEN",
+        "ALYSSUM",
+        "GARDENKNIFE",
+        "VACATIONWEEK",
+        "GARDENPOND",
+        "GARDENWORK",
+        "GROWER",
+        "WATERINGCAN",
+        "CUCUMBER",
+        "TULIPBULB"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 009",
+      "words": [
+        "WINTERHOLIDAY",
+        "WEATHERFRONT",
+        "AUTUMNCOLOR",
+        "SPRINGMORNING",
+        "HYACINTH",
+        "SUNFLOWER",
+        "MIST",
+        "CATTAIL",
+        "GARDENAPRON",
+        "LYSIMACHIA",
+        "WINDROSE",
+        "GROUNDCOVER"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 010",
+      "words": [
+        "SOILAMENDMENT",
+        "VALENTINEDAY",
+        "BIRDBATH",
+        "MICROBURST",
+        "IRIS",
+        "GREENHOUSEGROWER",
+        "SORREL",
+        "CHRYSANTHEMUM",
+        "BEGONIA",
+        "THUNDERCLAP",
+        "TOMATO",
+        "CYCLONE"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 011",
+      "words": [
+        "PERENNIAL",
+        "SNAPDRAGON",
+        "BULBPLANT",
+        "ROSEBUSH",
+        "PARTYHAT",
+        "RHUBARBPATCH",
+        "FLOWERBORDER",
+        "WEEDCLOTH",
+        "IRRIGATION",
+        "VINCA",
+        "SEMPERVIVUM",
+        "STRATOCUMULUS"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 012",
+      "words": [
+        "HARVESTBASKET",
+        "COLDSPELL",
+        "THUNBERGIA",
+        "SPRINGMARKET",
+        "MINT",
+        "SUMMER",
+        "POTAGER",
+        "GARDENPLAN",
+        "VINE",
+        "STRAWBERRY",
+        "GARDENROW",
+        "PATCH"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 013",
+      "words": [
+        "PRUNINGKNIFE",
+        "CUTTINGGARDEN",
+        "TROPICALSTORM",
+        "WINDGAUGE",
+        "WEATHERBALLOON",
+        "PLANTSPREADER",
+        "KITCHENAROMA",
+        "BLOSSOM",
+        "COCKSCOMB",
+        "SUMMERPARTY",
+        "GARDENFENCE",
+        "SUMMERPICNIC"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 014",
+      "words": [
+        "AZALEA",
+        "YARD",
+        "WOODLANDGARDEN",
+        "SOILCOVER",
+        "RHUBARB",
+        "SOILBLOCK",
+        "PECAN",
+        "GARDENFORK",
+        "HYDRANGEABUSH",
+        "PLANTPOT",
+        "DILL",
+        "CINERARIA"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 015",
+      "words": [
+        "GREENHOUSEPOT",
+        "SEASONALCHANGE",
+        "SUBTROPICAL",
+        "HOLIDAYDESSERT",
+        "LEAFRAKE",
+        "PUMPKINPATCH",
+        "SPRINGBLOOM",
+        "ESPALIER",
+        "ORNAMENTPAPER",
+        "GRAPEVINE",
+        "VEGETABLEGARDEN",
+        "DAISY"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 016",
+      "words": [
+        "PLANTCADDY",
+        "VALENTINEMESSAGE",
+        "COCOA",
+        "LEAFMOULD",
+        "THANKFULTHOUGHT",
+        "LEMONGRASS",
+        "MOISTURE",
+        "PURSLANE",
+        "GARDENPATH",
+        "HARVESTMEAL",
+        "EUPHORBIA",
+        "ANTICYCLONE"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 017",
+      "words": [
+        "SCARECROW",
+        "THANKSGIVING",
+        "GARDENRECYCLE",
+        "SALVIA",
+        "FOG",
+        "WILDFLOWER",
+        "CHRISTMAS",
+        "NEPETA",
+        "POTTINGTABLE",
+        "BALCONYGARDEN",
+        "GINGERBREAD",
+        "MONSOON"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 018",
+      "words": [
+        "PARTYPLANNER",
+        "SOILTEST",
+        "SHADEBORDER",
+        "SEEDCOUNT",
+        "DIANTHUS",
+        "AUTUMNMARKET",
+        "PRECIPITATIONRATE",
+        "FALLWEATHER",
+        "HOLIDAY",
+        "DRIPLINE",
+        "VERBENA",
+        "TULIP"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 019",
+      "words": [
+        "BELLPEPPER",
+        "RUTABAGA",
+        "SUMMERGARDEN",
+        "XERISCAPE",
+        "LIGHTNING",
+        "EQUATOR",
+        "OZONE",
+        "SQUALL",
+        "SUMMERHOLIDAY",
+        "CELEBRATIONCENTER",
+        "BAROMETER",
+        "ADVENT"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 020",
+      "words": [
+        "HOSENOZZLE",
+        "HEDGEROW",
+        "TANSY",
+        "TORNADO",
+        "SNOWDAY",
+        "AUTUMNRECIPE",
+        "GRAPE",
+        "QUINCE",
+        "ESCAROLE",
+        "GARDENINGGLOVES",
+        "GARDENHOE",
+        "GARDENSHED"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 021",
+      "words": [
+        "GERMINATIONTEST",
+        "FOXGLOVE",
+        "PEONY",
+        "STORMTRACK",
+        "ROOFTOPGARDEN",
+        "SUNSHADE",
+        "PANSY",
+        "BAKING",
+        "CULTIVATOR",
+        "WEATHERSTATION",
+        "CATMINT",
+        "CLIMBINGROSE"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 022",
+      "words": [
+        "FUNNELCLOUD",
+        "PAMPASGRASS",
+        "SOILFERTILITY",
+        "FAIRWEATHER",
+        "NASTURTIUMSEED",
+        "DRIZZLE",
+        "ACHILLEA",
+        "SOILPROBE",
+        "GARDENARCH",
+        "RAINSHADOW",
+        "SNOWFLAKE",
+        "VALENTINECRAFT"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 023",
+      "words": [
+        "DECORATIONS",
+        "HOLIDAYLIGHTS",
+        "STOCKINGS",
+        "HERBSPIRAL",
+        "PLANTLABEL",
+        "WATERINGCANISTER",
+        "HOSTA",
+        "ALLIUM",
+        "SPRINGRECIPE",
+        "RAINDROP",
+        "AIRPLANT",
+        "LANDSCAPING"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 024",
+      "words": [
+        "ICECAP",
+        "SEASONOFGIVING",
+        "DAFFODIL",
+        "SUGARCOOKIE",
+        "ROWCOVER",
+        "CURRENT",
+        "HARVESTDAY",
+        "AUTUMNHARVEST",
+        "STEM",
+        "ARBORVITAE",
+        "GARDENBASKET",
+        "WEATHERALERT"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 025",
+      "words": [
+        "SUMMERMARKET",
+        "VALENTINECARD",
+        "WINTERPARTY",
+        "HOLIDAYCRAFT",
+        "WINTER",
+        "ENDIVE",
+        "HOLIDAYDINNER",
+        "WINTERCOTTAGE",
+        "GIFTLIST",
+        "GARDENPRUNER",
+        "CLIMATEZONE",
+        "GARDENMULCH"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 026",
+      "words": [
+        "GARDENMAP",
+        "MIX",
+        "SEEDSTARTER",
+        "KITCHENPLOT",
+        "HAILSTONE",
+        "CYCLAMEN",
+        "LOVAGE",
+        "TOMATILLO",
+        "WEATHERCHART",
+        "OVERCAST",
+        "INDOORPLANT",
+        "CISTUS"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 027",
+      "words": [
+        "CLIMATEPATTERN",
+        "TORNADOALLEY",
+        "CELEBRATION",
+        "HEUCHERA",
+        "TABLETOP",
+        "RAINGAUGE",
+        "FOLIAGE",
+        "CRAFTTABLE",
+        "DAYLILY",
+        "SOILHEALTH",
+        "GARDENCLOCHE",
+        "NASTURTIUM"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 028",
+      "words": [
+        "TYPHOON",
+        "GREENHOUSEPLANT",
+        "LANTERN",
+        "RADISH",
+        "DOORWREATH",
+        "WINTERGARDEN",
+        "CONTAINERGARDEN",
+        "YULETIME",
+        "GERMINATE",
+        "COASTALCLIMATE",
+        "ORGANICGARDEN",
+        "CROCUS"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 029",
+      "words": [
+        "LILAC",
+        "LANTERNLIGHT",
+        "RECIPEBOOK",
+        "ZEPHYR",
+        "HYSSOP",
+        "DIGGING",
+        "LIME",
+        "VALERIAN",
+        "BEAN",
+        "SHADEGARDEN",
+        "WATERCYCLE",
+        "HUMIDITY"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 030",
+      "words": [
+        "HURRICANE",
+        "EASTERTREAT",
+        "BLOSSOMTIME",
+        "PUMPKINPIE",
+        "WINTERTREAT",
+        "TRADITIONTREE",
+        "BOTANY",
+        "CONDENSATION",
+        "CORN",
+        "TRACHELIUM",
+        "FALLCOLOR",
+        "SQUASH"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 031",
+      "words": [
+        "RAINBOW",
+        "CARDOON",
+        "SEALEVEL",
+        "CHEER",
+        "BOGGARDEN",
+        "KNIPHOFIA",
+        "HARVESTFESTIVAL",
+        "PERMAFROST",
+        "BIODYNAMIC",
+        "GARDENBENCH",
+        "SOILMIX",
+        "RAINBARREL"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 032",
+      "words": [
+        "OCCASION",
+        "FLASHFLOOD",
+        "LEAFMOLD",
+        "SEEDMAT",
+        "MICROCLIMATE",
+        "SWEETBASIL",
+        "NEWYEARSDAY",
+        "FRAGRANCEGARDEN",
+        "TRELLISARCH",
+        "FROSTLINE",
+        "GARDENCENTER",
+        "GARLAND"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 033",
+      "words": [
+        "GRAPEFRUIT",
+        "POPPY",
+        "PRUNING",
+        "HEATWAVE",
+        "CRANBERRY",
+        "GARDENTWINE",
+        "SEEDTAPE",
+        "VERMICOMPOST",
+        "POTATO",
+        "PASSIONFLOWER",
+        "COTTAGEGARDEN",
+        "SPRING"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 034",
+      "words": [
+        "PRAIRIEGARDEN",
+        "BIRTHDAY",
+        "BREEZE",
+        "CONEFLOWER",
+        "ARID",
+        "MITTEN",
+        "PLANTNUTRITION",
+        "SUMMERWEEKEND",
+        "WINTERSTORM",
+        "HALLOWEEN",
+        "HOLIDAYPARTY",
+        "TRELLISWIRE"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 035",
+      "words": [
+        "AUTUMNCANDLE",
+        "GERANIUM",
+        "SPINACH",
+        "DEWPOINT",
+        "SEEDTRAY",
+        "CLOUDDECK",
+        "RANUNCULUS",
+        "MULCHLAYER",
+        "WEATHERREPORT",
+        "GLADIOLUS",
+        "ARBOR",
+        "WAVECLOUD"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 036",
+      "words": [
+        "TURKEYDINNER",
+        "CAMPANULA",
+        "EPIMEDIUM",
+        "AUTUMNPARTY",
+        "HARVESTTABLE",
+        "HOLIDAYTRADITION",
+        "GIFTBAG",
+        "VALENTINEGIFT",
+        "POND",
+        "HEIRLOOM",
+        "LAMIUM",
+        "SNOWGLOBE"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 037",
+      "words": [
+        "COSMOS",
+        "PEPPERPLANT",
+        "WINDGUST",
+        "YARDLONGBEAN",
+        "LAVENDER",
+        "BLACKBERRY",
+        "REEL",
+        "WINTERWEEKEND",
+        "HAIL",
+        "KALE",
+        "OCTOBERORNAMENT",
+        "PLANTDIVIDER"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 038",
+      "words": [
+        "MONSOONRAIN",
+        "MALLOW",
+        "OKRA",
+        "WEEDFORK",
+        "BASIL",
+        "VERONICA",
+        "SALSIFY",
+        "HOLIDAYPLAYLIST",
+        "PARTYGAME",
+        "AIRMASS",
+        "TOPSOIL",
+        "NOREASTER"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 039",
+      "words": [
+        "DRYSPELL",
+        "MELON",
+        "GARDENWEED",
+        "WINDSPEED",
+        "TEMPERATURE",
+        "VEGETABLEBED",
+        "COTONEASTER",
+        "TRADE",
+        "BUSHBEAN",
+        "BORDER",
+        "LOTUS",
+        "ANEMOMETER"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 040",
+      "words": [
+        "CLEMATIS",
+        "WEEDCONTROL",
+        "HANDFORK",
+        "SPRINGPICNIC",
+        "MAHONIA",
+        "FEVERFEW",
+        "HANDCULTIVATOR",
+        "PINECONE",
+        "JICAMA",
+        "EASTERPARADE",
+        "SPRINGBREAK",
+        "PLUM"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 041",
+      "words": [
+        "LEAFPILE",
+        "BOKCHOY",
+        "STRATUS",
+        "LONGWEEKEND",
+        "AUTUMNFESTIVAL",
+        "SOILTESTER",
+        "CELERIAC",
+        "GAILLARDIA",
+        "PLANTFOOD",
+        "HOLIDAYWEEKEND",
+        "DAHLIA",
+        "FIG"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 042",
+      "words": [
+        "SUNSHINE",
+        "ALMANAC",
+        "GARDENRAKE",
+        "DIANELLA",
+        "AUTUMNAIR",
+        "FALLRECIPE",
+        "CAROLING",
+        "CABBAGE",
+        "GREETINGCARD",
+        "WINDOWBOX",
+        "COUNTDOWN",
+        "WELCOMEHOME"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 043",
+      "words": [
+        "BLOOM",
+        "EXTREMEWEATHER",
+        "NICOTIANA",
+        "TRANSPLANTING",
+        "FRUITGARDEN",
+        "COLUMBINE",
+        "SHISO",
+        "WOODCHIPMULCH",
+        "STORMCELL",
+        "STACHYS",
+        "ONION",
+        "ECOSYSTEM"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 044",
+      "words": [
+        "EASTEREGG",
+        "COREOPSIS",
+        "HANDTROWEL",
+        "GREENHOUSEBENCH",
+        "GARDENCOMPANION",
+        "FLAGS",
+        "PEATPOT",
+        "SPRINGRAIN",
+        "SEEDCOAT",
+        "GARDENSIEVE",
+        "GIFTGIVER",
+        "HOLLY"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 045",
+      "words": [
+        "MULCH",
+        "GATHERING",
+        "NATIVEFLOWER",
+        "CIRRUS",
+        "GRAUPEL",
+        "ROOTBALL",
+        "SHALLOT",
+        "COMPOSTTEA",
+        "CONVECTION",
+        "SUMMERFESTIVAL",
+        "BRUSSELSPROUT",
+        "GARDENSTAKE"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 046",
+      "words": [
+        "WEEDINGTOOL",
+        "HUMMINGBIRD",
+        "BIRTHDAYBANNER",
+        "FRONT",
+        "GOOSEBERRY",
+        "PETUNIA",
+        "STATICE",
+        "FIREPLACE",
+        "GARDENSTONE",
+        "DESERTGARDEN",
+        "FALLSEASON",
+        "CALENDULA"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 047",
+      "words": [
+        "ARUGULA",
+        "VICTORYGARDEN",
+        "WATERINGWAND",
+        "HOLIDAYGIFT",
+        "PLACECARD",
+        "SUMMERCRAFT",
+        "SEEDLING",
+        "RIBBON",
+        "WISTERIA",
+        "HOLIDAYBRUNCH",
+        "WATERMELON",
+        "THANKSGIVINGTABLE"
+      ]
+    },
+    {
+      "name": "Easter and Spring Word Search Puzzle 048",
+      "words": [
+        "AGROTEK",
+        "GARDENCOMPOST",
+        "SOLSTICE",
+        "GARDENWORKSHOP",
+        "SPRINGFESTIVAL",
+        "HOLIDAYPHOTO",
+        "FALLMARKET",
+        "BEETS",
+        "SUMMERBARBECUE",
+        "POLYANTHUS",
+        "ROOTVEGETABLE",
+        "PUMPKIN"
+      ]
+    }
+  ],
+  "draft": true
+}

@@ -1,0 +1,1748 @@
+{
+  "title": "Through the Decades: Radical 1980s Word Search",
+  "subtitle": "100 themed word search puzzles",
+  "author": "Slade Puzzles",
+  "palette": "nature",
+  "puzzles": [
+    {
+      "name": "School Days",
+      "words": [
+        "CHURCH",
+        "CARRIAGE",
+        "GRAND",
+        "DEATHSTRANDING",
+        "INDUSTRY",
+        "PATCHOULI",
+        "POPCULTUREQUIZ",
+        "YODA",
+        "KETCHUP",
+        "CYCLE",
+        "COMPOSITION",
+        "TASTE"
+      ]
+    },
+    {
+      "name": "MTV & Music",
+      "words": [
+        "BELL",
+        "VENDOR",
+        "BANJO",
+        "LAUNCH",
+        "CHARACTERSELECT",
+        "BEADS",
+        "PONG",
+        "TEAPOT",
+        "CHOREOGRAPHY",
+        "CROSSPLAY",
+        "EASPORTSFC",
+        "NORSE"
+      ]
+    },
+    {
+      "name": "Space & Tech",
+      "words": [
+        "DOCTORWHO",
+        "SUPERMARIOBROS",
+        "TURTLES",
+        "IRONING",
+        "SCHOOL",
+        "ROOTBEER",
+        "FABLE",
+        "PERSONA",
+        "COASTER",
+        "SPLASHDOWN",
+        "CONTRAST",
+        "MEMORABLE"
+      ]
+    },
+    {
+      "name": "Phones & Gadgets",
+      "words": [
+        "PHASER",
+        "RESIST",
+        "CIRCUS",
+        "PLAYLIST",
+        "SQUIDGAME",
+        "CONVOY",
+        "MARVELVSCAPCOM",
+        "CAROUSEL",
+        "PLAY",
+        "MOANA",
+        "BREAKOUT",
+        "BARGAIN"
+      ]
+    },
+    {
+      "name": "VHS Weekend",
+      "words": [
+        "FREEFIRE",
+        "CARS",
+        "TREAT",
+        "ASIF",
+        "HELLDIVERS",
+        "FLAGSTICK",
+        "RAYMAN",
+        "HARBOR",
+        "PRIZES",
+        "CURTAIN",
+        "GECKO",
+        "ARCADETOKEN"
+      ]
+    },
+    {
+      "name": "Fashion",
+      "words": [
+        "DESERT",
+        "TINTOY",
+        "CARPET",
+        "ORNAMENT",
+        "THROWBACK",
+        "GOLDENEYE",
+        "CURSOR",
+        "BODYGLITTER",
+        "FRESH",
+        "NINTENDOLAND",
+        "DONKEYKONGCOUNTRY",
+        "INTERNET"
+      ]
+    },
+    {
+      "name": "Computer Room",
+      "words": [
+        "CATSKILLS",
+        "MEGADRIVE",
+        "MEADOW",
+        "SMALLTOWN",
+        "WIRELESS",
+        "SOMMELIER",
+        "BUSYSIGNAL",
+        "TROY",
+        "BILLIEEILISH",
+        "RATCHETANDCLANK",
+        "RAILS",
+        "BUCKETHAT"
+      ]
+    },
+    {
+      "name": "Aerobics",
+      "words": [
+        "TOURNAMENT",
+        "CHARDONNAY",
+        "FORM",
+        "FRONTPORCH",
+        "DISNEY",
+        "PYRAMID",
+        "YELLOWSTONE",
+        "CHAPTER",
+        "GESTURE",
+        "SCULPT",
+        "FAIRWAY",
+        "SNOWCAP"
+      ]
+    },
+    {
+      "name": "Arcade Fever",
+      "words": [
+        "TOURISM",
+        "SKILL",
+        "REVOLT",
+        "VIRAL",
+        "BALLOON",
+        "SNAPSHOT",
+        "THEMASK",
+        "SPARROW",
+        "LONDON",
+        "FLOWERPOWER",
+        "ROLES",
+        "FORMAT"
+      ]
+    },
+    {
+      "name": "Slang",
+      "words": [
+        "SCRIPT",
+        "ROUTE",
+        "TRACKMANIA",
+        "CAULDRON",
+        "CONSTRUCT",
+        "FURNITURE",
+        "INBOX",
+        "TARTAR",
+        "PLAZA",
+        "COURSES",
+        "NINTENDOGS",
+        "JUSTICE"
+      ]
+    },
+    {
+      "name": "Mall Life",
+      "words": [
+        "SOFA",
+        "PAPERCRAFT",
+        "FRANCHISE",
+        "DARK",
+        "LEAGUES",
+        "MANGA",
+        "FRIENDLIST",
+        "AVATAR",
+        "SKETCHBOOK",
+        "SITH",
+        "MACHINE",
+        "CEREAL"
+      ]
+    },
+    {
+      "name": "Toys & Fads",
+      "words": [
+        "TRIFORCE",
+        "WESTWORLD",
+        "BTW",
+        "SEWINGMACHINE",
+        "COUNTRYMUSIC",
+        "ARCADEGAME",
+        "ROLLERDISCO",
+        "CONDOR",
+        "COMICCON",
+        "BLOCKING",
+        "CHARM",
+        "SONICMANIA"
+      ]
+    },
+    {
+      "name": "School Days: Essentials",
+      "words": [
+        "HEROINE",
+        "COW",
+        "HAIRSTYLE",
+        "LURE",
+        "AWARDNIGHT",
+        "RADIO",
+        "TEEBOX",
+        "GRUNGE",
+        "ISABELLE",
+        "EXPRESSION",
+        "GAMENIGHT",
+        "FARMSTAND"
+      ]
+    },
+    {
+      "name": "MTV & Music: Essentials",
+      "words": [
+        "JUICEBOX",
+        "GOTHAM",
+        "PHONEBOOTH",
+        "GOLDFINCH",
+        "CLUELESS",
+        "PANEL",
+        "DETROITBECOMEHUMAN",
+        "TROLLS",
+        "MOON",
+        "HOUSEPLANT",
+        "UTICA",
+        "DOOWOP"
+      ]
+    },
+    {
+      "name": "Space & Tech: Essentials",
+      "words": [
+        "MOD",
+        "MUSTACHE",
+        "MANE",
+        "DANCEPARTY",
+        "DUCKHUNT",
+        "LEAVES",
+        "SPELLBOOK",
+        "ROCKMUSIC",
+        "EATERY",
+        "GOUDA",
+        "PARIS",
+        "HOTDOG"
+      ]
+    },
+    {
+      "name": "Phones & Gadgets: Essentials",
+      "words": [
+        "RETAIL",
+        "GAMETIME",
+        "SOCIAL",
+        "TOKYO",
+        "ANIMATE",
+        "GONDOLA",
+        "GLASS",
+        "DARING",
+        "SHOULDERPADS",
+        "PARADISE",
+        "SPORTS",
+        "PHOTOBOOTH"
+      ]
+    },
+    {
+      "name": "VHS Weekend: Essentials",
+      "words": [
+        "FABRIC",
+        "HORSE",
+        "GAMERLIFE",
+        "CLACK",
+        "TURNPIKE",
+        "LIVEMUSIC",
+        "SIDEBURNS",
+        "LIGHTSABER",
+        "WORLDTOUR",
+        "DIGITALSTORE",
+        "HITSHOW",
+        "BASEBALL"
+      ]
+    },
+    {
+      "name": "Fashion: Essentials",
+      "words": [
+        "HANDHELDGAME",
+        "MUSICAWARDSHOW",
+        "BATTING",
+        "CYCLIST",
+        "BALATRO",
+        "EMBROIDERY",
+        "THEBEATLES",
+        "CRITICS",
+        "COOKINGMAMA",
+        "ART",
+        "PATRIARCH",
+        "ESCALATOR"
+      ]
+    },
+    {
+      "name": "Computer Room: Essentials",
+      "words": [
+        "AUTHORS",
+        "SMASHBROS",
+        "BIGSCREEN",
+        "DIGITALWATCH",
+        "EFFECTS",
+        "COBWEB",
+        "TEXTURE",
+        "YOSHI",
+        "FANDOM",
+        "SHEEP",
+        "STEAMER",
+        "CAPITALREGION"
+      ]
+    },
+    {
+      "name": "Aerobics: Essentials",
+      "words": [
+        "MEMORYCARD",
+        "ICECLIMBER",
+        "GAMEMASTER",
+        "MARVEL",
+        "ADVERTISE",
+        "PARAPPA",
+        "GRAVEYARD",
+        "ANGRYBIRDS",
+        "TYPEWRITER",
+        "GRAPHIC",
+        "PORTABLECDPLAYER",
+        "OTTOMAN"
+      ]
+    },
+    {
+      "name": "Arcade Fever: Essentials",
+      "words": [
+        "COLOSSEUM",
+        "VISIT",
+        "MANDARIN",
+        "BEEHIVE",
+        "CONFED",
+        "REBEL",
+        "MARBLE",
+        "JUKEBOX",
+        "PONYCAR",
+        "WOODPANELING",
+        "CREWCUT",
+        "PROPS"
+      ]
+    },
+    {
+      "name": "Slang: Essentials",
+      "words": [
+        "BURRITO",
+        "TACTICAL",
+        "SONGBOOK",
+        "DARTHVADER",
+        "CLOCK",
+        "ZACHBRYAN",
+        "EXOTIC",
+        "JETSETRADIO",
+        "INSTAMATIC",
+        "DVR",
+        "HOCKEY",
+        "WEDNESDAY"
+      ]
+    },
+    {
+      "name": "Mall Life: Essentials",
+      "words": [
+        "SOCIALNETWORK",
+        "CATEYE",
+        "CURTAINS",
+        "PUBLICATION",
+        "GUITAR",
+        "SPIDERMAN",
+        "ATHENS",
+        "TRANSPORT",
+        "CHECKPOINT",
+        "RAPPER",
+        "DIDDYKONG",
+        "NSYNC"
+      ]
+    },
+    {
+      "name": "Toys & Fads: Essentials",
+      "words": [
+        "THEWITCHER",
+        "GRANDIA",
+        "CALLOFDUTY",
+        "COACHES",
+        "ROBLOX",
+        "NAVIGATE",
+        "BUTTONS",
+        "OBSERVATORY",
+        "TOURIST",
+        "SHELL",
+        "MINER",
+        "DRAMA"
+      ]
+    },
+    {
+      "name": "School Days: Memory Lane",
+      "words": [
+        "CYBERPUNK",
+        "HANDBAG",
+        "CRAZYTAXI",
+        "WEALTH",
+        "EXCAVATE",
+        "SUGAR",
+        "LOON",
+        "ALLIGATOR",
+        "JETGRINDRADIO",
+        "SEARCHENGINE",
+        "ROADMAP",
+        "HEIRLOOM"
+      ]
+    },
+    {
+      "name": "MTV & Music: Memory Lane",
+      "words": [
+        "ASSASSINSCREED",
+        "MUSICAL",
+        "PALMTREE",
+        "FANART",
+        "ROOFTOP",
+        "MONK",
+        "CHICKEN",
+        "UNDERTALE",
+        "SADDLESHOES",
+        "GIFTING",
+        "KEY",
+        "HOME"
+      ]
+    },
+    {
+      "name": "Space & Tech: Memory Lane",
+      "words": [
+        "SOCCERBALL",
+        "SNOWSHOE",
+        "KEYS",
+        "MESSAGE",
+        "CULTURECLUB",
+        "SNACKBAR",
+        "CONSERVE",
+        "SHOP",
+        "QUEEN",
+        "FAMILYGAME",
+        "BUOY",
+        "CARPOOL"
+      ]
+    },
+    {
+      "name": "Phones & Gadgets: Memory Lane",
+      "words": [
+        "SKATE",
+        "CAMEL",
+        "GAMER",
+        "SKILLED",
+        "PENCIL",
+        "TECHNO",
+        "PETROCK",
+        "CASSETTE",
+        "OLDIES",
+        "ENJOY",
+        "VERSATILE",
+        "PARTS"
+      ]
+    },
+    {
+      "name": "VHS Weekend: Memory Lane",
+      "words": [
+        "SCREENING",
+        "MEETUPS",
+        "DIESEL",
+        "VEHICLE",
+        "THREAD",
+        "ROCKETLEAGUE",
+        "PASTRAMI",
+        "KATYPERRY",
+        "MARBLES",
+        "MUSICCHART",
+        "HEROSTORM",
+        "LIFEGUARD"
+      ]
+    },
+    {
+      "name": "Fashion: Memory Lane",
+      "words": [
+        "ROMAN",
+        "ROWING",
+        "SOUTHPARK",
+        "DIGITALART",
+        "BLUEY",
+        "BOOM",
+        "CURSE",
+        "BARISTA",
+        "SPICEGIRLS",
+        "LMAO",
+        "TOPOGRAPHY",
+        "TURTLENECK"
+      ]
+    },
+    {
+      "name": "Computer Room: Memory Lane",
+      "words": [
+        "SABRINACARPENTER",
+        "ARIZONA",
+        "TORNADO",
+        "PERFUME",
+        "SEATING",
+        "TRAIN",
+        "SILENTHILL",
+        "QING",
+        "BINGE",
+        "POTLUCK",
+        "KING",
+        "WORKSHOPS"
+      ]
+    },
+    {
+      "name": "Aerobics: Memory Lane",
+      "words": [
+        "THOUSANDISLANDS",
+        "MACHINES",
+        "NUMBERONE",
+        "DESTINYSCHILD",
+        "SEKIRO",
+        "NACHOS",
+        "ELDERSCROLLS",
+        "TOUGH",
+        "VIEWER",
+        "SPEEDRUN",
+        "MARKER",
+        "CORDLESSPHONE"
+      ]
+    },
+    {
+      "name": "Arcade Fever: Memory Lane",
+      "words": [
+        "STONE",
+        "LOOKOUT",
+        "KIDS",
+        "TRIVIA",
+        "MINISKIRT",
+        "CHARMING",
+        "TELEVISION",
+        "SUNDAE",
+        "FEATUREFILM",
+        "HERCULES",
+        "PROJECT",
+        "LOADINGSCREEN"
+      ]
+    },
+    {
+      "name": "Slang: Memory Lane",
+      "words": [
+        "MODELTRAIN",
+        "DENIM",
+        "GAMETOKEN",
+        "GAMEZONE",
+        "FAMILYGUY",
+        "PIKMIN",
+        "CELESTE",
+        "SPROCKET",
+        "MARIOPARTY",
+        "ARRIVAL",
+        "AGARIO",
+        "GENOCIDE"
+      ]
+    },
+    {
+      "name": "Mall Life: Memory Lane",
+      "words": [
+        "LAUNDROMAT",
+        "BIKER",
+        "RIGGER",
+        "DISCOUNT",
+        "PORTABLECASSETTE",
+        "MAGICSPELL",
+        "SKYLANDERS",
+        "PUBLICITY",
+        "SERVICESTATION",
+        "CARDIGAN",
+        "TVGUIDE",
+        "BRAWLHALLA"
+      ]
+    },
+    {
+      "name": "Toys & Fads: Memory Lane",
+      "words": [
+        "GAMEBOARD",
+        "WONDER",
+        "APPLECIDER",
+        "WAITER",
+        "GAMEBOY",
+        "HOMECOMING",
+        "VINYLBOOTS",
+        "PIRATE",
+        "ROOSTER",
+        "CORKSCREW",
+        "VIEWINGPARTY",
+        "DEFEAT"
+      ]
+    },
+    {
+      "name": "School Days: Everyday Memories",
+      "words": [
+        "SEGA",
+        "PIER",
+        "QUIZZES",
+        "COMMANDMODULE",
+        "REEL",
+        "CATTLE",
+        "SHIMMER",
+        "BAGEL",
+        "CRUSADER",
+        "CAPITAL",
+        "ROYALTY",
+        "MUSCLE"
+      ]
+    },
+    {
+      "name": "MTV & Music: Everyday Memories",
+      "words": [
+        "CEREMONY",
+        "SERENE",
+        "SNORLAX",
+        "FAIR",
+        "HIGHWAYMAN",
+        "HUNTING",
+        "WIRELESSCONTROLLER",
+        "FROZEN",
+        "STORIES",
+        "COFFEETABLE",
+        "KPOPSTAR",
+        "BIRDIE"
+      ]
+    },
+    {
+      "name": "Space & Tech: Everyday Memories",
+      "words": [
+        "ARENA",
+        "SPEED",
+        "TURRET",
+        "CAPTAINAMERICA",
+        "SEATS",
+        "PARKINGLOT",
+        "ARMORY",
+        "PAUSE",
+        "WIIU",
+        "FLASH",
+        "PRODUCER",
+        "COWBOY"
+      ]
+    },
+    {
+      "name": "Phones & Gadgets: Everyday Memories",
+      "words": [
+        "ARMYWOMEN",
+        "STRAW",
+        "FREIGHT",
+        "BEACH",
+        "RED",
+        "SPECTATOR",
+        "CORNDOG",
+        "WONDERWOMAN",
+        "WILDLIFE",
+        "AEROBICS",
+        "RUSH",
+        "BACKROAD"
+      ]
+    },
+    {
+      "name": "VHS Weekend: Everyday Memories",
+      "words": [
+        "GAMERZONE",
+        "KEYPAD",
+        "COUNTDOWN",
+        "RELAXED",
+        "CHORUS",
+        "LASERDISC",
+        "MERMAID",
+        "FURY",
+        "EGYPT",
+        "FANEXPO",
+        "OCEANSELEVEN",
+        "CROWN"
+      ]
+    },
+    {
+      "name": "Fashion: Everyday Memories",
+      "words": [
+        "CABIN",
+        "NIER",
+        "RATING",
+        "RIHANNA",
+        "ROADTRIP",
+        "RADIOSTAR",
+        "FLATIRON",
+        "TACO",
+        "FORTNITE",
+        "PATCHNOTES",
+        "TRIP",
+        "HOMESTEAD"
+      ]
+    },
+    {
+      "name": "Computer Room: Everyday Memories",
+      "words": [
+        "MIST",
+        "GAMING",
+        "BUILDING",
+        "FINDINGNEMO",
+        "CRUISE",
+        "MARCH",
+        "CRAFTED",
+        "BOXSET",
+        "RETROGAMING",
+        "WINDBREAKER",
+        "FEATHEREDHAIR",
+        "MOONLIGHT"
+      ]
+    },
+    {
+      "name": "Aerobics: Everyday Memories",
+      "words": [
+        "MOBILE",
+        "MYSTERY",
+        "MOHAWKRIVER",
+        "POSTER",
+        "DIRECTION",
+        "MINIONS",
+        "CHER",
+        "CHILL",
+        "TEMPERATURE",
+        "BREAKER",
+        "PATRIOT",
+        "TREASURE"
+      ]
+    },
+    {
+      "name": "Arcade Fever: Everyday Memories",
+      "words": [
+        "FLATSCREEN",
+        "NEWS",
+        "PARLIAMENT",
+        "COMICBOOK",
+        "DONKEYKONG",
+        "ROCKYBALBOA",
+        "FOODCOURT",
+        "MUSICFEST",
+        "BINDER",
+        "SETTLER",
+        "RANCHHOUSE",
+        "TRANSFORMERS"
+      ]
+    },
+    {
+      "name": "Slang: Everyday Memories",
+      "words": [
+        "EMOJI",
+        "CULTURE",
+        "SPRITE",
+        "PLUSHIE",
+        "GATHER",
+        "NODUH",
+        "COMPOSER",
+        "MUSICAWARD",
+        "TYPE",
+        "FASHION",
+        "PINE",
+        "TRUCKER"
+      ]
+    },
+    {
+      "name": "Mall Life: Everyday Memories",
+      "words": [
+        "ANALYSIS",
+        "ERECTORSET",
+        "VIBRATE",
+        "TAILS",
+        "FORZA",
+        "CREW",
+        "BARBIECORE",
+        "STADIUMS",
+        "BAT",
+        "SKILLTREE",
+        "CASTINGCALL",
+        "SHAKE"
+      ]
+    },
+    {
+      "name": "Toys & Fads: Everyday Memories",
+      "words": [
+        "PYTHON",
+        "CLAN",
+        "TOTALLY",
+        "GAMEPARTY",
+        "CAMPING",
+        "OMG",
+        "MILK",
+        "APEXLEGENDS",
+        "ADVERTS",
+        "AMONGUS",
+        "MASON",
+        "MILKSHAKE"
+      ]
+    },
+    {
+      "name": "School Days: Weekend Flashback",
+      "words": [
+        "STREAM",
+        "PLAYER",
+        "EXPERIENCE",
+        "DIABLO",
+        "MOVIEHOUSE",
+        "CHARIZARD",
+        "SCENICROUTE",
+        "LEISURESUIT",
+        "SNOWBOARD",
+        "AVIATORS",
+        "YOUTUBE",
+        "KITE"
+      ]
+    },
+    {
+      "name": "MTV & Music: Weekend Flashback",
+      "words": [
+        "BREAKINGBAD",
+        "NEWKIDS",
+        "FIZZY",
+        "HISTORY",
+        "REMOTECAR",
+        "BIRTHDAYPARTY",
+        "UPMOVIE",
+        "STUDIO",
+        "WHEEL",
+        "JUMP",
+        "COLORFUL",
+        "DISCORD"
+      ]
+    },
+    {
+      "name": "Space & Tech: Weekend Flashback",
+      "words": [
+        "RAIDER",
+        "LAKEPLACID",
+        "CRUISING",
+        "TUBETOP",
+        "CAMERABAG",
+        "BRAVE",
+        "POLYESTER",
+        "YOSHISISLAND",
+        "GORGES",
+        "ARCHIVE",
+        "SOFTWARE",
+        "SKATESHOP"
+      ]
+    },
+    {
+      "name": "Phones & Gadgets: Weekend Flashback",
+      "words": [
+        "SLOWDANCE",
+        "SPIKEDHAIR",
+        "CALENDAR",
+        "SQUIRTLE",
+        "CHARLIESANGELS",
+        "WANDAVISION",
+        "STATUES",
+        "LEGENDS",
+        "CANISTER",
+        "RACE",
+        "MECHANISM",
+        "SCREENPLAY"
+      ]
+    },
+    {
+      "name": "VHS Weekend: Weekend Flashback",
+      "words": [
+        "SCENE",
+        "GAMETESTER",
+        "VLOGGER",
+        "OLD",
+        "SANDALS",
+        "SIA",
+        "SURFING",
+        "POODLESKIRT",
+        "VENICE",
+        "LABEL",
+        "PROFIT",
+        "DRIVER"
+      ]
+    },
+    {
+      "name": "Fashion: Weekend Flashback",
+      "words": [
+        "ARABIAN",
+        "BLOCKBUSTER",
+        "PAYDAY",
+        "TWENTYONEPILOTS",
+        "BAGGYJEANS",
+        "EARTHTONES",
+        "PARMESAN",
+        "ONLINEGAMING",
+        "QUARTERHORSE",
+        "EMAIL",
+        "LATTE",
+        "ASSEMBLY"
+      ]
+    },
+    {
+      "name": "Computer Room: Weekend Flashback",
+      "words": [
+        "DEITY",
+        "LEGION",
+        "SOCKHOP",
+        "PROSPECT",
+        "BAD",
+        "TRADINGCARD",
+        "BLUES",
+        "ATARI",
+        "VIRTUALWORLD",
+        "LEARN",
+        "RAINBOWSIX",
+        "ALBUMS"
+      ]
+    },
+    {
+      "name": "Aerobics: Weekend Flashback",
+      "words": [
+        "SKINNYJEANS",
+        "CASTING",
+        "CATALOG",
+        "STAR",
+        "GAMERTAG",
+        "REMOTE",
+        "SCREENSHOT",
+        "INTERNETSTAR",
+        "TROPICO",
+        "WANDER",
+        "FOUNTAINPEN",
+        "GRAPHICS"
+      ]
+    },
+    {
+      "name": "Arcade Fever: Weekend Flashback",
+      "words": [
+        "ITALY",
+        "ACTIVIST",
+        "PAPER",
+        "YARN",
+        "HOTLINEMIAMI",
+        "PUBLICMARCH",
+        "FINALFANTASY",
+        "NATIONAL",
+        "SAIL",
+        "RIBBON",
+        "HARMON",
+        "SCREENSAVER"
+      ]
+    },
+    {
+      "name": "Slang: Weekend Flashback",
+      "words": [
+        "CONTRA",
+        "EIGHTBIT",
+        "SOLVE",
+        "BRUNOMARS",
+        "CANAL",
+        "COMMENTARY",
+        "HORIZON",
+        "GAMEOFTHRONES",
+        "GUILTYGEAR",
+        "INSTANTCAMERA",
+        "AMUSEMENTPARK",
+        "DANCECRAZE"
+      ]
+    },
+    {
+      "name": "Mall Life: Weekend Flashback",
+      "words": [
+        "NARRATE",
+        "METROID",
+        "WHEELS",
+        "LOL",
+        "PALM",
+        "CAR",
+        "LONGSHIP",
+        "VISUALS",
+        "LOCKER",
+        "COUPLESSKATE",
+        "CLAIM",
+        "CABOOSE"
+      ]
+    },
+    {
+      "name": "Toys & Fads: Weekend Flashback",
+      "words": [
+        "CATFISH",
+        "PITCHPERFECT",
+        "TRADINGPOST",
+        "ANIMALCROSSING",
+        "FAX",
+        "ZOMBIEGAMES",
+        "SCOREBOARD",
+        "CAMERAPHONE",
+        "CHIC",
+        "LITTLEBIGPLANET",
+        "ACTRESS",
+        "GAMECREDITS"
+      ]
+    },
+    {
+      "name": "School Days: Classic Moments",
+      "words": [
+        "FLOAT",
+        "DRINKS",
+        "NINTENDOSWITCH",
+        "PAPYRI",
+        "MISSEDCALL",
+        "ENGAGING",
+        "CARDINAL",
+        "IMMIGRATION",
+        "AUSTRALIA",
+        "BUFFALOWINGS",
+        "HOMEALONE",
+        "VACUUMTUBE"
+      ]
+    },
+    {
+      "name": "MTV & Music: Classic Moments",
+      "words": [
+        "EVALUATE",
+        "FARCRY",
+        "GROUNDED",
+        "DIRECTOR",
+        "AFTERBURNER",
+        "KNEEPADS",
+        "AWARDWINNER",
+        "RECORDPLAYER",
+        "CASABLANCA",
+        "RUNESCAPE",
+        "GRAPHICTEE",
+        "HERO"
+      ]
+    },
+    {
+      "name": "Space & Tech: Classic Moments",
+      "words": [
+        "APERTURE",
+        "CHALKBOARD",
+        "LEADER",
+        "EVENT",
+        "SCARF",
+        "GAMEGIFT",
+        "DANCEHALL",
+        "DRUGSTORE",
+        "NEWWAVE",
+        "REMOTECONTROL",
+        "ELTONJOHN",
+        "TIMEKEEP"
+      ]
+    },
+    {
+      "name": "Phones & Gadgets: Classic Moments",
+      "words": [
+        "STARDEWVALLEY",
+        "PILOT",
+        "BEACON",
+        "SANDWICH",
+        "COMPETITION",
+        "TOPSCORE",
+        "MORTALKOMBAT",
+        "ANIMALWELL",
+        "QUIZSHOW",
+        "PHONEBOOK",
+        "MOVIETHEATER",
+        "ISLAM"
+      ]
+    },
+    {
+      "name": "VHS Weekend: Classic Moments",
+      "words": [
+        "SUBNAUTICA",
+        "SUBJECT",
+        "CLICK",
+        "GARAGEBAND",
+        "NAZI",
+        "QUILTER",
+        "TALKSHOW",
+        "CLUBHOUSE",
+        "MAGIC",
+        "TUDOR",
+        "NAILPOLISH",
+        "BARBECUE"
+      ]
+    },
+    {
+      "name": "Fashion: Classic Moments",
+      "words": [
+        "COMPUTERLAB",
+        "LAPTOP",
+        "SHANIATWAIN",
+        "MEDALS",
+        "BATTLEPASS",
+        "DATE",
+        "SUPERHERO",
+        "RECORD",
+        "VIDEOSTORE",
+        "PROGRESS",
+        "SITE",
+        "AERIAL"
+      ]
+    },
+    {
+      "name": "Computer Room: Classic Moments",
+      "words": [
+        "CRACKERS",
+        "BEETLEJUICE",
+        "CAPPUCCINO",
+        "SPYRO",
+        "SEOUL",
+        "STAMP",
+        "BORDERLANDS",
+        "ROCKY",
+        "TINATURNER",
+        "AWARDSHOW",
+        "CHATROOM",
+        "ARTIFACT"
+      ]
+    },
+    {
+      "name": "Aerobics: Classic Moments",
+      "words": [
+        "NIGHT",
+        "TVSERIES",
+        "OPENWORLD",
+        "CUSTOMIZATION",
+        "PARODY",
+        "SEAOFTHIEVES",
+        "CARHOP",
+        "CANTER",
+        "QUAKEARENA",
+        "CAMOUFLAGE",
+        "SHUFFLE",
+        "SYSTEMSHOCK"
+      ]
+    },
+    {
+      "name": "Arcade Fever: Classic Moments",
+      "words": [
+        "TITANFALL",
+        "SOUNDTRACK",
+        "RERUN",
+        "CROCHET",
+        "ANIMAL",
+        "ENTERTAIN",
+        "VIEW",
+        "URBAN",
+        "MULAN",
+        "AMERICA",
+        "CHEDDAR",
+        "HALO"
+      ]
+    },
+    {
+      "name": "Slang: Classic Moments",
+      "words": [
+        "ACROPOLIS",
+        "GUNSTARHEROES",
+        "GRYFFINDOR",
+        "COAT",
+        "AUTOS",
+        "PHOTOS",
+        "RENTAL",
+        "CAPSULE",
+        "PEACH",
+        "HERITAGE",
+        "VINYLRECORD",
+        "BRB"
+      ]
+    },
+    {
+      "name": "Mall Life: Classic Moments",
+      "words": [
+        "EMPIRE",
+        "SPEAKERS",
+        "DEPARTMENTSTORE",
+        "HUFFLEPUFF",
+        "GRAVE",
+        "SCARECROW",
+        "EXPLOSION",
+        "NONFICTION",
+        "STAGEPLAY",
+        "ANSWERINGMACHINE",
+        "LOAFERS",
+        "FIFA"
+      ]
+    },
+    {
+      "name": "Toys & Fads: Classic Moments",
+      "words": [
+        "CALCULATOR",
+        "UNIVERSE",
+        "CHARISMA",
+        "TOMB",
+        "RUNWAY",
+        "SPACEINVADERS",
+        "ORNATE",
+        "MINIGAME",
+        "HAYRIDE",
+        "RAYMANLEGENDS",
+        "JANETJACKSON",
+        "VACATION"
+      ]
+    },
+    {
+      "name": "School Days: Retro Recall",
+      "words": [
+        "ACORN",
+        "TOMBRAIDER",
+        "FANWEEKEND",
+        "MEDAL",
+        "MARIORPG",
+        "LISTEN",
+        "STARWARS",
+        "HENRY",
+        "GUNFIGHT",
+        "CLANK",
+        "PROGRAMS",
+        "WIISPORTS"
+      ]
+    },
+    {
+      "name": "MTV & Music: Retro Recall",
+      "words": [
+        "PHONECORD",
+        "ZELDA",
+        "POSTERS",
+        "SPONGEBOB",
+        "SOULCALIBUR",
+        "PHOTOKIOSK",
+        "WINTER",
+        "NILE",
+        "CREAT",
+        "ACTIONFIGURE",
+        "BUTTERFLY",
+        "REPAIRS"
+      ]
+    },
+    {
+      "name": "Space & Tech: Retro Recall",
+      "words": [
+        "LIBRETTO",
+        "MUMMY",
+        "FRIES",
+        "BOARD",
+        "LETTER",
+        "IMAGINE",
+        "AVIATOR",
+        "GILMOREGIRLS",
+        "EGG",
+        "GAMEOVER",
+        "TROPHY",
+        "FRUITSNACKS"
+      ]
+    },
+    {
+      "name": "Phones & Gadgets: Retro Recall",
+      "words": [
+        "SWITCH",
+        "PARAPPATHERAPPER",
+        "TOKEN",
+        "LORDOFTHERINGS",
+        "EDITING",
+        "ANTIQUE",
+        "PLOT",
+        "WHISTLE",
+        "SIMULATION",
+        "SEPPUKU",
+        "VIRTUALREALITY",
+        "COFFIN"
+      ]
+    },
+    {
+      "name": "VHS Weekend: Retro Recall",
+      "words": [
+        "MAT",
+        "CREEPER",
+        "AWESOME",
+        "SCREENS",
+        "STRETCH",
+        "TIEDYE",
+        "VAMPIRESURVIVORS",
+        "COFFEEHOUSE",
+        "SOUTHPARKGAME",
+        "SEQUENCE",
+        "DEDEDE",
+        "TAPE"
+      ]
+    },
+    {
+      "name": "Fashion: Retro Recall",
+      "words": [
+        "FORUM",
+        "CHARTS",
+        "BANANASPLIT",
+        "HARVESTGOLD",
+        "DEMOCRACY",
+        "JUSTCAUSE",
+        "KLONOA",
+        "BAIT",
+        "SCISSORS",
+        "SCREEN",
+        "NEWSPAPER",
+        "SITCOM"
+      ]
+    },
+    {
+      "name": "Computer Room: Retro Recall",
+      "words": [
+        "GAMECRAFT",
+        "SPACERACE",
+        "DELTARUNE",
+        "HOMEROOM",
+        "VENDINGMACHINE",
+        "TVSHOW",
+        "ALADDIN",
+        "ORANGE",
+        "ENDGAME",
+        "FAIRS",
+        "KNITTING",
+        "CHEATCODE"
+      ]
+    },
+    {
+      "name": "Aerobics: Retro Recall",
+      "words": [
+        "DISNEYLAND",
+        "KENDRICKLAMAR",
+        "PASSWORD",
+        "EMOTE",
+        "PEARLS",
+        "DIGGING",
+        "FUN",
+        "SOULMUSIC",
+        "WRESTLEMANIA",
+        "GOLF",
+        "LARACROFT",
+        "NIGHTLIFE"
+      ]
+    },
+    {
+      "name": "Arcade Fever: Retro Recall",
+      "words": [
+        "POWERPOINT",
+        "BUFFALO",
+        "DECORATE",
+        "DESIGNER",
+        "FLEET",
+        "WORKOUT",
+        "WASHINGTON",
+        "SWIMMING",
+        "EMINEM",
+        "LIVESTREAM",
+        "PUNKROCK",
+        "DINER"
+      ]
+    },
+    {
+      "name": "Slang: Retro Recall",
+      "words": [
+        "BEAT",
+        "BACKWARDCOMPATIBLE",
+        "WIDESCREEN",
+        "DRAGONFLY",
+        "PROGRAM",
+        "PUNCHOUT",
+        "BFF",
+        "USBDRIVE",
+        "DOCUMENT",
+        "BROOKLYNNINENINE",
+        "WATERFALL",
+        "CARBURETOR"
+      ]
+    },
+    {
+      "name": "Mall Life: Retro Recall",
+      "words": [
+        "LITTLEMIX",
+        "CART",
+        "OCEAN",
+        "ENDERMAN",
+        "HEADPHONES",
+        "MASTERCHIEF",
+        "GUM",
+        "GRAPHICNOVEL",
+        "PAPARAZZI",
+        "MUSICVENUE",
+        "GRAY",
+        "COFFEESHOP"
+      ]
+    },
+    {
+      "name": "Toys & Fads: Retro Recall",
+      "words": [
+        "CONVENT",
+        "COACH",
+        "MOSAIC",
+        "SEASHELL",
+        "ROCKLEGEND",
+        "BRONZER",
+        "POPMUSIC",
+        "CRASHBANDICOOT",
+        "LIZARD",
+        "ASTRONAUT",
+        "DIALOGUE",
+        "FREEWHEEL"
+      ]
+    },
+    {
+      "name": "School Days: Back in the Day",
+      "words": [
+        "BURNEDCD",
+        "FORDS",
+        "CHALLENGE",
+        "CHIP",
+        "KIRBYSADVENTURE",
+        "VINTAGE",
+        "STATIONS",
+        "LONGBOAT",
+        "GRADATION",
+        "OPINION",
+        "PROJECTOR",
+        "GLUEGUN"
+      ]
+    },
+    {
+      "name": "MTV & Music: Back in the Day",
+      "words": [
+        "RENDER",
+        "STATUS",
+        "MUSICIAN",
+        "COMEDIAN",
+        "WONKA",
+        "FASTANDFURIOUS",
+        "FREESTYLE",
+        "POTION",
+        "PUZZLE",
+        "TRAVEL",
+        "CLOUDGAMING",
+        "GAMECASE"
+      ]
+    },
+    {
+      "name": "Space & Tech: Back in the Day",
+      "words": [
+        "MARQUEE",
+        "TUTORIAL",
+        "AUDITORIUM",
+        "GRIMDAWN",
+        "SOUVENIR",
+        "GAMERSCORE",
+        "CHARACTER",
+        "PINECONE",
+        "CARTOON",
+        "MUGGLE",
+        "NBAJAM",
+        "RIMWORLD"
+      ]
+    },
+    {
+      "name": "Phones & Gadgets: Back in the Day",
+      "words": [
+        "JOKE",
+        "BLIZZARD",
+        "GASSHORTAGE",
+        "MIGRATION",
+        "GAMEROOM",
+        "SATIRE",
+        "STROBELIGHT",
+        "TREATS",
+        "CALLERID",
+        "HAIRMETAL",
+        "NOOB",
+        "PHILOSOPHY"
+      ]
+    },
+    {
+      "name": "VHS Weekend: Back in the Day",
+      "words": [
+        "ANTENNA",
+        "GAMEQUEST",
+        "SYNTHESIZER",
+        "REPLAY",
+        "PADDINGTON",
+        "FLASHDRIVE",
+        "WARIOWARE",
+        "INDIANAJONES",
+        "LONGISLAND",
+        "SERIAL",
+        "GROWTH",
+        "POOL"
+      ]
+    },
+    {
+      "name": "Fashion: Back in the Day",
+      "words": [
+        "DRAGON",
+        "SIPHON",
+        "COLONY",
+        "ARTWORK",
+        "FIGURINE",
+        "DRESS",
+        "APPLE",
+        "PHOTOGRAPH",
+        "WITCH",
+        "CROPTOP",
+        "SEINFELD",
+        "SPORTCOAT"
+      ]
+    },
+    {
+      "name": "Computer Room: Back in the Day",
+      "words": [
+        "JUNGLE",
+        "LENS",
+        "ORBIT",
+        "LIGHTS",
+        "KUNGFUPANDA",
+        "STAGE",
+        "ANIMATION",
+        "JURASSICPARK",
+        "COOKBOOK",
+        "CHAIRMAN",
+        "JOYSTICK",
+        "ANIME"
+      ]
+    },
+    {
+      "name": "Aerobics: Back in the Day",
+      "words": [
+        "SNOWWHITE",
+        "FOXMCCLOUD",
+        "FRIENDREQUEST",
+        "TORCH",
+        "DEVELOP",
+        "SAILBOAT",
+        "REACTION",
+        "ROLL",
+        "GAMELOBBY",
+        "DEADPOOL",
+        "LAUGH",
+        "CHERRYCOLA"
+      ]
+    },
+    {
+      "name": "Arcade Fever: Back in the Day",
+      "words": [
+        "CAPS",
+        "MUSCLECAR",
+        "LUIGISMANSION",
+        "HARDWARESTORE",
+        "GEM",
+        "TOPFORTY",
+        "CHARGER",
+        "TOURING",
+        "SINGERSONGWRITER",
+        "TAKEACHILLPILL",
+        "WALLPAPER",
+        "CAESAR"
+      ]
+    },
+    {
+      "name": "Slang: Back in the Day",
+      "words": [
+        "SUPERBAD",
+        "XENOBLADE",
+        "FRAMING",
+        "BONUS",
+        "PRINCE",
+        "COBRA",
+        "SETTLE",
+        "FROST",
+        "NIGHTCLUB",
+        "SUFFRAGE",
+        "APRON",
+        "VENUE"
+      ]
+    },
+    {
+      "name": "Mall Life: Back in the Day",
+      "words": [
+        "KEEL",
+        "TRACKS",
+        "THRILL",
+        "WIZARDS",
+        "CRAFTTABLE",
+        "CARDIO",
+        "BONJOVI",
+        "CLUE",
+        "BONUSFEATURES",
+        "GELATIN",
+        "GAMEDISC",
+        "SERVICEBAY"
+      ]
+    },
+    {
+      "name": "Toys & Fads: Back in the Day",
+      "words": [
+        "LEGO",
+        "MUFFIN",
+        "NOVELIST",
+        "RESPAWN",
+        "QUARTERS",
+        "TAXI",
+        "CRUSADE",
+        "TINYTINA",
+        "CUTSCENE",
+        "BOMBERMAN",
+        "MAXIDRESS",
+        "GEARSOFWAR"
+      ]
+    },
+    {
+      "name": "School Days: Time Capsule",
+      "words": [
+        "PALACE",
+        "RANKED",
+        "BEATMANIA",
+        "FOLKSONG",
+        "SELFIESTICK",
+        "ANOLIS",
+        "ODIN",
+        "FOODS",
+        "GAME",
+        "MANOR",
+        "CLASSICROCK",
+        "ROLLERRINK"
+      ]
+    },
+    {
+      "name": "MTV & Music: Time Capsule",
+      "words": [
+        "COCKPIT",
+        "STATEHOOD",
+        "FIREWATCH",
+        "ACTORS",
+        "SUPERVILLAIN",
+        "FAXMACHINE",
+        "DANCE",
+        "SONICMOVIE",
+        "DROPS",
+        "COCONUT",
+        "KIRBY",
+        "GOODIES"
+      ]
+    },
+    {
+      "name": "Space & Tech: Time Capsule",
+      "words": [
+        "MENU",
+        "GEORGE",
+        "SYRACUSE",
+        "DAREDEVIL",
+        "HUMIDITY",
+        "BARBERSHOP",
+        "GEOLOGY",
+        "TIMESPLITTERS",
+        "HITS",
+        "HALLPASS",
+        "THEBEAR",
+        "DELI"
+      ]
+    },
+    {
+      "name": "Phones & Gadgets: Time Capsule",
+      "words": [
+        "BRIDLE",
+        "GUITARSOLO",
+        "JONASBROTHERS",
+        "ROME",
+        "HONEY",
+        "POUGHKEEPSIE",
+        "TEALEAF",
+        "OTTAWA",
+        "VICTORIA",
+        "LAB",
+        "TREND",
+        "PAST"
+      ]
+    }
+  ],
+  "series": "Through the Decades",
+  "detected_topic": "Nostalgia Through the Decades",
+  "recommended_palette": "nature",
+  "recommended_cover_style": "classic",
+  "cover_style": "classic",
+  "clipart_search_terms": "General Interest Church Carriage Grand illustration clipart transparent background",
+  "signature_edition": {
+    "enabled": true,
+    "passport_title": "Puzzle Passport",
+    "achievement_title": "Signature Edition",
+    "achievement_message": "A calm challenge, one puzzle at a time.",
+    "facts_title": "DID YOU KNOW?",
+    "fact_cards": []
+  },
+  "difficulty_label": "Challenging",
+  "no_repeat_words": true,
+  "cover_badge": "NO REPEATED WORDS",
+  "no_repeat_refresh": {
+    "refreshed": "2026-08-21T23:30:07",
+    "sources": [
+      "General Interest",
+      "Pop Culture & Entertainment",
+      "Video Games & Gaming",
+      "Sports and Hobbies",
+      "Travel and Geography",
+      "Nature"
+    ]
+  },
+  "production_readiness": {
+    "minimum_puzzles": 48,
+    "target_words_per_puzzle": 12,
+    "puzzle_count": 100,
+    "unique_words_in_book": 1200,
+    "production_ready": true,
+    "completion_sources": [
+      "Ocean Life",
+      "General Interest"
+    ],
+    "checked_at": "2026-08-22T10:08:37"
+  }
+}
