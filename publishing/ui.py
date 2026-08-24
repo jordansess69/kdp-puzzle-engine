@@ -9,9 +9,69 @@ from tkinter import messagebox, ttk
 from .database import MARKETPLACES
 from .marketplaces import PUBLISHERS
 from .etsy_bundles import ETSY_STORE_NAME
+from .readiness import PREPARED_FOLDER_NAMES, format_history, marketplace_rows, next_actions, whats_left
 
 DISPLAY = {"amazon": "Amazon", "etsy": "Etsy", "ingram": "Ingram", "website": "Website", "lulu": "Lulu", "bookvault": "BookVault", "barnes_noble": "B&N"}
 STATUS_VALUES = ("Not Prepared", "Ready", "Uploaded", "Published", "Error", "Needs Review")
+# Buyer-facing platform names for the Hub readiness grid; keys follow the
+# canonical database.MARKETPLACES order so all seven rows always render.
+DISPLAY_GRID = {
+    "amazon": "Amazon KDP",
+    "etsy": "Etsy",
+    "ingram": "IngramSpark",
+    "website": "Website / Direct",
+    "lulu": "Lulu",
+    "bookvault": "BookVault",
+    "barnes_noble": "Barnes & Noble Press",
+}
+# Validator phrases that are advice about other printers' cover templates,
+# never blockers; keeping them separate stops advisories masquerading as failures.
+ADVISORY_ISSUE_HINTS = ("reference-only", "template")
+
+
+def split_issues(issues: list[str]) -> tuple[list[str], list[str]]:
+    """Split validator output into hard blockers and advisory template notes."""
+    blockers: list[str] = []
+    advisories: list[str] = []
+    for issue in issues:
+        low = issue.casefold()
+        (advisories if any(hint in low for hint in ADVISORY_ISSUE_HINTS) else blockers).append(issue)
+    return blockers, advisories
+
+
+def publishing_counts_line(rows: list[dict]) -> str:
+    """One truthful status line, e.g. '2 of 7 published · 1 uploaded'."""
+    counts = whats_left(rows)
+    parts = [f"{counts['published']} of {counts['total']} published"]
+    if counts["uploaded"]:
+        parts.append(f"{counts['uploaded']} uploaded")
+    if counts["ready_to_upload"]:
+        parts.append(f"{counts['ready_to_upload']} ready to upload")
+    if counts["needs_items"]:
+        parts.append(f"{counts['needs_items']} need items")
+    if counts["needs_attention"]:
+        parts.append(f"{counts['needs_attention']} need attention")
+    return " · ".join(parts)
+
+
+def whats_left_text(rows: list[dict]) -> str:
+    """Headline counts plus capped plain-English next steps for one book."""
+    counts = whats_left(rows)
+    lines = [f"{counts['published']} of {counts['total']} marketplaces published."]
+    if counts["uploaded"]:
+        lines.append(f"{counts['uploaded']} uploaded — confirm each live listing, then mark it Published.")
+    if counts["ready_to_upload"]:
+        lines.append(f"{counts['ready_to_upload']} prepared package(s) waiting to be uploaded.")
+    if counts["needs_items"]:
+        lines.append(f"{counts['needs_items']} marketplace(s) still need required items.")
+    if counts["needs_attention"]:
+        lines.append(f"{counts['needs_attention']} marketplace(s) recorded an error.")
+    actions = next_actions(rows)
+    if actions:
+        lines.append("")
+        lines.append("Next steps:")
+        lines.extend(f"• {action}" for action in actions)
+    return "\n".join(lines)
 
 
 class PublishingManagerDialog(tk.Toplevel):
@@ -37,6 +97,7 @@ class PublishingManagerDialog(tk.Toplevel):
         style.configure("Publish.TLabel", background=bg, foreground=text, font=("Segoe UI", 9))
         style.configure("Publish.Title.TLabel", background=bg, foreground=text, font=("Segoe UI", 20, "bold"))
         style.configure("Publish.Subtitle.TLabel", background=bg, foreground=muted, font=("Segoe UI", 10))
+        style.configure("Publish.BookTitle.TLabel", background=bg, foreground=text, font=("Segoe UI", 14, "bold"))
         style.configure("Publish.Status.TLabel", background=raised, foreground="#d9f5ee", padding=(12, 9), font=("Segoe UI", 9))
         style.configure("Publish.Card.TLabelframe", background=panel, borderwidth=1, relief="solid", bordercolor=border)
         style.configure("Publish.Card.TLabelframe.Label", background=panel, foreground=text, font=("Segoe UI", 10, "bold"))
@@ -88,7 +149,11 @@ class PublishingManagerDialog(tk.Toplevel):
         self.notebook.add(selected_tab, text="Selected Book")
         catalog_tab.columnconfigure(0, weight=1); catalog_tab.rowconfigure(1, weight=1)
         selected_tab.columnconfigure(0, weight=1); selected_tab.rowconfigure(0, weight=1)
-        ttk.Label(selected_tab, text="Select a book from the Catalog tab to view publishing readiness and marketplace actions.", style="Publish.Subtitle.TLabel", wraplength=760, justify="center", anchor="center").grid(row=0, column=0, sticky="nsew")
+        self.selected_empty_text = tk.StringVar(value="Select a book from the Catalog tab to view publishing readiness and marketplace actions.")
+        self.selected_empty = ttk.Label(selected_tab, textvariable=self.selected_empty_text, style="Publish.Subtitle.TLabel", wraplength=760, justify="center", anchor="center")
+        self.selected_empty.grid(row=0, column=0, sticky="nsew")
+        self.selected_content = ttk.Frame(selected_tab, style="Publish.TFrame")
+        self._build_selected_content()
         filters = ttk.Frame(catalog_tab, style="Publish.TFrame"); filters.grid(row=0, column=0, sticky="ew", pady=(0, 10))
         ttk.Label(filters, text="Find a book", style="Publish.TLabel").pack(side="left"); search = ttk.Entry(filters, textvariable=self.filter_text, width=34, style="Publish.TEntry"); search.pack(side="left", padx=(7, 16)); search.bind("<KeyRelease>", lambda _event: self.refresh())
         ttk.Label(filters, text="Marketplace", style="Publish.TLabel").pack(side="left"); combo = ttk.Combobox(filters, textvariable=self.market_filter, values=("All marketplaces", *[DISPLAY[key] for key in MARKETPLACES]), state="readonly", width=16, style="Publish.TCombobox"); combo.pack(side="left", padx=7); combo.bind("<<ComboboxSelected>>", lambda _event: self.refresh())
@@ -101,6 +166,7 @@ class PublishingManagerDialog(tk.Toplevel):
         for key in columns: self.tree.heading(key, text=labels[key]); self.tree.column(key, width=widths[key], anchor="w" if key in ("book", "series", "theme") else "center")
         self.tree.grid(row=1, column=0, sticky="nsew"); scroll = ttk.Scrollbar(catalog_tab, orient="vertical", command=self.tree.yview); scroll.grid(row=1, column=1, sticky="ns"); self.tree.configure(yscrollcommand=scroll.set)
         self.tree.bind("<Double-1>", lambda _event: self.open_book())
+        self.tree.bind("<<TreeviewSelect>>", lambda _event: self.refresh_selected_view())
         actions = ttk.Frame(catalog_tab, style="Publish.TFrame"); actions.grid(row=2, column=0, sticky="ew", pady=(12, 0))
         ttk.Button(actions, text="Book details", command=self.open_book, style="Publish.Action.TButton").pack(side="left")
         ttk.Button(actions, text="Open Master Release Folder", command=self.open_selected_master, style="Publish.Action.TButton").pack(side="left", padx=6)
@@ -113,6 +179,206 @@ class PublishingManagerDialog(tk.Toplevel):
         ttk.Button(actions, text="Prepare all", command=lambda: self.prepare(list(MARKETPLACES)), style="Publish.Action.TButton").pack(side="left")
         ttk.Button(actions, text="ISBN manager", command=lambda: ISBNManagerDialog(self, self.service), style="Publish.Action.TButton").pack(side="right")
         ttk.Label(root, textvariable=self.status, wraplength=1150, style="Publish.Status.TLabel").grid(row=4, column=0, sticky="ew", pady=(10, 0))
+
+    def _build_selected_content(self) -> None:
+        """Real Selected Book pane: overview, What's left, readiness grid, actions."""
+        self.selected_book = None; self.selected_market_key = ""; self.marketplace_row_map: dict[str, dict] = {}
+        # Set while the readiness grid rebuilds: ttk delivers <<TreeviewSelect>>
+        # asynchronously for programmatic delete/clear, and those echoes must
+        # not be mistaken for the user clicking an empty area.
+        self._market_rebuilding = False
+        root = self.selected_content
+        root.columnconfigure(0, weight=1); root.rowconfigure(2, weight=1)
+        overview = ttk.Labelframe(root, text="Book overview", padding=12, style="Publish.Card.TLabelframe"); overview.grid(row=0, column=0, sticky="ew"); overview.columnconfigure(0, weight=1)
+        self.sel_title = tk.StringVar(value=""); self.sel_detail = tk.StringVar(value=""); self.sel_path = tk.StringVar(value=""); self.sel_counts = tk.StringVar(value="")
+        ttk.Label(overview, textvariable=self.sel_title, style="Publish.BookTitle.TLabel").grid(row=0, column=0, sticky="w")
+        ttk.Label(overview, textvariable=self.sel_detail, style="Publish.TLabel", wraplength=1080).grid(row=1, column=0, sticky="w", pady=(3, 0))
+        ttk.Label(overview, textvariable=self.sel_path, style="Publish.Subtitle.TLabel", wraplength=1080, justify="left").grid(row=2, column=0, sticky="w", pady=(3, 0))
+        ttk.Label(overview, textvariable=self.sel_counts, style="Publish.Status.TLabel", wraplength=1080).grid(row=3, column=0, sticky="ew", pady=(8, 0))
+        left = ttk.Labelframe(root, text="What's left?", padding=12, style="Publish.Card.TLabelframe"); left.grid(row=1, column=0, sticky="ew", pady=(10, 0)); left.columnconfigure(0, weight=1)
+        self.whats_left_box = tk.Text(left, height=8, wrap="word", state="disabled", background="#292929", foreground="#d9f5ee", relief="flat", padx=10, pady=8)
+        self.whats_left_box.grid(row=0, column=0, sticky="ew")
+        grid_frame = ttk.Labelframe(root, text="Marketplace readiness (select a row for actions)", padding=12, style="Publish.Card.TLabelframe"); grid_frame.grid(row=2, column=0, sticky="nsew", pady=(10, 0))
+        grid_frame.columnconfigure(0, weight=1); grid_frame.rowconfigure(0, weight=1)
+        columns = ("platform", "status", "readiness", "listing", "link", "updated")
+        self.market_tree = ttk.Treeview(grid_frame, columns=columns, show="headings", height=7, selectmode="browse", style="Publish.Treeview")
+        heads = {"platform": "Platform", "status": "Status", "readiness": "Readiness", "listing": "Listing ID", "link": "Live link", "updated": "Updated"}
+        widths = {"platform": 190, "status": 110, "readiness": 300, "listing": 130, "link": 100, "updated": 140}
+        for key in columns:
+            anchor = "w" if key in ("platform", "readiness") else "center"
+            self.market_tree.heading(key, text=heads[key]); self.market_tree.column(key, width=widths[key], anchor=anchor)
+        self.market_tree.tag_configure("attention", foreground="#ffb46b")
+        self.market_tree.tag_configure("ok", foreground="#9fe8c6")
+        self.market_tree.grid(row=0, column=0, sticky="nsew")
+        scroll = ttk.Scrollbar(grid_frame, orient="vertical", command=self.market_tree.yview); scroll.grid(row=0, column=1, sticky="ns"); self.market_tree.configure(yscrollcommand=scroll.set)
+        self.market_tree.bind("<<TreeviewSelect>>", lambda _event: self._on_marketplace_row_selected())
+        self.sel_error_detail = tk.StringVar(value="")
+        ttk.Label(grid_frame, textvariable=self.sel_error_detail, style="Publish.Subtitle.TLabel", wraplength=1080, justify="left").grid(row=1, column=0, columnspan=2, sticky="ew", pady=(8, 0))
+        bar = ttk.Frame(root, style="Publish.TFrame"); bar.grid(row=3, column=0, sticky="ew", pady=(10, 0))
+        specs = (
+            ("prepare", "Prepare", self._prepare_selected_marketplace, "Publish.Primary.TButton"),
+            ("validate", "Validate", self._validate_selected_marketplace, "Publish.Action.TButton"),
+            ("folder", "Open prepared folder", self._open_prepared_folder, "Publish.Action.TButton"),
+            ("site", "Open publisher site", self._open_publisher_site, "Publish.Action.TButton"),
+            ("listing", "Open saved live listing", self._open_saved_listing, "Publish.Action.TButton"),
+            ("record", "Record listing / update status", self._open_record_listing, "Publish.Primary.TButton"),
+            ("history", "View history", self._open_marketplace_history, "Publish.Action.TButton"),
+        )
+        self.market_buttons: dict[str, ttk.Button] = {}
+        for name, label, command, style_name in specs:
+            button = ttk.Button(bar, text=label, command=command, style=style_name, state="disabled")
+            button.pack(side="left", padx=(0, 6))
+            self.market_buttons[name] = button
+        ttk.Label(bar, text="Actions never publish anything automatically.", style="Publish.Subtitle.TLabel").pack(side="right")
+
+    def refresh_selected_view(self) -> None:
+        """Mirror the catalog selection into the Selected Book tab (no tab switching)."""
+        books = self._selected()
+        if len(books) != 1:
+            self.selected_content.grid_remove(); self.selected_empty.grid()
+            if len(books) > 1:
+                self.selected_empty_text.set("Multiple books are selected. Catalog batch actions still apply; select exactly one book to see its detailed publishing readiness and marketplace actions.")
+            else:
+                self.selected_empty_text.set("Select a book from the Catalog tab to view publishing readiness and marketplace actions.")
+            self.selected_book, self.selected_market_key, self.marketplace_row_map = None, "", {}
+            return
+        book = books[0]; self.selected_book = book
+        self.selected_content.grid(); self.selected_empty.grid_remove()
+        meta = book["metadata"]
+        self.sel_title.set(meta.get("title") or "Untitled book")
+        details: list[str] = []
+        if meta.get("subtitle"):
+            details.append(str(meta["subtitle"]))
+        if meta.get("series"):
+            details.append(f"Series: {meta['series']}")
+        if meta.get("theme"):
+            details.append(f"Theme: {meta['theme']}")
+        pages = int(meta.get("page_count") or 0)
+        details.append(f"{pages} page{'s' if pages != 1 else ''}")
+        details.append(f"ISBN: {meta.get('isbn') or 'not assigned'}")
+        self.sel_detail.set("  |  ".join(details))
+        package = str(book.get("package_path") or "")
+        self.sel_path.set(f"Master package: {package}" if package else "Source theme only — create the complete package to unlock marketplace preparation.")
+        rows = marketplace_rows(book, self.service.db.marketplace_records(book["book_id"]))
+        self.marketplace_row_map = {row["key"]: row for row in rows}
+        self.sel_counts.set(publishing_counts_line(rows))
+        self.whats_left_box.configure(state="normal"); self.whats_left_box.delete("1.0", "end"); self.whats_left_box.insert("end", whats_left_text(rows)); self.whats_left_box.configure(state="disabled")
+        self.market_tree.selection_remove(*self.market_tree.selection())
+        self.market_tree.delete(*self.market_tree.get_children())
+        self._market_rebuilding = True
+        try:
+            for row in rows:
+                attention = row["status"] in ("Error", "Needs Review") or bool(row["error_message"])
+                tag = "attention" if attention else ("ok" if row["indicator"] == "ok" else "")
+                self.market_tree.insert("", "end", iid=row["key"], tags=(tag,) if tag else (), values=(
+                    DISPLAY_GRID.get(row["key"], row["label"]), row["status"], row["readiness_label"],
+                    row["external_id"] or "—", "Saved link" if row["url"] else "—",
+                    row["updated_at"][:16].replace("T", " ") or "—"))
+            # Keep the user's marketplace row across refreshes (after Prepare,
+            # saving a listing, etc.) so async selection echoes land somewhere
+            # stable instead of wiping the action bar state.
+            previous_key = self.selected_market_key
+            if previous_key in self.marketplace_row_map:
+                self.market_tree.selection_set(previous_key)
+            else:
+                previous_key = ""
+            self.selected_market_key = previous_key
+        finally:
+            self._market_rebuilding = False
+        self._set_market_error_detail(); self._update_market_actions()
+
+    def _on_marketplace_row_selected(self) -> None:
+        if self._market_rebuilding:
+            return
+        selection = self.market_tree.selection()
+        self.selected_market_key = selection[0] if selection else ""
+        self._set_market_error_detail()
+        self._update_market_actions()
+
+    def _set_market_error_detail(self) -> None:
+        """One shared truth for the attention line under the readiness grid."""
+        row = self.marketplace_row_map.get(self.selected_market_key)
+        if not row:
+            self.sel_error_detail.set("")
+        elif row["error_message"]:
+            self.sel_error_detail.set(f"Attention — {row['label']}: {row['error_message']}")
+        else:
+            blockers, _advisories = split_issues(row["issues"])
+            self.sel_error_detail.set(f"Needs items — {blockers[0]}" if blockers else "")
+
+    def _update_market_actions(self) -> None:
+        """Enable each action only when the selected record actually supports it."""
+        row = self.marketplace_row_map.get(self.selected_market_key)
+        enabled = {
+            "prepare": bool(row),
+            "validate": bool(row),
+            "folder": bool(row and row["has_local_folder"]),
+            "site": bool(row and row["portal_url"]),
+            "listing": bool(row and row["url"]),
+            "record": bool(row),
+            "history": bool(row),
+        }
+        for name, button in self.market_buttons.items():
+            button.configure(state="normal" if enabled[name] else "disabled")
+
+    def _current_market_row(self) -> dict | None:
+        return self.marketplace_row_map.get(self.selected_market_key)
+
+    def _prepare_selected_marketplace(self) -> None:
+        if self._current_market_row():
+            self.prepare([self.selected_market_key])
+
+    def _validate_selected_marketplace(self) -> None:
+        """Re-run the platform validator read-only; advisories stay advisory."""
+        row = self._current_market_row()
+        if not row:
+            return
+        sections: list[str] = []
+        if row["status"] in ("Uploaded", "Published"):
+            sections.append(f"This marketplace is already recorded as {row['status']}; this check looks at local files and saved details only.")
+        blockers, advisories = split_issues(row["issues"])
+        sections.append("Required before preparing:\n• " + "\n• ".join(blockers) if blockers else "All required items are present for preparation.")
+        if advisories:
+            sections.append("Advisory notes (these do not block preparation):\n• " + "\n• ".join(advisories))
+        messagebox.showinfo(f"Validation — {row['label']}", "\n\n".join(sections), parent=self)
+
+    def _open_prepared_folder(self) -> None:
+        row = self._current_market_row(); book = self.selected_book
+        if not row or not book:
+            return
+        package = str(book.get("package_path") or "")
+        folder = os.path.join(package, PREPARED_FOLDER_NAMES.get(row["key"], row["key"])) if package else ""
+        if folder and os.path.isdir(folder):
+            os.startfile(folder); self.status.set(f"Opened the prepared {row['label']} folder. Nothing was uploaded or changed.")
+        else:
+            messagebox.showinfo("No prepared folder yet", f"The prepared {row['label']} folder does not exist yet. Click Prepare first — this creates files only, it never uploads.", parent=self)
+
+    def _open_publisher_site(self) -> None:
+        row = self._current_market_row()
+        if not row:
+            return
+        if row["portal_url"]:
+            webbrowser.open(row["portal_url"])
+            self.status.set(f"Opened the official {row['label']} portal in your browser. Signing in and uploading stay entirely in your hands.")
+        else:
+            messagebox.showinfo("No seller portal", "This channel has no seller portal. Sell it directly from your own website store.", parent=self)
+
+    def _open_saved_listing(self) -> None:
+        row = self._current_market_row()
+        if not row:
+            return
+        if row["url"]:
+            webbrowser.open(row["url"])
+        else:
+            messagebox.showinfo("No saved link yet", "Paste and save the public listing link first — use “Record listing / update status” once the listing is live.", parent=self)
+
+    def _open_record_listing(self) -> None:
+        if self.selected_book and self._current_market_row():
+            UploadStatusDialog(self, self.service, self.selected_book, self.refresh, initial_marketplace=self.selected_market_key)
+
+    def _open_marketplace_history(self) -> None:
+        if self.selected_book and self._current_market_row():
+            MarketplaceHistoryDialog(self, self.service, self.selected_book, initial_marketplace=self.selected_market_key)
 
     def refresh(self, sync: bool = False) -> None:
         if sync:
@@ -130,6 +396,7 @@ class PublishingManagerDialog(tk.Toplevel):
         for item in self.service.recommended_books():
             book = item["book"]; iid = book["book_id"]; self.recommendations[iid] = item
             self.recommendation_tree.insert("", "end", iid=iid, values=(book["metadata"].get("title", ""), item["topic"], item["puzzles"] or "—", item["action"], item["reason"]))
+        self.refresh_selected_view()
 
     def open_recommended_book(self) -> None:
         selected = self.recommendation_tree.selection()
@@ -265,11 +532,17 @@ class PublishingManagerDialog(tk.Toplevel):
 
 class UploadStatusDialog(tk.Toplevel):
     """One truthful record per marketplace: local prep, upload, then live link."""
-    def __init__(self, parent, service, book: dict, on_saved) -> None:
+    def __init__(self, parent, service, book: dict, on_saved, initial_marketplace: str = "") -> None:
         super().__init__(parent); self.service, self.book, self.on_saved = service, book, on_saved
+        self.initial_marketplace = initial_marketplace
         self.title("Upload status"); self.geometry("850x590"); self.minsize(700, 500); self.configure(background="#1f1f1f"); self.transient(parent)
         self.marketplace = tk.StringVar(value="amazon"); self.status_value = tk.StringVar(); self.external_id = tk.StringVar(); self.url = tk.StringVar(); self.updated = tk.StringVar()
-        self._build(); self._load_record()
+        self._build(); self._apply_initial_marketplace(); self._load_record()
+
+    def _apply_initial_marketplace(self) -> None:
+        """Pre-select one marketplace when opened from a Hub readiness row."""
+        if self.initial_marketplace in MARKETPLACES:
+            self.market_combo.set(f"{DISPLAY[self.initial_marketplace]}|{self.initial_marketplace}")
 
     def _build(self) -> None:
         root = ttk.Frame(self, padding=22, style="Publish.TFrame"); root.pack(fill="both", expand=True); root.columnconfigure(1, weight=1)
@@ -445,3 +718,41 @@ class ISBNManagerDialog(tk.Toplevel):
             tree.heading(key, text=label); tree.column(key, width=width, anchor="w")
         tree.grid(row=2, column=0, sticky="nsew")
         for item in service.db.list_isbns(): tree.insert("", "end", values=(item.get("isbn", ""), item.get("title", ""), item.get("format", ""), item.get("source", ""), str(item.get("assigned_at", ""))[:16].replace("T", " ")))
+
+
+class MarketplaceHistoryDialog(tk.Toplevel):
+    """Human-readable, newest-first audit trail for one book's marketplaces."""
+
+    def __init__(self, parent, service, book: dict, initial_marketplace: str = "") -> None:
+        super().__init__(parent); self.service, self.book = service, book
+        self.title(f"Publishing history — {book['metadata'].get('title', 'Book')}"); self.geometry("800x560"); self.minsize(640, 420)
+        self.configure(background="#1f1f1f"); self.transient(parent)
+        choices = ["All marketplaces"] + [f"{DISPLAY_GRID[key]}|{key}" for key in MARKETPLACES]
+        default = f"{DISPLAY_GRID[initial_marketplace]}|{initial_marketplace}" if initial_marketplace in MARKETPLACES else "All marketplaces"
+        self.market_choice = tk.StringVar(value=default)
+        root = ttk.Frame(self, padding=20, style="Publish.TFrame"); root.pack(fill="both", expand=True); root.columnconfigure(0, weight=1); root.rowconfigure(3, weight=1)
+        ttk.Label(root, text="Publishing history", style="Publish.Title.TLabel").grid(row=0, column=0, sticky="w")
+        ttk.Label(root, text=book["metadata"].get("title", ""), style="Publish.Subtitle.TLabel", wraplength=740).grid(row=1, column=0, sticky="w", pady=(3, 10))
+        picker = ttk.Frame(root, style="Publish.TFrame"); picker.grid(row=2, column=0, sticky="ew", pady=(0, 8))
+        ttk.Label(picker, text="Marketplace", style="Publish.TLabel").pack(side="left")
+        combo = ttk.Combobox(picker, textvariable=self.market_choice, values=choices, state="readonly", width=26, style="Publish.TCombobox")
+        combo.pack(side="left", padx=7); combo.bind("<<ComboboxSelected>>", lambda _event: self.reload())
+        ttk.Button(picker, text="Refresh", command=self.reload, style="Publish.Action.TButton").pack(side="left")
+        self.count_var = tk.StringVar(value=""); ttk.Label(picker, textvariable=self.count_var, style="Publish.Subtitle.TLabel").pack(side="right")
+        self.history_box = tk.Text(root, wrap="word", state="disabled", background="#292929", foreground="#d9f5ee", relief="flat", padx=12, pady=10)
+        self.history_box.grid(row=3, column=0, sticky="nsew")
+        ttk.Button(root, text="Close", command=self.destroy, style="Publish.Action.TButton").grid(row=4, column=0, sticky="e", pady=(10, 0))
+        self.reload()
+
+    def _marketplace_key(self) -> str:
+        value = self.market_choice.get()
+        return value.rsplit("|", 1)[-1] if "|" in value else ""
+
+    def reload(self) -> None:
+        key = self._marketplace_key()
+        entries = self.service.db.audit_history(book_id=self.book["book_id"], marketplace=key or None)
+        label = DISPLAY_GRID.get(key, key) if key else ""
+        self.count_var.set(f"{len(entries)} recorded change(s)" + (f" — {label}" if label else ""))
+        self.history_box.configure(state="normal"); self.history_box.delete("1.0", "end")
+        self.history_box.insert("end", format_history(entries))
+        self.history_box.configure(state="disabled")
