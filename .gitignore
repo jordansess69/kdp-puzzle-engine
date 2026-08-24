@@ -1,4 +1,4 @@
-﻿__pycache__/
+__pycache__/
 *.pyc
 .DS_Store
 *.log
@@ -25,4 +25,5 @@ word_banks/*.before*
 
 # Word Intelligence generated state (reproducible reports/plans/backups)
 word_banks/word_intelligence/repair_plans/
-word_banks/word_intelligence/snapshots/word_banks/word_intelligence/review_queue.json
+word_banks/word_intelligence/snapshots/
+word_banks/word_intelligence/review_queue.json
