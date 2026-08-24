@@ -5,8 +5,10 @@ width follows KDP's white-paper B&W formula (pages * 0.002252in), with a
 0.125in bleed on all outer edges. Upload the result via KDP's "upload a cover
 you already have" option."""
 import argparse, os, textwrap
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
 from reportlab.pdfgen import canvas
+
+from font_utils import image_font_candidates, load_image_font
 from reportlab.lib.units import inch
 from cover import PALETTES as FRONT_COVER_PALETTES
 
@@ -62,24 +64,17 @@ SPINE_FACTOR = 0.002252  # white paper, B&W
 DPI = 300
 
 
+_FAMILY_BY_PATH = {
+    ARIALB: "sans-bold",
+    ARIAL: "sans",
+    GEORGIA: "georgia-bold",
+}
+
+
 def f(path, size):
     """Load a sensible font on macOS, Windows, or a bundled Python runtime."""
-    windows_fonts = os.path.join(os.environ.get("WINDIR", r"C:\\Windows"), "Fonts")
-    bold = "Bold" in path or path == GEORGIA
-    candidates = [
-        path,
-        os.path.join(windows_fonts, "georgiab.ttf") if path == GEORGIA else "",
-        os.path.join(windows_fonts, "arialbd.ttf" if bold else "arial.ttf"),
-        "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf",
-    ]
-    for candidate in candidates:
-        if not candidate:
-            continue
-        try:
-            return ImageFont.truetype(candidate, size)
-        except OSError:
-            continue
-    return ImageFont.load_default()
+    family = _FAMILY_BY_PATH.get(path) or ("sans-bold" if "Bold" in path else "sans")
+    return load_image_font(image_font_candidates(family), size)
 
 
 def main():

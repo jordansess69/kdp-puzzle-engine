@@ -8,24 +8,31 @@ import argparse, json, os, random
 from reportlab.pdfgen import canvas
 from reportlab.pdfgen.canvas import Canvas
 from reportlab.lib.pagesizes import letter
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
 
 PAGE_W, PAGE_H = letter
 MARGIN = 54
 
 SudokuGrid = list[list[int]]
 
-FONTS = {
-    "Sans":  "C:/Windows/Fonts/arial.ttf",
-    "SansB": "C:/Windows/Fonts/arialbd.ttf",
-    "MonoB": "C:/Windows/Fonts/courbd.ttf",
+from font_utils import pdf_font_candidates, register_pdf_font
+
+PDF_FONT_FAMILIES = {
+    "Sans":  "sans",
+    "SansB": "sans-bold",
+    "MonoB": "mono-bold",
 }
 
 
 def register_fonts() -> None:
-    for name, path in FONTS.items():
-        pdfmetrics.registerFont(TTFont(name, path))
+    unresolved = [
+        alias for alias, family in PDF_FONT_FAMILIES.items()
+        if not register_pdf_font(alias, pdf_font_candidates(family))
+    ]
+    if unresolved:
+        raise RuntimeError(
+            f"Required font(s) could not be found for: {', '.join(unresolved)}. "
+            "Install or restore the standard Arial and Courier New fonts, then try again."
+        )
 
 
 # ---------------- Sudoku grid generation ----------------

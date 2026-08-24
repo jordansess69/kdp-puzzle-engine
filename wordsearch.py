@@ -12,8 +12,6 @@ import argparse, json, math, os, random, string
 from reportlab.pdfgen import canvas
 from reportlab.pdfgen.canvas import Canvas
 from reportlab.lib.pagesizes import letter
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
 
 PAGE_W, PAGE_H = letter            # 612 x 792 pt  (8.5 x 11 in)
 MARGIN = 54                        # 0.75in uniform — safe KDP gutter (<150pg) + roomy large print
@@ -24,22 +22,24 @@ DIRS = [(0, 1), (1, 0), (1, 1), (1, -1), (0, -1), (-1, 0), (-1, -1), (-1, 1)]
 Cell = tuple[int, int]
 Grid = list[list[str]]
 
-WINDOWS_FONTS = os.path.join(os.environ.get("WINDIR", r"C:\\Windows"), "Fonts")
+from font_utils import pdf_font_candidates, register_pdf_font
 
-FONTS = {
-    "Sans":  os.path.join(WINDOWS_FONTS, "arial.ttf"),
-    "SansB": os.path.join(WINDOWS_FONTS, "arialbd.ttf"),
-    "MonoB": os.path.join(WINDOWS_FONTS, "courbd.ttf"),
+PDF_FONT_FAMILIES = {
+    "Sans":  "sans",
+    "SansB": "sans-bold",
+    "MonoB": "mono-bold",
 }
 
 def register_fonts() -> None:
-    for name, path in FONTS.items():
-        if not os.path.exists(path):
-            raise RuntimeError(
-                f"Required Windows font was not found: {path}. "
-                "Install or restore the standard Arial and Courier New fonts, then try again."
-            )
-        pdfmetrics.registerFont(TTFont(name, path))
+    unresolved = [
+        alias for alias, family in PDF_FONT_FAMILIES.items()
+        if not register_pdf_font(alias, pdf_font_candidates(family))
+    ]
+    if unresolved:
+        raise RuntimeError(
+            f"Required font(s) could not be found for: {', '.join(unresolved)}. "
+            "Install or restore the standard Arial and Courier New fonts, then try again."
+        )
 
 
 # ---------------- puzzle generation ----------------

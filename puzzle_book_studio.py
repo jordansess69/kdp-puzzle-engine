@@ -13,7 +13,6 @@ from tkinter import messagebox, ttk
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
 
 APP = Path(__file__).resolve().parent
 OUT = APP / "out"
@@ -30,8 +29,11 @@ FORMAT_PRESETS = {
 }
 PAGE_W, PAGE_H = letter
 MARGIN = 54
-FONTS = {"BookSans": "C:/Windows/Fonts/arial.ttf", "BookBold": "C:/Windows/Fonts/arialbd.ttf",
-         "BookMono": "C:/Windows/Fonts/courbd.ttf"}
+from font_utils import pdf_font_candidates, register_pdf_font
+
+# Interior PDFs keep the same Book* aliases as always; font_utils resolves
+# which actual file backs each alias on this machine.
+BOOK_FONT_FAMILIES = {"BookSans": "sans", "BookBold": "sans-bold", "BookMono": "mono-bold"}
 ART = {
     "Sudoku": (("puzzle_sudoku_numbers_v1.png", "puzzle_sudoku_calm_v2.png", "puzzle_sudoku_geometric_v3.png"), "starlight-indigo", "photo"),
     "Cryptogram": (("puzzle_cryptogram_cipher_v1.png", "puzzle_cryptogram_vintage_v2.png", "puzzle_cryptogram_artdeco_v3.png"), "library-burgundy", "photo"),
@@ -318,9 +320,10 @@ def production_proof_gate(folder: Path, kind: str, title_text: str, subtitle: st
     return passed, "\n".join(lines)+"\n"
 
 def fonts():
-    for name, path in FONTS.items():
-        if name not in pdfmetrics.getRegisteredFontNames() and Path(path).exists():
-            pdfmetrics.registerFont(TTFont(name, path))
+    # register_pdf_font skips aliases that are already registered and quietly
+    # leaves unresolvable ones alone, matching the old skip-if-missing behaviour.
+    for alias, family in BOOK_FONT_FAMILIES.items():
+        register_pdf_font(alias, pdf_font_candidates(family))
 
 def content_packs() -> dict:
     try:

@@ -6,7 +6,9 @@ import zipfile
 from datetime import datetime
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
+
+from font_utils import image_font_candidates, load_image_font
 
 
 ETSY_FILE_LIMIT = 5
@@ -31,8 +33,8 @@ def eligible_book_error(book: dict) -> str | None:
 def _bundle_cover(books: list[dict], target: Path, title: str) -> None:
     canvas = Image.new("RGB", (2000, 2000), "#142b35")
     draw = ImageDraw.Draw(canvas)
-    title_font = ImageFont.truetype("arialbd.ttf", 88) if Path(r"C:\Windows\Fonts\arialbd.ttf").is_file() else ImageFont.load_default()
-    body_font = ImageFont.truetype("arial.ttf", 40) if Path(r"C:\Windows\Fonts\arial.ttf").is_file() else ImageFont.load_default()
+    title_font = load_image_font(image_font_candidates("sans-bold"), 88)
+    body_font = load_image_font(image_font_candidates("sans"), 40)
     draw.text((100, 90), title.upper(), fill="#ffffff", font=title_font)
     draw.text((105, 210), f"{len(books)} instant-download puzzle books", fill="#a9ead7", font=body_font)
     slots = [(110, 340), (1040, 340), (110, 1130), (1040, 1130)]

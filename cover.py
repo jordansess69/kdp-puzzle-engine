@@ -5,7 +5,9 @@ The hero is a real solved grid with the theme words highlighted, so the
 cover shows what's actually inside rather than generic clip art. Theme
 silhouettes per niche."""
 import argparse, json, os, random, re
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
+
+from font_utils import image_font_candidates, load_image_font
 
 W, H = 2550, 3300
 
@@ -70,25 +72,19 @@ IMPACT = "/System/Library/Fonts/Supplemental/Impact.ttf"
 MONO = "/System/Library/Fonts/Supplemental/Courier New Bold.ttf"
 
 
+_FAMILY_BY_PATH = {
+    ARIALB: "sans-bold",
+    ARIAL: "sans",
+    GEORGIA: "georgia-bold",
+    IMPACT: "impact",
+    MONO: "display-mono",
+}
+
+
 def f(path, size):
     """Load a sensible font on macOS, Windows, or a bundled Python runtime."""
-    windows_fonts = os.path.join(os.environ.get("WINDIR", r"C:\\Windows"), "Fonts")
-    bold = "Bold" in path or path == IMPACT or path == GEORGIA
-    candidates = [
-        path,
-        os.path.join(windows_fonts, "impact.ttf") if path == IMPACT else "",
-        os.path.join(windows_fonts, "georgiab.ttf") if path == GEORGIA else "",
-        os.path.join(windows_fonts, "arialbd.ttf" if bold else "arial.ttf"),
-        "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf",
-    ]
-    for candidate in candidates:
-        if not candidate:
-            continue
-        try:
-            return ImageFont.truetype(candidate, size)
-        except OSError:
-            continue
-    return ImageFont.load_default()
+    family = _FAMILY_BY_PATH.get(path) or ("sans-bold" if "Bold" in path else "sans")
+    return load_image_font(image_font_candidates(family), size)
 
 
 def wrap(d, text, fnt, maxw):
