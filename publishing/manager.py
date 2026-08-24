@@ -6,7 +6,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-from .database import MARKETPLACES, PublishingDatabase
+from .database import MARKETPLACES, PROTECTED_STATUSES, PublishingDatabase
 from .marketplaces import PUBLISHERS
 from .metadata_service import build_metadata
 from .master_package import build_master_package
@@ -218,19 +218,40 @@ class PublishingService:
         book = self.db.get_book(book_id)
         if not book: raise ValueError("Book was not found in the Publishing Manager.")
         publisher = PUBLISHERS[marketplace]; issues = publisher.validate(book)
-        if issues: self.db.set_status(book_id, marketplace, "Needs Review"); return Path(book.get("package_path") or self.output), issues
         root = Path(book.get("package_path") or self.output / book["book_id"])
-        folder_name = {"amazon": "kdp", "barnes_noble": "barnes_noble"}.get(marketplace, marketplace)
-        target = root / folder_name
-        publisher.prepare(book, target); self.db.set_status(book_id, marketplace, "Ready"); return target, []
+        prior = self.db.marketplace_records(book_id)[marketplace]
+        if prior["status"] in PROTECTED_STATUSES:
+            # The user already confirmed an upload/live listing. Re-preparing
+            # must never downgrade that record or erase its ASIN/link.
+            return root, [f"{publisher.label} is already recorded as {prior['status']}. Nothing was changed and your listing details are safe."]
+        if issues:
+            self.db.transition_status(book_id, marketplace, "Needs Review", source="prepare")
+            return Path(book.get("package_path") or self.output), issues
+        try:
+            folder_name = {"amazon": "kdp", "barnes_noble": "barnes_noble"}.get(marketplace, marketplace)
+            target = root / folder_name
+            publisher.prepare(book, target)
+        except Exception as exc:
+            # Keep the human-readable reason with the record so errors survive
+            # the restart; prepare_many's fallback write is deduplicated.
+            self.db.transition_status(book_id, marketplace, "Error", source="prepare", error_message=str(exc))
+            raise
+        self.db.transition_status(book_id, marketplace, "Ready", source="prepare")
+        return target, []
 
     def prepare_many(self, book_ids: list[str], marketplaces: list[str]) -> list[tuple[str, str, str]]:
         report = []
         for book_id in book_ids:
             for marketplace in marketplaces:
+                prior = self.db.marketplace_records(book_id)[marketplace]
+                if prior["status"] in PROTECTED_STATUSES:
+                    report.append((book_id, marketplace, f"Already {prior['status']}"))
+                    continue
                 try:
                     _folder, issues = self.prepare(book_id, marketplace); report.append((book_id, marketplace, "Needs Review" if issues else "Ready"))
-                except Exception as exc: self.db.set_status(book_id, marketplace, "Error"); report.append((book_id, marketplace, f"Error: {exc}"))
+                except Exception as exc:
+                    self.db.transition_status(book_id, marketplace, "Error", source="prepare", error_message=str(exc))
+                    report.append((book_id, marketplace, f"Error: {exc}"))
         return report
 
     def detect_local_marketplace_status(self) -> int:
@@ -245,6 +266,6 @@ class PublishingService:
                 target = package / folder_names.get(marketplace, marketplace)
                 record = self.db.marketplace_records(book["book_id"])[marketplace]
                 if target.is_dir() and record["status"] == "Not Prepared":
-                    self.db.update_marketplace_record(book["book_id"], marketplace, "Ready", record["external_id"], record["url"])
+                    self.db.transition_status(book["book_id"], marketplace, "Ready", source="local_scan")
                     updated += 1
         return updated

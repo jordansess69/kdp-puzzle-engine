@@ -7,6 +7,10 @@ from datetime import datetime
 from pathlib import Path
 
 MARKETPLACES = ("amazon", "etsy", "ingram", "website", "lulu", "bookvault", "barnes_noble")
+# Confirmed upload/live states. Automated flows (prepare, local scans, future
+# API/browser adapters) must never move a marketplace backwards from these or
+# overwrite the identifiers the user confirmed; only explicit manual saves may.
+PROTECTED_STATUSES = ("Uploaded", "Published")
 
 
 class PublishingDatabase:
@@ -23,6 +27,29 @@ class PublishingDatabase:
                 CREATE TABLE IF NOT EXISTS marketplace_status (book_id TEXT NOT NULL, marketplace TEXT NOT NULL, status TEXT NOT NULL DEFAULT 'Not Prepared', external_id TEXT DEFAULT '', url TEXT DEFAULT '', updated_at TEXT NOT NULL, PRIMARY KEY (book_id, marketplace), FOREIGN KEY(book_id) REFERENCES books(book_id));
                 CREATE TABLE IF NOT EXISTS isbns (isbn TEXT PRIMARY KEY, book_id TEXT, title TEXT, format TEXT, source TEXT, assigned_at TEXT);
                 CREATE TABLE IF NOT EXISTS bundles (bundle_id TEXT PRIMARY KEY, title TEXT NOT NULL, book_ids_json TEXT NOT NULL, metadata_json TEXT NOT NULL, output_path TEXT NOT NULL, created_at TEXT NOT NULL);
+            """)
+            # Additive migration for older catalogs: the persisted preparation
+            # error message arrived after the first release of this table.
+            columns = {row[1] for row in db.execute("PRAGMA table_info(marketplace_status)")}
+            if "error_message" not in columns:
+                db.execute("ALTER TABLE marketplace_status ADD COLUMN error_message TEXT NOT NULL DEFAULT ''")
+            # Append-only history of marketplace status changes. Rows are never
+            # updated or deleted, so the publishing trail survives catalog prunes
+            # and gives every screen one truthful answer to "what happened here?".
+            db.executescript("""
+                CREATE TABLE IF NOT EXISTS marketplace_audit (
+                    audit_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    book_id TEXT NOT NULL,
+                    marketplace TEXT NOT NULL,
+                    old_status TEXT,
+                    new_status TEXT,
+                    changed_at TEXT NOT NULL,
+                    source TEXT NOT NULL DEFAULT 'manual',
+                    external_id TEXT DEFAULT '',
+                    listing_url TEXT DEFAULT '',
+                    error_message TEXT DEFAULT ''
+                );
+                CREATE INDEX IF NOT EXISTS idx_marketplace_audit_book ON marketplace_audit(book_id, changed_at);
             """)
 
     def upsert_book(self, book_id: str, source_key: str, metadata: dict, package_path: str = "") -> None:
@@ -54,19 +81,68 @@ class PublishingDatabase:
     def marketplace_records(self, book_id: str) -> dict[str, dict]:
         """Return the full, buyer-facing publishing trail for one book."""
         with self._connect() as db:
-            rows = db.execute("SELECT marketplace,status,external_id,url,updated_at FROM marketplace_status WHERE book_id=?", (book_id,)).fetchall()
+            rows = db.execute("SELECT marketplace,status,external_id,url,updated_at,error_message FROM marketplace_status WHERE book_id=?", (book_id,)).fetchall()
         records = {row["marketplace"]: dict(row) for row in rows}
         for marketplace in MARKETPLACES:
-            records.setdefault(marketplace, {"marketplace": marketplace, "status": "Not Prepared", "external_id": "", "url": "", "updated_at": ""})
+            records.setdefault(marketplace, {"marketplace": marketplace, "status": "Not Prepared", "external_id": "", "url": "", "updated_at": "", "error_message": ""})
         return records
 
-    def set_status(self, book_id: str, marketplace: str, status: str, external_id: str = "", url: str = "") -> None:
-        if marketplace not in MARKETPLACES: raise ValueError("Unknown marketplace")
-        with self._connect() as db: db.execute("""INSERT INTO marketplace_status(book_id,marketplace,status,external_id,url,updated_at) VALUES(?,?,?,?,?,?) ON CONFLICT(book_id,marketplace) DO UPDATE SET status=excluded.status, external_id=excluded.external_id, url=excluded.url, updated_at=excluded.updated_at""", (book_id, marketplace, status, external_id, url, datetime.now().isoformat(timespec="seconds")))
+    def transition_status(self, book_id: str, marketplace: str, new_status: str, external_id: str | None = None,
+                          url: str | None = None, source: str = "manual", error_message: str = "") -> dict:
+        """The one guarded path for changing a marketplace status.
+
+        - Confirmed ``Uploaded``/``Published`` records are protected: any
+          non-manual source (prepare, local scans, future API/browser adapters)
+          is refused without touching files or data.
+        - Identifiers and links are preserved unless explicitly supplied.
+        - Every actual change appends exactly one audit row; no-op calls write
+          nothing at all.
+        """
+        if marketplace not in MARKETPLACES:
+            raise ValueError("Unknown marketplace")
+        prior = self.marketplace_records(book_id)[marketplace]
+        if prior["status"] in PROTECTED_STATUSES and source != "manual":
+            return {"changed": False, "protected": True,
+                    "message": f"{marketplace} is already recorded as {prior['status']}; nothing was changed.",
+                    "record": prior}
+        final_external = prior["external_id"] if external_id is None else str(external_id).strip()
+        final_url = prior["url"] if url is None else str(url).strip()
+        final_error = "" if new_status != "Error" else str(error_message or "").strip()
+        changed = (new_status != prior["status"] or final_external != prior["external_id"]
+                   or final_url != prior["url"] or final_error != (prior.get("error_message") or ""))
+        if not changed:
+            return {"changed": False, "protected": False, "message": "", "record": prior}
+        now = datetime.now().isoformat(timespec="seconds")
+        with self._connect() as db:
+            db.execute("""INSERT INTO marketplace_status(book_id,marketplace,status,external_id,url,error_message,updated_at) VALUES(?,?,?,?,?,?,?) ON CONFLICT(book_id,marketplace) DO UPDATE SET status=excluded.status, external_id=excluded.external_id, url=excluded.url, error_message=excluded.error_message, updated_at=excluded.updated_at""",
+                       (book_id, marketplace, new_status, final_external, final_url, final_error, now))
+            # Append-only trail: insert only, never update or delete.
+            db.execute("""INSERT INTO marketplace_audit(book_id,marketplace,old_status,new_status,changed_at,source,external_id,listing_url,error_message) VALUES(?,?,?,?,?,?,?,?,?)""",
+                       (book_id, marketplace, prior["status"], new_status, now, source, final_external, final_url, final_error))
+        return {"changed": True, "protected": False, "message": "", "record": self.marketplace_records(book_id)[marketplace]}
+
+    def set_status(self, book_id: str, marketplace: str, status: str, external_id: str | None = None, url: str | None = None) -> None:
+        """Backward-compatible wrapper; identifiers are preserved when omitted."""
+        self.transition_status(book_id, marketplace, status, external_id=external_id, url=url)
 
     def update_marketplace_record(self, book_id: str, marketplace: str, status: str, external_id: str, url: str) -> None:
         """Save a confirmed marketplace identifier/link without guessing its live state."""
-        self.set_status(book_id, marketplace, status, external_id.strip(), url.strip())
+        self.transition_status(book_id, marketplace, status, external_id=external_id, url=url, source="manual")
+
+    def audit_history(self, book_id: str | None = None, marketplace: str | None = None) -> list[dict]:
+        """Read the append-only publishing trail, newest first."""
+        query = "SELECT audit_id,book_id,marketplace,old_status,new_status,changed_at,source,external_id,listing_url,error_message FROM marketplace_audit"
+        params: tuple = ()
+        clauses = []
+        if book_id is not None:
+            clauses.append("book_id=?"); params += (book_id,)
+        if marketplace is not None:
+            clauses.append("marketplace=?"); params += (marketplace,)
+        if clauses:
+            query += " WHERE " + " AND ".join(clauses)
+        query += " ORDER BY changed_at DESC, audit_id DESC"
+        with self._connect() as db:
+            return [dict(row) for row in db.execute(query, params)]
 
     def assign_isbn(self, isbn: str, book_id: str, title: str, source: str) -> None:
         isbn = "".join(isbn.split()).replace("-", "")
