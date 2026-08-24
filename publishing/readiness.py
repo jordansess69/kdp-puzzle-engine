@@ -19,7 +19,8 @@ PREPARED_FOLDER_NAMES = {"amazon": "kdp", "barnes_noble": "barnes_noble"}
 
 # Buyer-facing noun for a confirmed marketplace identifier (ASIN on Amazon).
 ID_NOUNS = {"amazon": "ASIN", "etsy": "Listing ID"}
-DEFAULT_RECORD = {"status": "Not Prepared", "external_id": "", "url": "", "updated_at": "", "error_message": ""}
+DEFAULT_RECORD = {"status": "Not Prepared", "external_id": "", "url": "", "updated_at": "",
+                  "error_message": "", "integration_state": "", "last_synced_at": ""}
 
 
 def _readiness(status: str, issues: list[str]) -> tuple[str, str]:
@@ -71,8 +72,31 @@ def marketplace_rows(book: dict, records: dict) -> list[dict]:
             "url": str(record.get("url") or ""),
             "updated_at": str(record.get("updated_at") or ""),
             "error_message": str(record.get("error_message") or ""),
+            "integration_state": str(record.get("integration_state") or ""),
+            "last_synced_at": str(record.get("last_synced_at") or ""),
         })
     return rows
+
+
+def online_state_text(integration_state: str) -> str:
+    """Plain-English sentence for an automated integration state ('' = none).
+
+    Every phrase is deliberately truthful: a draft on Etsy is NOT published,
+    and the app never claims otherwise.
+    """
+    state = str(integration_state or "").strip()
+    if not state:
+        return ""
+    if state == "draft_created":
+        return ("Online status: a draft listing was created on Etsy — it is NOT published. "
+                "Review and publish it yourself in Etsy Shop Manager.")
+    if state == "files_uploaded":
+        return ("Online status: the Etsy draft is complete with its digital file attached — still NOT published. "
+                "Finish the details and publish it yourself in Etsy Shop Manager.")
+    if state == "complete":
+        return ("Online status: the Etsy draft was verified online with your file attached — waiting for you to review and publish. "
+                "Nothing goes live until you publish it in Etsy Shop Manager.")
+    return f"Online status: {state.replace('_', ' ')}. Open View history for details."
 
 
 def whats_left(rows: list[dict]) -> dict:

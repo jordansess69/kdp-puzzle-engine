@@ -13,6 +13,7 @@ from publishing.readiness import (
     format_history,
     marketplace_rows,
     next_actions,
+    online_state_text,
     whats_left,
 )
 
@@ -254,3 +255,17 @@ def test_portal_metadata_does_not_change_preparation_behavior(book_factory):
     for publisher in PUBLISHERS.values():
         issues = publisher.validate(book)
         assert isinstance(issues, list)
+
+
+def test_online_state_text_stays_truthful_about_automation_progress():
+    assert online_state_text("") == ""
+    assert "draft" in online_state_text("draft_created")
+    assert "NOT published" in online_state_text("draft_created")
+    assert "file" in online_state_text("files_uploaded").lower()
+    assert "NOT published" in online_state_text("files_uploaded")
+    complete = online_state_text("complete")
+    assert "draft" in complete.lower() and "publish it in etsy shop manager" in complete.lower()
+    unknown = online_state_text("mystery_state")
+    assert "mystery state" in unknown.lower()  # underscores shown as spaces
+    assert "published" not in unknown.lower()
+    assert "history" in unknown.lower()

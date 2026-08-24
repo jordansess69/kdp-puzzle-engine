@@ -33,6 +33,19 @@ class PublishingDatabase:
             columns = {row[1] for row in db.execute("PRAGMA table_info(marketplace_status)")}
             if "error_message" not in columns:
                 db.execute("ALTER TABLE marketplace_status ADD COLUMN error_message TEXT NOT NULL DEFAULT ''")
+            # Additive migration for online integration state (Etsy draft
+            # automation).  These columns live NEXT TO the confirmed human
+            # status on purpose: automated flows write here, while the
+            # buyer-facing ``status`` column and its Uploaded/Published guard
+            # keep their exact existing semantics.
+            if "integration_state" not in columns:
+                db.execute("ALTER TABLE marketplace_status ADD COLUMN integration_state TEXT NOT NULL DEFAULT ''")
+            if "external_sku" not in columns:
+                db.execute("ALTER TABLE marketplace_status ADD COLUMN external_sku TEXT NOT NULL DEFAULT ''")
+            if "idempotency_key" not in columns:
+                db.execute("ALTER TABLE marketplace_status ADD COLUMN idempotency_key TEXT NOT NULL DEFAULT ''")
+            if "last_synced_at" not in columns:
+                db.execute("ALTER TABLE marketplace_status ADD COLUMN last_synced_at TEXT NOT NULL DEFAULT ''")
             # Append-only history of marketplace status changes. Rows are never
             # updated or deleted, so the publishing trail survives catalog prunes
             # and gives every screen one truthful answer to "what happened here?".
@@ -50,6 +63,15 @@ class PublishingDatabase:
                     error_message TEXT DEFAULT ''
                 );
                 CREATE INDEX IF NOT EXISTS idx_marketplace_audit_book ON marketplace_audit(book_id, changed_at);
+                CREATE TABLE IF NOT EXISTS integration_log (
+                    log_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    book_id TEXT NOT NULL,
+                    marketplace TEXT NOT NULL,
+                    event TEXT NOT NULL,
+                    detail TEXT DEFAULT '',
+                    created_at TEXT NOT NULL
+                );
+                CREATE INDEX IF NOT EXISTS idx_integration_log_book ON integration_log(book_id, marketplace, created_at);
             """)
 
     def upsert_book(self, book_id: str, source_key: str, metadata: dict, package_path: str = "") -> None:
@@ -81,10 +103,10 @@ class PublishingDatabase:
     def marketplace_records(self, book_id: str) -> dict[str, dict]:
         """Return the full, buyer-facing publishing trail for one book."""
         with self._connect() as db:
-            rows = db.execute("SELECT marketplace,status,external_id,url,updated_at,error_message FROM marketplace_status WHERE book_id=?", (book_id,)).fetchall()
+            rows = db.execute("SELECT marketplace,status,external_id,url,updated_at,error_message,integration_state,last_synced_at FROM marketplace_status WHERE book_id=?", (book_id,)).fetchall()
         records = {row["marketplace"]: dict(row) for row in rows}
         for marketplace in MARKETPLACES:
-            records.setdefault(marketplace, {"marketplace": marketplace, "status": "Not Prepared", "external_id": "", "url": "", "updated_at": "", "error_message": ""})
+            records.setdefault(marketplace, {"marketplace": marketplace, "status": "Not Prepared", "external_id": "", "url": "", "updated_at": "", "error_message": "", "integration_state": "", "last_synced_at": ""})
         return records
 
     def transition_status(self, book_id: str, marketplace: str, new_status: str, external_id: str | None = None,
@@ -141,6 +163,75 @@ class PublishingDatabase:
         if clauses:
             query += " WHERE " + " AND ".join(clauses)
         query += " ORDER BY changed_at DESC, audit_id DESC"
+        with self._connect() as db:
+            return [dict(row) for row in db.execute(query, params)]
+
+    # -- Online integration state (automated flows write here; ``status`` stays human-owned)
+
+    def integration_record(self, book_id: str, marketplace: str) -> dict:
+        """Automation-side record for one marketplace (never the buyer-facing status)."""
+        with self._connect() as db:
+            row = db.execute(
+                "SELECT integration_state, external_sku, idempotency_key, last_synced_at FROM marketplace_status WHERE book_id=? AND marketplace=?",
+                (book_id, marketplace),
+            ).fetchone()
+        if not row:
+            return {"integration_state": "", "external_sku": "", "idempotency_key": "", "last_synced_at": ""}
+        return {key: (row[key] or "") for key in ("integration_state", "external_sku", "idempotency_key", "last_synced_at")}
+
+    def set_integration_state(self, book_id: str, marketplace: str, state: str,
+                              external_sku: str | None = None, idempotency_key: str | None = None) -> dict:
+        """Persist automated progress without touching the confirmed status column.
+
+        Only the four integration columns are written; ``status``,
+        ``external_id``, ``url`` and ``error_message`` keep their values, and
+        no marketplace_audit row is produced (the integration log carries this
+        stream instead).
+        """
+        if marketplace not in MARKETPLACES:
+            raise ValueError("Unknown marketplace")
+        prior = self.integration_record(book_id, marketplace)
+        final_state = str(state).strip()
+        final_sku = prior["external_sku"] if external_sku is None else str(external_sku).strip()
+        final_key = prior["idempotency_key"] if idempotency_key is None else str(idempotency_key).strip()
+        now = datetime.now().isoformat(timespec="seconds")
+        with self._connect() as db:
+            db.execute("""INSERT INTO marketplace_status(book_id,marketplace,status,integration_state,external_sku,idempotency_key,last_synced_at,updated_at) VALUES(?,?,?,?,?,?,?,?)
+                          ON CONFLICT(book_id,marketplace) DO UPDATE SET integration_state=excluded.integration_state, external_sku=excluded.external_sku, idempotency_key=excluded.idempotency_key, last_synced_at=excluded.last_synced_at""",
+                       (book_id, marketplace, "Not Prepared", final_state, final_sku, final_key, now, now))
+        return self.integration_record(book_id, marketplace)
+
+    def clear_integration_state(self, book_id: str, marketplace: str) -> None:
+        """Reset automation columns only (used when reconciliation proves a draft vanished)."""
+        if marketplace not in MARKETPLACES:
+            raise ValueError("Unknown marketplace")
+        now = datetime.now().isoformat(timespec="seconds")
+        with self._connect() as db:
+            db.execute("""INSERT INTO marketplace_status(book_id,marketplace,status,integration_state,external_sku,idempotency_key,last_synced_at,updated_at) VALUES(?,?,?,?,?,?,?,?)
+                          ON CONFLICT(book_id,marketplace) DO UPDATE SET integration_state='', external_sku='', idempotency_key='', last_synced_at=''""",
+                       (book_id, marketplace, "Not Prepared", "", "", "", "", now))
+
+    def record_integration_event(self, book_id: str, marketplace: str, event: str, detail: str = "") -> None:
+        """Append one sanitized automation event to the integration log.
+
+        The detail text passes through the shared secret redactor so token-like
+        strings can never reach the log through an exception message.
+        """
+        from integrations.errors import redact_text
+
+        clean_detail = redact_text(str(detail or "")).replace("\n", " ").strip()
+        with self._connect() as db:
+            db.execute("INSERT INTO integration_log(book_id,marketplace,event,detail,created_at) VALUES(?,?,?,?,?)",
+                       (book_id, marketplace, str(event).strip(), clean_detail[:500], datetime.now().isoformat(timespec="seconds")))
+
+    def integration_history(self, book_id: str, marketplace: str | None = None) -> list[dict]:
+        """Read the append-only automation trail for one book, newest first."""
+        query = "SELECT log_id,book_id,marketplace,event,detail,created_at FROM integration_log WHERE book_id=?"
+        params: tuple = (book_id,)
+        if marketplace is not None:
+            query += " AND marketplace=?"
+            params += (marketplace,)
+        query += " ORDER BY created_at DESC, log_id DESC"
         with self._connect() as db:
             return [dict(row) for row in db.execute(query, params)]
 

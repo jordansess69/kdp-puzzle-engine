@@ -9,7 +9,10 @@ import inspect
 from publishing.database import MARKETPLACES
 from publishing.ui import (
     DISPLAY_GRID,
+    EtsyConnectDialog,
+    MarketplaceConnectionsDialog,
     UploadStatusDialog,
+    draft_action_enabled,
     publishing_counts_line,
     split_issues,
     whats_left_text,
@@ -72,3 +75,24 @@ def test_upload_status_dialog_initial_marketplace_is_optional_and_backwards_comp
     parameters = inspect.signature(UploadStatusDialog.__init__).parameters
     assert list(parameters)[2:5] == ["service", "book", "on_saved"]
     assert parameters["initial_marketplace"].default == ""
+
+
+def test_draft_action_enabled_is_etsy_only_and_never_for_confirmed_rows():
+    assert draft_action_enabled({"key": "etsy", "has_local_folder": True, "status": "Ready"})
+    assert draft_action_enabled({"key": "etsy", "has_local_folder": True, "status": "Not Prepared"})
+    # Wrong marketplace rows never offer it, even when otherwise identical.
+    assert not draft_action_enabled({"key": "amazon", "has_local_folder": True, "status": "Ready"})
+    # No prepared folder on disk -> nothing to attach.
+    assert not draft_action_enabled({"key": "etsy", "has_local_folder": False, "status": "Ready"})
+    # Human already confirmed an upload or a live listing: hands off.
+    assert not draft_action_enabled({"key": "etsy", "has_local_folder": True, "status": "Uploaded"})
+    assert not draft_action_enabled({"key": "etsy", "has_local_folder": True, "status": "Published"})
+    assert not draft_action_enabled(None)
+
+
+def test_market_connection_dialogs_keep_lightweight_construction_contracts():
+    connect = inspect.signature(EtsyConnectDialog.__init__).parameters
+    connections = inspect.signature(MarketplaceConnectionsDialog.__init__).parameters
+    assert list(connections) == ["self", "parent"]
+    assert list(connect) == ["self", "parent", "on_done"]
+    assert connect["on_done"].default is None

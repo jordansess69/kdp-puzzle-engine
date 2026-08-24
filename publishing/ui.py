@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import os
+import threading
 import tkinter as tk
 import webbrowser
 from tkinter import messagebox, ttk
@@ -9,7 +10,7 @@ from tkinter import messagebox, ttk
 from .database import MARKETPLACES
 from .marketplaces import PUBLISHERS
 from .etsy_bundles import ETSY_STORE_NAME
-from .readiness import PREPARED_FOLDER_NAMES, format_history, marketplace_rows, next_actions, whats_left
+from .readiness import PREPARED_FOLDER_NAMES, format_history, marketplace_rows, next_actions, online_state_text, whats_left
 
 DISPLAY = {"amazon": "Amazon", "etsy": "Etsy", "ingram": "Ingram", "website": "Website", "lulu": "Lulu", "bookvault": "BookVault", "barnes_noble": "B&N"}
 STATUS_VALUES = ("Not Prepared", "Ready", "Uploaded", "Published", "Error", "Needs Review")
@@ -37,6 +38,21 @@ def split_issues(issues: list[str]) -> tuple[list[str], list[str]]:
         low = issue.casefold()
         (advisories if any(hint in low for hint in ADVISORY_ISSUE_HINTS) else blockers).append(issue)
     return blockers, advisories
+
+
+def draft_action_enabled(row: dict | None) -> bool:
+    """True only when the selected readiness row may offer the Etsy draft action.
+
+    Gating is deliberately strict: Etsy row only, a prepared folder on disk,
+    and never when a human already confirmed Uploaded/Published.
+    """
+    if not row:
+        return False
+    return (
+        row.get("key") == "etsy"
+        and bool(row.get("has_local_folder"))
+        and row.get("status") not in ("Uploaded", "Published")
+    )
 
 
 def publishing_counts_line(rows: list[dict]) -> str:
@@ -122,7 +138,8 @@ class PublishingManagerDialog(tk.Toplevel):
         ttk.Label(heading, text="Publishing Manager", style="Publish.Title.TLabel").grid(row=0, column=0, sticky="w")
         ttk.Button(heading, text="Upload status", command=self.open_upload_status, style="Publish.Action.TButton").grid(row=0, column=1, sticky="e", padx=(0, 8))
         ttk.Button(heading, text="Create Etsy bundle", command=self.open_etsy_bundle_builder, style="Publish.Action.TButton").grid(row=0, column=2, sticky="e", padx=(0, 8))
-        ttk.Button(heading, text="New book", command=self.start_new_book, style="Publish.Primary.TButton").grid(row=0, column=3, sticky="e")
+        ttk.Button(heading, text="Marketplace connections", command=self.open_marketplace_connections, style="Publish.Action.TButton").grid(row=0, column=3, sticky="e", padx=(0, 8))
+        ttk.Button(heading, text="New book", command=self.start_new_book, style="Publish.Primary.TButton").grid(row=0, column=4, sticky="e")
         ttk.Label(root, text="Your book catalog, next-step recommendations, and safe marketplace preparation in one place. Each completed book includes a Master Release folder with its platform-by-platform handoffs.", style="Publish.Subtitle.TLabel", wraplength=1150).grid(row=1, column=0, sticky="w", pady=(3, 16))
         recommended = ttk.Labelframe(root, text="Recommended next books", padding=12, style="Publish.Card.TLabelframe")
         recommended.grid(row=2, column=0, sticky="ew", pady=(0, 10)); recommended.columnconfigure(0, weight=1)
@@ -214,6 +231,10 @@ class PublishingManagerDialog(tk.Toplevel):
         self.market_tree.bind("<<TreeviewSelect>>", lambda _event: self._on_marketplace_row_selected())
         self.sel_error_detail = tk.StringVar(value="")
         ttk.Label(grid_frame, textvariable=self.sel_error_detail, style="Publish.Subtitle.TLabel", wraplength=1080, justify="left").grid(row=1, column=0, columnspan=2, sticky="ew", pady=(8, 0))
+        # Truthful online-integration line (e.g. "a draft listing was created on
+        # Etsy — it is NOT published").  Empty until an automated flow runs.
+        self.sel_online_detail = tk.StringVar(value="")
+        ttk.Label(grid_frame, textvariable=self.sel_online_detail, style="Publish.Subtitle.TLabel", wraplength=1080, justify="left").grid(row=2, column=0, columnspan=2, sticky="ew", pady=(4, 0))
         bar = ttk.Frame(root, style="Publish.TFrame"); bar.grid(row=3, column=0, sticky="ew", pady=(10, 0))
         specs = (
             ("prepare", "Prepare", self._prepare_selected_marketplace, "Publish.Primary.TButton"),
@@ -222,6 +243,7 @@ class PublishingManagerDialog(tk.Toplevel):
             ("site", "Open publisher site", self._open_publisher_site, "Publish.Action.TButton"),
             ("listing", "Open saved live listing", self._open_saved_listing, "Publish.Action.TButton"),
             ("record", "Record listing / update status", self._open_record_listing, "Publish.Primary.TButton"),
+            ("draft", "Create Etsy draft", self._create_etsy_draft, "Publish.Action.TButton"),
             ("history", "View history", self._open_marketplace_history, "Publish.Action.TButton"),
         )
         self.market_buttons: dict[str, ttk.Button] = {}
@@ -296,7 +318,7 @@ class PublishingManagerDialog(tk.Toplevel):
         self._update_market_actions()
 
     def _set_market_error_detail(self) -> None:
-        """One shared truth for the attention line under the readiness grid."""
+        """One shared truth for the attention and online lines under the grid."""
         row = self.marketplace_row_map.get(self.selected_market_key)
         if not row:
             self.sel_error_detail.set("")
@@ -305,6 +327,7 @@ class PublishingManagerDialog(tk.Toplevel):
         else:
             blockers, _advisories = split_issues(row["issues"])
             self.sel_error_detail.set(f"Needs items — {blockers[0]}" if blockers else "")
+        self.sel_online_detail.set(online_state_text(row.get("integration_state", "")) if row else "")
 
     def _update_market_actions(self) -> None:
         """Enable each action only when the selected record actually supports it."""
@@ -316,6 +339,7 @@ class PublishingManagerDialog(tk.Toplevel):
             "site": bool(row and row["portal_url"]),
             "listing": bool(row and row["url"]),
             "record": bool(row),
+            "draft": draft_action_enabled(row) and not getattr(self, "_draft_in_progress", False),
             "history": bool(row),
         }
         for name, button in self.market_buttons.items():
@@ -379,6 +403,58 @@ class PublishingManagerDialog(tk.Toplevel):
     def _open_marketplace_history(self) -> None:
         if self.selected_book and self._current_market_row():
             MarketplaceHistoryDialog(self, self.service, self.selected_book, initial_marketplace=self.selected_market_key)
+
+    def open_marketplace_connections(self) -> None:
+        MarketplaceConnectionsDialog(self)
+
+    def _create_etsy_draft(self) -> None:
+        """Run the draft-only Etsy automation in a background thread.
+
+        The remote work itself lives in integrations.etsy.draft_service (fully
+        tested offline); this handler only guards double-clicks, keeps the UI
+        responsive, and reports the truthful result.
+        """
+        row = self._current_market_row()
+        book = self.selected_book
+        if not row or not book:
+            return
+        if getattr(self, "_draft_in_progress", False):
+            return
+        if not book.get("package_path"):
+            messagebox.showinfo("Prepare first", "Create the complete package and choose Prepare Etsy before creating an online draft.", parent=self)
+            return
+        self._draft_in_progress = True
+        button = self.market_buttons.get("draft")
+        if button is not None:
+            button.configure(state="disabled")
+        self.status.set("Connecting to Etsy to create the DRAFT listing… Nothing will be published.")
+
+        service = self.service
+
+        def work():
+            from integrations.etsy.draft_service import EtsyDraftService
+
+            try:
+                return EtsyDraftService().create_or_resume(service, book)
+            except Exception as exc:  # last-resort net so the UI never dies silently
+                from integrations.etsy.draft_service import DraftResult
+
+                return DraftResult(ok=False, message=f"Unexpected problem: {exc}")
+
+        def done(result):
+            self._draft_in_progress = False
+            self.refresh()
+            title = "Etsy draft" if result.ok else "Etsy draft needs attention"
+            if result.ok:
+                messagebox.showinfo(title, result.message + ("\n\nEvents:\n• " + "\n• ".join(result.events) if result.events else ""), parent=self)
+            else:
+                messagebox.showwarning(title, result.message, parent=self)
+
+        def runner():
+            result = work()
+            self.after(0, lambda: done(result))
+
+        threading.Thread(target=runner, daemon=True).start()
 
     def refresh(self, sync: bool = False) -> None:
         if sync:
@@ -756,3 +832,269 @@ class MarketplaceHistoryDialog(tk.Toplevel):
         self.history_box.configure(state="normal"); self.history_box.delete("1.0", "end")
         self.history_box.insert("end", format_history(entries))
         self.history_box.configure(state="disabled")
+
+
+class _StoredEtsyCredentialProvider:
+    """Credential provider reading env vars first, then Windows Credential Manager."""
+
+    def load(self):
+        from integrations.etsy.session import load_credentials
+
+        return load_credentials()
+
+
+class MarketplaceConnectionsDialog(tk.Toplevel):
+    """One calm place to connect, test, or forget marketplace credentials.
+
+    Secrets are stored ONLY in the Windows Credential Manager (never in files,
+    never in this catalog database).  The dialog reports what it knows without
+    ever displaying a secret value.
+    """
+
+    def __init__(self, parent) -> None:
+        super().__init__(parent)
+        self.title("Marketplace connections"); self.geometry("760x540"); self.minsize(620, 430)
+        self.configure(background="#1f1f1f"); self.transient(parent)
+        root = ttk.Frame(self, padding=22, style="Publish.TFrame"); root.pack(fill="both", expand=True)
+        root.columnconfigure(0, weight=1); root.rowconfigure(3, weight=1)
+        ttk.Label(root, text="Marketplace connections", style="Publish.Title.TLabel").grid(row=0, column=0, sticky="w")
+        ttk.Label(
+            root,
+            text=("Connect your Etsy shop so the app can create DRAFT listings for you — it never publishes, "
+                  "prices, or deletes anything. Credentials are kept in Windows Credential Manager on this "
+                  "computer. Other channels keep using their own seller portals and your manual uploads."),
+            style="Publish.Subtitle.TLabel", wraplength=700).grid(row=1, column=0, sticky="w", pady=(4, 12))
+        self.status_box = tk.Text(root, height=12, wrap="word", state="disabled", background="#292929",
+                                  foreground="#d9f5ee", relief="flat", padx=10, pady=10)
+        self.status_box.grid(row=2, column=0, sticky="ew")
+        self.detail_box = tk.Text(root, height=8, wrap="word", state="disabled", background="#292929",
+                                  foreground="#b7b7b7", relief="flat", padx=10, pady=10)
+        self.detail_box.grid(row=3, column=0, sticky="nsew", pady=(10, 0))
+        actions = ttk.Frame(root, style="Publish.TFrame"); actions.grid(row=4, column=0, sticky="ew", pady=(14, 0))
+        ttk.Button(actions, text="Close", command=self.destroy, style="Publish.Action.TButton").pack(side="right")
+        ttk.Button(actions, text="Forget stored Etsy credentials", command=self.forget_etsy, style="Publish.Action.TButton").pack(side="right", padx=6)
+        ttk.Button(actions, text="Connect / reconnect Etsy…", command=self.connect_etsy, style="Publish.Primary.TButton").pack(side="right", padx=6)
+        ttk.Button(actions, text="Test Etsy connection", command=self.test_etsy, style="Publish.Action.TButton").pack(side="left")
+        self.refresh_status()
+
+    # -- status rendering -------------------------------------------------------
+
+    def refresh_status(self) -> None:
+        try:
+            from integrations.etsy.session import load_credentials
+
+            creds = load_credentials()
+            lines = [
+                "Etsy",
+                f"  App keystring : {'stored' if creds.api_keystring else 'missing'}",
+                f"  Shared secret : {'stored' if creds.shared_secret else 'not stored (optional)'}",
+                f"  Access token  : {'stored' if creds.access_token else 'missing'}",
+                f"  Refresh token : {'stored' if creds.refresh_token else 'missing'}",
+                "",
+            ]
+        except Exception as exc:  # storage problems must never crash the Hub
+            lines = [f"Etsy — could not read stored credentials safely ({exc}).", ""]
+        lines.append("Amazon KDP / IngramSpark / Lulu / BookVault / Barnes & Noble")
+        lines.append("  No API connections yet — upload through each official seller portal as usual.")
+        self.status_box.configure(state="normal"); self.status_box.delete("1.0", "end")
+        self.status_box.insert("end", "\n".join(lines))
+        self.status_box.configure(state="disabled")
+
+    def _set_detail(self, text: str) -> None:
+        self.detail_box.configure(state="normal"); self.detail_box.delete("1.0", "end")
+        self.detail_box.insert("end", text); self.detail_box.configure(state="disabled")
+
+    # -- actions -----------------------------------------------------------------
+
+    def test_etsy(self) -> None:
+        from integrations.etsy.connection import EtsyIntegration
+
+        integration = EtsyIntegration(credential_provider=_StoredEtsyCredentialProvider())
+        self._set_detail("Testing the Etsy connection…")
+        def runner():
+            report = integration.test_connection()
+            self.after(0, lambda: self._set_detail(report.message))
+        threading.Thread(target=runner, daemon=True).start()
+
+    def connect_etsy(self) -> None:
+        EtsyConnectDialog(self, on_done=self.refresh_status)
+
+    def forget_etsy(self) -> None:
+        from integrations.etsy.session import forget_credentials
+
+        if not messagebox.askyesno(
+                "Forget Etsy connection",
+                "Remove the stored Etsy credentials from Windows Credential Manager on this computer?\n\n"
+                "Prepared files and catalog records stay exactly as they are.",
+                parent=self):
+            return
+        forgotten = forget_credentials()
+        self.refresh_status()
+        self._set_detail("Stored Etsy credentials removed." if forgotten
+                         else "There were no stored Etsy credentials to remove.")
+
+
+class EtsyConnectDialog(tk.Toplevel):
+    """Guided OAuth connection: browser approval, paste the redirect back.
+
+    Etsy requires an HTTPS callback that exactly matches the app registration,
+    so desktop flow is: open the approval page, approve, then paste the URL
+    the browser landed on.  Only ``shops_r listings_r listings_w`` scopes are
+    requested — never the destructive ``listings_d``.
+    """
+
+    def __init__(self, parent, on_done=None) -> None:
+        super().__init__(parent)
+        self.parent_dialog = parent; self.on_done = on_done
+        self.pkce = None; self.oauth_state = ""; self.keystring_value = ""
+        self.title("Connect Etsy"); self.geometry("720x600"); self.minsize(600, 520)
+        self.configure(background="#1f1f1f"); self.transient(parent)
+        root = ttk.Frame(self, padding=22, style="Publish.TFrame"); root.pack(fill="both", expand=True)
+        root.columnconfigure(1, weight=1); root.rowconfigure(7, weight=1)
+        ttk.Label(root, text="Connect your Etsy shop", style="Publish.Title.TLabel").grid(row=0, column=0, columnspan=2, sticky="w")
+        ttk.Label(
+            root,
+            text=("Step 1 · Open etsy.com/developers/your-apps and copy your app's keystring and shared secret.\n"
+                  "Step 2 · Make sure one callback URL is registered there (must start with https://).\n"
+                  "Step 3 · Fill the three boxes below, open the approval page, then paste the address your "
+                  "browser lands on after you approve."),
+            style="Publish.Subtitle.TLabel", wraplength=660, justify="left").grid(row=1, column=0, columnspan=2, sticky="w", pady=(4, 12))
+        rows = (("App keystring", "keystring"), ("Shared secret", "shared_secret"), ("Callback URL", "callback"))
+        self.vars = {}
+        for row_index, (label, name) in enumerate(rows, start=2):
+            ttk.Label(root, text=label, style="Publish.TLabel").grid(row=row_index, column=0, sticky="w", pady=5)
+            var = tk.StringVar(value="https://" if name == "callback" else "")
+            entry = ttk.Entry(root, textvariable=var, show="•" if name == "shared_secret" else "", style="Publish.TEntry")
+            entry.grid(row=row_index, column=1, sticky="ew", pady=5)
+            self.vars[name] = var
+        ttk.Label(root, text=self._scope_text(), style="Publish.Status.TLabel", wraplength=650).grid(row=5, column=0, columnspan=2, sticky="ew", pady=(8, 8))
+        self.open_button = ttk.Button(root, text="Open Etsy approval page", command=self.open_approval, style="Publish.Primary.TButton")
+        self.open_button.grid(row=6, column=0, columnspan=2, sticky="w")
+        self.paste_var = tk.StringVar(value="")
+        ttk.Label(root, text="Pasted redirect URL", style="Publish.TLabel").grid(row=7, column=0, sticky="nw", pady=(12, 5))
+        paste_entry = ttk.Entry(root, textvariable=self.paste_var, style="Publish.TEntry")
+        paste_entry.grid(row=7, column=1, sticky="ew", pady=(12, 0))
+        self.finish_button = ttk.Button(root, text="Finish connecting", command=self.finish_connect, style="Publish.Primary.TButton", state="disabled")
+        self.finish_button.grid(row=8, column=1, sticky="e", pady=(10, 0))
+        self.result_box = tk.Text(root, height=7, wrap="word", state="disabled", background="#292929",
+                                  foreground="#d9f5ee", relief="flat", padx=10, pady=10)
+        self.result_box.grid(row=9, column=0, columnspan=2, sticky="nsew", pady=(12, 0))
+
+    @staticmethod
+    def _scope_text() -> str:
+        from integrations.etsy.auth import DRAFT_SCOPES
+
+        return (
+            "Permissions requested: " + ", ".join(DRAFT_SCOPES) + ".\n"
+            "This app can create drafts and attach your PDF/image; it can never publish, edit live listings, or delete anything."
+        )
+
+    def _set_result(self, text: str) -> None:
+        self.result_box.configure(state="normal"); self.result_box.delete("1.0", "end")
+        self.result_box.insert("end", text); self.result_box.configure(state="disabled")
+
+    def open_approval(self) -> None:
+        import secrets
+
+        from integrations.etsy.auth import (
+            DRAFT_SCOPES,
+            build_authorization_url,
+            generate_pkce_pair,
+        )
+        from integrations.errors import IntegrationError
+
+        keystring = self.vars["keystring"].get().strip()
+        callback = self.vars["callback"].get().strip()
+        if not keystring:
+            messagebox.showwarning("Add the keystring", "Paste your app's keystring from etsy.com/developers first.", parent=self)
+            return
+        if not callback.lower().startswith("https://"):
+            messagebox.showwarning("HTTPS callback needed", "Etsy only accepts callback URLs that start with https:// and match your app registration exactly.", parent=self)
+            return
+        try:
+            self.pkce = generate_pkce_pair()
+            self.oauth_state = secrets.token_urlsafe(16)
+            url = build_authorization_url(client_id=keystring, redirect_uri=callback,
+                                          code_challenge=self.pkce.challenge,
+                                          state=self.oauth_state, scopes=DRAFT_SCOPES)
+        except IntegrationError as exc:
+            messagebox.showwarning("Check details", exc.message, parent=self)
+            return
+        self.keystring_value = keystring
+        webbrowser.open(url)
+        self.finish_button.configure(state="normal")
+        self._set_result("The Etsy approval page opened in your browser.\n"
+                         "Approve access, then copy the full address your browser lands on and paste it here.")
+
+    def finish_connect(self) -> None:
+        from integrations.etsy.auth import extract_state_and_code
+        from integrations.errors import IntegrationError
+        from integrations.etsy.session import (
+            EtsyCredentials,
+            exchange_authorization_code,
+            save_credentials,
+        )
+
+        pasted = self.paste_var.get().strip()
+        if not pasted or self.pkce is None:
+            messagebox.showwarning("Not ready", "Open the approval page and approve access first, then paste the redirect URL.", parent=self)
+            return
+        state, code, error = extract_state_and_code(pasted)
+        if error:
+            self._set_result(f"Etsy reported: {error}. Nothing was saved; you can close this window or start again.")
+            return
+        if not code:
+            messagebox.showwarning("That link looks incomplete", "Paste the full address from the browser address bar after approving (it contains ?code=…).", parent=self)
+            return
+        if not state or state != self.oauth_state:
+            messagebox.showwarning("Start again", "This approval does not match the request that was opened. For safety, nothing was saved — press “Open Etsy approval page” and try once more.", parent=self)
+            return
+        shared_secret = self.vars["shared_secret"].get().strip()
+        callback = self.vars["callback"].get().strip()
+        self.finish_button.configure(state="disabled")
+        self._set_result("Exchanging the approval code with Etsy…")
+
+        def work():
+            tokens = exchange_authorization_code(
+                client_id=self.keystring_value,
+                authorization_code=code,
+                code_verifier=self.pkce.verifier,
+                redirect_uri=callback,
+            )
+            save_credentials(EtsyCredentials(
+                api_keystring=self.keystring_value,
+                shared_secret=shared_secret,
+                access_token=tokens.access_token,
+                refresh_token=tokens.refresh_token,
+            ))
+            return tokens
+
+        def runner():
+            outcome = {}
+
+            def execute():
+                try:
+                    outcome["tokens"] = work()
+                except Exception as exc:  # classified or not, the UI must show it safely
+                    outcome["error"] = exc
+                self.after(0, done)
+
+            threading.Thread(target=execute, daemon=True).start()
+
+        def done():
+            error = outcome.get("error")
+            if error is not None:
+                self.finish_button.configure(state="normal")
+                if isinstance(error, IntegrationError):
+                    self._set_result(f"Etsy refused the exchange ({error.message}). Nothing was changed.")
+                else:
+                    self._set_result(f"Unexpected problem: {error} Nothing was changed.")
+                return
+            tokens = outcome["tokens"]
+            scope_note = f" Approved permissions: {tokens.scope}." if tokens.scope else ""
+            self._set_result("Etsy connected successfully." + scope_note +
+                             "\nDrafts can now be created from the Selected Book tab — publishing stays entirely in your hands.")
+            if self.on_done:
+                self.on_done()
+
+        runner()
