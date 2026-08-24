@@ -98,9 +98,40 @@ Example: a future Gumroad adapter at `integrations/gumroad/`.
    Never write a second store; never move a human-confirmed
    Uploaded/Published record backwards.
 
+## Adoption status (batch 3, Phase A)
+
+The foundation is no longer theoretical - the app consumes it today:
+
+- **Registry export tier**: `_FACTORIES` (API adapters) is joined by
+  `_EXPORT_FACTORIES` + `get_export_integration(key)` so export-only
+  platforms are first-class while Phase A invariants hold
+  (`available_keys() == ("etsy",)`, `get_integration("amazon") is None`).
+- **Amazon KDP adapter**: `integrations/amazon/kdp_export.py`
+  (`KDPPackageExportIntegration`, registry key `amazon_kdp`) validates the
+  two mandatory print artifacts and writes
+  `out/exports/amazon_kdp/<product-id>/` via `write_export_bundle`.
+  Fully offline: no network, process or browser calls (test-enforced).
+- **Hub read paths** (`publishing/ui.py`): selection identity flows through
+  `MasterProductFactory.from_book_record`; marketplace rows render through
+  `PublicationRecord`; "View Master Product" opens a read-only inspector;
+  "Generate Export Package" is capability-gated
+  (`export_action_enabled`) and persists ONLY automation state via
+  `apply_export_outcome` (`integration_state="exported"` on success,
+  an `export_failed` event otherwise). Human-owned statuses are never
+  touched by export.
+- **Etsy draft payload**: `draft_service._run_remote` now builds its
+  createDraftListing body as
+  `book -> MasterProductFactory -> EtsyListingMapper.to_listing_data ->
+  to_form_fields()` (lazy import; mapper reuses this module's sanitizers).
+  Byte parity with the legacy `build_draft_fields` path is test-proven.
+- **Series**: `MasterProduct.series` added (additive); factory maps
+  `metadata["series"]`; Hub overview shows it.
+- Tests: `tests/test_hub_universal_adoption.py`.
+
 ## Testing rules
 
 Everything above is covered by offline tests:
-`tests/test_universal_publishing_foundation.py` and
-`tests/test_universal_factory_and_mapper.py`. New adapters must ship the same
+`tests/test_universal_publishing_foundation.py`,
+`tests/test_universal_factory_and_mapper.py`, and
+`tests/test_hub_universal_adoption.py`. New adapters must ship the same
 style: fake transports, tmp_path fixtures, no network, no real credentials.

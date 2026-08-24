@@ -303,7 +303,17 @@ class EtsyDraftService:
             else:
                 taxonomy_id = self._resolve_taxonomy(client)
                 price = float(((metadata.get("price") or {}).get("etsy")) or 6.99)
-                fields = build_draft_fields(metadata, taxonomy_id, price)
+                # Universal Publishing adoption: build the payload from the
+                # canonical MasterProduct through the shared EtsyListingMapper.
+                # Byte-parity with build_draft_fields is proven by tests; the
+                # import stays local because the mapper reuses this module's
+                # title/tag sanitizers (import cycle).
+                from integrations.factory import MasterProductFactory
+                from integrations.etsy.mapper import EtsyListingMapper
+
+                product = MasterProductFactory.from_book_record(book)
+                fields = EtsyListingMapper().to_listing_data(
+                    product, taxonomy_id=taxonomy_id, price_override=price).to_form_fields()
                 created = client.create_draft_listing(shop_id, fields)
                 new_id = created.get("listing_id")
                 if not new_id:

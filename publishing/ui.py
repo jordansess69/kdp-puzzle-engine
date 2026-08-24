@@ -5,12 +5,14 @@ import os
 import threading
 import tkinter as tk
 import webbrowser
+from pathlib import Path
 from tkinter import messagebox, ttk
 
 from .database import MARKETPLACES
 from .marketplaces import PUBLISHERS
 from .etsy_bundles import ETSY_STORE_NAME
 from .readiness import PREPARED_FOLDER_NAMES, format_history, marketplace_rows, next_actions, online_state_text, whats_left
+from integrations.publication import PublicationRecord
 
 DISPLAY = {"amazon": "Amazon", "etsy": "Etsy", "ingram": "Ingram", "website": "Website", "lulu": "Lulu", "bookvault": "BookVault", "barnes_noble": "B&N"}
 STATUS_VALUES = ("Not Prepared", "Ready", "Uploaded", "Published", "Error", "Needs Review")
@@ -53,6 +55,194 @@ def draft_action_enabled(row: dict | None) -> bool:
         and bool(row.get("has_local_folder"))
         and row.get("status") not in ("Uploaded", "Published")
     )
+
+
+def integration_info_for(key: str) -> dict | None:
+    """Discovery metadata for one marketplace key (None when unknown).
+
+    Backed by the integration registry so the UI never hardcodes per-platform
+    branching: mode (api/export_only/manual), status (active/planned) and
+    truthful capabilities all come from one source.
+    """
+    from integrations.registry import get_integration_info
+
+    return get_integration_info(key)
+
+
+def export_action_enabled(row: dict | None, info: dict | None) -> bool:
+    """Capability-driven gate for 'Generate Export Package'.
+
+    Enabled only for a channel whose registered integration is an ACTIVE
+    export-only adapter advertising can_export_package, with a prepared
+    folder to export from.  Human-confirmed records stay untouchable.
+    """
+    if not row or not info:
+        return False
+    return (
+        info.get("mode") == "export_only"
+        and info.get("status") == "active"
+        and bool(info.get("capabilities", {}).get("can_export_package"))
+        and bool(row.get("has_local_folder"))
+        and row.get("status") not in ("Uploaded", "Published")
+    )
+
+
+def selected_book_overview(product, book: dict) -> str:
+    """The one-line overview from the canonical MasterProduct read model.
+
+    Raw catalog fields are still available to callers; this helper simply
+    proves the Hub's displayed identity flows through the universal model.
+    """
+    meta = book.get("metadata") or {}
+    details: list[str] = []
+    if product.subtitle:
+        details.append(str(product.subtitle))
+    if product.series:
+        details.append(f"Series: {product.series}")
+    theme = str(meta.get("theme") or "").strip()
+    if theme:
+        details.append(f"Theme: {theme}")
+    pages = int(product.page_count or 0)
+    details.append(f"{pages} page{'s' if pages != 1 else ''}")
+    details.append(f"ISBN: {product.isbn or 'not assigned'}")
+    return "  |  ".join(details)
+
+
+def _format_bytes(size) -> str:
+    try:
+        size = int(size)
+    except (TypeError, ValueError):
+        return ""
+    if size < 1024:
+        return f"{size} B"
+    if size < 1024 * 1024:
+        return f"{size / 1024:.1f} KB"
+    return f"{size / (1024 * 1024):.1f} MB"
+
+
+def artifact_summary_lines(product) -> list[str]:
+    """Read-only artifact manifest lines; never computes hashes here."""
+    lines: list[str] = []
+    for artifact in product.artifacts:
+        position = f"#{artifact.position} " if artifact.position else ""
+        size = _format_bytes(artifact.file_size) or "size unknown"
+        checksum = artifact.checksum or "Not calculated"
+        label = f" — {artifact.label}" if artifact.label else ""
+        lines.append(
+            f"{position}{artifact.purpose.value}: {os.path.basename(artifact.path)}"
+            f" [{artifact.media_type or 'unknown type'}, {size}, checksum: {checksum}]{label}"
+        )
+        lines.append(f"    {artifact.path}")
+    return lines
+
+
+def render_master_product_text(product) -> str:
+    """Full read-only inspector text for the canonical product.
+
+    Sections: Identity / Metadata / Commercial / Print / Artifacts /
+    Source.  Contains no credentials by construction - MasterProduct cannot
+    carry them.
+    """
+    def line(label: str, value) -> str:
+        text = str(value).strip() if value is not None else ""
+        return f"{label}: {text if text else '—'}"
+
+    sections = [
+        "IDENTITY",
+        line("  Internal product ID", product.internal_product_id),
+        line("  SKU", product.sku),
+        line("  Revision", product.revision),
+        "",
+        "METADATA",
+        line("  Title", product.title),
+        line("  Subtitle", product.subtitle),
+        line("  Series", product.series),
+        line("  Author/Creator", product.author),
+        line("  Brand/Imprint", product.brand),
+        line("  Language", product.language),
+        line("  Product type", product.product_type),
+        line("  Target audience", product.target_audience),
+        line("  Categories", "; ".join(product.categories)),
+        line("  Keywords", "; ".join(product.keywords)),
+        line("  Tags", ", ".join(product.tags)),
+        "",
+        "COMMERCIAL",
+        line("  Price", f"{product.price:.2f} {product.currency}" if product.price is not None else ""),
+        line("  Publication date", product.publication_date),
+        line("  Copyright", product.copyright_notice),
+        "",
+        "PRINT",
+        line("  ISBN", product.isbn),
+        line("  Page count", product.page_count or ""),
+        line("  Trim size", product.trim_size),
+        line("  Bleed", f'{product.bleed_inches}"' if product.bleed_inches is not None else ""),
+        "",
+        "ARTIFACTS" + ("" if product.artifacts else "  (none found)"),
+        *artifact_summary_lines(product),
+        "",
+        "SOURCE / REVISION",
+        line("  Source reference", product.source_reference),
+        line("  Generated at", product.generated_at),
+        line("  AI disclosure", product.ai_disclosure or "Not set"),
+    ]
+    return "\n".join(sections)
+
+
+def marketplace_row_values(record, row_label: str, readiness_label: str) -> tuple:
+    """Treeview values derived from the PublicationRecord view.
+
+    Output is byte-identical to the previous raw-row rendering, so adopting
+    the domain model changes nothing the user can see.
+    """
+    return (
+        row_label,
+        record.listing_status or "Not Prepared",
+        readiness_label,
+        record.remote_id or "—",
+        "Saved link" if record.remote_url else "—",
+        record.updated_at[:16].replace("T", " ") or "—",
+    )
+
+
+def apply_export_outcome(db, book_id: str, marketplace: str, result) -> None:
+    """Persist ONLY automation-owned state after an export attempt.
+
+    The human-owned status/external_id/url columns and their audit trail are
+    never touched: an export package is preparation, not publication.
+    """
+    if result.success:
+        db.set_integration_state(book_id, marketplace, "exported")
+    else:
+        db.record_integration_event(book_id, marketplace, "export_failed", result.message)
+
+
+class MasterProductDialog(tk.Toplevel):
+    """Read-only canonical product inspector ("View Master Product")."""
+
+    def __init__(self, parent, service, book: dict) -> None:
+        super().__init__(parent)
+        from integrations.factory import MasterProductFactory
+
+        self.title("Master Product")
+        self.geometry("760x620"); self.minsize(600, 420)
+        self.configure(background="#1f1f1f"); self.transient(parent)
+        root = ttk.Frame(self, padding=18, style="Publish.TFrame"); root.pack(fill="both", expand=True)
+        root.rowconfigure(1, weight=1); root.columnconfigure(0, weight=1)
+        title = (book.get("metadata") or {}).get("title") or "book"
+        ttk.Label(root, text=f'Master Product — {title}', style="Publish.Title.TLabel").grid(row=0, column=0, sticky="w", pady=(0, 8))
+        box = tk.Text(root, wrap="word", state="disabled", background="#292929",
+                      foreground="#d9f5ee", relief="flat", padx=12, pady=10)
+        box.grid(row=1, column=0, sticky="nsew")
+        scroll = ttk.Scrollbar(root, orient="vertical", command=box.yview)
+        scroll.grid(row=1, column=1, sticky="ns"); box.configure(yscrollcommand=scroll.set)
+        ttk.Button(root, text="Close", command=self.destroy, style="Publish.Action.TButton").grid(row=2, column=0, sticky="e", pady=(10, 0))
+        try:
+            product = MasterProductFactory.from_book_record(book)
+            text = render_master_product_text(product)
+        except Exception as exc:
+            text = (f"The master product could not be built from this catalog record.\n\n"
+                    f"Details: {exc}")
+        box.configure(state="normal"); box.delete("1.0", "end"); box.insert("end", text); box.configure(state="disabled")
 
 
 def publishing_counts_line(rows: list[dict]) -> str:
@@ -209,6 +399,8 @@ class PublishingManagerDialog(tk.Toplevel):
         overview = ttk.Labelframe(root, text="Book overview", padding=12, style="Publish.Card.TLabelframe"); overview.grid(row=0, column=0, sticky="ew"); overview.columnconfigure(0, weight=1)
         self.sel_title = tk.StringVar(value=""); self.sel_detail = tk.StringVar(value=""); self.sel_path = tk.StringVar(value=""); self.sel_counts = tk.StringVar(value="")
         ttk.Label(overview, textvariable=self.sel_title, style="Publish.BookTitle.TLabel").grid(row=0, column=0, sticky="w")
+        # Read-only canonical product inspector (Universal Publishing adoption).
+        ttk.Button(overview, text="View Master Product", command=self._open_master_product, style="Publish.Action.TButton").grid(row=0, column=1, sticky="e")
         ttk.Label(overview, textvariable=self.sel_detail, style="Publish.TLabel", wraplength=1080).grid(row=1, column=0, sticky="w", pady=(3, 0))
         ttk.Label(overview, textvariable=self.sel_path, style="Publish.Subtitle.TLabel", wraplength=1080, justify="left").grid(row=2, column=0, sticky="w", pady=(3, 0))
         ttk.Label(overview, textvariable=self.sel_counts, style="Publish.Status.TLabel", wraplength=1080).grid(row=3, column=0, sticky="ew", pady=(8, 0))
@@ -244,6 +436,7 @@ class PublishingManagerDialog(tk.Toplevel):
             ("listing", "Open saved live listing", self._open_saved_listing, "Publish.Action.TButton"),
             ("record", "Record listing / update status", self._open_record_listing, "Publish.Primary.TButton"),
             ("draft", "Create Etsy draft", self._create_etsy_draft, "Publish.Action.TButton"),
+            ("export", "Generate Export Package", self._generate_export_package, "Publish.Action.TButton"),
             ("history", "View history", self._open_marketplace_history, "Publish.Action.TButton"),
         )
         self.market_buttons: dict[str, ttk.Button] = {}
@@ -263,26 +456,39 @@ class PublishingManagerDialog(tk.Toplevel):
             else:
                 self.selected_empty_text.set("Select a book from the Catalog tab to view publishing readiness and marketplace actions.")
             self.selected_book, self.selected_market_key, self.marketplace_row_map = None, "", {}
+            self.master_product = None
+            self.publication_records = {}
             return
         book = books[0]; self.selected_book = book
         self.selected_content.grid(); self.selected_empty.grid_remove()
         meta = book["metadata"]
+        # Canonical read model for this selection (Universal Publishing adoption):
+        # display identity flows through MasterProduct; raw records stay available
+        # to the service calls below.
+        from integrations.factory import MasterProductFactory
+
+        try:
+            product = MasterProductFactory.from_book_record(book)
+            self.master_product = product
+        except Exception:
+            self.master_product = None
         self.sel_title.set(meta.get("title") or "Untitled book")
-        details: list[str] = []
-        if meta.get("subtitle"):
-            details.append(str(meta["subtitle"]))
-        if meta.get("series"):
-            details.append(f"Series: {meta['series']}")
-        if meta.get("theme"):
-            details.append(f"Theme: {meta['theme']}")
-        pages = int(meta.get("page_count") or 0)
-        details.append(f"{pages} page{'s' if pages != 1 else ''}")
-        details.append(f"ISBN: {meta.get('isbn') or 'not assigned'}")
-        self.sel_detail.set("  |  ".join(details))
+        self.sel_detail.set(selected_book_overview(self.master_product, book) if self.master_product else "")
         package = str(book.get("package_path") or "")
         self.sel_path.set(f"Master package: {package}" if package else "Source theme only — create the complete package to unlock marketplace preparation.")
-        rows = marketplace_rows(book, self.service.db.marketplace_records(book["book_id"]))
+        records = self.service.db.marketplace_records(book["book_id"])
+        rows = marketplace_rows(book, records)
         self.marketplace_row_map = {row["key"]: row for row in rows}
+        # Domain views over the authoritative rows (no second persistence layer):
+        self.publication_records = {
+            key: PublicationRecord.from_marketplace_record(
+                book["book_id"], key, {**record, "marketplace": key, "book_id": book["book_id"]},
+                {"integration_state": record.get("integration_state", ""),
+                 "idempotency_key": record.get("idempotency_key", ""),
+                 "external_sku": record.get("external_sku", ""),
+                 "last_synced_at": record.get("last_synced_at", "")})
+            for key, record in records.items()
+        }
         self.sel_counts.set(publishing_counts_line(rows))
         self.whats_left_box.configure(state="normal"); self.whats_left_box.delete("1.0", "end"); self.whats_left_box.insert("end", whats_left_text(rows)); self.whats_left_box.configure(state="disabled")
         self.market_tree.selection_remove(*self.market_tree.selection())
@@ -292,10 +498,10 @@ class PublishingManagerDialog(tk.Toplevel):
             for row in rows:
                 attention = row["status"] in ("Error", "Needs Review") or bool(row["error_message"])
                 tag = "attention" if attention else ("ok" if row["indicator"] == "ok" else "")
-                self.market_tree.insert("", "end", iid=row["key"], tags=(tag,) if tag else (), values=(
-                    DISPLAY_GRID.get(row["key"], row["label"]), row["status"], row["readiness_label"],
-                    row["external_id"] or "—", "Saved link" if row["url"] else "—",
-                    row["updated_at"][:16].replace("T", " ") or "—"))
+                values = marketplace_row_values(
+                    self.publication_records.get(row["key"]),
+                    DISPLAY_GRID.get(row["key"], row["label"]), row["readiness_label"])
+                self.market_tree.insert("", "end", iid=row["key"], tags=(tag,) if tag else (), values=values)
             # Keep the user's marketplace row across refreshes (after Prepare,
             # saving a listing, etc.) so async selection echoes land somewhere
             # stable instead of wiping the action bar state.
@@ -340,6 +546,7 @@ class PublishingManagerDialog(tk.Toplevel):
             "listing": bool(row and row["url"]),
             "record": bool(row),
             "draft": draft_action_enabled(row) and not getattr(self, "_draft_in_progress", False),
+            "export": export_action_enabled(row, integration_info_for(row["key"] if row else "")) and not getattr(self, "_export_in_progress", False),
             "history": bool(row),
         }
         for name, button in self.market_buttons.items():
@@ -449,6 +656,84 @@ class PublishingManagerDialog(tk.Toplevel):
                 messagebox.showinfo(title, result.message + ("\n\nEvents:\n• " + "\n• ".join(result.events) if result.events else ""), parent=self)
             else:
                 messagebox.showwarning(title, result.message, parent=self)
+
+        def runner():
+            result = work()
+            self.after(0, lambda: done(result))
+
+        threading.Thread(target=runner, daemon=True).start()
+
+    def _open_master_product(self) -> None:
+        book = self.selected_book
+        if not book:
+            return
+        MasterProductDialog(self, self.service, book)
+
+    def _generate_export_package(self) -> None:
+        """Run the registered export-only adapter in a background thread.
+
+        Writes a local handoff folder only. On success the automation-owned
+        integration_state becomes "exported"; human-owned statuses are never
+        touched (an export package is preparation, not publication).
+        """
+        row = self._current_market_row()
+        book = self.selected_book
+        if not row or not book or getattr(self, "_export_in_progress", False):
+            return
+        info = integration_info_for(row["key"])
+        if not export_action_enabled(row, info):
+            messagebox.showinfo(
+                "Export not available yet",
+                f"{row['label']} does not offer an automated export package yet.",
+                parent=self)
+            return
+
+        self._export_in_progress = True
+        button = self.market_buttons.get("export")
+        if button is not None:
+            button.configure(state="disabled")
+        self.status.set(f"Building the {row['label']} export package… Files are written locally only.")
+
+        service = self.service
+
+        def work():
+            from integrations.factory import MasterProductFactory
+            from integrations.registry import get_export_integration
+
+            try:
+                export_key = info.get("export_key") or row["key"]
+                adapter = get_export_integration(export_key)
+                if adapter is None:
+                    from integrations.results import PublishResult
+
+                    return PublishResult.failure("No export adapter is registered for this marketplace.")
+                product = MasterProductFactory.from_book_record(book)
+                destination = Path(service.output) / "exports" / export_key
+                return adapter.export_package(product, destination)
+            except Exception as exc:  # last-resort net so the UI never dies silently
+                from integrations.results import PublishResult
+
+                return PublishResult.failure(f"Unexpected problem while building the export package: {exc}")
+
+        def done(result):
+            self._export_in_progress = False
+            apply_export_outcome(self.service.db, book["book_id"], row["key"], result)
+            self.refresh()
+            folder = str(getattr(result, "recovery", {}).get("folder", "")) if isinstance(getattr(result, "recovery", None), dict) else ""
+            if result.success:
+                self.status.set(f"{row['label']} export package ready at {result.artifact_path}. Nothing was uploaded.")
+                open_now = messagebox.askyesno(
+                    "Export package ready",
+                    f"{result.message}\n\nOpen the folder now?", parent=self)
+                if open_now:
+                    target = folder or str(result.artifact_path)
+                    if os.path.isdir(target):
+                        os.startfile(target)
+                    else:
+                        messagebox.showinfo("Folder moved", f"The folder is no longer here:\n{target}", parent=self)
+            else:
+                self.status.set(f"The {row['label']} export could not be built: {result.message}")
+                messagebox.showwarning("Export needs attention", result.message, parent=self)
 
         def runner():
             result = work()

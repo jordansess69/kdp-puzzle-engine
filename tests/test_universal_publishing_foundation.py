@@ -318,7 +318,11 @@ class TestRegistry:
         assert etsy["status"] == "active"
         kdp = registry.get_integration_info("amazon")
         assert kdp["display_name"] == "Amazon KDP"
-        assert kdp["mode"] == "export_only" and kdp["status"] == "planned"
+        assert kdp["mode"] == "export_only"
+        # A real local export adapter exists since the adoption batch.
+        assert kdp["status"] == "active"
+        assert kdp["capabilities"]["can_export_package"] is True
+        assert registry.get_export_integration("amazon_kdp") is not None
 
     def test_get_integration_info_unknown_is_none(self):
         assert registry.get_integration_info("shopify") is None

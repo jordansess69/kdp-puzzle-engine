@@ -24,7 +24,12 @@ from integrations.base import PublishingIntegration
 
 
 # Explicit registry: registry key -> factory. No scanning, no magic imports.
+# _FACTORIES holds API-style adapters only; export-only adapters live in
+# _EXPORT_FACTORIES so Phase A invariants (available_keys() == ("etsy",),
+# get_integration("amazon") is None) stay provable while export-only platforms
+# remain first-class through get_export_integration().
 _FACTORIES = {}
+_EXPORT_FACTORIES = {}
 
 
 def register_integration(key: str, factory):
@@ -35,9 +40,19 @@ def register_integration(key: str, factory):
     _FACTORIES[normalized] = factory
 
 
+def register_export_integration(key: str, factory):
+    """Explicitly register an export-only adapter factory under *key*."""
+    normalized = _normalize(key)
+    if not normalized:
+        raise ValueError("An integration key is required.")
+    _EXPORT_FACTORIES[normalized] = factory
+
+
 def unregister_integration(key: str) -> bool:
     """Remove a registration; mainly for tests."""
-    return _FACTORIES.pop(_normalize(key), None) is not None
+    removed_api = _FACTORIES.pop(_normalize(key), None) is not None
+    removed_export = _EXPORT_FACTORIES.pop(_normalize(key), None) is not None
+    return removed_api or removed_export
 
 
 def _normalize(key) -> str:
@@ -52,6 +67,15 @@ def get_integration(key, **kwargs) -> Optional[PublishingIntegration]:
     """
     normalized = _normalize(key)
     factory = _FACTORIES.get(normalized)
+    if factory is None:
+        return None
+    return factory(**kwargs)
+
+
+def get_export_integration(key, **kwargs):
+    """Return an export-only adapter for *key*, or None when unregistered."""
+    normalized = _normalize(key)
+    factory = _EXPORT_FACTORIES.get(normalized)
     if factory is None:
         return None
     return factory(**kwargs)
@@ -75,43 +99,68 @@ _MODE_MANUAL = "manual"
 _STATUS_ACTIVE = "active"        # working adapter exists today
 _STATUS_PLANNED = "planned"      # manual workflow only; adapter may come later
 
+
+def _capabilities(**flags) -> dict:
+    from integrations.base import CapabilityFlags
+
+    return CapabilityFlags(**flags).capability_dict
+
+
+# Truthful system-wide capability advertisement per channel.  Etsy reflects
+# the committed connection + draft-automation surface (never activation);
+# amazon_kdp reflects the local export builder.  Planned channels advertise
+# nothing yet.
 _INTEGRATION_INFO = (
     {"key": "etsy", "display_name": "Etsy", "mode": _MODE_API,
-     "requires_connection": True, "status": _STATUS_ACTIVE},
+     "requires_connection": True, "status": _STATUS_ACTIVE,
+     "capabilities": _capabilities(can_test_connection=True, can_create_draft=True,
+                                    can_upload_files=True, can_upload_images=True)},
     {"key": "amazon", "display_name": "Amazon KDP", "mode": _MODE_EXPORT_ONLY,
-     "requires_connection": False, "status": _STATUS_PLANNED},
+     "requires_connection": False, "status": _STATUS_ACTIVE,
+     "export_key": "amazon_kdp",
+     "capabilities": _capabilities(can_export_package=True, can_validate_products=True)},
     {"key": "ingram", "display_name": "IngramSpark", "mode": _MODE_EXPORT_ONLY,
-     "requires_connection": False, "status": _STATUS_PLANNED},
+     "requires_connection": False, "status": _STATUS_PLANNED,
+     "capabilities": _capabilities()},
     {"key": "website", "display_name": "Direct Website", "mode": _MODE_MANUAL,
-     "requires_connection": False, "status": _STATUS_PLANNED},
+     "requires_connection": False, "status": _STATUS_PLANNED,
+     "capabilities": _capabilities()},
     {"key": "lulu", "display_name": "Lulu Direct", "mode": _MODE_EXPORT_ONLY,
-     "requires_connection": False, "status": _STATUS_PLANNED},
+     "requires_connection": False, "status": _STATUS_PLANNED,
+     "capabilities": _capabilities()},
     {"key": "bookvault", "display_name": "BookVault", "mode": _MODE_EXPORT_ONLY,
-     "requires_connection": False, "status": _STATUS_PLANNED},
+     "requires_connection": False, "status": _STATUS_PLANNED,
+     "capabilities": _capabilities()},
     {"key": "barnes_noble", "display_name": "Barnes & Noble", "mode": _MODE_EXPORT_ONLY,
-     "requires_connection": False, "status": _STATUS_PLANNED},
+     "requires_connection": False, "status": _STATUS_PLANNED,
+     "capabilities": _capabilities()},
 )
 
 
 def integration_metadata() -> list[dict]:
     """Fresh copies of the discovery rows, in canonical marketplace order."""
-    return [dict(entry) for entry in _INTEGRATION_INFO]
+    return [get_integration_info(entry["key"]) for entry in _INTEGRATION_INFO]
 
 
 def get_integration_info(key) -> Optional[dict]:
-    """Discovery row for one key (works with or without an installed adapter)."""
+    """Discovery metadata for one key (fresh deep-enough copy each call)."""
     normalized = _normalize(key)
-    for entry in _INTEGRATION_INFO:
-        if entry["key"] == normalized:
-            return dict(entry)
+    for row in _INTEGRATION_INFO:
+        if row["key"] == normalized:
+            # Copy nested dicts too so callers can never mutate global state.
+            info = dict(row)
+            info["capabilities"] = dict(row.get("capabilities") or {})
+            return info
     return None
 
 
 def _register_builtin_integrations():
     """Wire the built-in adapters. Kept in one place for review clarity."""
     from integrations.etsy.connection import create_etsy_integration
+    from integrations.amazon.kdp_export import create_kdp_export_integration
 
     register_integration("etsy", create_etsy_integration)
+    register_export_integration("amazon_kdp", create_kdp_export_integration)
 
 
 _register_builtin_integrations()

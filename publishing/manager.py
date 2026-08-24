@@ -41,10 +41,20 @@ class PublishingService:
         # Theme Builder keeps historical timestamped copies. They are useful
         # source backups but should not look like separate books for sale.
         grouped: dict[str, list[tuple[Path, Path | None]]] = {}
+        unreadable: set[str] = set()
         for path in themes:
             try:
                 source = json.loads(path.read_text(encoding="utf-8-sig"))
             except (OSError, json.JSONDecodeError):
+                # A theme file that still exists but cannot be read/parsed
+                # (disk hiccup, partial write, encoding damage) must not
+                # silently delete its catalog book — that would destroy
+                # statuses, saved listing links and ISBN assignments during
+                # a routine re-sync. Keep it active; fixing the file and
+                # re-syncing refreshes it normally. Truly vanished files
+                # (path gone) still prune as before.
+                if path.is_file():
+                    unreadable.add(str(path.resolve()))
                 continue
             key = self._publication_key(source)
             record = release_catalog.get(path.name, {}); raw = str(record.get("package") or "")
@@ -54,6 +64,7 @@ class PublishingService:
         for candidates in grouped.values():
             path, package = max(candidates, key=self._canonical_score)
             self.sync_theme(path, package); active.add(str(path.resolve()))
+        active |= unreadable
         self.db.prune_sources(active)
         return len(grouped)
 

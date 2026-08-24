@@ -121,6 +121,7 @@ class MasterProduct:
     # -- core metadata -------------------------------------------------------
     title: str = ""
     subtitle: str = ""
+    series: str = ""
     description: str = ""
     short_description: str = ""
     author: str = ""

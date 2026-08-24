@@ -117,6 +117,7 @@ class MasterProductFactory:
             revision=int(meta.get("edition") or 1),
             title=str(meta.get("title") or ""),
             subtitle=str(meta.get("subtitle") or ""),
+            series=str(meta.get("series") or ""),
             description=str(meta.get("description") or ""),
             short_description=str(meta.get("short_description") or ""),
             author=author,
