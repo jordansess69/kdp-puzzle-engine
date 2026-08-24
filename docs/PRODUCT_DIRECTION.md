@@ -112,5 +112,75 @@ upload-ready packages where official APIs are unavailable.
 - Etsy draft pipeline: existing, working; adoption of shared mappers complete.
 - Word Intelligence system: under active development (`word_intelligence/`),
   see mission spec §1–66; this is the CURRENT PHASE.
+- Theme cleanup safety model (2026-08-24): dry-run repair plans carry tiers
+  (`auto` ≤10% share & very-high confidence; `review` 10–35%;
+  `approval_required` >35%; `blocked` when unresolved gaps exist). Only auto
+  may ever apply, `cleanup_theme_library.py apply` is dry-run by default,
+  and any non-auto tier requires per-plan `--approve-plan`. Measured plan
+  distribution: shares span ~5–50%, so almost everything correctly lands in
+  review/approval — curated books need curation, not batch rewriting.
+  Standard↔Signature edition pairs are intentional products and are never
+  treated as duplicates. Read-only perf baseline:
+  `out/word_intelligence_reports/perf_baseline-20260824-084709.json`
+  (full 236-theme inventory ≈37 s; single-theme audit ≈73 ms; store lookups
+  ≈0.14 µs; cached store load ≈1.7 s).
 - Gumroad / Shopify / full KDP workflow / IngramSpark / secondary channels:
   NOT started — future phases in the sequence above.
+
+## Performance & Resource Baseline (project-wide architectural rule)
+
+Adopted 2026-08-24. Philosophy: **feature-rich, modular, responsive, and
+lightweight when idle.** Performance is architecture, not a later cleanup.
+
+### The Idle Rule
+> If the user is not actively using a feature, that feature consumes
+> approximately zero CPU/network and as little extra memory as practical.
+
+No marketplace polling, AI-provider initialization, or intelligence analysis
+may run merely because the app is open. Heavy systems follow
+**Load → Perform Task → Release**, never Load Everything and stay resident.
+
+### Standing engineering rules
+- **Lazy by default.** Startup initializes GUI shell + core state only.
+  Word store, integrations, AI providers, publication history load on demand.
+- **Word Base scalability.** Indexed/targeted lookups over full scans; no
+  duplicate full-library copies in RAM; incremental updates; cached stable
+  results; pagination/result limits in GUI surfaces; heavy work stays off the
+  Tk main thread (daemon thread + `after(0, ...)` marshalling).
+- **Classification coverage ≠ puzzle eligibility.** Dictionary inclusion
+  never auto-admits a word into puzzles; production pools require trusted/
+  approved or very-high-band evidence plus quality/safety gates (enforced in
+  `word_intelligence/repair.py` candidate pools and pool_builder).
+- **Background jobs.** Long operations run as controlled background work with
+  progress; a future JobQueue (queued/running/completed/failed/cancelled) is
+  deferred until bulk workflows justify it.
+- **Controlled concurrency.** More parallelism is not better; sequential or
+  small-batch execution for heavy jobs until proven otherwise.
+- **Memory discipline.** File-backed/streaming processing for PDFs and
+  high-resolution images; release large assets when the job finishes;
+  thumbnails instead of full-resolution images in GUI memory.
+- **Optional features stay optional.** Core puzzle/book generation must work
+  with no AI image provider and no marketplace configured. Local AI models,
+  if ever supported, are explicit user-initiated downloads with sizes shown —
+  never bundled, never initialized at startup; hardware-capability detection
+  is deferred to that future phase.
+- **Marketplace isolation & lightweight clients.** Integrations initialize on
+  demand, never poll by default, fail independently; Lulu Direct remains
+  print-fulfillment via its native store connectors (no redundant order
+  monitoring built here).
+- **Incremental builds (direction).** Changing one artifact (e.g. description)
+  must not regenerate upstream artifacts (words/puzzles/PDF); track enough
+  dependency info to skip unchanged work once product pipelines exist.
+
+### Baseline & budgets
+A read-only performance baseline of current operations is recorded during the
+Word Base phase (startup, store load, lookups, classifier run, theme audit,
+representative generation). Broad regression budgets — same performance class,
+interactive lookups, zero idle CPU, background-safe long jobs — guide future
+work; no brittle timing assertions. Local diagnostics only; no telemetry.
+
+### Feature checklist (every major feature)
+Startup needed? Resident? Lazy-loadable? Cacheable? Incremental? Background-
+safe? Duplicating an existing service? Laptop-friendly? Failure isolated?
+Full-database scan avoidable? Large files held in RAM? Idle CPU/network cost?
+Simpler implementation possible? Correctness always outranks micro-speed.

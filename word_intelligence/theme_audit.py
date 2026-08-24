@@ -49,10 +49,12 @@ class WordFinding:
     display: str
     status: str          # on_topic | related | likely_ok | weak | off_topic | flagged | duplicate
     detail: str = ""
+    puzzle_index: int = -1   # which puzzle the occurrence came from (-1 = file-level)
 
     def to_dict(self) -> dict:
         return {"word": self.display, "normalized": self.normalized,
-                "status": self.status, "detail": self.detail}
+                "status": self.status, "detail": self.detail,
+                "puzzle_index": self.puzzle_index}
 
 
 @dataclass
@@ -67,6 +69,9 @@ class ThemeAuditReport:
     duplicate_pairs: list[tuple] = field(default_factory=list)
     verdict: str = VERDICT_REVIEW_REQUIRED
     notes: list[str] = field(default_factory=list)
+    # Parsed source data, when the report came from a file. Carried so
+    # downstream passes (inventory/repair) never re-read/re-parse themes.
+    theme_data: dict | None = None
 
     def to_dict(self) -> dict:
         return {
@@ -104,11 +109,37 @@ def resolve_target_topics(theme: dict, taxonomy) -> tuple[list[str], str]:
     if cid:
         return [cid], "detected_topic"
 
-    title_tokens = set(clean_surface(theme.get("title") or ""))
-    for slug, topic in taxonomy.topics.items():
-        for alias in topic.aliases:
-            if clean_surface(alias) == title_tokens and len(title_tokens) >= 4:
-                return [slug], "title_match"
+    # Token-based title match: a legacy file titled "Christmas Word Search
+    # Puzzles" should anchor to the Christmas topic even though its cleaned
+    # title never equals an alias string. Multi-token aliases must appear in
+    # full inside the title; a single-token alias is accepted only when that
+    # token is specific enough (used by at most a few topics) so generic
+    # words like "Fun" or "Party" can never hijack a book.
+    from .taxonomy import _name_tokens_in_order
+
+    title_set = set(_name_tokens_in_order(str(theme.get("title") or "")))
+    if title_set:
+        token_topics: dict[str, set[str]] = {}
+        for slug, topic in taxonomy.topics.items():
+            for alias in topic.aliases:
+                for token in _name_tokens_in_order(alias):
+                    token_topics.setdefault(token, set()).add(slug)
+        best_slug, best_len = "", 0
+        for slug, topic in taxonomy.topics.items():
+            for alias in topic.aliases:
+                alias_tokens = _name_tokens_in_order(alias)
+                if not alias_tokens:
+                    continue
+                if len(alias_tokens) == 1:
+                    token = alias_tokens[0]
+                    if len(token_topics.get(token, ())) > 3 or token not in title_set:
+                        continue
+                elif not (set(alias_tokens) <= title_set):
+                    continue
+                if len(alias_tokens) > best_len:
+                    best_slug, best_len = slug, len(alias_tokens)
+        if best_slug:
+            return [best_slug], "title_match"
     return [], "unresolved"
 
 
@@ -214,7 +245,8 @@ def audit_theme(theme_data: dict, theme_file: str, store, taxonomy,
     findings_by_norm: dict[str, WordFinding] = {}
     used_puzzle_names = False
 
-    for puzzle, words_here in zip(theme_data.get("puzzles") or [], puzzle_words):
+    for puzzle_index, (puzzle, words_here) in enumerate(
+            zip(theme_data.get("puzzles") or [], puzzle_words)):
         if multi_anchor:
             targets = [_best_anchor(words_here, file_targets, store)]
         elif file_targets:
@@ -233,6 +265,7 @@ def audit_theme(theme_data: dict, theme_file: str, store, taxonomy,
         for norm in words_here:
             record = store.get(norm)
             finding = _classify_word(norm, record, set(targets), related_cache[key], taxonomy)
+            finding.puzzle_index = puzzle_index
             existing = findings_by_norm.get(norm)
             if existing is None or (existing.status == "off_topic"
                                     and finding.status != "off_topic"):
@@ -243,12 +276,24 @@ def audit_theme(theme_data: dict, theme_file: str, store, taxonomy,
         report.target_resolution += "+puzzle_name"
 
     # Mark repeats (same word used multiple times inside one theme).
+    # Keep-first semantics: the first occurrence keeps its original status;
+    # every later occurrence is reported as a duplicate finding.
+    seen_once: set[str] = set()
     for norm, count in seen_norms.items():
         if count > 1 and norm in findings_by_norm:
             dup = findings_by_norm[norm]
             dup.status = "duplicate"
             dup.detail = f"Used {count}x in this theme"
             report.duplicate_pairs.append((norm, count))
+    if report.duplicate_pairs:
+        repeated = {norm for norm, _count in report.duplicate_pairs}
+        for finding in report.findings:
+            if finding.normalized in repeated:
+                if finding.normalized in seen_once:
+                    finding.status = "duplicate"
+                    finding.detail = "Repeated within the same theme"
+                else:
+                    seen_once.add(finding.normalized)
 
     counts = _status_counts(report.findings)
 
@@ -309,7 +354,9 @@ def audit_theme_file(path, store, taxonomy, **kwargs) -> ThemeAuditReport | None
     data = load_theme(path)
     if data is None:
         return None
-    return audit_theme(data, str(path), store, taxonomy, **kwargs)
+    report = audit_theme(data, str(path), store, taxonomy, **kwargs)
+    report.theme_data = data   # carried for downstream passes; no re-parse
+    return report
 
 
 def audit_all_themes(themes_dir, store, taxonomy, limit: int | None = None) -> dict:
