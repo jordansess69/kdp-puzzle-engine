@@ -200,12 +200,27 @@ class PublishingManagerDialog(tk.Toplevel):
         books = self._selected()
         if not books: messagebox.showwarning("Choose a book", "Select one or more books first.", parent=self); return
         report = self.service.prepare_many([book["book_id"] for book in books], marketplaces); self.refresh()
-        ready = sum(1 for _book, _market, status in report if status == "Ready")
-        if ready == len(report):
-            self.status.set(f"Prepared {ready} marketplace package(s). Your selected book files and listing information are ready to review.")
-            return
-        names = ", ".join(book["metadata"].get("title", "This book") for book in books[:2])
-        self.status.set(f"Nothing was created for {names} because the print package is incomplete. Select the book and choose “Why not KDP ready?” for the exact fix. Do not delete anything.")
+        # Imported here so this truthful-reporting change stays confined to
+        # this method; readiness.py holds the shared classification logic.
+        from .readiness import classify_prepare_report
+        buckets = classify_prepare_report(report)
+        parts: list[str] = []
+        made = buckets["prepared"]
+        if made:
+            parts.append(f"Prepared {len(made)} marketplace package(s). They are ready to review and upload.")
+        confirmed: dict[tuple[str, str], None] = {}
+        for _book_id, marketplace, prior in buckets["already_confirmed"]:
+            confirmed.setdefault((marketplace, prior))
+        for marketplace, prior in confirmed:
+            parts.append(f"{PUBLISHERS[marketplace].label} is already recorded as {prior}. Nothing was changed and your saved listing details remain intact.")
+        if buckets["needs_review"]:
+            parts.append(f"{len(buckets['needs_review'])} marketplace package(s) still need required items. Select the book and choose “Why not KDP ready?” for the exact fix. Your files were not changed.")
+        if buckets["errors"]:
+            first_book, first_market, message = buckets["errors"][0]
+            parts.append(f"Preparation failed for {PUBLISHERS[first_market].label}: {message} Nothing was deleted.")
+        if buckets["other"]:
+            parts.append(f"{len(buckets['other'])} result(s) need a closer look. Open Upload status for the exact confirmed records.")
+        self.status.set(" ".join(parts) if parts else "Nothing needed preparing.")
 
     def show_kdp_readiness(self) -> None:
         books = self._selected()

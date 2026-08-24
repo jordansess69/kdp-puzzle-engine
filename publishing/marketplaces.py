@@ -22,6 +22,9 @@ def _text(target: Path, value: str) -> Path:
 class PreparedPublisher(PublisherBase):
     key = ""
     label = ""
+    # Official seller-portal home page. The UI may open it in the user's
+    # browser; automation is intentionally out of scope for these adapters.
+    portal_url = ""
 
     def validate(self, book: dict) -> list[str]:
         meta, files = book["metadata"], book["metadata"].get("files", {})
@@ -38,6 +41,7 @@ class PreparedPublisher(PublisherBase):
 
 class KdpPublisher(PreparedPublisher):
     key, label = "amazon", "Amazon KDP"
+    portal_url = "https://kdp.amazon.com/en_US/bookshelf"
     def prepare(self, book: dict, target: Path) -> list[Path]:
         meta, files = book["metadata"], book["metadata"].get("files", {}); created = []
         for source, name in ((files.get("print_interior"), "interior.pdf"), (files.get("print_cover"), "cover.pdf")):
@@ -49,6 +53,7 @@ class KdpPublisher(PreparedPublisher):
 
 class EtsyPublisher(PreparedPublisher):
     key, label = "etsy", "Etsy"
+    portal_url = "https://www.etsy.com/shop-manager"
     def validate(self, book: dict) -> list[str]:
         meta, files = book["metadata"], book["metadata"].get("files", {})
         download = Path(str(files.get("printable_pdf") or files.get("print_interior") or ""))
@@ -78,6 +83,7 @@ class EtsyPublisher(PreparedPublisher):
 
 class IngramPublisher(PreparedPublisher):
     key, label = "ingram", "IngramSpark"
+    portal_url = "https://www.ingramspark.com"
     def validate(self, book: dict) -> list[str]:
         issues = super().validate(book)
         meta = book["metadata"]
@@ -127,12 +133,13 @@ class TemplateCoverPublisher(PlaceholderPublisher):
         return issues
 
 
-class LuluPublisher(TemplateCoverPublisher): key, label = "lulu", "Lulu Direct"
-class BookVaultPublisher(TemplateCoverPublisher): key, label = "bookvault", "BookVault"
+class LuluPublisher(TemplateCoverPublisher): key, label = "lulu", "Lulu Direct"; portal_url = "https://www.lulu.com"
+class BookVaultPublisher(TemplateCoverPublisher): key, label = "bookvault", "BookVault"; portal_url = "https://www.bookvault.app"
 
 
 class BarnesNoblePublisher(PlaceholderPublisher):
     key, label = "barnes_noble", "Barnes & Noble"
+    portal_url = "https://www.barnesandnoblepress.com"
     def validate(self, book: dict) -> list[str]:
         meta, files = book["metadata"], book["metadata"].get("files", {})
         issues = [f"Add {item} before preparing Barnes & Noble." for item, value in (("title", meta.get("title")), ("author", meta.get("author"))) if not value]
