@@ -73,6 +73,43 @@ def audit_theme(path: Path, seed: int) -> tuple[list[str], list[str], list[str]]
     return errors, warnings, notes
 
 
+def _word_intelligence_notes(project_root: Path) -> list[str]:
+    """Optional status notes for the word-intelligence layer.
+
+    Reads only the small curated files so project checks stay instant even
+    when the full word store is large. A missing layer is a gentle note,
+    never a problem: the feature is additive and every other check stands
+    on its own.
+    """
+    notes: list[str] = []
+    state_dir = project_root / "word_banks" / "word_intelligence"
+    if not state_dir.exists():
+        notes.append("Word Intelligence: not built yet; open the Word Intelligence Center to start matching words to topics.")
+        return notes
+    links_path = state_dir / "approved_topic_links.json"
+    try:
+        payload = json.loads(links_path.read_text(encoding="utf-8-sig"))
+        approved = sum(
+            1 for topics in (payload.get("links") or {}).values()
+            for info in topics.values()
+            if isinstance(info, dict) and info.get("status") == "approved")
+        if approved:
+            notes.append(f"Word Intelligence: {approved} human-approved topic match(es) will be reused by bank rebuilds.")
+        else:
+            notes.append("Word Intelligence: no approved links saved yet.")
+    except (OSError, json.JSONDecodeError):
+        notes.append("Word Intelligence: approved-links file not written yet (dry runs and classifier suggestions are unaffected).")
+    queue_path = state_dir / "review_queue.json"
+    try:
+        queue = json.loads(queue_path.read_text(encoding="utf-8-sig"))
+        open_items = [i for i in (queue.get("items") or []) if isinstance(i, dict) and i.get("status") == "open"]
+        if open_items:
+            notes.append(f"Word Intelligence: {len(open_items)} suggestion(s) waiting in the review queue.")
+    except (OSError, json.JSONDecodeError):
+        pass
+    return notes
+
+
 def run_project_check(themes_dir: Path) -> tuple[list[str], list[str]]:
     problems: list[str] = []
     notes: list[str] = []
@@ -140,5 +177,6 @@ def run_project_check(themes_dir: Path) -> tuple[list[str], list[str]]:
         if stale_recent: notes.append(f"Recent books list: {len(stale_recent)} old shortcut(s) will be ignored until those themes are opened again.")
     except (OSError, json.JSONDecodeError):
         notes.append("Recent books list is unavailable; the app will rebuild it as you open themes.")
+    notes.extend(_word_intelligence_notes(project_root))
     notes.insert(0, f"Checked {len(files)} JSON file(s): {active} active and {archived} archived.")
     return problems, notes

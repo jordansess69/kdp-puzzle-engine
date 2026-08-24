@@ -2397,6 +2397,321 @@ class PublishReadyDashboard(tk.Toplevel):
         self.parent._generate_studio_package()
 
 
+class WordIntelligenceCenterDialog(tk.Toplevel):
+    """Plain-English control room for the word→topic intelligence layer.
+
+    Every long job (classification, theme audits, report writing) runs in a
+    daemon thread and posts back through ``self.after`` so the interface
+    never freezes. Views are read-only except for two explicitly confirmed
+    actions: running the classifier (which only proposes links for review)
+    and writing the curated approved-links source consumed by the bank
+    builder (snapshotted and validated by the apply engine).
+    """
+
+    def __init__(self, parent: "WordSearchCreator") -> None:
+        super().__init__(parent)
+        self.title("Word Intelligence Center")
+        self.geometry("860x640")
+        self.minsize(700, 500)
+        self.transient(parent)
+        self.parent = parent
+        self._busy = False
+        frame = ttk.Frame(self, padding=18); frame.pack(fill="both", expand=True)
+        ttk.Label(frame, text="WORD INTELLIGENCE CENTER", font=("Segoe UI", 18, "bold")).pack(anchor="w")
+        ttk.Label(
+            frame,
+            text="See how well every word is matched to its topic, review suggested matches, "
+                 "and check theme quality. Suggestions never change your books until a human approves them.",
+            foreground="#555555", wraplength=780).pack(anchor="w", pady=(3, 12))
+        self.report = ScrolledText(frame, wrap="word", height=24, font=("Segoe UI", 10))
+        self.report.pack(fill="both", expand=True)
+        actions = ttk.Frame(frame); actions.pack(fill="x", pady=(12, 0))
+        left = ttk.Frame(actions); left.pack(side="left")
+        ttk.Button(left, text="Refresh Overview", command=self._show_overview, style="Primary.TButton").pack(side="left")
+        ttk.Button(left, text="Run Classifier", command=self._run_classifier, style="Action.TButton").pack(side="left", padx=8)
+        add_hover_help(self._button(left, "Topic Health", self._show_topic_health),
+                       "Grades every topic by how many trustworthy words it can draw on, so you can spot thin topics before planning a book.")
+        self._button(left, "Review Queue", self._show_review_queue).pack(side="left", padx=(8, 0))
+        add_hover_help(self._button(left, "Unclassified", self._show_unclassified),
+                       "Words with no topic yet - the frontier for future books and packs.")
+        right = ttk.Frame(actions); right.pack(side="right")
+        ttk.Button(right, text="Theme Quality Audit", command=self._run_theme_audit, style="Action.TButton").pack(side="left")
+        ttk.Button(right, text="Write Curated Links…", command=self._apply_links, style="Action.TButton").pack(side="left", padx=8)
+        add_hover_help(right.winfo_children()[-1],
+                       "Saves the matches you approved into the word bank's curated source file. A backup snapshot is taken first.")
+        self.after(50, self._show_overview)
+
+    # ------------------------------------------------------------------
+    # Plumbing
+    # ------------------------------------------------------------------
+
+    def _button(self, parent, text, command) -> ttk.Button:
+        button = ttk.Button(parent, text=text, command=command, style="Action.TButton")
+        button.pack(side="left")
+        return button
+
+    def _set_busy(self, busy: bool) -> None:
+        self._busy = busy
+        state = "disabled" if busy else "normal"
+        for child in self.winfo_children():
+            if isinstance(child, ttk.Frame):
+                for button in child.winfo_children():
+                    if isinstance(button, ttk.Frame):
+                        for sub in button.winfo_children():
+                            if isinstance(sub, ttk.Button):
+                                sub.configure(state=state)
+
+    def _write(self, text: str) -> None:
+        self.report.configure(state="normal")
+        self.report.delete("1.0", "end")
+        self.report.insert("1.0", text)
+        self.report.configure(state="disabled")
+
+    def _dispatch(self, label: str, worker, done) -> None:
+        """Run a job off the UI thread; results return via self.after."""
+        if getattr(self, "_busy", False):
+            return
+        self._set_busy(True)
+        self.parent.status.set(f"{label}…")
+
+        def runner() -> None:
+            try:
+                payload = worker()
+                ok, error = True, ""
+            except Exception as exc:  # surface any failure in the report pane
+                payload, ok, error = None, False, f"{type(exc).__name__}: {exc}"
+            self.after(0, lambda: done(ok, payload, error))
+
+        threading.Thread(target=runner, daemon=True).start()
+
+    def _finish(self, label: str, ok: bool, error: str) -> None:
+        if not self.winfo_exists():
+            return
+        self._set_busy(False)
+        self.parent.status.set(label if ok else f"{label} failed: {error}")
+
+    @staticmethod
+    def _load_intelligence():
+        from word_intelligence import pipeline
+        root = Path(__file__).resolve().parent
+        taxonomy = pipeline.load_taxonomy(root)
+        store, _ = pipeline.load_or_build_store(root, taxonomy=taxonomy)
+        return taxonomy, store
+
+    # ------------------------------------------------------------------
+    # Views
+    # ------------------------------------------------------------------
+
+    def _show_overview(self) -> None:
+        def worker():
+            _, store = self._load_intelligence()
+            from word_intelligence.analysis import coverage_summary
+            return coverage_summary(store)
+
+        def done(ok, coverage, error):
+            if not self.winfo_exists():
+                return
+            if ok:
+                lines = [
+                    "WORD LIBRARY AT A GLANCE",
+                    "=" * 46,
+                    f"Words tracked:            {coverage['total_records']:,}",
+                    f"Confirmed topic matches:  {coverage['confirmed_records']:,}",
+                    f"Waiting for your review:  {coverage['open_proposals']:,}",
+                    f"No topic decided yet:     {coverage['unclassified_records']:,}",
+                    f"Trademark watch list:     {coverage['trademark_review']:,}",
+                    "",
+                    "SUGGESTIONS BY CONFIDENCE",
+                    *[f"  {band:<10} {count:,}" for band, count in coverage["proposal_bands"].items()],
+                    "",
+                    "Suggestions are ideas, not decisions. Open Review Queue to accept or reject them.",
+                ]
+                self._write("\n".join(lines))
+            else:
+                self._write(f"Could not load the word library.\n\n{error}")
+            self._finish("Word library overview ready", ok, error)
+
+        self._dispatch("Loading word library overview", worker, done)
+
+    def _run_classifier(self) -> None:
+        def worker():
+            taxonomy, store = self._load_intelligence()
+            from word_intelligence import pipeline
+            catalog = pipeline.load_candidate_catalog(Path(__file__).resolve().parent)
+            classifier, stats, summary = pipeline.run_classification(
+                store, taxonomy, catalog=catalog, scope="proven")
+            pipeline.save_store_quietly(store, Path(__file__).resolve().parent)
+            return stats.to_dict()
+
+        def done(ok, stats, error):
+            if not self.winfo_exists():
+                return
+            if ok:
+                lines = [
+                    "CLASSIFIER RUN COMPLETE",
+                    "=" * 46,
+                    f"Words examined:      {stats.get('words_seen', 0):,}",
+                    f"Words classified:    {stats.get('words_classified', 0):,}",
+                    f"Suggestions filed:   {stats.get('proposals', 0):,}",
+                    f"  very high:         {stats.get('very_high', 0):,}",
+                    f"  high:              {stats.get('high', 0):,}",
+                    f"  medium:            {stats.get('medium', 0):,}",
+                    f"Ambiguity flags:     {stats.get('ambiguous_words', 0):,}",
+                    "", "Open Topic Health or Review Queue to see what changed.",
+                ]
+                self._write("\n".join(lines))
+            else:
+                self._write(f"The classifier could not finish.\n\n{error}")
+            self._finish("Classifier finished - suggestions are ready for review", ok, error)
+
+        self._dispatch("Running the topic classifier", worker, done)
+
+    def _show_topic_health(self) -> None:
+        def worker():
+            taxonomy, store = self._load_intelligence()
+            from word_intelligence.analysis import topic_health
+            return topic_health(store, taxonomy)[:40]
+
+        def done(ok, rows, error):
+            if not self.winfo_exists():
+                return
+            if ok:
+                lines = ["TOPIC HEALTH (weakest first, top 40 shown)", "=" * 46,
+                         f"{'GRADE':<6}{'WORDS':>7}  {'TOPIC':<34}FAMILY",
+                         "-" * 78]
+                for row in rows:
+                    lines.append(f"{row['grade']:<6}{row['usable_words']:>7}  "
+                                 f"{row['display_name']:<34}{row['family']}")
+                lines += ["", "Grade A topics are book-ready. D and F need vocabulary growth first."]
+                self._write("\n".join(lines))
+            else:
+                self._write(f"Could not grade the topics.\n\n{error}")
+            self._finish("Topic health report ready", ok, error)
+
+        self._dispatch("Grading topic health", worker, done)
+
+    def _show_review_queue(self) -> None:
+        def worker():
+            _, store = self._load_intelligence()
+            from word_intelligence.review import seed_review_queue
+            queue = seed_review_queue(store)
+            items = queue.open_items()
+            state_dir = Path(__file__).resolve().parent / "word_banks" / "word_intelligence"
+            queue.save(state_dir)
+            return [(i.word, i.topic_id, i.confidence, i.reason) for i in items]
+
+        def done(ok, items, error):
+            if not self.winfo_exists():
+                return
+            if ok:
+                lines = [f"REVIEW QUEUE ({len(items)} suggestion(s))", "=" * 46]
+                for word, topic_id, confidence, reason in items[:250]:
+                    lines.append(f"  {word:<18} -> {topic_id:<28} {confidence:>5.1f}  {reason[:44]}")
+                if len(items) > 250:
+                    lines.append(f"  … and {len(items) - 250} more (full list saved to review_queue.json)")
+                self._write("\n".join(lines))
+            else:
+                self._write(f"Could not build the review queue.\n\n{error}")
+            self._finish("Review queue ready", ok, error)
+
+        self._dispatch("Collecting review suggestions", worker, done)
+
+    def _show_unclassified(self) -> None:
+        def worker():
+            _, store = self._load_intelligence()
+            from word_intelligence.reports import unclassified_preview
+            return unclassified_preview(store, limit=300)
+
+        def done(ok, words, error):
+            if not self.winfo_exists():
+                return
+            if ok:
+                lines = [f"UNCLASSIFIED WORDS ({len(words)} shown)", "=" * 46]
+                lines += [f"  {word}" for word in words]
+                self._write("\n".join(lines))
+            else:
+                self._write(f"Could not list unclassified words.\n\n{error}")
+            self._finish("Unclassified preview ready", ok, error)
+
+        self._dispatch("Listing unclassified words", worker, done)
+
+    def _run_theme_audit(self) -> None:
+        def worker():
+            taxonomy, store = self._load_intelligence()
+            from word_intelligence.theme_audit import audit_all_themes
+            themes_dir = Path(__file__).resolve().parent / "themes"
+            return audit_all_themes(str(themes_dir), store, taxonomy), None
+
+        def done(ok, payload, error):
+            if not self.winfo_exists():
+                return
+            if ok:
+                summary, _ = payload
+                d = summary["verdict_counts"]
+                lines = [
+                    "THEME QUALITY AUDIT",
+                    "=" * 46,
+                    f"Themes checked: {summary['audited']} of {summary['themes_scanned']}",
+                    f"  PASS:             {d.get('PASS', 0)}",
+                    f"  PASS with notes:  {d.get('PASS_WITH_NOTES', 0)}",
+                    f"  FAIL (review):    {d.get('FAIL', 0)}",
+                    "", "Worst offenders:",
+                ]
+                fails = [r for r in summary["reports"] if r.verdict == "FAIL"]
+                fails.sort(key=lambda r: -(r.to_dict()["counts"].get("off_topic", 0)
+                                           + r.to_dict()["counts"].get("flagged", 0)))
+                for report in fails[:12]:
+                    counts = report.to_dict()["counts"]
+                    name = Path(report.theme_file).name
+                    lines.append(f"  {name}: {counts.get('off_topic', 0)} off-topic, "
+                                 f"{counts.get('flagged', 0)} flagged")
+                full = sorted((Path(__file__).resolve().parent / "out").glob(
+                    "*theme_quality*.json"))
+                if full:
+                    lines += ["", f"Full details: {full[-1].name}"]
+                self._write("\n".join(lines))
+            else:
+                self._write(f"The theme audit could not finish.\n\n{error}")
+            self._finish("Theme quality audit finished", ok, error)
+
+        self._dispatch("Auditing every theme (this can take about a minute)", worker, done)
+
+    def _apply_links(self) -> None:
+        plan_ok = messagebox.askyesno(
+            "Write Curated Links",
+            "This saves your approved word-topic matches into the word bank's\n"
+            "curated source file (approved_topic_links.json).\n\n"
+            "A timestamped backup snapshot is created first, and bank rebuilds\n"
+            "re-use these decisions automatically.\n\nContinue?",
+            parent=self)
+        if not plan_ok:
+            return
+
+        def worker():
+            taxonomy, store = self._load_intelligence()
+            from word_intelligence.apply_engine import apply_approved_links
+            result = apply_approved_links(store, project_root=Path(__file__).resolve().parent,
+                                          dry_run=False, taxonomy=taxonomy)
+            return result
+
+        def done(ok, result, error):
+            if not self.winfo_exists():
+                return
+            if ok and result.validated:
+                self._write(
+                    "CURATED LINKS SAVED\n" + "=" * 46 +
+                    f"\nApproved pairs written: {result.approved_words}"
+                    f"\nBackup snapshot: {result.snapshot_dir}"
+                    "\n\nBank rebuilds will now re-apply these decisions automatically.")
+            else:
+                message = error or "; ".join(result.errors)
+                self._write(f"Could not save curated links.\n\n{message}")
+            self._finish("Curated links saved", ok and result.validated,
+                         error or "; ".join(result.errors))
+
+        self._dispatch("Saving curated links", worker, done)
+
+
 class WordBankHealthDialog(tk.Toplevel):
     """One plain-English home for library capacity, review items, and provenance."""
 
@@ -5168,6 +5483,7 @@ class WordSearchCreator(tk.Tk):
         library_menu = tk.Menu(library_tools, tearoff=False)
         library_menu.add_command(label="Choose My Next Book", command=self._open_theme_dashboard)
         library_menu.add_command(label="Library & Quality Center", command=self._open_word_bank_health)
+        library_menu.add_command(label="Word Intelligence Center", command=self._open_word_intelligence)
         library_menu.add_command(label="Refresh Library Intelligence", command=self._refresh_library_intelligence)
         library_menu.add_command(label="Research New Ideas", command=self._open_niche_research)
         library_menu.add_separator()
@@ -6344,6 +6660,9 @@ class WordSearchCreator(tk.Tk):
 
     def _open_word_bank_health(self) -> None:
         WordBankHealthDialog(self)
+
+    def _open_word_intelligence(self) -> None:
+        WordIntelligenceCenterDialog(self)
 
     def _refresh_library_summary(self) -> None:
         """Update the compact home-screen library note after a safe refresh."""

@@ -261,15 +261,74 @@ def _source_words(source_name: str) -> list[str]:
     return list(CURATED_TOPIC_WORDS.get(source_name, [])) + list(EXTRA_TOPIC_WORDS.get(source_name, []))
 
 
+def _word_is_safe(word: str) -> bool:
+    cleaned = _clean_source_word(word)
+    blocked = REVIEW_REQUIRED_TERMS | EXTRA_REJECTED_TERMS
+    return 3 <= len(cleaned) <= 18 and cleaned not in {
+        _clean_source_word(term) for term in blocked}
+
+
 def _safe_words(source_names: tuple[str, ...]) -> set[str]:
-    blocked = {_clean_source_word(word) for word in REVIEW_REQUIRED_TERMS | EXTRA_REJECTED_TERMS}
     words: set[str] = set()
     for source_name in source_names:
         for raw_word in _source_words(source_name):
             word = _clean_source_word(raw_word)
-            if 3 <= len(word) <= 18 and word not in blocked:
+            if word and _word_is_safe(raw_word):
                 words.add(word)
     return words
+
+
+APPROVED_LINKS_FILE = WORD_BANKS_DIR / "word_intelligence" / "approved_topic_links.json"
+
+
+def _load_approved_links(path: Path | None = None) -> tuple[dict, dict]:
+    """Load the human-curated link source written by the apply engine.
+
+    Missing or unreadable files simply mean "no curated links yet" - bank
+    builds never depend on the intelligence layer being populated.
+    """
+    source = Path(path) if path else APPROVED_LINKS_FILE
+    try:
+        payload = json.loads(source.read_text(encoding="utf-8-sig"))
+        return payload.get("links") or {}, payload.get("topic_raw_names") or {}
+    except (OSError, json.JSONDecodeError):
+        return {}, {}
+
+
+def merge_approved_links(words_by_topic: dict[str, set[str]],
+                         links: dict, topic_raw_names: dict) -> dict:
+    """Fold APPROVED human decisions into generation packs (additive).
+
+    Only pairs marked APPROVED contribute words; every candidate still passes
+    the same trademark/exclusion gate as curated sources. Canonical topic ids
+    without a known raw master-bank name are skipped and reported so nothing
+    silently vanishes.
+    """
+    summary = {"approved_pairs": 0, "merged_words": 0,
+               "skipped_unknown_topic": 0}
+    slug_to_raw: dict[str, list[str]] = {}
+    for slug, raw_names in (topic_raw_names or {}).items():
+        known = [name for name in raw_names if name in words_by_topic]
+        if known:
+            slug_to_raw[slug] = known
+    for word, topics in (links or {}).items():
+        clean = _clean_source_word(word)
+        for topic_id, info in (topics or {}).items():
+            if not isinstance(info, dict) or info.get("status") != "approved":
+                continue
+            summary["approved_pairs"] += 1
+            raw_names = slug_to_raw.get(topic_id)
+            if not raw_names:
+                summary["skipped_unknown_topic"] += 1
+                continue
+            if not clean or not _word_is_safe(clean):
+                continue
+            before = sum(len(words_by_topic[name]) for name in raw_names)
+            for name in raw_names:
+                words_by_topic[name].add(clean)
+            added = sum(len(words_by_topic[name]) for name in raw_names) - before
+            summary["merged_words"] += added
+    return summary
 
 
 def _dwyl_dictionary_count() -> int:
@@ -295,6 +354,12 @@ def main() -> None:
     source_names = sorted({source for sources in CLEAN_TOPIC_SOURCES.values() for source in sources})
     words_by_topic = {source: _safe_words((source,)) for source in source_names}
     words_by_topic.update({topic: _safe_words(source_names) for topic, source_names in CLEAN_TOPIC_SOURCES.items()})
+    approved_links, topic_raw_names = _load_approved_links()
+    merge_summary = merge_approved_links(words_by_topic, approved_links, topic_raw_names)
+    if merge_summary["approved_pairs"]:
+        print("Approved links: merged {merged_words} curated word(s) from "
+              "{approved_pairs} pair(s); skipped {skipped_unknown_topic} "
+              "unknown-topic pair(s).".format(**merge_summary))
     school_groups = {
         "Grade School Vocabulary": ("Grade 5 Vocabulary", "Grade 6 Vocabulary"),
         "Middle School Vocabulary": ("Grade 7 Vocabulary", "Grade 8 Vocabulary"),
