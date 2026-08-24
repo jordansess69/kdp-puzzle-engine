@@ -11,7 +11,7 @@ shows up in code review and in the Phase A security tests.
 """
 
 from abc import ABC, abstractmethod
-from dataclasses import dataclass
+from dataclasses import dataclass, fields
 from typing import ClassVar, Optional
 
 
@@ -22,6 +22,12 @@ class CapabilityFlags:
     Adapters must only set flags for capabilities that are actually
     implemented and safe to invoke; future capability may be discussed in the
     adapter's docstring instead of being pre-advertised here.
+
+    Universal Publishing Foundation note: the flags below were extended
+    ADDITIVELY.  The original Phase A fields, their order and their
+    False defaults are unchanged, so every existing adapter and test keeps
+    behaving identically.  New fields describe the operations defined by the
+    opt-in universal contract in :mod:`integrations.foundation`.
     """
 
     can_test_connection: bool = False
@@ -32,17 +38,40 @@ class CapabilityFlags:
     can_pull_status: bool = False
     can_pull_sales: bool = False
     requires_public_file_urls: bool = False
+    # -- Universal Publishing Foundation additions (all default False) -----
+    can_validate_products: bool = False
+    can_create_listing: bool = False
+    can_update_listing: bool = False
+    can_delete_listing: bool = False
+    can_sync_status: bool = False
+    can_sync_orders: bool = False
+    can_fulfill_physical: bool = False
+    can_calculate_print_cost: bool = False
+    can_export_package: bool = False
+
+    _WRITE_FLAGS = (
+        "can_create_draft",
+        "can_upload_files",
+        "can_upload_images",
+        "can_activate",
+        "can_create_listing",
+        "can_update_listing",
+        "can_delete_listing",
+        "can_fulfill_physical",
+    )
 
     @property
     def has_any_write_capability(self):
-        return any(
-            (
-                self.can_create_draft,
-                self.can_upload_files,
-                self.can_upload_images,
-                self.can_activate,
-            )
-        )
+        return any(getattr(self, name) for name in self._WRITE_FLAGS)
+
+    @property
+    def capability_dict(self):
+        """Plain dict view used by GUI discovery metadata (no Tk imports)."""
+        return {
+            field.name: getattr(self, field.name)
+            for field in fields(self)
+            if field.name != "_WRITE_FLAGS"
+        }
 
 
 @dataclass(frozen=True)

@@ -86,3 +86,14 @@ class PermanentError(IntegrationError):
 
 class NotConfiguredError(IntegrationError):
     """Required credentials/configuration are missing entirely."""
+
+
+class UnsupportedCapabilityError(IntegrationError):
+    """The adapter was asked to do something it never advertised support for.
+
+    Raised ONLY by the opt-in universal contract (integrations.foundation);
+    the Phase A read-only surface and the committed Etsy draft automation
+    keep their exact existing shapes.  Unsupported operations must fail
+    loudly like this - never silently no-op - so the GUI can trust that a
+    returned result means something really happened.
+    """
