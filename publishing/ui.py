@@ -51,9 +51,12 @@ class PublishingManagerDialog(tk.Toplevel):
         style.map("Publish.Primary.TButton", background=[("active", "#0b896a")])
         style.configure("Publish.Action.TButton", background="#343434", foreground=text, padding=(10, 7), font=("Segoe UI", 9), borderwidth=0)
         style.map("Publish.Action.TButton", background=[("active", "#414141")])
+        style.configure("Publish.TNotebook", background=bg, borderwidth=0, tabmargins=(0, 6, 0, 0))
+        style.configure("Publish.TNotebook.Tab", background="#303030", foreground=muted, padding=(16, 8), font=("Segoe UI", 9, "bold"))
+        style.map("Publish.TNotebook.Tab", background=[("selected", panel)], foreground=[("selected", text)])
 
     def _build(self) -> None:
-        root = ttk.Frame(self, padding=(24, 20), style="Publish.TFrame"); root.pack(fill="both", expand=True); root.columnconfigure(0, weight=1); root.rowconfigure(4, weight=1)
+        root = ttk.Frame(self, padding=(24, 20), style="Publish.TFrame"); root.pack(fill="both", expand=True); root.columnconfigure(0, weight=1); root.rowconfigure(3, weight=1)
         heading = ttk.Frame(root, style="Publish.TFrame"); heading.grid(row=0, column=0, sticky="ew"); heading.columnconfigure(0, weight=1)
         ttk.Label(heading, text="Publishing Manager", style="Publish.Title.TLabel").grid(row=0, column=0, sticky="w")
         ttk.Button(heading, text="Upload status", command=self.open_upload_status, style="Publish.Action.TButton").grid(row=0, column=1, sticky="e", padx=(0, 8))
@@ -75,19 +78,30 @@ class PublishingManagerDialog(tk.Toplevel):
         ttk.Button(rec_actions, text="Open selected book", command=self.open_recommended_book, style="Publish.Action.TButton").pack(side="left")
         ttk.Button(rec_actions, text="Create complete package", command=self.create_recommended_package, style="Publish.Primary.TButton").pack(side="left", padx=6)
         ttk.Button(rec_actions, text="Refresh", command=self.refresh, style="Publish.Action.TButton").pack(side="left", padx=6)
-        filters = ttk.Frame(root, style="Publish.TFrame"); filters.grid(row=3, column=0, sticky="ew", pady=(0, 10))
+        # Structural Hub foundation: existing widgets keep their logic and
+        # simply live inside the Catalog tab; the Selected Book tab stays a
+        # placeholder until later steps add readiness content.
+        self.notebook = ttk.Notebook(root, style="Publish.TNotebook"); self.notebook.grid(row=3, column=0, sticky="nsew")
+        catalog_tab = ttk.Frame(self.notebook, style="Publish.TFrame")
+        selected_tab = ttk.Frame(self.notebook, style="Publish.TFrame")
+        self.notebook.add(catalog_tab, text="Catalog")
+        self.notebook.add(selected_tab, text="Selected Book")
+        catalog_tab.columnconfigure(0, weight=1); catalog_tab.rowconfigure(1, weight=1)
+        selected_tab.columnconfigure(0, weight=1); selected_tab.rowconfigure(0, weight=1)
+        ttk.Label(selected_tab, text="Select a book from the Catalog tab to view publishing readiness and marketplace actions.", style="Publish.Subtitle.TLabel", wraplength=760, justify="center", anchor="center").grid(row=0, column=0, sticky="nsew")
+        filters = ttk.Frame(catalog_tab, style="Publish.TFrame"); filters.grid(row=0, column=0, sticky="ew", pady=(0, 10))
         ttk.Label(filters, text="Find a book", style="Publish.TLabel").pack(side="left"); search = ttk.Entry(filters, textvariable=self.filter_text, width=34, style="Publish.TEntry"); search.pack(side="left", padx=(7, 16)); search.bind("<KeyRelease>", lambda _event: self.refresh())
         ttk.Label(filters, text="Marketplace", style="Publish.TLabel").pack(side="left"); combo = ttk.Combobox(filters, textvariable=self.market_filter, values=("All marketplaces", *[DISPLAY[key] for key in MARKETPLACES]), state="readonly", width=16, style="Publish.TCombobox"); combo.pack(side="left", padx=7); combo.bind("<<ComboboxSelected>>", lambda _event: self.refresh())
         ttk.Button(filters, text="Scan prepared folders", command=self.scan_local_status, style="Publish.Action.TButton").pack(side="right")
         ttk.Button(filters, text="Sync catalog", command=lambda: self.refresh(sync=True), style="Publish.Action.TButton").pack(side="right", padx=(0, 6))
         columns = ("book", "series", "theme", "pages", "isbn", *MARKETPLACES, "updated")
-        self.tree = ttk.Treeview(root, columns=columns, show="headings", selectmode="extended", style="Publish.Treeview")
+        self.tree = ttk.Treeview(catalog_tab, columns=columns, show="headings", selectmode="extended", style="Publish.Treeview")
         labels = {"book": "Book", "series": "Series", "theme": "Theme", "pages": "Pages", "isbn": "ISBN", "updated": "Last Updated", **DISPLAY}
         widths = {"book": 220, "series": 130, "theme": 115, "pages": 55, "isbn": 110, "updated": 125, **{key: 92 for key in MARKETPLACES}}
         for key in columns: self.tree.heading(key, text=labels[key]); self.tree.column(key, width=widths[key], anchor="w" if key in ("book", "series", "theme") else "center")
-        self.tree.grid(row=4, column=0, sticky="nsew"); scroll = ttk.Scrollbar(root, orient="vertical", command=self.tree.yview); scroll.grid(row=4, column=1, sticky="ns"); self.tree.configure(yscrollcommand=scroll.set)
+        self.tree.grid(row=1, column=0, sticky="nsew"); scroll = ttk.Scrollbar(catalog_tab, orient="vertical", command=self.tree.yview); scroll.grid(row=1, column=1, sticky="ns"); self.tree.configure(yscrollcommand=scroll.set)
         self.tree.bind("<Double-1>", lambda _event: self.open_book())
-        actions = ttk.Frame(root, style="Publish.TFrame"); actions.grid(row=5, column=0, sticky="ew", pady=(12, 0))
+        actions = ttk.Frame(catalog_tab, style="Publish.TFrame"); actions.grid(row=2, column=0, sticky="ew", pady=(12, 0))
         ttk.Button(actions, text="Book details", command=self.open_book, style="Publish.Action.TButton").pack(side="left")
         ttk.Button(actions, text="Open Master Release Folder", command=self.open_selected_master, style="Publish.Action.TButton").pack(side="left", padx=6)
         ttk.Button(actions, text="Create complete package", command=self.create_selected_package, style="Publish.Primary.TButton").pack(side="left", padx=6)
@@ -98,7 +112,7 @@ class PublishingManagerDialog(tk.Toplevel):
         ttk.Button(actions, text="Prepare website", command=lambda: self.prepare(["website"]), style="Publish.Action.TButton").pack(side="left", padx=6)
         ttk.Button(actions, text="Prepare all", command=lambda: self.prepare(list(MARKETPLACES)), style="Publish.Action.TButton").pack(side="left")
         ttk.Button(actions, text="ISBN manager", command=lambda: ISBNManagerDialog(self, self.service), style="Publish.Action.TButton").pack(side="right")
-        ttk.Label(root, textvariable=self.status, wraplength=1150, style="Publish.Status.TLabel").grid(row=6, column=0, sticky="ew", pady=(10, 0))
+        ttk.Label(root, textvariable=self.status, wraplength=1150, style="Publish.Status.TLabel").grid(row=4, column=0, sticky="ew", pady=(10, 0))
 
     def refresh(self, sync: bool = False) -> None:
         if sync:
